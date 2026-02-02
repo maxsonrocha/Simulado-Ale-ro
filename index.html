@@ -1,0 +1,175 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulados - Desenhista (ALE-RO)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <strong>Simulados</strong>
+      <span class="muted">Desenhista (ALE-RO) • FGV</span>
+    </div>
+    <div class="status">
+      <span id="timer" class="pill">?? 00:00:00</span>
+      <span id="modePill" class="pill">Modo: —</span>
+      <span id="countPill" class="pill">— questões</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- VIEW: CONFIG -->
+    <section id="view-config" class="view">
+      <h1>Configurar simulado</h1>
+
+      <div class="card">
+        <div class="grid">
+          <div>
+            <label class="label">Modo</label>
+            <div class="radio-row">
+              <label><input type="radio" name="mode" value="PROVA" checked> PROVA (corrige só no final)</label>
+              <label><input type="radio" name="mode" value="TREINO"> TREINO (feedback imediato)</label>
+            </div>
+          </div>
+
+          <div>
+            <label class="label">Tipo</label>
+            <div class="radio-row">
+              <label><input type="radio" name="type" value="FULL" checked> Completo (80)</label>
+              <label><input type="radio" name="type" value="ESP"> Específico (40)</label>
+              <label><input type="radio" name="type" value="ERRADAS"> Só erradas</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="btnStart" class="primary">Gerar simulado</button>
+          <button id="btnResetStorage" class="ghost" title="Apaga histórico local">Limpar histórico</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Regras (edital)</h2>
+        <ul class="list">
+          <li>Módulo I (gerais): mínimo <strong>12/40</strong></li>
+          <li>Módulo II (específico): mínimo <strong>16/40</strong></li>
+          <li>Total: mínimo <strong>32/80</strong></li>
+        </ul>
+        <p class="muted small">Obs.: © 2026 – Sistema de Simulados desenvolvido por Maxson Rocha Almeida.  
+  Uso permitido apenas para fins pessoais de estudo.  
+  É vedada a reprodução, modificação ou redistribuição sem autorização do autor.</p>
+      </div>
+    </section>
+
+    <!-- VIEW: EXAM -->
+    <section id="view-exam" class="view hidden">
+      <div class="exam-header">
+        <div>
+          <h1>Prova</h1>
+          <p class="muted small" id="examMeta">Questão —/—</p>
+        </div>
+
+        <div class="exam-actions">
+          <button id="btnPrev" class="ghost">? Anterior</button>
+          <button id="btnNext" class="ghost">Próxima ?</button>
+          <button id="btnFinish" class="primary">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="q-top">
+          <span id="qTag" class="tag">—</span>
+          <span id="qTopic" class="tag secondary">—</span>
+          <span id="qDiff" class="tag tertiary">Nível —</span>
+          <label class="mark">
+            <input id="chkMark" type="checkbox" />
+            Marcar para revisar
+          </label>
+        </div>
+
+        <h2 id="qStatement" class="q-statement">Enunciado da questão aparece aqui.</h2>
+
+        <div id="qImageWrap" class="q-image hidden">
+          <img id="qImage" alt="Imagem da questão" />
+        </div>
+
+        <div id="qOptions" class="options">
+          <!-- opções geradas via JS -->
+        </div>
+
+        <div id="instantFeedback" class="feedback hidden">
+          <!-- no modo TREINO, aparece aqui (certo/errado + explicação) -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Mapa da prova</h2>
+        <div id="examMap" class="map">
+          <!-- bolinhas geradas via JS -->
+        </div>
+        <p class="muted small">Cinza: não respondida • Azul: respondida • Amarelo: marcada</p>
+      </div>
+    </section>
+
+    <!-- VIEW: RESULT -->
+    <section id="view-result" class="view hidden">
+      <h1>Resultado</h1>
+
+      <div class="card">
+        <div class="result-top">
+          <div>
+            <div class="big" id="scoreLine">Acertos: —</div>
+            <div class="muted" id="timeLine">Tempo: —</div>
+            <div class="pill" id="statusLine">Status: —</div>
+          </div>
+
+          <div class="actions">
+            <button id="btnRetryWrong" class="primary">Refazer erradas</button>
+            <button id="btnNew" class="ghost">Novo simulado</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>Por matéria</h2>
+          <div id="byArea" class="table">
+            <!-- tabela via JS -->
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Por tópico (Específico)</h2>
+          <div id="byTopic" class="table">
+            <!-- tabela via JS -->
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Questões erradas</h2>
+        <div id="wrongList" class="wrong-list">
+          <!-- lista via JS -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Histórico</h2>
+        <div id="history" class="table">
+          <!-- histórico via JS -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span class="muted small">Offline-friendly • HTML + CSS + JavaScript • Sem servidor</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
