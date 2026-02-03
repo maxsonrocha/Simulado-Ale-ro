@@ -271,13 +271,17 @@ function timerReset() {
 
 // ---------- Placeholder: carregar banco ----------
 async function loadQuestionsBank() {
-  async function loadOne(path) {
-    const res = await fetch(path, { cache: "no-store" });
-    if (!res.ok) throw new Error(`Falha ao carregar ${path} (${res.status})`);
-    const data = await res.json();
-    return Array.isArray(data.questions) ? data.questions : [];
-  }
+async function loadOne(path) {
+  const res = await fetch(path, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Falha ao carregar ${path} (${res.status})`);
+  const data = await res.json();
+  const arr = Array.isArray(data.questions) ? data.questions : [];
 
+  arr.forEach((q, i) => { q._ord = i; });
+
+  return arr;
+}
+  
   const espPath = (App.role === "ARQ") ? "data/esp_arquiteto.json" : "data/esp_desenhista.json";
   const esp  = await loadOne(espPath);
   const hgr  = await loadOne("data/hgr.json");
@@ -350,6 +354,33 @@ function getWrongIdsAllTime() {
   return new Set(Array.isArray(wrong) ? wrong : []);
 }
 
+function groupToBlocks(list) {
+  const blocks = [];
+  const seenGroups = new Set();
+
+  for (const q of list) {
+    if (!q.groupId) {
+      blocks.push([q]);
+      continue;
+    }
+    if (seenGroups.has(q.groupId)) continue;
+
+    const group = list
+      .filter(x => x.groupId === q.groupId)
+      .slice()
+      .sort((a,b) => (a._ord ?? 0) - (b._ord ?? 0));
+
+    blocks.push(group);
+    seenGroups.add(q.groupId);
+  }
+
+  return blocks;
+}
+
+function wrapSingles(list) {
+  return list.map(q => [q]);
+}
+
 function generateExam() {
   const bank = Array.isArray(App.questionsBank) ? App.questionsBank : [];
 
@@ -376,7 +407,7 @@ function generateExam() {
       const groupQs = byArea(area).filter(x => x.groupId === q.groupId);
 
       // Ordena pra manter a "base" antes (PORT-106 antes do PORT-107)
-      groupQs.sort((a, b) => a.id.localeCompare(b.id));
+      groupQs.sort((a, b) => (a._ord ?? 0) - (b._ord ?? 0));
 
       if (selected.length + groupQs.length <= n) {
         selected.push(...groupQs);
@@ -420,15 +451,23 @@ function generateExam() {
 
   // 3) Prova completa (80)
   else if (App.type === "FULL") {
-    const parts = [
-      ...pick("PORT", 12),
-      ...pick("RLM", 6),
-      ...pick("INFO", 6),
-      ...pick("LEG", 8),
-      ...pick("HGR", 8),
-      ...pick("ESP", 40)
+    const portSel = pick("PORT", 12);
+    const rlmSel  = pick("RLM", 6);
+    const infoSel = pick("INFO", 6);
+    const legSel  = pick("LEG", 8);
+    const hgrSel  = pick("HGR", 8);
+    const espSel  = pick("ESP", 40);
+
+    const blocks = [
+      ...groupToBlocks(portSel),   // ✅ blocos respeitando groupId e ordem do JSON
+      ...wrapSingles(rlmSel),
+      ...wrapSingles(infoSel),
+      ...wrapSingles(legSel),
+      ...wrapSingles(hgrSel),
+      ...wrapSingles(espSel),
     ];
-    App.exam = shuffle(parts);
+
+    App.exam = shuffle(blocks).flat(); // ✅ embaralha blocos, mantém grupo grudado
   }
 
   // 4) Fallback (caso App.type venha errado)
@@ -919,4 +958,5 @@ window.addEventListener("beforeunload", function (e) {
   e.preventDefault();
   e.returnValue = "Você está no meio do simulado. Tem certeza que deseja sair?";
 });
+
 
