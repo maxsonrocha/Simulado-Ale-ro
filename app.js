@@ -1,12 +1,13 @@
-﻿// ===========================
-//  ESQUELETO — SEM LÓGICA FINAL
-//  Próximo passo: carregar questions.json e gerar prova por pesos
+// ===========================
+//  LOGICA FINAL
+//  ATUALIZAR CONFORME MINHA NECESSIDADE
 // ===========================
 
 // ---------- Estado global ----------
 const App = {
   mode: "PROVA",          // PROVA | TREINO
   type: "FULL",           // FULL(80) | ESP(40) | ERRADAS
+  role: "DES",            // DES | ARQ
   totalQuestions: 0,
 
   questionsBank: [],      // vindo do questions.json
@@ -22,9 +23,10 @@ const App = {
     intervalId: null
   },
 
-  historyKey: "simulado_history_v1",
-  wrongKey: "simulado_wrong_ids_v1",
-  seenKey: "simulado_seen_ids_v1"
+  role: "DESENHISTA",          // ou "ARQUITETO" (valor padrão)
+  baseHistoryKey: "simulado_history_v1",
+  baseWrongKey: "simulado_wrong_ids_v1",
+  baseSeenKey: "simulado_seen_ids_v1",
 };
 
 // ---------- Helpers ----------
@@ -276,7 +278,8 @@ async function loadQuestionsBank() {
     return Array.isArray(data.questions) ? data.questions : [];
   }
 
-  const esp  = await loadOne("data/esp.json");
+  const espPath = (App.role === "ARQ") ? "data/esp_arquiteto.json" : "data/esp_desenhista.json";
+  const esp  = await loadOne(espPath);
   const hgr  = await loadOne("data/hgr.json");
   const info = await loadOne("data/info.json");
   const leg  = await loadOne("data/leg.json");
@@ -354,11 +357,41 @@ function generateExam() {
 
   const pick = (area, n) => {
     const pool = shuffle(byArea(area));
-    if (pool.length < n) {
-      throw new Error(`Insuficiente em ${area}: tem ${pool.length}, precisa ${n}`);
+
+    const selected = [];
+    const usedGroups = new Set();
+
+    for (const q of pool) {
+      if (selected.length >= n) break;
+
+      // sem grupo: entra normal
+      if (!q.groupId) {
+        selected.push(q);
+        continue;
+      }
+
+      // com grupo: só entra se ainda não entrou e se couber inteiro
+      if (usedGroups.has(q.groupId)) continue;
+
+      const groupQs = byArea(area).filter(x => x.groupId === q.groupId);
+
+      // Ordena pra manter a "base" antes (PORT-106 antes do PORT-107)
+      groupQs.sort((a, b) => a.id.localeCompare(b.id));
+
+      if (selected.length + groupQs.length <= n) {
+        selected.push(...groupQs);
+        usedGroups.add(q.groupId);
+      }
     }
-    return pool.slice(0, n);
+
+    if (selected.length < n) {
+      // Aqui evita “silêncio”: se faltou, é porque muitos grupos não couberam ou banco pequeno
+      throw new Error(`Insuficiente em ${area}: conseguiu ${selected.length}, precisa ${n}`);
+    }
+
+    return selected;
   };
+
 
   // 1) Modo "só erradas"
   if (App.type === "ERRADAS") {
@@ -756,10 +789,18 @@ function renderResult() {
   App._lastScore = score;
 }
 
+function setRoleStorageKeys(role) {
+  const r = String(role || "DESENHISTA").toUpperCase();
+  App.historyKey = `${App.baseHistoryKey}__${r}`;
+  App.wrongKey   = `${App.baseWrongKey}__${r}`;
+  App.seenKey    = `${App.baseSeenKey}__${r}`;
+}
+
 // ---------- Eventos ----------
 function readConfig() {
   App.mode = document.querySelector('input[name="mode"]:checked')?.value || "PROVA";
   App.type = document.querySelector('input[name="type"]:checked')?.value || "FULL";
+  App.role = document.querySelector('input[name="role"]:checked')?.value || "DES";
   setTopPills();
 }
 
