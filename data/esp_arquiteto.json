@@ -1,0 +1,2737 @@
+﻿{
+  "questions": [
+    {
+      "id": "ARQ-001",
+      "area": "ESP",
+      "topic": "Etapas de projeto",
+      "difficulty": 2,
+      "statement": "Em contratação pública de projeto, a equipe técnica discutiu se já era possível estimar quantitativos detalhados e especificações completas a partir do estudo preliminar. Considerando as etapas usuais de desenvolvimento de projeto arquitetônico, é correto afirmar que:",
+      "image": null,
+      "options": [
+        "o estudo preliminar já deve conter detalhamento executivo de esquadrias e paginações para orçamento definitivo",
+        "o anteprojeto é etapa em que se definem as soluções gerais e a configuração do edifício, ainda sem o nível de detalhamento do executivo",
+        "o projeto executivo antecede o anteprojeto, pois valida o partido arquitetônico com maior precisão",
+        "o programa de necessidades só é definido após a aprovação do projeto legal",
+        "o detalhamento construtivo é desnecessário quando houver memorial descritivo completo"
+      ],
+      "answer": 1,
+      "explanation": "O anteprojeto consolida soluções e configurações gerais, mas o nível de detalhamento para execução é do projeto executivo."
+    },
+    {
+      "id": "ARQ-002",
+      "area": "ESP",
+      "topic": "Programa de necessidades",
+      "difficulty": 2,
+      "statement": "Em um edifício administrativo, o cliente solicitou aumento de salas sem alterar a área total. Na lógica de projeto, o documento que organiza funções, relações entre ambientes e requisitos mínimos para orientar a solução arquitetônica é o(a):",
+      "image": null,
+      "options": [
+        "memorial de cálculo estrutural",
+        "programa de necessidades",
+        "planta de situação",
+        "caderno de especificações de acabamento",
+        "as built"
+      ],
+      "answer": 1,
+      "explanation": "O programa de necessidades define requisitos funcionais e relações espaciais para orientar o projeto."
+    },
+    {
+      "id": "ARQ-003",
+      "area": "ESP",
+      "topic": "Desenho arquitetônico",
+      "difficulty": 2,
+      "statement": "Em planta baixa, elementos acima do plano de corte (por exemplo, partes superiores de armários suspensos ou beirais) devem ser representados, por convenção, de modo a não competir com os elementos seccionados. A representação mais adequada é:",
+      "image": null,
+      "options": [
+        "linha contínua grossa",
+        "linha tracejada",
+        "hachura densa",
+        "linha dupla com sombra projetada",
+        "linha de eixo apenas"
+      ],
+      "answer": 1,
+      "explanation": "Elementos acima do plano de corte são, em geral, indicados com linhas tracejadas para diferenciar do que está em corte."
+    },
+    {
+      "id": "ARQ-004",
+      "area": "ESP",
+      "topic": "Topografia e locação",
+      "difficulty": 3,
+      "statement": "Ao implantar uma edificação em terreno com forte declividade, a equipe considerou reduzir movimentação de terra e manter melhor relação com o escoamento superficial. A estratégia mais coerente é:",
+      "image": null,
+      "options": [
+        "criar plataforma única por corte total do terreno, independentemente das curvas de nível",
+        "acompanhar o relevo, com implantação próxima às curvas de nível e soluções de patamares",
+        "fazer aterro total até nivelar a cota mais alta do terreno",
+        "orientar a edificação sem considerar curvas de nível, priorizando apenas a fachada principal",
+        "usar apenas muros de arrimo, sem ajustes de implantação"
+      ],
+      "answer": 1,
+      "explanation": "Acompanhar curvas de nível e trabalhar com patamares tende a reduzir cortes/aterros e melhorar o desempenho ambiental e drenagem."
+    },
+    {
+      "id": "ARQ-005",
+      "area": "ESP",
+      "topic": "Conforto térmico",
+      "difficulty": 3,
+      "statement": "Em Porto Velho (clima quente e úmido), uma solução arquitetônica coerente para melhorar conforto térmico e reduzir carga de resfriamento é:",
+      "image": null,
+      "options": [
+        "grandes panos de vidro a oeste sem proteção solar",
+        "aumentar massa térmica interna sem ventilação",
+        "priorizar sombreamento, ventilação cruzada e cobertura bem protegida",
+        "reduzir aberturas para minimizar entrada de ar",
+        "eliminar beirais e marquises para aumentar insolação"
+      ],
+      "answer": 2,
+      "explanation": "Em clima quente e úmido, sombreamento e ventilação cruzada são estratégias-chave; proteção de cobertura também é relevante."
+    },
+    {
+      "id": "ARQ-006",
+      "area": "ESP",
+      "topic": "Ventilação natural",
+      "difficulty": 3,
+      "statement": "Um ambiente apresentou desconforto por falta de renovação de ar. Para caracterizar ventilação cruzada, é necessário, sobretudo:",
+      "image": null,
+      "options": [
+        "uma única abertura ampla na fachada principal",
+        "aberturas em paredes opostas ou em posições que permitam escoamento do ar através do ambiente",
+        "aberturas apenas no teto, sem janelas",
+        "ventilador de teto em velocidade alta",
+        "ar-condicionado com recirculação total"
+      ],
+      "answer": 1,
+      "explanation": "Ventilação cruzada exige aberturas que permitam atravessamento do fluxo de ar (entrada/saída) no ambiente."
+    },
+    {
+      "id": "ARQ-007",
+      "area": "ESP",
+      "topic": "Conforto lumínico",
+      "difficulty": 3,
+      "statement": "Um escritório sofreu com ofuscamento constante no período da tarde. A medida arquitetônica mais adequada, mantendo iluminação natural, é:",
+      "image": null,
+      "options": [
+        "remover todas as janelas e adotar apenas iluminação artificial",
+        "usar proteção solar (brises/cortinas técnicas) e controle de incidência direta",
+        "trocar piso por material mais reflexivo para dispersar luz",
+        "aumentar espelhos internos para distribuir luz",
+        "pintar paredes externas de preto para absorver calor e reduzir brilho"
+      ],
+      "answer": 1,
+      "explanation": "Ofuscamento se reduz com controle da incidência direta e dispositivos de sombreamento, mantendo iluminação difusa."
+    },
+    {
+      "id": "ARQ-008",
+      "area": "ESP",
+      "topic": "Conforto acústico",
+      "difficulty": 3,
+      "statement": "Em auditório pequeno, a inteligibilidade da fala estava ruim por excesso de reverberação. Uma intervenção coerente é:",
+      "image": null,
+      "options": [
+        "substituir materiais absorventes por superfícies totalmente rígidas e lisas",
+        "aumentar o pé-direito e revestir tudo com vidro",
+        "introduzir materiais absorventes/difusores em paredes e forro para controlar reverberação",
+        "fechar totalmente as entradas e saídas de ar",
+        "reduzir a quantidade de pessoas para diminuir ruído"
+      ],
+      "answer": 2,
+      "explanation": "Para melhorar inteligibilidade, controla-se a reverberação com absorção e/ou difusão acústica."
+    },
+    {
+      "id": "ARQ-009",
+      "area": "ESP",
+      "topic": "Acessibilidade (NBR 9050)",
+      "difficulty": 4,
+      "statement": "Em um corredor de circulação pública, o projetista propôs 0,90 m por restrição de layout. Considerando critérios usuais de acessibilidade, a largura que melhor atende circulação acessível e manobra de usuários é:",
+      "image": null,
+      "options": [
+        "0,80 m",
+        "0,90 m",
+        "1,00 m",
+        "1,20 m",
+        "2,40 m"
+      ],
+      "answer": 3,
+      "explanation": "A circulação acessível comumente é tratada com largura mínima de 1,20 m para garantir uso adequado."
+    },
+    {
+      "id": "ARQ-010",
+      "area": "ESP",
+      "topic": "Acessibilidade (NBR 9050)",
+      "difficulty": 4,
+      "statement": "Em rota acessível, o patamar em rampa é exigido para permitir descanso e mudança de direção. Em termos de desempenho do percurso, o patamar é fundamental principalmente porque:",
+      "image": null,
+      "options": [
+        "substitui o corrimão em qualquer situação",
+        "reduz a largura necessária da rampa",
+        "permite repouso, manobra e reorientação do usuário, especialmente de cadeira de rodas",
+        "elimina a necessidade de piso tátil",
+        "permite inclinações superiores às recomendadas"
+      ],
+      "answer": 2,
+      "explanation": "Patamar favorece descanso e manobra, essencial para usuários com mobilidade reduzida."
+    },
+    {
+      "id": "ARQ-011",
+      "area": "ESP",
+      "topic": "Sistemas construtivos (concreto)",
+      "difficulty": 3,
+      "statement": "Em estrutura de concreto armado, a presença de armadura de aço se justifica principalmente por o concreto apresentar baixa resistência à:",
+      "image": null,
+      "options": [
+        "compressão",
+        "tração",
+        "dureza superficial",
+        "abrasão",
+        "expansão térmica"
+      ],
+      "answer": 1,
+      "explanation": "O concreto tem boa resistência à compressão e baixa resistência à tração; o aço assume os esforços de tração."
+    },
+    {
+      "id": "ARQ-012",
+      "area": "ESP",
+      "topic": "Sistemas construtivos (aço)",
+      "difficulty": 3,
+      "statement": "Em estrutura metálica, uma vantagem recorrente (em comparação a sistemas mais úmidos) é:",
+      "image": null,
+      "options": [
+        "maior tempo de obra por cura prolongada",
+        "menor controle dimensional por variação de secagem",
+        "industrialização e montagem mais rápida, com precisão",
+        "inviabilidade de grandes vãos",
+        "necessidade obrigatória de alvenaria estrutural"
+      ],
+      "answer": 2,
+      "explanation": "Estruturas metálicas costumam favorecer industrialização, precisão e rapidez de montagem."
+    },
+    {
+      "id": "ARQ-013",
+      "area": "ESP",
+      "topic": "Madeira",
+      "difficulty": 3,
+      "statement": "Em projeto com madeira aparente, a principal medida preventiva para aumentar durabilidade em ambiente úmido é:",
+      "image": null,
+      "options": [
+        "pintar com tinta à base de água e eliminar ventilação",
+        "garantir detalhamento construtivo que evite empoçamento e favoreça ventilação/afastamento do solo",
+        "aplicar revestimento plástico sem considerar juntas",
+        "usar madeira verde recém-cortada sem secagem",
+        "instalar madeira em contato direto com o solo para estabilização"
+      ],
+      "answer": 1,
+      "explanation": "Detalhamento que evita umidade persistente (empoçamento/contato com solo) e permite ventilação é essencial para durabilidade."
+    },
+    {
+      "id": "ARQ-014",
+      "area": "ESP",
+      "topic": "Instalações hidráulicas",
+      "difficulty": 3,
+      "statement": "Em compatibilização, um problema frequente é o choque entre tubulações e vigas. A prática mais adequada para reduzir retrabalho é:",
+      "image": null,
+      "options": [
+        "deixar a obra resolver em campo, com cortes locais",
+        "aumentar diâmetro das tubulações para reduzir interferências",
+        "coordenar projetos e reservar passagens (shafts, furos previstos e rotas) antes da execução",
+        "eliminar todos os shafts e conduzir tudo por fachada",
+        "substituir tubulação por canaletas abertas permanentes"
+      ],
+      "answer": 2,
+      "explanation": "Compatibilização antecipa interferências e define shafts/passagens e coordenação entre disciplinas."
+    },
+    {
+      "id": "ARQ-015",
+      "area": "ESP",
+      "topic": "Instalações elétricas",
+      "difficulty": 3,
+      "statement": "Ao organizar infraestrutura elétrica e dados, a decisão de prever eletrocalhas e shafts dedicados busca principalmente:",
+      "image": null,
+      "options": [
+        "aumentar o número de emendas elétricas ocultas",
+        "garantir flexibilidade, manutenção e segregação de sistemas quando necessário",
+        "eliminar a necessidade de quadro de distribuição",
+        "impedir futuras expansões do sistema",
+        "substituir o projeto de iluminação"
+      ],
+      "answer": 1,
+      "explanation": "Infraestrutura organizada facilita manutenção e ampliações, além de permitir segregação de circuitos/sistemas."
+    },
+    {
+      "id": "ARQ-016",
+      "area": "ESP",
+      "topic": "Ar-condicionado",
+      "difficulty": 4,
+      "statement": "Em edifício com ar-condicionado, foi proposta a instalação de condensadoras em área sem ventilação adequada. O efeito mais provável dessa decisão é:",
+      "image": null,
+      "options": [
+        "melhor eficiência por recirculação de ar quente",
+        "redução da carga térmica do sistema",
+        "perda de eficiência e possível sobreaquecimento/elevação de consumo",
+        "eliminação da necessidade de dreno",
+        "melhora acústica automática"
+      ],
+      "answer": 2,
+      "explanation": "Condensadoras precisam de ventilação para dissipar calor; sem isso, há perda de eficiência e maior consumo."
+    },
+    {
+      "id": "ARQ-017",
+      "area": "ESP",
+      "topic": "Eficiência energética",
+      "difficulty": 3,
+      "statement": "Uma medida arquitetônica de eficiência energética, com impacto significativo no desempenho, é:",
+      "image": null,
+      "options": [
+        "usar cores escuras em cobertura para aumentar absorção",
+        "priorizar sombreamento externo e redução de ganhos solares diretos",
+        "aumentar iluminação artificial para compensar janelas pequenas",
+        "eliminar ventilação natural para controlar umidade",
+        "aumentar a área envidraçada a oeste sem proteções"
+      ],
+      "answer": 1,
+      "explanation": "Reduzir ganhos solares diretos e sombreamento externo diminui demanda de resfriamento e melhora desempenho energético."
+    },
+    {
+      "id": "ARQ-018",
+      "area": "ESP",
+      "topic": "Orçamento e cronograma",
+      "difficulty": 4,
+      "statement": "Uma planilha orçamentária que apresenta apenas valores globais, sem quantitativos e sem composição de custos, prejudica principalmente:",
+      "image": null,
+      "options": [
+        "a estética do relatório",
+        "a rastreabilidade do custo e a verificação/medição de serviços",
+        "a escolha do partido arquitetônico",
+        "a definição de diretrizes urbanísticas",
+        "a compatibilização com topografia"
+      ],
+      "answer": 1,
+      "explanation": "Sem quantitativos e composições, perde-se rastreabilidade, controle, medição e capacidade de auditoria/gestão."
+    },
+    {
+      "id": "ARQ-019",
+      "area": "ESP",
+      "topic": "Licitações e obras públicas",
+      "difficulty": 4,
+      "statement": "Em obras públicas, a insuficiência de projeto executivo e detalhamento costuma produzir, como consequência típica:",
+      "image": null,
+      "options": [
+        "redução de aditivos e maior previsibilidade de custos",
+        "aumento de improvisos em obra, aditivos e conflitos de escopo",
+        "eliminação de incompatibilidades com instalações",
+        "melhoria automática de desempenho ambiental",
+        "dispensa de fiscalização"
+      ],
+      "answer": 1,
+      "explanation": "Projeto insuficiente aumenta retrabalho, improvisos e aditivos por indefinições e conflitos."
+    },
+    {
+      "id": "ARQ-020",
+      "area": "ESP",
+      "topic": "Inspeção predial e patologia",
+      "difficulty": 4,
+      "statement": "Durante inspeção predial, foram observadas fissuras mapeadas em revestimento e manchas de umidade recorrentes próximas a esquadrias. A conduta inicial mais adequada é:",
+      "image": null,
+      "options": [
+        "repintar a área imediatamente como solução definitiva",
+        "emitir laudo atribuindo causa estrutural sem investigação",
+        "investigar origem (infiltração/vedação), registrar evidências e propor correções compatíveis",
+        "substituir o revestimento por outro mais rígido sem avaliar juntas",
+        "ignorar, pois fissuras em revestimento não afetam desempenho"
+      ],
+      "answer": 2,
+      "explanation": "Inspeção exige diagnóstico: identificar origem (vedação/drenagem/encaixes) e propor correção adequada, com registro."
+    },
+    {
+      "id": "ARQ-021",
+      "area": "ESP",
+      "topic": "Patrimônio histórico",
+      "difficulty": 4,
+      "statement": "Em intervenção em bem cultural, a diretriz que melhor se relaciona a boas práticas de conservação é:",
+      "image": null,
+      "options": [
+        "substituição total de elementos originais para padronização estética",
+        "intervenção irreversível para reduzir manutenção",
+        "mínima intervenção e compatibilidade, evitando falsificação histórica",
+        "reconstrução livre baseada em preferência do usuário atual",
+        "eliminação de documentação fotográfica para evitar questionamentos"
+      ],
+      "answer": 2,
+      "explanation": "Boas práticas envolvem mínima intervenção, compatibilidade e documentação, evitando descaracterização/falsificação."
+    },
+    {
+      "id": "ARQ-022",
+      "area": "ESP",
+      "topic": "Paisagismo",
+      "difficulty": 3,
+      "statement": "Em paisagismo urbano, o erro mais comum que compromete manutenção e desempenho é:",
+      "image": null,
+      "options": [
+        "escolher espécies compatíveis com clima local",
+        "prever irrigação e drenagem onde necessário",
+        "especificar espécies exóticas sem considerar adaptação e demanda hídrica",
+        "planejar sombreamento e conforto microclimático",
+        "compatibilizar vegetação com infraestrutura (fiação, calçadas)"
+      ],
+      "answer": 2,
+      "explanation": "Seleção inadequada de espécies (especialmente exóticas) pode elevar manutenção, consumo de água e risco de insucesso."
+    },
+    {
+      "id": "ARQ-023",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 4,
+      "statement": "Uma diferença conceitual relevante entre BIM e CAD 2D tradicional, do ponto de vista de coordenação, é que BIM:",
+      "image": null,
+      "options": [
+        "substitui qualquer necessidade de compatibilização entre disciplinas",
+        "representa apenas desenhos em 2D com maior resolução",
+        "integra informações paramétricas e facilita detecção de interferências (clash) e extração de quantitativos",
+        "não permite revisão e controle de versões",
+        "dispensa documentação gráfica"
+      ],
+      "answer": 2,
+      "explanation": "BIM trabalha com modelo informacional/paramétrico, favorecendo coordenação, clashes e quantitativos."
+    },
+    {
+      "id": "ARQ-024",
+      "area": "ESP",
+      "topic": "AutoCAD aplicado",
+      "difficulty": 3,
+      "statement": "Em pranchas executivas, o maior erro de produtividade e padronização ao usar CAD é:",
+      "image": null,
+      "options": [
+        "usar layers com padrões consistentes",
+        "usar blocos para elementos repetitivos",
+        "desenhar tudo em uma única layer e com a mesma espessura de linha",
+        "padronizar tipos de linha para elementos acima/abaixo do plano de corte",
+        "organizar escalas de plotagem e penas"
+      ],
+      "answer": 2,
+      "explanation": "Uma única layer e uma espessura só prejudicam leitura, padronização e controle de impressão."
+    },
+    {
+      "id": "ARQ-025",
+      "area": "ESP",
+      "topic": "Saúde e segurança do trabalho",
+      "difficulty": 3,
+      "statement": "Em canteiro, a ausência de planejamento de circulação e armazenamento de materiais aumenta principalmente:",
+      "image": null,
+      "options": [
+        "a eficiência logística e produtividade",
+        "o risco de acidentes, retrabalhos e perdas de material",
+        "a qualidade do acabamento final",
+        "a estabilidade estrutural do edifício",
+        "a compatibilização de projetos"
+      ],
+      "answer": 1,
+      "explanation": "Organização do canteiro impacta segurança e produtividade; ausência eleva riscos e perdas."
+    },
+    {
+      "id": "ARQ-026",
+      "area": "ESP",
+      "topic": "Projeto legal e urbanismo",
+      "difficulty": 4,
+      "statement": "Ao adaptar um projeto às regras urbanísticas (recuos, taxa de ocupação, altura, etc.), o risco mais relevante de “não conformidade” é:",
+      "image": null,
+      "options": [
+        "perder identidade visual do projeto",
+        "ter indeferimento/licenciamento condicionado e necessidade de retrabalho formal",
+        "reduzir o número de pranchas",
+        "aumentar conforto térmico",
+        "dispensar memorial descritivo"
+      ],
+      "answer": 1,
+      "explanation": "Descumprimento de parâmetros urbanísticos gera condicionantes, indeferimento e retrabalho no licenciamento."
+    },
+    {
+      "id": "ARQ-027",
+      "area": "ESP",
+      "topic": "Detalhamento construtivo",
+      "difficulty": 4,
+      "statement": "Em fachada com platibanda, ocorreu infiltração recorrente. A causa mais provável, quando o detalhamento é falho, está ligada a:",
+      "image": null,
+      "options": [
+        "uso de cores claras na pintura externa",
+        "ausência/deficiência de arremates, pingadeiras e impermeabilização em pontos críticos",
+        "excesso de ventilação cruzada interna",
+        "posicionamento de mobiliário próximo à parede",
+        "uso de piso tátil no passeio"
+      ],
+      "answer": 1,
+      "explanation": "Infiltrações comuns decorrem de detalhes mal resolvidos: arremates, pingadeiras, impermeabilização e drenagem."
+    },
+    {
+      "id": "ARQ-028",
+      "area": "ESP",
+      "topic": "Materiais e especificações",
+      "difficulty": 3,
+      "statement": "Ao especificar um revestimento para área molhada de uso intenso, a decisão mais técnica deve priorizar:",
+      "image": null,
+      "options": [
+        "apenas o preço mais baixo",
+        "apenas a cor e o brilho do material",
+        "desempenho (aderência, absorção, facilidade de manutenção) e compatibilidade com substrato/impermeabilização",
+        "o material mais pesado disponível",
+        "somente a disponibilidade imediata em estoque"
+      ],
+      "answer": 2,
+      "explanation": "Especificação deve considerar desempenho e compatibilidade com sistema construtivo e condições de uso/manutenção."
+    },
+    {
+      "id": "ARQ-029",
+      "area": "ESP",
+      "topic": "Representação e leitura de cortes",
+      "difficulty": 3,
+      "statement": "Em um corte arquitetônico, é correto afirmar que:",
+      "image": null,
+      "options": [
+        "somente o que está além do plano de corte deve ser hachurado",
+        "elementos seccionados são representados com destaque e hachura, e o corte evidencia relações verticais e níveis",
+        "o corte substitui a planta baixa e dispensa cotas",
+        "o corte não deve conter indicação de níveis (cotas altimétricas)",
+        "o corte deve ser sempre feito na escala 1:100 ou menor"
+      ],
+      "answer": 1,
+      "explanation": "No corte, o seccionado é destacado/hachurado e a vista evidencia alturas, níveis e relações verticais."
+    },
+    {
+      "id": "ARQ-030",
+      "area": "ESP",
+      "topic": "Orçamento e medições",
+      "difficulty": 4,
+      "statement": "Ao medir serviços para pagamento em obra, a principal finalidade de critérios objetivos e memorial de quantitativos é:",
+      "image": null,
+      "options": [
+        "eliminar a necessidade de fiscalização",
+        "padronizar a estética das medições",
+        "garantir transparência, evitar disputas e permitir conferência de execução",
+        "substituir completamente os desenhos do projeto",
+        "aumentar a margem de erro do orçamento"
+      ],
+      "answer": 2,
+      "explanation": "Critérios e quantitativos permitem conferência, transparência e controle de execução/pagamento."
+    },
+    {
+      "id": "ARQ-031",
+      "area": "ESP",
+      "topic": "Inspeção predial",
+      "difficulty": 4,
+      "statement": "Em laudo técnico, uma prática incorreta (e típica causa de questionamento) é:",
+      "image": null,
+      "options": [
+        "registrar evidências com fotos e descrição",
+        "delimitar escopo e limitações da vistoria",
+        "concluir causa e responsabilidade sem base técnica e sem inspeção adequada",
+        "apontar recomendações e prioridades de intervenção",
+        "anexar croquis/esquemas quando necessário"
+      ],
+      "answer": 2,
+      "explanation": "Laudo deve ser fundamentado; atribuir causa/responsabilidade sem base técnica é falha grave."
+    },
+    {
+      "id": "ARQ-032",
+      "area": "ESP",
+      "topic": "Eficiência energética",
+      "difficulty": 4,
+      "statement": "Uma decisão de envoltória que, em geral, reduz ganhos térmicos e melhora desempenho em clima quente é:",
+      "image": null,
+      "options": [
+        "aumento de área envidraçada sem proteção em fachadas críticas",
+        "telhado com baixa refletância e sem isolamento",
+        "sombreamento externo e controle de insolação, aliado a cobertura protegida",
+        "eliminação de beirais e varandas",
+        "uso de materiais altamente condutores na cobertura"
+      ],
+      "answer": 2,
+      "explanation": "Sombreamento e cobertura protegida (e escolhas coerentes de envoltória) ajudam a reduzir ganhos térmicos."
+    },
+    {
+      "id": "ARQ-033",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 3,
+      "statement": "Ao avaliar impacto de implantação em lote urbano, a decisão que tende a melhorar qualidade do espaço e conforto do pedestre é:",
+      "image": null,
+      "options": [
+        "priorizar recuos e frentes ativas, com sombreamento e calçadas qualificadas",
+        "reduzir calçada para aumentar vagas de estacionamento no passeio",
+        "posicionar entradas sem considerar fluxos e acessibilidade",
+        "eliminar arborização para facilitar manutenção",
+        "concentrar todas as aberturas a oeste sem proteção"
+      ],
+      "answer": 0,
+      "explanation": "Frente ativa, sombreamento e calçadas qualificadas contribuem para conforto e vitalidade do espaço urbano."
+    },
+    {
+      "id": "ARQ-034",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 4,
+      "statement": "Na compatibilização, uma interferência clássica que deve ser evitada por revisão coordenada é:",
+      "image": null,
+      "options": [
+        "posição de mobiliário em layout conceitual",
+        "choque entre dutos/shafts e elementos estruturais (vigas/pilares) ou vãos de esquadrias",
+        "nome do arquivo em padrão diferente",
+        "cor da prancha de apresentação",
+        "tipo de fonte do carimbo"
+      ],
+      "answer": 1,
+      "explanation": "Interferências físicas entre instalações e estrutura/esquadrias são problema típico de compatibilização."
+    },
+    {
+      "id": "ARQ-035",
+      "area": "ESP",
+      "topic": "Desempenho e manutenção",
+      "difficulty": 4,
+      "statement": "Um projeto que não considera manutenção (acesso a equipamentos, limpeza de calhas, inspeção de cobertura) tende a resultar em:",
+      "image": null,
+      "options": [
+        "redução de custos ao longo do ciclo de vida",
+        "maior durabilidade e menor falha",
+        "aumento de custos e risco de falhas por manutenção difícil/ineficiente",
+        "eliminação de patologia por ser “projeto novo”",
+        "dispensa de manual do usuário"
+      ],
+      "answer": 2,
+      "explanation": "Manutenibilidade afeta custo e confiabilidade: dificuldade de acesso/inspeção aumenta falhas e custos no ciclo de vida."
+    },
+    {
+      "id": "ARQ-036",
+      "area": "ESP",
+      "topic": "História e teoria",
+      "difficulty": 3,
+      "statement": "Uma afirmação compatível com a lógica do modernismo arquitetônico (em linhas gerais) é:",
+      "image": null,
+      "options": [
+        "prioriza ornamentos históricos como principal linguagem",
+        "valoriza racionalidade construtiva e síntese formal, muitas vezes com ênfase em função e técnica",
+        "rejeita totalmente novas tecnologias e materiais industriais",
+        "adota sempre simetria clássica e composição acadêmica",
+        "substitui projeto por decoração de interiores"
+      ],
+      "answer": 1,
+      "explanation": "Modernismo, em geral, valoriza racionalidade, técnica, novos materiais e síntese formal, frequentemente associado à função."
+    },
+    {
+      "id": "ARQ-037",
+      "area": "ESP",
+      "topic": "Acessibilidade (NBR 9050)",
+      "difficulty": 4,
+      "statement": "Em rota acessível, foi proposto piso tátil direcional em área onde o objetivo principal era alertar sobre risco (início de escada, desnível). O tipo de piso tátil mais adequado para alerta é:",
+      "image": null,
+      "options": [
+        "tátil direcional",
+        "tátil de alerta",
+        "piso antiderrapante comum",
+        "piso liso polido",
+        "piso vinílico sem relevo"
+      ],
+      "answer": 1,
+      "explanation": "Piso tátil de alerta sinaliza risco/atenção; o direcional orienta trajeto."
+    },
+    {
+      "id": "ARQ-038",
+      "area": "ESP",
+      "topic": "Projeto executivo",
+      "difficulty": 4,
+      "statement": "Ao comparar anteprojeto e projeto executivo, assinale a alternativa que caracteriza corretamente o projeto executivo:",
+      "image": null,
+      "options": [
+        "contém apenas volumetria e partido geral, sem compatibilização",
+        "apresenta informações suficientes para execução, com detalhamentos, especificações e coordenação com projetos complementares",
+        "é etapa dedicada exclusivamente ao estudo do entorno urbano",
+        "substitui o orçamento e o cronograma por completo",
+        "dispensa a necessidade de cortes e elevações"
+      ],
+      "answer": 1,
+      "explanation": "Projeto executivo fornece informação completa para executar: detalhamento, especificações e compatibilização."
+    },
+    {
+      "id": "ARQ-039",
+      "area": "ESP",
+      "topic": "Erros comuns em obra",
+      "difficulty": 4,
+      "statement": "Em obra, foi detectada diferença entre cota do projeto e execução em uma sequência de ambientes, com pequenas variações acumuladas. A falha de projeto que mais contribui para esse tipo de ocorrência é:",
+      "image": null,
+      "options": [
+        "inexistência de cotas totais de controle, com excesso de cotas parciais sem conferência",
+        "uso de legenda de simbologia completa",
+        "uso de eixos de locação bem definidos",
+        "presença de cortes e elevações em escala adequada",
+        "uso de layers padronizados em CAD"
+      ],
+      "answer": 0,
+      "explanation": "Sem cotas totais de controle, erros acumulam ao somar parciais; cotas totais ajudam conferência na execução."
+    },
+    {
+      "id": "ARQ-040",
+      "area": "ESP",
+      "topic": "BIM e coordenação",
+      "difficulty": 4,
+      "statement": "Em coordenação BIM, a detecção de conflitos (clash detection) é mais diretamente útil para:",
+      "image": null,
+      "options": [
+        "definir estilo de apresentação gráfica em pranchas artísticas",
+        "identificar interferências entre disciplinas (estrutura, instalações, arquitetura) antes da obra",
+        "substituir aprovações legais",
+        "dispensar visitas de campo",
+        "eliminar a necessidade de especificações técnicas"
+      ],
+      "answer": 1,
+      "explanation": "Clash detection identifica interferências físicas/geométricas entre modelos de diferentes disciplinas antes da execução."
+    },
+    {
+      "id": "ARQ-041",
+      "area": "ESP",
+      "topic": "Etapas de projeto",
+      "difficulty": 3,
+      "statement": "Em contratação integrada, a Administração exige que o projeto executivo permita execução sem lacunas interpretativas. A etapa que consolida soluções e define dimensões e materiais, mas ainda admite ajustes antes do executivo, é:",
+      "image": null,
+      "options": [
+        "programa de necessidades",
+        "estudo preliminar",
+        "anteprojeto",
+        "as built",
+        "projeto legal"
+      ],
+      "answer": 2,
+      "explanation": "O anteprojeto consolida soluções e configurações, antecedendo o nível de detalhamento do executivo."
+    },
+    {
+      "id": "ARQ-042",
+      "area": "ESP",
+      "topic": "Implantação",
+      "difficulty": 3,
+      "statement": "Em lote urbano com recuos obrigatórios, a solução que tende a preservar área permeável e facilitar drenagem é:",
+      "image": null,
+      "options": [
+        "ocupar toda a taxa máxima com pavimentação rígida",
+        "centralizar a edificação e concentrar áreas verdes nos recuos",
+        "impermeabilizar recuos para circulação de veículos",
+        "suprimir arborização para reduzir manutenção",
+        "elevar o nível do terreno em toda a área"
+      ],
+      "answer": 1,
+      "explanation": "Concentrar áreas verdes nos recuos favorece permeabilidade e drenagem, atendendo parâmetros urbanos."
+    },
+    {
+      "id": "ARQ-043",
+      "area": "ESP",
+      "topic": "Representação gráfica",
+      "difficulty": 3,
+      "statement": "Na leitura de plantas, a ausência de indicação de norte e escala compromete principalmente:",
+      "image": null,
+      "options": [
+        "a estética do desenho",
+        "a compreensão de orientação e proporção",
+        "o cálculo estrutural",
+        "a definição de materiais",
+        "o cronograma físico-financeiro"
+      ],
+      "answer": 1,
+      "explanation": "Sem norte e escala, perdem-se referência de orientação solar e proporção dimensional."
+    },
+    {
+      "id": "ARQ-044",
+      "area": "ESP",
+      "topic": "Conforto térmico",
+      "difficulty": 4,
+      "statement": "Em clima quente e úmido, a estratégia que tende a reduzir ganhos térmicos por radiação direta é:",
+      "image": null,
+      "options": [
+        "fachadas extensas a oeste sem proteção",
+        "brises e beirais nas fachadas mais expostas",
+        "fechamento hermético com vidro comum",
+        "uso de cores escuras na cobertura",
+        "eliminação de ventilação cruzada"
+      ],
+      "answer": 1,
+      "explanation": "Proteções solares reduzem incidência direta e ganhos térmicos."
+    },
+    {
+      "id": "ARQ-045",
+      "area": "ESP",
+      "topic": "Ventilação",
+      "difficulty": 3,
+      "statement": "Para favorecer ventilação cruzada, é condição essencial:",
+      "image": null,
+      "options": [
+        "aberturas apenas na mesma fachada",
+        "diferença de pressão entre faces opostas ou adjacentes",
+        "pé-direito baixo",
+        "ambientes compartimentados sem portas",
+        "uso exclusivo de ventilação mecânica"
+      ],
+      "answer": 1,
+      "explanation": "Ventilação cruzada depende de aberturas em faces com gradiente de pressão."
+    },
+    {
+      "id": "ARQ-046",
+      "area": "ESP",
+      "topic": "Iluminação natural",
+      "difficulty": 3,
+      "statement": "Uma solução para reduzir ofuscamento mantendo iluminação natural é:",
+      "image": null,
+      "options": [
+        "cortina opaca permanente",
+        "brise-soleil ajustado à orientação solar",
+        "vidro espelhado sem controle",
+        "eliminação de janelas",
+        "pintura externa preta"
+      ],
+      "answer": 1,
+      "explanation": "Dispositivos de sombreamento controlam a incidência direta mantendo luz difusa."
+    },
+    {
+      "id": "ARQ-047",
+      "area": "ESP",
+      "topic": "Acústica",
+      "difficulty": 4,
+      "statement": "Para reduzir ruído aéreo entre duas salas contíguas, a medida mais eficaz é:",
+      "image": null,
+      "options": [
+        "aumentar apenas a área envidraçada",
+        "empregar parede dupla com material isolante no vão",
+        "usar revestimento cerâmico liso",
+        "aumentar a altura do forro",
+        "abrir vãos de ventilação entre salas"
+      ],
+      "answer": 1,
+      "explanation": "Isolamento melhora com massa e desacoplamento (parede dupla com material isolante)."
+    },
+    {
+      "id": "ARQ-048",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 4,
+      "statement": "Em rota acessível, a inclinação excessiva de rampa compromete principalmente:",
+      "image": null,
+      "options": [
+        "o conforto visual",
+        "a segurança e autonomia do usuário",
+        "a estética da edificação",
+        "a ventilação natural",
+        "o paisagismo"
+      ],
+      "answer": 1,
+      "explanation": "Inclinação acima do recomendado aumenta esforço e risco, afetando autonomia."
+    },
+    {
+      "id": "ARQ-049",
+      "area": "ESP",
+      "topic": "Estruturas",
+      "difficulty": 3,
+      "statement": "No concreto armado, as fissuras decorrentes de retração são mitigadas principalmente por:",
+      "image": null,
+      "options": [
+        "aumento do cobrimento",
+        "cura adequada e controle tecnológico",
+        "eliminação de juntas",
+        "uso de agregados leves",
+        "redução do traço de cimento a zero"
+      ],
+      "answer": 1,
+      "explanation": "Cura adequada reduz retração e fissuração."
+    },
+    {
+      "id": "ARQ-050",
+      "area": "ESP",
+      "topic": "Estruturas metálicas",
+      "difficulty": 3,
+      "statement": "Uma desvantagem típica de estruturas metálicas, quando comparadas ao concreto, é:",
+      "image": null,
+      "options": [
+        "maior controle dimensional",
+        "necessidade de proteção contra corrosão e fogo",
+        "montagem industrializada",
+        "grandes vãos com menor peso próprio",
+        "rapidez de execução"
+      ],
+      "answer": 1,
+      "explanation": "Estruturas metálicas exigem proteção contra corrosão e incêndio."
+    },
+    {
+      "id": "ARQ-051",
+      "area": "ESP",
+      "topic": "Madeira",
+      "difficulty": 3,
+      "statement": "Em cobertura de madeira, o detalhe construtivo que mais contribui para durabilidade é:",
+      "image": null,
+      "options": [
+        "contato direto com alvenaria úmida",
+        "ventilação do entre-forro e afastamento do solo",
+        "pintura impermeável sem juntas",
+        "uso de madeira verde",
+        "fixação sem tratamento"
+      ],
+      "answer": 1,
+      "explanation": "Ventilação e afastamento da umidade aumentam a vida útil."
+    },
+    {
+      "id": "ARQ-052",
+      "area": "ESP",
+      "topic": "Instalações hidráulicas",
+      "difficulty": 4,
+      "statement": "A inexistência de registros setoriais em uma edificação implica principalmente:",
+      "image": null,
+      "options": [
+        "redução do consumo",
+        "dificuldade de manutenção e interrupção total do sistema para reparos",
+        "melhora da pressão",
+        "eliminação de vazamentos",
+        "redução de custo inicial irrelevante"
+      ],
+      "answer": 1,
+      "explanation": "Registros setoriais permitem manutenção sem interromper todo o sistema."
+    },
+    {
+      "id": "ARQ-053",
+      "area": "ESP",
+      "topic": "Instalações elétricas",
+      "difficulty": 4,
+      "statement": "A separação entre circuitos de iluminação e tomadas tem como objetivo principal:",
+      "image": null,
+      "options": [
+        "reduzir o número de quadros",
+        "facilitar manutenção e evitar sobrecargas",
+        "eliminar aterramento",
+        "impedir futuras ampliações",
+        "substituir disjuntores"
+      ],
+      "answer": 1,
+      "explanation": "Segregar circuitos facilita manutenção e segurança."
+    },
+    {
+      "id": "ARQ-054",
+      "area": "ESP",
+      "topic": "Climatização",
+      "difficulty": 4,
+      "statement": "A instalação de evaporadoras em áreas sem renovação de ar tende a:",
+      "image": null,
+      "options": [
+        "melhorar a eficiência",
+        "aumentar a umidade interna",
+        "reduzir consumo",
+        "eliminar ruídos",
+        "dispensar drenagem"
+      ],
+      "answer": 1,
+      "explanation": "Sem renovação, há acúmulo de umidade e piora da qualidade do ar."
+    },
+    {
+      "id": "ARQ-055",
+      "area": "ESP",
+      "topic": "Eficiência energética",
+      "difficulty": 3,
+      "statement": "Entre as decisões abaixo, a que mais contribui para eficiência energética é:",
+      "image": null,
+      "options": [
+        "fachada oeste totalmente envidraçada",
+        "sombreamento externo e ventilação natural",
+        "eliminação de aberturas",
+        "uso de lâmpadas incandescentes",
+        "pintura interna escura"
+      ],
+      "answer": 1,
+      "explanation": "Sombreamento e ventilação reduzem demanda energética."
+    },
+    {
+      "id": "ARQ-056",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 4,
+      "statement": "O orçamento sem memorial de cálculo dificulta principalmente:",
+      "image": null,
+      "options": [
+        "o desenho do projeto",
+        "a fiscalização e a medição de serviços",
+        "a escolha do partido arquitetônico",
+        "a estética das pranchas",
+        "o cronograma de obra"
+      ],
+      "answer": 1,
+      "explanation": "Sem memória de cálculo, não há base para conferência."
+    },
+    {
+      "id": "ARQ-057",
+      "area": "ESP",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "Projeto incompleto em licitação de obras tende a gerar:",
+      "image": null,
+      "options": [
+        "preços mais estáveis",
+        "menos aditivos",
+        "aumento de aditivos e disputas contratuais",
+        "execução mais rápida",
+        "menor risco técnico"
+      ],
+      "answer": 2,
+      "explanation": "Projeto insuficiente causa incerteza e aditivos."
+    },
+    {
+      "id": "ARQ-058",
+      "area": "ESP",
+      "topic": "Patologia",
+      "difficulty": 4,
+      "statement": "Manchas de bolor recorrentes em paredes internas indicam, prioritariamente:",
+      "image": null,
+      "options": [
+        "problema estrutural",
+        "umidade excessiva e ventilação deficiente",
+        "erro de cálculo",
+        "defeito estético",
+        "sobrecarga de laje"
+      ],
+      "answer": 1,
+      "explanation": "Bolor está ligado a umidade e falta de ventilação."
+    },
+    {
+      "id": "ARQ-059",
+      "area": "ESP",
+      "topic": "Patrimônio",
+      "difficulty": 4,
+      "statement": "Em restauração, a recomposição deve priorizar:",
+      "image": null,
+      "options": [
+        "materiais modernos visíveis",
+        "recriação estilística livre",
+        "compatibilidade e distinção entre novo e antigo",
+        "padronização visual",
+        "substituição integral"
+      ],
+      "answer": 2,
+      "explanation": "Boas práticas defendem compatibilidade e leitura clara do que é novo."
+    },
+    {
+      "id": "ARQ-060",
+      "area": "ESP",
+      "topic": "Paisagismo",
+      "difficulty": 3,
+      "statement": "A escolha de espécies vegetais deve considerar principalmente:",
+      "image": null,
+      "options": [
+        "apenas a cor das flores",
+        "clima, manutenção e relação com o espaço",
+        "exclusivamente o preço",
+        "somente a altura adulta",
+        "apenas a disponibilidade"
+      ],
+      "answer": 1,
+      "explanation": "Compatibilidade climática e manutenção são critérios essenciais."
+    },
+    {
+      "id": "ARQ-061",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 4,
+      "statement": "A principal vantagem do modelo BIM em fase de obra é:",
+      "image": null,
+      "options": [
+        "dispensar fiscalização",
+        "permitir coordenação e atualização de informações",
+        "substituir licenciamento",
+        "eliminar desenhos",
+        "reduzir custo sem controle"
+      ],
+      "answer": 1,
+      "explanation": "BIM permite atualização e coordenação contínua."
+    },
+    {
+      "id": "ARQ-062",
+      "area": "ESP",
+      "topic": "CAD",
+      "difficulty": 3,
+      "statement": "O uso correto de layers contribui para:",
+      "image": null,
+      "options": [
+        "confusão gráfica",
+        "padronização e legibilidade",
+        "aumento de erros",
+        "eliminação de escalas",
+        "substituição de cotas"
+      ],
+      "answer": 1,
+      "explanation": "Layers organizam e padronizam a representação."
+    },
+    {
+      "id": "ARQ-063",
+      "area": "ESP",
+      "topic": "Segurança do trabalho",
+      "difficulty": 3,
+      "statement": "A ausência de sinalização no canteiro de obras aumenta:",
+      "image": null,
+      "options": [
+        "produtividade",
+        "risco de acidentes",
+        "conforto térmico",
+        "qualidade do concreto",
+        "velocidade de execução"
+      ],
+      "answer": 1,
+      "explanation": "Sinalização reduz riscos; sua ausência os eleva."
+    },
+    {
+      "id": "ARQ-064",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 4,
+      "statement": "A implantação que favorece a relação com o espaço público é aquela que:",
+      "image": null,
+      "options": [
+        "fecha completamente o lote",
+        "estimula frentes ativas e permeabilidade visual",
+        "prioriza muros altos",
+        "retira calçadas",
+        "isola o edifício"
+      ],
+      "answer": 1,
+      "explanation": "Frentes ativas e permeabilidade visual qualificam o espaço urbano."
+    },
+    {
+      "id": "ARQ-065",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 4,
+      "statement": "A revisão conjunta entre projetos arquitetônico, estrutural e instalações tem por objetivo:",
+      "image": null,
+      "options": [
+        "apenas reduzir custos",
+        "evitar interferências e retrabalho",
+        "eliminar fiscalização",
+        "dispensar detalhamento",
+        "aumentar prazo"
+      ],
+      "answer": 1,
+      "explanation": "Compatibilização evita conflitos físicos e retrabalhos."
+    },
+    {
+      "id": "ARQ-066",
+      "area": "ESP",
+      "topic": "Manutenção",
+      "difficulty": 4,
+      "statement": "A previsão de acesso a caixas d’água e equipamentos visa principalmente:",
+      "image": null,
+      "options": [
+        "melhorar estética",
+        "facilitar manutenção e inspeção",
+        "reduzir área construída",
+        "eliminar custos",
+        "aumentar volume do reservatório"
+      ],
+      "answer": 1,
+      "explanation": "Acessibilidade aos sistemas é requisito de manutenibilidade."
+    },
+    {
+      "id": "ARQ-067",
+      "area": "ESP",
+      "topic": "História da arquitetura",
+      "difficulty": 3,
+      "statement": "A arquitetura moderna caracteriza-se, de modo geral, por:",
+      "image": null,
+      "options": [
+        "ornamentação excessiva",
+        "ênfase em função e racionalidade construtiva",
+        "uso exclusivo de pedra",
+        "simetria clássica obrigatória",
+        "retorno ao barroco"
+      ],
+      "answer": 1,
+      "explanation": "O modernismo valoriza função, técnica e racionalidade."
+    },
+    {
+      "id": "ARQ-068",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 4,
+      "statement": "O piso tátil direcional tem como função:",
+      "image": null,
+      "options": [
+        "alertar sobre obstáculos",
+        "orientar deslocamento",
+        "decorar ambientes",
+        "substituir rampas",
+        "eliminar corrimãos"
+      ],
+      "answer": 1,
+      "explanation": "O direcional orienta o percurso; o de alerta sinaliza risco."
+    },
+    {
+      "id": "ARQ-069",
+      "area": "ESP",
+      "topic": "Projeto executivo",
+      "difficulty": 4,
+      "statement": "Projeto executivo insuficiente compromete principalmente:",
+      "image": null,
+      "options": [
+        "o licenciamento urbano",
+        "a execução e o controle de custos",
+        "a estética",
+        "a relação com o entorno",
+        "a escolha de materiais"
+      ],
+      "answer": 1,
+      "explanation": "Sem detalhamento, execução e custos ficam imprecisos."
+    },
+    {
+      "id": "ARQ-070",
+      "area": "ESP",
+      "topic": "Detalhamento",
+      "difficulty": 4,
+      "statement": "Falhas em detalhes de impermeabilização costumam resultar em:",
+      "image": null,
+      "options": [
+        "melhor ventilação",
+        "infiltrações e patologias",
+        "redução de custos",
+        "melhora acústica",
+        "eliminação de manutenção"
+      ],
+      "answer": 1,
+      "explanation": "Impermeabilização mal detalhada gera infiltrações."
+    },
+    {
+      "id": "ARQ-071",
+      "area": "ESP",
+      "topic": "Materiais",
+      "difficulty": 3,
+      "statement": "Na escolha de revestimentos externos, deve-se priorizar:",
+      "image": null,
+      "options": [
+        "apenas aparência",
+        "resistência, manutenção e desempenho",
+        "preço mais baixo",
+        "peso do material",
+        "moda do mercado"
+      ],
+      "answer": 1,
+      "explanation": "Desempenho e durabilidade são critérios técnicos."
+    },
+    {
+      "id": "ARQ-072",
+      "area": "ESP",
+      "topic": "Leitura de cortes",
+      "difficulty": 3,
+      "statement": "O corte arquitetônico permite compreender principalmente:",
+      "image": null,
+      "options": [
+        "relações horizontais",
+        "relações verticais e níveis",
+        "apenas layout",
+        "volumetria externa",
+        "paisagismo"
+      ],
+      "answer": 1,
+      "explanation": "O corte evidencia alturas, níveis e relações verticais."
+    },
+    {
+      "id": "ARQ-073",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 4,
+      "statement": "A ausência de composições unitárias no orçamento dificulta:",
+      "image": null,
+      "options": [
+        "a visualização do projeto",
+        "a conferência de preços",
+        "a escolha de materiais",
+        "o estudo preliminar",
+        "a implantação"
+      ],
+      "answer": 1,
+      "explanation": "Sem composição unitária não há base para conferência."
+    },
+    {
+      "id": "ARQ-074",
+      "area": "ESP",
+      "topic": "Inspeção predial",
+      "difficulty": 4,
+      "statement": "Uma inspeção sem registro fotográfico compromete:",
+      "image": null,
+      "options": [
+        "a estética do laudo",
+        "a comprovação das patologias observadas",
+        "a execução da obra",
+        "a escolha do partido",
+        "o licenciamento"
+      ],
+      "answer": 1,
+      "explanation": "Registro fotográfico fundamenta o diagnóstico."
+    },
+    {
+      "id": "ARQ-075",
+      "area": "ESP",
+      "topic": "Patrimônio",
+      "difficulty": 4,
+      "statement": "Intervenção reversível em bem histórico é desejável porque:",
+      "image": null,
+      "options": [
+        "permite alterar totalmente o bem",
+        "pode ser removida sem danos significativos",
+        "dispensa autorização legal",
+        "substitui conservação",
+        "aumenta ornamentação"
+      ],
+      "answer": 1,
+      "explanation": "Reversibilidade evita perdas irreparáveis."
+    },
+    {
+      "id": "ARQ-076",
+      "area": "ESP",
+      "topic": "Paisagismo",
+      "difficulty": 3,
+      "statement": "A arborização urbana contribui para:",
+      "image": null,
+      "options": [
+        "aumento de ilhas de calor",
+        "redução de conforto térmico",
+        "sombreamento e melhoria microclimática",
+        "impermeabilização do solo",
+        "eliminação de ventilação"
+      ],
+      "answer": 2,
+      "explanation": "Vegetação reduz temperatura e melhora microclima."
+    },
+    {
+      "id": "ARQ-077",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 4,
+      "statement": "Um modelo BIM federado é aquele que:",
+      "image": null,
+      "options": [
+        "contém apenas arquitetura",
+        "integra modelos de diferentes disciplinas",
+        "é apenas tridimensional",
+        "substitui orçamento",
+        "dispensa compatibilização"
+      ],
+      "answer": 1,
+      "explanation": "Modelo federado integra disciplinas (arq, estr., inst.)."
+    },
+    {
+      "id": "ARQ-078",
+      "area": "ESP",
+      "topic": "CAD",
+      "difficulty": 3,
+      "statement": "A ausência de blocos em elementos repetitivos resulta em:",
+      "image": null,
+      "options": [
+        "maior produtividade",
+        "dificuldade de padronização e atualização",
+        "melhor legibilidade",
+        "eliminação de layers",
+        "substituição de cotas"
+      ],
+      "answer": 1,
+      "explanation": "Blocos facilitam padronização e edição."
+    },
+    {
+      "id": "ARQ-079",
+      "area": "ESP",
+      "topic": "Segurança",
+      "difficulty": 3,
+      "statement": "A organização do canteiro influencia diretamente:",
+      "image": null,
+      "options": [
+        "o partido arquitetônico",
+        "a segurança e a produtividade",
+        "o estilo do projeto",
+        "a estética da edificação",
+        "a orientação solar"
+      ],
+      "answer": 1,
+      "explanation": "Planejamento do canteiro reduz riscos e melhora produtividade."
+    },
+    {
+      "id": "ARQ-080",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 4,
+      "statement": "A análise de impacto de vizinhança relaciona-se principalmente a:",
+      "image": null,
+      "options": [
+        "ornamentação das fachadas",
+        "efeitos do empreendimento sobre tráfego, infraestrutura e entorno",
+        "escolha do material de piso",
+        "definição de layout interno",
+        "projeto estrutural"
+      ],
+      "answer": 1,
+      "explanation": "Avalia impactos urbanos como tráfego, serviços e entorno."
+    },
+    {
+      "id": "ARQ-081",
+      "area": "ESP",
+      "topic": "Acessibilidade (NBR 9050)",
+      "difficulty": 5,
+      "statement": "Em projeto de rota acessível externa, foi previsto piso com textura irregular e juntas abertas em área de circulação contínua. À luz dos princípios de acessibilidade, a decisão é inadequada principalmente porque:",
+      "image": null,
+      "options": [
+        "prejudica apenas a estética do percurso",
+        "pode comprometer a estabilidade e a segurança do deslocamento",
+        "exige aumento da largura mínima da rota",
+        "dispensa a necessidade de corrimão",
+        "elimina a necessidade de patamar intermediário"
+      ],
+      "answer": 1,
+      "explanation": "Superfícies irregulares dificultam o deslocamento seguro de pessoas com mobilidade reduzida."
+    },
+    {
+      "id": "ARQ-082",
+      "area": "ESP",
+      "topic": "Projeto e legislação urbana",
+      "difficulty": 5,
+      "statement": "Um projeto foi aprovado em estudo preliminar, mas, ao ser submetido ao licenciamento, apresentou indeferimento por descumprir taxa de permeabilidade mínima. Isso indica falha principalmente na etapa de:",
+      "image": null,
+      "options": [
+        "levantamento topográfico",
+        "programa de necessidades",
+        "compatibilização estrutural",
+        "verificação dos parâmetros urbanísticos",
+        "representação gráfica"
+      ],
+      "answer": 3,
+      "explanation": "A verificação de taxa de permeabilidade é requisito urbanístico que deve ser atendido antes do licenciamento."
+    },
+    {
+      "id": "ARQ-083",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 5,
+      "statement": "Durante a análise de um projeto executivo, constatou-se que dutos de ar-condicionado ocupam o mesmo espaço de vigas estruturais. Esse conflito evidencia deficiência principalmente no processo de:",
+      "image": null,
+      "options": [
+        "estudo de insolação",
+        "coordenação entre disciplinas",
+        "definição do partido arquitetônico",
+        "dimensionamento de ambientes",
+        "memorial descritivo"
+      ],
+      "answer": 1,
+      "explanation": "Compatibilização visa evitar interferências físicas entre projetos complementares."
+    },
+    {
+      "id": "ARQ-084",
+      "area": "ESP",
+      "topic": "Conforto térmico",
+      "difficulty": 5,
+      "statement": "Em edifício público com grande área envidraçada voltada para o poente, a medida que mais contribui para redução de carga térmica sem eliminar iluminação natural é:",
+      "image": null,
+      "options": [
+        "vidro comum incolor",
+        "brise-soleil externo ou proteção solar equivalente",
+        "redução do pé-direito",
+        "uso de cores escuras na fachada",
+        "eliminação de janelas"
+      ],
+      "answer": 1,
+      "explanation": "Proteções solares externas reduzem ganhos térmicos mantendo entrada de luz difusa."
+    },
+    {
+      "id": "ARQ-085",
+      "area": "ESP",
+      "topic": "Patologia das construções",
+      "difficulty": 5,
+      "statement": "A ocorrência recorrente de eflorescências em paredes externas indica, mais frequentemente:",
+      "image": null,
+      "options": [
+        "sobrecarga estrutural",
+        "presença de sais solúveis transportados por umidade",
+        "erro no dimensionamento de vigas",
+        "problema acústico",
+        "fissuração por recalque"
+      ],
+      "answer": 1,
+      "explanation": "Eflorescência decorre da migração de sais dissolvidos pela umidade até a superfície."
+    },
+    {
+      "id": "ARQ-086",
+      "area": "ESP",
+      "topic": "Inspeção predial",
+      "difficulty": 5,
+      "statement": "Em laudo de inspeção, a identificação de manifestações patológicas deve ser acompanhada prioritariamente de:",
+      "image": null,
+      "options": [
+        "opinião pessoal do técnico",
+        "registro fotográfico e descrição objetiva",
+        "estimativa estética do dano",
+        "comparação com outros edifícios",
+        "valoração imobiliária"
+      ],
+      "answer": 1,
+      "explanation": "O diagnóstico deve ser fundamentado em evidências e descrição técnica."
+    },
+    {
+      "id": "ARQ-087",
+      "area": "ESP",
+      "topic": "Orçamento e obras públicas",
+      "difficulty": 5,
+      "statement": "Um orçamento apresentado apenas com valores globais, sem composições unitárias, compromete principalmente:",
+      "image": null,
+      "options": [
+        "a leitura das pranchas",
+        "a transparência e a fiscalização dos serviços",
+        "a escolha do partido arquitetônico",
+        "o cálculo estrutural",
+        "o licenciamento urbano"
+      ],
+      "answer": 1,
+      "explanation": "Sem composições unitárias não há rastreabilidade nem controle técnico do custo."
+    },
+    {
+      "id": "ARQ-088",
+      "area": "ESP",
+      "topic": "Licitações",
+      "difficulty": 5,
+      "statement": "Projeto executivo insuficiente, em licitação de obra pública, tende a resultar principalmente em:",
+      "image": null,
+      "options": [
+        "maior precisão de custos",
+        "menor número de aditivos",
+        "aumento de conflitos contratuais e aditivos",
+        "redução do prazo de execução",
+        "dispensa de fiscalização"
+      ],
+      "answer": 2,
+      "explanation": "Falta de detalhamento gera incertezas e amplia disputas e aditivos."
+    },
+    {
+      "id": "ARQ-089",
+      "area": "ESP",
+      "topic": "Conforto acústico",
+      "difficulty": 5,
+      "statement": "Para reduzir transmissão de ruído aéreo entre ambientes contíguos, a solução mais eficaz é:",
+      "image": null,
+      "options": [
+        "uso de superfície refletora",
+        "parede dupla com material absorvente no vão",
+        "aumento da área de aberturas",
+        "eliminação de forro",
+        "uso de piso cerâmico"
+      ],
+      "answer": 1,
+      "explanation": "Isolamento acústico depende de massa e desacoplamento."
+    },
+    {
+      "id": "ARQ-090",
+      "area": "ESP",
+      "topic": "Eficiência energética",
+      "difficulty": 5,
+      "statement": "Uma decisão de projeto que reduz significativamente a demanda por ar-condicionado em clima quente é:",
+      "image": null,
+      "options": [
+        "ampliar fachadas oeste sem proteção",
+        "eliminar ventilação natural",
+        "controlar insolação direta e favorecer ventilação cruzada",
+        "utilizar apenas iluminação artificial",
+        "adotar cores escuras na cobertura"
+      ],
+      "answer": 2,
+      "explanation": "Controle solar e ventilação reduzem carga térmica."
+    },
+    {
+      "id": "ARQ-091",
+      "area": "ESP",
+      "topic": "Sistemas construtivos",
+      "difficulty": 5,
+      "statement": "No concreto armado, a função principal da armadura é resistir aos esforços de:",
+      "image": null,
+      "options": [
+        "compressão",
+        "tração",
+        "abrasão",
+        "expansão térmica",
+        "impacto acústico"
+      ],
+      "answer": 1,
+      "explanation": "O concreto é resistente à compressão, mas fraco à tração, absorvida pelo aço."
+    },
+    {
+      "id": "ARQ-092",
+      "area": "ESP",
+      "topic": "Estruturas metálicas",
+      "difficulty": 5,
+      "statement": "Uma exigência adicional recorrente em estruturas metálicas é:",
+      "image": null,
+      "options": [
+        "cura prolongada",
+        "proteção contra corrosão e incêndio",
+        "espessamento de lajes",
+        "uso de alvenaria estrutural",
+        "eliminação de juntas"
+      ],
+      "answer": 1,
+      "explanation": "Estruturas metálicas demandam proteção anticorrosiva e contra fogo."
+    },
+    {
+      "id": "ARQ-093",
+      "area": "ESP",
+      "topic": "Detalhamento construtivo",
+      "difficulty": 5,
+      "statement": "Infiltrações recorrentes em platibandas estão associadas, em geral, a falhas de:",
+      "image": null,
+      "options": [
+        "dimensionamento estrutural",
+        "detalhamento de impermeabilização e arremates",
+        "orientação solar",
+        "uso de esquadrias",
+        "projeto de paisagismo"
+      ],
+      "answer": 1,
+      "explanation": "Platibandas exigem detalhes corretos de impermeabilização e arremates."
+    },
+    {
+      "id": "ARQ-094",
+      "area": "ESP",
+      "topic": "Topografia",
+      "difficulty": 5,
+      "statement": "Implantar edificação acompanhando curvas de nível reduz principalmente:",
+      "image": null,
+      "options": [
+        "área construída",
+        "volume de cortes e aterros",
+        "insolação",
+        "número de pavimentos",
+        "necessidade de licenciamento"
+      ],
+      "answer": 1,
+      "explanation": "Acompanhar o relevo diminui movimentação de terra."
+    },
+    {
+      "id": "ARQ-095",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 5,
+      "statement": "A adoção de frentes ativas em edifícios públicos contribui principalmente para:",
+      "image": null,
+      "options": [
+        "isolamento do lote",
+        "segregação espacial",
+        "qualificação do espaço urbano e segurança",
+        "eliminação de áreas verdes",
+        "redução de permeabilidade visual"
+      ],
+      "answer": 2,
+      "explanation": "Frentes ativas estimulam uso do espaço público e aumentam sensação de segurança."
+    },
+    {
+      "id": "ARQ-096",
+      "area": "ESP",
+      "topic": "Paisagismo",
+      "difficulty": 5,
+      "statement": "A escolha inadequada de espécies vegetais em área urbana pode resultar principalmente em:",
+      "image": null,
+      "options": [
+        "melhoria do microclima",
+        "redução de manutenção",
+        "aumento de custos e insucesso do plantio",
+        "eliminação de ilhas de calor",
+        "aumento de permeabilidade"
+      ],
+      "answer": 2,
+      "explanation": "Espécies incompatíveis elevam manutenção e risco de perda."
+    },
+    {
+      "id": "ARQ-097",
+      "area": "ESP",
+      "topic": "Patrimônio histórico",
+      "difficulty": 5,
+      "statement": "O princípio da reversibilidade em intervenções em bens tombados significa que:",
+      "image": null,
+      "options": [
+        "a intervenção pode ser removida sem danos relevantes ao bem",
+        "o bem deve ser reconstruído integralmente",
+        "o projeto deve eliminar elementos originais",
+        "a restauração pode alterar o estilo",
+        "a intervenção dispensa autorização legal"
+      ],
+      "answer": 0,
+      "explanation": "Reversibilidade evita danos permanentes ao bem histórico."
+    },
+    {
+      "id": "ARQ-098",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 5,
+      "statement": "A principal função do clash detection em BIM é:",
+      "image": null,
+      "options": [
+        "gerar imagens renderizadas",
+        "identificar interferências entre modelos",
+        "substituir o orçamento",
+        "definir o partido arquitetônico",
+        "dispensar a compatibilização"
+      ],
+      "answer": 1,
+      "explanation": "Clash detection detecta conflitos físicos entre disciplinas."
+    },
+    {
+      "id": "ARQ-099",
+      "area": "ESP",
+      "topic": "CAD",
+      "difficulty": 5,
+      "statement": "Desenhar todos os elementos em uma única layer compromete principalmente:",
+      "image": null,
+      "options": [
+        "a compatibilização estrutural",
+        "a legibilidade e a padronização",
+        "o cálculo térmico",
+        "o estudo de insolação",
+        "o orçamento"
+      ],
+      "answer": 1,
+      "explanation": "Layers organizam informação gráfica e facilitam leitura."
+    },
+    {
+      "id": "ARQ-100",
+      "area": "ESP",
+      "topic": "Segurança do trabalho",
+      "difficulty": 5,
+      "statement": "A inexistência de planejamento do canteiro impacta negativamente:",
+      "image": null,
+      "options": [
+        "o partido arquitetônico",
+        "a segurança e a produtividade",
+        "a volumetria do edifício",
+        "a orientação solar",
+        "a escolha de materiais"
+      ],
+      "answer": 1,
+      "explanation": "Planejamento reduz riscos e melhora eficiência."
+    },
+    {
+      "id": "ARQ-101",
+      "area": "ESP",
+      "topic": "Projeto executivo",
+      "difficulty": 5,
+      "statement": "Um projeto executivo deve conter informações suficientes para:",
+      "image": null,
+      "options": [
+        "apresentação artística",
+        "execução sem necessidade de decisões improvisadas em obra",
+        "licenciamento ambiental",
+        "avaliação imobiliária",
+        "substituição do orçamento"
+      ],
+      "answer": 1,
+      "explanation": "O objetivo é permitir execução clara e sem improvisos."
+    },
+    {
+      "id": "ARQ-102",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 5,
+      "statement": "A falta de compatibilização entre projetos pode gerar:",
+      "image": null,
+      "options": [
+        "redução de custos",
+        "menor prazo",
+        "retrabalho e conflitos em obra",
+        "eliminação de patologias",
+        "dispensa de fiscalização"
+      ],
+      "answer": 2,
+      "explanation": "Conflitos entre disciplinas causam retrabalho."
+    },
+    {
+      "id": "ARQ-103",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 5,
+      "statement": "O cronograma físico-financeiro relaciona:",
+      "image": null,
+      "options": [
+        "custos apenas com estética",
+        "prazo e desembolso financeiro ao longo da obra",
+        "somente materiais",
+        "etapas de projeto",
+        "licenciamento urbano"
+      ],
+      "answer": 1,
+      "explanation": "Relaciona tempo de execução e custos."
+    },
+    {
+      "id": "ARQ-104",
+      "area": "ESP",
+      "topic": "Licitações",
+      "difficulty": 5,
+      "statement": "Projeto básico deficiente tende a comprometer principalmente:",
+      "image": null,
+      "options": [
+        "a clareza do objeto contratado",
+        "o cálculo estrutural",
+        "a estética",
+        "a ventilação natural",
+        "o paisagismo"
+      ],
+      "answer": 0,
+      "explanation": "Projeto básico define objeto; falha compromete clareza e execução."
+    },
+    {
+      "id": "ARQ-105",
+      "area": "ESP",
+      "topic": "Patologia",
+      "difficulty": 5,
+      "statement": "Fissuras verticais junto a vãos indicam, em geral:",
+      "image": null,
+      "options": [
+        "erro de pintura",
+        "movimentação diferencial entre elementos",
+        "problema acústico",
+        "erro de projeto paisagístico",
+        "sobrecarga pontual"
+      ],
+      "answer": 1,
+      "explanation": "Movimentos diferentes entre alvenaria e estrutura geram fissuras."
+    },
+    {
+      "id": "ARQ-106",
+      "area": "ESP",
+      "topic": "Desempenho",
+      "difficulty": 5,
+      "statement": "Projetar sem considerar manutenção futura resulta em:",
+      "image": null,
+      "options": [
+        "redução de custos no ciclo de vida",
+        "diminuição de patologias",
+        "aumento de custos e falhas ao longo do tempo",
+        "eliminação de inspeções",
+        "melhora da eficiência energética"
+      ],
+      "answer": 2,
+      "explanation": "Manutenibilidade é fator de custo e durabilidade."
+    },
+    {
+      "id": "ARQ-107",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 5,
+      "statement": "A inexistência de patamar intermediário em rampa longa compromete principalmente:",
+      "image": null,
+      "options": [
+        "a iluminação",
+        "a ventilação",
+        "o repouso e a manobra do usuário",
+        "a estética",
+        "o paisagismo"
+      ],
+      "answer": 2,
+      "explanation": "Patamares permitem descanso e manobra."
+    },
+    {
+      "id": "ARQ-108",
+      "area": "ESP",
+      "topic": "História da arquitetura",
+      "difficulty": 4,
+      "statement": "Uma característica geral do movimento moderno na arquitetura é:",
+      "image": null,
+      "options": [
+        "valorização do ornamento clássico",
+        "ênfase na função e na técnica construtiva",
+        "uso exclusivo de pedra",
+        "simetria obrigatória",
+        "inspiração barroca"
+      ],
+      "answer": 1,
+      "explanation": "Modernismo valoriza racionalidade e função."
+    },
+    {
+      "id": "ARQ-109",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 5,
+      "statement": "Um modelo BIM federado permite principalmente:",
+      "image": null,
+      "options": [
+        "visualização artística",
+        "integração entre disciplinas",
+        "substituição do cronograma",
+        "eliminação do orçamento",
+        "dispensa de projeto executivo"
+      ],
+      "answer": 1,
+      "explanation": "Integra modelos de diferentes áreas."
+    },
+    {
+      "id": "ARQ-110",
+      "area": "ESP",
+      "topic": "CAD",
+      "difficulty": 4,
+      "statement": "O uso de blocos em CAD facilita:",
+      "image": null,
+      "options": [
+        "confusão gráfica",
+        "padronização e atualização",
+        "eliminação de escalas",
+        "substituição de layers",
+        "aumento de erros"
+      ],
+      "answer": 1,
+      "explanation": "Blocos garantem repetição padronizada."
+    },
+    {
+      "id": "ARQ-111",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 5,
+      "statement": "A supressão total de áreas verdes em lote urbano impacta negativamente:",
+      "image": null,
+      "options": [
+        "apenas a estética",
+        "o microclima e a drenagem",
+        "a estrutura do edifício",
+        "o cálculo elétrico",
+        "o orçamento"
+      ],
+      "answer": 1,
+      "explanation": "Vegetação contribui para conforto térmico e drenagem."
+    },
+    {
+      "id": "ARQ-112",
+      "area": "ESP",
+      "topic": "Paisagismo",
+      "difficulty": 4,
+      "statement": "O paisagismo funcional deve considerar:",
+      "image": null,
+      "options": [
+        "apenas espécies ornamentais",
+        "uso do espaço, clima e manutenção",
+        "exclusivamente estética",
+        "somente custo",
+        "apenas disponibilidade"
+      ],
+      "answer": 1,
+      "explanation": "Projeto paisagístico deve integrar uso, clima e manutenção."
+    },
+    {
+      "id": "ARQ-113",
+      "area": "ESP",
+      "topic": "Patrimônio",
+      "difficulty": 5,
+      "statement": "A intervenção em bem tombado deve priorizar:",
+      "image": null,
+      "options": [
+        "substituição integral dos materiais",
+        "mínima intervenção e compatibilidade",
+        "alteração livre do estilo",
+        "eliminação de partes originais",
+        "reconstrução total"
+      ],
+      "answer": 1,
+      "explanation": "Preservação busca compatibilidade e mínima intervenção."
+    },
+    {
+      "id": "ARQ-114",
+      "area": "ESP",
+      "topic": "Inspeção",
+      "difficulty": 5,
+      "statement": "A ausência de delimitação de escopo em laudo técnico pode resultar em:",
+      "image": null,
+      "options": [
+        "maior clareza",
+        "responsabilização indevida do profissional",
+        "melhora estética do relatório",
+        "eliminação de fotos",
+        "redução do texto"
+      ],
+      "answer": 1,
+      "explanation": "Sem delimitar escopo, amplia-se indevidamente a responsabilidade."
+    },
+    {
+      "id": "ARQ-115",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 5,
+      "statement": "Planilha orçamentária sem quantitativos prejudica principalmente:",
+      "image": null,
+      "options": [
+        "o projeto paisagístico",
+        "o controle e a fiscalização",
+        "o estudo preliminar",
+        "a representação gráfica",
+        "o licenciamento"
+      ],
+      "answer": 1,
+      "explanation": "Quantitativos são base do controle técnico."
+    },
+    {
+      "id": "ARQ-116",
+      "area": "ESP",
+      "topic": "Licitações",
+      "difficulty": 5,
+      "statement": "Projeto básico incompleto compromete a:",
+      "image": null,
+      "options": [
+        "definição clara do objeto licitado",
+        "estética do edifício",
+        "ventilação natural",
+        "iluminação artificial",
+        "composição paisagística"
+      ],
+      "answer": 0,
+      "explanation": "Projeto básico define o objeto da contratação."
+    },
+    {
+      "id": "ARQ-117",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 5,
+      "statement": "A falta de compatibilização entre projetos pode gerar:",
+      "image": null,
+      "options": [
+        "economia de materiais",
+        "redução de retrabalho",
+        "interferências e atrasos",
+        "eliminação de aditivos",
+        "menor risco"
+      ],
+      "answer": 2,
+      "explanation": "Interferências causam atrasos e retrabalho."
+    },
+    {
+      "id": "ARQ-118",
+      "area": "ESP",
+      "topic": "Desempenho",
+      "difficulty": 5,
+      "statement": "A não consideração do ciclo de vida dos materiais resulta, em geral, em:",
+      "image": null,
+      "options": [
+        "redução de custos futuros",
+        "aumento de manutenção e falhas",
+        "eliminação de patologias",
+        "melhora energética",
+        "redução de inspeções"
+      ],
+      "answer": 1,
+      "explanation": "Materiais sem análise de ciclo de vida elevam manutenção."
+    },
+    {
+      "id": "ARQ-119",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 5,
+      "statement": "Em rota acessível, a ausência de corrimão em rampa longa compromete:",
+      "image": null,
+      "options": [
+        "apenas a estética",
+        "a segurança e o apoio ao usuário",
+        "a ventilação",
+        "o paisagismo",
+        "a iluminação"
+      ],
+      "answer": 1,
+      "explanation": "Corrimãos auxiliam estabilidade e segurança."
+    },
+    {
+      "id": "ARQ-120",
+      "area": "ESP",
+      "topic": "BIM e coordenação",
+      "difficulty": 5,
+      "statement": "O uso de BIM para extração de quantitativos tem como principal benefício:",
+      "image": null,
+      "options": [
+        "substituir a fiscalização",
+        "reduzir a necessidade de projeto executivo",
+        "diminuir erros de medição e facilitar atualização",
+        "eliminar a compatibilização",
+        "substituir o orçamento"
+      ],
+      "answer": 2,
+      "explanation": "Quantitativos vinculados ao modelo reduzem erros e facilitam revisões."
+    },
+    {
+      "id": "ARQ-121",
+      "area": "ESP",
+      "topic": "Etapas de projeto",
+      "difficulty": 3,
+      "statement": "Em um contrato de elaboração de projetos para reforma, o gestor solicitou que a equipe apresentasse alternativas de partido e arranjos de layout com base nas necessidades do órgão, ainda sem soluções construtivas detalhadas. A etapa mais compatível com essa entrega é:",
+      "image": null,
+      "options": [
+        "projeto executivo",
+        "as built",
+        "estudo preliminar",
+        "detalhamento de esquadrias",
+        "plano de manutenção predial"
+      ],
+      "answer": 2,
+      "explanation": "No estudo preliminar consolidam-se alternativas e diretrizes gerais, sem detalhamento executivo."
+    },
+    {
+      "id": "ARQ-122",
+      "area": "ESP",
+      "topic": "Programa de necessidades",
+      "difficulty": 3,
+      "statement": "Em um edifício administrativo, a definição de relações funcionais (proximidade entre setores, fluxos de usuários e restrições operacionais) deve constar prioritariamente no(a):",
+      "image": null,
+      "options": [
+        "memorial descritivo de acabamentos",
+        "programa de necessidades",
+        "caderno de detalhes executivos",
+        "planta de locação",
+        "levantamento planialtimétrico"
+      ],
+      "answer": 1,
+      "explanation": "Programa de necessidades reúne requisitos, relações funcionais e fluxos que orientam a solução."
+    },
+    {
+      "id": "ARQ-123",
+      "area": "ESP",
+      "topic": "Implantação",
+      "difficulty": 3,
+      "statement": "Ao implantar uma edificação em lote urbano, a orientação e o sombreamento das aberturas são decisões que impactam diretamente:",
+      "image": null,
+      "options": [
+        "o cálculo de armaduras do concreto",
+        "o desempenho térmico e lumínico interno",
+        "a escolha do tipo de fundação",
+        "o dimensionamento de reservatórios",
+        "o número de vagas exigidas pelo órgão"
+      ],
+      "answer": 1,
+      "explanation": "Orientação e sombreamento afetam ganhos solares e iluminação natural."
+    },
+    {
+      "id": "ARQ-124",
+      "area": "ESP",
+      "topic": "Conforto térmico",
+      "difficulty": 4,
+      "statement": "Em clima quente e úmido, para reduzir desconforto por calor sem depender exclusivamente de ar-condicionado, a medida arquitetônica mais coerente é:",
+      "image": null,
+      "options": [
+        "aumentar a vedação e eliminar ventilação",
+        "priorizar sombreamento e ventilação cruzada, com controle da insolação direta",
+        "usar vidro comum em fachadas críticas sem proteção",
+        "adotar materiais de alta absorção solar em cobertura",
+        "reduzir aberturas ao mínimo possível"
+      ],
+      "answer": 1,
+      "explanation": "Sombreamento + ventilação cruzada são estratégias-chave em quente e úmido."
+    },
+    {
+      "id": "ARQ-125",
+      "area": "ESP",
+      "topic": "Conforto acústico",
+      "difficulty": 4,
+      "statement": "Em uma sala de reuniões, a queixa principal era eco e dificuldade de compreensão. A intervenção mais adequada para reduzir reverberação é:",
+      "image": null,
+      "options": [
+        "aumentar superfícies rígidas e lisas",
+        "instalar materiais absorventes/difusores em pontos estratégicos",
+        "substituir forro por vidro",
+        "remover mobiliário estofado",
+        "abrir vãos entre salas para ventilação"
+      ],
+      "answer": 1,
+      "explanation": "Controle de reverberação melhora com absorção e/ou difusão acústica."
+    },
+
+    {
+      "id": "ARQ-126",
+      "area": "ESP",
+      "topic": "Representação gráfica (pegadinha)",
+      "difficulty": 4,
+      "statement": "Em um corte arquitetônico, o projetista representou com hachura todos os elementos visíveis, inclusive os que estão apenas ao fundo do plano de corte. Considerando convenções de desenho, o procedimento correto é:",
+      "image": null,
+      "options": [
+        "hachurar tudo o que estiver visível para destacar volumes",
+        "hachurar apenas os elementos seccionados pelo plano de corte",
+        "hachurar apenas os elementos acima do plano de corte",
+        "hachurar apenas os elementos de alvenaria, nunca estrutura",
+        "não usar hachuras em cortes, apenas linhas"
+      ],
+      "answer": 1,
+      "explanation": "Hachuras destacam elementos efetivamente seccionados; o que está em vista ao fundo usa linhas adequadas."
+    },
+
+    {
+      "id": "ARQ-127",
+      "area": "ESP",
+      "topic": "Materiais e especificações",
+      "difficulty": 3,
+      "statement": "Ao especificar piso para circulação pública com alta demanda, a decisão mais técnica deve priorizar:",
+      "image": null,
+      "options": [
+        "apenas o menor custo",
+        "desempenho (abrasão, limpeza, antiderrapância) e adequação ao uso",
+        "apenas a cor e o brilho",
+        "o material mais pesado disponível",
+        "somente a disponibilidade imediata"
+      ],
+      "answer": 1,
+      "explanation": "Especificação deve considerar desempenho e condições reais de uso/manutenção."
+    },
+    {
+      "id": "ARQ-128",
+      "area": "ESP",
+      "topic": "Detalhamento construtivo",
+      "difficulty": 4,
+      "statement": "Em áreas externas, o detalhamento de pingadeiras e arremates tem como objetivo principal:",
+      "image": null,
+      "options": [
+        "aumentar a insolação no interior",
+        "reduzir infiltrações e manchas por escoamento inadequado",
+        "melhorar a acústica interna",
+        "dispensar impermeabilização",
+        "eliminar juntas de dilatação"
+      ],
+      "answer": 1,
+      "explanation": "Pingadeiras/arremates conduzem a água e reduzem umidade/infiltrações e sujidade."
+    },
+    {
+      "id": "ARQ-129",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 4,
+      "statement": "Em revisão de projeto, foi identificado que o shaft hidráulico projetado não comporta todas as prumadas e seus afastamentos mínimos, gerando improvisos previstos em obra. Isso indica falha principalmente de:",
+      "image": null,
+      "options": [
+        "estética de fachada",
+        "coordenação e dimensionamento compatibilizado de infraestrutura",
+        "programa de necessidades",
+        "insolação e ventilação",
+        "paisagismo"
+      ],
+      "answer": 1,
+      "explanation": "Shaft deve ser dimensionado e coordenado com instalações; falhas causam improviso e retrabalho."
+    },
+    {
+      "id": "ARQ-130",
+      "area": "ESP",
+      "topic": "Instalações prediais",
+      "difficulty": 4,
+      "statement": "A previsão de espaços técnicos (shafts, casas de máquinas, áreas de condensadoras, etc.) no projeto arquitetônico é importante principalmente porque:",
+      "image": null,
+      "options": [
+        "substitui o projeto de instalações",
+        "evita interferências e garante manutenção e operação adequadas",
+        "elimina a necessidade de ventilação natural",
+        "reduz o número de ambientes do programa",
+        "dispensa o memorial descritivo"
+      ],
+      "answer": 1,
+      "explanation": "Espaços técnicos bem previstos reduzem interferências e garantem manutenção e operação."
+    },
+
+    {
+      "id": "ARQ-131",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 4,
+      "statement": "Uma planilha de quantitativos bem elaborada é especialmente relevante porque:",
+      "image": null,
+      "options": [
+        "substitui as pranchas executivas",
+        "facilita medição, fiscalização e transparência do custo",
+        "elimina a necessidade de especificação",
+        "dispensa compatibilização",
+        "define automaticamente o partido"
+      ],
+      "answer": 1,
+      "explanation": "Quantitativos sustentam controle, medição e fiscalização em obra."
+    },
+
+    {
+      "id": "ARQ-132",
+      "area": "ESP",
+      "topic": "BIM e quantitativos (pegadinha)",
+      "difficulty": 4,
+      "statement": "Em BIM, a extração de quantitativos pode ser mais confiável do que no CAD 2D porque:",
+      "image": null,
+      "options": [
+        "é sempre automática e dispensa conferência humana",
+        "depende de um modelo consistente, com elementos corretamente parametrizados e modelados",
+        "substitui a necessidade de projeto executivo",
+        "elimina erros por definição, independentemente do modelo",
+        "dispensa compatibilização interdisciplinar"
+      ],
+      "answer": 1,
+      "explanation": "BIM melhora confiabilidade se o modelo for consistente; ainda exige controle e verificação."
+    },
+
+    {
+      "id": "ARQ-133",
+      "area": "ESP",
+      "topic": "Inspeção predial",
+      "difficulty": 4,
+      "statement": "Em inspeção, fissuras mapeadas em revestimento, associadas a umidade, demandam inicialmente:",
+      "image": null,
+      "options": [
+        "repintura imediata como solução definitiva",
+        "diagnóstico com registro, verificação de origem e proposta de correção compatível",
+        "substituição total da estrutura",
+        "demolição do ambiente afetado",
+        "aplicação de selante sem investigar"
+      ],
+      "answer": 1,
+      "explanation": "Inspeção requer diagnóstico: identificar origem, registrar evidências e propor medidas adequadas."
+    },
+    {
+      "id": "ARQ-134",
+      "area": "ESP",
+      "topic": "Patologia",
+      "difficulty": 4,
+      "statement": "Fissuras próximas a encontros entre alvenaria e estrutura, frequentemente, decorrem de:",
+      "image": null,
+      "options": [
+        "falha de acústica",
+        "movimentação diferencial entre materiais/elementos",
+        "excesso de iluminação natural",
+        "erro de paisagismo",
+        "uso de tinta clara"
+      ],
+      "answer": 1,
+      "explanation": "Movimentações diferentes geram tensões e fissuração em interfaces alvenaria/estrutura."
+    },
+    {
+      "id": "ARQ-135",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 4,
+      "statement": "Em rota acessível, o uso de piso tátil de alerta é apropriado principalmente para:",
+      "image": null,
+      "options": [
+        "orientar percurso em longos corredores retos",
+        "sinalizar situações de risco e mudança de nível",
+        "substituir corrimãos",
+        "indicar a cor do ambiente",
+        "reduzir a largura mínima de circulação"
+      ],
+      "answer": 1,
+      "explanation": "Piso tátil de alerta sinaliza risco (escadas, desníveis, travessias etc.)."
+    },
+    {
+      "id": "ARQ-136",
+      "area": "ESP",
+      "topic": "Estruturas (concreto)",
+      "difficulty": 3,
+      "statement": "No concreto armado, a justificativa do uso de armadura está associada ao comportamento do concreto sob:",
+      "image": null,
+      "options": [
+        "compressão",
+        "tração",
+        "abrasão",
+        "expansão térmica",
+        "umidade"
+      ],
+      "answer": 1,
+      "explanation": "Concreto é fraco à tração; aço assume esforços de tração."
+    },
+    {
+      "id": "ARQ-137",
+      "area": "ESP",
+      "topic": "Estruturas metálicas",
+      "difficulty": 4,
+      "statement": "Em estrutura metálica exposta, a medida preventiva mais importante para durabilidade é:",
+      "image": null,
+      "options": [
+        "aumentar a área envidraçada da fachada",
+        "proteção anticorrosiva adequada e detalhamento que evite acúmulo de água",
+        "pintura interna escura",
+        "eliminar juntas e emendas",
+        "dispensar manutenção por ser metal"
+      ],
+      "answer": 1,
+      "explanation": "Proteção anticorrosiva e detalhe para evitar água parada são essenciais."
+    },
+    {
+      "id": "ARQ-138",
+      "area": "ESP",
+      "topic": "Projeto de cobertura",
+      "difficulty": 4,
+      "statement": "A ausência de caimento adequado em laje de cobertura pode resultar principalmente em:",
+      "image": null,
+      "options": [
+        "melhora acústica",
+        "empoçamento e infiltrações",
+        "redução de temperatura",
+        "eliminação de manutenção",
+        "melhora de ventilação"
+      ],
+      "answer": 1,
+      "explanation": "Sem caimento, ocorre empoçamento e aumento do risco de infiltrações."
+    },
+
+    {
+      "id": "ARQ-139",
+      "area": "ESP",
+      "topic": "Orçamento e cronograma (pegadinha)",
+      "difficulty": 4,
+      "statement": "O cronograma físico-financeiro, em obras públicas, é utilizado principalmente para:",
+      "image": null,
+      "options": [
+        "substituir o orçamento detalhado, pois já contém os custos",
+        "vincular o avanço físico das etapas ao desembolso previsto ao longo do tempo",
+        "definir o partido arquitetônico e o layout",
+        "dispensar medições e fiscalização",
+        "eliminar aditivos contratuais por definição"
+      ],
+      "answer": 1,
+      "explanation": "Ele relaciona etapas físicas e desembolsos no tempo; não substitui orçamento nem fiscalização."
+    },
+
+    {
+      "id": "ARQ-140",
+      "area": "ESP",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "A principal consequência prática de um caderno de encargos/genérico e pouco específico para a obra é:",
+      "image": null,
+      "options": [
+        "aumento da precisão e redução de disputas",
+        "ampliação de interpretações divergentes, riscos e conflitos na execução",
+        "redução de necessidade de detalhamento",
+        "eliminação de revisões",
+        "melhora automática da qualidade"
+      ],
+      "answer": 1,
+      "explanation": "Documentos genéricos ampliam interpretações e disputas na execução."
+    },
+    {
+      "id": "ARQ-141",
+      "area": "ESP",
+      "topic": "Desempenho e manutenção",
+      "difficulty": 4,
+      "statement": "Ao detalhar casa de máquinas e acesso a equipamentos, o projeto está atendendo sobretudo ao critério de:",
+      "image": null,
+      "options": [
+        "estética de fachada",
+        "manutenibilidade/operabilidade",
+        "simetria formal",
+        "expansão urbana",
+        "ornamentação"
+      ],
+      "answer": 1,
+      "explanation": "Manutenibilidade depende de acesso e condições adequadas de operação e inspeção."
+    },
+    {
+      "id": "ARQ-142",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 4,
+      "statement": "Em coordenação BIM, o modelo federado tem maior utilidade quando:",
+      "image": null,
+      "options": [
+        "apenas arquitetura é modelada",
+        "há integração de disciplinas para verificação de interferências e consistência",
+        "o objetivo é apenas renderização artística",
+        "não existem projetos complementares",
+        "a obra é dispensada"
+      ],
+      "answer": 1,
+      "explanation": "Modelo federado integra disciplinas para coordenação e detecção de interferências."
+    },
+    {
+      "id": "ARQ-143",
+      "area": "ESP",
+      "topic": "Desenho arquitetônico",
+      "difficulty": 3,
+      "statement": "Em planta, elementos acima do plano de corte (beirais, marquises, armários suspensos) devem ser indicados preferencialmente por:",
+      "image": null,
+      "options": [
+        "linha contínua grossa",
+        "hachura densa",
+        "linha tracejada",
+        "linha dupla em negrito",
+        "linha de eixo apenas"
+      ],
+      "answer": 2,
+      "explanation": "Linhas tracejadas indicam elementos acima do plano de corte."
+    },
+    {
+      "id": "ARQ-144",
+      "area": "ESP",
+      "topic": "Conforto lumínico",
+      "difficulty": 4,
+      "statement": "Um recurso arquitetônico que tende a aumentar iluminação difusa e reduzir contraste excessivo é:",
+      "image": null,
+      "options": [
+        "abertura zenital com controle (difusor/claraboia tratada)",
+        "vidro espelhado a oeste sem proteção",
+        "pintura interna preta",
+        "eliminação de aberturas",
+        "uso de lâmpadas incandescentes"
+      ],
+      "answer": 0,
+      "explanation": "Aberturas zenitais controladas podem aumentar luz difusa com controle de brilho."
+    },
+    {
+      "id": "ARQ-145",
+      "area": "ESP",
+      "topic": "Topografia e drenagem",
+      "difficulty": 4,
+      "statement": "A adoção de soluções que respeitam declividade e direcionam águas superficiais reduz principalmente:",
+      "image": null,
+      "options": [
+        "necessidade de ventilação",
+        "riscos de erosão e problemas de drenagem",
+        "quantidade de instalações elétricas",
+        "demanda por iluminação artificial",
+        "número de pranchas"
+      ],
+      "answer": 1,
+      "explanation": "Boa implantação e drenagem reduzem erosão e problemas por escoamento superficial."
+    },
+
+    {
+      "id": "ARQ-146",
+      "area": "ESP",
+      "topic": "Patrimônio histórico",
+      "difficulty": 4,
+      "statement": "Uma intervenção adequada em bem cultural busca, em regra, evitar falsificação histórica. Isso se traduz em:",
+      "image": null,
+      "options": [
+        "recriar elementos sem base documental para “embelezar”",
+        "substituir tudo por materiais modernos",
+        "distinguir, quando necessário, o novo do antigo e documentar intervenções",
+        "eliminar registros de obra para evitar contestação",
+        "priorizar gosto do usuário acima do valor cultural"
+      ],
+      "answer": 2,
+      "explanation": "Boas práticas orientam documentação e leitura do que é intervenção, sem falsificação."
+    },
+
+    {
+      "id": "ARQ-147",
+      "area": "ESP",
+      "topic": "Acessibilidade (pegadinha)",
+      "difficulty": 4,
+      "statement": "Em rota acessível, o projetista argumentou que uma pequena diferença de nível “não precisa de solução”, pois usuários poderiam 'dar um jeito'. Considerando princípios de acessibilidade, a postura correta é:",
+      "image": null,
+      "options": [
+        "aceitar desníveis, desde que pintados de cor forte",
+        "considerar a diferença de nível e prever solução adequada (rampa/chanfro) conforme o caso",
+        "substituir por piso tátil direcional",
+        "eliminar o desnível apenas se houver elevador próximo",
+        "manter o desnível e sinalizar com placa apenas"
+      ],
+      "answer": 1,
+      "explanation": "Acessibilidade exige tratamento adequado de desníveis para garantir segurança e autonomia."
+    },
+
+    {
+      "id": "ARQ-148",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 4,
+      "statement": "A ausência de especificações claras em itens de acabamento, em obra pública, tende a gerar:",
+      "image": null,
+      "options": [
+        "padronização automática dos materiais",
+        "disputas sobre equivalência e qualidade, além de risco de materiais inadequados",
+        "redução de aditivos por definição",
+        "eliminação de fiscalização",
+        "melhora de desempenho por liberdade do executor"
+      ],
+      "answer": 1,
+      "explanation": "Especificações vagas geram disputas e risco de escolhas inadequadas."
+    },
+    {
+      "id": "ARQ-149",
+      "area": "ESP",
+      "topic": "Inspeção e laudos",
+      "difficulty": 4,
+      "statement": "Em laudo, atribuir causa e responsabilidade sem evidências técnicas e sem investigação adequada é considerado:",
+      "image": null,
+      "options": [
+        "boa prática para reduzir tempo",
+        "conduta tecnicamente inadequada e questionável",
+        "procedimento padrão em inspeção",
+        "irrelevante, pois laudo é opinião",
+        "necessário para qualquer vistoria"
+      ],
+      "answer": 1,
+      "explanation": "Laudos devem ser fundamentados; conclusões sem base são falhas graves."
+    },
+    {
+      "id": "ARQ-150",
+      "area": "ESP",
+      "topic": "Compatibilização",
+      "difficulty": 4,
+      "statement": "A decisão de prever um shaft maior do que o mínimo estritamente necessário pode ser tecnicamente justificada por:",
+      "image": null,
+      "options": [
+        "aumentar custo sem benefício",
+        "permitir manutenção, futuras ampliações e acomodar tolerâncias construtivas",
+        "eliminar a necessidade de instalações",
+        "dispensar o projeto elétrico",
+        "garantir estética interna"
+      ],
+      "answer": 1,
+      "explanation": "Shaft dimensionado com folga favorece manutenção, expansão e tolerâncias."
+    },
+    {
+      "id": "ARQ-151",
+      "area": "ESP",
+      "topic": "Eficiência energética",
+      "difficulty": 3,
+      "statement": "Entre as opções abaixo, a que tende a reduzir consumo de iluminação artificial em horário comercial é:",
+      "image": null,
+      "options": [
+        "setorização de luminárias com controle e uso de luz natural difusa",
+        "uso de vidro escuro e eliminação de aberturas",
+        "pintura interna escura",
+        "aumento de ofuscamento para “parecer claro”",
+        "redução do pé-direito sem planejamento"
+      ],
+      "answer": 0,
+      "explanation": "Aproveitar luz natural e controlar luminárias por zonas reduz consumo."
+    },
+    {
+      "id": "ARQ-152",
+      "area": "ESP",
+      "topic": "Sistemas construtivos",
+      "difficulty": 3,
+      "statement": "Em sistemas de vedação, a especificação de juntas e selantes é importante sobretudo para:",
+      "image": null,
+      "options": [
+        "reduzir ventilação natural",
+        "acomodar movimentações e reduzir infiltrações",
+        "aumentar a massa térmica",
+        "eliminar a necessidade de pingadeira",
+        "substituir impermeabilização"
+      ],
+      "answer": 1,
+      "explanation": "Juntas e selantes acomodam movimentações e evitam entrada de água/ar."
+    },
+    {
+      "id": "ARQ-153",
+      "area": "ESP",
+      "topic": "Urbanismo",
+      "difficulty": 3,
+      "statement": "A qualificação de calçadas (largura, sombreamento, acessibilidade) está mais diretamente relacionada à:",
+      "image": null,
+      "options": [
+        "resistência do concreto estrutural",
+        "mobilidade urbana e conforto do pedestre",
+        "escolha do tipo de fundação",
+        "cálculo de dutos de climatização",
+        "decoração de interiores"
+      ],
+      "answer": 1,
+      "explanation": "Calçadas qualificadas impactam mobilidade e conforto do pedestre."
+    },
+    {
+      "id": "ARQ-154",
+      "area": "ESP",
+      "topic": "BIM",
+      "difficulty": 4,
+      "statement": "Uma vantagem de manter parâmetros e informações consistentes no modelo BIM é:",
+      "image": null,
+      "options": [
+        "garantir que qualquer extração seja correta sem conferência",
+        "permitir atualização coordenada de quantitativos e documentação",
+        "dispensar detalhamento executivo",
+        "eliminar a necessidade de licenciamento",
+        "substituir o caderno de encargos"
+      ],
+      "answer": 1,
+      "explanation": "Consistência de parâmetros favorece atualizações coerentes entre modelo e documentação."
+    },
+
+    {
+      "id": "ARQ-155",
+      "area": "ESP",
+      "topic": "Conforto térmico",
+      "difficulty": 4,
+      "statement": "Um erro recorrente em projeto que aumenta carga térmica em climas quentes é:",
+      "image": null,
+      "options": [
+        "priorizar sombreamento e ventilação",
+        "concentrar aberturas em fachadas críticas sem proteção",
+        "usar beirais e marquises",
+        "adotar ventilação cruzada",
+        "proteger cobertura"
+      ],
+      "answer": 1,
+      "explanation": "Aberturas em fachadas críticas sem proteção elevam ganhos solares e carga térmica."
+    },
+    {
+      "id": "ARQ-156",
+      "area": "ESP",
+      "topic": "Inspeção predial",
+      "difficulty": 4,
+      "statement": "Em inspeção, registrar \"trincas\" sem indicar localização, extensão e padrão dificulta:",
+      "image": null,
+      "options": [
+        "a escolha de mobiliário",
+        "a rastreabilidade e o acompanhamento do problema",
+        "o desenho das pranchas",
+        "o estudo de insolação",
+        "o paisagismo"
+      ],
+      "answer": 1,
+      "explanation": "Descrição técnica precisa permite acompanhar evolução e definir intervenção."
+    },
+    {
+      "id": "ARQ-157",
+      "area": "ESP",
+      "topic": "Orçamento",
+      "difficulty": 4,
+      "statement": "Quando o orçamento não explicita critérios de medição (o que entra e o que não entra), o efeito típico é:",
+      "image": null,
+      "options": [
+        "redução de divergências",
+        "aumento de disputas na medição e risco de aditivos",
+        "eliminação de necessidade de fiscalização",
+        "maior precisão automática",
+        "execução sem interferências"
+      ],
+      "answer": 1,
+      "explanation": "Critérios de medição mal definidos geram disputas e aumentam risco contratual."
+    },
+
+    {
+      "id": "ARQ-158",
+      "area": "ESP",
+      "topic": "Projeto e obra (pegadinha)",
+      "difficulty": 4,
+      "statement": "Uma equipe defendeu que “detalhe construtivo é luxo” e que o canteiro resolverá. Em obras públicas, a consequência mais provável dessa decisão é:",
+      "image": null,
+      "options": [
+        "redução de aditivos e maior previsibilidade",
+        "aumento de improvisos, retrabalhos e conflitos de interpretação",
+        "eliminação de patologias por ser obra nova",
+        "dispensa de fiscalização",
+        "redução de prazo por simplificação"
+      ],
+      "answer": 1,
+      "explanation": "Detalhamento insuficiente aumenta improvisos, retrabalho e conflitos, especialmente em contratos públicos."
+    },
+
+    {
+      "id": "ARQ-159",
+      "area": "ESP",
+      "topic": "Patologia",
+      "difficulty": 4,
+      "statement": "O uso de materiais com coeficientes de dilatação muito diferentes, sem juntas adequadas, tende a resultar em:",
+      "image": null,
+      "options": [
+        "melhora acústica",
+        "fissuração e falhas em selamentos/revestimentos",
+        "redução de manutenção",
+        "eliminação de infiltrações",
+        "aumento de conforto lumínico"
+      ],
+      "answer": 1,
+      "explanation": "Movimentações diferentes sem juntas geram fissuras e falhas em selantes e revestimentos."
+    },
+    {
+      "id": "ARQ-160",
+      "area": "ESP",
+      "topic": "Acessibilidade",
+      "difficulty": 3,
+      "statement": "Em circulação acessível interna, uma medida simples que reduz risco de queda e aumenta segurança é:",
+      "image": null,
+      "options": [
+        "usar piso altamente polido",
+        "evitar obstáculos salientes e garantir piso regular e antiderrapante",
+        "reduzir iluminação para evitar ofuscamento",
+        "aumentar desníveis para orientar o usuário",
+        "eliminar sinalização"
+      ],
+      "answer": 1,
+      "explanation": "Piso regular e antiderrapante, com percurso desobstruído, aumenta segurança na rota acessível."
+    }
+  ]
+}

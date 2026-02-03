@@ -1,0 +1,1018 @@
+﻿{
+  "questions": [
+    {
+      "id": "HGR-021",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "A criação do Território Federal do Guaporé, em 1943, insere-se no contexto histórico da política de:",
+      "image": null,
+      "options": [
+        "industrialização acelerada do Centro-Oeste",
+        "integração e ocupação estratégica da Amazônia",
+        "substituição das economias extrativistas",
+        "interiorização da capital federal",
+        "expansão da fronteira cafeeira"
+      ],
+      "answer": 1,
+      "explanation": "A criação do Território do Guaporé ocorreu no governo Vargas, no contexto da integração e ocupação estratégica da Amazônia."
+    },
+    {
+      "id": "HGR-022",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "A Estrada de Ferro Madeira-Mamoré teve papel relevante na história regional por estar associada principalmente:",
+      "image": null,
+      "options": [
+        "à consolidação da agricultura mecanizada",
+        "ao escoamento da produção gomífera",
+        "à expansão da mineração de ferro",
+        "ao transporte de café para o Sudeste",
+        "à ocupação urbana planejada"
+      ],
+      "answer": 1,
+      "explanation": "A ferrovia foi construída para escoar a borracha produzida na região amazônica."
+    },
+    {
+      "id": "HGR-023",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "O processo de transformação do Território Federal de Rondônia em Estado, ocorrido em 1981, está relacionado:",
+      "image": null,
+      "options": [
+        "à implantação da Zona Franca de Manaus",
+        "ao crescimento populacional decorrente da colonização dirigida",
+        "à descoberta de grandes jazidas minerais",
+        "à criação da Superintendência da Amazônia",
+        "à construção da rodovia Transamazônica"
+      ],
+      "answer": 1,
+      "explanation": "O crescimento populacional impulsionado por projetos de colonização levou à elevação do território à condição de Estado."
+    },
+    {
+      "id": "HGR-024",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "O nome do Estado de Rondônia constitui homenagem histórica a:",
+      "image": null,
+      "options": [
+        "Euclides da Cunha",
+        "Cândido Mariano da Silva Rondon",
+        "Plácido de Castro",
+        "Marechal Deodoro da Fonseca",
+        "Barão do Rio Branco"
+      ],
+      "answer": 1,
+      "explanation": "O nome Rondônia homenageia o Marechal Cândido Rondon."
+    },
+    {
+      "id": "HGR-025",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "No que se refere à posição geográfica de Rondônia, é correto afirmar que o estado:",
+      "image": null,
+      "options": [
+        "integra a Amazônia Legal e pertence à Região Norte",
+        "situa-se integralmente na Região Centro-Oeste",
+        "faz fronteira com três países sul-americanos",
+        "apresenta predomínio de clima semiárido",
+        "possui extensa faixa litorânea"
+      ],
+      "answer": 0,
+      "explanation": "Rondônia pertence à Região Norte e integra a Amazônia Legal."
+    },
+    {
+      "id": "HGR-026",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A rede hidrográfica de Rondônia insere-se majoritariamente na bacia:",
+      "image": null,
+      "options": [
+        "do Paraná",
+        "do Tocantins-Araguaia",
+        "do São Francisco",
+        "Amazônica",
+        "do Paraguai"
+      ],
+      "answer": 3,
+      "explanation": "Os rios de Rondônia integram a Bacia Amazônica, especialmente por meio do rio Madeira."
+    },
+    {
+      "id": "HGR-027",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O rio Madeira assume relevância econômica para Rondônia principalmente em função:",
+      "image": null,
+      "options": [
+        "da navegação fluvial e do aproveitamento hidrelétrico",
+        "da irrigação intensiva de monoculturas",
+        "da mineração de ferro em suas margens",
+        "da pesca marítima",
+        "do turismo de praia"
+      ],
+      "answer": 0,
+      "explanation": "O rio Madeira é importante para navegação e geração de energia (usinas hidrelétricas)."
+    },
+    {
+      "id": "HGR-028",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O clima predominante em Rondônia caracteriza-se por:",
+      "image": null,
+      "options": [
+        "temperaturas baixas durante todo o ano",
+        "predomínio de massas de ar polares",
+        "elevada pluviosidade e estação seca definida",
+        "ausência de chuvas no verão",
+        "clima subtropical úmido"
+      ],
+      "answer": 2,
+      "explanation": "O clima é tropical úmido, com estação chuvosa e estação seca bem definidas."
+    },
+    {
+      "id": "HGR-029",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A vegetação original de Rondônia corresponde majoritariamente a formações:",
+      "image": null,
+      "options": [
+        "de cerrado",
+        "de caatinga",
+        "de floresta equatorial",
+        "de mata atlântica",
+        "de campos sulinos"
+      ],
+      "answer": 2,
+      "explanation": "Predomina a Floresta Amazônica, classificada como floresta equatorial."
+    },
+    {
+      "id": "HGR-030",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A rodovia BR-364 é considerada eixo estruturante para Rondônia por:",
+      "image": null,
+      "options": [
+        "ligar o estado ao litoral brasileiro",
+        "articular Rondônia ao Centro-Sul do país",
+        "interligar Rondônia aos países andinos",
+        "substituir integralmente o transporte fluvial",
+        "garantir acesso direto ao Oceano Pacífico"
+      ],
+      "answer": 1,
+      "explanation": "A BR-364 conecta Rondônia ao restante do território nacional, especialmente ao Centro-Sul."
+    },
+    {
+      "id": "HGR-031",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "A política de colonização agrícola implantada em Rondônia, especialmente a partir da década de 1970, teve como consequência principal:",
+      "image": null,
+      "options": [
+        "a diminuição do fluxo migratório",
+        "a consolidação de grandes latifúndios improdutivos",
+        "o crescimento populacional acelerado",
+        "a redução da atividade extrativista",
+        "a estagnação econômica regional"
+      ],
+      "answer": 2,
+      "explanation": "Os projetos de colonização atraíram migrantes e provocaram rápido crescimento populacional."
+    },
+    {
+      "id": "HGR-032",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A ocupação recente do território rondoniense está historicamente relacionada à:",
+      "image": null,
+      "options": [
+        "expansão da lavoura cafeeira",
+        "interiorização da capital federal",
+        "política de integração nacional",
+        "criação da Zona Franca de Manaus",
+        "implantação da indústria pesada"
+      ],
+      "answer": 2,
+      "explanation": "A ocupação recente liga-se às políticas federais de integração da Amazônia ao restante do país."
+    },
+    {
+      "id": "HGR-033",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "A Estrada de Ferro Madeira-Mamoré está associada historicamente a qual ciclo econômico?",
+      "image": null,
+      "options": [
+        "café",
+        "ouro",
+        "borracha",
+        "soja",
+        "madeira"
+      ],
+      "answer": 2,
+      "explanation": "A ferrovia foi construída para atender à economia da borracha."
+    },
+    {
+      "id": "HGR-034",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A criação do Território Federal do Guaporé, em 1943, deve ser compreendida no contexto:",
+      "image": null,
+      "options": [
+        "da expansão cafeeira",
+        "da política varguista de controle territorial",
+        "da abertura da rodovia Transamazônica",
+        "da industrialização do Sudeste",
+        "da descentralização administrativa"
+      ],
+      "answer": 1,
+      "explanation": "O Território do Guaporé foi criado durante o governo Vargas como estratégia de controle e integração territorial."
+    },
+    {
+      "id": "HGR-035",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "A elevação de Rondônia à categoria de Estado, em 1981, ocorreu principalmente em função:",
+      "image": null,
+      "options": [
+        "da diminuição da população",
+        "da estagnação econômica",
+        "do aumento da ocupação territorial",
+        "da descoberta de petróleo",
+        "da transferência da capital federal"
+      ],
+      "answer": 2,
+      "explanation": "O aumento populacional e a ocupação do território motivaram a transformação em Estado."
+    },
+    {
+      "id": "HGR-036",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "Rondônia apresenta fronteira internacional com:",
+      "image": null,
+      "options": [
+        "Peru",
+        "Colômbia",
+        "Bolívia",
+        "Venezuela",
+        "Guiana"
+      ],
+      "answer": 2,
+      "explanation": "Rondônia faz fronteira com a Bolívia."
+    },
+    {
+      "id": "HGR-037",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A rede hidrográfica rondoniense é caracterizada principalmente por:",
+      "image": null,
+      "options": [
+        "rios temporários e intermitentes",
+        "rios pertencentes à bacia Amazônica",
+        "rios pertencentes à bacia do Paraná",
+        "lagos naturais de grande extensão",
+        "rios com regime nival"
+      ],
+      "answer": 1,
+      "explanation": "Os rios de Rondônia pertencem majoritariamente à Bacia Amazônica."
+    },
+    {
+      "id": "HGR-038",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O rio Madeira destaca-se na dinâmica territorial de Rondônia por:",
+      "image": null,
+      "options": [
+        "permitir navegação fluvial e produção de energia",
+        "ser limite natural com o Peru",
+        "formar extensas áreas de manguezais",
+        "apresentar águas salobras",
+        "ser o menor rio do estado"
+      ],
+      "answer": 0,
+      "explanation": "O rio Madeira é importante para transporte fluvial e geração de energia."
+    },
+    {
+      "id": "HGR-039",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O relevo predominante em Rondônia pode ser classificado como:",
+      "image": null,
+      "options": [
+        "planícies litorâneas",
+        "planaltos e depressões",
+        "cordilheiras montanhosas",
+        "dobramentos modernos",
+        "planícies alagadiças"
+      ],
+      "answer": 1,
+      "explanation": "Predominam planaltos e depressões."
+    },
+    {
+      "id": "HGR-040",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O clima de Rondônia caracteriza-se por:",
+      "image": null,
+      "options": [
+        "chuvas distribuídas de forma uniforme o ano todo",
+        "ausência de estação seca",
+        "temperaturas médias elevadas e estação seca definida",
+        "predomínio de massas de ar frio",
+        "clima subtropical"
+      ],
+      "answer": 2,
+      "explanation": "O clima é tropical quente e úmido, com estação seca bem definida."
+    },
+    {
+      "id": "HGR-041",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A vegetação nativa de Rondônia insere-se no domínio morfoclimático:",
+      "image": null,
+      "options": [
+        "da Caatinga",
+        "do Cerrado",
+        "da Floresta Amazônica",
+        "da Mata Atlântica",
+        "dos Campos Sulinos"
+      ],
+      "answer": 2,
+      "explanation": "Rondônia está inserida no domínio da Floresta Amazônica."
+    },
+    {
+      "id": "HGR-042",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A BR-364 é considerada fundamental para Rondônia por:",
+      "image": null,
+      "options": [
+        "ligar o estado ao litoral brasileiro",
+        "integrar Rondônia às demais regiões do país",
+        "permitir acesso direto ao Pacífico",
+        "substituir os rios como via de transporte",
+        "interligar Rondônia ao Paraguai"
+      ],
+      "answer": 1,
+      "explanation": "A rodovia conecta Rondônia ao restante do território nacional."
+    },
+    {
+      "id": "HGR-043",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A ocupação territorial de Rondônia no século XX foi marcada pela:",
+      "image": null,
+      "options": [
+        "industrialização pesada",
+        "migração dirigida pelo Estado",
+        "estagnação demográfica",
+        "formação de grandes centros urbanos",
+        "redução das atividades rurais"
+      ],
+      "answer": 1,
+      "explanation": "Projetos estatais de colonização estimularam a migração para a região."
+    },
+    {
+      "id": "HGR-044",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "O ciclo da borracha influenciou diretamente:",
+      "image": null,
+      "options": [
+        "a construção de Brasília",
+        "a formação de Porto Velho",
+        "a industrialização de São Paulo",
+        "a urbanização do Sul do Brasil",
+        "a ocupação do Pantanal"
+      ],
+      "answer": 1,
+      "explanation": "Porto Velho se desenvolveu a partir da ferrovia ligada ao ciclo da borracha."
+    },
+    {
+      "id": "HGR-045",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A denominação Território Federal de Rondônia substituiu oficialmente a de Território Federal do Guaporé no ano de:",
+      "image": null,
+      "options": ["1956", "1954", "1960", "1943", "1970"],
+      "answer": 0,
+      "explanation": "O nome Rondônia foi adotado em 1956."
+    },
+    {
+      "id": "HGR-046",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "No contexto ambiental, Rondônia destaca-se nacionalmente por:",
+      "image": null,
+      "options": [
+        "possuir clima desértico",
+        "apresentar grande biodiversidade amazônica",
+        "situar-se fora da Amazônia Legal",
+        "concentrar a maior área de manguezais",
+        "ter predominância de campos naturais"
+      ],
+      "answer": 1,
+      "explanation": "Rondônia integra a Amazônia Legal e possui elevada biodiversidade."
+    },
+    {
+      "id": "HGR-047",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A capital Porto Velho localiza-se às margens do:",
+      "image": null,
+      "options": [
+        "rio Guaporé",
+        "rio Mamoré",
+        "rio Madeira",
+        "rio Jamari",
+        "rio Roosevelt"
+      ],
+      "answer": 2,
+      "explanation": "Porto Velho está situada às margens do rio Madeira."
+    },
+    {
+      "id": "HGR-048",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O Parque Nacional de Pacaás Novos é importante por:",
+      "image": null,
+      "options": [
+        "concentrar atividade industrial",
+        "preservar áreas de floresta amazônica",
+        "situar-se no litoral rondoniense",
+        "abrigar reservas minerais",
+        "possuir grandes áreas urbanizadas"
+      ],
+      "answer": 1,
+      "explanation": "O parque é área de preservação ambiental da Floresta Amazônica."
+    },
+    {
+      "id": "HGR-049",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "O nome Porto Velho relaciona-se historicamente:",
+      "image": null,
+      "options": [
+        "à presença de aldeias indígenas",
+        "à instalação de um antigo porto fluvial",
+        "à mineração aurífera",
+        "à colonização espanhola",
+        "à pecuária extensiva"
+      ],
+      "answer": 1,
+      "explanation": "O nome decorre da existência de um antigo porto na margem do rio Madeira."
+    },
+    {
+      "id": "HGR-050",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A expansão da fronteira agrícola em Rondônia provocou, entre outros efeitos:",
+      "image": null,
+      "options": [
+        "redução dos fluxos migratórios",
+        "estagnação da malha urbana",
+        "pressão sobre os recursos naturais",
+        "desaparecimento da navegação fluvial",
+        "crescimento da indústria pesada"
+      ],
+      "answer": 2,
+      "explanation": "A expansão agrícola intensificou a pressão ambiental sobre a floresta."
+    },
+    {
+      "id": "HGR-051",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "Rondônia integra oficialmente a chamada Amazônia Legal, o que implica:",
+      "image": null,
+      "options": [
+        "exclusão de políticas ambientais",
+        "subordinação à Região Nordeste",
+        "abrangência por políticas federais específicas",
+        "predomínio do clima semiárido",
+        "ausência de áreas protegidas"
+      ],
+      "answer": 2,
+      "explanation": "A Amazônia Legal é área definida para políticas públicas específicas."
+    },
+    {
+      "id": "HGR-052",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A hidrelétrica de Santo Antônio, no rio Madeira, insere-se no contexto:",
+      "image": null,
+      "options": [
+        "do ciclo da borracha",
+        "da industrialização paulista",
+        "da matriz energética nacional",
+        "da política cafeeira",
+        "da navegação oceânica"
+      ],
+      "answer": 2,
+      "explanation": "As hidrelétricas do Madeira fazem parte da matriz energética brasileira."
+    },
+    {
+      "id": "HGR-053",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A formação da malha urbana de Rondônia está diretamente relacionada:",
+      "image": null,
+      "options": [
+        "à mineração de carvão",
+        "às rotas fluviais e à ferrovia",
+        "à ocupação do litoral",
+        "à indústria automobilística",
+        "ao turismo internacional"
+      ],
+      "answer": 1,
+      "explanation": "Os núcleos urbanos surgiram ligados aos rios e à Estrada de Ferro Madeira-Mamoré."
+    },
+    {
+      "id": "HGR-054",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O principal bioma presente em Rondônia é:",
+      "image": null,
+      "options": [
+        "Pantanal",
+        "Cerrado",
+        "Amazônia",
+        "Caatinga",
+        "Pampa"
+      ],
+      "answer": 2,
+      "explanation": "Rondônia integra o bioma Amazônia."
+    },
+    {
+      "id": "HGR-055",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A atuação do Marechal Rondon na região amazônica relaciona-se historicamente:",
+      "image": null,
+      "options": [
+        "à exploração de petróleo",
+        "à instalação de linhas telegráficas",
+        "à construção de ferrovias",
+        "à política cafeeira",
+        "à colonização litorânea"
+      ],
+      "answer": 1,
+      "explanation": "Rondon chefiou expedições para implantação de linhas telegráficas."
+    },
+    {
+      "id": "HGR-056",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A posição geográfica de Rondônia favorece especialmente:",
+      "image": null,
+      "options": [
+        "o turismo litorâneo",
+        "a navegação marítima",
+        "a integração com países da América do Sul",
+        "a formação de desertos",
+        "a produção de trigo"
+      ],
+      "answer": 2,
+      "explanation": "A fronteira com a Bolívia favorece a integração regional sul-americana."
+    },
+    {
+      "id": "HGR-057",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A política de integração nacional, aplicada à Amazônia, visava principalmente:",
+      "image": null,
+      "options": [
+        "isolar a região",
+        "estimular a ocupação e o povoamento",
+        "reduzir a presença do Estado",
+        "limitar a atividade agrícola",
+        "transferir a capital do país"
+      ],
+      "answer": 1,
+      "explanation": "O objetivo era ocupar e integrar a região ao território nacional."
+    },
+    {
+      "id": "HGR-058",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O território de Rondônia caracteriza-se por apresentar:",
+      "image": null,
+      "options": [
+        "grande diversidade de rios e florestas",
+        "predomínio de desertos",
+        "extensas áreas de tundra",
+        "clima temperado",
+        "cadeias montanhosas elevadas"
+      ],
+      "answer": 0,
+      "explanation": "O estado possui grande diversidade hidrográfica e florestal."
+    },
+    {
+      "id": "HGR-059",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "O desenvolvimento econômico inicial de Rondônia esteve associado principalmente:",
+      "image": null,
+      "options": [
+        "à industrialização pesada",
+        "à economia extrativista",
+        "à produção de café",
+        "à indústria naval",
+        "à pecuária intensiva"
+      ],
+      "answer": 1,
+      "explanation": "A economia inicial foi marcada pelo extrativismo, sobretudo da borracha."
+    },
+    {
+      "id": "HGR-060",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A localização de Rondônia na Região Norte implica, do ponto de vista geográfico:",
+      "image": null,
+      "options": [
+        "predomínio de relevo montanhoso",
+        "domínio de florestas tropicais",
+        "clima mediterrâneo",
+        "grande faixa litorânea",
+        "predomínio de campos naturais"
+      ],
+      "answer": 1,
+      "explanation": "A Região Norte é marcada pelo domínio da Floresta Amazônica."
+    },
+    {
+      "id": "HGR-061",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A criação do Território Federal do Guaporé, em 1943, pode ser compreendida como parte da estratégia governamental de:",
+      "image": null,
+      "options": [
+        "estimular a industrialização da Amazônia",
+        "integrar politicamente áreas consideradas periféricas",
+        "substituir a economia extrativista pela agrícola",
+        "transferir a capital federal para o Norte",
+        "reduzir a presença militar na fronteira"
+      ],
+      "answer": 1,
+      "explanation": "A criação do território inseriu-se na política de integração e controle territorial do governo Vargas."
+    },
+    {
+      "id": "HGR-062",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A Estrada de Ferro Madeira-Mamoré representou, historicamente, uma resposta brasileira à necessidade de:",
+      "image": null,
+      "options": [
+        "escoamento da produção cafeeira",
+        "ligação terrestre com o Sudeste",
+        "atendimento às exigências do Tratado de Petrópolis",
+        "substituição da navegação marítima",
+        "implantação da indústria siderúrgica"
+      ],
+      "answer": 2,
+      "explanation": "A ferrovia foi construída no contexto do Tratado de Petrópolis, para garantir o escoamento da borracha boliviana."
+    },
+    {
+      "id": "HGR-063",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "O processo de ocupação recente de Rondônia, intensificado a partir da década de 1970, relaciona-se principalmente:",
+      "image": null,
+      "options": [
+        "à expansão da mineração",
+        "à política federal de colonização dirigida",
+        "à interiorização da capital",
+        "à implantação da Zona Franca de Manaus",
+        "à abertura da rodovia Belém-Brasília"
+      ],
+      "answer": 1,
+      "explanation": "A ocupação recente decorreu de políticas de colonização agrícola implementadas pelo governo federal."
+    },
+    {
+      "id": "HGR-064",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A elevação de Rondônia à condição de Estado, em 1981, está associada:",
+      "image": null,
+      "options": [
+        "à estagnação econômica regional",
+        "ao crescimento populacional e administrativo",
+        "à descoberta de grandes reservas minerais",
+        "à criação da Amazônia Legal",
+        "à transferência da capital federal"
+      ],
+      "answer": 1,
+      "explanation": "O crescimento demográfico e administrativo justificou a transformação em Estado."
+    },
+    {
+      "id": "HGR-065",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "No que se refere à hidrografia, Rondônia insere-se predominantemente na bacia:",
+      "image": null,
+      "options": [
+        "do Tocantins-Araguaia",
+        "do Paraná",
+        "Amazônica",
+        "do Paraguai",
+        "do São Francisco"
+      ],
+      "answer": 2,
+      "explanation": "Os rios de Rondônia pertencem majoritariamente à Bacia Amazônica."
+    },
+    {
+      "id": "HGR-066",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O rio Madeira assume importância estratégica para Rondônia principalmente em função:",
+      "image": null,
+      "options": [
+        "da pesca oceânica",
+        "da navegação fluvial e do aproveitamento hidrelétrico",
+        "da irrigação intensiva de monoculturas",
+        "do transporte marítimo",
+        "da mineração de carvão"
+      ],
+      "answer": 1,
+      "explanation": "O rio Madeira é fundamental para transporte fluvial e geração de energia."
+    },
+    {
+      "id": "HGR-067",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "O clima predominante em Rondônia caracteriza-se por:",
+      "image": null,
+      "options": [
+        "chuvas escassas durante todo o ano",
+        "predomínio de massas de ar frio",
+        "elevadas temperaturas e estação seca definida",
+        "clima temperado",
+        "ausência de período chuvoso"
+      ],
+      "answer": 2,
+      "explanation": "O clima é tropical quente e úmido, com estação seca bem definida."
+    },
+    {
+      "id": "HGR-068",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "A vegetação original de Rondônia corresponde, em sua maior parte, a formações:",
+      "image": null,
+      "options": [
+        "campestres",
+        "de cerrado",
+        "de floresta equatorial",
+        "de mata atlântica",
+        "de caatinga"
+      ],
+      "answer": 2,
+      "explanation": "Predomina a Floresta Amazônica, também denominada floresta equatorial."
+    },
+    {
+      "id": "HGR-069",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O relevo de Rondônia pode ser caracterizado, de modo geral, como:",
+      "image": null,
+      "options": [
+        "montanhoso e escarpado",
+        "formado por planaltos e depressões",
+        "predominantemente desértico",
+        "constituído por cordilheiras",
+        "tipicamente alpino"
+      ],
+      "answer": 1,
+      "explanation": "Predominam planaltos e depressões no relevo rondoniense."
+    },
+    {
+      "id": "HGR-070",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A BR-364 desempenha papel estruturador no território de Rondônia por:",
+      "image": null,
+      "options": [
+        "ligar o estado diretamente ao Oceano Pacífico",
+        "substituir totalmente o transporte fluvial",
+        "integrar Rondônia ao Centro-Sul do país",
+        "promover exclusivamente o turismo",
+        "servir como fronteira internacional"
+      ],
+      "answer": 2,
+      "explanation": "A BR-364 conecta Rondônia às demais regiões do Brasil, especialmente ao Centro-Sul."
+    },
+    {
+      "id": "HGR-071",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A política de integração nacional aplicada à Amazônia, durante o regime militar, tinha como objetivo central:",
+      "image": null,
+      "options": [
+        "estimular a emigração para o exterior",
+        "ocupar e integrar economicamente a região",
+        "preservar integralmente a floresta",
+        "reduzir a presença do Estado",
+        "concentrar a população no litoral"
+      ],
+      "answer": 1,
+      "explanation": "A política buscava integrar e ocupar a Amazônia por meio de infraestrutura e colonização."
+    },
+    {
+      "id": "HGR-072",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 3,
+      "statement": "O desenvolvimento inicial de Porto Velho está historicamente ligado:",
+      "image": null,
+      "options": [
+        "à implantação da Zona Franca",
+        "ao ciclo da borracha e à ferrovia",
+        "à mineração de ouro",
+        "à pecuária extensiva",
+        "à industrialização pesada"
+      ],
+      "answer": 1,
+      "explanation": "Porto Velho se desenvolveu a partir da Estrada de Ferro Madeira-Mamoré e do ciclo da borracha."
+    },
+    {
+      "id": "HGR-073",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A mudança de denominação de Território Federal do Guaporé para Território Federal de Rondônia ocorreu:",
+      "image": null,
+      "options": [
+        "como homenagem ao Marechal Rondon",
+        "em razão da descoberta de petróleo",
+        "após a criação do Estado",
+        "por influência da Zona Franca de Manaus",
+        "devido à expansão cafeeira"
+      ],
+      "answer": 0,
+      "explanation": "O nome Rondônia homenageia o Marechal Cândido Rondon."
+    },
+    {
+      "id": "HGR-074",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "Rondônia faz fronteira internacional exclusivamente com:",
+      "image": null,
+      "options": [
+        "Peru",
+        "Colômbia",
+        "Bolívia",
+        "Venezuela",
+        "Guiana"
+      ],
+      "answer": 2,
+      "explanation": "Rondônia faz fronteira apenas com a Bolívia."
+    },
+    {
+      "id": "HGR-075",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "O Parque Nacional de Pacaás Novos tem importância ambiental por:",
+      "image": null,
+      "options": [
+        "ser área de mineração",
+        "preservar ecossistemas amazônicos",
+        "abrigar zonas industriais",
+        "situar-se em área costeira",
+        "possuir clima temperado"
+      ],
+      "answer": 1,
+      "explanation": "O parque preserva áreas significativas da Floresta Amazônica."
+    },
+    {
+      "id": "HGR-076",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A expansão da fronteira agrícola em Rondônia produziu, como consequência:",
+      "image": null,
+      "options": [
+        "redução da pressão ambiental",
+        "crescimento da industrialização pesada",
+        "pressão sobre os recursos naturais",
+        "desaparecimento das cidades",
+        "predomínio da navegação marítima"
+      ],
+      "answer": 2,
+      "explanation": "A expansão agrícola intensificou o desmatamento e a pressão ambiental."
+    },
+    {
+      "id": "HGR-077",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 3,
+      "statement": "A capital Porto Velho localiza-se às margens do:",
+      "image": null,
+      "options": [
+        "rio Guaporé",
+        "rio Mamoré",
+        "rio Madeira",
+        "rio Jamari",
+        "rio Roosevelt"
+      ],
+      "answer": 2,
+      "explanation": "Porto Velho situa-se às margens do rio Madeira."
+    },
+    {
+      "id": "HGR-078",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "A formação das primeiras cidades em Rondônia relaciona-se historicamente:",
+      "image": null,
+      "options": [
+        "à mineração de carvão",
+        "às rotas fluviais e à Estrada de Ferro Madeira-Mamoré",
+        "à indústria automobilística",
+        "ao turismo internacional",
+        "à expansão da cafeicultura"
+      ],
+      "answer": 1,
+      "explanation": "As primeiras cidades surgiram ligadas aos rios e à ferrovia."
+    },
+    {
+      "id": "HGR-079",
+      "area": "HGR",
+      "topic": "Geografia de Rondônia",
+      "difficulty": 4,
+      "statement": "Rondônia integra oficialmente a Amazônia Legal, o que implica:",
+      "image": null,
+      "options": [
+        "exclusão de políticas públicas específicas",
+        "subordinação à Região Nordeste",
+        "abrangência por políticas federais direcionadas",
+        "predomínio de clima semiárido",
+        "ausência de áreas de preservação"
+      ],
+      "answer": 2,
+      "explanation": "A Amazônia Legal é área definida para políticas públicas específicas."
+    },
+    {
+      "id": "HGR-080",
+      "area": "HGR",
+      "topic": "História de Rondônia",
+      "difficulty": 4,
+      "statement": "O desenvolvimento econômico inicial de Rondônia esteve associado principalmente:",
+      "image": null,
+      "options": [
+        "à industrialização pesada",
+        "à economia extrativista",
+        "à produção de café",
+        "à indústria naval",
+        "à pecuária intensiva"
+      ],
+      "answer": 1,
+      "explanation": "A economia inicial foi baseada no extrativismo, sobretudo da borracha."
+    }
+  ]
+}

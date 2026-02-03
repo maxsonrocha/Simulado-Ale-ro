@@ -1,0 +1,1534 @@
+﻿{
+  "questions": [
+    {
+      "id": "LEG-001",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 2,
+      "statement": "Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Rondônia, a investidura em cargo público ocorre com:",
+      "image": null,
+      "options": [
+        "a nomeação",
+        "a posse",
+        "o exercício",
+        "a homologação do concurso",
+        "a publicação do edital"
+      ],
+      "answer": 1,
+      "explanation": "A investidura ocorre com a posse, momento em que o servidor assume formalmente o cargo."
+    },
+    {
+      "id": "LEG-002",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "Conforme o Estatuto dos Servidores Públicos Civis do Estado de Rondônia, o servidor que, sem causa justificada, deixar de entrar em exercício no prazo legal após a posse:",
+      "image": null,
+      "options": [
+        "terá a posse automaticamente prorrogada",
+        "será reconduzido ao cargo anterior",
+        "terá o ato de provimento tornado sem efeito",
+        "será colocado em disponibilidade",
+        "permanecerá em estágio probatório"
+      ],
+      "answer": 2,
+      "explanation": "A não entrada em exercício no prazo legal implica tornar sem efeito o ato de provimento."
+    },
+    {
+      "id": "LEG-003",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual (Lei 3.830/2016)",
+      "difficulty": 2,
+      "statement": "Segundo a Lei do Processo Administrativo Estadual de Rondônia, a Administração Pública deve obedecer, entre outros, ao princípio da:",
+      "image": null,
+      "options": [
+        "legalidade",
+        "neutralidade",
+        "exclusividade",
+        "discricionariedade absoluta",
+        "supremacia do particular"
+      ],
+      "answer": 0,
+      "explanation": "A lei expressamente adota os princípios da legalidade, finalidade, motivação, razoabilidade, entre outros."
+    },
+    {
+      "id": "LEG-004",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual (Lei 3.830/2016)",
+      "difficulty": 3,
+      "statement": "De acordo com a Lei do Processo Administrativo Estadual, os atos do processo devem ser praticados, em regra:",
+      "image": null,
+      "options": [
+        "de forma sigilosa",
+        "oralmente, sem registro",
+        "por escrito, em língua portuguesa",
+        "exclusivamente por meio eletrônico",
+        "somente perante autoridade superior"
+      ],
+      "answer": 2,
+      "explanation": "Os atos processuais devem ser formalizados por escrito e em língua portuguesa."
+    },
+    {
+      "id": "LEG-005",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 2,
+      "statement": "Conforme a Lei nº 14.133/2021, o processo licitatório tem como objetivos, entre outros:",
+      "image": null,
+      "options": [
+        "assegurar tratamento isonômico e selecionar a proposta mais vantajosa",
+        "eliminar totalmente a discricionariedade administrativa",
+        "garantir lucro ao contratado",
+        "substituir o concurso público",
+        "viabilizar contratação direta como regra"
+      ],
+      "answer": 0,
+      "explanation": "A nova Lei de Licitações visa garantir isonomia e selecionar a proposta mais vantajosa."
+    },
+    {
+      "id": "LEG-006",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Na forma da Lei nº 14.133/2021, constitui fase da licitação:",
+      "image": null,
+      "options": [
+        "habilitação",
+        "execução contratual",
+        "homologação do pagamento",
+        "publicação da nota de empenho",
+        "fiscalização posterior"
+      ],
+      "answer": 0,
+      "explanation": "A habilitação é fase expressamente prevista no procedimento licitatório."
+    },
+    {
+      "id": "LEG-007",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa (Lei 8.429/1992)",
+      "difficulty": 2,
+      "statement": "Configura ato de improbidade administrativa que importa enriquecimento ilícito aquele que:",
+      "image": null,
+      "options": [
+        "cause prejuízo ao erário por negligência",
+        "atente contra princípios da Administração Pública",
+        "aufira vantagem patrimonial indevida em razão do cargo",
+        "deixe de prestar contas",
+        "retarde ato de ofício"
+      ],
+      "answer": 2,
+      "explanation": "O enriquecimento ilícito caracteriza-se pela obtenção de vantagem patrimonial indevida."
+    },
+    {
+      "id": "LEG-008",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa (Lei 8.429/1992)",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei de Improbidade Administrativa, a prática de ato ímprobo pode ensejar, isolada ou cumulativamente:",
+      "image": null,
+      "options": [
+        "penas privativas de liberdade",
+        "sanções de natureza política e patrimonial",
+        "apenas advertência verbal",
+        "somente demissão",
+        "penas exclusivamente civis"
+      ],
+      "answer": 1,
+      "explanation": "A lei prevê sanções como perda da função pública, suspensão de direitos políticos e multa."
+    },
+    {
+      "id": "LEG-009",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação (Lei 12.527/2011)",
+      "difficulty": 2,
+      "statement": "Segundo a Lei de Acesso à Informação, o acesso à informação pública é, como regra:",
+      "image": null,
+      "options": [
+        "restrito aos servidores públicos",
+        "assegurado a qualquer interessado",
+        "condicionado à motivação do pedido",
+        "exclusivo da imprensa",
+        "limitado a informações sigilosas"
+      ],
+      "answer": 1,
+      "explanation": "O acesso é assegurado a qualquer pessoa, sem necessidade de motivação."
+    },
+    {
+      "id": "LEG-010",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação (Lei 12.527/2011)",
+      "difficulty": 3,
+      "statement": "De acordo com a Lei nº 12.527/2011, não poderá ser negado acesso à informação relativa:",
+      "image": null,
+      "options": [
+        "à intimidade do servidor",
+        "à vida privada do agente público",
+        "à estrutura organizacional da Administração",
+        "a dados pessoais sensíveis",
+        "a documentos sigilosos"
+      ],
+      "answer": 2,
+      "explanation": "Informações institucionais e estruturais devem ser publicizadas."
+    },
+    {
+      "id": "LEG-011",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 2,
+      "statement": "O Plano de Carreira dos servidores da Assembleia Legislativa de Rondônia visa, entre outros objetivos:",
+      "image": null,
+      "options": [
+        "extinguir o regime estatutário",
+        "organizar cargos e possibilitar progressão funcional",
+        "eliminar a avaliação de desempenho",
+        "substituir a Constituição Estadual",
+        "criar cargos temporários"
+      ],
+      "answer": 1,
+      "explanation": "O plano organiza cargos e estabelece critérios de progressão."
+    },
+    {
+      "id": "LEG-012",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 3,
+      "statement": "Segundo o Plano de Carreira da Assembleia Legislativa, a progressão funcional do servidor está condicionada, entre outros fatores:",
+      "image": null,
+      "options": [
+        "à aprovação em concurso público",
+        "à avaliação de desempenho",
+        "à livre escolha da chefia imediata",
+        "à disponibilidade orçamentária exclusiva",
+        "à nomeação política"
+      ],
+      "answer": 1,
+      "explanation": "A progressão depende de critérios objetivos, como avaliação de desempenho."
+    },
+    {
+      "id": "LEG-013",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 2,
+      "statement": "A Resolução ALE/RO nº 593/2024 tem por finalidade principal:",
+      "image": null,
+      "options": [
+        "disciplinar concursos públicos",
+        "regulamentar procedimentos de licitação e contratos na Assembleia Legislativa",
+        "alterar o Estatuto dos Servidores",
+        "revogar a Lei 14.133/2021",
+        "instituir novo plano de carreira"
+      ],
+      "answer": 1,
+      "explanation": "A resolução regulamenta licitações e contratos no âmbito da ALE-RO."
+    },
+    {
+      "id": "LEG-014",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 3,
+      "statement": "Nos termos da Resolução ALE/RO nº 593/2024, a contratação direta no âmbito da Assembleia Legislativa:",
+      "image": null,
+      "options": [
+        "é sempre proibida",
+        "só é admitida nas hipóteses previstas em lei",
+        "dispensa justificativa formal",
+        "substitui a licitação",
+        "é regra geral"
+      ],
+      "answer": 1,
+      "explanation": "A contratação direta só é possível nos casos legalmente previstos."
+    },
+    {
+      "id": "LEG-015",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "A modalidade de licitação utilizada para a contratação de bens e serviços comuns, preferencialmente por meio eletrônico, é:",
+      "image": null,
+      "options": [
+        "concorrência",
+        "concurso",
+        "leilão",
+        "pregão",
+        "diálogo competitivo"
+      ],
+      "answer": 3,
+      "explanation": "O pregão é a modalidade para bens e serviços comuns."
+    },
+    {
+      "id": "LEG-016",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual (Lei 3.830/2016)",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei do Processo Administrativo Estadual, a motivação dos atos administrativos deve indicar:",
+      "image": null,
+      "options": [
+        "apenas o dispositivo legal",
+        "os fundamentos de fato e de direito",
+        "somente a autoridade que praticou o ato",
+        "exclusivamente o interesse político",
+        "o número do processo"
+      ],
+      "answer": 1,
+      "explanation": "A motivação deve expor fundamentos de fato e de direito."
+    },
+    {
+      "id": "LEG-017",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa (Lei 8.429/1992)",
+      "difficulty": 3,
+      "statement": "A aplicação das sanções previstas na Lei de Improbidade Administrativa independe:",
+      "image": null,
+      "options": [
+        "da comprovação do dolo",
+        "da ocorrência de dano ao erário",
+        "da existência de ato ímprobo",
+        "da previsão legal",
+        "da decisão judicial"
+      ],
+      "answer": 1,
+      "explanation": "Algumas modalidades de improbidade independem de dano ao erário."
+    },
+    {
+      "id": "LEG-018",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação (Lei 12.527/2011)",
+      "difficulty": 3,
+      "statement": "Conforme a Lei nº 12.527/2011, o tratamento da informação pessoal deve observar, entre outros:",
+      "image": null,
+      "options": [
+        "a publicidade irrestrita",
+        "o respeito à intimidade, vida privada, honra e imagem",
+        "a supremacia do interesse privado",
+        "a exclusividade do controle estatal",
+        "a ausência de sigilo"
+      ],
+      "answer": 1,
+      "explanation": "A LAI protege dados pessoais e a intimidade."
+    },
+    {
+      "id": "LEG-019",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "De acordo com o Estatuto dos Servidores Públicos Civis do Estado de Rondônia, a vacância do cargo público pode ocorrer, entre outras hipóteses, por:",
+      "image": null,
+      "options": [
+        "promoção",
+        "remoção",
+        "exoneração",
+        "readaptação",
+        "aproveitamento"
+      ],
+      "answer": 2,
+      "explanation": "A exoneração é uma das hipóteses de vacância."
+    },
+    {
+      "id": "LEG-020",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 2,
+      "statement": "O enquadramento funcional do servidor no Plano de Carreira da Assembleia Legislativa visa:",
+      "image": null,
+      "options": [
+        "definir apenas sua lotação",
+        "estabelecer sua posição na carreira conforme critérios legais",
+        "dispensar avaliação periódica",
+        "permitir exoneração automática",
+        "garantir estabilidade imediata"
+      ],
+      "answer": 1,
+      "explanation": "O enquadramento posiciona o servidor na carreira segundo critérios previstos em lei."
+    },
+    {
+      "id": "LEG-021",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 2,
+      "statement": "De acordo com a Lei nº 14.133/2021, a licitação destina-se, entre outros objetivos, a:",
+      "image": null,
+      "options": [
+        "assegurar igualdade de condições entre os concorrentes",
+        "garantir exclusividade ao contratado",
+        "eliminar o controle externo",
+        "substituir o concurso público",
+        "impedir a contratação direta"
+      ],
+      "answer": 0,
+      "explanation": "A lei estabelece a isonomia como objetivo central da licitação."
+    },
+    {
+      "id": "LEG-022",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 14.133/2021, constitui modalidade de licitação:",
+      "image": null,
+      "options": [
+        "pregão",
+        "tomada de preços",
+        "convite",
+        "carta-convite",
+        "consulta pública"
+      ],
+      "answer": 0,
+      "explanation": "A nova lei mantém o pregão como modalidade."
+    },
+    {
+      "id": "LEG-023",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Segundo a Lei nº 14.133/2021, o julgamento das propostas deverá observar:",
+      "image": null,
+      "options": [
+        "exclusivamente o menor preço",
+        "os critérios definidos no edital",
+        "a escolha discricionária da autoridade",
+        "a ordem de chegada",
+        "a nacionalidade da empresa"
+      ],
+      "answer": 1,
+      "explanation": "Os critérios de julgamento devem estar previstos no edital."
+    },
+    {
+      "id": "LEG-024",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 2,
+      "statement": "Conforme a Lei nº 8.429/1992, constitui ato de improbidade administrativa que causa prejuízo ao erário:",
+      "image": null,
+      "options": [
+        "receber vantagem indevida",
+        "agir com negligência na gestão de recursos públicos",
+        "atentar contra princípios da Administração",
+        "praticar ato de ofício fora da competência",
+        "descumprir ordem superior"
+      ],
+      "answer": 1,
+      "explanation": "O prejuízo ao erário pode decorrer de ação ou omissão culposa."
+    },
+    {
+      "id": "LEG-025",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 8.429/1992, as sanções aplicáveis aos atos de improbidade administrativa:",
+      "image": null,
+      "options": [
+        "dependem exclusivamente de processo administrativo",
+        "são aplicadas apenas cumulativamente",
+        "podem ser aplicadas isolada ou cumulativamente",
+        "incluem pena privativa de liberdade",
+        "excluem a perda da função pública"
+      ],
+      "answer": 2,
+      "explanation": "A lei permite aplicação isolada ou cumulativa das sanções."
+    },
+    {
+      "id": "LEG-026",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 2,
+      "statement": "Segundo a Lei nº 12.527/2011, o acesso à informação pública:",
+      "image": null,
+      "options": [
+        "depende de justificativa do interessado",
+        "é restrito a órgãos de controle",
+        "é assegurado como regra geral",
+        "somente ocorre mediante processo judicial",
+        "é limitado a dados estatísticos"
+      ],
+      "answer": 2,
+      "explanation": "O acesso é a regra, sendo o sigilo a exceção."
+    },
+    {
+      "id": "LEG-027",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 12.527/2011, é possível restringir o acesso à informação quando:",
+      "image": null,
+      "options": [
+        "envolver interesse privado",
+        "for classificada como sigilosa nos termos da lei",
+        "houver pedido genérico",
+        "a autoridade assim desejar",
+        "o servidor entender inconveniente"
+      ],
+      "answer": 1,
+      "explanation": "A restrição só ocorre nas hipóteses legais de sigilo."
+    },
+    {
+      "id": "LEG-028",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 2,
+      "statement": "Conforme o Estatuto dos Servidores Públicos Civis do Estado de Rondônia, é requisito básico para investidura em cargo público:",
+      "image": null,
+      "options": [
+        "aprovação em processo seletivo simplificado",
+        "idade mínima prevista em lei",
+        "nomeação política",
+        "indicação parlamentar",
+        "curso superior em qualquer área"
+      ],
+      "answer": 1,
+      "explanation": "A idade mínima é requisito legal para investidura."
+    },
+    {
+      "id": "LEG-029",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "Nos termos do Estatuto dos Servidores de Rondônia, o servidor público estável perderá o cargo:",
+      "image": null,
+      "options": [
+        "por decisão administrativa",
+        "por processo disciplinar sem contraditório",
+        "em virtude de sentença judicial transitada em julgado",
+        "por decisão da chefia imediata",
+        "por simples avaliação negativa"
+      ],
+      "answer": 2,
+      "explanation": "A perda do cargo depende de sentença judicial transitada em julgado ou processo administrativo com garantias."
+    },
+    {
+      "id": "LEG-030",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 2,
+      "statement": "Segundo a Lei do Processo Administrativo Estadual (Lei nº 3.830/2016), é princípio que rege o processo administrativo:",
+      "image": null,
+      "options": [
+        "celeridade",
+        "sigilo absoluto",
+        "arbitrariedade",
+        "informalidade plena",
+        "discricionariedade total"
+      ],
+      "answer": 0,
+      "explanation": "A celeridade é princípio do processo administrativo."
+    },
+    {
+      "id": "LEG-031",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 3.830/2016, o administrado tem direito:",
+      "image": null,
+      "options": [
+        "à decisão sem motivação",
+        "ao contraditório e à ampla defesa",
+        "à dispensa de formalidades",
+        "à tramitação secreta",
+        "à decisão política"
+      ],
+      "answer": 1,
+      "explanation": "A lei assegura contraditório e ampla defesa."
+    },
+    {
+      "id": "LEG-032",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 2,
+      "statement": "O Plano de Carreira da Assembleia Legislativa de Rondônia tem por finalidade:",
+      "image": null,
+      "options": [
+        "organizar os cargos e a progressão funcional",
+        "extinguir cargos efetivos",
+        "substituir o Estatuto dos Servidores",
+        "criar cargos temporários",
+        "eliminar avaliações"
+      ],
+      "answer": 0,
+      "explanation": "O plano organiza cargos e progressão."
+    },
+    {
+      "id": "LEG-033",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 3,
+      "statement": "Nos termos do Plano de Carreira da ALE-RO, a progressão funcional depende, entre outros fatores:",
+      "image": null,
+      "options": [
+        "de livre escolha política",
+        "de tempo de serviço e avaliação de desempenho",
+        "apenas de indicação superior",
+        "somente de concurso interno",
+        "exclusivamente de antiguidade"
+      ],
+      "answer": 1,
+      "explanation": "A progressão exige critérios objetivos como tempo e avaliação."
+    },
+    {
+      "id": "LEG-034",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 2,
+      "statement": "A Resolução ALE/RO nº 593/2024 dispõe principalmente sobre:",
+      "image": null,
+      "options": [
+        "processo legislativo",
+        "licitações e contratos no âmbito da Assembleia Legislativa",
+        "regime jurídico dos servidores",
+        "acesso à informação",
+        "controle externo"
+      ],
+      "answer": 1,
+      "explanation": "A resolução trata de licitações e contratos da ALE-RO."
+    },
+    {
+      "id": "LEG-035",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 3,
+      "statement": "Nos termos da Resolução ALE/RO nº 593/2024, a contratação direta:",
+      "image": null,
+      "options": [
+        "é vedada em qualquer hipótese",
+        "substitui a licitação",
+        "somente ocorre nos casos previstos em lei",
+        "é regra geral",
+        "dispensa justificativa"
+      ],
+      "answer": 2,
+      "explanation": "A contratação direta só ocorre nas hipóteses legais."
+    },
+    {
+      "id": "LEG-036",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Segundo a Lei nº 14.133/2021, é hipótese de contratação direta:",
+      "image": null,
+      "options": [
+        "falta de interessados",
+        "conveniência administrativa",
+        "dispensa ou inexigibilidade previstas em lei",
+        "menor preço",
+        "maior desconto"
+      ],
+      "answer": 2,
+      "explanation": "A contratação direta ocorre por dispensa ou inexigibilidade."
+    },
+    {
+      "id": "LEG-037",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 3,
+      "statement": "Para caracterização do ato de improbidade administrativa, é necessário:",
+      "image": null,
+      "options": [
+        "dolo ou culpa conforme o tipo legal",
+        "apenas culpa",
+        "apenas dolo",
+        "resultado financeiro",
+        "processo criminal"
+      ],
+      "answer": 0,
+      "explanation": "A lei exige dolo ou culpa, conforme o tipo."
+    },
+    {
+      "id": "LEG-038",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 12.527/2011, o pedido de acesso à informação:",
+      "image": null,
+      "options": [
+        "exige justificativa",
+        "pode ser feito por qualquer pessoa",
+        "depende de autorização judicial",
+        "é restrito a brasileiros",
+        "exige identificação completa"
+      ],
+      "answer": 1,
+      "explanation": "Qualquer pessoa pode solicitar informação."
+    },
+    {
+      "id": "LEG-039",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 3.830/2016, o prazo para interposição de recurso administrativo, salvo disposição diversa, é de:",
+      "image": null,
+      "options": [
+        "5 dias",
+        "10 dias",
+        "15 dias",
+        "20 dias",
+        "30 dias"
+      ],
+      "answer": 1,
+      "explanation": "O prazo recursal é de 10 dias, salvo disposição diversa."
+    },
+    {
+      "id": "LEG-040",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "Constitui dever do servidor público, conforme o Estatuto dos Servidores de Rondônia:",
+      "image": null,
+      "options": [
+        "ausentar-se do serviço sem autorização",
+        "guardar sigilo sobre assuntos da repartição",
+        "recusar ordens superiores",
+        "exercer atividade política no horário de trabalho",
+        "negar informações públicas"
+      ],
+      "answer": 1,
+      "explanation": "O dever de sigilo funcional é previsto no estatuto."
+    },
+    {
+      "id": "LEG-041",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 2,
+      "statement": "O critério de julgamento 'maior desconto' é admitido na Lei nº 14.133/2021 para:",
+      "image": null,
+      "options": [
+        "obras",
+        "compras",
+        "serviços comuns",
+        "hipóteses previstas em lei",
+        "toda licitação"
+      ],
+      "answer": 3,
+      "explanation": "O maior desconto é utilizado nas hipóteses legais."
+    },
+    {
+      "id": "LEG-042",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 3,
+      "statement": "A ação de improbidade administrativa pode ser proposta por:",
+      "image": null,
+      "options": [
+        "qualquer cidadão",
+        "o Ministério Público ou a pessoa jurídica interessada",
+        "apenas a vítima",
+        "somente o Tribunal de Contas",
+        "apenas o servidor prejudicado"
+      ],
+      "answer": 1,
+      "explanation": "MP e pessoa jurídica interessada são legitimados."
+    },
+    {
+      "id": "LEG-043",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 2,
+      "statement": "A Lei nº 12.527/2011 aplica-se:",
+      "image": null,
+      "options": [
+        "apenas ao Poder Executivo",
+        "somente ao Poder Legislativo",
+        "a todos os Poderes e entidades públicas",
+        "apenas à União",
+        "somente a empresas privadas"
+      ],
+      "answer": 2,
+      "explanation": "A LAI aplica-se aos três Poderes."
+    },
+    {
+      "id": "LEG-044",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 3,
+      "statement": "Nos termos da LC 731/2013, a promoção na carreira caracteriza-se por:",
+      "image": null,
+      "options": [
+        "mudança de cargo",
+        "ascensão funcional vedada",
+        "elevação para classe superior",
+        "nomeação política",
+        "designação temporária"
+      ],
+      "answer": 2,
+      "explanation": "Promoção é passagem para classe superior."
+    },
+    {
+      "id": "LEG-045",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 2,
+      "statement": "Conforme a Lei nº 3.830/2016, os atos administrativos devem ser:",
+      "image": null,
+      "options": [
+        "orais",
+        "sigilosos",
+        "motivados",
+        "políticos",
+        "informais"
+      ],
+      "answer": 2,
+      "explanation": "A motivação é exigência do processo administrativo."
+    },
+    {
+      "id": "LEG-046",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 3,
+      "statement": "Segundo a Resolução ALE/RO nº 593/2024, a fase interna da licitação compreende, entre outros atos:",
+      "image": null,
+      "options": [
+        "execução contratual",
+        "planejamento e elaboração do termo de referência",
+        "homologação",
+        "adjudicação",
+        "pagamento"
+      ],
+      "answer": 1,
+      "explanation": "A fase interna envolve planejamento e termo de referência."
+    },
+    {
+      "id": "LEG-047",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Na Lei nº 14.133/2021, a fase de habilitação tem por finalidade:",
+      "image": null,
+      "options": [
+        "verificar a capacidade do licitante",
+        "julgar o mérito da proposta",
+        "executar o contrato",
+        "publicar o edital",
+        "homologar o resultado"
+      ],
+      "answer": 0,
+      "explanation": "A habilitação verifica a capacidade do licitante."
+    },
+    {
+      "id": "LEG-048",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 2,
+      "statement": "A improbidade administrativa ofende principalmente:",
+      "image": null,
+      "options": [
+        "o interesse privado",
+        "os princípios da Administração Pública",
+        "o direito penal",
+        "o processo legislativo",
+        "a iniciativa popular"
+      ],
+      "answer": 1,
+      "explanation": "A improbidade viola princípios administrativos."
+    },
+    {
+      "id": "LEG-049",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 3,
+      "statement": "A negativa de acesso à informação pública deve ser:",
+      "image": null,
+      "options": [
+        "verbal",
+        "sem justificativa",
+        "fundamentada",
+        "sigilosa",
+        "informal"
+      ],
+      "answer": 2,
+      "explanation": "A negativa deve ser fundamentada."
+    },
+    {
+      "id": "LEG-050",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 2,
+      "statement": "A readaptação é forma de:",
+      "image": null,
+      "options": [
+        "provimento",
+        "vacância",
+        "remoção",
+        "substituição",
+        "promoção"
+      ],
+      "answer": 0,
+      "explanation": "Readaptação é forma de provimento."
+    },
+    {
+      "id": "LEG-051",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "Nos termos do Estatuto dos Servidores de Rondônia, a exoneração de ofício ocorre:",
+      "image": null,
+      "options": [
+        "por vontade do servidor",
+        "por conveniência política",
+        "quando não satisfeitas as condições do estágio probatório",
+        "após estabilidade",
+        "apenas por decisão judicial"
+      ],
+      "answer": 2,
+      "explanation": "A exoneração de ofício ocorre por reprovação no estágio probatório."
+    },
+    {
+      "id": "LEG-052",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Segundo a Lei nº 14.133/2021, o contrato administrativo extingue-se:",
+      "image": null,
+      "options": [
+        "somente pelo término do prazo",
+        "por rescisão ou anulação",
+        "apenas por interesse do contratado",
+        "somente judicialmente",
+        "por decisão política"
+      ],
+      "answer": 1,
+      "explanation": "O contrato pode se extinguir por rescisão ou anulação."
+    },
+    {
+      "id": "LEG-053",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 3,
+      "statement": "Nos termos da Lei nº 3.830/2016, a Administração deve decidir os processos no prazo:",
+      "image": null,
+      "options": [
+        "indeterminado",
+        "razoável, conforme a complexidade",
+        "fixo de 5 dias",
+        "fixo de 30 dias",
+        "de 60 dias"
+      ],
+      "answer": 1,
+      "explanation": "A lei prevê decisão em prazo razoável."
+    },
+    {
+      "id": "LEG-054",
+      "area": "LEG",
+      "topic": "Lei de Improbidade Administrativa",
+      "difficulty": 3,
+      "statement": "O agente público que pratica ato de improbidade administrativa está sujeito:",
+      "image": null,
+      "options": [
+        "somente à advertência",
+        "apenas à demissão",
+        "às sanções previstas em lei",
+        "exclusivamente à multa",
+        "apenas à responsabilidade penal"
+      ],
+      "answer": 2,
+      "explanation": "As sanções são as previstas na Lei 8.429/92."
+    },
+    {
+      "id": "LEG-055",
+      "area": "LEG",
+      "topic": "Lei de Acesso à Informação",
+      "difficulty": 2,
+      "statement": "A LAI estabelece que o sigilo da informação:",
+      "image": null,
+      "options": [
+        "é regra",
+        "é exceção",
+        "é irrestrito",
+        "é absoluto",
+        "é permanente"
+      ],
+      "answer": 1,
+      "explanation": "O sigilo é exceção à regra da publicidade."
+    },
+    {
+      "id": "LEG-056",
+      "area": "LEG",
+      "topic": "Plano de Carreira (LC 731/2013)",
+      "difficulty": 3,
+      "statement": "A avaliação de desempenho do servidor tem como finalidade:",
+      "image": null,
+      "options": [
+        "exonerar automaticamente",
+        "subsidiar progressão e desenvolvimento funcional",
+        "eliminar cargos",
+        "reduzir salários",
+        "afastar servidores"
+      ],
+      "answer": 1,
+      "explanation": "A avaliação fundamenta progressão funcional."
+    },
+    {
+      "id": "LEG-057",
+      "area": "LEG",
+      "topic": "Resolução ALE/RO nº 593/2024",
+      "difficulty": 2,
+      "statement": "Nos termos da Resolução ALE/RO nº 593/2024, a licitação deverá observar:",
+      "image": null,
+      "options": [
+        "interesse particular",
+        "publicidade e transparência",
+        "sigilo absoluto",
+        "discricionariedade política",
+        "conveniência do gestor"
+      ],
+      "answer": 1,
+      "explanation": "A resolução reforça publicidade e transparência."
+    },
+    {
+      "id": "LEG-058",
+      "area": "LEG",
+      "topic": "Lei 14.133/2021",
+      "difficulty": 3,
+      "statement": "Segundo a Lei nº 14.133/2021, a adjudicação é o ato pelo qual:",
+      "image": null,
+      "options": [
+        "se inicia a licitação",
+        "se atribui o objeto ao vencedor",
+        "se firma o contrato",
+        "se publica o edital",
+        "se paga o contratado"
+      ],
+      "answer": 1,
+      "explanation": "A adjudicação atribui o objeto ao vencedor."
+    },
+    {
+      "id": "LEG-059",
+      "area": "LEG",
+      "topic": "Lei do Processo Administrativo Estadual",
+      "difficulty": 2,
+      "statement": "Conforme a Lei nº 3.830/2016, o processo administrativo deve ser:",
+      "image": null,
+      "options": [
+        "sigiloso",
+        "formal",
+        "gratuito, salvo disposição em contrário",
+        "inexistente",
+        "exclusivamente eletrônico"
+      ],
+      "answer": 2,
+      "explanation": "A lei assegura gratuidade, salvo exceções."
+    },
+    {
+      "id": "LEG-060",
+      "area": "LEG",
+      "topic": "Estatuto dos Servidores (LC 68/1992)",
+      "difficulty": 3,
+      "statement": "Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Rondônia, é forma de vacância do cargo:",
+      "image": null,
+      "options": [
+        "readaptação",
+        "promoção",
+        "aposentadoria",
+        "reversão",
+        "aproveitamento"
+      ],
+      "answer": 2,
+      "explanation": "A aposentadoria gera vacância do cargo."
+    },
+    {
+      "id": "LEG-061",
+      "area": "LEG",
+      "topic": "Administração Pública",
+      "difficulty": 4,
+      "statement": "À luz dos princípios constitucionais da Administração Pública, é correto afirmar que o princípio da legalidade impõe ao agente público:",
+      "image": null,
+      "options": [
+        "liberdade ampla de atuação, desde que não contrarie a moral",
+        "atuação somente conforme autorizado por lei",
+        "atuação conforme a vontade do administrador",
+        "discricionariedade absoluta",
+        "subordinação apenas a normas internas"
+      ],
+      "answer": 1,
+      "explanation": "Na Administração Pública, só é permitido fazer o que a lei autoriza."
+    },
+    {
+      "id": "LEG-062",
+      "area": "LEG",
+      "topic": "Administração Pública",
+      "difficulty": 4,
+      "statement": "O princípio da publicidade admite exceção quando:",
+      "image": null,
+      "options": [
+        "o ato for inconveniente ao administrador",
+        "houver previsão legal de sigilo",
+        "o interesse privado for relevante",
+        "o agente assim decidir",
+        "o ato for meramente interno"
+      ],
+      "answer": 1,
+      "explanation": "O sigilo só é admitido quando houver previsão legal."
+    },
+    {
+      "id": "LEG-063",
+      "area": "LEG",
+      "topic": "Administração Pública",
+      "difficulty": 4,
+      "statement": "A impessoalidade na Administração Pública veda:",
+      "image": null,
+      "options": [
+        "a prática de atos vinculados",
+        "a promoção pessoal de autoridades",
+        "a edição de atos normativos",
+        "a delegação de competências",
+        "a hierarquia administrativa"
+      ],
+      "answer": 1,
+      "explanation": "Impessoalidade proíbe promoção pessoal e favorecimento."
+    },
+    {
+      "id": "LEG-064",
+      "area": "LEG",
+      "topic": "Processo Administrativo",
+      "difficulty": 4,
+      "statement": "No processo administrativo, o princípio do contraditório assegura ao interessado:",
+      "image": null,
+      "options": [
+        "o direito de decidir o processo",
+        "o direito de ser ouvido e de se manifestar",
+        "a prerrogativa de anular atos",
+        "a possibilidade de suspender o processo",
+        "a substituição da autoridade julgadora"
+      ],
+      "answer": 1,
+      "explanation": "Contraditório garante participação e manifestação."
+    },
+    {
+      "id": "LEG-065",
+      "area": "LEG",
+      "topic": "Processo Administrativo",
+      "difficulty": 4,
+      "statement": "A motivação dos atos administrativos é obrigatória quando:",
+      "image": null,
+      "options": [
+        "o ato for discricionário",
+        "o ato afetar direitos dos administrados",
+        "o ato for normativo",
+        "o ato for interno",
+        "o ato for de rotina"
+      ],
+      "answer": 1,
+      "explanation": "A motivação é exigida, especialmente, quando o ato restringe direitos."
+    },
+    {
+      "id": "LEG-066",
+      "area": "LEG",
+      "topic": "Improbidade Administrativa",
+      "difficulty": 4,
+      "statement": "Após a Lei nº 14.230/2021, configura ato de improbidade administrativa aquele praticado:",
+      "image": null,
+      "options": [
+        "com dolo ou culpa",
+        "exclusivamente com culpa",
+        "apenas com dolo",
+        "independentemente de elemento subjetivo",
+        "sem necessidade de prova"
+      ],
+      "answer": 2,
+      "explanation": "A nova lei exige dolo para caracterização do ato de improbidade."
+    },
+    {
+      "id": "LEG-067",
+      "area": "LEG",
+      "topic": "Improbidade Administrativa",
+      "difficulty": 4,
+      "statement": "É sanção aplicável por ato de improbidade administrativa, conforme a lei:",
+      "image": null,
+      "options": [
+        "demissão automática",
+        "perda da função pública",
+        "reclusão",
+        "detenção",
+        "penas corporais"
+      ],
+      "answer": 1,
+      "explanation": "A perda da função pública é uma das sanções civis previstas."
+    },
+    {
+      "id": "LEG-068",
+      "area": "LEG",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "Segundo a Lei nº 14.133/2021, a licitação tem por objetivo:",
+      "image": null,
+      "options": [
+        "beneficiar o menor número de fornecedores",
+        "assegurar a seleção da proposta mais vantajosa",
+        "garantir lucro à Administração",
+        "evitar contratos administrativos",
+        "dispensar competição"
+      ],
+      "answer": 1,
+      "explanation": "A lei visa selecionar a proposta mais vantajosa."
+    },
+    {
+      "id": "LEG-069",
+      "area": "LEG",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "A modalidade de licitação caracterizada pela disputa de lances é:",
+      "image": null,
+      "options": [
+        "concorrência",
+        "tomada de preços",
+        "convite",
+        "pregão",
+        "leilão"
+      ],
+      "answer": 3,
+      "explanation": "O pregão é marcado pela fase competitiva de lances."
+    },
+    {
+      "id": "LEG-070",
+      "area": "LEG",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "É hipótese de dispensa de licitação:",
+      "image": null,
+      "options": [
+        "interesse político",
+        "contratação direta sem fundamento",
+        "situação de emergência ou calamidade",
+        "vantagem econômica subjetiva",
+        "mera conveniência"
+      ],
+      "answer": 2,
+      "explanation": "Emergência ou calamidade é hipótese legal de dispensa."
+    },
+    {
+      "id": "LEG-071",
+      "area": "LEG",
+      "topic": "LAI",
+      "difficulty": 4,
+      "statement": "Nos termos da Lei de Acesso à Informação, o acesso à informação pública é:",
+      "image": null,
+      "options": [
+        "regra, sendo o sigilo exceção",
+        "exceção, sendo o sigilo a regra",
+        "facultativo à Administração",
+        "limitado aos servidores",
+        "dependente de autorização judicial"
+      ],
+      "answer": 0,
+      "explanation": "A publicidade é regra; o sigilo é exceção."
+    },
+    {
+      "id": "LEG-072",
+      "area": "LEG",
+      "topic": "LAI",
+      "difficulty": 4,
+      "statement": "Constitui hipótese legítima de restrição de acesso à informação:",
+      "image": null,
+      "options": [
+        "mera conveniência administrativa",
+        "proteção da segurança da sociedade e do Estado",
+        "interesse particular do gestor",
+        "opinião do servidor",
+        "falta de recursos"
+      ],
+      "answer": 1,
+      "explanation": "A lei admite restrição para proteger a segurança da sociedade e do Estado."
+    },
+    {
+      "id": "LEG-073",
+      "area": "LEG",
+      "topic": "Servidor Público",
+      "difficulty": 4,
+      "statement": "A investidura em cargo público depende de:",
+      "image": null,
+      "options": [
+        "indicação política",
+        "aprovação em concurso público",
+        "autorização judicial",
+        "decisão administrativa",
+        "ato do sindicato"
+      ],
+      "answer": 1,
+      "explanation": "Regra constitucional: investidura mediante concurso público."
+    },
+    {
+      "id": "LEG-074",
+      "area": "LEG",
+      "topic": "Servidor Público",
+      "difficulty": 4,
+      "statement": "A estabilidade do servidor público é adquirida:",
+      "image": null,
+      "options": [
+        "no ato da posse",
+        "após 3 anos de efetivo exercício",
+        "após 5 anos",
+        "após estágio probatório sem avaliação",
+        "por decisão judicial"
+      ],
+      "answer": 1,
+      "explanation": "A CF prevê 3 anos de efetivo exercício."
+    },
+    {
+      "id": "LEG-075",
+      "area": "LEG",
+      "topic": "Servidor Público",
+      "difficulty": 4,
+      "statement": "A demissão do servidor estável somente pode ocorrer:",
+      "image": null,
+      "options": [
+        "por ato discricionário",
+        "sem processo administrativo",
+        "mediante processo administrativo ou decisão judicial",
+        "por decisão política",
+        "por vontade do gestor"
+      ],
+      "answer": 2,
+      "explanation": "Exige processo administrativo com ampla defesa ou decisão judicial."
+    },
+    {
+      "id": "LEG-076",
+      "area": "LEG",
+      "topic": "Atos Administrativos",
+      "difficulty": 4,
+      "statement": "A anulação do ato administrativo ocorre quando:",
+      "image": null,
+      "options": [
+        "há conveniência política",
+        "há ilegalidade",
+        "há oportunidade",
+        "há interesse público subjetivo",
+        "há mudança de gestor"
+      ],
+      "answer": 1,
+      "explanation": "Anulação decorre de ilegalidade."
+    },
+    {
+      "id": "LEG-077",
+      "area": "LEG",
+      "topic": "Atos Administrativos",
+      "difficulty": 4,
+      "statement": "A revogação do ato administrativo decorre de:",
+      "image": null,
+      "options": [
+        "ilegalidade",
+        "vício insanável",
+        "juízo de conveniência e oportunidade",
+        "nulidade absoluta",
+        "controle judicial"
+      ],
+      "answer": 2,
+      "explanation": "Revogação decorre do mérito administrativo."
+    },
+    {
+      "id": "LEG-078",
+      "area": "LEG",
+      "topic": "Responsabilidade Civil",
+      "difficulty": 4,
+      "statement": "A responsabilidade civil do Estado, como regra, é:",
+      "image": null,
+      "options": [
+        "subjetiva",
+        "objetiva",
+        "solidária com o particular",
+        "exclusivamente penal",
+        "contratual"
+      ],
+      "answer": 1,
+      "explanation": "O Estado responde objetivamente pelos danos causados por seus agentes."
+    },
+    {
+      "id": "LEG-079",
+      "area": "LEG",
+      "topic": "Responsabilidade Civil",
+      "difficulty": 4,
+      "statement": "Para configuração da responsabilidade civil do Estado, exige-se:",
+      "image": null,
+      "options": [
+        "culpa exclusiva do agente",
+        "dolo do gestor",
+        "dano e nexo causal",
+        "processo judicial prévio",
+        "condenação criminal"
+      ],
+      "answer": 2,
+      "explanation": "São necessários dano e nexo causal."
+    },
+    {
+      "id": "LEG-080",
+      "area": "LEG",
+      "topic": "Controle da Administração",
+      "difficulty": 4,
+      "statement": "O controle exercido pelo Poder Legislativo sobre a Administração é denominado:",
+      "image": null,
+      "options": [
+        "controle interno",
+        "controle externo",
+        "controle hierárquico",
+        "controle judicial",
+        "controle administrativo"
+      ],
+      "answer": 1,
+      "explanation": "O Legislativo exerce controle externo."
+    },
+    {
+      "id": "LEG-081",
+      "area": "LEG",
+      "topic": "Controle da Administração",
+      "difficulty": 4,
+      "statement": "O controle judicial dos atos administrativos limita-se, em regra:",
+      "image": null,
+      "options": [
+        "ao mérito do ato",
+        "à legalidade do ato",
+        "à conveniência",
+        "à oportunidade",
+        "à política pública"
+      ],
+      "answer": 1,
+      "explanation": "O Judiciário controla a legalidade, não o mérito."
+    },
+    {
+      "id": "LEG-082",
+      "area": "LEG",
+      "topic": "Processo Administrativo",
+      "difficulty": 4,
+      "statement": "No processo administrativo, a decisão deve ser:",
+      "image": null,
+      "options": [
+        "oral",
+        "secreta",
+        "motivada",
+        "discricionária",
+        "automática"
+      ],
+      "answer": 2,
+      "explanation": "A decisão deve ser motivada."
+    },
+    {
+      "id": "LEG-083",
+      "area": "LEG",
+      "topic": "Processo Administrativo",
+      "difficulty": 4,
+      "statement": "A Administração deve decidir processos administrativos em prazo:",
+      "image": null,
+      "options": [
+        "indefinido",
+        "fixado livremente",
+        "razoável",
+        "de 5 dias",
+        "de 48 horas"
+      ],
+      "answer": 2,
+      "explanation": "A lei prevê prazo razoável para decisão."
+    },
+    {
+      "id": "LEG-084",
+      "area": "LEG",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "Na Lei nº 14.133/2021, a fase de habilitação ocorre:",
+      "image": null,
+      "options": [
+        "antes do julgamento",
+        "após o julgamento",
+        "antes da divulgação do edital",
+        "antes da contratação direta",
+        "junto à execução"
+      ],
+      "answer": 1,
+      "explanation": "Na nova lei, a regra é julgamento antes da habilitação."
+    },
+    {
+      "id": "LEG-085",
+      "area": "LEG",
+      "topic": "Licitações",
+      "difficulty": 4,
+      "statement": "O agente responsável pela condução da licitação é:",
+      "image": null,
+      "options": [
+        "o fiscal do contrato",
+        "o gestor público",
+        "o agente de contratação",
+        "o ordenador de despesas",
+        "o pregoeiro judicial"
+      ],
+      "answer": 2,
+      "explanation": "A Lei 14.133 institui o agente de contratação."
+    },
+    {
+      "id": "LEG-086",
+      "area": "LEG",
+      "topic": "LAI",
+      "difficulty": 4,
+      "statement": "O prazo para resposta ao pedido de informação, em regra, é de:",
+      "image": null,
+      "options": [
+        "5 dias",
+        "10 dias",
+        "20 dias",
+        "30 dias",
+        "60 dias"
+      ],
+      "answer": 2,
+      "explanation": "A LAI fixa prazo de 20 dias, prorrogável."
+    },
+    {
+      "id": "LEG-087",
+      "area": "LEG",
+      "topic": "LAI",
+      "difficulty": 4,
+      "statement": "A negativa de acesso à informação deve ser:",
+      "image": null,
+      "options": [
+        "verbal",
+        "automática",
+        "motivada",
+        "sigilosa",
+        "discricionária"
+      ],
+      "answer": 2,
+      "explanation": "A negativa deve ser fundamentada."
+    },
+    {
+      "id": "LEG-088",
+      "area": "LEG",
+      "topic": "Servidor Público",
+      "difficulty": 4,
+      "statement": "O estágio probatório tem como finalidade avaliar:",
+      "image": null,
+      "options": [
+        "a capacidade financeira",
+        "o desempenho funcional",
+        "a afinidade política",
+        "o conhecimento jurídico",
+        "a antiguidade"
+      ],
+      "answer": 1,
+      "explanation": "O estágio probatório avalia aptidão e desempenho."
+    },
+    {
+      "id": "LEG-089",
+      "area": "LEG",
+      "topic": "Atos Administrativos",
+      "difficulty": 4,
+      "statement": "São atributos do ato administrativo, EXCETO:",
+      "image": null,
+      "options": [
+        "presunção de legitimidade",
+        "imperatividade",
+        "autoexecutoriedade",
+        "legalidade",
+        "tipicidade"
+      ],
+      "answer": 3,
+      "explanation": "Legalidade é princípio, não atributo do ato."
+    },
+    {
+      "id": "LEG-090",
+      "area": "LEG",
+      "topic": "Controle da Administração",
+      "difficulty": 4,
+      "statement": "O controle interno da Administração Pública é exercido:",
+      "image": null,
+      "options": [
+        "pelo Poder Judiciário",
+        "pelo Poder Legislativo",
+        "no âmbito do próprio órgão",
+        "pela sociedade civil",
+        "por empresas privadas"
+      ],
+      "answer": 2,
+      "explanation": "O controle interno é realizado pela própria Administração."
+    }
+  ]
+}

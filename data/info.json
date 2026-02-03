@@ -1,0 +1,2464 @@
+﻿{
+  "questions": [
+    {
+      "id": "INFO-001",
+      "area": "INFO",
+      "topic": "Sistema operacional",
+      "difficulty": 1,
+      "statement": "No Windows, a função principal do sistema operacional é:",
+      "image": null,
+      "options": [
+        "Editar textos automaticamente",
+        "Gerenciar recursos do computador e permitir a execução de programas",
+        "Substituir o hardware",
+        "Criar planilhas",
+        "Conectar-se à internet sem navegador"
+      ],
+      "answer": 1,
+      "explanation": "O sistema operacional gerencia hardware e software, permitindo a execução de aplicações."
+    },
+    {
+      "id": "INFO-002",
+      "area": "INFO",
+      "topic": "Sistema operacional",
+      "difficulty": 1,
+      "statement": "No Windows, a Lixeira tem como função:",
+      "image": null,
+      "options": [
+        "Eliminar definitivamente arquivos",
+        "Guardar temporariamente arquivos excluídos",
+        "Compactar arquivos",
+        "Proteger arquivos contra vírus",
+        "Organizar pastas automaticamente"
+      ],
+      "answer": 1,
+      "explanation": "A Lixeira armazena temporariamente os arquivos apagados."
+    },
+    {
+      "id": "INFO-003",
+      "area": "INFO",
+      "topic": "Arquivos e pastas",
+      "difficulty": 1,
+      "statement": "Qual atalho de teclado é usado para copiar um arquivo no Windows?",
+      "image": null,
+      "options": ["Ctrl+X", "Ctrl+C", "Ctrl+V", "Alt+F4", "Ctrl+Z"],
+      "answer": 1,
+      "explanation": "Ctrl+C corresponde ao comando Copiar."
+    },
+    {
+      "id": "INFO-004",
+      "area": "INFO",
+      "topic": "Arquivos e pastas",
+      "difficulty": 1,
+      "statement": "O atalho Ctrl+V executa o comando:",
+      "image": null,
+      "options": ["Recortar", "Copiar", "Colar", "Salvar", "Desfazer"],
+      "answer": 2,
+      "explanation": "Ctrl+V é o comando Colar."
+    },
+    {
+      "id": "INFO-005",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 1,
+      "statement": "Um navegador de internet é um programa utilizado para:",
+      "image": null,
+      "options": [
+        "Criar apresentações",
+        "Editar textos",
+        "Acessar páginas da web",
+        "Proteger o computador contra vírus",
+        "Formatar o disco rígido"
+      ],
+      "answer": 2,
+      "explanation": "O navegador é usado para acessar e visualizar páginas da web."
+    },
+    {
+      "id": "INFO-006",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "O protocolo HTTP é utilizado principalmente para:",
+      "image": null,
+      "options": [
+        "Transferir arquivos por e-mail",
+        "Acessar páginas na internet",
+        "Proteger dados com criptografia",
+        "Criar redes locais",
+        "Editar documentos"
+      ],
+      "answer": 1,
+      "explanation": "HTTP é o protocolo usado para comunicação entre navegador e servidor web."
+    },
+    {
+      "id": "INFO-007",
+      "area": "INFO",
+      "topic": "Segurança da informação",
+      "difficulty": 1,
+      "statement": "Um antivírus tem como principal função:",
+      "image": null,
+      "options": [
+        "Aumentar a velocidade da internet",
+        "Detectar e remover programas maliciosos",
+        "Criar cópias de segurança",
+        "Formatar o computador",
+        "Atualizar automaticamente o sistema"
+      ],
+      "answer": 1,
+      "explanation": "Antivírus identifica e remove malware."
+    },
+    {
+      "id": "INFO-008",
+      "area": "INFO",
+      "topic": "Segurança da informação",
+      "difficulty": 2,
+      "statement": "Phishing é uma técnica utilizada para:",
+      "image": null,
+      "options": [
+        "Aumentar a memória do computador",
+        "Enganar o usuário para obter informações pessoais",
+        "Bloquear vírus automaticamente",
+        "Criar senhas fortes",
+        "Compactar arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Phishing visa enganar usuários para roubar dados."
+    },
+    {
+      "id": "INFO-009",
+      "area": "INFO",
+      "topic": "Correio eletrônico",
+      "difficulty": 1,
+      "statement": "O campo 'CC' em um e-mail serve para:",
+      "image": null,
+      "options": [
+        "Enviar mensagem oculta",
+        "Enviar cópia visível a outros destinatários",
+        "Bloquear destinatários",
+        "Arquivar automaticamente",
+        "Definir prioridade"
+      ],
+      "answer": 1,
+      "explanation": "CC = cópia carbono visível."
+    },
+    {
+      "id": "INFO-010",
+      "area": "INFO",
+      "topic": "Correio eletrônico",
+      "difficulty": 2,
+      "statement": "O campo 'CCO' (ou BCC) é utilizado para:",
+      "image": null,
+      "options": [
+        "Enviar cópia oculta a outros destinatários",
+        "Anexar arquivos",
+        "Apagar mensagens automaticamente",
+        "Definir o assunto",
+        "Criar filtros"
+      ],
+      "answer": 0,
+      "explanation": "CCO/BCC envia cópia oculta aos destinatários."
+    },
+    {
+      "id": "INFO-011",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 1,
+      "statement": "O Microsoft Word é utilizado principalmente para:",
+      "image": null,
+      "options": [
+        "Criar planilhas",
+        "Editar textos",
+        "Criar apresentações",
+        "Navegar na internet",
+        "Compactar arquivos"
+      ],
+      "answer": 1,
+      "explanation": "O Word é um editor de textos."
+    },
+    {
+      "id": "INFO-012",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 1,
+      "statement": "O Microsoft Excel é utilizado principalmente para:",
+      "image": null,
+      "options": [
+        "Criar desenhos técnicos",
+        "Editar imagens",
+        "Criar planilhas eletrônicas",
+        "Criar apresentações",
+        "Acessar a internet"
+      ],
+      "answer": 2,
+      "explanation": "O Excel é voltado para planilhas."
+    },
+    {
+      "id": "INFO-013",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 2,
+      "statement": "No Excel, a fórmula correta para somar os valores das células A1 até A5 é:",
+      "image": null,
+      "options": [
+        "=SOMA(A1+A5)",
+        "=SOMA(A1;A5)",
+        "=SOMA(A1:A5)",
+        "=SOMAR(A1:A5)",
+        "=A1+A5"
+      ],
+      "answer": 2,
+      "explanation": "A função correta é SOMA com intervalo A1:A5."
+    },
+    {
+      "id": "INFO-014",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 2,
+      "statement": "No Word, o recurso 'Quebra de página' serve para:",
+      "image": null,
+      "options": [
+        "Apagar uma página",
+        "Inserir nova página a partir de um ponto do texto",
+        "Diminuir o tamanho da fonte",
+        "Aumentar a margem",
+        "Criar colunas"
+      ],
+      "answer": 1,
+      "explanation": "A quebra de página força o texto a iniciar em nova página."
+    },
+    {
+      "id": "INFO-015",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 1,
+      "statement": "Qual componente é responsável pelo processamento das informações?",
+      "image": null,
+      "options": ["HD", "Memória RAM", "Placa-mãe", "Processador", "Fonte"],
+      "answer": 3,
+      "explanation": "O processador (CPU) executa as instruções."
+    },
+    {
+      "id": "INFO-016",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 1,
+      "statement": "A memória RAM é utilizada para:",
+      "image": null,
+      "options": [
+        "Armazenar dados permanentemente",
+        "Executar o sistema operacional",
+        "Guardar temporariamente dados e programas em uso",
+        "Proteger contra vírus",
+        "Conectar à internet"
+      ],
+      "answer": 2,
+      "explanation": "A RAM guarda dados temporários enquanto o computador está ligado."
+    },
+    {
+      "id": "INFO-017",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 2,
+      "statement": "Backup é o procedimento de:",
+      "image": null,
+      "options": [
+        "Excluir arquivos antigos",
+        "Criar cópia de segurança dos dados",
+        "Compactar arquivos",
+        "Formatar disco",
+        "Atualizar programas"
+      ],
+      "answer": 1,
+      "explanation": "Backup é cópia de segurança."
+    },
+    {
+      "id": "INFO-018",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 2,
+      "statement": "Uma rede local (LAN) é:",
+      "image": null,
+      "options": [
+        "Uma rede mundial",
+        "Uma rede restrita a uma área geográfica pequena",
+        "Uma rede exclusiva da internet",
+        "Uma rede apenas sem fio",
+        "Uma rede de satélites"
+      ],
+      "answer": 1,
+      "explanation": "LAN cobre área limitada, como prédio ou empresa."
+    },
+    {
+      "id": "INFO-019",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 3,
+      "statement": "O dispositivo responsável por interligar computadores em uma rede local é:",
+      "image": null,
+      "options": ["Modem", "Scanner", "Switch", "Monitor", "Impressora"],
+      "answer": 2,
+      "explanation": "O switch conecta dispositivos em uma LAN."
+    },
+    {
+      "id": "INFO-020",
+      "area": "INFO",
+      "topic": "Segurança da informação",
+      "difficulty": 2,
+      "statement": "Uma senha considerada forte deve:",
+      "image": null,
+      "options": [
+        "Conter apenas letras",
+        "Ser fácil de memorizar",
+        "Combinar letras, números e símbolos",
+        "Conter apenas números",
+        "Ser igual ao nome do usuário"
+      ],
+      "answer": 2,
+      "explanation": "Senhas fortes combinam letras, números e símbolos."
+    },
+    {
+      "id": "INFO-021",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "No Windows, ao pressionar Ctrl+Shift+Esc, o usuário abre diretamente:",
+      "image": null,
+      "options": [
+        "a Central de Ações",
+        "o Gerenciador de Tarefas",
+        "as Configurações do Sistema",
+        "o Explorador de Arquivos",
+        "a caixa Executar (Run)"
+      ],
+      "answer": 1,
+      "explanation": "Ctrl+Shift+Esc abre diretamente o Gerenciador de Tarefas."
+    },
+    {
+      "id": "INFO-022",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "No Windows, o atalho Alt+F4, quando acionado sobre a janela ativa, normalmente:",
+      "image": null,
+      "options": [
+        "fecha o programa/janela ativa",
+        "fecha apenas a aba ativa do navegador",
+        "minimiza todas as janelas abertas",
+        "abre o Gerenciador de Tarefas",
+        "bloqueia a estação de trabalho"
+      ],
+      "answer": 0,
+      "explanation": "Alt+F4 fecha a janela/programa ativo."
+    },
+    {
+      "id": "INFO-023",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "Um usuário moveu um arquivo usando Ctrl+X e Ctrl+V. Se ele usar Ctrl+Z imediatamente após colar, em regra:",
+      "image": null,
+      "options": [
+        "o arquivo é duplicado na origem",
+        "a colagem é desfeita e o arquivo retorna à pasta de origem",
+        "o arquivo é compactado automaticamente",
+        "o arquivo é excluído permanentemente",
+        "nada acontece, pois Ctrl+Z não funciona para arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Ctrl+Z desfaz a ação; em regra, o arquivo volta ao local anterior."
+    },
+    {
+      "id": "INFO-024",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 3,
+      "statement": "No Windows, ao pressionar Shift+Delete em um arquivo selecionado, o sistema:",
+      "image": null,
+      "options": [
+        "envia o arquivo para a Lixeira",
+        "renomeia o arquivo",
+        "exclui sem passar pela Lixeira, em regra",
+        "copia o arquivo para a área de transferência",
+        "move o arquivo para a pasta Documentos"
+      ],
+      "answer": 2,
+      "explanation": "Shift+Delete, em regra, exclui sem enviar à Lixeira."
+    },
+    {
+      "id": "INFO-025",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "A extensão de arquivo que, em regra, indica um documento do Microsoft Word (versões recentes) é:",
+      "image": null,
+      "options": [
+        ".xls",
+        ".ppt",
+        ".docx",
+        ".pdf",
+        ".jpg"
+      ],
+      "answer": 2,
+      "explanation": ".docx é o padrão de documentos do Word."
+    },
+    {
+      "id": "INFO-026",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Em um endereço como https://www.exemplo.com, o trecho “https” indica:",
+      "image": null,
+      "options": [
+        "um tipo de arquivo",
+        "um protocolo de comunicação",
+        "um antivírus instalado",
+        "um servidor DNS",
+        "um formato de compactação"
+      ],
+      "answer": 1,
+      "explanation": "HTTPS é um protocolo (HTTP sobre TLS/criptografia)."
+    },
+    {
+      "id": "INFO-027",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Ao limpar “cache” do navegador, o usuário está removendo principalmente:",
+      "image": null,
+      "options": [
+        "contatos do e-mail",
+        "arquivos temporários armazenados localmente para acelerar o carregamento",
+        "senhas salvas do sistema operacional",
+        "drivers de rede",
+        "programas instalados recentemente"
+      ],
+      "answer": 1,
+      "explanation": "Cache guarda arquivos temporários do site para acelerar carregamentos."
+    },
+    {
+      "id": "INFO-028",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "O recurso “modo anônimo/privado” no navegador, em regra:",
+      "image": null,
+      "options": [
+        "impede que o provedor de internet registre acessos",
+        "impede que o site veja o endereço IP do usuário",
+        "não salva histórico local e cookies após fechar a janela",
+        "cripta todos os arquivos do computador automaticamente",
+        "bloqueia todos os anúncios por padrão"
+      ],
+      "answer": 2,
+      "explanation": "Modo privado não mantém histórico/cookies localmente após encerrar a sessão."
+    },
+    {
+      "id": "INFO-029",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 2,
+      "statement": "O campo “CCO” (ou BCC) em um e-mail tem como finalidade:",
+      "image": null,
+      "options": [
+        "enviar cópia visível para todos os destinatários",
+        "enviar cópia oculta para destinatários, ocultando-os entre si",
+        "marcar e-mail como urgente automaticamente",
+        "anexar arquivos compactados",
+        "criptografar o conteúdo do e-mail"
+      ],
+      "answer": 1,
+      "explanation": "CCO envia cópia oculta: destinatários não veem quem está em CCO."
+    },
+    {
+      "id": "INFO-030",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 3,
+      "statement": "Considere o seguinte cenário: um usuário consegue enviar e-mails, mas não consegue recebê-los. Um problema comum relacionado a isso envolve:",
+      "image": null,
+      "options": [
+        "configuração do servidor de recebimento (POP/IMAP)",
+        "configuração do processador (CPU)",
+        "formatação do disco rígido",
+        "resolução do monitor",
+        "layout do teclado"
+      ],
+      "answer": 0,
+      "explanation": "Recebimento depende de POP/IMAP (configuração do servidor de entrada)."
+    },
+    {
+      "id": "INFO-031",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Phishing é uma técnica que busca, principalmente:",
+      "image": null,
+      "options": [
+        "aumentar a velocidade da rede",
+        "enganar a vítima para obter dados sensíveis",
+        "compactar arquivos para envio",
+        "corrigir erros do sistema operacional",
+        "substituir o antivírus por firewall"
+      ],
+      "answer": 1,
+      "explanation": "Phishing tenta obter credenciais/dados via engano."
+    },
+    {
+      "id": "INFO-032",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "Uma senha considerada mais forte, em regra, é aquela que:",
+      "image": null,
+      "options": [
+        "usa apenas números e tem 4 dígitos",
+        "repete o nome do usuário",
+        "combina letras maiúsculas, minúsculas, números e símbolos",
+        "é uma palavra do dicionário, por ser fácil de lembrar",
+        "é a data de nascimento do usuário"
+      ],
+      "answer": 2,
+      "explanation": "Combinação de classes e maior comprimento aumenta a resistência."
+    },
+    {
+      "id": "INFO-033",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Firewall, no contexto de segurança, é um recurso destinado principalmente a:",
+      "image": null,
+      "options": [
+        "editar documentos do Word",
+        "controlar e filtrar tráfego de rede",
+        "substituir o sistema operacional",
+        "criar backup em nuvem",
+        "remover poeira do gabinete"
+      ],
+      "answer": 1,
+      "explanation": "Firewall filtra tráfego (entrada/saída), controlando acessos."
+    },
+    {
+      "id": "INFO-034",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 2,
+      "statement": "O objetivo principal de um backup é:",
+      "image": null,
+      "options": [
+        "aumentar memória RAM",
+        "criar cópia de segurança para recuperação de dados",
+        "reduzir o tamanho de arquivos automaticamente",
+        "corrigir falhas de energia elétrica",
+        "impedir definitivamente infecção por vírus"
+      ],
+      "answer": 1,
+      "explanation": "Backup cria cópia para restaurar dados em caso de perda."
+    },
+    {
+      "id": "INFO-035",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, o recurso “Controlar Alterações” é usado principalmente para:",
+      "image": null,
+      "options": [
+        "criar gráficos",
+        "registrar edições e revisões no documento",
+        "compactar imagens automaticamente",
+        "impedir que o arquivo seja salvo",
+        "converter PDF em imagem"
+      ],
+      "answer": 1,
+      "explanation": "Controlar Alterações registra inserções/remoções e revisões."
+    },
+    {
+      "id": "INFO-036",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 3,
+      "statement": "Em um documento do Word, “quebra de página” é um recurso que:",
+      "image": null,
+      "options": [
+        "altera a fonte do texto",
+        "inicia uma nova página a partir de um ponto específico",
+        "apaga a página atual",
+        "transforma texto em tabela",
+        "cria um link para outro arquivo"
+      ],
+      "answer": 1,
+      "explanation": "Quebra de página força começar em nova página."
+    },
+    {
+      "id": "INFO-037",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "No Excel, qual fórmula soma os valores das células A1 até A5?",
+      "image": null,
+      "options": [
+        "=SOMA(A1:A5)",
+        "=SOMA(A1;A5)",
+        "=SOMA(A1-A5)",
+        "=MEDIA(A1:A5)",
+        "=CONT.VALORES(A1:A5)"
+      ],
+      "answer": 0,
+      "explanation": "SOMA com intervalo usa dois pontos: A1:A5."
+    },
+    {
+      "id": "INFO-038",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, ao copiar a fórmula =A1*2 da célula B1 para B2, em regra, a referência muda para:",
+      "image": null,
+      "options": [
+        "=A1*2",
+        "=A2*2",
+        "=B1*2",
+        "=A$1*2",
+        "=$A$1*2"
+      ],
+      "answer": 1,
+      "explanation": "Referência relativa ajusta linha ao copiar para baixo (A1 vira A2)."
+    },
+    {
+      "id": "INFO-039",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, para impedir que a referência à célula A1 mude ao copiar uma fórmula, deve-se usar:",
+      "image": null,
+      "options": [
+        "A1",
+        "$A$1",
+        "A$1",
+        "$A1",
+        "A1$"
+      ],
+      "answer": 1,
+      "explanation": "Referência absoluta é $A$1."
+    },
+    {
+      "id": "INFO-040",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "No Excel, a função CONT.VALORES tem como objetivo:",
+      "image": null,
+      "options": [
+        "contar células com números apenas",
+        "contar células não vazias",
+        "somar células vazias",
+        "calcular a média ponderada",
+        "contar apenas células com fórmulas"
+      ],
+      "answer": 1,
+      "explanation": "CONT.VALORES conta células não vazias."
+    },
+    {
+      "id": "INFO-041",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, a função CONT.NÚM conta:",
+      "image": null,
+      "options": [
+        "todas as células não vazias",
+        "apenas células com números",
+        "apenas células com texto",
+        "apenas células com datas",
+        "apenas células com erros"
+      ],
+      "answer": 1,
+      "explanation": "CONT.NÚM contabiliza somente valores numéricos."
+    },
+    {
+      "id": "INFO-042",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "O recurso “Filtro” no Excel permite, principalmente:",
+      "image": null,
+      "options": [
+        "criar slides automaticamente",
+        "exibir apenas linhas que atendam a critérios",
+        "apagar linhas duplicadas automaticamente sem confirmação",
+        "proteger o arquivo contra vírus",
+        "converter planilha em PDF apenas"
+      ],
+      "answer": 1,
+      "explanation": "Filtro exibe subconjunto de linhas conforme critérios."
+    },
+    {
+      "id": "INFO-043",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Ao acessar um site, o DNS é utilizado para:",
+      "image": null,
+      "options": [
+        "criptografar arquivos do usuário",
+        "converter nome de domínio em endereço IP",
+        "aumentar memória do navegador",
+        "remover vírus automaticamente",
+        "compactar imagens do site"
+      ],
+      "answer": 1,
+      "explanation": "DNS resolve domínio (nome) para IP."
+    },
+    {
+      "id": "INFO-044",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Um “link” em uma página web é, em regra:",
+      "image": null,
+      "options": [
+        "um arquivo executável do Windows",
+        "um endereço que aponta para outro recurso (página/arquivo)",
+        "um antivírus do navegador",
+        "um tipo de planilha",
+        "um componente físico do computador"
+      ],
+      "answer": 1,
+      "explanation": "Link aponta para outro recurso (URL)."
+    },
+    {
+      "id": "INFO-045",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Um e-mail com remetente aparentemente conhecido, pedindo “urgentemente” para clicar em um link e “confirmar senha”, é um indício típico de:",
+      "image": null,
+      "options": [
+        "backup",
+        "phishing",
+        "desfragmentação",
+        "driver desatualizado",
+        "compactação"
+      ],
+      "answer": 1,
+      "explanation": "Pedido urgente + link para credenciais é padrão de phishing."
+    },
+    {
+      "id": "INFO-046",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "Um arquivo “.zip” é, em regra, um arquivo:",
+      "image": null,
+      "options": [
+        "de imagem",
+        "de áudio",
+        "compactado",
+        "de planilha",
+        "de sistema operacional"
+      ],
+      "answer": 2,
+      "explanation": ".zip indica arquivo compactado."
+    },
+    {
+      "id": "INFO-047",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "No Windows, “formatar” uma unidade de armazenamento significa, em regra:",
+      "image": null,
+      "options": [
+        "aumentar a memória RAM",
+        "organizar fisicamente os cabos do gabinete",
+        "preparar o disco com um sistema de arquivos, apagando dados",
+        "instalar um antivírus",
+        "apenas renomear a unidade"
+      ],
+      "answer": 2,
+      "explanation": "Formatação cria sistema de arquivos e geralmente apaga dados."
+    },
+    {
+      "id": "INFO-048",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 2,
+      "statement": "SSD, quando comparado ao HD tradicional, em regra:",
+      "image": null,
+      "options": [
+        "é sempre mais lento por não ter partes móveis",
+        "é mais rápido por usar memória flash",
+        "não armazena dados permanentemente",
+        "não pode ser usado em notebooks",
+        "é um tipo de memória RAM"
+      ],
+      "answer": 1,
+      "explanation": "SSD usa memória flash e tende a ser mais rápido."
+    },
+    {
+      "id": "INFO-049",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "Malware é um termo usado para designar:",
+      "image": null,
+      "options": [
+        "apenas vírus de computador",
+        "qualquer software malicioso (vírus, trojan, spyware etc.)",
+        "somente falhas de hardware",
+        "apenas arquivos do Word corrompidos",
+        "somente publicidade em sites"
+      ],
+      "answer": 1,
+      "explanation": "Malware é software malicioso em geral."
+    },
+    {
+      "id": "INFO-050",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Ransomware é um tipo de malware que, tipicamente:",
+      "image": null,
+      "options": [
+        "remove anúncios do navegador",
+        "compacta arquivos para economizar espaço",
+        "criptografa dados e exige pagamento para liberação",
+        "atualiza drivers automaticamente",
+        "cria cópias de segurança em nuvem"
+      ],
+      "answer": 2,
+      "explanation": "Ransomware criptografa e exige resgate."
+    },
+    {
+      "id": "INFO-051",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, “Cabeçalho” e “Rodapé” são áreas usadas, em regra, para:",
+      "image": null,
+      "options": [
+        "inserir texto repetido (ex.: paginação, nome do documento)",
+        "apagar automaticamente parágrafos duplicados",
+        "executar fórmulas matemáticas",
+        "armazenar anexos do e-mail",
+        "compactar imagens do arquivo"
+      ],
+      "answer": 0,
+      "explanation": "Cabeçalho/rodapé são usados para informações repetidas (ex.: número de página)."
+    },
+    {
+      "id": "INFO-052",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 3,
+      "statement": "No Word, ao aplicar “Justificar” em um parágrafo, o texto fica:",
+      "image": null,
+      "options": [
+        "alinhado apenas à esquerda",
+        "alinhado apenas à direita",
+        "centralizado",
+        "alinhado simultaneamente às margens esquerda e direita",
+        "com espaçamento simples obrigatório"
+      ],
+      "answer": 3,
+      "explanation": "Justificar alinha às duas margens."
+    },
+    {
+      "id": "INFO-053",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Um “cookie” é, em regra:",
+      "image": null,
+      "options": [
+        "um vírus do navegador",
+        "um arquivo/registro usado por sites para armazenar preferências/sessão",
+        "um programa de edição de imagens",
+        "um tipo de hardware de rede",
+        "um formato de planilha"
+      ],
+      "answer": 1,
+      "explanation": "Cookie armazena informações de sessão/preferências do site."
+    },
+    {
+      "id": "INFO-054",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 3,
+      "statement": "No Windows, permissões de acesso a um arquivo/pasta (por exemplo, leitura e gravação) referem-se principalmente a:",
+      "image": null,
+      "options": [
+        "capacidade do processador",
+        "direitos de usuários/grupos sobre o recurso",
+        "tipo de monitor conectado",
+        "velocidade da internet",
+        "tamanho do disco rígido"
+      ],
+      "answer": 1,
+      "explanation": "Permissões controlam o que usuários/grupos podem fazer no arquivo/pasta."
+    },
+    {
+      "id": "INFO-055",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, a função SE tem como finalidade principal:",
+      "image": null,
+      "options": [
+        "somar valores automaticamente",
+        "testar uma condição e retornar resultados diferentes conforme verdadeiro/falso",
+        "contar células vazias",
+        "ordenar dados em ordem alfabética",
+        "formatar células como moeda"
+      ],
+      "answer": 1,
+      "explanation": "SE retorna valores diferentes conforme a condição."
+    },
+    {
+      "id": "INFO-056",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "No Excel, o recurso “Congelar Painéis” é usado principalmente para:",
+      "image": null,
+      "options": [
+        "bloquear a edição de todo o arquivo com senha",
+        "manter visíveis linhas/colunas enquanto se rola a planilha",
+        "apagar linhas duplicadas",
+        "converter texto em colunas",
+        "executar macros automaticamente"
+      ],
+      "answer": 1,
+      "explanation": "Congelar painéis mantém cabeçalhos visíveis ao rolar."
+    },
+    {
+      "id": "INFO-057",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "Um arquivo PDF é, em regra, mais indicado quando se deseja:",
+      "image": null,
+      "options": [
+        "editar o texto livremente por qualquer pessoa",
+        "preservar formatação para visualização/impressão",
+        "executar programas no Windows",
+        "instalar drivers de impressora",
+        "armazenar senhas do navegador"
+      ],
+      "answer": 1,
+      "explanation": "PDF preserva layout para visualização/impressão."
+    },
+    {
+      "id": "INFO-058",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Ao digitar um endereço sem o “www”, como exemplo.com, e o navegador abrir o site normalmente, isso ocorre porque:",
+      "image": null,
+      "options": [
+        "www é obrigatório e o navegador inventa aleatoriamente",
+        "o domínio pode resolver sem subdomínio “www”",
+        "o antivírus substitui o endereço",
+        "o Windows converte automaticamente em IP sem DNS",
+        "o e-mail do usuário autoriza o acesso"
+      ],
+      "answer": 1,
+      "explanation": "O site pode estar configurado para responder no domínio raiz (sem www)."
+    },
+    {
+      "id": "INFO-059",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "A autenticação em dois fatores (2FA) aumenta a segurança porque:",
+      "image": null,
+      "options": [
+        "dispensa o uso de senha",
+        "exige uma segunda evidência além da senha (ex.: código no celular)",
+        "impede qualquer tipo de malware",
+        "aumenta a velocidade da internet",
+        "substitui o firewall do sistema"
+      ],
+      "answer": 1,
+      "explanation": "2FA adiciona um segundo fator além da senha."
+    },
+    {
+      "id": "INFO-060",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 2,
+      "statement": "Assinale a prática mais adequada ao anexar arquivos em um e-mail corporativo:",
+      "image": null,
+      "options": [
+        "enviar qualquer arquivo executável (.exe) sem aviso",
+        "compactar arquivos grandes e verificar o destinatário antes de enviar",
+        "enviar senhas no corpo do e-mail sempre que necessário",
+        "abrir anexos desconhecidos para “testar” antes",
+        "desativar o antivírus para evitar bloqueios"
+      ],
+      "answer": 1,
+      "explanation": "Boa prática: conferir destinatário e, se necessário, compactar/organizar anexos; evitar riscos."
+    },
+    {
+      "id": "INFO-061",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "No Windows, o atalho Win + D tem como principal efeito:",
+      "image": null,
+      "options": [
+        "abrir o Explorador de Arquivos",
+        "minimizar todas as janelas e mostrar a Área de Trabalho",
+        "bloquear o computador",
+        "abrir o Gerenciador de Tarefas",
+        "encerrar o programa ativo"
+      ],
+      "answer": 1,
+      "explanation": "Win+D alterna a visualização da Área de Trabalho."
+    },
+    {
+      "id": "INFO-062",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 3,
+      "statement": "Ao utilizar o comando Ctrl+Alt+Del no Windows, o usuário acessa uma tela que permite, entre outras opções:",
+      "image": null,
+      "options": [
+        "formatar o disco rígido",
+        "alterar o endereço IP",
+        "bloquear a sessão ou acessar o Gerenciador de Tarefas",
+        "instalar drivers automaticamente",
+        "abrir o navegador padrão"
+      ],
+      "answer": 2,
+      "explanation": "Essa combinação dá acesso às opções de segurança, inclusive ao Gerenciador de Tarefas."
+    },
+    {
+      "id": "INFO-063",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "Um arquivo com extensão .pdf é caracterizado principalmente por:",
+      "image": null,
+      "options": [
+        "permitir edição irrestrita por qualquer usuário",
+        "preservar a formatação do documento",
+        "executar programas automaticamente",
+        "armazenar apenas imagens",
+        "ser exclusivo do Word"
+      ],
+      "answer": 1,
+      "explanation": "O PDF mantém o layout para visualização e impressão."
+    },
+    {
+      "id": "INFO-064",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 3,
+      "statement": "Ao compactar vários arquivos em um único .zip, o principal objetivo é:",
+      "image": null,
+      "options": [
+        "impedir acesso não autorizado",
+        "reduzir o espaço ocupado e facilitar o envio",
+        "criptografar permanentemente os dados",
+        "transformar arquivos em executáveis",
+        "alterar o formato original dos documentos"
+      ],
+      "answer": 1,
+      "explanation": "A compactação reduz tamanho e facilita transporte."
+    },
+    {
+      "id": "INFO-065",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Em um endereço eletrônico, o sufixo “.br” indica:",
+      "image": null,
+      "options": [
+        "o tipo de navegador utilizado",
+        "o país de origem do domínio",
+        "o tipo de protocolo",
+        "o formato do arquivo",
+        "o nível de segurança"
+      ],
+      "answer": 1,
+      "explanation": ".br identifica domínio associado ao Brasil."
+    },
+    {
+      "id": "INFO-066",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Quando um usuário acessa um site e visualiza uma página já carregada anteriormente, o navegador pode utilizar:",
+      "image": null,
+      "options": [
+        "o firewall",
+        "o cache",
+        "{o DNS}",
+        "o antivírus",
+        "o backup"
+      ],
+      "answer": 1,
+      "explanation": "O cache guarda arquivos temporários para acelerar o carregamento."
+    },
+    {
+      "id": "INFO-067",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 2,
+      "statement": "No envio de e-mails, o campo “Para” deve ser utilizado para:",
+      "image": null,
+      "options": [
+        "destinatários principais da mensagem",
+        "destinatários ocultos",
+        "endereços de cópia automática",
+        "endereços de backup",
+        "anexos do e-mail"
+      ],
+      "answer": 0,
+      "explanation": "O campo Para contém os destinatários principais."
+    },
+    {
+      "id": "INFO-068",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 3,
+      "statement": "Ao encaminhar um e-mail contendo anexos muito grandes, uma prática mais adequada é:",
+      "image": null,
+      "options": [
+        "enviar o arquivo executável",
+        "compactar os anexos ou usar armazenamento em nuvem",
+        "apagar o conteúdo do e-mail",
+        "enviar a senha junto com o arquivo",
+        "desativar o antivírus"
+      ],
+      "answer": 1,
+      "explanation": "Compactação ou nuvem facilitam o envio e reduzem riscos."
+    },
+    {
+      "id": "INFO-069",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "Um antivírus tem como função principal:",
+      "image": null,
+      "options": [
+        "editar documentos",
+        "detectar e remover softwares maliciosos",
+        "formatar discos",
+        "criar planilhas",
+        "controlar impressão"
+      ],
+      "answer": 1,
+      "explanation": "Antivírus identifica e remove malwares."
+    },
+    {
+      "id": "INFO-070",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "O termo spyware refere-se a um tipo de programa que:",
+      "image": null,
+      "options": [
+        "protege contra vírus",
+        "espiona atividades do usuário",
+        "apaga arquivos temporários",
+        "cria cópias de segurança",
+        "organiza pastas automaticamente"
+      ],
+      "answer": 1,
+      "explanation": "Spyware coleta informações sem consentimento."
+    },
+    {
+      "id": "INFO-071",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 2,
+      "statement": "O backup incremental caracteriza-se por:",
+      "image": null,
+      "options": [
+        "copiar todos os arquivos sempre",
+        "copiar apenas os arquivos alterados desde o último backup",
+        "copiar apenas programas",
+        "substituir o antivírus",
+        "apagar dados antigos"
+      ],
+      "answer": 1,
+      "explanation": "Backup incremental copia somente arquivos modificados."
+    },
+    {
+      "id": "INFO-072",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, o recurso “Salvar como” é utilizado principalmente para:",
+      "image": null,
+      "options": [
+        "apagar o arquivo atual",
+        "criar uma nova versão do documento",
+        "imprimir automaticamente",
+        "enviar por e-mail",
+        "alterar margens"
+      ],
+      "answer": 1,
+      "explanation": "Salvar como cria nova cópia ou muda formato/local."
+    },
+    {
+      "id": "INFO-073",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 3,
+      "statement": "A opção “Controle de Alterações” no Word é útil quando:",
+      "image": null,
+      "options": [
+        "se deseja ocultar o texto",
+        "se deseja acompanhar modificações feitas no documento",
+        "se deseja excluir imagens",
+        "se deseja converter em PDF",
+        "se deseja proteger contra vírus"
+      ],
+      "answer": 1,
+      "explanation": "Esse recurso registra edições para revisão."
+    },
+    {
+      "id": "INFO-074",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "No Excel, uma célula é definida como:",
+      "image": null,
+      "options": [
+        "um conjunto de planilhas",
+        "a interseção entre linha e coluna",
+        "o nome do arquivo",
+        "uma fórmula pronta",
+        "um gráfico automático"
+      ],
+      "answer": 1,
+      "explanation": "Célula = cruzamento de linha e coluna."
+    },
+    {
+      "id": "INFO-075",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "Ao aplicar a função =MÉDIA(A1:A5) no Excel, o resultado corresponde:",
+      "image": null,
+      "options": [
+        "à soma dos valores",
+        "ao maior valor",
+        "à média aritmética dos valores",
+        "à contagem de células",
+        "ao menor valor"
+      ],
+      "answer": 2,
+      "explanation": "A função MÉDIA calcula a média aritmética."
+    },
+    {
+      "id": "INFO-076",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, a referência absoluta $A$1 indica que:",
+      "image": null,
+      "options": [
+        "apenas a coluna é fixa",
+        "apenas a linha é fixa",
+        "linha e coluna são fixas",
+        "a célula será apagada",
+        "a célula é temporária"
+      ],
+      "answer": 2,
+      "explanation": "O uso de $ fixa linha e coluna."
+    },
+    {
+      "id": "INFO-077",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 2,
+      "statement": "O teclado e o mouse são classificados como dispositivos de:",
+      "image": null,
+      "options": [
+        "processamento",
+        "armazenamento",
+        "entrada",
+        "saída",
+        "comunicação"
+      ],
+      "answer": 2,
+      "explanation": "São dispositivos de entrada."
+    },
+    {
+      "id": "INFO-078",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 3,
+      "statement": "A memória RAM é considerada volátil porque:",
+      "image": null,
+      "options": [
+        "armazena dados permanentemente",
+        "perde os dados ao desligar o computador",
+        "é usada apenas para backup",
+        "funciona sem energia elétrica",
+        "é exclusiva de notebooks"
+      ],
+      "answer": 1,
+      "explanation": "RAM perde dados quando o computador é desligado."
+    },
+    {
+      "id": "INFO-079",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "O Windows Explorer é utilizado para:",
+      "image": null,
+      "options": [
+        "editar imagens",
+        "gerenciar arquivos e pastas",
+        "proteger contra vírus",
+        "acessar redes sociais",
+        "criar apresentações"
+      ],
+      "answer": 1,
+      "explanation": "Explorador de Arquivos gerencia pastas e arquivos."
+    },
+    {
+      "id": "INFO-080",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 3,
+      "statement": "Ao formatar um disco rígido, o usuário deve estar ciente de que:",
+      "image": null,
+      "options": [
+        "os dados serão preservados",
+        "os dados poderão ser apagados",
+        "o sistema operacional não será afetado",
+        "o disco ficará mais rápido automaticamente",
+        "o antivírus será desinstalado"
+      ],
+      "answer": 1,
+      "explanation": "Formatação normalmente apaga os dados."
+    },
+    {
+      "id": "INFO-081",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "O navegador Google Chrome é um exemplo de:",
+      "image": null,
+      "options": [
+        "editor de texto",
+        "sistema operacional",
+        "navegador de internet",
+        "antivírus",
+        "planilha eletrônica"
+      ],
+      "answer": 2,
+      "explanation": "Chrome é navegador."
+    },
+    {
+      "id": "INFO-082",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Um endereço IP é utilizado para:",
+      "image": null,
+      "options": [
+        "identificar um computador na rede",
+        "armazenar arquivos",
+        "editar textos",
+        "criar planilhas",
+        "compactar dados"
+      ],
+      "answer": 0,
+      "explanation": "IP identifica dispositivos na rede."
+    },
+    {
+      "id": "INFO-083",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "A prática de não compartilhar senhas contribui para:",
+      "image": null,
+      "options": [
+        "reduzir armazenamento",
+        "aumentar a segurança da informação",
+        "diminuir a velocidade do sistema",
+        "apagar arquivos automaticamente",
+        "impedir backups"
+      ],
+      "answer": 1,
+      "explanation": "Senhas são pessoais e protegem dados."
+    },
+    {
+      "id": "INFO-084",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "O termo engenharia social refere-se:",
+      "image": null,
+      "options": [
+        "à construção de redes",
+        "à manipulação psicológica para obter informações",
+        "ao uso de hardware avançado",
+        "à programação de sistemas",
+        "à compactação de arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Engenharia social explora falhas humanas."
+    },
+    {
+      "id": "INFO-085",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, o recurso “Localizar” permite:",
+      "image": null,
+      "options": [
+        "formatar texto",
+        "buscar palavras no documento",
+        "apagar parágrafos",
+        "criar gráficos",
+        "inserir imagens"
+      ],
+      "answer": 1,
+      "explanation": "Localizar serve para encontrar termos."
+    },
+    {
+      "id": "INFO-086",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 3,
+      "statement": "A opção “Justificar” no Word alinha o texto:",
+      "image": null,
+      "options": [
+        "somente à esquerda",
+        "somente à direita",
+        "ao centro",
+        "às margens esquerda e direita",
+        "somente ao topo da página"
+      ],
+      "answer": 3,
+      "explanation": "Justificar alinha dos dois lados."
+    },
+    {
+      "id": "INFO-087",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "A função CONT.VALORES no Excel conta:",
+      "image": null,
+      "options": [
+        "somente células numéricas",
+        "células não vazias",
+        "somente células vazias",
+        "apenas células com erros",
+        "apenas células com texto"
+      ],
+      "answer": 1,
+      "explanation": "CONT.VALORES conta células não vazias."
+    },
+    {
+      "id": "INFO-088",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, a função SE é usada para:",
+      "image": null,
+      "options": [
+        "somar valores",
+        "avaliar uma condição lógica",
+        "ordenar dados",
+        "formatar células",
+        "criar gráficos"
+      ],
+      "answer": 1,
+      "explanation": "SE testa condição lógica."
+    },
+    {
+      "id": "INFO-089",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 2,
+      "statement": "O HD ou SSD é classificado como dispositivo de:",
+      "image": null,
+      "options": [
+        "entrada",
+        "saída",
+        "armazenamento",
+        "processamento",
+        "comunicação"
+      ],
+      "answer": 2,
+      "explanation": "HD e SSD armazenam dados."
+    },
+    {
+      "id": "INFO-090",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 3,
+      "statement": "O processador (CPU) é responsável principalmente por:",
+      "image": null,
+      "options": [
+        "armazenar arquivos",
+        "executar instruções e processar dados",
+        "exibir imagens",
+        "controlar a impressão",
+        "gerenciar backups"
+      ],
+      "answer": 1,
+      "explanation": "A CPU executa instruções."
+    },
+    {
+      "id": "INFO-091",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "O protocolo FTP é utilizado para:",
+      "image": null,
+      "options": [
+        "transferir arquivos",
+        "navegar em páginas",
+        "enviar e-mails",
+        "criptografar dados",
+        "formatar discos"
+      ],
+      "answer": 0,
+      "explanation": "FTP é protocolo de transferência de arquivos."
+    },
+    {
+      "id": "INFO-092",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Ao acessar um site seguro (HTTPS), pode-se afirmar que:",
+      "image": null,
+      "options": [
+        "não há risco algum",
+        "os dados são transmitidos de forma criptografada",
+        "o site é sempre oficial",
+        "o antivírus é desnecessário",
+        "não existe coleta de dados"
+      ],
+      "answer": 1,
+      "explanation": "HTTPS indica uso de criptografia."
+    },
+    {
+      "id": "INFO-093",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "Atualizar o sistema operacional contribui para:",
+      "image": null,
+      "options": [
+        "apenas mudar aparência",
+        "corrigir falhas de segurança",
+        "aumentar tamanho dos arquivos",
+        "reduzir memória",
+        "apagar programas"
+      ],
+      "answer": 1,
+      "explanation": "Atualizações corrigem vulnerabilidades."
+    },
+    {
+      "id": "INFO-094",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Um trojan é caracterizado por:",
+      "image": null,
+      "options": [
+        "se reproduzir automaticamente como vírus",
+        "disfarçar-se como programa legítimo",
+        "proteger o computador",
+        "apenas exibir anúncios",
+        "atuar somente offline"
+      ],
+      "answer": 1,
+      "explanation": "Trojan se disfarça de programa legítimo."
+    },
+    {
+      "id": "INFO-095",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 2,
+      "statement": "Armazenar cópia de arquivos em nuvem é uma forma de:",
+      "image": null,
+      "options": [
+        "excluir dados",
+        "realizar backup remoto",
+        "formatar disco",
+        "instalar programas",
+        "compactar imagens"
+      ],
+      "answer": 1,
+      "explanation": "Nuvem pode ser usada para backup."
+    },
+    {
+      "id": "INFO-096",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 3,
+      "statement": "Manter apenas um único backup no mesmo computador é arriscado porque:",
+      "image": null,
+      "options": [
+        "reduz a velocidade da máquina",
+        "pode ser perdido junto com o equipamento",
+        "impede o uso do antivírus",
+        "aumenta o consumo de energia",
+        "altera o formato dos arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Se o PC falhar, perde-se o original e o backup."
+    },
+    {
+      "id": "INFO-097",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, inserir uma tabela significa:",
+      "image": null,
+      "options": [
+        "criar um gráfico automaticamente",
+        "organizar informações em linhas e colunas",
+        "formatar páginas",
+        "salvar o documento",
+        "criar um link"
+      ],
+      "answer": 1,
+      "explanation": "Tabela organiza dados em linhas e colunas."
+    },
+    {
+      "id": "INFO-098",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "No Excel, ao aplicar um filtro, o usuário:",
+      "image": null,
+      "options": [
+        "apaga linhas automaticamente",
+        "oculta linhas que não atendem ao critério",
+        "altera permanentemente os dados",
+        "converte texto em número",
+        "formata células como moeda"
+      ],
+      "answer": 1,
+      "explanation": "Filtro apenas oculta linhas fora do critério."
+    },
+    {
+      "id": "INFO-099",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Um buscador como o Google tem como principal função:",
+      "image": null,
+      "options": [
+        "editar documentos",
+        "localizar informações na internet",
+        "armazenar arquivos",
+        "proteger contra vírus",
+        "criar apresentações"
+      ],
+      "answer": 1,
+      "explanation": "Buscadores localizam conteúdos na web."
+    },
+    {
+      "id": "INFO-100",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "O uso de autenticação em dois fatores aumenta a segurança porque:",
+      "image": null,
+      "options": [
+        "dispensa o uso de senha",
+        "exige uma segunda comprovação além da senha",
+        "impede totalmente invasões",
+        "substitui o antivírus",
+        "elimina a necessidade de firewall"
+      ],
+      "answer": 1,
+      "explanation": "2FA adiciona um segundo fator além da senha."
+    },
+    {
+      "id": "INFO-101",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 2,
+      "statement": "No Windows, a função principal da Lixeira é:",
+      "image": null,
+      "options": [
+        "armazenar arquivos permanentemente",
+        "guardar temporariamente arquivos excluídos",
+        "proteger contra vírus",
+        "compactar arquivos",
+        "criar cópias de segurança"
+      ],
+      "answer": 1,
+      "explanation": "A Lixeira mantém arquivos excluídos antes da remoção definitiva."
+    },
+    {
+      "id": "INFO-102",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 3,
+      "statement": "Ao pressionar Win + L no Windows, o sistema:",
+      "image": null,
+      "options": [
+        "fecha todos os programas",
+        "reinicia o computador",
+        "bloqueia a sessão do usuário",
+        "abre o Gerenciador de Tarefas",
+        "minimiza todas as janelas"
+      ],
+      "answer": 2,
+      "explanation": "Win+L bloqueia a estação de trabalho."
+    },
+    {
+      "id": "INFO-103",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 2,
+      "statement": "O comando Ctrl+Shift+N no Windows serve para:",
+      "image": null,
+      "options": [
+        "renomear arquivos",
+        "criar uma nova pasta",
+        "copiar arquivos",
+        "abrir a Lixeira",
+        "compactar arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Ctrl+Shift+N cria uma nova pasta."
+    },
+    {
+      "id": "INFO-104",
+      "area": "INFO",
+      "topic": "Arquivos e Pastas",
+      "difficulty": 3,
+      "statement": "Um arquivo com extensão .exe indica, em regra, um:",
+      "image": null,
+      "options": [
+        "documento de texto",
+        "arquivo compactado",
+        "programa executável",
+        "arquivo de imagem",
+        "arquivo de áudio"
+      ],
+      "answer": 2,
+      "explanation": ".exe é arquivo executável."
+    },
+    {
+      "id": "INFO-105",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "O protocolo utilizado para envio de páginas da web é o:",
+      "image": null,
+      "options": ["FTP", "SMTP", "HTTP", "POP", "IMAP"],
+      "answer": 2,
+      "explanation": "HTTP é o protocolo da Web."
+    },
+    {
+      "id": "INFO-106",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 3,
+      "statement": "Quando um usuário acessa um site, o servidor envia ao navegador:",
+      "image": null,
+      "options": [
+        "apenas o endereço IP",
+        "os arquivos que compõem a página",
+        "o antivírus instalado",
+        "as senhas do usuário",
+        "os dados do HD do computador"
+      ],
+      "answer": 1,
+      "explanation": "O servidor envia os arquivos da página (HTML, imagens etc.)."
+    },
+    {
+      "id": "INFO-107",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 2,
+      "statement": "O protocolo normalmente utilizado para envio de e-mails é:",
+      "image": null,
+      "options": ["POP", "FTP", "SMTP", "IMAP", "HTTP"],
+      "answer": 2,
+      "explanation": "SMTP é usado para envio de mensagens."
+    },
+    {
+      "id": "INFO-108",
+      "area": "INFO",
+      "topic": "E-mail",
+      "difficulty": 3,
+      "statement": "O protocolo IMAP diferencia-se do POP por:",
+      "image": null,
+      "options": [
+        "apagar automaticamente mensagens do servidor",
+        "permitir acesso às mensagens diretamente no servidor",
+        "impedir o uso de anexos",
+        "não permitir envio de e-mails",
+        "ser exclusivo para redes internas"
+      ],
+      "answer": 1,
+      "explanation": "IMAP mantém mensagens no servidor, permitindo acesso em vários dispositivos."
+    },
+    {
+      "id": "INFO-109",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 2,
+      "statement": "O termo malware refere-se a:",
+      "image": null,
+      "options": [
+        "qualquer falha de hardware",
+        "programas destinados a causar danos ou obter informações",
+        "apenas vírus de computador",
+        "somente erros do sistema",
+        "apenas spam"
+      ],
+      "answer": 1,
+      "explanation": "Malware é software malicioso em geral."
+    },
+    {
+      "id": "INFO-110",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "Um ataque do tipo ransomware tem como principal característica:",
+      "image": null,
+      "options": [
+        "excluir dados sem aviso",
+        "bloquear ou criptografar arquivos e exigir pagamento",
+        "aumentar a velocidade da rede",
+        "espionar teclas digitadas",
+        "gerar cópias automáticas"
+      ],
+      "answer": 1,
+      "explanation": "Ransomware criptografa dados e exige resgate."
+    },
+    {
+      "id": "INFO-111",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 2,
+      "statement": "Um backup completo é aquele que:",
+      "image": null,
+      "options": [
+        "copia apenas arquivos alterados",
+        "copia todos os arquivos selecionados",
+        "copia somente programas",
+        "exclui arquivos antigos",
+        "compacta automaticamente dados"
+      ],
+      "answer": 1,
+      "explanation": "Backup completo copia todos os dados selecionados."
+    },
+    {
+      "id": "INFO-112",
+      "area": "INFO",
+      "topic": "Backup",
+      "difficulty": 3,
+      "statement": "A estratégia mais segura para backups envolve, em regra:",
+      "image": null,
+      "options": [
+        "manter apenas uma cópia no próprio computador",
+        "manter cópias em locais diferentes",
+        "usar somente pendrive",
+        "desativar antivírus",
+        "não atualizar o sistema"
+      ],
+      "answer": 1,
+      "explanation": "Cópias em locais distintos reduzem risco de perda total."
+    },
+    {
+      "id": "INFO-113",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 2,
+      "statement": "No Word, a opção “Quebra de página” é usada para:",
+      "image": null,
+      "options": [
+        "apagar a página atual",
+        "iniciar uma nova página a partir de um ponto",
+        "alterar a fonte do texto",
+        "inserir imagens",
+        "criar hiperlinks"
+      ],
+      "answer": 1,
+      "explanation": "A quebra de página força nova página."
+    },
+    {
+      "id": "INFO-114",
+      "area": "INFO",
+      "topic": "Editor de Texto",
+      "difficulty": 3,
+      "statement": "No Word, o recurso “Estilos” permite:",
+      "image": null,
+      "options": [
+        "criar fórmulas matemáticas",
+        "padronizar formatação de títulos e parágrafos",
+        "compactar imagens",
+        "inserir tabelas",
+        "proteger contra vírus"
+      ],
+      "answer": 1,
+      "explanation": "Estilos padronizam formatação."
+    },
+    {
+      "id": "INFO-115",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 2,
+      "statement": "No Excel, a função SOMA é utilizada para:",
+      "image": null,
+      "options": [
+        "contar células",
+        "somar valores",
+        "calcular média",
+        "ordenar dados",
+        "apagar conteúdos"
+      ],
+      "answer": 1,
+      "explanation": "SOMA adiciona valores."
+    },
+    {
+      "id": "INFO-116",
+      "area": "INFO",
+      "topic": "Planilha Eletrônica",
+      "difficulty": 3,
+      "statement": "Ao copiar a fórmula =A1+B1 da célula C1 para C2, em regra, ela se tornará:",
+      "image": null,
+      "options": [
+        "=A1+B1",
+        "=A2+B2",
+        "=B1+C1",
+        "=$A$1+$B$1",
+        "=A1+$B$1"
+      ],
+      "answer": 1,
+      "explanation": "Referências relativas mudam ao copiar para baixo."
+    },
+    {
+      "id": "INFO-117",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 2,
+      "statement": "O monitor é classificado como dispositivo de:",
+      "image": null,
+      "options": [
+        "entrada",
+        "processamento",
+        "saída",
+        "armazenamento",
+        "comunicação"
+      ],
+      "answer": 2,
+      "explanation": "Monitor é dispositivo de saída."
+    },
+    {
+      "id": "INFO-118",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 3,
+      "statement": "A principal função da placa-mãe é:",
+      "image": null,
+      "options": [
+        "armazenar dados",
+        "interligar e permitir comunicação entre os componentes",
+        "exibir imagens",
+        "executar programas",
+        "fazer backup automático"
+      ],
+      "answer": 1,
+      "explanation": "A placa-mãe conecta todos os componentes."
+    },
+    {
+      "id": "INFO-119",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 2,
+      "statement": "Um navegador de internet tem como função principal:",
+      "image": null,
+      "options": [
+        "editar documentos",
+        "acessar páginas da web",
+        "criar planilhas",
+        "proteger contra vírus",
+        "armazenar arquivos"
+      ],
+      "answer": 1,
+      "explanation": "Navegadores permitem acessar a web."
+    },
+    {
+      "id": "INFO-120",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 3,
+      "statement": "A engenharia social explora principalmente:",
+      "image": null,
+      "options": [
+        "falhas de hardware",
+        "falhas humanas",
+        "falhas de programação",
+        "falhas elétricas",
+        "falhas de rede"
+      ],
+      "answer": 1,
+      "explanation": "Engenharia social explora o fator humano."
+    },
+    {
+      "id": "INFO-121",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 4,
+      "statement": "No Windows, a ferramenta que permite restaurar arquivos apagados recentemente, desde que ainda não tenham sido sobrescritos, é:",
+      "image": null,
+      "options": [
+        "Backup do Windows",
+        "Restauração do Sistema",
+        "Lixeira",
+        "Histórico de Arquivos",
+        "Gerenciador de Tarefas"
+      ],
+      "answer": 2,
+      "explanation": "Arquivos excluídos normalmente vão para a Lixeira antes da remoção definitiva."
+    },
+    {
+      "id": "INFO-122",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 4,
+      "statement": "A função principal do arquivo `hosts` em sistemas Windows é:",
+      "image": null,
+      "options": [
+        "bloquear programas maliciosos automaticamente",
+        "associar nomes de domínio a endereços IP",
+        "armazenar senhas de usuários",
+        "gerenciar conexões sem fio",
+        "registrar logs do sistema"
+      ],
+      "answer": 1,
+      "explanation": "O arquivo hosts permite mapear manualmente domínios para endereços IP."
+    },
+    {
+      "id": "INFO-123",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "O ataque que consiste em induzir o usuário a fornecer dados pessoais por meio de mensagens falsas é denominado:",
+      "image": null,
+      "options": [
+        "spoofing",
+        "phishing",
+        "sniffing",
+        "ransomware",
+        "spyware"
+      ],
+      "answer": 1,
+      "explanation": "Phishing utiliza mensagens enganosas para capturar informações confidenciais."
+    },
+    {
+      "id": "INFO-124",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "No modelo TCP/IP, o protocolo responsável pelo envio de mensagens de erro e controle é o:",
+      "image": null,
+      "options": ["HTTP", "ICMP", "SMTP", "FTP", "ARP"],
+      "answer": 1,
+      "explanation": "O ICMP é usado para mensagens de erro e diagnóstico (como o ping)."
+    },
+    {
+      "id": "INFO-125",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 4,
+      "statement": "Um endereço iniciado por \"https://\" indica que:",
+      "image": null,
+      "options": [
+        "o site é isento de vírus",
+        "a comunicação é criptografada",
+        "o site é público",
+        "o servidor é gratuito",
+        "a navegação é anônima"
+      ],
+      "answer": 1,
+      "explanation": "HTTPS utiliza criptografia para proteger os dados transmitidos."
+    },
+    {
+      "id": "INFO-126",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No Excel, a função `SE()` é utilizada para:",
+      "image": null,
+      "options": [
+        "ordenar valores",
+        "somar células automaticamente",
+        "testar condições lógicas",
+        "converter texto em número",
+        "filtrar dados"
+      ],
+      "answer": 2,
+      "explanation": "A função SE permite testar uma condição e retornar valores diferentes conforme o resultado."
+    },
+    {
+      "id": "INFO-127",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No Word, o recurso que permite manter a formatação ao copiar texto entre documentos é:",
+      "image": null,
+      "options": [
+        "Copiar especial",
+        "Pincel de formatação",
+        "Quebra de seção",
+        "Controle de alterações",
+        "Localizar e substituir"
+      ],
+      "answer": 1,
+      "explanation": "O Pincel de Formatação copia estilos e formatações."
+    },
+    {
+      "id": "INFO-128",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "A autenticação em dois fatores (2FA) aumenta a segurança porque:",
+      "image": null,
+      "options": [
+        "dispensa o uso de senha",
+        "substitui o antivírus",
+        "exige dois métodos distintos de verificação",
+        "criptografa automaticamente os arquivos",
+        "bloqueia o acesso à internet"
+      ],
+      "answer": 2,
+      "explanation": "O 2FA combina dois fatores diferentes, como senha e código temporário."
+    },
+    {
+      "id": "INFO-129",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "O protocolo responsável por converter nomes de domínio em endereços IP é o:",
+      "image": null,
+      "options": ["FTP", "DNS", "SMTP", "HTTP", "POP3"],
+      "answer": 1,
+      "explanation": "O DNS traduz nomes de domínio para IPs."
+    },
+    {
+      "id": "INFO-130",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 4,
+      "statement": "O componente do computador responsável pelo processamento das instruções é:",
+      "image": null,
+      "options": [
+        "memória RAM",
+        "placa-mãe",
+        "processador",
+        "HD",
+        "placa de vídeo"
+      ],
+      "answer": 2,
+      "explanation": "O processador (CPU) executa as instruções."
+    },
+    {
+      "id": "INFO-131",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 4,
+      "statement": "O recurso que permite armazenar temporariamente páginas para acesso mais rápido é denominado:",
+      "image": null,
+      "options": [
+        "cookie",
+        "cache",
+        "proxy",
+        "firewall",
+        "download"
+      ],
+      "answer": 1,
+      "explanation": "Cache guarda cópias temporárias de páginas acessadas."
+    },
+    {
+      "id": "INFO-132",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "Um malware que sequestra os dados do usuário e exige pagamento para liberação é conhecido como:",
+      "image": null,
+      "options": ["spyware", "adware", "ransomware", "trojan", "worm"],
+      "answer": 2,
+      "explanation": "Ransomware criptografa dados e exige resgate."
+    },
+    {
+      "id": "INFO-133",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "No correio eletrônico, o protocolo utilizado para envio de mensagens é:",
+      "image": null,
+      "options": ["POP3", "IMAP", "SMTP", "HTTP", "FTP"],
+      "answer": 2,
+      "explanation": "SMTP é o protocolo de envio de e-mails."
+    },
+    {
+      "id": "INFO-134",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No Excel, a função `PROCV()` é usada para:",
+      "image": null,
+      "options": [
+        "buscar valores em colunas",
+        "calcular médias",
+        "somar intervalos",
+        "ordenar tabelas",
+        "filtrar dados"
+      ],
+      "answer": 0,
+      "explanation": "PROCV pesquisa valores na primeira coluna de uma tabela."
+    },
+    {
+      "id": "INFO-135",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 4,
+      "statement": "O atalho de teclado que fecha a janela ativa no Windows é:",
+      "image": null,
+      "options": ["Alt + F4", "Ctrl + C", "Ctrl + V", "Ctrl + Alt + Del", "Windows + D"],
+      "answer": 0,
+      "explanation": "Alt+F4 fecha a janela ativa."
+    },
+    {
+      "id": "INFO-136",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 4,
+      "statement": "A principal função de um firewall é:",
+      "image": null,
+      "options": [
+        "acelerar a internet",
+        "proteger contra acessos não autorizados",
+        "armazenar senhas",
+        "eliminar vírus automaticamente",
+        "fazer backup"
+      ],
+      "answer": 1,
+      "explanation": "O firewall controla o tráfego e bloqueia acessos indevidos."
+    },
+    {
+      "id": "INFO-137",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "A criptografia tem como objetivo principal:",
+      "image": null,
+      "options": [
+        "reduzir o tamanho dos arquivos",
+        "proteger informações contra acesso indevido",
+        "eliminar vírus",
+        "aumentar a velocidade da rede",
+        "facilitar o compartilhamento"
+      ],
+      "answer": 1,
+      "explanation": "A criptografia protege a confidencialidade das informações."
+    },
+    {
+      "id": "INFO-138",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "O dispositivo que interliga redes distintas e encaminha pacotes entre elas é o:",
+      "image": null,
+      "options": ["switch", "hub", "roteador", "modem", "repetidor"],
+      "answer": 2,
+      "explanation": "O roteador conecta redes diferentes."
+    },
+    {
+      "id": "INFO-139",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No PowerPoint, o recurso que permite a exibição automática de slides em sequência é:",
+      "image": null,
+      "options": [
+        "Transição",
+        "Animação",
+        "Apresentação de slides",
+        "Layout",
+        "Design"
+      ],
+      "answer": 2,
+      "explanation": "A apresentação de slides permite a exibição automática dos slides."
+    },
+    {
+      "id": "INFO-140",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 4,
+      "statement": "A ferramenta do Windows utilizada para visualizar processos em execução é:",
+      "image": null,
+      "options": [
+        "Painel de Controle",
+        "Prompt de Comando",
+        "Gerenciador de Tarefas",
+        "Explorador de Arquivos",
+        "Configurações"
+      ],
+      "answer": 2,
+      "explanation": "O Gerenciador de Tarefas mostra processos e desempenho."
+    },
+    {
+      "id": "INFO-141",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 4,
+      "statement": "O recurso que permite navegar anonimamente em navegadores é conhecido como:",
+      "image": null,
+      "options": [
+        "cache",
+        "cookie",
+        "modo anônimo",
+        "proxy",
+        "histórico"
+      ],
+      "answer": 2,
+      "explanation": "O modo anônimo não registra histórico localmente."
+    },
+    {
+      "id": "INFO-142",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "O termo \"engenharia social\" refere-se a:",
+      "image": null,
+      "options": [
+        "programação de sistemas",
+        "ataques baseados na manipulação psicológica",
+        "criptografia de dados",
+        "proteção de redes",
+        "desenvolvimento de software"
+      ],
+      "answer": 1,
+      "explanation": "Engenharia social explora o fator humano para obter informações."
+    },
+    {
+      "id": "INFO-143",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "O protocolo usado para transferência segura de arquivos é o:",
+      "image": null,
+      "options": ["FTP", "SFTP", "HTTP", "SMTP", "POP3"],
+      "answer": 1,
+      "explanation": "O SFTP utiliza criptografia para transferência de arquivos."
+    },
+    {
+      "id": "INFO-144",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No Excel, a função `CONT.SE()` permite:",
+      "image": null,
+      "options": [
+        "contar células que atendem a um critério",
+        "somar células",
+        "localizar valores",
+        "classificar dados",
+        "converter textos"
+      ],
+      "answer": 0,
+      "explanation": "CONT.SE conta células conforme condição."
+    },
+    {
+      "id": "INFO-145",
+      "area": "INFO",
+      "topic": "Sistema Operacional",
+      "difficulty": 4,
+      "statement": "O comando do Windows que exibe a lista de arquivos em um diretório é:",
+      "image": null,
+      "options": ["copy", "dir", "move", "del", "format"],
+      "answer": 1,
+      "explanation": "DIR lista os arquivos do diretório."
+    },
+    {
+      "id": "INFO-146",
+      "area": "INFO",
+      "topic": "Internet",
+      "difficulty": 4,
+      "statement": "O termo \"spam\" refere-se a:",
+      "image": null,
+      "options": [
+        "mensagens indesejadas enviadas em massa",
+        "vírus de computador",
+        "ataques de hackers",
+        "arquivos criptografados",
+        "sites falsos"
+      ],
+      "answer": 0,
+      "explanation": "Spam são mensagens não solicitadas enviadas em grande quantidade."
+    },
+    {
+      "id": "INFO-147",
+      "area": "INFO",
+      "topic": "Segurança da Informação",
+      "difficulty": 4,
+      "statement": "O backup incremental caracteriza-se por:",
+      "image": null,
+      "options": [
+        "copiar todos os dados sempre",
+        "copiar apenas os dados alterados desde o último backup",
+        "não permitir restauração",
+        "armazenar apenas arquivos do sistema",
+        "apagar arquivos antigos"
+      ],
+      "answer": 1,
+      "explanation": "Backup incremental salva apenas as alterações desde o último backup."
+    },
+    {
+      "id": "INFO-148",
+      "area": "INFO",
+      "topic": "Redes",
+      "difficulty": 4,
+      "statement": "O endereço IP 127.0.0.1 é conhecido como:",
+      "image": null,
+      "options": ["gateway", "loopback", "broadcast", "DNS", "proxy"],
+      "answer": 1,
+      "explanation": "É o endereço de retorno (loopback)."
+    },
+    {
+      "id": "INFO-149",
+      "area": "INFO",
+      "topic": "Pacote Office",
+      "difficulty": 4,
+      "statement": "No Word, a ferramenta usada para verificar erros gramaticais é:",
+      "image": null,
+      "options": [
+        "Dicionário",
+        "Revisão ortográfica",
+        "Controle de versões",
+        "Estilos",
+        "Sumário"
+      ],
+      "answer": 1,
+      "explanation": "A revisão ortográfica verifica erros gramaticais e ortográficos."
+    },
+    {
+      "id": "INFO-150",
+      "area": "INFO",
+      "topic": "Hardware",
+      "difficulty": 4,
+      "statement": "A memória RAM caracteriza-se por ser:",
+      "image": null,
+      "options": [
+        "permanente",
+        "volátil",
+        "somente leitura",
+        "externa",
+        "ótica"
+      ],
+      "answer": 1,
+      "explanation": "A RAM é volátil: perde os dados ao desligar o computador."
+    }
+  ]
+}
