@@ -459,7 +459,7 @@ function generateExam() {
     const espSel  = pick("ESP", 40);
 
     const blocks = [
-      ...groupToBlocks(portSel),   // ✅ blocos respeitando groupId e ordem do JSON
+      ...groupToBlocks(portSel),   
       ...wrapSingles(rlmSel),
       ...wrapSingles(infoSel),
       ...wrapSingles(legSel),
@@ -467,7 +467,7 @@ function generateExam() {
       ...wrapSingles(espSel),
     ];
 
-    App.exam = shuffle(blocks).flat(); // ✅ embaralha blocos, mantém grupo grudado
+    App.exam = shuffle(blocks).flat(); 
   }
 
   // 4) Fallback (caso App.type venha errado)
@@ -958,5 +958,6 @@ window.addEventListener("beforeunload", function (e) {
   e.preventDefault();
   e.returnValue = "Você está no meio do simulado. Tem certeza que deseja sair?";
 });
+
 
 
