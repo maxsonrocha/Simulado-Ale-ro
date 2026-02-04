@@ -226,6 +226,7 @@
     },
     {
       "id": "PORT-014",
+      "groupId": "G-PORT-014",
       "area": "PORT",
       "topic": "Interpretação de texto",
       "difficulty": 3,
@@ -243,6 +244,7 @@
     },
     {
       "id": "PORT-015",
+      "groupId": "G-PORT-014",
       "area": "PORT",
       "topic": "Semântica",
       "difficulty": 2,
@@ -4047,3 +4049,4 @@
     }
   ]
 }
+
