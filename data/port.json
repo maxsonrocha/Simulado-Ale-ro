@@ -1240,6 +1240,7 @@
     },
     {
       "id": "PORT-073",
+      "groupId": "G-PORT-073",
       "area": "PORT",
       "topic": "Interpretação de texto",
       "difficulty": 3,
@@ -1257,6 +1258,7 @@
     },
     {
       "id": "PORT-074",
+      "groupId": "G-PORT-073",
       "area": "PORT",
       "topic": "Semântica",
       "difficulty": 2,
@@ -2127,6 +2129,7 @@
     },
     {
       "id": "PORT-124",
+      "groupId": "G-PORT-124",
       "area": "PORT",
       "topic": "Interpretação de texto",
       "difficulty": 2,
@@ -2144,6 +2147,7 @@
     },
     {
       "id": "PORT-125",
+      "groupId": "G-PORT-124",
       "area": "PORT",
       "topic": "Semântica",
       "difficulty": 2,
@@ -2281,6 +2285,7 @@
     },
     {
       "id": "PORT-133",
+      "groupId": "G-PORT-133",
       "area": "PORT",
       "topic": "Interpretação de texto",
       "difficulty": 2,
@@ -2298,6 +2303,7 @@
     },
     {
       "id": "PORT-134",
+      "groupId": "G-PORT-133",
       "area": "PORT",
       "topic": "Coesão textual",
       "difficulty": 2,
@@ -4049,4 +4055,5 @@
     }
   ]
 }
+
 
