@@ -1,4 +1,4 @@
-﻿{
+{
   "questions": [
     {
       "id": "PORT-001",
@@ -15,7 +15,8 @@
         "elimina a necessidade de circulação urbana"
       ],
       "answer": 2,
-      "explanation": "O texto afirma que o planejamento urbano visa resgatar o sentido coletivo dos espaços."
+      "explanation": "O texto afirma que o planejamento urbano visa resgatar o sentido coletivo dos espaços.",
+      "groupId": "G-PORT-001"
     },
     {
       "id": "PORT-002",
@@ -32,7 +33,8 @@
         "sentido literal de deslocamento"
       ],
       "answer": 2,
-      "explanation": "“Meros” expressa ideia de diminuição de importância."
+      "explanation": "“Meros” expressa ideia de diminuição de importância.",
+      "groupId": "G-PORT-001"
     },
     {
       "id": "PORT-003",
@@ -49,7 +51,8 @@
         "exaltação do isolamento social"
       ],
       "answer": 1,
-      "explanation": "O autor apresenta simultaneamente vantagens e problemas."
+      "explanation": "O autor apresenta simultaneamente vantagens e problemas.",
+      "groupId": "G-PORT-003"
     },
     {
       "id": "PORT-004",
@@ -66,7 +69,8 @@
         "finalidade"
       ],
       "answer": 2,
-      "explanation": "A construção indica contraste entre efeitos."
+      "explanation": "A construção indica contraste entre efeitos.",
+      "groupId": "G-PORT-003"
     },
     {
       "id": "PORT-005",
@@ -136,7 +140,8 @@
         "independência total"
       ],
       "answer": 3,
-      "explanation": "O texto indica compatibilidade condicionada à responsabilidade."
+      "explanation": "O texto indica compatibilidade condicionada à responsabilidade.",
+      "groupId": "G-PORT-008"
     },
     {
       "id": "PORT-009",
@@ -153,7 +158,8 @@
         "exigência"
       ],
       "answer": 1,
-      "explanation": "“Este” retoma desenvolvimento."
+      "explanation": "“Este” retoma desenvolvimento.",
+      "groupId": "G-PORT-008"
     },
     {
       "id": "PORT-010",
@@ -170,9 +176,9 @@
         "a realidade é incompreensível"
       ],
       "answer": 2,
-      "explanation": "O texto diferencia informação de compreensão."
+      "explanation": "O texto diferencia informação de compreensão.",
+      "groupId": "G-PORT-010"
     },
-
     {
       "id": "PORT-011",
       "area": "PORT",
@@ -188,7 +194,8 @@
         "ironia textual"
       ],
       "answer": 0,
-      "explanation": "“Por si só” indica que não depende apenas disso."
+      "explanation": "“Por si só” indica que não depende apenas disso.",
+      "groupId": "G-PORT-010"
     },
     {
       "id": "PORT-012",
@@ -205,7 +212,8 @@
         "evitar fontes diversas"
       ],
       "answer": 2,
-      "explanation": "O texto valoriza o questionamento."
+      "explanation": "O texto valoriza o questionamento.",
+      "groupId": "G-PORT-012"
     },
     {
       "id": "PORT-013",
@@ -222,7 +230,8 @@
         "fontes"
       ],
       "answer": 1,
-      "explanation": "O pronome retoma informações."
+      "explanation": "O pronome retoma informações.",
+      "groupId": "G-PORT-012"
     },
     {
       "id": "PORT-014",
@@ -260,7 +269,6 @@
       "answer": 0,
       "explanation": "Equivale a “em função de”."
     },
-
     {
       "id": "PORT-016",
       "area": "PORT",
@@ -276,7 +284,8 @@
         "as fronteiras não existem mais"
       ],
       "answer": 2,
-      "explanation": "O texto mostra efeitos contraditórios."
+      "explanation": "O texto mostra efeitos contraditórios.",
+      "groupId": "G-PORT-016"
     },
     {
       "id": "PORT-017",
@@ -293,7 +302,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "“Mas” indica oposição."
+      "explanation": "“Mas” indica oposição.",
+      "groupId": "G-PORT-016"
     },
     {
       "id": "PORT-018",
@@ -310,7 +320,8 @@
         "reflete todos os fatos"
       ],
       "answer": 1,
-      "explanation": "O texto fala em seleção de fatos."
+      "explanation": "O texto fala em seleção de fatos.",
+      "groupId": "G-PORT-018"
     },
     {
       "id": "PORT-019",
@@ -327,7 +338,8 @@
         "incerteza"
       ],
       "answer": 2,
-      "explanation": "Selecionar implica escolher."
+      "explanation": "Selecionar implica escolher.",
+      "groupId": "G-PORT-018"
     },
     {
       "id": "PORT-020",
@@ -344,9 +356,9 @@
         "dispensa valores"
       ],
       "answer": 2,
-      "explanation": "Fala em formação integral."
+      "explanation": "Fala em formação integral.",
+      "groupId": "G-PORT-020"
     },
-
     {
       "id": "PORT-021",
       "area": "PORT",
@@ -362,7 +374,8 @@
         "conclusão final"
       ],
       "answer": 0,
-      "explanation": "Indica negação parcial."
+      "explanation": "Indica negação parcial.",
+      "groupId": "G-PORT-020"
     },
     {
       "id": "PORT-022",
@@ -415,7 +428,8 @@
         "a cultura é irrelevante"
       ],
       "answer": 2,
-      "explanation": "Amplia o repertório simbólico."
+      "explanation": "Amplia o repertório simbólico.",
+      "groupId": "G-PORT-024"
     },
     {
       "id": "PORT-025",
@@ -432,9 +446,9 @@
         "processos naturais"
       ],
       "answer": 1,
-      "explanation": "Simbólico liga-se a significados."
+      "explanation": "Simbólico liga-se a significados.",
+      "groupId": "G-PORT-024"
     },
-
     {
       "id": "PORT-026",
       "area": "PORT",
@@ -450,7 +464,8 @@
         "imaginação"
       ],
       "answer": 2,
-      "explanation": "Métodos sistemáticos indicam sistematização."
+      "explanation": "Métodos sistemáticos indicam sistematização.",
+      "groupId": "G-PORT-026"
     },
     {
       "id": "PORT-027",
@@ -467,7 +482,8 @@
         "eventuais"
       ],
       "answer": 1,
-      "explanation": "Sistemático = organizado."
+      "explanation": "Sistemático = organizado.",
+      "groupId": "G-PORT-026"
     },
     {
       "id": "PORT-028",
@@ -484,7 +500,8 @@
         "existe sem sentido"
       ],
       "answer": 2,
-      "explanation": "Fala em expressar visões de mundo."
+      "explanation": "Fala em expressar visões de mundo.",
+      "groupId": "G-PORT-028"
     },
     {
       "id": "PORT-029",
@@ -501,7 +518,8 @@
         "conclusão"
       ],
       "answer": 0,
-      "explanation": "“Pois” indica causa/justificativa."
+      "explanation": "“Pois” indica causa/justificativa.",
+      "groupId": "G-PORT-028"
     },
     {
       "id": "PORT-030",
@@ -518,9 +536,9 @@
         "controle militar"
       ],
       "answer": 2,
-      "explanation": "O texto cita dois fatores."
+      "explanation": "O texto cita dois fatores.",
+      "groupId": "G-PORT-030"
     },
-
     {
       "id": "PORT-031",
       "area": "PORT",
@@ -536,7 +554,8 @@
         "neutralidade"
       ],
       "answer": 2,
-      "explanation": "Ativa = engajada."
+      "explanation": "Ativa = engajada.",
+      "groupId": "G-PORT-030"
     },
     {
       "id": "PORT-032",
@@ -553,7 +572,8 @@
         "o avanço é irrelevante"
       ],
       "answer": 2,
-      "explanation": "O texto aponta mudança contínua."
+      "explanation": "O texto aponta mudança contínua.",
+      "groupId": "G-PORT-032"
     },
     {
       "id": "PORT-033",
@@ -570,7 +590,8 @@
         "exclusão"
       ],
       "answer": 1,
-      "explanation": "Continuamente indica frequência."
+      "explanation": "Continuamente indica frequência.",
+      "groupId": "G-PORT-032"
     },
     {
       "id": "PORT-034",
@@ -587,7 +608,8 @@
         "é dispensável"
       ],
       "answer": 2,
-      "explanation": "O texto fala em construção simbólica."
+      "explanation": "O texto fala em construção simbólica.",
+      "groupId": "G-PORT-034"
     },
     {
       "id": "PORT-035",
@@ -604,9 +626,9 @@
         "de modo literal"
       ],
       "answer": 1,
-      "explanation": "Refere-se a significados."
+      "explanation": "Refere-se a significados.",
+      "groupId": "G-PORT-034"
     },
-
     {
       "id": "PORT-036",
       "area": "PORT",
@@ -622,7 +644,8 @@
         "indiferença"
       ],
       "answer": 2,
-      "explanation": "O texto fala em pensamento crítico."
+      "explanation": "O texto fala em pensamento crítico.",
+      "groupId": "G-PORT-036"
     },
     {
       "id": "PORT-037",
@@ -639,7 +662,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "“Para” indica finalidade."
+      "explanation": "“Para” indica finalidade.",
+      "groupId": "G-PORT-036"
     },
     {
       "id": "PORT-038",
@@ -656,7 +680,8 @@
         "coleção de dados"
       ],
       "answer": 2,
-      "explanation": "Fala em processo contínuo."
+      "explanation": "Fala em processo contínuo.",
+      "groupId": "G-PORT-038"
     },
     {
       "id": "PORT-039",
@@ -673,7 +698,8 @@
         "ocorrência única"
       ],
       "answer": 1,
-      "explanation": "Contínuo = permanente."
+      "explanation": "Contínuo = permanente.",
+      "groupId": "G-PORT-038"
     },
     {
       "id": "PORT-040",
@@ -707,7 +733,8 @@
         "restringem o acesso ao conhecimento"
       ],
       "answer": 2,
-      "explanation": "O texto menciona redução de distâncias e maior velocidade."
+      "explanation": "O texto menciona redução de distâncias e maior velocidade.",
+      "groupId": "G-PORT-041"
     },
     {
       "id": "PORT-042",
@@ -724,7 +751,8 @@
         "adiando"
       ],
       "answer": 1,
-      "explanation": "“Ampliar” equivale a intensificar."
+      "explanation": "“Ampliar” equivale a intensificar.",
+      "groupId": "G-PORT-041"
     },
     {
       "id": "PORT-043",
@@ -741,7 +769,8 @@
         "explicação"
       ],
       "answer": 2,
-      "explanation": "“E” indica adição de ideias."
+      "explanation": "“E” indica adição de ideias.",
+      "groupId": "G-PORT-041"
     },
     {
       "id": "PORT-044",
@@ -758,7 +787,8 @@
         "depende apenas da publicidade"
       ],
       "answer": 2,
-      "explanation": "O texto menciona impactos sociais e ambientais."
+      "explanation": "O texto menciona impactos sociais e ambientais.",
+      "groupId": "G-PORT-044"
     },
     {
       "id": "PORT-045",
@@ -775,7 +805,8 @@
         "dúvida"
       ],
       "answer": 2,
-      "explanation": "Pressupor equivale a implicar."
+      "explanation": "Pressupor equivale a implicar.",
+      "groupId": "G-PORT-044"
     },
     {
       "id": "PORT-046",
@@ -792,7 +823,8 @@
         "condição"
       ],
       "answer": 1,
-      "explanation": "O conector “mas” indica oposição."
+      "explanation": "O conector “mas” indica oposição.",
+      "groupId": "G-PORT-046"
     },
     {
       "id": "PORT-047",
@@ -809,7 +841,8 @@
         "conclusão"
       ],
       "answer": 1,
-      "explanation": "“Também” indica acréscimo de informação."
+      "explanation": "“Também” indica acréscimo de informação.",
+      "groupId": "G-PORT-046"
     },
     {
       "id": "PORT-048",
@@ -862,7 +895,8 @@
         "é caso facultativo"
       ],
       "answer": 1,
-      "explanation": "“Limitar-se a” + artigo feminino “a” = crase."
+      "explanation": "“Limitar-se a” + artigo feminino “a” = crase.",
+      "groupId": "G-PORT-048"
     },
     {
       "id": "PORT-051",
@@ -879,7 +913,8 @@
         "neutralidade emocional"
       ],
       "answer": 1,
-      "explanation": "Contato com experiências humanas amplia a empatia."
+      "explanation": "Contato com experiências humanas amplia a empatia.",
+      "groupId": "G-PORT-051"
     },
     {
       "id": "PORT-052",
@@ -896,7 +931,8 @@
         "oposição"
       ],
       "answer": 0,
-      "explanation": "“Ao” indica causa/razão."
+      "explanation": "“Ao” indica causa/razão.",
+      "groupId": "G-PORT-051"
     },
     {
       "id": "PORT-053",
@@ -913,7 +949,8 @@
         "manter métodos antigos"
       ],
       "answer": 2,
-      "explanation": "O texto fala em atualização constante."
+      "explanation": "O texto fala em atualização constante.",
+      "groupId": "G-PORT-053"
     },
     {
       "id": "PORT-054",
@@ -930,7 +967,8 @@
         "fixar"
       ],
       "answer": 1,
-      "explanation": "Redefinir = alterar/definir de novo."
+      "explanation": "Redefinir = alterar/definir de novo.",
+      "groupId": "G-PORT-053"
     },
     {
       "id": "PORT-055",
@@ -947,7 +985,8 @@
         "a política é exclusiva dos governantes"
       ],
       "answer": 2,
-      "explanation": "O texto destaca várias formas de participação."
+      "explanation": "O texto destaca várias formas de participação.",
+      "groupId": "G-PORT-055"
     },
     {
       "id": "PORT-056",
@@ -964,7 +1003,8 @@
         "condição"
       ],
       "answer": 1,
-      "explanation": "“Mas” marca oposição/retificação."
+      "explanation": "“Mas” marca oposição/retificação.",
+      "groupId": "G-PORT-055"
     },
     {
       "id": "PORT-057",
@@ -981,7 +1021,8 @@
         "eficiência administrativa"
       ],
       "answer": 2,
-      "explanation": "Menciona problemas de mobilidade e habitação."
+      "explanation": "Menciona problemas de mobilidade e habitação.",
+      "groupId": "G-PORT-057"
     },
     {
       "id": "PORT-058",
@@ -998,7 +1039,8 @@
         "fortalecer"
       ],
       "answer": 2,
-      "explanation": "Comprometer = prejudicar."
+      "explanation": "Comprometer = prejudicar.",
+      "groupId": "G-PORT-057"
     },
     {
       "id": "PORT-059",
@@ -1015,7 +1057,8 @@
         "exclusão"
       ],
       "answer": 2,
-      "explanation": "O texto fala em ampliar a participação."
+      "explanation": "O texto fala em ampliar a participação.",
+      "groupId": "G-PORT-059"
     },
     {
       "id": "PORT-060",
@@ -1032,7 +1075,8 @@
         "conclusão"
       ],
       "answer": 1,
-      "explanation": "Indica causa/razão."
+      "explanation": "Indica causa/razão.",
+      "groupId": "G-PORT-059"
     },
     {
       "id": "PORT-061",
@@ -1049,7 +1093,8 @@
         "deve ser eliminada"
       ],
       "answer": 2,
-      "explanation": "O texto diz que é elemento constitutivo."
+      "explanation": "O texto diz que é elemento constitutivo.",
+      "groupId": "G-PORT-061"
     },
     {
       "id": "PORT-062",
@@ -1066,7 +1111,8 @@
         "eventual"
       ],
       "answer": 1,
-      "explanation": "Constitutivo = essencial."
+      "explanation": "Constitutivo = essencial.",
+      "groupId": "G-PORT-061"
     },
     {
       "id": "PORT-063",
@@ -1083,7 +1129,8 @@
         "abandono de análises"
       ],
       "answer": 1,
-      "explanation": "Fala em cuidado na interpretação."
+      "explanation": "Fala em cuidado na interpretação.",
+      "groupId": "G-PORT-063"
     },
     {
       "id": "PORT-064",
@@ -1100,7 +1147,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "“Para” indica finalidade."
+      "explanation": "“Para” indica finalidade.",
+      "groupId": "G-PORT-063"
     },
     {
       "id": "PORT-065",
@@ -1117,7 +1165,8 @@
         "inde-pende da mídia"
       ],
       "answer": 2,
-      "explanation": "O texto menciona informações confiáveis."
+      "explanation": "O texto menciona informações confiáveis.",
+      "groupId": "G-PORT-065"
     },
     {
       "id": "PORT-066",
@@ -1134,7 +1183,8 @@
         "instabilidade"
       ],
       "answer": 1,
-      "explanation": "Confiável = digno de crédito."
+      "explanation": "Confiável = digno de crédito.",
+      "groupId": "G-PORT-065"
     },
     {
       "id": "PORT-067",
@@ -1151,7 +1201,8 @@
         "rigidez histórica"
       ],
       "answer": 2,
-      "explanation": "Menciona transformações sociais."
+      "explanation": "Menciona transformações sociais.",
+      "groupId": "G-PORT-067"
     },
     {
       "id": "PORT-068",
@@ -1168,7 +1219,8 @@
         "finalidade"
       ],
       "answer": 1,
-      "explanation": "Expressa ideia temporal."
+      "explanation": "Expressa ideia temporal.",
+      "groupId": "G-PORT-067"
     },
     {
       "id": "PORT-069",
@@ -1185,7 +1237,8 @@
         "contradiz a profissão"
       ],
       "answer": 2,
-      "explanation": "Orientar condutas = direcionar comportamentos."
+      "explanation": "Orientar condutas = direcionar comportamentos.",
+      "groupId": "G-PORT-069"
     },
     {
       "id": "PORT-070",
@@ -1202,7 +1255,8 @@
         "negar"
       ],
       "answer": 1,
-      "explanation": "Orientar = guiar."
+      "explanation": "Orientar = guiar.",
+      "groupId": "G-PORT-069"
     },
     {
       "id": "PORT-071",
@@ -1219,7 +1273,8 @@
         "improvisação"
       ],
       "answer": 1,
-      "explanation": "O texto fala em esclarecer expectativas."
+      "explanation": "O texto fala em esclarecer expectativas.",
+      "groupId": "G-PORT-071"
     },
     {
       "id": "PORT-072",
@@ -1236,7 +1291,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "Indica causa."
+      "explanation": "Indica causa.",
+      "groupId": "G-PORT-071"
     },
     {
       "id": "PORT-073",
@@ -1289,7 +1345,8 @@
         "hierarquia"
       ],
       "answer": 1,
-      "explanation": "Fala em compreensão mútua."
+      "explanation": "Fala em compreensão mútua.",
+      "groupId": "G-PORT-075"
     },
     {
       "id": "PORT-076",
@@ -1306,7 +1363,8 @@
         "exclusão"
       ],
       "answer": 1,
-      "explanation": "“Entre” indica reciprocidade."
+      "explanation": "“Entre” indica reciprocidade.",
+      "groupId": "G-PORT-075"
     },
     {
       "id": "PORT-077",
@@ -1323,7 +1381,8 @@
         "reduz interações"
       ],
       "answer": 2,
-      "explanation": "Transforma práticas e modos de interação."
+      "explanation": "Transforma práticas e modos de interação.",
+      "groupId": "G-PORT-077"
     },
     {
       "id": "PORT-078",
@@ -1340,7 +1399,8 @@
         "silêncios"
       ],
       "answer": 0,
-      "explanation": "Modos = formas."
+      "explanation": "Modos = formas.",
+      "groupId": "G-PORT-077"
     },
     {
       "id": "PORT-079",
@@ -1357,7 +1417,8 @@
         "retrocesso"
       ],
       "answer": 2,
-      "explanation": "O texto fala em adaptação."
+      "explanation": "O texto fala em adaptação.",
+      "groupId": "G-PORT-079"
     },
     {
       "id": "PORT-080",
@@ -1374,7 +1435,8 @@
         "é antes de verbo"
       ],
       "answer": 2,
-      "explanation": "“Adaptação a” + artigo feminino “as” = crase."
+      "explanation": "“Adaptação a” + artigo feminino “as” = crase.",
+      "groupId": "G-PORT-079"
     },
     {
       "id": "PORT-081",
@@ -1445,7 +1507,8 @@
         "substituir leitura verbal por cálculo"
       ],
       "answer": 2,
-      "explanation": "O texto destaca compreensão de relações, tendências e limites."
+      "explanation": "O texto destaca compreensão de relações, tendências e limites.",
+      "groupId": "G-PORT-084"
     },
     {
       "id": "PORT-085",
@@ -1462,7 +1525,8 @@
         "técnico, como etapa exclusiva da infância"
       ],
       "answer": 1,
-      "explanation": "Usa-se “alfabetização” como metáfora de competência para compreender dados."
+      "explanation": "Usa-se “alfabetização” como metáfora de competência para compreender dados.",
+      "groupId": "G-PORT-084"
     },
     {
       "id": "PORT-086",
@@ -1479,7 +1543,8 @@
         "substituir obrigatoriamente a vírgula em qualquer contexto"
       ],
       "answer": 2,
-      "explanation": "O ponto e vírgula separa orações coordenadas, mantendo proximidade de sentido."
+      "explanation": "O ponto e vírgula separa orações coordenadas, mantendo proximidade de sentido.",
+      "groupId": "G-PORT-084"
     },
     {
       "id": "PORT-087",
@@ -1532,7 +1597,8 @@
         "conclusão definitiva"
       ],
       "answer": 2,
-      "explanation": "“Em muitos casos” generaliza parcialmente, sem universalizar."
+      "explanation": "“Em muitos casos” generaliza parcialmente, sem universalizar.",
+      "groupId": "G-PORT-087"
     },
     {
       "id": "PORT-090",
@@ -1638,7 +1704,8 @@
         "o trânsito é tema exclusivamente técnico"
       ],
       "answer": 2,
-      "explanation": "O texto amplia o conceito de educação para atitudes."
+      "explanation": "O texto amplia o conceito de educação para atitudes.",
+      "groupId": "G-PORT-095"
     },
     {
       "id": "PORT-096",
@@ -1655,7 +1722,8 @@
         "limitação"
       ],
       "answer": 1,
-      "explanation": "Retoma “A educação para o trânsito”."
+      "explanation": "Retoma “A educação para o trânsito”.",
+      "groupId": "G-PORT-095"
     },
     {
       "id": "PORT-097",
@@ -1708,7 +1776,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "“Mas” contrapõe rapidez a fragilidade."
+      "explanation": "“Mas” contrapõe rapidez a fragilidade.",
+      "groupId": "G-PORT-097"
     },
     {
       "id": "PORT-100",
@@ -1727,7 +1796,6 @@
       "answer": 1,
       "explanation": "A alternativa mantém a oposição entre rapidez e fragilidade (pouca consistência)."
     },
-
     {
       "id": "PORT-101",
       "groupId": "G-PORT-101",
@@ -1779,7 +1847,8 @@
         "marcar tempo futuro"
       ],
       "answer": 1,
-      "explanation": "O verbo “ser” aqui tem valor definidor/identificador."
+      "explanation": "O verbo “ser” aqui tem valor definidor/identificador.",
+      "groupId": "G-PORT-101"
     },
     {
       "id": "PORT-104",
@@ -1796,7 +1865,8 @@
         "dispensa responsabilidade"
       ],
       "answer": 2,
-      "explanation": "O texto define eficiência como planejamento, execução responsável e avaliação contínua."
+      "explanation": "O texto define eficiência como planejamento, execução responsável e avaliação contínua.",
+      "groupId": "G-PORT-104"
     },
     {
       "id": "PORT-105",
@@ -1813,7 +1883,8 @@
         "explicação técnica"
       ],
       "answer": 1,
-      "explanation": "“A qualquer custo” reforça exagero: rapidez sem limites."
+      "explanation": "“A qualquer custo” reforça exagero: rapidez sem limites.",
+      "groupId": "G-PORT-104"
     },
     {
       "id": "PORT-106",
@@ -2040,7 +2111,8 @@
         "ausência de revisão"
       ],
       "answer": 1,
-      "explanation": "O texto aponta critérios claros e revisão sistemática."
+      "explanation": "O texto aponta critérios claros e revisão sistemática.",
+      "groupId": "G-PORT-118"
     },
     {
       "id": "PORT-119",
@@ -2057,7 +2129,8 @@
         "tempo"
       ],
       "answer": 1,
-      "explanation": "“E não” retifica, contrapondo o que vale ao que não basta."
+      "explanation": "“E não” retifica, contrapondo o que vale ao que não basta.",
+      "groupId": "G-PORT-118"
     },
     {
       "id": "PORT-120",
@@ -2091,7 +2164,8 @@
         "dispensa debate público"
       ],
       "answer": 2,
-      "explanation": "O texto diz que a transparência cria condições para discutir conflitos racionalmente."
+      "explanation": "O texto diz que a transparência cria condições para discutir conflitos racionalmente.",
+      "groupId": "G-PORT-121"
     },
     {
       "id": "PORT-122",
@@ -2108,7 +2182,8 @@
         "anular"
       ],
       "answer": 2,
-      "explanation": "Criar condições = possibilitar."
+      "explanation": "Criar condições = possibilitar.",
+      "groupId": "G-PORT-121"
     },
     {
       "id": "PORT-123",
@@ -2125,7 +2200,8 @@
         "tempo"
       ],
       "answer": 1,
-      "explanation": "“Mas” indica oposição."
+      "explanation": "“Mas” indica oposição.",
+      "groupId": "G-PORT-121"
     },
     {
       "id": "PORT-124",
@@ -2178,7 +2254,8 @@
         "a informação é sempre plural"
       ],
       "answer": 2,
-      "explanation": "O texto aponta repetição de enquadramentos."
+      "explanation": "O texto aponta repetição de enquadramentos.",
+      "groupId": "G-PORT-126"
     },
     {
       "id": "PORT-127",
@@ -2195,7 +2272,8 @@
         "visões"
       ],
       "answer": 2,
-      "explanation": "Retoma “fontes informativas”."
+      "explanation": "Retoma “fontes informativas”.",
+      "groupId": "G-PORT-126"
     },
     {
       "id": "PORT-128",
@@ -2212,7 +2290,8 @@
         "aumentar produção"
       ],
       "answer": 2,
-      "explanation": "O texto destaca a redução de impactos."
+      "explanation": "O texto destaca a redução de impactos.",
+      "groupId": "G-PORT-128"
     },
     {
       "id": "PORT-129",
@@ -2229,7 +2308,8 @@
         "substituir"
       ],
       "answer": 2,
-      "explanation": "Implicar = acarretar."
+      "explanation": "Implicar = acarretar.",
+      "groupId": "G-PORT-128"
     },
     {
       "id": "PORT-130",
@@ -2248,7 +2328,6 @@
       "answer": 1,
       "explanation": "Resumir-se a + artigo feminino = crase."
     },
-
     {
       "id": "PORT-131",
       "area": "PORT",
@@ -2264,7 +2343,8 @@
         "garante engajamento duradouro"
       ],
       "answer": 2,
-      "explanation": "O texto indica perda de credibilidade sem dados."
+      "explanation": "O texto indica perda de credibilidade sem dados.",
+      "groupId": "G-PORT-131"
     },
     {
       "id": "PORT-132",
@@ -2281,7 +2361,8 @@
         "são irrelevantes"
       ],
       "answer": 1,
-      "explanation": "Verificáveis = comprováveis."
+      "explanation": "Verificáveis = comprováveis.",
+      "groupId": "G-PORT-131"
     },
     {
       "id": "PORT-133",
@@ -2334,7 +2415,8 @@
         "a análise de dados"
       ],
       "answer": 2,
-      "explanation": "O texto aponta a pressa que ignora diagnósticos."
+      "explanation": "O texto aponta a pressa que ignora diagnósticos.",
+      "groupId": "G-PORT-135"
     },
     {
       "id": "PORT-136",
@@ -2351,7 +2433,8 @@
         "jurídico"
       ],
       "answer": 1,
-      "explanation": "Diagnóstico aqui é análise de problemas."
+      "explanation": "Diagnóstico aqui é análise de problemas.",
+      "groupId": "G-PORT-135"
     },
     {
       "id": "PORT-137",
@@ -2368,7 +2451,8 @@
         "exclusão digital"
       ],
       "answer": 1,
-      "explanation": "Permitir distinguir indica criticidade."
+      "explanation": "Permitir distinguir indica criticidade.",
+      "groupId": "G-PORT-137"
     },
     {
       "id": "PORT-138",
@@ -2385,7 +2469,8 @@
         "condição"
       ],
       "answer": 0,
-      "explanation": "“Distinguir de” = separar/opôr."
+      "explanation": "“Distinguir de” = separar/opôr.",
+      "groupId": "G-PORT-137"
     },
     {
       "id": "PORT-139",
@@ -2402,7 +2487,8 @@
         "é incompatível com crítica"
       ],
       "answer": 2,
-      "explanation": "Menciona transparência e abertura ao questionamento."
+      "explanation": "Menciona transparência e abertura ao questionamento.",
+      "groupId": "G-PORT-139"
     },
     {
       "id": "PORT-140",
@@ -2419,9 +2505,9 @@
         "inibição"
       ],
       "answer": 1,
-      "explanation": "Abertura = disposição."
+      "explanation": "Abertura = disposição.",
+      "groupId": "G-PORT-139"
     },
-
     {
       "id": "PORT-141",
       "area": "PORT",
@@ -2437,7 +2523,8 @@
         "restrição"
       ],
       "answer": 2,
-      "explanation": "Considerar necessidades indica inclusão."
+      "explanation": "Considerar necessidades indica inclusão.",
+      "groupId": "G-PORT-141"
     },
     {
       "id": "PORT-142",
@@ -2454,7 +2541,8 @@
         "conclusão"
       ],
       "answer": 0,
-      "explanation": "Indica causa."
+      "explanation": "Indica causa.",
+      "groupId": "G-PORT-141"
     },
     {
       "id": "PORT-143",
@@ -2471,7 +2559,8 @@
         "ideia incompatível com economia"
       ],
       "answer": 2,
-      "explanation": "O texto fala em três dimensões."
+      "explanation": "O texto fala em três dimensões.",
+      "groupId": "G-PORT-143"
     },
     {
       "id": "PORT-144",
@@ -2488,7 +2577,8 @@
         "instabilidade"
       ],
       "answer": 1,
-      "explanation": "Viável = possível de realizar."
+      "explanation": "Viável = possível de realizar.",
+      "groupId": "G-PORT-143"
     },
     {
       "id": "PORT-145",
@@ -2505,7 +2595,8 @@
         "impede participação"
       ],
       "answer": 2,
-      "explanation": "Aproximar decisões das realidades locais."
+      "explanation": "Aproximar decisões das realidades locais.",
+      "groupId": "G-PORT-145"
     },
     {
       "id": "PORT-146",
@@ -2522,7 +2613,8 @@
         "condição"
       ],
       "answer": 1,
-      "explanation": "“Pode” indica possibilidade."
+      "explanation": "“Pode” indica possibilidade.",
+      "groupId": "G-PORT-145"
     },
     {
       "id": "PORT-147",
@@ -2539,7 +2631,8 @@
         "o planejamento"
       ],
       "answer": 2,
-      "explanation": "Aponta que padronização excessiva inibe soluções."
+      "explanation": "Aponta que padronização excessiva inibe soluções.",
+      "groupId": "G-PORT-147"
     },
     {
       "id": "PORT-148",
@@ -2556,7 +2649,8 @@
         "ampliar"
       ],
       "answer": 2,
-      "explanation": "Inibir = dificultar/restringir."
+      "explanation": "Inibir = dificultar/restringir.",
+      "groupId": "G-PORT-147"
     },
     {
       "id": "PORT-149",
@@ -2573,7 +2667,8 @@
         "desuso"
       ],
       "answer": 1,
-      "explanation": "O texto fala em atualização profissional."
+      "explanation": "O texto fala em atualização profissional.",
+      "groupId": "G-PORT-149"
     },
     {
       "id": "PORT-150",
@@ -2590,9 +2685,9 @@
         "condição"
       ],
       "answer": 1,
-      "explanation": "Indica finalidade."
+      "explanation": "Indica finalidade.",
+      "groupId": "G-PORT-149"
     },
-
     {
       "id": "PORT-151",
       "area": "PORT",
@@ -2608,7 +2703,8 @@
         "decisões aleatórias"
       ],
       "answer": 1,
-      "explanation": "Menciona indicadores claros e acompanhamento."
+      "explanation": "Menciona indicadores claros e acompanhamento.",
+      "groupId": "G-PORT-151"
     },
     {
       "id": "PORT-152",
@@ -2625,7 +2721,8 @@
         "improvisado"
       ],
       "answer": 1,
-      "explanation": "Sistemático = organizado."
+      "explanation": "Sistemático = organizado.",
+      "groupId": "G-PORT-151"
     },
     {
       "id": "PORT-153",
@@ -2642,7 +2739,8 @@
         "instabilidade"
       ],
       "answer": 2,
-      "explanation": "Fortalece vínculos = coesão."
+      "explanation": "Fortalece vínculos = coesão.",
+      "groupId": "G-PORT-153"
     },
     {
       "id": "PORT-154",
@@ -2659,7 +2757,8 @@
         "infinitivo"
       ],
       "answer": 2,
-      "explanation": "Verbo no presente do indicativo."
+      "explanation": "Verbo no presente do indicativo.",
+      "groupId": "G-PORT-153"
     },
     {
       "id": "PORT-155",
@@ -2676,7 +2775,8 @@
         "dispensa normas"
       ],
       "answer": 2,
-      "explanation": "Fala em equilibrar interesses."
+      "explanation": "Fala em equilibrar interesses.",
+      "groupId": "G-PORT-155"
     },
     {
       "id": "PORT-156",
@@ -2693,7 +2793,8 @@
         "separar"
       ],
       "answer": 1,
-      "explanation": "Equilibrar = harmonizar."
+      "explanation": "Equilibrar = harmonizar.",
+      "groupId": "G-PORT-155"
     },
     {
       "id": "PORT-157",
@@ -2710,7 +2811,8 @@
         "desinteresse"
       ],
       "answer": 2,
-      "explanation": "Problemas globais exigem solução conjunta."
+      "explanation": "Problemas globais exigem solução conjunta.",
+      "groupId": "G-PORT-157"
     },
     {
       "id": "PORT-158",
@@ -2727,7 +2829,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "“Para” indica finalidade."
+      "explanation": "“Para” indica finalidade.",
+      "groupId": "G-PORT-157"
     },
     {
       "id": "PORT-159",
@@ -2744,7 +2847,8 @@
         "a tecnologia resolve desigualdades"
       ],
       "answer": 1,
-      "explanation": "O texto diz que não basta por si só."
+      "explanation": "O texto diz que não basta por si só.",
+      "groupId": "G-PORT-159"
     },
     {
       "id": "PORT-160",
@@ -2761,9 +2865,9 @@
         "exclusão"
       ],
       "answer": 1,
-      "explanation": "“Por si só” = sozinho/suficiente."
+      "explanation": "“Por si só” = sozinho/suficiente.",
+      "groupId": "G-PORT-159"
     },
-
     {
       "id": "PORT-161",
       "area": "PORT",
@@ -2779,7 +2883,8 @@
         "indiferença"
       ],
       "answer": 1,
-      "explanation": "O texto diz que fortalece a legitimidade."
+      "explanation": "O texto diz que fortalece a legitimidade.",
+      "groupId": "G-PORT-161"
     },
     {
       "id": "PORT-162",
@@ -2796,7 +2901,8 @@
         "condição"
       ],
       "answer": 1,
-      "explanation": "Verbo no presente indica certeza."
+      "explanation": "Verbo no presente indica certeza.",
+      "groupId": "G-PORT-161"
     },
     {
       "id": "PORT-163",
@@ -2813,7 +2919,8 @@
         "ampliam a confiança"
       ],
       "answer": 2,
-      "explanation": "Compromete = prejudica."
+      "explanation": "Compromete = prejudica.",
+      "groupId": "G-PORT-163"
     },
     {
       "id": "PORT-164",
@@ -2830,7 +2937,8 @@
         "valorizar"
       ],
       "answer": 1,
-      "explanation": "Comprometer = prejudicar."
+      "explanation": "Comprometer = prejudicar.",
+      "groupId": "G-PORT-163"
     },
     {
       "id": "PORT-165",
@@ -2847,7 +2955,8 @@
         "improviso"
       ],
       "answer": 2,
-      "explanation": "O texto fala em exercício responsável."
+      "explanation": "O texto fala em exercício responsável.",
+      "groupId": "G-PORT-165"
     },
     {
       "id": "PORT-166",
@@ -2864,7 +2973,8 @@
         "explicação"
       ],
       "answer": 1,
-      "explanation": "Indica finalidade."
+      "explanation": "Indica finalidade.",
+      "groupId": "G-PORT-165"
     },
     {
       "id": "PORT-167",
@@ -2881,7 +2991,8 @@
         "a opinião individual é irrelevante"
       ],
       "answer": 2,
-      "explanation": "Pluralidade = diversidade necessária."
+      "explanation": "Pluralidade = diversidade necessária.",
+      "groupId": "G-PORT-167"
     },
     {
       "id": "PORT-168",
@@ -2898,7 +3009,8 @@
         "extinção"
       ],
       "answer": 1,
-      "explanation": "Vitalidade = dinamismo."
+      "explanation": "Vitalidade = dinamismo.",
+      "groupId": "G-PORT-167"
     },
     {
       "id": "PORT-169",
@@ -2915,7 +3027,8 @@
         "inércia"
       ],
       "answer": 2,
-      "explanation": "Mediação = negociação."
+      "explanation": "Mediação = negociação.",
+      "groupId": "G-PORT-169"
     },
     {
       "id": "PORT-170",
@@ -2932,9 +3045,9 @@
         "tempo"
       ],
       "answer": 1,
-      "explanation": "Buscar = tentar."
+      "explanation": "Buscar = tentar.",
+      "groupId": "G-PORT-169"
     },
-
     {
       "id": "PORT-171",
       "area": "PORT",
@@ -2950,7 +3063,8 @@
         "ambiguidade"
       ],
       "answer": 2,
-      "explanation": "Previsibilidade = regularidade."
+      "explanation": "Previsibilidade = regularidade.",
+      "groupId": "G-PORT-171"
     },
     {
       "id": "PORT-172",
@@ -2967,7 +3081,8 @@
         "improviso"
       ],
       "answer": 1,
-      "explanation": "Previsibilidade = capacidade de prever."
+      "explanation": "Previsibilidade = capacidade de prever.",
+      "groupId": "G-PORT-171"
     },
     {
       "id": "PORT-173",
@@ -2984,7 +3099,8 @@
         "confusão"
       ],
       "answer": 1,
-      "explanation": "O texto fala em ampliar horizontes."
+      "explanation": "O texto fala em ampliar horizontes.",
+      "groupId": "G-PORT-173"
     },
     {
       "id": "PORT-174",
@@ -3001,7 +3117,8 @@
         "infinitivo"
       ],
       "answer": 1,
-      "explanation": "Verbo no presente."
+      "explanation": "Verbo no presente.",
+      "groupId": "G-PORT-173"
     },
     {
       "id": "PORT-175",
@@ -3018,7 +3135,8 @@
         "dispensa normas"
       ],
       "answer": 2,
-      "explanation": "O texto fala em proteger direitos sem suprimir liberdade."
+      "explanation": "O texto fala em proteger direitos sem suprimir liberdade.",
+      "groupId": "G-PORT-175"
     },
     {
       "id": "PORT-176",
@@ -3035,7 +3153,8 @@
         "ignorar"
       ],
       "answer": 1,
-      "explanation": "Visar = almejar."
+      "explanation": "Visar = almejar.",
+      "groupId": "G-PORT-175"
     },
     {
       "id": "PORT-177",
@@ -3052,7 +3171,8 @@
         "exclusão"
       ],
       "answer": 2,
-      "explanation": "Fala em cultura de respeito."
+      "explanation": "Fala em cultura de respeito.",
+      "groupId": "G-PORT-177"
     },
     {
       "id": "PORT-178",
@@ -3069,7 +3189,8 @@
         "causa"
       ],
       "answer": 1,
-      "explanation": "Indica finalidade."
+      "explanation": "Indica finalidade.",
+      "groupId": "G-PORT-177"
     },
     {
       "id": "PORT-179",
@@ -3086,7 +3207,8 @@
         "dispensa mudança de hábitos"
       ],
       "answer": 2,
-      "explanation": "Menciona hábitos individuais e políticas públicas."
+      "explanation": "Menciona hábitos individuais e políticas públicas.",
+      "groupId": "G-PORT-179"
     },
     {
       "id": "PORT-180",
@@ -3103,7 +3225,8 @@
         "discursos"
       ],
       "answer": 1,
-      "explanation": "Hábitos = costumes."
+      "explanation": "Hábitos = costumes.",
+      "groupId": "G-PORT-179"
     },
     {
       "id": "PORT-181",
@@ -3282,7 +3405,13 @@
       "difficulty": 4,
       "statement": "Em “O parecer foi favorável; portanto, o pedido foi deferido”, o termo destacado exprime relação de:",
       "image": null,
-      "options": ["adição", "oposição", "conclusão", "tempo", "explicação"],
+      "options": [
+        "adição",
+        "oposição",
+        "conclusão",
+        "tempo",
+        "explicação"
+      ],
       "answer": 2,
       "explanation": "“Portanto” indica conclusão."
     },
@@ -3446,7 +3575,13 @@
       "difficulty": 4,
       "statement": "Em “Não houve consenso; ainda assim, a proposta foi aprovada”, a expressão destacada indica:",
       "image": null,
-      "options": ["adição", "explicação", "oposição", "condição", "tempo"],
+      "options": [
+        "adição",
+        "explicação",
+        "oposição",
+        "condição",
+        "tempo"
+      ],
       "answer": 2,
       "explanation": "“Ainda assim” expressa contraste."
     },
@@ -3644,7 +3779,13 @@
       "difficulty": 4,
       "statement": "Em “O relatório é consistente; ademais, apresenta dados atualizados”, o termo sublinhado expressa relação de:",
       "image": null,
-      "options": ["adição", "oposição", "conclusão", "condição", "tempo"],
+      "options": [
+        "adição",
+        "oposição",
+        "conclusão",
+        "condição",
+        "tempo"
+      ],
       "answer": 0,
       "explanation": "“Ademais” indica acréscimo de argumento."
     },
@@ -3689,7 +3830,13 @@
       "difficulty": 4,
       "statement": "No trecho “O servidor respondeu prontamente às solicitações”, o advérbio exprime ideia de:",
       "image": null,
-      "options": ["tempo", "modo", "negação", "intensidade", "afirmação"],
+      "options": [
+        "tempo",
+        "modo",
+        "negação",
+        "intensidade",
+        "afirmação"
+      ],
       "answer": 0,
       "explanation": "“Prontamente” indica rapidez temporal."
     },
@@ -3717,7 +3864,13 @@
       "difficulty": 4,
       "statement": "Em “A norma não visa punir, mas orientar condutas”, a relação estabelecida indica:",
       "image": null,
-      "options": ["adição", "oposição", "consequência", "tempo", "condição"],
+      "options": [
+        "adição",
+        "oposição",
+        "consequência",
+        "tempo",
+        "condição"
+      ],
       "answer": 1,
       "explanation": "O “mas” estabelece oposição entre punir e orientar."
     },
@@ -3728,7 +3881,13 @@
       "difficulty": 4,
       "statement": "Em “O argumento revelou-se inconsistente”, o termo destacado significa:",
       "image": null,
-      "options": ["coerente", "frágil", "robusto", "adequado", "convincente"],
+      "options": [
+        "coerente",
+        "frágil",
+        "robusto",
+        "adequado",
+        "convincente"
+      ],
       "answer": 1,
       "explanation": "“Inconsistente” equivale a frágil, pouco sólido."
     },
@@ -3773,7 +3932,13 @@
       "difficulty": 4,
       "statement": "Em “O parecer foi negativo; ainda assim, a proposta foi aprovada”, a expressão sublinhada indica:",
       "image": null,
-      "options": ["adição", "oposição", "explicação", "tempo", "condição"],
+      "options": [
+        "adição",
+        "oposição",
+        "explicação",
+        "tempo",
+        "condição"
+      ],
       "answer": 1,
       "explanation": "“Ainda assim” expressa contraste."
     },
@@ -3801,7 +3966,13 @@
       "difficulty": 4,
       "statement": "Em “A conduta foi considerada temerária”, o termo destacado significa:",
       "image": null,
-      "options": ["prudente", "arriscada", "segura", "adequada", "correta"],
+      "options": [
+        "prudente",
+        "arriscada",
+        "segura",
+        "adequada",
+        "correta"
+      ],
       "answer": 1,
       "explanation": "“Temerária” equivale a arriscada."
     },
@@ -3880,7 +4051,13 @@
       "difficulty": 4,
       "statement": "Em “O argumento é plausível”, o termo destacado significa:",
       "image": null,
-      "options": ["improvável", "verossímil", "falso", "contraditório", "absurdo"],
+      "options": [
+        "improvável",
+        "verossímil",
+        "falso",
+        "contraditório",
+        "absurdo"
+      ],
       "answer": 1,
       "explanation": "“Plausível” equivale a verossímil."
     },
@@ -3925,7 +4102,13 @@
       "difficulty": 4,
       "statement": "Em “O ato é válido; contudo, pode ser revisto”, o termo destacado indica:",
       "image": null,
-      "options": ["adição", "oposição", "conclusão", "tempo", "explicação"],
+      "options": [
+        "adição",
+        "oposição",
+        "conclusão",
+        "tempo",
+        "explicação"
+      ],
       "answer": 1,
       "explanation": "“Contudo” indica oposição."
     },
@@ -3953,7 +4136,13 @@
       "difficulty": 4,
       "statement": "Em “A solução mostrou-se exequível”, o termo destacado significa:",
       "image": null,
-      "options": ["impossível", "viável", "teórica", "ineficaz", "ilusória"],
+      "options": [
+        "impossível",
+        "viável",
+        "teórica",
+        "ineficaz",
+        "ilusória"
+      ],
       "answer": 1,
       "explanation": "“Exequível” equivale a viável."
     },
@@ -4032,7 +4221,13 @@
       "difficulty": 4,
       "statement": "Em “O comportamento foi considerado reprovável”, o termo destacado significa:",
       "image": null,
-      "options": ["elogiável", "censurável", "neutro", "adequado", "lícito"],
+      "options": [
+        "elogiável",
+        "censurável",
+        "neutro",
+        "adequado",
+        "lícito"
+      ],
       "answer": 1,
       "explanation": "“Reprovável” equivale a censurável."
     },
@@ -4055,5 +4250,3 @@
     }
   ]
 }
-
-
