@@ -1758,7 +1758,7 @@
       "statement": "Em escala 1:75, uma medida de 8 cm no desenho corresponde, na realidade, a:",
       "image": null,
       "options": ["4 m", "5 m", "6 m", "7 m", "8 m"],
-      "answer": 1,
+      "answer": 2,
       "explanation": "8 × 75 = 600 cm = 6 m."
     },
     {
@@ -5256,3 +5256,4 @@
     }
   ]
 }
+
