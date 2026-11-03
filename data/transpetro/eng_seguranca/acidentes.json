@@ -414,5 +414,68 @@
     "explanation": "Seleção por um extremo recente pode produzir regressão à média. Isso não prova ausência de efeito, mas impede atribuição integral automática sem desenho e informação adicional.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0291",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "efeito_domino_em_sequencia",
+    "difficulty": "media",
+    "statement": "A ruptura de um componente arremessa uma peça, que atinge outra linha e provoca um segundo vazamento. A equipe descreve os dois vazamentos como falhas independentes apenas porque pertencem a equipamentos diferentes. Qual relação deve ser examinada?",
+    "options": [
+      "Ausência de segundo evento porque ele ocorreu depois do primeiro.",
+      "Independência automática porque cada equipamento tem seu próprio número de patrimônio.",
+      "Equivalência dos dois eventos a um único registro de manutenção, sem sequência física.",
+      "Impossibilidade de relação causal entre equipamentos de materiais diferentes.",
+      "O impacto vincula os eventos; cadastros distintos não demonstram independência."
+    ],
+    "answer": 4,
+    "explanation": "O impacto fornece um caminho de propagação explícito. Equipamentos distintos podem participar de uma cadeia causal; o segundo evento não é independente apenas por ter outro identificador.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0292",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "ensaio_destrutivo_e_evidencia",
+    "difficulty": "alta",
+    "statement": "A investigação propõe cortar uma peça fraturada para exame metalográfico. O corte alterará superfícies e parte do material disponível. Antes dele, a equipe ainda não documentou geometria e distribuição dos vestígios. Qual planejamento preserva melhor a utilidade da evidência?",
+    "options": [
+      "Selecionar apenas o fragmento que confirme uma hipótese, sem registrar o destino dos demais.",
+      "Dispensar qualquer registro prévio porque um ensaio posterior pode recompor todo estado original.",
+      "Cortar toda a peça aleatoriamente e tratar as superfícies novas como se existissem no acidente.",
+      "Proibir todo exame destrutivo, mesmo quando necessário e planejável, como única forma de investigar.",
+      "Documentar o estado inicial e planejar cortes e amostras com rastreabilidade."
+    ],
+    "answer": 4,
+    "explanation": "Ensaio destrutivo pode ser necessário, mas modifica o objeto. Documentação prévia, plano e rastreabilidade permitem distinguir vestígio original e efeito da intervenção.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0293",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "reconstrucao_de_trajetoria",
+    "difficulty": "muito_alta",
+    "statement": "Para testar uma hipótese de projeção de peça, adote lançamento horizontal a 3 m/s, altura de 20 m, g=10 m/s² e resistência do ar desprezada. Use y=20−gt²/2 e x=3t. Qual tempo até o piso e alcance horizontal resultam, sem que isso sozinho prove a causa do acidente?",
+    "options": [
+      "2 s e 6 m.",
+      "2 s e 0 m.",
+      "1 s e 3 m.",
+      "4 s e 12 m.",
+      "2 s e 3 m."
+    ],
+    "answer": 0,
+    "explanation": "No piso,0=20−5t²; t²=4, t=2 s. Alcance3×2=6 m. O modelo testa compatibilidade geométrica, não identifica sozinho o mecanismo de lançamento.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

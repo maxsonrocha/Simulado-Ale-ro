@@ -269,5 +269,47 @@
     "explanation": "O enunciado define o mecanismo superficial do agente; aplicação que rompe a camada pode comprometer sua função. Não se inventam taxa normativa, compatibilidade universal ou tática real de ataque.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0296",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "poeira_depositada_e_explosao_secundaria",
+    "difficulty": "media",
+    "statement": "Um incêndio inicial levanta poeira combustível depositada numa área maior. O estudo identifica que a nuvem formada pode inflamar e ampliar o evento. Qual condição adicional o cenário exige avaliar?",
+    "options": [
+      "A ausência anterior de nuvem como garantia de que nenhuma pode se formar durante o evento.",
+      "A área limpa mais distante como prova de que todo depósito está removido.",
+      "A ventilação nominal como prova automática de que qualquer nuvem será incapaz de inflamar.",
+      "Acúmulo, dispersão e ignição da poeira além da região da chama inicial.",
+      "Somente o combustível que já estava na primeira chama, pois depósitos não participam depois."
+    ],
+    "answer": 3,
+    "explanation": "O próprio evento pode dispersar material depositado, criando combustível em suspensão e propagação secundária. A avaliação precisa cobrir esse mecanismo.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0297",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "pressao_e_transporte_de_fumaca",
+    "difficulty": "alta",
+    "statement": "Duas salas se comunicam por abertura. A tem fumaça e pressão de −5 Pa; B deveria ficar protegida, mas a extração leva sua pressão a −15 Pa. No modelo simples, o ar vai da maior para a menor pressão. Qual análise procede?",
+    "options": [
+      "Há tendência A→B, de modo que a extração em B pode atrair fumaça em vez de protegê-la.",
+      "Não há tendência de fluxo porque ambas as pressões são negativas.",
+      "Só a pressão absoluta em relação ao vácuo define a direção entre as salas.",
+      "Extração em B garante proteção independentemente da pressão relativa.",
+      "Há tendência B→A porque −15 é maior que −5."
+    ],
+    "answer": 0,
+    "explanation": "−5 Pa é maior que−15 Pa. A diferença tende a transportar ar de A para B pela abertura nas hipóteses dadas. Não se define valor normativo de pressurização.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

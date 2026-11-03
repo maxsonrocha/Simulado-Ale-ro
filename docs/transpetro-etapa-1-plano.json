@@ -1,7 +1,7 @@
 {
   "etapa": 1,
   "status": "parcial",
-  "baseCommit": "5b51b64",
+  "baseCommit": "9c7d51d",
   "metaTotal": 700,
   "metaAreas": {
     "PORT": 100,
@@ -21,24 +21,24 @@
     "saude_ocupacional": 16,
     "desenvolvimento_sustentavel": 10
   },
-  "loteTotal": 400,
+  "loteTotal": 500,
   "loteAreas": {
-    "PORT": 80,
-    "ING": 80,
-    "ESP": 240
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 300
   },
   "loteAssuntosESP": {
-    "desenvolvimento_sustentavel": 6,
-    "acidentes": 20,
-    "ergonomia": 12,
-    "gestao_sms": 21,
-    "legislacao_nr": 44,
-    "higiene_ocupacional": 35,
-    "prevencao_riscos": 34,
-    "incendio": 13,
-    "gerenciamento_riscos": 26,
-    "saude_ocupacional": 12,
-    "emergencias": 17
+    "desenvolvimento_sustentavel": 7,
+    "acidentes": 23,
+    "ergonomia": 13,
+    "gestao_sms": 27,
+    "legislacao_nr": 54,
+    "higiene_ocupacional": 46,
+    "prevencao_riscos": 48,
+    "incendio": 15,
+    "gerenciamento_riscos": 35,
+    "saude_ocupacional": 13,
+    "emergencias": 19
   },
   "proporcoesDificuldade": {
     "media": 20,
@@ -53,12 +53,13 @@
       "leitura_interpretacao"
     ]
   },
-  "limites": "Acumulado parcial 400/700 em quatro lotes. Faltam 300 para concluir a Etapa 1. Autoria normativa do lote 4 limitada às proposições verificadas do corpus autorizado, sem completar requisitos finos.",
+  "limites": "Acumulado parcial 500/700. Metas de PORT/ING completas (100 cada); faltam exclusivamente 200 ESP. Não iniciar lote 6 nesta tarefa; futuros lotes precisam respeitar esses saldos, sem ultrapassar áreas. Normativa limitada ao corpus verificado.",
   "auditoriasConteudo": [
     "docs/auditorias/transpetro-etapa-1-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-3-conteudo.json",
-    "docs/auditorias/transpetro-etapa-1-lote-4-conteudo.json"
+    "docs/auditorias/transpetro-etapa-1-lote-4-conteudo.json",
+    "docs/auditorias/transpetro-etapa-1-lote-5-conteudo.json"
   ],
   "lotes": [
     {
@@ -134,6 +135,29 @@
         "saude_ocupacional": 1
       },
       "baseCommit": "5b51b64"
+    },
+    {
+      "numero": 5,
+      "total": 100,
+      "areas": {
+        "PORT": 20,
+        "ING": 20,
+        "ESP": 60
+      },
+      "assuntosESP": {
+        "prevencao_riscos": 14,
+        "legislacao_nr": 10,
+        "higiene_ocupacional": 11,
+        "gerenciamento_riscos": 9,
+        "gestao_sms": 6,
+        "acidentes": 3,
+        "emergencias": 2,
+        "incendio": 2,
+        "ergonomia": 1,
+        "saude_ocupacional": 1,
+        "desenvolvimento_sustentavel": 1
+      },
+      "baseCommit": "9c7d51d"
     }
   ]
 }

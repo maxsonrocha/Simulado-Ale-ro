@@ -438,5 +438,131 @@
     "explanation": "O indicador pode refletir comportamento de relato alterado pelo incentivo, não melhora das condições. É preciso revisar o mecanismo e triangulá-lo com evidências independentes.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0285",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "seguranca_de_processos_e_lesoes",
+    "difficulty": "media",
+    "statement": "Uma instalação tem baixa taxa de lesões pessoais, mas registros mostram perdas de contenção e indisponibilidade de proteções de processo. Qual leitura é adequada para a gestão de SMS?",
+    "options": [
+      "Avaliar segurança de processos além da taxa de lesões pessoais.",
+      "Disponibilidade de proteções é irrelevante enquanto não houver lesão registrada.",
+      "Perda de contenção só é evento de processo se já houver afastamento de trabalhador.",
+      "Uma taxa pessoal favorável substitui a análise dos mecanismos de acidente maior.",
+      "Baixa taxa de lesões prova que perdas de contenção não podem produzir acidentes maiores."
+    ],
+    "answer": 0,
+    "explanation": "Indicadores de lesão e funcionamento das proteções/cenários de processo não são equivalentes. É preciso avaliar os sinais pertinentes ao tipo de risco.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0286",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "mudancas_cumulativas_e_linha_de_base",
+    "difficulty": "alta",
+    "statement": "Três alterações foram aprovadas separadamente, cada estudo assumindo as outras duas ainda na configuração original. Todas foram implementadas e podem interagir. Qual revisão é necessária?",
+    "options": [
+      "Somar as assinaturas dos três estudos como prova de cobertura de todas as interações.",
+      "Tratar aprovações isoladas como independência física garantida entre mudanças.",
+      "Avaliar o conjunto implantado e as interações omitidas nos estudos isolados.",
+      "Escolher apenas o estudo mais antigo, sem comparar suas hipóteses com o conjunto real.",
+      "Manter a linha de base original porque a implementação não altera o modelo aprovado."
+    ],
+    "answer": 2,
+    "explanation": "A combinação implementada não coincide com as hipóteses de cada estudo isolado. Aprovação documental de partes não demonstra avaliação de suas interações.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0287",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "concordancia_entre_avaliadores",
+    "difficulty": "alta",
+    "statement": "Dois auditores classificam os mesmos 50 itens como conforme ou não conforme. A tabela é: ambos conforme 35; só A conforme 5; só B conforme 5; ambos não conforme 5. Um indicador dado é κ=(Po−Pe)/(1−Pe), com Po acordo observado e Pe acordo esperado pelo produto das proporções marginais. Qual κ resulta, sem usá-lo sozinho como prova de validade das classificações?",
+    "options": [
+      "0,375.",
+      "0,625.",
+      "0,680.",
+      "0,800.",
+      "0,120."
+    ],
+    "answer": 0,
+    "explanation": "Po=(35+5)/50=0,8. Cada auditor marca40/50=0,8 como conforme e0,2 como não; Pe=0,8²+0,2²=0,68. κ=(0,8−0,68)/(1−0,68)=0,375. Acordo não prova que ambos estejam corretos.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0288",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "excecao_temporaria_e_renovacao",
+    "difficulty": "alta",
+    "statement": "Uma autorização interna excepcional vale até sexta, exige controle compensatório e só pode ser renovada por decisão documentada. Na segunda seguinte a atividade continua, com argumento de que não houve incidente. Qual situação decorre das regras fornecidas?",
+    "options": [
+      "O controle compensatório substitui para sempre a decisão de renovação, mesmo sem registro.",
+      "A autorização se torna permanente automaticamente após uma semana sem incidente.",
+      "A falta de incidente demonstra que nenhuma condição da autorização importa mais.",
+      "Tratar expiração e controle previsto; não houve renovação automática.",
+      "Mudar a data do arquivo, sem decisão, equivale à renovação documentada exigida."
+    ],
+    "answer": 3,
+    "explanation": "O procedimento dado separa prazo, controle e renovação. Um resultado favorável não executa a decisão nem estende o prazo por si só.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0289",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "selecao_multicriterio_com_porta_obrigatoria",
+    "difficulty": "muito_alta",
+    "statement": "Uma seleção interna exige qualificação comprovada antes de pontuar propostas. Entre qualificadas, S=0,6T+0,4E, ambas notas de 0 a 10. A tem T=10,E=10, mas não comprovou qualificação; B tem 8,7; C tem 7,9; D tem 6,10. B,C,D são qualificadas. Qual proposta vence pelo critério dado?",
+    "options": [
+      "B e D empatam na liderança em 7,6, sem considerar C.",
+      "C, com 7,8, após excluir A pela condição obrigatória.",
+      "D, com 7,6, porque a nota E tem prioridade absoluta.",
+      "A, com 10, porque a pontuação compensa qualquer requisito de entrada.",
+      "B, com 7,6, por ter a maior nota técnica entre as qualificadas."
+    ],
+    "answer": 1,
+    "explanation": "B=4,8+2,8=7,6; C=4,2+3,6=7,8; D=3,6+4=7,6. A não entra na pontuação por falta de qualificação comprovada. O critério é interno do exercício.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0290",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "acumulacao_sequencial_de_desvios",
+    "difficulty": "muito_alta",
+    "statement": "Um monitor interno usa Ct=max(0,Ct−1+xt−0,5), começando C0=0, e gera sinal quando Ct≥3. A sequência de escores x é 1, −2, 2, 1, 2. Em qual observação ocorre o primeiro sinal e qual é C nesse instante?",
+    "options": [
+      "Na terceira, com 3,0.",
+      "Na quinta, com 3,5.",
+      "Na quinta, com 2,0, igual ao último escore.",
+      "Em nenhuma, pois nenhum x isolado chega a 3.",
+      "Na quarta, com 2,0."
+    ],
+    "answer": 1,
+    "explanation": "Os valores são0,5;0;1,5;2,0;3,5. O máximo com zero reinicia após o segundo escore, e a regra acumula desvios posteriores. Sinal estatístico pede investigação, não prova automática de causa.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

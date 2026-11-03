@@ -122,5 +122,26 @@
     "explanation": "Após suprir os 2 MWh diurnos, sobram 4 renováveis para armazenar; entregam 4×0,75=3 MWh à noite. Restam 6−3=3 MWh da outra fonte, emitindo 3×0,5=1,5 t. Um total anual sem a restrição temporal ou rendimento daria conclusão diferente; 1,0 ignora a perda e 3,0 ignora todo o armazenamento.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0300",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "renovacao_e_dinamica_de_estoque",
+    "difficulty": "alta",
+    "statement": "Um modelo de recurso renovável começa com estoque 100. A cada ano primeiro regenera 10% do estoque inicial daquele ano e depois retira 15 unidades. Não há outros fluxos. Qual estoque após dois anos e qual conclusão seguem desse modelo?",
+    "options": [
+      "100; a palavra renovável impõe equilíbrio independentemente dos fluxos.",
+      "90; a regeneração fica sempre fixa em 10, mesmo com mudança do estoque.",
+      "95; o segundo ano não altera o estoque por ser recurso renovável.",
+      "115,5; a retirada deve ser somada à regeneração.",
+      "89,5; ser renovável não garante manutenção do estoque sob a retirada dada."
+    ],
+    "answer": 4,
+    "explanation": "Ano1:100×1,1−15=95. Ano2:95×1,1−15=89,5. A regeneração diminui com o estoque neste modelo; a retirada excede a reposição. Parâmetros são dados do exercício, não taxas ecológicas universais.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

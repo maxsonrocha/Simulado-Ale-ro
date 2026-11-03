@@ -34,12 +34,13 @@ erros, tempo e situação. As estratégias de avaliação/resumo são configurá
 ## Bancos e assuntos da Transpetro
 
 Os 13 arquivos em `data/transpetro/eng_seguranca/` contêm um **lote parcial de
-400 questões da Etapa 1** (80 PORT, 80 ING, 240 ESP), em quatro lotes de 100.
-Legislação/NRs possui 44 questões fundamentadas no corpus local auditado.
-A meta de 700 não foi concluída: faltam 300. Relatórios: [lote 1](docs/transpetro-etapa-1-relatorio.md),
+500 questões da Etapa 1** (100 PORT, 100 ING, 300 ESP), em cinco lotes de 100.
+Legislação/NRs possui 54 questões fundamentadas no corpus local auditado.
+A meta de 700 não foi concluída: faltam 200. Relatórios: [lote 1](docs/transpetro-etapa-1-relatorio.md),
 [lote 2](docs/transpetro-etapa-1-lote-2-relatorio.md),
 [lote 3](docs/transpetro-etapa-1-lote-3-relatorio.md)
-e [lote 4](docs/transpetro-etapa-1-lote-4-relatorio.md).
+[lote 4](docs/transpetro-etapa-1-lote-4-relatorio.md)
+e [lote 5](docs/transpetro-etapa-1-lote-5-relatorio.md).
 
 Arquivos:
 
@@ -64,7 +65,7 @@ não vazio para o assunto, sem inventar um programa de tópicos nesta etapa.
 O carregador aceita arrays e o envelope legado `{ "questions": [...] }`.
 ALERO continua aceitando `topic` e não precisa de novos campos de identidade.
 
-O lote já permite prova completa 10/10/50 e específico 50. Garante **quatro**
+O lote já permite prova completa 10/10/50 e específico 50. Garante **seis**
 provas completas inteiramente inéditas por ciclo, não dez; faltam questões para
 a capacidade planejada. O botão de gerar permite configurar e iniciar.
 Banco vazio/insuficiente mantém a configuração visível e informa, por disciplina,
@@ -166,8 +167,10 @@ node scripts/audit-transpetro-lote3-calculations.cjs
 node scripts/audit-transpetro-lote3-engine.cjs
 node scripts/audit-transpetro-lote4-calculations.cjs
 node scripts/audit-transpetro-lote4-engine.cjs
+node scripts/audit-transpetro-lote5-calculations.cjs
+node scripts/audit-transpetro-lote5-engine.cjs
 node scripts/audit-transpetro-similarity.cjs
-node --test tests/transpetro.cjs tests/transpetro-bank.cjs tests/transpetro-lote4.cjs
+node --test tests/transpetro.cjs tests/transpetro-bank.cjs tests/transpetro-lote4.cjs tests/transpetro-lote5.cjs
 # Com o servidor local e Playwright disponível:
 node tests/transpetro-bank-ui.cjs
 ```
@@ -175,8 +178,8 @@ node tests/transpetro-bank-ui.cjs
 `node scripts/validate-transpetro.cjs` **sem `--partial` deve falhar** enquanto
 o banco não contiver exatamente 700 e a matriz completa. A opção parcial não
 altera a meta: exige as quantidades acumuladas declaradas no plano, as quotas de cada lote, a proporção
-de dificuldades em cada área e os pareceres individuais dos quatro lotes. O arquivo
-de parecer do lote 1 não é reescrito; `auditoriasConteudo` lista os quatro arquivos.
+de dificuldades em cada área e os pareceres individuais dos cinco lotes. O arquivo
+de parecer do lote 1 não é reescrito; `auditoriasConteudo` lista os cinco arquivos.
 `--structure-only` isola a primeira rodada estrutural, sem substituir a revisão
 de conteúdo exigida por padrão.
 
@@ -187,6 +190,10 @@ prova automática de unicidade semântica nem calibração psicométrica: a revi
 editorial e a revisão humana de domínio continuam distintas dos testes.
 
 O corpus em `references/transpetro/corpus/` é o fallback normativo autorizado.
-Cada questão normativa nova aponta para o arquivo usado; as auditorias dos lotes 3/4
+Cada questão normativa nova aponta para o arquivo usado; as auditorias dos lotes 3/4/5
 identificam as fichas e hashes. Fichas de escopo não autorizam completar limites,
 prazos ou requisitos ausentes por memória. As edições ISO/ABNT seguem o edital.
+
+Após o Lote 5, PORT/ING atingem suas metas de 100 itens cada. O saldo da Etapa 1
+é exclusivamente de 200 ESP; próximos lotes precisam respeitar esse saldo,
+sem acrescentar novas línguas à meta de 700 já definida.

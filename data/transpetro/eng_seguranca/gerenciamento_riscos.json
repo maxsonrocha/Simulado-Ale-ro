@@ -532,5 +532,194 @@
     "explanation": "Pelo menos3 inclui os cenários de3 e10:0,005+0,001=0,006>0,005. Não é frequência de exatamente3 nem número esperado de pessoas. O critério é dado do exercício.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0276",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "perigo_cenario_e_consequencia",
+    "difficulty": "media",
+    "statement": "Um estudo distingue armazenamento de substância inflamável, vazamento com ignição e lesão por radiação térmica. Qual sequência conceitual corresponde aos três elementos?",
+    "options": [
+      "Medida preventiva; cenário; probabilidade de falha.",
+      "Frequência; consequência; medida de prevenção.",
+      "Cenário; risco quantitativo já calculado; barreira.",
+      "Consequência; fonte de perigo; frequência anual.",
+      "Fonte de perigo; cenário acidental; consequência."
+    ],
+    "answer": 4,
+    "explanation": "Os elementos descrevem, respectivamente, uma condição capaz de gerar dano, uma evolução acidental e seu efeito. Nenhuma frequência ou risco numérico foi fornecido.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0277",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "disponibilidade_e_reparo",
+    "difficulty": "media",
+    "statement": "No modelo A=MTBF/(MTBF+MTTR), dois equipamentos têm MTBF=1.000 h. Seus MTTR são 10 h e 100 h. Qual comparação é correta?",
+    "options": [
+      "Aproximadamente 99,01% e 90,91%; mesmo intervalo médio entre falhas não implica mesma disponibilidade.",
+      "10% e 1%; disponibilidade é MTTR/MTBF.",
+      "90,91% e 99,01%; reparo mais demorado aumenta disponibilidade.",
+      "Ambos 50%, porque qualquer falha divide o tempo disponível pela metade.",
+      "Ambos 100%, porque MTBF é igual."
+    ],
+    "answer": 0,
+    "explanation": "A1=1.000/1.010≈99,01%; A2=1.000/1.100≈90,91%. O tempo de reparo afeta a fração disponível no modelo dado.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0278",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "modos_exclusivos_em_arvore",
+    "difficulty": "alta",
+    "statement": "Uma árvore inclui o ramo “válvula V aberta no modo de partida E válvula V fechada no modo de produção” como falha simultânea num mesmo instante. Os modos são mutuamente exclusivos no modelo. Qual revisão é necessária?",
+    "options": [
+      "Somar os dois estados como se ambos estivessem ativos necessariamente.",
+      "Separar condições de modo ou usar representação temporal; não tratar estados de modos exclusivos como simultâneos sem justificativa.",
+      "Concluir que a válvula nunca pode falhar porque os modos são diferentes.",
+      "Multiplicar as duas probabilidades e aceitar qualquer resultado como evento simultâneo possível.",
+      "Remover a informação de modo para garantir que toda combinação se torne real."
+    ],
+    "answer": 1,
+    "explanation": "A exclusividade de modos precisa integrar a lógica. Evolução entre instantes é outra pergunta e não se representa automaticamente por conjunção de estados simultâneos.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0279",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fator_de_escalada_de_barreira",
+    "difficulty": "alta",
+    "statement": "Um diagrama atribui uma barreira ao cenário, mas ela depende de visibilidade da indicação. A avaliação identifica que condensação no visor pode impedir a leitura durante a condição crítica. Qual complemento preserva o sentido da barreira no cenário?",
+    "options": [
+      "Excluir o cenário crítico para que a barreira permaneça sempre avaliada em condição favorável.",
+      "Avaliar a condensação como condição de degradação da leitura exigida.",
+      "Creditar desempenho integral porque a indicação é legível em operação normal.",
+      "Transformar a condensação na consequência final e retirar a avaliação da função de leitura.",
+      "Contar o nome da barreira como prova de funcionamento sob qualquer visibilidade."
+    ],
+    "answer": 1,
+    "explanation": "Uma condição de degradação pode impedir o desempenho creditado. É preciso examinar sua ocorrência e os meios de manter a função, não apenas listar a barreira.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0280",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "ciclo_de_preferencias",
+    "difficulty": "alta",
+    "statement": "Um comitê registra preferências par a par: A é preferido a B; B a C; C a A. Em seguida tenta produzir ordem estrita transitiva mantendo as três relações. Qual problema precisa ser resolvido?",
+    "options": [
+      "As três relações já definem necessariamente A como primeiro e C como último.",
+      "Trocar a ordem das linhas do relatório torna as relações transitivas sem mudar seu conteúdo.",
+      "B deve ser primeiro porque aparece como preferência e como alternativa.",
+      "O ciclo prova igualdade de todos os riscos físicos, sem necessidade de critérios.",
+      "O ciclo impede manter as três relações numa ordem estrita transitiva."
+    ],
+    "answer": 4,
+    "explanation": "Uma ordem estrita transitiva exigiria A preferido a C a partir das duas primeiras, contrariando C preferido a A. É necessário rever método ou explicitar como resolver o ciclo.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0281",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fronteira_de_consequencias",
+    "difficulty": "alta",
+    "statement": "O estudo estima apenas danos ao patrimônio interno. O cenário, porém, também pode atingir pessoas e instalações vizinhas, conforme o próprio mapeamento. A conclusão chama o valor patrimonial de risco total do cenário. Qual revisão do alcance é correta?",
+    "options": [
+      "Delimitar o indicador e avaliar efeitos externos antes de chamá-lo total.",
+      "Multiplicar o patrimônio por um fator arbitrário para representar todas as consequências.",
+      "Concluir risco externo nulo por ele não ter sido incluído no cálculo.",
+      "Ignorar consequências externas porque não pertencem ao ativo da empresa.",
+      "Converter automaticamente o valor patrimonial em número de pessoas atingidas, sem modelo."
+    ],
+    "answer": 0,
+    "explanation": "O cálculo pode descrever sua dimensão patrimonial, mas o título total não se justifica se efeitos reconhecidos ficaram fora da fronteira. Conversões exigem base, não fator inventado.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0282",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "sequencia_otima_de_diagnostico",
+    "difficulty": "muito_alta",
+    "statement": "Exatamente uma das causas A, B ou C explica uma falha, com probabilidades 0,10, 0,60 e 0,30. Testes perfeitos têm custos 1, 2 e 4. Testa-se uma causa, para se positiva; se negativa, testa-se a segunda; duas negativas identificam a terceira sem testá-la. Qual ordem inicial minimiza o custo esperado?",
+    "options": [
+      "A depois B, inferindo C; custo esperado 2,8.",
+      "B depois C, inferindo A; custo esperado 3,6.",
+      "A depois C, inferindo B; custo esperado 4,6.",
+      "C depois A, inferindo B; custo esperado 4,7.",
+      "B depois A, inferindo C; custo esperado 2,4."
+    ],
+    "answer": 4,
+    "explanation": "Para ordem X,Y o custo é cX+(1−pX)cY. BA=2+0,4×1=2,4, menor que AB2,8, AC4,6, BC3,6, CA4,7 e CB5,4. Menor custo do primeiro teste não garante menor custo esperado da estratégia.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0283",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "votacao_dois_de_tres",
+    "difficulty": "muito_alta",
+    "statement": "Três canais independentes votam por atuação quando pelo menos dois sinalizam. Sem demanda real, cada canal tem probabilidade 0,10 de sinal indevido. Sob demanda, cada canal tem probabilidade 0,02 de deixar de sinalizar. Qual par representa probabilidade de atuação indevida e de não atuação sob demanda?",
+    "options": [
+      "0,028 e 0,001184.",
+      "0,300 e 0,060000.",
+      "0,100 e 0,020000.",
+      "0,001 e 0,000008.",
+      "0,271 e 0,058808."
+    ],
+    "answer": 0,
+    "explanation": "Pelo menos duas ocorrências em três independentes dá3p²(1−p)+p³. Para sinal indevido p0,10:0,028; para omissão de atuação são pelo menos duas falhas p0,02:0,001184. O modelo não inclui causa comum.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0284",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "valor_de_informacao_perfeita",
+    "difficulty": "muito_alta",
+    "statement": "O estado perigoso ocorre com probabilidade 0,20. Sem prevenção, a perda é 100 nesse estado e zero no outro. Prevenir custa 12 em qualquer estado e elimina a perda. Um serviço perfeito revela o estado antes de decidir. Sob minimização de custo esperado, qual é o valor máximo da informação e o custo esperado total se o serviço cobrar 8?",
+    "options": [
+      "Valor máximo 9,6; custo total esperado 10,4.",
+      "Valor máximo 20; custo total esperado 8.",
+      "Valor máximo 8; custo total esperado 2,4.",
+      "Valor máximo 12; custo total esperado 12.",
+      "Valor máximo 2,4; custo total esperado 20."
+    ],
+    "answer": 0,
+    "explanation": "Sem informação, prevenir custa12 contra perda esperada20. Com informação gratuita, previne-se só no estado perigoso:0,2×12=2,4. Valor12−2,4=9,6; preço8 dá10,4, ainda abaixo de12. São custos do exercício, não critério normativo.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

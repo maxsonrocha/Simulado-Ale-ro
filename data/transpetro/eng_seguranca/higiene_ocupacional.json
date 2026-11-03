@@ -720,5 +720,236 @@
     "explanation": "Comparação nos mesmos postos controla algumas diferenças, mas não remove efeitos de período ou resíduo. A reação e a ordem precisam ser tratadas no desenho e na interpretação.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0265",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "contagem_e_massa_de_particulas",
+    "difficulty": "media",
+    "statement": "Dois aerossóis têm a mesma contagem de partículas por volume, mas tamanhos e densidades diferentes. Sem dados adicionais, qual limitação impede tratar a contagem como se fosse a mesma concentração em massa?",
+    "options": [
+      "Contagem igual demonstra necessariamente massa igual para qualquer aerossol.",
+      "Massa por partícula depende de tamanho e densidade, não só de contagem.",
+      "Densidade só importa quando o ar está sem partículas.",
+      "Tamanho das partículas não pode alterar a massa de uma população.",
+      "Usar a mesma unidade de volume torna equivalentes todas as propriedades das partículas."
+    ],
+    "answer": 1,
+    "explanation": "Contagem e massa descrevem grandezas distintas. Para relacioná-las, é preciso conhecer a massa das partículas, ligada ao volume e à densidade.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0266",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "dose_e_taxa_de_dose",
+    "difficulty": "media",
+    "statement": "Um monitor registra taxa de dose em unidade/hora, enquanto um dosímetro registra dose acumulada em unidades. Um relatório compara os valores numéricos como se medissem a mesma grandeza. Qual informação é indispensável para relacioná-los?",
+    "options": [
+      "A média não ponderada das taxas, sem duração total.",
+      "O tempo e o perfil da taxa de dose durante a exposição.",
+      "A menor taxa observada, representando necessariamente todo o período.",
+      "A taxa multiplicada sempre por uma hora, mesmo se a exposição tiver outra duração.",
+      "Somente a maior taxa, independentemente de quanto tempo durou."
+    ],
+    "answer": 1,
+    "explanation": "Dose acumulada envolve integração da taxa no tempo. Leituras com dimensões distintas não são comparáveis apenas por seu número.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0267",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "temperatura_do_ar_e_radiacao",
+    "difficulty": "alta",
+    "statement": "Dois postos têm igual temperatura do ar, medida por termômetro protegido da radiação. Num deles, o trabalhador fica próximo de superfícies muito quentes; no outro, não. A avaliação declara equivalência térmica apenas pela leitura do ar. Qual verificação enfrenta a diferença identificada?",
+    "options": [
+      "Presumir igual troca por radiação porque o termômetro do ar marcou o mesmo valor.",
+      "Medir somente o metabolismo e usar esse dado como prova de que os ambientes são iguais.",
+      "Avaliar a troca por radiação e a geometria de exposição, além da temperatura do ar.",
+      "Usar apenas a velocidade do ar para excluir qualquer contribuição de superfícies quentes.",
+      "Adotar a mesma roupa como demonstração de que a radiação incidente é igual nos dois postos."
+    ],
+    "answer": 2,
+    "explanation": "Temperatura do ar e troca radiativa não são a mesma grandeza. A presença de superfícies quentes e sua relação geométrica com a pessoa precisam integrar a avaliação; não se fixa método ou limite normativo.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0268",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "matriz_superficial_e_aerea",
+    "difficulty": "alta",
+    "statement": "Uma campanha encontra contaminante numa bancada em mg/m². O gestor divide esse valor por um volume arbitrário e o apresenta como concentração no ar em mg/m³. Não há modelo de transferência superfície-ar nem medição aérea. Qual crítica procede?",
+    "options": [
+      "Toda concentração superficial é numericamente igual à aérea se o agente for o mesmo.",
+      "Apenas trocar o símbolo m² por m³ já representa uma medição de ar.",
+      "A medida superficial deve ser descartada por não ser automaticamente uma medida respiratória.",
+      "O volume arbitrário elimina a necessidade de conhecer qualquer processo de ressuspensão.",
+      "Conversão arbitrária não estabelece a transferência da superfície para o ar."
+    ],
+    "answer": 4,
+    "explanation": "A medida pode ser válida para a superfície, mas não se converte em concentração aérea sem relação física e dados pertinentes. Unidade escrita não cria essa informação.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0269",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "condicionamento_gravimetrico",
+    "difficulty": "alta",
+    "statement": "Filtros higroscópicos são pesados antes secos e depois da coleta em ambiente úmido, sem condicionamento comparável. O procedimento calcula toda diferença como massa do aerossol. Qual contribuição precisa ser investigada?",
+    "options": [
+      "A equivalência automática dos estados porque foi usada a mesma balança.",
+      "Somente a cor do filtro depois da coleta, sem avaliar seu estado de umidade.",
+      "Variação de umidade retida pelo filtro, além do material coletado.",
+      "A massa do aerossol como única origem fisicamente possível de toda diferença.",
+      "A impossibilidade de filtros absorverem água porque são usados em amostragem."
+    ],
+    "answer": 2,
+    "explanation": "O filtro pode variar massa por água. Comparar estados distintos de condicionamento pode introduzir contribuição que não é o aerossol-alvo.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0270",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "indice_vetorial_ponderado",
+    "difficulty": "alta",
+    "statement": "Um índice interno de vibração é definido, apenas para o exercício, por I=√[(2ax)²+az²]. Com ax=1,5 m/s² e az=4 m/s², o critério dado é I≤4,5 m/s². Qual resultado e decisão seguem essa definição?",
+    "options": [
+      "7 m/s²; não atende, somando diretamente as componentes ponderadas.",
+      "5,5 m/s²; atende por somar as componentes sem quadratura.",
+      "4,5 m/s²; atende por usar o próprio limite como medição.",
+      "5 m/s²; não atende ao critério.",
+      "4,27 m/s²; atende, omitindo o peso 2 do eixo x."
+    ],
+    "answer": 3,
+    "explanation": "2ax=3; I=√(9+16)=5>4,5. Trata-se de índice explicitado, não limite legal ou transcrição de método NHO.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0271",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "trajeto_de_pluma_e_zona_respiratoria",
+    "difficulty": "alta",
+    "statement": "Um ventilador conduz ar limpo por trás de uma fonte de vapor, empurrando a pluma na direção do trabalhador antes de ela atingir a captação ao fundo. A vazão total é alta. Qual aspecto precisa ser corrigido ou demonstrado antes de creditar proteção ao arranjo?",
+    "options": [
+      "A existência de ar limpo a montante como garantia de ar limpo em todos os pontos a jusante.",
+      "A captação final como prova de que não houve passagem pelo trabalhador.",
+      "O trajeto da pluma pela zona respiratória, não apenas a vazão total do recinto.",
+      "A vazão alta como demonstração de que qualquer trajeto é protetor.",
+      "A velocidade nominal do ventilador como substituta da posição relativa de fonte e pessoa."
+    ],
+    "answer": 2,
+    "explanation": "O contaminante pode atravessar a zona respiratória antes de ser captado. Quantidade de ar e captação final não demonstram eliminação da exposição no trajeto.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0272",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "replicacao_agrupada_e_informacao",
+    "difficulty": "muito_alta",
+    "statement": "Uma campanha tem 40 leituras em grupos de 4 no mesmo turno. Um modelo de planejamento fornece neff=n/[1+(m−1)ρ], com m=4 e correlação intragrupo ρ=0,5. Qual tamanho efetivo resulta e qual inferência se deve evitar?",
+    "options": [
+      "10; basta contar grupos e ignorar a contribuição das leituras dentro deles.",
+      "25; usa-se o denominador como se fosse o resultado total.",
+      "40; agrupar não altera informação independentemente da correlação.",
+      "16; tratar as 40 leituras como informação independente equivalente.",
+      "80; correlação positiva sempre duplica informação independente."
+    ],
+    "answer": 3,
+    "explanation": "Denominador1+3×0,5=2,5; neff=40/2,5=16. É modelo dado de planejamento; não transforma leituras correlacionadas em40 observações independentes.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0273",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "resposta_cruzada_de_dois_agentes",
+    "difficulty": "muito_alta",
+    "statement": "Dois instrumentos respondem a agentes A e B segundo R1=2CA+CB e R2=CA+3CB, nas unidades compatíveis do modelo. Medem-se R1=14 e R2=17. A faixa de projeto do exercício exige CA+CB≤10. Qual solução e avaliação satisfazem as duas medições?",
+    "options": [
+      "CA=2, CB=10; a soma 12 não atende e satisfaz ambas as medições.",
+      "CA=7, CB=0; a soma 7 atende e satisfaz ambas as medições.",
+      "CA=5, CB=4; a soma 9 atende ao critério.",
+      "CA=6, CB=2; a soma 8 atende e satisfaz ambas as medições.",
+      "CA=4, CB=5; a soma 9 atende e satisfaz ambas as medições."
+    ],
+    "answer": 2,
+    "explanation": "Da primeira CB=14−2CA; na segunda, CA+42−6CA=17, logo CA=5 e CB=4. Ambas as respostas conferem; soma9≤10. Critério e equações são do exercício, não limites legais.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0274",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "calibracao_logaritmica",
+    "difficulty": "muito_alta",
+    "statement": "Um sensor segue Y=a+b·log10(C/Cref), com Cref=1 mg/m³. Os padrões C=1 e C=100 mg/m³ produzem Y=2 e Y=6. Para uma amostra, Y=5. Qual concentração aproximada resulta do modelo, usando 10^1,5=31,62?",
+    "options": [
+      "1.000 mg/m³.",
+      "1,50 mg/m³.",
+      "31,62 mg/m³.",
+      "2,50 mg/m³.",
+      "75,25 mg/m³."
+    ],
+    "answer": 2,
+    "explanation": "C1 dá a=2; C100 tem log2 e fornece b=2. Então log(C/Cref)=(5−2)/2=1,5 e C=31,62. Interpolar linearmente a concentração daria75,25, mas a relação é logarítmica.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0275",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "alias_temporal_em_amostragem",
+    "difficulty": "muito_alta",
+    "statement": "Uma fonte emite na fase de 10 até antes de 20 segundos de cada ciclo de 60 s. Dois planos fazem 60 observações instantâneas: A em t=60k; B em t=17k, para k=0,...,59. O processo é estritamente periódico e a fase é t módulo 60. Qual contagem de observações dentro da emissão é correta?",
+    "options": [
+      "A: 10; B: 0, porque intervalos menores sempre evitam a emissão.",
+      "A: 60; B: 10, porque início de ciclo é o início da emissão.",
+      "A: 20; B: 20, pois a contagem depende apenas do número total de observações.",
+      "A: 0; B: 60, porque toda observação mais frequente cai na emissão.",
+      "A: 0; B: 10, porque o segundo plano percorre todas as fases inteiras do ciclo."
+    ],
+    "answer": 4,
+    "explanation": "A amostra sempre fase0, fora de[10,20). Como17 e60 são coprimos, 17k mod60 percorre as60 fases uma vez: dez fases10,...,19 caem na emissão. O modelo ilustra sincronização amostral, não um método normativo universal.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

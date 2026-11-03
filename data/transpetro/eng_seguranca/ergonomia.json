@@ -248,5 +248,26 @@
     "explanation": "Inicial40×0,5/0,04=500 N; depois40×0,3/0,04=300 N. Redução200/500=40%. O modelo limita-se ao momento externo e não conclui aceitabilidade da tarefa.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0298",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "capacidade_de_codigo_sem_cor",
+    "difficulty": "muito_alta",
+    "statement": "Um painel deve distinguir 3 prioridades em cada um de 2 equipamentos: 6 condições. As duas posições da tela são fixas e identificam o equipamento. A cor pode estar indisponível; há só 2 formas estáticas disponíveis. Sem usar texto ou tempo, qual alteração mínima no número de formas permite um código distinto para todas as condições, mantendo as posições?",
+    "options": [
+      "Usar 3 formas em uma só posição, retirando a identidade do equipamento.",
+      "Manter 2 formas e 2 posições, pois 4 códigos cobrem 6 condições distintas.",
+      "Usar 6 cores e uma forma, mesmo na condição sem cor.",
+      "Passar a 3 formas, uma por prioridade, combinadas às 2 posições.",
+      "Manter 2 formas e aumentar as posições para 3, contrariando a restrição dada."
+    ],
+    "answer": 3,
+    "explanation": "Com duas posições fixas, duas formas dão4 códigos, insuficientes. Três formas×duas posições dão6, com forma para prioridade e posição para equipamento. A solução é do modelo informacional, não avaliação completa da interface.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

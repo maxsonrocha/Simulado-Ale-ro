@@ -700,5 +700,299 @@
     "explanation": "A-C e B-D não pertencem aos pares proibidos e cada tarefa ocorre uma vez. Os outros planos incluem par proibido ou repetem/omitem tarefa. As restrições são dados do exercício, não regra legal universal.",
     "etapa": 1,
     "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0241",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "corrosao_galvanica_e_circuito",
+    "difficulty": "media",
+    "statement": "Dois metais diferentes estão em contato elétrico e molhados por um eletrólito. O estudo identifica uma pilha galvânica. Qual modificação enfrenta diretamente uma condição necessária desse mecanismo?",
+    "options": [
+      "Trocar a identificação visual dos metais mantendo contato e eletrólito.",
+      "Aumentar apenas a espessura de tinta numa face que permanece fora do caminho eletrolítico.",
+      "Manter o circuito e usar o brilho superficial como prova de ausência de corrente.",
+      "Medir apenas a massa total e concluir que o contato é irrelevante.",
+      "Interromper adequadamente o contato elétrico entre os metais no conjunto considerado."
+    ],
+    "answer": 4,
+    "explanation": "O mecanismo descrito exige circuito elétrico e iônico. Interromper o contato elétrico adequadamente atua numa dessas condições; a solução deve ser avaliada no conjunto real.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0242",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "instabilidade_e_resistencia",
+    "difficulty": "media",
+    "statement": "Uma haste esbelta suporta compressão. A análise verifica apenas se a tensão média é menor que a resistência do material e não examina flambagem. Qual limitação permanece?",
+    "options": [
+      "A tensão média define sozinha todas as condições de estabilidade.",
+      "A carga-limite sempre pode ser obtida apenas multiplicando área pela resistência, sem avaliar instabilidade.",
+      "Aumentar a tensão admissível substitui a verificação dos vínculos e do comprimento efetivo.",
+      "Instabilidade pode limitar a carga antes de atingir a resistência média usada na verificação.",
+      "Qualquer material resistente elimina automaticamente a influência da esbeltez."
+    ],
+    "answer": 3,
+    "explanation": "Resistência e estabilidade são verificações distintas. Geometria, vínculo e esbeltez podem limitar a compressão mesmo sem atingir o valor médio adotado.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0243",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "condensacao_e_vacuo",
+    "difficulty": "alta",
+    "statement": "Um tanque fechado foi preenchido com vapor e depois resfriou, com condensação intensa. Sua resistência foi avaliada apenas para pressão interna positiva. Qual condição merece verificação adicional?",
+    "options": [
+      "Equivalência entre resistência à pressão interna e resistência ao vácuo em qualquer tanque.",
+      "Pressão interna abaixo da externa e possível instabilidade da parede por compressão externa.",
+      "Ausência de solicitação porque a massa condensada continua dentro do tanque.",
+      "Somente a massa do líquido, sem relação entre pressão interna e externa.",
+      "Somente aumento de pressão interna, pois condensar sempre amplia o volume gasoso."
+    ],
+    "answer": 1,
+    "explanation": "Condensação pode reduzir a pressão interna. A diferença externa pode produzir instabilidade, que não é demonstrada pela análise apenas de pressão interna positiva.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0244",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "reflexao_especular_em_laser",
+    "difficulty": "alta",
+    "statement": "Uma proteção intercepta o feixe direto de um laser, mas uma nova peça polida introduz reflexão especular para fora da zona protegida. Qual revisão responde ao caminho novo?",
+    "options": [
+      "Usar somente a aparência escura de uma barreira como comprovação de desempenho óptico.",
+      "Retirar a peça da documentação, mantendo-a no processo para preservar o estudo anterior.",
+      "Avaliar trajetórias refletidas e adequar barreiras à radiação e à geometria reais.",
+      "Considerar a interceptação do feixe direto como prova de contenção de todo reflexo.",
+      "Manter a análise anterior porque a potência nominal do emissor não mudou."
+    ],
+    "answer": 2,
+    "explanation": "O caminho de exposição mudou mesmo com a mesma potência. É preciso examinar reflexão e desempenho óptico das barreiras, sem inventar limites normativos.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0245",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "baixa_temperatura_e_tenacidade",
+    "difficulty": "alta",
+    "statement": "Um suporte metálico considerado dúctil à temperatura ambiente pode receber respingo criogênico. Os dados do material indicam forte queda de tenacidade nessa faixa fria. Qual conclusão de projeto precisa ser revista?",
+    "options": [
+      "A queda de tenacidade só altera a aparência e não a tolerância a trincas.",
+      "A resistência mecânica nominal torna desnecessário avaliar fratura no regime frio.",
+      "A temperatura do fluido não pode influir no suporte porque ele não transporta o produto.",
+      "Ductilidade a uma temperatura garante a mesma tenacidade em toda temperatura.",
+      "A adequação a frio não é demonstrada pela ductilidade observada à temperatura ambiente."
+    ],
+    "answer": 4,
+    "explanation": "Propriedades dependem da temperatura. O novo contato pode criar condição de fratura que a caracterização ambiente não cobre.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0246",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "carga_eletrostatica_em_fluido",
+    "difficulty": "alta",
+    "statement": "Na transferência de líquido de baixa condutividade, os extremos metálicos de uma mangueira estão equipotencializados. A análise ainda identifica geração e retenção de carga no fluido e na parede isolante. Qual limite da medida já adotada deve ser reconhecido?",
+    "options": [
+      "Carga no fluido pode ser ignorada se o líquido estiver em movimento.",
+      "A ligação dos extremos transforma toda parede isolante em condutor metálico.",
+      "A identificação do risco torna a equipotencialização desnecessária em qualquer transferência.",
+      "Equalizar partes metálicas não demonstra dissipação de toda carga no líquido e nas superfícies isolantes.",
+      "Ausência de diferença entre os extremos prova que nenhuma carga foi gerada no interior."
+    ],
+    "answer": 3,
+    "explanation": "A medida atua nas partes conectadas, mas não prova condução e relaxação de carga nos meios de baixa condutividade. Devem ser avaliados os demais mecanismos.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0247",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "retorno_de_energia_e_repartida",
+    "difficulty": "alta",
+    "statement": "Uma máquina para quando falta energia. Ao retornar a alimentação, a lógica mantém o comando anterior e inicia movimento sem nova ação do operador. A análise pretende evitar repartida inesperada. Qual alteração deve ser examinada?",
+    "options": [
+      "Tratar alimentação restabelecida como prova de que todas as pessoas saíram da zona perigosa.",
+      "Aumentar a velocidade de retorno para reduzir o tempo até a repartida automática.",
+      "Usar a parada durante a falta como comprovação de segurança após o retorno.",
+      "Exigir uma condição de reinício deliberada apropriada, em vez de reproduzir automaticamente o comando retido.",
+      "Melhorar apenas a iluminação da tecla mantendo a memória que inicia o movimento."
+    ],
+    "answer": 3,
+    "explanation": "Parar na perda de alimentação e controlar o reinício são funções diferentes. O retorno de energia não é evidência de uma decisão de iniciar nem de área desocupada.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0248",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "compatibilidade_quimica_de_vedacao",
+    "difficulty": "alta",
+    "statement": "Um elastômero veda corretamente um fluido, mas o novo produto provoca inchamento e perda de propriedades segundo ensaios verificados. A pressão nominal será mantida. Qual avaliação é necessária antes da mudança?",
+    "options": [
+      "Compatibilidade química e manutenção da função de vedação sob o novo produto, não só pressão nominal.",
+      "Só o diâmetro inicial, supondo que o inchamento melhora necessariamente toda vedação.",
+      "Manter o material e substituir o nome do produto no cadastro para preservar a homologação anterior.",
+      "Apenas pressão nominal, pois igualdade de pressão garante igualdade de interação com o material.",
+      "Aprovar pela ausência de vazamento com o produto anterior, sem considerar os ensaios novos."
+    ],
+    "answer": 0,
+    "explanation": "A condição química mudou e os ensaios indicam degradação. Pressão igual não garante função material equivalente.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0249",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "gas_ideal_pressao_absoluta",
+    "difficulty": "muito_alta",
+    "statement": "Um gás ideal fechado ocupa 1,0 m³ a 27 °C e pressão manométrica de 200 kPa. A pressão ambiente é 100 kPa. Depois ocupa 1,2 m³ a 127 °C. Use T(K)=T(°C)+273 e Pabs·V/T constante. Qual é aproximadamente a nova pressão manométrica?",
+    "options": [
+      "300,00 kPa.",
+      "122,22 kPa.",
+      "333,33 kPa.",
+      "1.075,93 kPa.",
+      "233,33 kPa."
+    ],
+    "answer": 4,
+    "explanation": "Inicial Pabs=300 kPa e T=300 K; final T=400 K. Pabs final=300×400/(300×1,2)=333,33; manométrica=233,33 kPa. O modelo exige temperaturas e pressões absolutas.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0250",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "cavitacao_e_npsh",
+    "difficulty": "muito_alta",
+    "statement": "Para triagem de uma bomba, use NPSHa=(ps−pv)/(ρg)+z−hf. Dados: ps=110 kPa absolutos, ρ=1.000 kg/m³, g=10 m/s², z=2 m e hf=3 m. O requisito de projeto dado é NPSHa≥6 m. Compare pv=30 kPa com pv=50 kPa, mantendo os demais dados. Qual avaliação resulta?",
+    "options": [
+      "8 m e 6 m atendem, omitindo o efeito líquido de z e hf.",
+      "70 m e 50 m: a conversão de pressão não afeta as unidades.",
+      "7 m atende; 5 m não atende, após o aumento da pressão de vapor.",
+      "5 m e 7 m: o aquecimento aumenta a margem.",
+      "7 m e 9 m atendem, pois maior pressão de vapor aumenta a disponibilidade."
+    ],
+    "answer": 2,
+    "explanation": "Primeiro(110−30)×1.000/10.000+2−3=7 m; depois(110−50)×1.000/10.000+2−3=5 m. Maior pv reduz a margem neste modelo. Não é critério universal de instalação.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0251",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "ressonancia_e_mudanca_conjunta",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo tem frequência natural fn=(1/(2π))√(k/m), com k=40.000 N/m e m=100 kg. A excitação é 3,2 Hz. Uma mudança quadruplica m e reduz a excitação à metade. Adote 2π=6,28 e considere proximidade relativa entre frequências. Qual conclusão é correta?",
+    "options": [
+      "fn permanece 3,18 Hz, pois massa não entra na frequência natural.",
+      "fn cai à metade; isso basta para afastar a proximidade mesmo quando a excitação também cai à metade.",
+      "fn passa de cerca de 3,18 para 1,59 Hz; a mudança mantém aproximadamente a mesma proximidade relativa da excitação.",
+      "fn dobra e a excitação cai à metade, necessariamente eliminando toda resposta dinâmica.",
+      "fn passa a 0,80 Hz e a excitação permanece em 3,2 Hz."
+    ],
+    "answer": 2,
+    "explanation": "fn inicial=20/6,28≈3,18; com massa4m, fn cai à metade≈1,59 e excitação a1,6. Ambas escalam igualmente; a mudança não afasta a proximidade relativa por si só.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0252",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "localizacao_acustica_por_diferenca",
+    "difficulty": "muito_alta",
+    "statement": "Dois sensores A e B ficam nas extremidades de uma linha retilínea de 1.000 m. Um pulso originado entre eles propaga-se a 1.000 m/s nos dois sentidos, sem diferenças de atraso instrumental. A detecta o pulso 0,30 s antes de B. A que distância de A ocorreu a origem?",
+    "options": [
+      "300 m.",
+      "350 m.",
+      "650 m.",
+      "150 m.",
+      "700 m."
+    ],
+    "answer": 1,
+    "explanation": "Se a distância a A é x, a B é1.000−x. A diferença de tempos é(1.000−2x)/1.000=0,30; logo2x=700 e x=350 m. A origem está mais perto de A.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0253",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "tensoes_em_parede_fina",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo de cilindro de parede fina fornece σcirc=pD/(2t) e σlong=pD/(4t). Dados: p=2 MPa, D=1 m, t=0,010 m. Os limites internos do exercício são 90 MPa e 60 MPa, respectivamente. Espessuras disponíveis são 10, 11, 12, 14 e 15 mm. Sem outros efeitos, quais tensões atuais e menor espessura disponível atendem aos dois critérios?",
+    "options": [
+      "100 MPa e 50 MPa; 12 mm.",
+      "100 MPa e 50 MPa; 11 mm.",
+      "50 MPa e 25 MPa; 10 mm.",
+      "200 MPa e 100 MPa; 15 mm.",
+      "100 MPa e 100 MPa; 14 mm."
+    ],
+    "answer": 0,
+    "explanation": "As tensões atuais são100 e50. Circunferencial exige t≥2/(2×90)=0,011111... m; longitudinal exige t≥2/(4×60)=0,008333... m. A primeira governa e a menor disponível é12 mm. Não é enquadramento ou dimensionamento normativo completo.",
+    "etapa": 1,
+    "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0254",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "dano_acumulado_de_fadiga",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo simplificado usa D=Σni/Ni e adota D=1 como limite interno. Houve 20.000 ciclos de um nível com N=100.000 e 30.000 de outro com N=60.000. O próximo nível tem N=20.000. Quantos ciclos adicionais desse terceiro nível levam exatamente ao limite do modelo?",
+    "options": [
+      "10.000 ciclos.",
+      "6.000 ciclos.",
+      "14.000 ciclos.",
+      "20.000 ciclos.",
+      "30.000 ciclos."
+    ],
+    "answer": 1,
+    "explanation": "D já consumido=0,2+0,5=0,7. Resta0,3; n=0,3×20.000=6.000. São hipóteses fornecidas do modelo, não garantia de vida real ou limite legal.",
+    "etapa": 1,
+    "lote": 5
   }
 ]
