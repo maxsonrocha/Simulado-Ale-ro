@@ -1,0 +1,356 @@
+{
+  "checked": 30,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0001",
+      "recalculated": [
+        100
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0003",
+      "recalculated": [
+        2000
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0009",
+      "recalculated": [
+        18840.000000000004
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0010",
+      "recalculated": [
+        4800,
+        2400
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0013",
+      "recalculated": [
+        0.24
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0014",
+      "recalculated": [
+        4
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0015",
+      "recalculated": [
+        5
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0016",
+      "recalculated": [
+        73
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0017",
+      "recalculated": [
+        60
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0023",
+      "recalculated": [
+        3,
+        3.33
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0024",
+      "recalculated": [
+        1.5
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0025",
+      "recalculated": [
+        3.98
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0026",
+      "recalculated": [
+        1.5,
+        2
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0027",
+      "recalculated": [
+        90,
+        40,
+        150
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0029",
+      "recalculated": [
+        100,
+        40
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0032",
+      "recalculated": [
+        40
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0033",
+      "recalculated": [
+        0.0494
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0037",
+      "recalculated": [
+        0.004000000000000001,
+        0.016000000000000004
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0038",
+      "recalculated": [
+        0.04000000000000001,
+        0.05800000000000001
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0039",
+      "recalculated": [
+        1.8,
+        1.5
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0040",
+      "recalculated": [
+        0.010396
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0044",
+      "recalculated": [
+        90,
+        80,
+        45,
+        72.00000000000001
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0046",
+      "recalculated": [
+        20,
+        10
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0048",
+      "recalculated": [
+        1.3,
+        2.5
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0052",
+      "recalculated": [
+        9,
+        9
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0058",
+      "recalculated": [
+        20,
+        5,
+        4
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0059",
+      "recalculated": [
+        16
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0060",
+      "recalculated": [
+        20.000000000000007,
+        19.999999999999996,
+        9.999999999999998,
+        40
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0010",
+      "recalculated": [
+        50,
+        60,
+        45
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0028",
+      "recalculated": 0.25,
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0057",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "vigilancia_dados_coletivos",
+    "difficulty": "alta",
+    "statement": "Uma equipe observa aumento de queixas respiratórias numa tarefa, mas ainda não possui avaliação individual que determine diagnóstico ou nexo causal. Qual uso dos dados coletivos é tecnicamente apropriado?",
+    "options": [
+      "Concluir que não há relação com trabalho enquanto não houver igualdade entre todas as queixas individuais.",
+      "Descartar a informação porque dados coletivos nunca podem orientar a investigação de condições de trabalho.",
+      "Inferir a concentração exata do agente apenas pela proporção de pessoas que relatam o sintoma.",
+      "Investigar o padrão e sua relação com condições de trabalho, articulando avaliação de exposição e acompanhamento de saúde sem antecipar diagnósticos individuais.",
+      "Atribuir automaticamente a mesma doença a todos os trabalhadores da tarefa e encerrar a investigação ambiental."
+    ],
+    "answer": 3,
+    "explanation": "Um sinal coletivo pode orientar investigação e integração com exposição, mas não substitui diagnóstico individual ou demonstração causal. Sintomas não fornecem concentração exata; variabilidade não exclui relação, e a informação não deve ser automaticamente descartada.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0058",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "comparacao_prevalencias_composicao",
+    "difficulty": "muito_alta",
+    "statement": "Uma triagem registra sintomas em 20 de 100 trabalhadores de uma tarefa e em 15 de 300 de outra. Os grupos diferem também em idade e tempo de trabalho. Qual leitura combina corretamente o cálculo bruto e a limitação causal?",
+    "options": [
+      "As proporções são 20% e 15%, com razão bruta 1,33; os números de casos dispensam examinar os tamanhos dos grupos.",
+      "A diferença de cinco casos mede diretamente o risco relativo e comprova causalidade mesmo com composições distintas.",
+      "A razão bruta 4 demonstra que idade e tempo de trabalho têm distribuições iguais e não precisam ser examinados.",
+      "As proporções são 20% e 5%, com razão bruta 4; a diferença orienta investigação, mas não demonstra por si um efeito causal da tarefa.",
+      "As proporções são 5% e 20%, com razão bruta 0,25; o grupo maior tem necessariamente maior prevalência."
+    ],
+    "answer": 3,
+    "explanation": "20/100=20%; 15/300=5%; razão=4. São proporções de sintomas, não incidência nem prova causal. Diferentes composições exigem análise; contar casos sem denominador ou transformar a razão em prova de igualdade de confundidores não é válido.",
+    "etapa": 1
+  }
+]

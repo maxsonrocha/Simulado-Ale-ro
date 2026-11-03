@@ -1,0 +1,1306 @@
+{
+  "escopo": "Lote parcial de 100, não as 700 da etapa. Revisão editorial pelo mesmo assistente em rodada própria, sem revisor humano independente. Dificuldade editorial proposta, sem calibração psicométrica.",
+  "metodo": "Resolução por item, exame das cinco alternativas publicadas, justificativa de dificuldade e hash do conteúdo. Cálculos refeitos também em script independente da autoria. Sem afirmações de vigência normativa não verificadas.",
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0045",
+      "sha256": "599bf76c300fc27db4d185c6e1f68605dc32257b4a7a4a4a6270f126eb951f1d",
+      "correctOption": 4,
+      "alternativas": [
+        "Não examinar não prova integridade.",
+        "Não prova decisão deliberada.",
+        "Contagem não substitui a trajetória.",
+        "Localização não torna organização irrelevante.",
+        "Presença é circunstância, não mecanismo causal demonstrado."
+      ],
+      "dificuldade": "Média: distinguir fato observado e conclusão causal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0046",
+      "sha256": "ffb90ca224b09fe3073615c6b3d859831f5bc1667a05df430572a6c757397e18",
+      "correctOption": 2,
+      "alternativas": [
+        "Horas por ocorrência inverte a taxa.",
+        "Contagem omite exposição.",
+        "6/300.000 e 8/800.000 dão 20 e 10 por milhão.",
+        "Fator dez adicional altera a escala.",
+        "Menos de dez não implica taxas iguais."
+      ],
+      "dificuldade": "Alta: combinar numerador, exposição e escala comum."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0047",
+      "sha256": "98e2e14416e23ce4a4849fce5e620bb3a05e46de254264ab8b93c050d5d0c9a9",
+      "correctOption": 1,
+      "alternativas": [
+        "Título não altera mecanismo.",
+        "Trata condições físicas e necessidade organizacional de acesso.",
+        "Turno não é causa exclusiva demonstrada.",
+        "Ausência histórica não valida projeto.",
+        "Descrever acesso não explica sua necessidade."
+      ],
+      "dificuldade": "Alta: integrar condição imediata e organização da tarefa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0048",
+      "sha256": "6e8bc51e016b30ee7d5b618f1420a2dba324ebb7ee4da7eb424bbd783c1bbf77",
+      "correctOption": 2,
+      "alternativas": [
+        "Inverte os resultados e o efeito dos pesos.",
+        "Média simples não vale com pesos desiguais.",
+        "Pesos produzem taxa 1,3 e 2,5 sem alterar taxas setoriais.",
+        "Não houve migração completa entre setores.",
+        "Taxas fixas não fixam os pesos."
+      ],
+      "dificuldade": "Muito alta: calcular agregados ponderados e separar composição de mudança interna."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0059",
+      "sha256": "2bdbc9f4bdadd42b10a14e077c9ea59a4a1b4510e48bba67a40853cf2e2e4eb5",
+      "correctOption": 3,
+      "alternativas": [
+        "Retornabilidade não apaga fabricação.",
+        "Em 15 há empate, não redução estrita.",
+        "Ignora custo operacional.",
+        "12+0,2n<n dá n>15, primeiro inteiro 16.",
+        "Divide por termo isolado incorreto."
+      ],
+      "dificuldade": "Muito alta: integrar fronteiras, equação de equilíbrio e desigualdade estrita."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0060",
+      "sha256": "fcc52e46a0f258fa6b2c8b48dcbb178540c26091573686e53efd83d178576879",
+      "correctOption": 0,
+      "alternativas": [
+        "Intensidades e totais mudam em sentidos e proporções diferentes.",
+        "Não acompanha a intensidade energética nem a hídrica reais.",
+        "Intensidade energética não permanece e água intensiva não sobe.",
+        "Troca medidas totais e intensivas.",
+        "Produção maior não implica totais menores."
+      ],
+      "dificuldade": "Muito alta: calcular quatro variações com denominadores distintos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0049",
+      "sha256": "4aeff3c8797bcbad2ce03dc79193719f6fb581f9017c8845abf7ff8d40011f6c",
+      "correctOption": 1,
+      "alternativas": [
+        "Leitura sem acionamento não verifica contatos.",
+        "Testa e corrige comunicação e prontidão dos recursos.",
+        "Nome do ponto não trata acionamento.",
+        "Excluir o teste oculta a lacuna.",
+        "Documento não comprova mobilização real."
+      ],
+      "dificuldade": "Média: relacionar falha observada e verificação direta."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0050",
+      "sha256": "15ac63ecbe9f6c9969d9b57e7cbef4fdd9daf7eebf8d1e307448937f8f3b1894",
+      "correctOption": 2,
+      "alternativas": [
+        "Número de mensagens não mede prioridade.",
+        "Silêncio impede coordenação.",
+        "A coordenação prevista integra necessidade e prioridades.",
+        "Disputa independente perpetua o conflito.",
+        "Ordem de pedido não compara criticidade."
+      ],
+      "dificuldade": "Alta: aplicar arranjo de comando à competição por recurso."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0051",
+      "sha256": "14dcd218c025bb459cf15a90ab2486dc410892d97d8782e4dc37b2b06aac3160",
+      "correctOption": 1,
+      "alternativas": [
+        "Familiaridade não substitui posição da ameaça.",
+        "Atualiza decisão conforme monitoramento e evolução.",
+        "Distância não supera automaticamente o risco da pluma.",
+        "O plano autoriza mudança.",
+        "Expor grupo não é verificação preventiva apropriada."
+      ],
+      "dificuldade": "Alta: integrar risco dinâmico e regra de atualização do plano."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0052",
+      "sha256": "fc13df41ef28b50c31373cca343457cdd6a1dd02da506696400a552f85339230",
+      "correctOption": 3,
+      "alternativas": [
+        "Soma ramos que correm em paralelo.",
+        "Omite cinco minutos após confirmação.",
+        "Redução em um ramo não reduz o outro.",
+        "max(8,9)=9 e max(5,9)=9.",
+        "Desloca a confirmação para momento não informado."
+      ],
+      "dificuldade": "Muito alta: construir cronograma paralelo e identificar gargalo remanescente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0055",
+      "sha256": "d3fef262737e146c0b3891da58c87848ffea1ffe95e32791f402a7592143b08a",
+      "correctOption": 2,
+      "alternativas": [
+        "Correções também geram exigências.",
+        "Massa média não mede alcance nem carga cognitiva.",
+        "A atividade real inclui variabilidade e regulações.",
+        "Adaptação pode decorrer das condições reais.",
+        "Roteiro não cobre os achados observados."
+      ],
+      "dificuldade": "Alta: relacionar prescrição, variabilidade e exigências observadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0056",
+      "sha256": "3c826c55c3a8f41e693c501165a58a24517c7668c2e2774b89a105dcf2328b5d",
+      "correctOption": 4,
+      "alternativas": [
+        "Intensidade não mede identificação e prioridade.",
+        "Contagem menor não prova melhora global.",
+        "Mais sinais não garante discriminação.",
+        "Transferência à memória exige avaliar erro e tempo.",
+        "Testa interferência e desempenho informacional conjuntamente."
+      ],
+      "dificuldade": "Muito alta: tratar efeitos opostos do redesenho e comparar desempenho multidimensional."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0029",
+      "sha256": "a7f3b94a4a6c49d35c29e3f29c7bfb92ad20c1c2836c63ddd62a6cb76da8312b",
+      "correctOption": 1,
+      "alternativas": [
+        "B=400 mil omite a frequência.",
+        "A=100 mil/ano e B=40 mil/ano.",
+        "Perdas por evento não são perdas anuais esperadas.",
+        "A=10 mil erra escala da frequência.",
+        "Divisão pela frequência produz outro indicador."
+      ],
+      "dificuldade": "Média: aplicar diretamente o indicador definido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0030",
+      "sha256": "aca7e8b9ebc27497019d42cd8937bd2779c89965171f20f660033288de8c43c7",
+      "correctOption": 4,
+      "alternativas": [
+        "Nome de etapa não determina frequência exata.",
+        "Um cenário grave não encerra os demais.",
+        "Dados externos sem comparabilidade não substituem a identificação.",
+        "Incerteza não prova ausência de risco.",
+        "Análise preliminar registra perigos e lacunas sem inventar probabilidades."
+      ],
+      "dificuldade": "Média: reconhecer objetivo e escopo de uma análise preliminar."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0031",
+      "sha256": "9bf8949dd0bacd5319b97eeebee32aa60af6dc0ddfb1f3537535b1c4cc7e50e2",
+      "correctOption": 3,
+      "alternativas": [
+        "Contaminação é efeito, não desvio de fluxo.",
+        "Troca causa e consequência com desvio.",
+        "Descreve a intenção normal, não desvio.",
+        "Desvio, mecanismo e consequência estão em categorias corretas.",
+        "Efeito administrativo não descreve o cenário físico."
+      ],
+      "dificuldade": "Alta: distinguir intenção, desvio e cadeia causal em HAZOP."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0032",
+      "sha256": "1b5b72f3267c15c814fffc3800bf3de8081009d9b9c4bf8ce26f597ac1883b04",
+      "correctOption": 4,
+      "alternativas": [
+        "Produto igual não equivale dimensões.",
+        "A condição aplica-se a S, não ao produto.",
+        "B não tem produto maior.",
+        "A não tem produto maior.",
+        "Ambos NPR=40; só A atende S≥9."
+      ],
+      "dificuldade": "Alta: combinar produto ordinal do procedimento e regra de severidade separada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0033",
+      "sha256": "02308fccf6e50103267e31e695ab03e046f6e6f1ad665fb7e10718313082dad9",
+      "correctOption": 3,
+      "alternativas": [
+        "Produto é a interseção.",
+        "0,9506 é o complemento da união.",
+        "Soma simples omite a interseção.",
+        "União=0,02+0,03−0,0006=0,0494.",
+        "Diferença não calcula a união."
+      ],
+      "dificuldade": "Alta: aplicar porta OU e tratar dupla contagem sob independência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0034",
+      "sha256": "3e848f7e1b81e0557f173baa64bbbcbae837747fa772b05fc9c0f7b5a120b154",
+      "correctOption": 0,
+      "alternativas": [
+        "Uma medida é individual no ponto e outra coletiva por cenário.",
+        "Uso de frequência não define sozinho o tipo.",
+        "Número de pessoas não elimina frequência.",
+        "As métricas apresentadas dependem de pessoas expostas.",
+        "Não são as medidas descritas."
+      ],
+      "dificuldade": "Alta: diferenciar métricas pela população e estrutura do resultado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0035",
+      "sha256": "161611c71acc2e549646d7684e96e286f7319f63bb452d74a0abf84106f2c6b8",
+      "correctOption": 4,
+      "alternativas": [
+        "Média não vira certeza.",
+        "C não precisa variar quando f varia.",
+        "Incerteza não justifica valor zero.",
+        "Escolher extremo não elimina a incerteza.",
+        "Faixa de f dá R de 1 a 3 e afeta decisão."
+      ],
+      "dificuldade": "Alta: interpretar sensibilidade como informação decisória."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0036",
+      "sha256": "1bb6685cf847bd224275b49f905ef5fece64a3d2913f6deb3e71610fda5c350f",
+      "correctOption": 1,
+      "alternativas": [
+        "Classificação não exige frequência de fatalidade.",
+        "Um controle antecede e outro sucede o evento central.",
+        "Espalhamento sucede a perda.",
+        "Conhecer consequências não torna toda barreira mitigadora.",
+        "Limitar espalhamento não evita necessariamente perfuração."
+      ],
+      "dificuldade": "Alta: posicionar funções relativas ao evento central definido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0037",
+      "sha256": "8331584e0c1ed66fb4a704aaafb8098eb512c908b7f71a71b374a185e5c026e4",
+      "correctOption": 2,
+      "alternativas": [
+        "Atribui os ramos de A a B sem sua demanda.",
+        "Omite probabilidade de falha de A.",
+        "Dano=0,004; contenção B=0,016.",
+        "Troca os ramos de sucesso e falha de B.",
+        "Usa sucesso de A em ramos que exigem sua falha."
+      ],
+      "dificuldade": "Muito alta: árvore condicional e frequências de dois ramos exclusivos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0038",
+      "sha256": "7805f6914e91cf36246a2e876fd7d52e9018f364d928eb1164bf024df2d419cb",
+      "correctOption": 2,
+      "alternativas": [
+        "Troca conjunta e marginal.",
+        "Ignora condicional B dado A.",
+        "Conjunta=0,040; marginal=0,058; produto indevido=0,0058.",
+        "Soma condicionais sem pesos.",
+        "Produto marginal não vale sob essa dependência."
+      ],
+      "dificuldade": "Muito alta: aplicar probabilidade total e comparar modelo dependente com independente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0039",
+      "sha256": "cb7a7ae6220269423537e8ef52ec7a260aff2d685614661e20a53027fea2c267",
+      "correctOption": 4,
+      "alternativas": [
+        "Não usa as reduções informadas.",
+        "As duas razões não são iguais.",
+        "2,0 usa risco inicial, não a redução de A.",
+        "30 e 18 são benefícios sem dividir pelo custo.",
+        "Razões: B=18/10=1,8; A=30/20=1,5."
+      ],
+      "dificuldade": "Muito alta: calcular reduções por mecanismos distintos e normalizar pelo custo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0040",
+      "sha256": "d0574f6ae753adece3b0f4849865e32d1f47210ec4b6761af18aff925c6f6b85",
+      "correctOption": 0,
+      "alternativas": [
+        "0,01+0,99×0,0004=0,010396.",
+        "0,0004 ignora causa comum.",
+        "0,0104 não pondera o ramo residual por 0,99.",
+        "0,0396 é união independente, não dupla falha.",
+        "0,01 ignora falha residual sem causa comum."
+      ],
+      "dificuldade": "Muito alta: particionar cenários exclusivos e integrar dependência comum."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0041",
+      "sha256": "41d2280f9c1f28ce0ebf37f68c4d229d361e1ce45558804c8e0f64123bd4b72f",
+      "correctOption": 3,
+      "alternativas": [
+        "Declaração não materializa todos os registros.",
+        "Ausência de registro não prova inoperância.",
+        "Não se deve fabricar registro contemporâneo retroativamente.",
+        "Falta evidência de registro, sem prova automática de não execução.",
+        "Conhecimento da finalidade não revoga o requisito."
+      ],
+      "dificuldade": "Média: limitar conclusão à evidência e ao requisito fornecido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0042",
+      "sha256": "be62ffc93450e2f999e4ff9c5297008fe616fdbaf9a4130767eaf7d1bf268b31",
+      "correctOption": 4,
+      "alternativas": [
+        "Cumprir ações não demonstra risco zero.",
+        "Verificar controle não é apenas contar consequência.",
+        "Indicadores não medem a mesma variável.",
+        "Lesão não é atividade preventiva planejada.",
+        "Resultado ocorrido e verificação de controle são medidas distintas."
+      ],
+      "dificuldade": "Alta: distinguir função e limitação de dois tipos de indicador."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0043",
+      "sha256": "409ab3b3acfcdcb78ce4903bbfa254bad77fc00646328ed198a0743eb83df29d",
+      "correctOption": 1,
+      "alternativas": [
+        "Ciência não prova comportamento do fluxo.",
+        "Ensaia omissão e verifica mecanismo no uso.",
+        "Cor não testa o bloqueio.",
+        "Ausência de reclamação visual não verifica o dado crítico.",
+        "Pagamento não demonstra eficácia."
+      ],
+      "dificuldade": "Alta: vincular a evidência de eficácia à causa identificada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0044",
+      "sha256": "aad91a1674f0f7b172d47cac3f39677d5671acfb93225124d8bf974b8cbfc401",
+      "correctOption": 1,
+      "alternativas": [
+        "Contagens menores não provam piora independentemente das demais dimensões.",
+        "Encerramento 90→80%; eficazes no total 45→72%.",
+        "Os denominadores dos dois indicadores são distintos.",
+        "Inverte as taxas e usa base incorreta para 90%.",
+        "50/90 têm base nos encerramentos, não no total."
+      ],
+      "dificuldade": "Muito alta: recalcular taxas condicionais e comparar duas bases populacionais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0013",
+      "sha256": "104fa7e1b26ce762de1ceee7899a44c67b6a548a4252147cf88c632056923387",
+      "correctOption": 2,
+      "alternativas": [
+        "Erro de fator dez na conversão.",
+        "Erro de fator dez na conversão.",
+        "2×120=240 L=0,240 m³.",
+        "Erro de fator cem na conversão.",
+        "Confunde o total em litros com metros cúbicos."
+      ],
+      "dificuldade": "Média: volume por vazão e conversão fornecida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0014",
+      "sha256": "5c221564baa62d62a103d90efa96db817d4dc4b8e40ba8779cffe41bafea717c",
+      "correctOption": 0,
+      "alternativas": [
+        "Massa líquida 2,0 mg dividida por 0,50 m³ dá 4,0.",
+        "0,8 usa somente a massa do branco.",
+        "2,0 é massa sem divisão por volume.",
+        "5,6 soma o branco indevidamente.",
+        "4,8 ignora correção de branco."
+      ],
+      "dificuldade": "Média: correção e concentração de procedimento explícito."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0015",
+      "sha256": "11a85a98c713495086d934215aacbd3c32ed2fd3a3d4a202171472b5a96174fa",
+      "correctOption": 1,
+      "alternativas": [
+        "6 aplica o maior valor a toda jornada.",
+        "(2×2+6×6)/8=5.",
+        "8 soma concentrações.",
+        "4 usa média simples das concentrações.",
+        "3 não satisfaz a ponderação dada."
+      ],
+      "dificuldade": "Média: ponderar pelos tempos já informados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0016",
+      "sha256": "9821d9c9c8307653a460ddcc898bb440fcb6cc5e0bc870ce39e890445e67dab9",
+      "correctOption": 1,
+      "alternativas": [
+        "140 soma decibéis diretamente.",
+        "70+10log10(2)=73,01, aproximadamente 73.",
+        "100 não resulta do modelo fornecido.",
+        "76 corresponderia a quatro energias iguais.",
+        "70 omite a segunda fonte."
+      ],
+      "dificuldade": "Alta: distinguir escala logarítmica e soma física de energias."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0017",
+      "sha256": "87ad04c7bd5ca5b5697f876779a48a4d90db98b0bdfea9b7c2affc8ae2ca0721",
+      "correctOption": 3,
+      "alternativas": [
+        "45 daria aproximadamente 0,667 mg/m³.",
+        "15 multiplica grandezas em vez de dividir.",
+        "120 daria 0,25 mg/m³.",
+        "Q=30/0,50=60 m³/min.",
+        "30 daria 1,0 mg/m³."
+      ],
+      "dificuldade": "Alta: rearranjar balanço e interpretar hipótese de mistura."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0018",
+      "sha256": "fcc37e58c4a0b3211d5cffcd539eea5c12c0c525c5314336d085a965abf799cc",
+      "correctOption": 2,
+      "alternativas": [
+        "Massa total não identifica distribuição de tamanhos.",
+        "Duração igual não elimina diferença de seleção.",
+        "Sem equivalência granulométrica, não se compara a mesma fração.",
+        "Seletor distinto pode mudar a massa comparável.",
+        "Unidade igual não implica coleta equivalente."
+      ],
+      "dificuldade": "Alta: cruzar mensurando, seletor e comparabilidade analítica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0019",
+      "sha256": "5513b152f58f0d03c72744a361f886b3ceda1b68430682f5484074ee2d0158d0",
+      "correctOption": 0,
+      "alternativas": [
+        "Média não determina perfil nem máximos.",
+        "Médias iguais não implicam máximos iguais.",
+        "A média não torna irrelevante a duração dos picos.",
+        "Sem agente e critério não se conclui infração legal.",
+        "O primeiro operador não exclui mecanismo do segundo."
+      ],
+      "dificuldade": "Alta: distinguir média, perfil temporal e interpretação de exposição."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0020",
+      "sha256": "3e017cbb6f90c6ef8de4a2e3199926bee2dce7a24238fd72dece3a5253609222",
+      "correctOption": 0,
+      "alternativas": [
+        "É preciso avaliar diferença com incerteza e desenho adequados.",
+        "Sobreposição não prova igualdade exata.",
+        "Incerteza maior não demonstra aplicação incorreta.",
+        "Centros diferentes não provam diferença real.",
+        "Convenção igual não elimina incerteza."
+      ],
+      "dificuldade": "Alta: interpretar estimativa e incerteza sem inferências simétricas indevidas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0021",
+      "sha256": "d9dc45f7e848ef5d9692a836d530d325391faf3d7f195b86851358f23ed641a8",
+      "correctOption": 1,
+      "alternativas": [
+        "Odor ausente não prova proteção de filtro.",
+        "Agente, cenário, capacidade e adequação fundamentam seleção.",
+        "Conforto não estabelece capacidade química.",
+        "Rigidez não substitui caracterização e ajuste.",
+        "Aparência não transfere adequação de outra tarefa."
+      ],
+      "dificuldade": "Alta: integrar dados de exposição e limitações de equipamento e usuário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0022",
+      "sha256": "6c40b1049d1efceb05e63c7262662e3c4c52ee1aae6c65d6abfc033ce00e0ce7",
+      "correctOption": 4,
+      "alternativas": [
+        "Mais amostras do mesmo perfil não cobrem os excluídos.",
+        "Escolher mínimo não resolve a lacuna de cobertura.",
+        "Tarefa não precisa durar todo turno para importar.",
+        "Menor duração não garante concentração menor.",
+        "As três tarefas podem ter perfis próprios que precisam de representação."
+      ],
+      "dificuldade": "Alta: relacionar objetivo de campanha, heterogeneidade e seleção de amostras."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0023",
+      "sha256": "9255d3ab869a528d2a2cfc05d38610fd2c938c3e2c73fcedc4937c9f4180f0c5",
+      "correctOption": 2,
+      "alternativas": [
+        "6,00 e invariância não seguem do cálculo.",
+        "2,73 usa o volume da vazão final.",
+        "V=0,300; massa=0,90; C=3,00; inicial isolada dá 3,33.",
+        "3,20 ignora o branco e o sentido descrito não corresponde.",
+        "0,30 e 0,27 usam escala e sentido incorretos."
+      ],
+      "dificuldade": "Muito alta: corrigir branco, integrar vazões e analisar o viés de denominador."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0024",
+      "sha256": "1a5256c9c805162e382f8531347b31078282d5bed44501fb11c9a67753bdc3e1",
+      "correctOption": 4,
+      "alternativas": [
+        "2,00 é média inicial sem ponderação.",
+        "1,80 ignora a entrada final limpa.",
+        "1,00 não conserva massa com os fluxos dados.",
+        "2,50 não segue dos fluxos e concentrações.",
+        "Massas por minuto somam 90 e vazão final 60, dando 1,50."
+      ],
+      "dificuldade": "Muito alta: dois balanços sucessivos de massa e diluição."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0025",
+      "sha256": "3a5ae7baf77578422cc601468fd10cbefddbf4d2ffb816e8d10d35e515c07c43",
+      "correctOption": 0,
+      "alternativas": [
+        "Energia final 0,8/4+0,2=0,4; queda 3,98 dB.",
+        "3,01 dB usaria metade da energia.",
+        "1 dB não corresponde à razão energética.",
+        "7,96 aplica fator logarítmico incorreto.",
+        "6,02 aplica redução de A a toda energia."
+      ],
+      "dificuldade": "Muito alta: decompor fontes, aplicar controle parcial e converter em decibéis."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0026",
+      "sha256": "845ad3de35ff468e32e01bbc9e60932f90f758406939068e05852e1ed73b6606",
+      "correctOption": 0,
+      "alternativas": [
+        "Massa numérica somada em [6,8), média em [1,5;2).",
+        "Menor que um não significa zero.",
+        "Excluir dois resultados muda o conjunto estudado.",
+        "Limite de quantificação não é valor verdadeiro.",
+        "Descarta medições conhecidas sem fundamento."
+      ],
+      "dificuldade": "Muito alta: propagar intervalo aberto e reconhecer hipótese de imputação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0027",
+      "sha256": "87f45c834ab7e0506d5f6b2450170bb0fa946f01dcc0e6b5c0ef2968726c18f7",
+      "correctOption": 1,
+      "alternativas": [
+        "60% é parcela remanescente, não redução.",
+        "S inicial=150; final=90; queda 60/150=40%.",
+        "110 ignora mudança na radiação.",
+        "130 ignora mudança na evaporação.",
+        "210 inverte o sinal do efeito dos controles."
+      ],
+      "dificuldade": "Muito alta: balanço assinado, dois controles e base percentual inicial."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0028",
+      "sha256": "5942aa5d7cf17c3785d8730e60f809e3d03cdf3870d8abc83e6a167f3827ac01",
+      "correctOption": 0,
+      "alternativas": [
+        "Razão de doses=(1/9)×(9/4)=1/4.",
+        "Três quartos usa relação linear de distância.",
+        "Um nono ignora o tempo aumentado.",
+        "Nove quartos ignora a distância.",
+        "Igualdade não satisfaz os dois fatores."
+      ],
+      "dificuldade": "Muito alta: combinar geometria inversa quadrática e duração."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0053",
+      "sha256": "a2fbb667700fa469dfa31f06670c297123276a4f76078e494581762246871abd",
+      "correctOption": 4,
+      "alternativas": [
+        "Abafamento atua no oxidante.",
+        "Isolamento atua no combustível.",
+        "Interrupção de alimentação atua no combustível.",
+        "Diluição atua no oxidante.",
+        "A retirada de calor define resfriamento no modelo."
+      ],
+      "dificuldade": "Média: reconhecer o mecanismo físico explicitamente descrito."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0054",
+      "sha256": "6bda8db98fd81cdb79db604db0c389923b7b5cf969d090f755a789e31b84d61a",
+      "correctOption": 3,
+      "alternativas": [
+        "Alarme não identifica compatibilidade.",
+        "Tamanho não substitui avaliação da reação.",
+        "Capacidade térmica não anula reação.",
+        "A reação com água exige conferir compatibilidade e aplicação.",
+        "Cor não determina comportamento químico."
+      ],
+      "dificuldade": "Alta: integrar reação do produto e seleção de estratégia sem prescrição indevida."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0001",
+      "sha256": "63717680ebbe007aa4df7098f165aef5dfce3b3347bea9078bd9a76bc59db080",
+      "correctOption": 1,
+      "alternativas": [
+        "Conversão não prova simultaneidade de registro.",
+        "A referência comum permite comparar cronologia de registros.",
+        "Rótulos não mudam a execução do trabalho.",
+        "Não se disse que os registros causaram atraso físico.",
+        "Alterar referência não antecipa chegada física."
+      ],
+      "dificuldade": "Média: identificar a finalidade expressa da normalização temporal."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0002",
+      "sha256": "61e6535ba0f1e3761a5f6d6d32c4f2fcce4de92cb5486b728457d06fabff4729",
+      "correctOption": 2,
+      "alternativas": [
+        "Rótulo local sem offset perde rastreabilidade.",
+        "Guardar originais não garante registro imediato.",
+        "Originais com offsets permitem verificar a conversão.",
+        "Consistência do relatório não prova exatidão de toda fonte.",
+        "A zona aplicada continua necessária para conferir a conversão."
+      ],
+      "dificuldade": "Alta: integrar comparação temporal e preservação de evidência original."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0003",
+      "sha256": "6227ae91a25b179c7256ed6aef07afaa770c34128ce34b3189eacc547d55f43d",
+      "correctOption": 2,
+      "alternativas": [
+        "As assinaturas continuam provando recebimento.",
+        "Receber não produz melhoria automática.",
+        "Yet contrapõe assinatura disseminada e execução ainda inadequada.",
+        "Não inverte a ordem das etapas de avaliação.",
+        "Não há comparação numérica que sustente essa ordem."
+      ],
+      "dificuldade": "Alta: interpretar conector e distinguir recebimento de execução."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0004",
+      "sha256": "35d20700e0a1f5b97015ea9421154250aee907bae46aa2bf92ea7a369a240359",
+      "correctOption": 2,
+      "alternativas": [
+        "Assinatura não demonstra habilidade na nova sequência.",
+        "Não se demonstra retroativamente uma sequência futura.",
+        "A evidência da sequência antiga não valida a nova ordem crítica.",
+        "Revisão não elimina a evidência de recebimento anterior.",
+        "A distinção entre evidências permanece."
+      ],
+      "dificuldade": "Muito alta: combinar especificidade da evidência e mudança relevante no procedimento."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0005",
+      "sha256": "6e39681a197e1a8a92607e02e138b687a081fefbab5147a98cec3f6a87609442",
+      "correctOption": 4,
+      "alternativas": [
+        "O sensor não causou fisicamente a vibração.",
+        "Não removeu a vibração.",
+        "O sinal não ocultou a mudança.",
+        "A causa exigiu investigação posterior.",
+        "Flagged significa sinalizou ou chamou atenção."
+      ],
+      "dificuldade": "Média: vocabulário inferido do evento relatado."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0006",
+      "sha256": "2e438349a5b67c04015ad834c01752d3300a3bb6ac2b0d920e67241930165625",
+      "correctOption": 3,
+      "alternativas": [
+        "O diagnóstico inicial foi revisto.",
+        "O suporte não invalida toda medição.",
+        "A causa não foi identificada sem investigação.",
+        "Detectar corretamente não garante interpretação inicial correta.",
+        "A revisão não buscou impedir detecção."
+      ],
+      "dificuldade": "Alta: distinguir dois estágios do processo diagnóstico."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0007",
+      "sha256": "dd92da670c1288519af05f86080772d1b3e459f26558642a8f8d504a3e60cf7c",
+      "correctOption": 0,
+      "alternativas": [
+        "A resposta é limitada às percepções dos usuários respondentes.",
+        "Não se mediram incidentes evitados.",
+        "Não foram ouvidos todos os elegíveis.",
+        "O levantamento não cobre todos os trabalhadores.",
+        "Não há observação dos não usuários."
+      ],
+      "dificuldade": "Alta: delimitar população e variável efetivamente observadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0008",
+      "sha256": "fcd406e5c0d68895770e3803de6a74a255e6f070d23254d37cf55f7ca35abf02",
+      "correctOption": 1,
+      "alternativas": [
+        "Mais usuários não resolve cobertura e não mede prevenção.",
+        "Amplia cobertura e separa percepção de dado comparável de incidentes.",
+        "Incidentes de usuários não revelam preferências de não usuários.",
+        "Aprovação subjetiva não é contagem de incidentes.",
+        "Concordância de usuários não representa todos."
+      ],
+      "dificuldade": "Muito alta: corrigir duas limitações metodológicas sem misturar variáveis."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0009",
+      "sha256": "24f69652903428ffb84a10dabbfea9cab32f9577fb3e075e126d1c7ca934eaea",
+      "correctOption": 3,
+      "alternativas": [
+        "Dúvidas admitem chamada.",
+        "Não se pretende aumentar tráfego rotineiro.",
+        "A avaliação antecede expansão e não remove toda fala.",
+        "Reduz sobreposição e preserva fala para urgência ou esclarecimento.",
+        "Urgência continua no rádio."
+      ],
+      "dificuldade": "Alta: interpretar finalidade e duas exceções operacionais."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0010",
+      "sha256": "8a80fd7a9326d6f2a8054ebd1d83b1886987dda68508347b017a5fe2843d1a1f",
+      "correctOption": 1,
+      "alternativas": [
+        "Não se demonstrou causa nas urgências de rádio.",
+        "Há ganho em um eixo e falha em outro que precisa ser tratada.",
+        "Prontidão é critério explícito antes da expansão.",
+        "Atraso no display não prova aumento de chamadas.",
+        "Menos chamadas não garante observação imediata."
+      ],
+      "dificuldade": "Muito alta: avaliar resultado multidimensional sob requisito não satisfeito."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0011",
+      "sha256": "aee6dcd37b4a1479d40ad114c52cade3fe93be34ef3ebd8748b696df4df44b27",
+      "correctOption": 4,
+      "alternativas": [
+        "Custo e tempo de redesign não são o par antecedente.",
+        "Velocidade e distância não são as duas medidas.",
+        "Entrevistas e essa dupla de medidas não foram citadas.",
+        "Satisfação não é a medida descrita.",
+        "Retoma as duas medidas nomeadas imediatamente antes."
+      ],
+      "dificuldade": "Média: referência anafórica de expressão nominal plural."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0012",
+      "sha256": "781e519480130870787db08c0357a4846e55455fcab15e1543056addec9315c1",
+      "correctOption": 3,
+      "alternativas": [
+        "Não houve retirada do projeto.",
+        "Arranjos logísticos não podem ser ignorados.",
+        "Uma taxa não cria serviço ausente.",
+        "Retornabilidade potencial não garante retorno em todas as rotas.",
+        "Não há incompatibilidade entre retorno e redução de massa."
+      ],
+      "dificuldade": "Alta: diferenciar capacidade de projeto e realização operacional."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0013",
+      "sha256": "130342cb1c8833969a545baf7c998e23853f23ce033e799e7a48e583800cc1fb",
+      "correctOption": 1,
+      "alternativas": [
+        "Não se deve apagar o requisito do navio para igualar rankings.",
+        "O líder pede a finalidade de cada medida.",
+        "A razão energética não satisfaz sozinha a autonomia exigida.",
+        "Não há disputa por publicação.",
+        "Diferença de ranking não demonstra erro de medida."
+      ],
+      "dificuldade": "Alta: relacionar métrica e pergunta de decisão."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0014",
+      "sha256": "7b417b3b5f7c2902471703cd2086050103c115a891785b370b7e849b78e14387",
+      "correctOption": 0,
+      "alternativas": [
+        "Filtra candidatos pelo requisito antes de comparar eficiência de massa.",
+        "Eficiência relativa não comprova autonomia absoluta.",
+        "Divergência de ranking não invalida módulo.",
+        "A medida por massa ainda pode comparar candidatos adequados.",
+        "Média de rankings não elimina requisito obrigatório."
+      ],
+      "dificuldade": "Muito alta: integrar condição de viabilidade e critério de escolha relativo."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0015",
+      "sha256": "54916fe3ae358d4aa4c782a29e83d529e7e96056889f4e81f4122803e0c8be7a",
+      "correctOption": 4,
+      "alternativas": [
+        "Não expressa dever passado descumprido.",
+        "Não afirma universalidade dos eventos não relatados.",
+        "Não descreve capacidade de prevenção por nomeação.",
+        "Não é obrigação de enviar relato.",
+        "Might marca explicação possível, não confirmada."
+      ],
+      "dificuldade": "Média: valor modal no argumento do texto."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0016",
+      "sha256": "a341acca3b1bec096ef6e51e77714653bab8cd6f635bc7d4dee95ce526daf88a",
+      "correctOption": 0,
+      "alternativas": [
+        "Observação independente e comparável mede ocorrência.",
+        "Horário de relato não mede ocorrência diretamente.",
+        "Preferência por anonimato é sobre relato.",
+        "Detalhe do relato não é ocorrência independente.",
+        "Formulário menor é mudança no canal, não contagem independente."
+      ],
+      "dificuldade": "Alta: escolher evidência capaz de distinguir evento e registro."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0017",
+      "sha256": "ffe748d5feefd6be49a347d655441b47001ede2f16b58b975bb8414aa4075b2d",
+      "correctOption": 4,
+      "alternativas": [
+        "Avaliar propostas sem viabilidade é a limitação apontada.",
+        "Condições de via importaram.",
+        "O relatório conserva explicações.",
+        "Não se diz que toda rejeição piora a rota anterior.",
+        "A distância realizada evita confundir proposta com realização."
+      ],
+      "dificuldade": "Alta: diferenciar ganho previsto e ganho efetivo."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0018",
+      "sha256": "dea1fe36069759f18bc2cade79335a8ea5b9c39a885332b77d7771e723fb359f",
+      "correctOption": 0,
+      "alternativas": [
+        "Utilidade condicional é compatível com estimativa inflada por propostas.",
+        "As verificações são parte da solução.",
+        "Permitir rejeição não garante ganho maior que o proposto.",
+        "Viés de estimativa não prova inutilidade universal.",
+        "Não se exige seguir toda proposta."
+      ],
+      "dificuldade": "Muito alta: conciliar utilidade contextual e viés de medição."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0019",
+      "sha256": "bc7176d5c7b45c2618d3d4f6c6d6313ea4b5e30b29946086579938ab6674af91",
+      "correctOption": 2,
+      "alternativas": [
+        "Não há ordenação completa entre todos os testes.",
+        "Os grupos não têm representação igual.",
+        "Agregação com pesos desiguais pode ocultar atrasos relevantes.",
+        "Atrasos não provam incapacidade em toda aplicação.",
+        "Tamanho do grupo não prova causa dos atrasos."
+      ],
+      "dificuldade": "Muito alta: relacionar ponderação, heterogeneidade e aplicação-alvo."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0020",
+      "sha256": "cf5c9e7ff6cfdc8da8b55acfb1e2e863dd451789a91c3db56c300cc039c1caf8",
+      "correctOption": 3,
+      "alternativas": [
+        "Substituir dados frios por média perde evidência relevante.",
+        "Tamanhos dos grupos não determinam frequência exata de falha.",
+        "Problema no frio não invalida todos os usos.",
+        "Examina distribuição na condição relevante antes de transferir a conclusão.",
+        "Média não exclui atraso importante."
+      ],
+      "dificuldade": "Muito alta: integrar contexto-alvo, distribuição e limites de generalização."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0001",
+      "sha256": "113218a816c673b8e935549b587a1f8c33902a12ed23d41bef61c321a4c62714",
+      "correctOption": 3,
+      "alternativas": [
+        "Os falsos alertas não levaram à rejeição.",
+        "O custo é explicitamente considerado.",
+        "A gerente recusou expansão imediata.",
+        "Confronta benefício e custo, ambos exigidos.",
+        "Não se condicionou análise a nova falha."
+      ],
+      "dificuldade": "Média: identificar a decisão e sua tese no texto."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0002",
+      "sha256": "f78fbbfa4880805b08d8fb0aa89bf454050dc9ed0a9986d79949a1f83c8b21dc",
+      "correctOption": 1,
+      "alternativas": [
+        "A antecedência da instalação não discute os custos.",
+        "Custo superior questiona a expansão pelo resultado líquido.",
+        "A avaria evitada reforça o benefício, não o questiona.",
+        "Amostra pequena limita generalização, não confronta especificamente o saldo econômico.",
+        "Distinguir alertas não estabelece saldo financeiro."
+      ],
+      "dificuldade": "Alta: distinguir objeção econômica de limitações de outro tipo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0003",
+      "sha256": "d16427c9e01f01f028bf76a763fd3f53aac92cf9b46c5e7fd6456248f8226b25",
+      "correctOption": 1,
+      "alternativas": [
+        "A intenção comparativa foi mantida.",
+        "Os fatores simultâneos limitam a explicação exclusiva.",
+        "O texto aceita a queda de tempo.",
+        "O efeito do volume não foi excluído.",
+        "Não há essa relação causal entre equipe e aplicativo."
+      ],
+      "dificuldade": "Alta: separar dado observado e atribuição causal."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0004",
+      "sha256": "a21339fdb4cc10838bfb6f6927caf77d95d74f48d1ff90088d40aadc8aed7e20",
+      "correctOption": 2,
+      "alternativas": [
+        "A agregação mistura os fatores de interesse.",
+        "Opinião não substitui a medição proposta.",
+        "Controla os fatores citados sem excluir outras causas.",
+        "Repercussão não testa a causa.",
+        "A equipe não foi controlada."
+      ],
+      "dificuldade": "Muito alta: integrar controle de confundidores e limite da inferência restante."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0005",
+      "sha256": "e2e6aa9e89f670545e7b128111dbb8724858e07de7f26814fc1bb30fad517a1e",
+      "correctOption": 0,
+      "alternativas": [
+        "O parecer define possibilidade sob condições limitadas.",
+        "Não há obrigação de substituir inspeções.",
+        "O piloto apoia, não rejeita, a hipótese.",
+        "O verbo não é autorização jurídica.",
+        "Não existe garantia universal."
+      ],
+      "dificuldade": "Média: reconhecer a modalidade explicitada."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0006",
+      "sha256": "50e6782245c8e62430f03209b25fea53373fc7ecb2cc7952377db3241cbfc183",
+      "correctOption": 3,
+      "alternativas": [
+        "Nega redução e muda a função para substituição.",
+        "Impõe cobertura total não exigida.",
+        "Necessariamente e qualquer ampliam indevidamente o alcance.",
+        "Preserva possibilidade e alcance parcial.",
+        "Retirar avaliação humana contraria a ressalva."
+      ],
+      "dificuldade": "Alta: conservar simultaneamente modalidade e quantificação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0007",
+      "sha256": "93e043aa3f94b4e0cbdeecd14adf383a1216d1093bf4f88258dd7481bf50a09e",
+      "correctOption": 2,
+      "alternativas": [
+        "O adjunto temporal é compatível.",
+        "Relativo também retoma objetos.",
+        "Ambas as pessoas podem ser sujeito da revisão.",
+        "A destinatária é identificada.",
+        "Relatório é objeto, não sujeito de havia revisado."
+      ],
+      "dificuldade": "Alta: resolver função sintática e referência discursiva."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0008",
+      "sha256": "8b7724d6ea9f59c043ccd4dbb0ac558df1b937ff51a822ceb9fe80e062d3c317",
+      "correctOption": 1,
+      "alternativas": [
+        "Inverte o agente da entrega.",
+        "Identifica revisora e mantém entrega pela técnica com regência correta.",
+        "Esta não identifica inequivocamente a técnica.",
+        "Ambas muda a autoria e falta a preposição com artigo.",
+        "Revisar é transitivo direto, sem ao qual."
+      ],
+      "dificuldade": "Muito alta: controlar agência, referência e regência na reescrita."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0009",
+      "sha256": "8fa926095d330068e98e699805066fd61225f5481e54b27703fae0c3773cbc55",
+      "correctOption": 0,
+      "alternativas": [
+        "Distingue numerador e participação no universo elegível.",
+        "O crescimento do denominador precisa ser informado.",
+        "A revisão mantém medidas objetivas.",
+        "A queda proporcional não demonstra ausência de benefício.",
+        "Não se condena a expressão em todo contexto."
+      ],
+      "dificuldade": "Alta: relacionar precisão lexical e denominador da informação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0010",
+      "sha256": "0b977499f10eda26846b8a409b41f0f845794e3f074af55ffdd81957a4902326",
+      "correctOption": 3,
+      "alternativas": [
+        "Trinta é a diferença absoluta, e satisfação não foi medida.",
+        "Trinta por cento não é a proporção final e não há causa demonstrada.",
+        "Noventa usuários não são noventa por cento do novo universo.",
+        "Crescimento 30/60=50%; proporções 60% e 45%.",
+        "Confunde aumento absoluto e relativo e extrapola fracasso."
+      ],
+      "dificuldade": "Muito alta: recalcular três medidas e preservar o alcance argumentativo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0011",
+      "sha256": "10d455c9197f6648b0668c994828d49656500185f7bf7acb35d783c9b4d549fa",
+      "correctOption": 3,
+      "alternativas": [
+        "Duração não foi informada.",
+        "Quantidade de equipamentos não aumentou no relato.",
+        "Mais interrupções é hipótese não confirmada.",
+        "O antecedente explícito é o número de registros.",
+        "Não há aumento da disposição do supervisor."
+      ],
+      "dificuldade": "Média: localizar referente demonstrativo expresso."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0012",
+      "sha256": "3a87e7d7257f74e768e69533ee1ca6ecffb4aafeacc38312bb16e8182f7e7e1a",
+      "correctOption": 0,
+      "alternativas": [
+        "Subjuntivos apresentam pedido e ocorrência temporal prevista.",
+        "Não descreve hábitos presentes independentes.",
+        "Não são causa e consequência comprovadas.",
+        "O texto não rejeita a orientação como impossível.",
+        "Não são ações declaradas concluídas."
+      ],
+      "dificuldade": "Alta: relacionar modo verbal, discurso do pedido e conector temporal."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0013",
+      "sha256": "4c289919f07915fa08a7ac61fd4c3e663804c96c9f6241e6ce7e8a22a98f5b4f",
+      "correctOption": 4,
+      "alternativas": [
+        "A redução horária não é negada.",
+        "Não houve aumento horário nem causa suficiente atribuída à troca.",
+        "Horas de operação não foram iguais.",
+        "Funcionamento noturno não depende necessariamente da troca.",
+        "Admite ganho horário apesar do resultado anual."
+      ],
+      "dificuldade": "Alta: distinguir concessão de retificação e causalidade."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0014",
+      "sha256": "a8fb472fdf2ed2dedc86c3e8ad306a9f47aaf5c170452441cb284a7335cc8e76",
+      "correctOption": 4,
+      "alternativas": [
+        "O consumo horário foi avaliado, não só presumido.",
+        "Dispensa análise conjunta exigida.",
+        "Inventa garantia anual de qualquer melhora.",
+        "Nega a melhora horária explícita.",
+        "Mantidas horas, o maior consumo horário anterior daria total maior."
+      ],
+      "dificuldade": "Muito alta: integrar comparação contrafactual e duas bases temporais."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0015",
+      "sha256": "9f6f19b690c4d8cf17ee8509f8d7e82b071eec03f635faf674ca4129eb24295c",
+      "correctOption": 4,
+      "alternativas": [
+        "Não é oração final.",
+        "Não estabelece comparação.",
+        "Explicativa ampliaria para todo o conjunto referido.",
+        "Não atribui a decisão ao revisor.",
+        "A relativa sem vírgulas delimita destinatários."
+      ],
+      "dificuldade": "Média: reconhecer função restritiva no contexto."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0016",
+      "sha256": "a777bbea8f977f2e3fc215b5368c825cbb970ad9341decaaa7f713c6d7fd7786",
+      "correctOption": 1,
+      "alternativas": [
+        "Foram concedido viola a concordância.",
+        "Acesso singular, destinatário aos e relativa restritiva corretos.",
+        "Crase antes de todos e generalização são inadequadas.",
+        "O sujeito paciente acesso é singular.",
+        "A explicativa não preserva a restrição requerida."
+      ],
+      "dificuldade": "Alta: combinar restrição semântica, concordância e crase."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0017",
+      "sha256": "565bccba6a62c1c9f325960c5894693586593415815b8a576d92653ae67b2eeb",
+      "correctOption": 2,
+      "alternativas": [
+        "A análise não assegura aprovação.",
+        "Sem anexos a devolução independe do dia.",
+        "Os anexos são condição adicional ao prazo.",
+        "Não há dispensa de anexos por tipo de pedido.",
+        "Não existe obrigação de marcar reunião substituta."
+      ],
+      "dificuldade": "Alta: separar condição necessária e resultado de deliberação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0018",
+      "sha256": "513893b3157492b847d468a9f258b95c436732062dd8ef53ec5b3165dc4579d4",
+      "correctOption": 0,
+      "alternativas": [
+        "Requisitos permitem análise; cancelamento e ausência de garantia permanecem.",
+        "Cancelamento não equivale a falta documental.",
+        "Possibilidade não garante reunião cancelada.",
+        "Não há exclusão definitiva de análise futura.",
+        "Não há direito à aprovação."
+      ],
+      "dificuldade": "Muito alta: integrar prazo, documentação, modalidade e fato excepcional."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0019",
+      "sha256": "0bb47b162a5df2ad20b4eed48461c35670f5187ad6b83ee41915382013242a6a",
+      "correctOption": 4,
+      "alternativas": [
+        "Utilidade dos relatórios não foi determinada por grupo.",
+        "Decisões diferentes não provam processos equivalentes.",
+        "Não se demonstrou erro dos relatórios.",
+        "Consulta não transfere autoria das decisões à cooperativa.",
+        "A falta de mudança admite adequação ou desconsideração."
+      ],
+      "dificuldade": "Muito alta: distinguir informação, agência e hipóteses explicativas concorrentes."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0020",
+      "sha256": "648ba69df23bd074ce2e6bad4a8133b6b5afe1ba3873ffefbf7cfe49e7a80161",
+      "correctOption": 2,
+      "alternativas": [
+        "Universaliza ajustes e dispensa investigação exigida.",
+        "Atribui determinação causal não afirmada.",
+        "Concessão e ignorância entre duas hipóteses ficam preservadas.",
+        "Inventa finalidade de não receber e conhecimento das causas.",
+        "Nega recebimento e inventa certeza."
+      ],
+      "dificuldade": "Muito alta: preservar simultaneamente concessão, alternativas causais e limite epistêmico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0001",
+      "sha256": "1a7d7c6a70a55b5dd9354265fea72b7885b8ecb82bb43d43068712621e74bab1",
+      "correctOption": 0,
+      "alternativas": [
+        "0,020×100²/2=100 J.",
+        "200 J omite o divisor dois.",
+        "1 J erra a potência ou escala.",
+        "10 J erra uma casa decimal.",
+        "1.000 J acrescenta fator dez."
+      ],
+      "dificuldade": "Média: aplicação direta da equação energética fornecida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0002",
+      "sha256": "f6648689322d21ca0a8d0f61b5f5faac798baf35c8dbe906b70f0699b8fecf64",
+      "correctOption": 4,
+      "alternativas": [
+        "Orientação não modifica a fonte do mesmo modo.",
+        "Orientação não cria barreira física contínua.",
+        "Orientação não elimina fisicamente o líquido.",
+        "Orientação não dispensa avaliação.",
+        "Intervenção no processo difere da dependência de conduta."
+      ],
+      "dificuldade": "Média: distinguir dois níveis de atuação no cenário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0003",
+      "sha256": "bf8beb96803bae7f157ca096c2fb9df5e7ffe6353fd6dab2283ad0a44d3664ae",
+      "correctOption": 1,
+      "alternativas": [
+        "8.000 N atribui todo o peso ao lado direito.",
+        "8.000×1/4=2.000 N pela soma de momentos.",
+        "1.000 N não equilibra os momentos.",
+        "6.000 N é a reação esquerda.",
+        "4.000 N pressupõe centro na metade."
+      ],
+      "dificuldade": "Média: equilíbrio estático com peso e geometria explícitos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0004",
+      "sha256": "0305561fc5a80698bd3d26c023f78ed8e0dfc69e60e497c65a827e399dd056e5",
+      "correctOption": 0,
+      "alternativas": [
+        "Alimentação, inércia e pressão precisam de análise e verificação.",
+        "Parada do eixo não dissipa necessariamente o fluido.",
+        "Corrente instantânea não descreve todas as energias.",
+        "Pressão não confirma isolamento da alimentação.",
+        "Comando não demonstra isolamento nem elimina pressão."
+      ],
+      "dificuldade": "Alta: integrar três formas de energia e evidências de estado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0005",
+      "sha256": "d87ad62abea49f48fcd4dfc86818d57812e8fa120480ba4a607ba1e8dcaae86f",
+      "correctOption": 4,
+      "alternativas": [
+        "A média não limita o máximo local.",
+        "Divergência não prova defeito dos instrumentos.",
+        "Mistura instantânea não foi demonstrada.",
+        "Vazão nominal não invalida leitura do rebaixo.",
+        "A geometria pode criar gradiente, exigindo verificar os pontos e sua evolução."
+      ],
+      "dificuldade": "Alta: interpretar gradiente e representatividade da medição."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0006",
+      "sha256": "4e99dea99312f5f4630746e12b8f4d06a8f459e5b765888e087d02b37e49fcbb",
+      "correctOption": 2,
+      "alternativas": [
+        "Limpeza sem verificar o mecanismo não comprova posição.",
+        "Contagem de acionamentos não testa o desalinhamento.",
+        "A detecção precisa corresponder à posição e resistir às falhas previstas.",
+        "Indicador não corrige necessariamente o sinal falso.",
+        "Ciclo menor não valida detecção."
+      ],
+      "dificuldade": "Alta: associar mecanismo de falha ao ensaio e à ação de projeto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0007",
+      "sha256": "c0b9a94f7bee920312734b4174c6ad747257d9424094e425f6f0a60f68a9376c",
+      "correctOption": 0,
+      "alternativas": [
+        "Vazamento simultâneo pode unir X e a água de Y.",
+        "Densidade não impede todo contato reativo.",
+        "Volume não demonstra compatibilidade química.",
+        "Temperatura escolhida não elimina presença de água.",
+        "Cor não demonstra compatibilidade."
+      ],
+      "dificuldade": "Alta: relacionar propriedades e contenção num cenário de falha conjunta."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0008",
+      "sha256": "523ba6ed6a0ba51224c501f6693f537c2f0ebe8d384da0eee392643685df2734",
+      "correctOption": 2,
+      "alternativas": [
+        "Ausência inicial de chama não exclui ignição posterior.",
+        "Mudança de nível não elimina a energia por definição.",
+        "Atua no caminho das partículas e no combustível alcançável.",
+        "Menos fumaça não prova ausência de ignição.",
+        "Fora da visão não significa fora do alcance."
+      ],
+      "dificuldade": "Alta: integrar transporte de ignição, geometria e acompanhamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0009",
+      "sha256": "f42cc5dfd93bd46d6cb460fe9a6cfbc6ed2047307e2d75078ef5267efc96f083",
+      "correctOption": 2,
+      "alternativas": [
+        "Ignora redução de pressão.",
+        "Compensação linear ignora diâmetro ao quadrado.",
+        "Força original 9.420 N; área quadruplica e pressão cai à metade, dando 18.840 N.",
+        "Combina incorretamente os dois fatores geométricos e de pressão.",
+        "Ignora aumento de área."
+      ],
+      "dificuldade": "Muito alta: calcular área e força e integrar mudanças simultâneas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0010",
+      "sha256": "2476c2156368963c414114fded3b41f8bf6acd6818f27182ebf873b016a4254e",
+      "correctOption": 3,
+      "alternativas": [
+        "Não há compensação dos fatores geométricos.",
+        "Elevar altura reduz a força-limite, não aumenta.",
+        "Confunde momentos com forças.",
+        "Forças são 4.800 N e 2.400 N pelo equilíbrio de momentos.",
+        "Peso vezes altura não é a força pedida."
+      ],
+      "dificuldade": "Muito alta: comparar duas configurações e interpretar o efeito combinado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0011",
+      "sha256": "b6c5ab0358844e2ff50f30b97746415389459c290770d2ffe9f31f662cac1f06",
+      "correctOption": 3,
+      "alternativas": [
+        "Não se representam causas comuns por duas falhas independentes.",
+        "Corpos distintos não garantem funções independentes.",
+        "O fechamento normal não foi declarado impossível.",
+        "Perda comum exige rever crédito de independência e estados de falha.",
+        "Ensaio normal não caracteriza falta de suprimento."
+      ],
+      "dificuldade": "Muito alta: integrar dependência funcional, crédito de barreiras e teste de cenário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0012",
+      "sha256": "ad9411ef95d17a9439354732882ea283d19c532dfd692df006e86552f5d68d62",
+      "correctOption": 3,
+      "alternativas": [
+        "Benefício de volatilidade não prova integridade.",
+        "Menor volatilidade não determina risco global maior.",
+        "Vazão igual não implica pressão e esforço iguais.",
+        "Avalia simultaneamente exposição e novo regime hidráulico.",
+        "Pressão fixa sem avaliar regime não resolve a mudança."
+      ],
+      "dificuldade": "Muito alta: integrar efeitos opostos e restrições antes de decidir sobre mudança."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0057",
+      "sha256": "672fa551b3ec3e362f3c2ef7bdd904024c27f1a90c46b2001e6a004a220c875d",
+      "correctOption": 3,
+      "alternativas": [
+        "Variabilidade não exclui relação com o trabalho.",
+        "Dados coletivos podem orientar avaliação.",
+        "Sintomas não calculam concentração exata.",
+        "Sinal coletivo orienta investigação sem diagnóstico automático.",
+        "Não determina uma doença para todos."
+      ],
+      "dificuldade": "Alta: separar vigilância, exposição e diagnóstico ou causalidade."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0058",
+      "sha256": "4b5307565df6a07a1cfda45e0fa9e9dea56cf38e57f38f5b724ff13534980392",
+      "correctOption": 3,
+      "alternativas": [
+        "Usa 15 casos como 15%.",
+        "Diferença de casos não é risco relativo nem prova causal.",
+        "Razão bruta não demonstra igualdade dos confundidores.",
+        "20% e 5%; razão 4, sem prova causal.",
+        "Inverte proporções e presume efeito do tamanho."
+      ],
+      "dificuldade": "Muito alta: calcular proporções e razão e avaliar limites da comparação observacional."
+    }
+  ]
+}

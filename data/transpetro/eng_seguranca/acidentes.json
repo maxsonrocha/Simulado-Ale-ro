@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0045",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "evidencia_causa_investigacao",
+    "difficulty": "media",
+    "statement": "Após uma queda de material, um relatório registra que o operador estava no local. Ainda não foram examinados fixação, trajetória do material ou organização da tarefa. Qual distinção é necessária antes de concluir a investigação?",
+    "options": [
+      "A ausência de exame da fixação permite concluir que ela estava íntegra e não participou do evento.",
+      "A presença do operador é evidência suficiente de que o material caiu por sua decisão deliberada.",
+      "A investigação pode substituir a análise da trajetória pela contagem de pessoas próximas ao material.",
+      "A localização do operador torna desnecessário examinar como a tarefa permitia exposição à queda.",
+      "A presença do operador descreve uma circunstância, mas não demonstra, sozinha, o mecanismo causal da queda."
+    ],
+    "answer": 4,
+    "explanation": "Localização é evidência contextual, não demonstração causal. Não se pode inferir intenção ou integridade de um componente não examinado. Trajetória e organização são informações potencialmente necessárias, não substituíveis por contagem.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0046",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "taxa_frequencia_denominador",
+    "difficulty": "alta",
+    "statement": "Um indicador interno define T=N/H×1.000.000, com N igual ao número de ocorrências e H às horas trabalhadas no período. A unidade X teve 6 ocorrências em 300.000 h; Y teve 8 em 800.000 h. Qual comparação corresponde ao indicador definido?",
+    "options": [
+      "X tem T=50 e Y tem T=100; o indicador é obtido dividindo horas por ocorrências.",
+      "X tem T=6 e Y tem T=8; a taxa é igual à contagem porque o fator de escala é comum.",
+      "X tem T=20 e Y tem T=10; a maior contagem de Y não corresponde à maior taxa.",
+      "X tem T=2 e Y tem T=1; o resultado por milhão deve ser dividido novamente por dez.",
+      "As taxas são iguais, pois ambas as unidades registraram menos de dez ocorrências."
+    ],
+    "answer": 2,
+    "explanation": "X=6/300.000×1.000.000=20; Y=8/800.000×1.000.000=10. A contagem não incorpora exposição; inverter a razão ou alterar a escala produz outros indicadores. Não se atribui ao indicador interno origem normativa.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0047",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "causa_imediata_sistemica",
+    "difficulty": "alta",
+    "statement": "Um trabalhador acessou uma zona de movimento durante uma limpeza. A investigação encontrou uma abertura sem proteção, a tarefa prevista exigia alcançar essa região e o planejamento não incluía outro meio de limpeza. Qual encaminhamento enfrenta a cadeia descrita?",
+    "options": [
+      "Alterar apenas o título da instrução de trabalho, mantendo abertura e método sem qualquer verificação posterior.",
+      "Tratar a abertura, a forma de executar a limpeza e o planejamento da tarefa, verificando se as medidas removem a necessidade de exposição.",
+      "Atribuir a causa exclusivamente ao turno em que ocorreu, dispensando a análise dos mecanismos observados.",
+      "Usar a ausência de eventos anteriores como confirmação de que não há necessidade de revisar o projeto da tarefa.",
+      "Encerrar a investigação ao registrar o acesso, sem examinar por que a tarefa exigia alcançar a região."
+    ],
+    "answer": 1,
+    "explanation": "Há condições físicas e organizacionais que precisam ser relacionadas ao acesso. Parar no comportamento ou em fatores não demonstrados não trata a cadeia. Um novo título e ausência de histórico tampouco mostram controle do mecanismo.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0048",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "composicao_taxas",
+    "difficulty": "muito_alta",
+    "statement": "Em dois setores, o indicador interno é ocorrências por 100.000 h. O setor A mantém taxa 1 e o B mantém taxa 4. No ano 1, A soma 900.000 h e B, 100.000 h; no ano 2, ambos somam 500.000 h. Sem mudança nas taxas setoriais, qual é a taxa global esperada e o significado da comparação?",
+    "options": [
+      "Ela cai de 2,5 para 1,3, pois o aumento das horas no setor B dilui sua taxa mais elevada.",
+      "Ela permanece em 2,5 nos dois anos, pois a média simples das taxas é sempre a taxa global.",
+      "Ela passa de 1,3 para 2,5; o aumento pode decorrer da mudança de composição das horas, sem piora das taxas em cada setor.",
+      "Ela passa de 1 para 4, demonstrando que todos os trabalhadores migraram integralmente de A para B.",
+      "Ela permanece em 1,3, porque taxas setoriais fixas tornam a distribuição de horas irrelevante."
+    ],
+    "answer": 2,
+    "explanation": "Ano 1: (1×900.000+4×100.000)/1.000.000=1,3. Ano 2: (1×500.000+4×500.000)/1.000.000=2,5. Pesos mudam sem mudança nas taxas; média simples só coincide quando as horas são iguais. Não houve migração total nem diluição de B por essa alteração.",
+    "etapa": 1
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostragem_volume",
+    "difficulty": "media",
+    "statement": "Uma bomba de amostragem opera a vazão constante de 2,0 L/min durante 120 min. Qual é o volume amostrado em metros cúbicos, adotando 1 m³=1.000 L?",
+    "options": [
+      "2,40 m³.",
+      "0,024 m³.",
+      "0,240 m³.",
+      "24,0 m³.",
+      "240 m³."
+    ],
+    "answer": 2,
+    "explanation": "V=2,0×120=240 L=0,240 m³. As demais opções erram a conversão por fatores de 10, 100 ou 1.000; não há concentração a calcular sem a massa coletada.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "branco_analitico",
+    "difficulty": "media",
+    "statement": "Um procedimento de laboratório determina que a massa do branco seja subtraída da massa da amostra. Uma amostra apresenta 2,4 mg e seu branco, 0,4 mg. O volume coletado é 0,50 m³. Qual é a concentração corrigida segundo esse procedimento?",
+    "options": [
+      "4,0 mg/m³.",
+      "0,8 mg/m³.",
+      "2,0 mg/m³.",
+      "5,6 mg/m³.",
+      "4,8 mg/m³."
+    ],
+    "answer": 0,
+    "explanation": "Massa líquida=2,4−0,4=2,0 mg; C=2,0/0,50=4,0 mg/m³. 4,8 ignora o branco; 5,6 o soma; 2,0 confunde massa e concentração; 0,8 corresponde apenas ao branco por volume.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "media_temporal",
+    "difficulty": "media",
+    "statement": "Para descrever uma jornada, sem comparar a limites de exposição, utiliza-se C_m=Σ(C_i·t_i)/Σt_i. A concentração de um agente foi 2 mg/m³ por 2 h e 6 mg/m³ por 6 h. Qual é C_m nas 8 h?",
+    "options": [
+      "6,0 mg/m³.",
+      "5,0 mg/m³.",
+      "8,0 mg/m³.",
+      "4,0 mg/m³.",
+      "3,0 mg/m³."
+    ],
+    "answer": 1,
+    "explanation": "C_m=(2×2+6×6)/8=40/8=5 mg/m³. 4 é a média simples e ignora os tempos; 6 toma o maior patamar como jornada inteira; 8 soma concentrações; 3 não satisfaz a média ponderada dos valores e durações.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ruido_soma_energetica",
+    "difficulty": "alta",
+    "statement": "Duas fontes sonoras independentes produzem, separadamente, 70 dB no mesmo ponto. No modelo de soma energética L_T=10·log10(10^(L1/10)+10^(L2/10)), com log10(2)=0,301, qual é o nível combinado aproximado?",
+    "options": [
+      "140,0 dB.",
+      "73,0 dB.",
+      "100,0 dB.",
+      "76,0 dB.",
+      "70,0 dB."
+    ],
+    "answer": 1,
+    "explanation": "Duas energias iguais dobram a energia: L_T=70+10log10(2)=73,01 dB. Somar os níveis produz 140 indevidamente; 76 corresponderia a quadruplicar energia; 70 ignora a segunda fonte e 100 não decorre da soma energética. Não se aplica limite normativo.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ventilacao_balanco_massa",
+    "difficulty": "alta",
+    "statement": "Um recinto ideal perfeitamente misturado recebe emissão constante de 30 mg/min. O ar de entrada não contém o agente. Em regime permanente, o modelo é C=G/Q. Para manter a concentração de projeto em 0,50 mg/m³, sem atribuir a esse valor caráter legal, qual vazão de ar limpo é necessária no modelo?",
+    "options": [
+      "45 m³/min.",
+      "15 m³/min.",
+      "120 m³/min.",
+      "60 m³/min.",
+      "30 m³/min."
+    ],
+    "answer": 3,
+    "explanation": "Q=G/C=30/0,50=60 m³/min. Multiplicar G por C dá 15 com unidades inadequadas. As outras vazões dariam respectivamente 1,0; 0,667 e 0,25 mg/m³, não o valor de projeto indicado. A mistura perfeita é hipótese, não garantia de distribuição real.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fracionamento_aerodispersoides",
+    "difficulty": "alta",
+    "statement": "Uma campanha compara duas tarefas que geram poeira. O objetivo é comparar a mesma fração granulométrica de interesse. Na tarefa A usa-se um seletor com curva de coleta conhecida; na B, um coletor sem seleção caracterizada. Qual é a principal limitação antes de comparar os resultados como se medissem a mesma fração?",
+    "options": [
+      "A coleta de massa total sempre permite reconstruir a distribuição granulométrica sem informação adicional.",
+      "Uma duração igual de amostragem torna irrelevante o comportamento de seleção das partículas.",
+      "Verificar a equivalência granulométrica dos sistemas antes de comparar a mesma fração.",
+      "A maior massa medida corresponde necessariamente à maior concentração da fração de interesse, independentemente do seletor.",
+      "Resultados expressos na mesma unidade garantem que os sistemas selecionaram a mesma distribuição de tamanhos."
+    ],
+    "answer": 2,
+    "explanation": "A definição da fração depende da resposta granulométrica do sistema, não só da unidade ou duração. Massa total não determina a distribuição sem dados adicionais; maior massa coletada não garante maior fração-alvo quando os métodos diferem.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "picos_exposicao",
+    "difficulty": "alta",
+    "statement": "Dois operadores têm médias de concentração iguais em 8 h. O registro do primeiro é quase constante; o segundo apresenta breves picos associados à abertura de um equipamento. Sem presumir limites ou toxicidade específicos do agente, qual conclusão é sustentada?",
+    "options": [
+      "Médias iguais não igualam perfis; os picos exigem análise em relação ao agente e à tarefa.",
+      "A igualdade das médias demonstra que os máximos instantâneos também foram iguais nos dois registros.",
+      "O perfil com picos pode ser descartado porque uma média igual elimina qualquer diferença de duração e intensidade.",
+      "Os picos demonstram, por si, o descumprimento de um limite legal, mesmo sem conhecer agente ou critério aplicável.",
+      "O registro constante prova que a abertura do equipamento não contribui para a exposição do outro operador."
+    ],
+    "answer": 0,
+    "explanation": "Uma média não descreve máximos nem padrão temporal. A relevância dos picos depende do agente, tarefa e critérios efetivos. Nenhuma equivalência de máximos, exclusão causal ou infração normativa pode ser deduzida dos dados apresentados.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "incerteza_medicao",
+    "difficulty": "alta",
+    "statement": "Duas medições pelo mesmo método são reportadas como 4,0±0,8 e 4,5±0,9 mg/m³, com a mesma convenção de incerteza. Uma chefia quer afirmar que a segunda demonstra um aumento real. Qual é a posição tecnicamente justificável apenas com esses dados?",
+    "options": [
+      "Examinar incertezas e desenho comparativo antes de interpretar a diferença como mudança real.",
+      "A sobreposição dos intervalos prova que as duas condições possuem concentrações reais exatamente iguais.",
+      "A maior incerteza da segunda medição demonstra necessariamente que o método foi aplicado de modo incorreto.",
+      "A diferença de 0,5 mg/m³ prova mudança real porque os valores centrais não são idênticos.",
+      "A convenção de incerteza igual permite retirar as incertezas e comparar apenas os valores centrais."
+    ],
+    "answer": 0,
+    "explanation": "Os intervalos se sobrepõem, mas isso não prova igualdade e tampouco substitui uma análise adequada da diferença. Pontos centrais diferentes não provam mudança real; incerteza maior não implica automaticamente erro de aplicação e não pode ser simplesmente retirada.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0021",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "protecao_respiratoria_diagnostico",
+    "difficulty": "alta",
+    "statement": "Após instalar exaustão, uma equipe ainda identifica uma etapa com emissão residual não caracterizada. Propõe escolher um respirador apenas pela presença de odor. Qual informação é indispensável para desenvolver uma seleção tecnicamente fundamentada, sem usar odor como medida de concentração?",
+    "options": [
+      "Usar a ausência momentânea de odor como confirmação de que qualquer elemento filtrante será suficiente.",
+      "Identificar agentes e condições e verificar capacidade, limitações e adequação ao usuário.",
+      "Medir somente a preferência do usuário por um modelo, pois conforto estabelece a capacidade de proteção química.",
+      "Escolher o equipamento cuja vedação pareça mais rígida, sem verificar contaminantes ou condições de uso.",
+      "Adotar o equipamento já usado em outra tarefa apenas porque as substâncias têm aparência semelhante."
+    ],
+    "answer": 1,
+    "explanation": "Identidade e condições dos agentes, capacidades/limitações do equipamento e adequação ao usuário são bases técnicas da seleção. Odor, aparência, rigidez ou preferência não determinam proteção e não dispensam avaliação. Não se prescreve um respirador sem os dados necessários.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0022",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "estrategia_amostragem",
+    "difficulty": "alta",
+    "statement": "Uma instalação tem limpeza manual, operação fechada e troca de filtros. A campanha mede apenas a operação fechada por ser a atividade mais longa e extrapola o resultado às três tarefas. Qual revisão trata diretamente a limitação?",
+    "options": [
+      "Aumentar apenas o número de amostras na operação fechada, mantendo excluídas as duas outras tarefas.",
+      "Selecionar a menor medição da operação fechada para compensar a ausência de dados das outras tarefas.",
+      "Descartar a limpeza do planejamento porque a atividade não ocorre durante todo o turno.",
+      "Aplicar a média da operação fechada à troca de filtros porque menor duração implica menor concentração.",
+      "Planejar a representação das três tarefas, considerando condições de exposição distintas."
+    ],
+    "answer": 4,
+    "explanation": "A representatividade exige analisar cenários de exposição diferentes; duração menor não garante concentração menor. Mais amostras do mesmo cenário não cobrem automaticamente os demais, e escolher mínimo ou omitir tarefa não resolve a limitação.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0023",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "calibracao_deriva_vazao",
+    "difficulty": "muito_alta",
+    "statement": "Um procedimento de amostragem aceita, para este exercício, vazão média aritmética entre as verificações inicial e final. Elas foram 1,8 e 2,2 L/min em 150 min de coleta. O laboratório informa 0,96 mg na amostra e 0,06 mg no branco. Qual concentração resulta e qual seria o efeito de usar apenas a vazão inicial?",
+    "options": [
+      "6,00 mg/m³; usar somente a vazão inicial manteria o valor, pois a duração da coleta é a mesma.",
+      "3,00 mg/m³; usar somente a vazão inicial produziria aproximadamente 2,73 mg/m³, subestimando a concentração.",
+      "3,00 mg/m³; usar somente a vazão inicial produziria aproximadamente 3,33 mg/m³, superestimando a concentração.",
+      "3,20 mg/m³; usar somente a vazão inicial produziria 3,00 mg/m³, subestimando a concentração.",
+      "0,30 mg/m³; usar somente a vazão inicial produziria 0,27 mg/m³, subestimando a concentração."
+    ],
+    "answer": 2,
+    "explanation": "Vazão média=2,0 L/min; V=300 L=0,300 m³; massa líquida=0,90 mg; C=3,00 mg/m³. Com 1,8 L/min, V=0,270 m³ e C=3,333 mg/m³. Usar vazão menor reduz o denominador e aumenta C. 3,20 ignora o branco; 2,73 usa a vazão final; as demais erram fatores ou sentido.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0024",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "mistura_concentracoes_fluxos",
+    "difficulty": "muito_alta",
+    "statement": "Duas correntes de ar do mesmo estado físico se misturam sem perdas. Uma tem 20 m³/min e 3 mg/m³ do agente; a outra, 30 m³/min e 1 mg/m³. A mistura recebe depois 10 m³/min de ar sem o agente. Usando conservação de massa, qual é a concentração final?",
+    "options": [
+      "2,00 mg/m³.",
+      "1,80 mg/m³.",
+      "1,00 mg/m³.",
+      "2,50 mg/m³.",
+      "1,50 mg/m³."
+    ],
+    "answer": 4,
+    "explanation": "As massas por minuto são 20×3=60 e 30×1=30 mg/min: total 90. Com diluição final, a vazão é 60 m³/min e C=90/60=1,50 mg/m³. 1,80 ignora o ar limpo; 2,00 é média não ponderada inicial; 1,00 e 2,50 não conservam a massa e o fluxo informados.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0025",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ruido_reducao_energia",
+    "difficulty": "muito_alta",
+    "statement": "No ponto de avaliação, uma fonte A contribui com 80% da energia sonora e uma B com 20%. Um controle reduz a contribuição energética de A à quarta parte, sem alterar B. Para a mesma duração, use ΔL=10·log10(E_depois/E_antes) e log10(0,4)=−0,398. Qual é a redução aproximada do nível total?",
+    "options": [
+      "3,98 dB.",
+      "3,01 dB.",
+      "1,00 dB.",
+      "7,96 dB.",
+      "6,02 dB."
+    ],
+    "answer": 0,
+    "explanation": "Depois: 0,80/4+0,20=0,40 da energia original. ΔL=10×(−0,398)=−3,98 dB: redução de 3,98. 6,02 dB aplicaria a redução de quatro vezes a toda a energia; 3,01 supõe metade; as outras não correspondem ao balanço energético.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0026",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "valores_abaixo_quantificacao",
+    "difficulty": "muito_alta",
+    "statement": "Um relatório estima a média de quatro amostras de mesmo volume. As concentrações medidas foram 2 e 4 mg/m³; as outras duas foram informadas como menores que 1 mg/m³, sem valor numérico recuperável. Admitindo concentrações não negativas, qual intervalo contém a média e qual cuidado decorre disso?",
+    "options": [
+      "De 1,5 até menos de 2,0 mg/m³; qualquer média pontual exige explicitar como foram tratados os resultados não quantificados.",
+      "Exatamente 1,5 mg/m³; o sinal “menor que” demonstra que as duas concentrações restantes são zero.",
+      "De 2,0 até 3,0 mg/m³; a média só pode ser calculada entre as amostras que apresentam número explícito.",
+      "Exatamente 2,0 mg/m³; o valor de quantificação equivale à concentração verdadeira das duas amostras.",
+      "De 0 até menos de 1,0 mg/m³; os resultados quantificados devem ser descartados por serem diferentes dos demais."
+    ],
+    "answer": 0,
+    "explanation": "A soma conhecida é 6 e a soma desconhecida fica em [0,2). Dividindo por quatro, média em [1,5;2,0). Substituir por zero ou por 1 é uma convenção, não conclusão dos resultados. Excluir amostras muda o conjunto e não responde à média das quatro.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0027",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "calor_balanco_termico",
+    "difficulty": "muito_alta",
+    "statement": "Num modelo didático de balanço térmico, a taxa de armazenamento de energia térmica é S=M−W+C+R−E. Para uma tarefa, M=400 W, W=50 W, C=20 W, R=30 W e E=250 W. Um controle reduz R em 20 W e aumenta E em 40 W, mantendo os demais termos. Qual é S após o controle e sua redução relativa?",
+    "options": [
+      "90 W; redução de 60% em relação aos 150 W iniciais.",
+      "90 W; redução de 40% em relação aos 150 W iniciais.",
+      "110 W; redução de aproximadamente 26,7% em relação aos 150 W iniciais.",
+      "130 W; redução de aproximadamente 13,3% em relação aos 150 W iniciais.",
+      "210 W; aumento de 40% em relação aos 150 W iniciais."
+    ],
+    "answer": 1,
+    "explanation": "Inicial: 400−50+20+30−250=150 W. Depois, R=10 e E=290: S=90 W. Queda de 60/150=40%; 60% é o valor remanescente. 110 ou 130 ignoram um dos efeitos; 210 inverte o sentido do controle. O modelo não constitui critério normativo de exposição ao calor.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0028",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "radiacao_distancia_tempo",
+    "difficulty": "muito_alta",
+    "statement": "Para uma fonte pontual ideal sem blindagem nem espalhamento, a taxa de dose é proporcional a 1/r². Um plano inicial prevê 4 min a 1 m. Outro prevê 9 min a 3 m. Mantida a fonte, qual é a dose do segundo plano em relação ao primeiro?",
+    "options": [
+      "Um quarto da dose inicial.",
+      "Três quartos da dose inicial.",
+      "Um nono da dose inicial.",
+      "Nove quartos da dose inicial.",
+      "A mesma dose inicial."
+    ],
+    "answer": 0,
+    "explanation": "A razão entre taxas é 1/9 e entre tempos é 9/4; a razão de doses é (1/9)×(9/4)=1/4. Um nono ignora o aumento do tempo; 9/4 ignora a distância; 3/4 usa dependência linear com distância. O cálculo isolado não autoriza trabalho com radiação.",
+    "etapa": 1
+  }
+]

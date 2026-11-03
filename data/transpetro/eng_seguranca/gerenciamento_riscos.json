@@ -1,0 +1,242 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0029",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "frequencia_consequencia",
+    "difficulty": "media",
+    "statement": "Para priorização interna, um exercício define risco esperado como frequência anual do cenário multiplicada por perda por ocorrência, sem considerar outros critérios. O cenário A tem frequência 0,02/ano e perda de R$ 5 milhões. O B tem 0,10/ano e perda de R$ 0,4 milhão. Segundo esse indicador, qual resultado está correto?",
+    "options": [
+      "A: R$ 100 mil/ano; B: R$ 400 mil/ano; B tem maior perda anual esperada.",
+      "A: R$ 100 mil/ano; B: R$ 40 mil/ano; A tem maior perda anual esperada.",
+      "A: R$ 5 milhões/ano; B: R$ 0,4 milhão/ano; A tem maior perda anual esperada.",
+      "A: R$ 10 mil/ano; B: R$ 40 mil/ano; B tem maior perda anual esperada.",
+      "A: R$ 250 milhões/ano; B: R$ 4 milhões/ano; A tem maior perda anual esperada."
+    ],
+    "answer": 1,
+    "explanation": "A=0,02×5.000.000=100.000/ano; B=0,10×400.000=40.000/ano. Dividir pela frequência ou omiti-la troca o indicador; os valores de 10 mil e 400 mil erram multiplicadores. Isso não torna esse indicador o único critério aceitável de decisão real.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0030",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "apr_escopo",
+    "difficulty": "media",
+    "statement": "Antes de detalhar uma nova operação, a equipe quer identificar perigos, cenários e medidas iniciais a partir de etapas de trabalho e características gerais do processo. Ainda não dispõe de dados para probabilidades numéricas. Qual proposta atende ao objetivo sem prometer informação inexistente?",
+    "options": [
+      "Calcular frequências exatas a partir dos nomes das etapas, sem levantar mecanismos de falha.",
+      "Escolher apenas o evento mais grave e considerar a avaliação dos demais automaticamente encerrada.",
+      "Substituir a identificação de perigos pela média de acidentes de operações não caracterizadas como semelhantes.",
+      "Classificar a operação como sem risco até que cada probabilidade possa ser medida diretamente.",
+      "Realizar uma análise preliminar estruturada, registrando cenários, hipóteses e necessidades de aprofundamento."
+    ],
+    "answer": 4,
+    "explanation": "Uma análise preliminar pode organizar informações disponíveis e lacunas sem probabilidades inventadas. Ausência de quantificação não prova ausência de risco, um cenário não esgota todos e dados externos exigem comparabilidade e contexto.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0031",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "hazop_desvio_causas",
+    "difficulty": "alta",
+    "statement": "Em um nó de transferência de líquido, a intenção é manter fluxo do tanque A para B. A equipe examina “fluxo reverso”. Qual registro separa corretamente desvio, causa e consequência, sem tratá-los como sinônimos?",
+    "options": [
+      "Desvio: contaminação de A; causa: fluxo reverso; consequência: o nome da função de retenção.",
+      "Desvio: falha de retenção; causa: contaminação de A; consequência: diferença de sentido em relação à intenção.",
+      "Desvio: fluxo normal de A para B; causa: intenção de transferência; consequência: execução da intenção.",
+      "Desvio: fluxo de B para A; causa possível: falha de retenção com pressão maior em B; consequência possível: contaminação do conteúdo de A.",
+      "Desvio: pressão maior em B; causa: o registro do estudo; consequência: necessidade de preencher a planilha."
+    ],
+    "answer": 3,
+    "explanation": "O desvio compara fluxo real/intencional; falha de retenção e diferencial de pressão podem produzi-lo; a contaminação pode resultar dele. As demais versões trocam categorias, descrevem operação normal ou usam efeitos administrativos como cadeia física.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0032",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fmea_criterios_decisao",
+    "difficulty": "alta",
+    "statement": "Uma FMEA interna usa NPR=S×O×D. A equipe atribui a dois modos os valores A=(10,2,2) e B=(4,5,2). O procedimento também exige examinar separadamente modos com S≥9. Qual interpretação respeita ambos os critérios?",
+    "options": [
+      "NPR iguais demonstram consequências equivalentes e eliminam a análise separada de severidade.",
+      "O requisito S≥9 deve ser aplicado ao produto NPR, e por isso ambos recebem exatamente a mesma análise.",
+      "O NPR de B é maior que o de A, dispensando o exame de A porque sua ocorrência foi classificada como baixa.",
+      "O NPR de A é maior que o de B, e o procedimento permite ignorar a ocorrência dos dois modos.",
+      "Os dois NPR são 40, mas A ainda precisa do exame específico de severidade previsto no procedimento."
+    ],
+    "answer": 4,
+    "explanation": "10×2×2=40 e 4×5×2=40. Igual produto não iguala as dimensões. A tem S=10 e cumpre a condição específica; B tem S=4. O limiar interno não é norma universal e não se aplica ao produto.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0033",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arvore_falhas_ou",
+    "difficulty": "alta",
+    "statement": "Um evento ocorre se falhar o sensor A ou o sensor B. As probabilidades de falha no período são 0,02 e 0,03, independentes. Para a porta OU, P(A∪B)=P(A)+P(B)−P(A)P(B). Qual é a probabilidade do evento?",
+    "options": [
+      "0,0006.",
+      "0,9506.",
+      "0,0500.",
+      "0,0494.",
+      "0,0100."
+    ],
+    "answer": 3,
+    "explanation": "0,02+0,03−0,0006=0,0494. O produto 0,0006 corresponde à falha simultânea; 0,0500 soma sem descontar interseção; 0,9506 é o complemento do evento e 0,0100 apenas a diferença entre probabilidades.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0034",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "risco_individual_social",
+    "difficulty": "alta",
+    "statement": "Dois estudos apresentam resultados diferentes: um estima a frequência anual de fatalidade para uma pessoa hipotética num ponto; o outro relaciona frequências de cenários a números de pessoas atingidas. Qual distinção evita interpretar os dois resultados como a mesma medida?",
+    "options": [
+      "O primeiro descreve risco individual localizado; o segundo descreve a distribuição coletiva de consequências dos cenários.",
+      "O primeiro é um risco social porque usa frequência; o segundo é individual porque conta pessoas.",
+      "A presença de números de pessoas elimina a necessidade de frequências em qualquer avaliação coletiva.",
+      "Ambos medem a frequência de falha de um equipamento específico sem depender de ocupação humana.",
+      "O primeiro mede somente dano patrimonial; o segundo expressa obrigatoriamente apenas uma média de concentração."
+    ],
+    "answer": 0,
+    "explanation": "A distinção é entre exposição de um indivíduo em um ponto e consequências coletivas com suas frequências. Frequência ocorre nas duas métricas; não as torna iguais. Danos patrimoniais, concentração e falha isolada de equipamento não são os resultados descritos.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0035",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "analise_sensibilidade",
+    "difficulty": "alta",
+    "statement": "Um modelo estima o indicador R=f×C. A frequência f foi estimada entre 0,01 e 0,03/ano e a consequência fixa C vale 100 unidades por ocorrência. A decisão preliminar mudou quando f passou do extremo inferior ao superior. Qual uso da análise de sensibilidade é coerente?",
+    "options": [
+      "Tratar o valor médio como certeza e retirar a faixa de resultados do relatório decisório.",
+      "Concluir que C também varia obrigatoriamente na mesma proporção porque R contém as duas grandezas.",
+      "Substituir o intervalo por zero porque decisões sensíveis não podem utilizar modelos quantitativos.",
+      "Fixar f em 0,01/ano para eliminar a sensibilidade sem registrar o efeito do extremo superior.",
+      "Identificar que a incerteza em f afeta a decisão e priorizar sua investigação ou avaliar uma decisão robusta ao intervalo."
+    ],
+    "answer": 4,
+    "explanation": "R varia de 1 a 3 unidades/ano; se isso muda a decisão, a faixa é relevante. Escolher extremo ou média sem transparência não elimina incerteza; sensibilidade não invalida todo modelo nem exige que C varie junto.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0036",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "bow_tie_posicao_barreira",
+    "difficulty": "alta",
+    "statement": "Uma equipe define como evento central a perda de contenção de uma linha. No diagrama, um controle reduz a probabilidade de corrosão perfurar a parede; outro limita o espalhamento depois de um vazamento. Qual classificação segue a posição desses controles em relação ao evento central?",
+    "options": [
+      "Nenhum pode ser classificado sem transformar o evento central em frequência anual de fatalidades.",
+      "O primeiro é preventivo em relação à perda de contenção; o segundo é mitigador das consequências após essa perda.",
+      "O primeiro é mitigador e o segundo preventivo, pois espalhamento antecede necessariamente toda perda de contenção.",
+      "Os dois são mitigadores, porque qualquer controle só existe depois de identificar uma consequência.",
+      "Os dois são preventivos da perfuração, independentemente do momento em que atuam no cenário."
+    ],
+    "answer": 1,
+    "explanation": "A posição relativa ao evento central distingue evitar a perda de conter seus efeitos. Identificar perigos antes do estudo não muda a atuação física dos controles; espalhamento é posterior à perda e não é necessário calcular risco de fatalidade para essa classificação.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0037",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arvore_eventos_terminais",
+    "difficulty": "muito_alta",
+    "statement": "Um iniciador tem frequência 0,20/ano. Após ele, uma barreira A tem sucesso com probabilidade 0,90. Só se A falhar uma barreira B é demandada; sua probabilidade condicional de sucesso nesse ramo é 0,80. O dano ocorre apenas quando ambas falham. Qual é a frequência de dano e a do ramo em que B contém o cenário?",
+    "options": [
+      "Dano: 0,020/ano; contenção por B: 0,180/ano.",
+      "Dano: 0,040/ano; contenção por B: 0,160/ano.",
+      "Dano: 0,004/ano; contenção por B: 0,016/ano.",
+      "Dano: 0,016/ano; contenção por B: 0,004/ano.",
+      "Dano: 0,144/ano; contenção por B: 0,036/ano."
+    ],
+    "answer": 2,
+    "explanation": "Falha de A: 0,10; no ramo, falha de B: 0,20. Dano=0,20×0,10×0,20=0,004/ano. B contém=0,20×0,10×0,80=0,016/ano. Os demais pares omitem a demanda de B, trocam sucesso/falha ou atribuem o sucesso de A a B.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0038",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "dependencia_condicional",
+    "difficulty": "muito_alta",
+    "statement": "A falha A tem probabilidade 0,10 no período. O estudo estima P(B|A)=0,40 e P(B|não A)=0,02. Um analista propõe usar P(A)P(B), tratando-as como independentes, para o evento “A e B”. Qual resultado corresponde aos dados e qual é P(B)?",
+    "options": [
+      "P(A e B)=0,058; P(B)=0,040; a falha conjunta contém também todos os casos sem A.",
+      "P(A e B)=0,002; P(B)=0,020; as probabilidades condicionais podem ser descartadas.",
+      "P(A e B)=0,040; P(B)=0,058; o produto de marginais subestimaria a falha conjunta.",
+      "P(A e B)=0,040; P(B)=0,420; as condicionais devem ser somadas sem ponderação.",
+      "P(A e B)=0,0058; P(B)=0,058; o produto de marginais é obrigatório mesmo com dependência."
+    ],
+    "answer": 2,
+    "explanation": "Conjunta=0,10×0,40=0,040. Total B=0,10×0,40+0,90×0,02=0,058. Produto marginal=0,10×0,058=0,0058, menor que 0,040. Somar condicionais sem pesos e ignorar a dependência são erros distintos.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0039",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "alocacao_reducao_risco",
+    "difficulty": "muito_alta",
+    "statement": "Duas melhorias excludentes são comparadas por perda anual esperada evitada por unidade de custo. A custa 20 unidades e reduz um cenário de frequência 0,04 para 0,01/ano, com perda de 1.000 unidades por evento. B custa 10 unidades e reduz uma perda de 400 para 100 unidades, mantendo frequência de 0,06/ano. Não há outros efeitos neste modelo. Qual melhoria tem maior razão?",
+    "options": [
+      "B, com 6,0 por unidade de custo, contra 0,5 de A.",
+      "As duas empatam em 1,5 por unidade de custo.",
+      "A, com 2,0 por unidade de custo, contra 1,8 de B.",
+      "A, com 30 por unidade de custo, contra 18 de B.",
+      "B, com 1,8 por unidade de custo, contra 1,5 de A."
+    ],
+    "answer": 4,
+    "explanation": "A evita (0,04−0,01)×1.000=30/ano; razão 30/20=1,5. B evita 0,06×(400−100)=18/ano; razão 18/10=1,8. Usar risco inicial em A dá 2,0, omitir custo dá 30/18, e os demais não combinam reduções e custos corretamente. O indicador foi definido no exercício, não é critério legal universal.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0040",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "causa_comum_quantificacao",
+    "difficulty": "muito_alta",
+    "statement": "Duas barreiras têm falhas individuais independentes de probabilidade 0,02 cada, condicionadas à ausência de um evento comum. Esse evento comum ocorre com probabilidade 0,01 e, quando ocorre, faz ambas falharem. Qual é a probabilidade total de falha das duas no período, usando os ramos exclusivos “com evento comum” e “sem evento comum”?",
+    "options": [
+      "0,010396.",
+      "0,000400.",
+      "0,010400.",
+      "0,039600.",
+      "0,010000."
+    ],
+    "answer": 0,
+    "explanation": "P=0,01×1+0,99×(0,02×0,02)=0,01+0,000396=0,010396. 0,0004 ignora a causa comum; 0,01 ignora o ramo residual; 0,0104 soma sem ponderar a ausência da causa comum; 0,0396 é a união de duas falhas independentes de 0,02, não a conjunta pedida.",
+    "etapa": 1
+  }
+]

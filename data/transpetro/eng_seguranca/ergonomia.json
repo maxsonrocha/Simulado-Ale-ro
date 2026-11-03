@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0055",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "trabalho_real_variabilidade",
+    "difficulty": "alta",
+    "statement": "Um roteiro de montagem descreve peças leves e ciclos regulares. A observação mostra lotes com geometrias diferentes, correções frequentes e posturas de alcance não previstas. Qual estratégia é coerente com a análise do trabalho real?",
+    "options": [
+      "Excluir correções do estudo porque apenas ações previstas podem contribuir para exigências físicas ou cognitivas.",
+      "Usar exclusivamente a massa média das peças para concluir que alcance, ritmo e correções são irrelevantes.",
+      "Examinar a variabilidade observada e as regulações feitas pelos trabalhadores, relacionando-as às exigências e ao desenho da atividade.",
+      "Tratar toda adaptação do trabalhador como escolha sem relação com as condições da tarefa.",
+      "Avaliar somente o roteiro, pois a descrição prescrita já representa integralmente as exigências encontradas."
+    ],
+    "answer": 2,
+    "explanation": "A atividade real inclui variabilidade e adaptações com exigências próprias. Prescrição, massa média e exclusão de retrabalho não cobrem os achados. A análise não pressupõe que toda adaptação seja arbitrária ou indesejável.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0056",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "carga_cognitiva_interface",
+    "difficulty": "muito_alta",
+    "statement": "Uma sala de controle substituiu alarmes distintos por um único aviso sonoro para reduzir ruído. O número de avisos caiu, mas aumentou o tempo para identificar a origem e priorizar a resposta. O projeto quer reduzir interferência sonora sem perder discriminação de criticidade. Qual avaliação integra os resultados e o objetivo?",
+    "options": [
+      "Comparar exclusivamente a intensidade sonora média, substituindo as medidas de identificação e priorização por esse valor.",
+      "Aprovar o aviso único apenas pela menor contagem, porque a redução de ruído demonstra melhora de todas as exigências cognitivas.",
+      "Restaurar qualquer quantidade de avisos sobrepostos, considerando a contagem mais alta como garantia de identificação rápida.",
+      "Transferir a discriminação da origem para a memória do operador, sem verificar como isso afeta tempo e erros de resposta.",
+      "Testar uma codificação que preserve informações de origem e prioridade, avaliando simultaneamente interferência, identificação e resposta nas situações representativas."
+    ],
+    "answer": 4,
+    "explanation": "O objetivo combina menor interferência e informação suficiente. É necessário testar desempenho nos dois eixos; contagem ou intensidade isoladas não o demonstram. Mais alarmes não garantem discriminação e exigir memória sem avaliação pode deslocar a carga.",
+    "etapa": 1
+  }
+]

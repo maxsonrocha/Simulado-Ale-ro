@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0059",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "ciclo_vida_fronteiras",
+    "difficulty": "muito_alta",
+    "statement": "Para comparar embalagens, o projeto define emissões totais como fabricação mais operação. A descartável emite 1,0 kg por uso. A reutilizável emite 12 kg na fabricação e 0,20 kg por uso na lavagem e transporte, sem outras diferenças no modelo. Qual é o primeiro número inteiro de usos em que a reutilizável apresenta emissão total estritamente menor, e qual conclusão cabe?",
+    "options": [
+      "Qualquer uso; ser reutilizável elimina as emissões iniciais no cálculo do ciclo de vida.",
+      "15 usos; igualdade de emissões já caracteriza redução estrita para a reutilizável.",
+      "12 usos; o número de usos de equilíbrio é igual à emissão de fabricação, independentemente da lavagem.",
+      "16 usos; a vantagem depende do número efetivo de reutilizações e das fronteiras adotadas no modelo.",
+      "60 usos; deve-se dividir toda a fabricação apenas pela emissão operacional da reutilizável."
+    ],
+    "answer": 3,
+    "explanation": "Comparar 12+0,20n com 1,0n: 12<0,80n, portanto n>15. O primeiro inteiro é 16; em 15 há empate. Ignorar operação, dividir por 0,20 ou apagar fabricação altera o modelo. A conclusão depende de usos reais e das fronteiras explicitadas.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0060",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "intensidade_volume_multicriterio",
+    "difficulty": "muito_alta",
+    "statement": "Uma unidade produz 10.000 t usando 500 MWh e 1.000 m³ de água. Após uma mudança, produz 15.000 t usando 600 MWh e 900 m³. O relatório deve distinguir totais e intensidades. Qual síntese está correta?",
+    "options": [
+      "A intensidade energética cai 20%, mas a energia total sobe 20%; a água total cai 10% e sua intensidade cai 40%.",
+      "A intensidade energética sobe 20%, acompanhando o total; a água por tonelada permanece em 0,10 m³/t.",
+      "A energia por tonelada permanece em 0,05 MWh/t; a água total cai 10% e sua intensidade sobe 40%.",
+      "A energia total e sua intensidade caem 20%; a água total cai 40% e sua intensidade cai 10%.",
+      "Os dois totais diminuem porque a produção cresce; por isso é desnecessário apresentar valores por tonelada."
+    ],
+    "answer": 0,
+    "explanation": "Energia: 500/10.000=0,05 e 600/15.000=0,04 MWh/t, queda de 20%; total cresce 100/500=20%. Água: queda total 100/1.000=10%; intensidade passa de 0,10 a 0,06 m³/t, queda de 40%. Crescimento da produção não determina o sinal dos totais e as medidas não são intercambiáveis.",
+    "etapa": 1
+  }
+]

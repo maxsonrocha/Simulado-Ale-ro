@@ -1,99 +1,177 @@
 # Simulados por concurso
 
-A página inicia em concurso → cargo → configuração. O botão “Trocar concurso”
-permite voltar sem recarregar. Durante uma prova, informa que o resultado em
-andamento será descartado. Os resultados já salvos permanecem no navegador.
+Fluxo: concurso → cargo → configuração. “Trocar concurso” preserva dados salvos;
+durante uma prova, pede confirmação para encerrar a tentativa sem resultado.
+A aplicação continua HTML/CSS/JS puro, sem dependências em execução ou backend.
+Os caminhos relativos são compatíveis com GitHub Pages; os JSONs continuam
+precisando estar acessíveis como antes (não há service worker).
 
-## Configuração
+## Configuração e regras
 
-`CONCURSOS`, no início de `app.js`, concentra nomes, banca, cargos, caminhos
-relativos dos bancos, áreas, formatos/quantidades, regras, função de avaliação,
-limite e aviso do cronômetro. Os cards, cabeçalho, título, tipos de simulado e
-regras da configuração usam esse cadastro.
+`CONCURSOS`, no início de `app.js`, concentra cargos, bancos, áreas válidas,
+formatos/quantidades, avaliação, resumo de resultados e cronômetro.
 
-ALERO mantém os sete JSON em seus caminhos originais. Cada cargo carrega seu
-específico e os cinco bancos gerais. As quantidades continuam PORT 12, RLM 6,
-INFO 6, LEG 8, HGR 8 e ESP 40; o específico tem 40 e o caderno limita a 80.
-O algoritmo de sorteio e a preservação dos grupos de Português continuam iguais.
-As vistas continuam sendo registradas na finalização e não excluem questões dos
-sorteios, como na versão anterior.
+| Concurso | Completo | Específico | Erradas | Duração / aviso |
+| --- | --- | --- | --- | --- |
+| ALERO — FGV | PORT 12, RLM 6, INFO 6, LEG 8, HGR 8, ESP 40 | ESP 40 | até 80, grupos inteiros | 4h / 15min |
+| Transpetro 2026 — Fundação Cesgranrio | PORT 10, ING 10, ESP 50 | ESP 50 | grupos com erradas, sem limite adicional | 4h30 / 15min |
 
-`computeScore` contabiliza respostas e delega a aprovação a `avaliar`.
-`evaluateAlero` preserva os mínimos proporcionais, arredondados para cima:
-30% gerais, 40% específico e 40% total. Os dois modos continuam com quatro horas,
-aviso aos quinze minutos finais e finalização automática. O aviso agora é
-reiniciado a cada simulado.
+PROVA e TREINO compartilham o mesmo sorteio e cronômetro configurado do concurso,
+inclusive nos formatos parciais, seguindo o comportamento anterior.
 
-Transpetro possui apenas nome, banca e cargo. Banco, avaliação e tempo estão
-pendentes; não são herdados da ALERO. A configuração mostra “Banco de questões
-da Transpetro em preparação.” e desabilita gerar simulado. Não há JSON fictício.
-Para habilitar futuramente, fornecer bancos oficiais (por exemplo em
-`data/transpetro/`), áreas, formatos/quantidades, regras, função de avaliação e
-tempo. Se os módulos/regras oficiais diferirem dos da ALERO, adaptar também a
-apresentação do resumo de aprovação; o componente atual apresenta dois módulos.
-O formato atual das questões utiliza cinco alternativas e gabarito de 0 a 4.
+ALERO mantém os sete JSONs e todos os caminhos originais. `evaluateAlero` preserva
+os mínimos proporcionais com arredondamento para cima: 30% gerais, 40% específico
+e 40% total. Sua situação continua OK/ELIMINADO.
 
-## Armazenamento e migração
+`evaluateTranspetro` é independente: a prova completa vale 70 pontos (1 por
+questão, cinco alternativas, uma correta) e exige simultaneamente ESP ≥ 25/50,
+PORT + ING ≥ 10/20, PORT > 0 e ING > 0. Retorna APROVADO/REPROVADO e todos os
+motivos de reprovação. Nos formatos específico/erradas, informa “NÃO APLICÁVEL
+(simulado parcial)”: não inventa cortes proporcionais ou aprovação oficial.
+O resumo apresenta Português, Inglês, Gerais, Específicos, total, percentual,
+erros, tempo e situação. As estratégias de avaliação/resumo são configuráveis.
 
-Chaves: `simulado_<CONCURSO>_<CARGO>_history`, `_wrong` e `_seen`.
-Exemplos: `simulado_ALERO_DES_history`, `simulado_ALERO_ARQ_wrong`,
-`simulado_TRANSPETRO_ENG_SEG_seen`. Histórico e estatísticas consultam apenas a
-seleção atual. Cada novo resultado registra concurso, cargo, data, total,
-acertos, percentual, tempo e detalhamento. Limpar histórico remove histórico,
-erradas e vistas somente da seleção atual.
+## Bancos e assuntos da Transpetro
 
-A migração copia, sem apagar as originais, as chaves antigas
-`simulado_history_v1__<CARGO>`, `simulado_wrong_ids_v1__<CARGO>` e
-`simulado_seen_ids_v1__<CARGO>`, aceitando DES/DESENHISTA e ARQ/ARQUITETO.
-Usa um marcador `<nova-chave>_migrated_v1` por conjunto para não reimportar dados
-depois de uma limpeza. Não mistura cargos nem atribui dados sem identificação.
+Os 13 arquivos em `data/transpetro/eng_seguranca/` contêm um **lote parcial de
+100 questões da Etapa 1** (20 PORT, 20 ING, 60 ESP). Legislação permanece vazio.
+A meta de 700 não foi concluída. Relatório: [Etapa 1](docs/transpetro-etapa-1-relatorio.md).
 
-**Limitação do legado:** a versão anterior declarava `role` duas vezes e nunca
-chamava `setRoleStorageKeys`. Assim, podia gravar os três tipos de dados na mesma
-chave literal `undefined`, sobrescrevendo conteúdo. Essa chave é preservada
-intacta; não há informação suficiente para recuperar ou separar automaticamente
-seu conteúdo com segurança. Chaves antigas sem cargo também permanecem intactas.
+Arquivos:
 
-## Funções
+- `portugues.json` (PORT), `ingles.json` (ING);
+- ESP: `prevencao_riscos.json`, `gerenciamento_riscos.json`, `legislacao_nr.json`,
+  `gestao_sms.json`, `emergencias.json`, `incendio.json`, `acidentes.json`,
+  `higiene_ocupacional.json`, `saude_ocupacional.json`, `ergonomia.json`,
+  `desenvolvimento_sustentavel.json`.
 
-Novas: `currentContest`, `currentRole`, `selectionLabel`, `evaluateAlero`,
-`migrateLegacyStorage`, `renderChoices`, `selectContest`, `selectRole`,
-`changeContest`.
+`ASSUNTOS_ENG_SEG` mapeia esses identificadores aos onze nomes completos dos grupos
+de conhecimentos específicos. O cadastro do cargo aponta para todos os arquivos.
+Não há preenchimento automático ou questões de teste nos bancos reais.
+O motor, os grupos e o armazenamento permanecem os da infraestrutura anterior.
 
-Alteradas: `showView`, `computeScore`, `saveResults`, `timerStart`, `timerReset`,
-`loadQuestionsBank`, `validateQuestion`, `generateExam`, `renderModulesSummary`,
-`renderResult`, `setRoleStorageKeys`, `readConfig`, inicialização e eventos de
-início, limpeza e repetição de erradas. Durante o carregamento, ações de troca e
-inícios repetidos ficam bloqueados para evitar mudança de seleção assíncrona.
+Futuras questões devem informar `id` único, `concurso: "TRANSPETRO"`,
+`cargo: "ENG_SEG"`, `area`, `assunto`, `statement`, cinco strings em `options`,
+`answer` inteiro de 0 a 4 e `explanation` string. O lote acrescenta `subassunto`,
+`difficulty` (`media`, `alta`, `muito_alta`) e `etapa: 1`. A validação editorial
+exige explicação não vazia. Os números de dificuldade da ALERO são preservados. Em ESP, `assunto` deve ser o
+identificador cadastrado e corresponder ao arquivo. Em PORT/ING, é um texto
+não vazio para o assunto, sem inventar um programa de tópicos nesta etapa.
+O carregador aceita arrays e o envelope legado `{ "questions": [...] }`.
+ALERO continua aceitando `topic` e não precisa de novos campos de identidade.
 
-## Validação
+O lote já permite prova completa 10/10/50 e específico 50. Garante **uma**
+prova completa inteiramente inédita por ciclo, não dez; faltam questões para
+a capacidade planejada. O botão de gerar permite configurar e iniciar.
+Banco vazio/insuficiente mantém a configuração visível e informa, por disciplina,
+disponíveis e necessárias. Nenhuma prova vazia é iniciada, nenhum timer é
+acionado e nenhum banco alheio completa a quantidade. Basta adicionar questões
+válidas e suficientes aos arquivos para habilitar os sorteios, sem alterar o motor.
 
-A aplicação continua HTML/CSS/JS puro, sem dependências em execução, backend ou
-etapa de build. GitHub Pages continua usando os mesmos caminhos relativos.
-O comportamento offline-friendly anterior é preservado; não foi adicionado
-service worker e os JSON precisam estar acessíveis como antes.
+## Sorteio, vistas e grupos
 
-Testes de navegador em `tests/multiconcurso.cjs` usam Playwright **somente como
-ferramenta de desenvolvimento**; Node/Playwright não são necessários para usar
-ou publicar o simulador. Com essa ferramenta disponível externamente:
+**Diagnóstico da main anterior (`c706018`):** vistas eram acumuladas somente ao
+finalizar, mas não eram consultadas pelo sorteio; não havia ciclo de não repetição.
+Grupos `groupId` eram preservados na prova completa apenas em Português; o
+caderno de erradas sorteava questões isoladas. Não foi presumida a existência
+dessas funcionalidades: os comportamentos abaixo foram implementados nesta etapa.
+
+O motor reutiliza `shuffle` entre blocos e `groupToBlocks`, mantendo `groupId`
+e `_ord` (posição no arquivo carregado). Não foi introduzido `groupOrder`.
+A ordem dos arquivos configurados resolve grupos que atravessam arquivos.
+Grupos são delimitados também por área, permanecem completos, contíguos e em
+ordem interna. Isso vale em PORT, ING, ESP e nas demais áreas da ALERO.
+
+A seleção por área utiliza uma combinação de blocos de tamanho exato que maximiza
+questões inéditas no ciclo, com desempate aleatório entre blocos. Isso evita a
+falha de uma escolha gulosa quando existem grupos de tamanhos diferentes.
+Enquanto uma combinação inteiramente inédita for possível, não há repetição.
+Na cauda do banco, se não houver inéditas suficientes/compatíveis para a quantidade
+exata, usa o máximo possível de inéditas e completa com vistas, sem cortar grupos.
+Se nem uma combinação com vistas for possível, informa insuficiência por grupos.
+
+A área renova seu ciclo somente quando todos os blocos aplicáveis já foram
+utilizados. Grupos maiores que a quantidade do formato não são aplicáveis nesse
+formato. Outros cargos, concursos e áreas não são reiniciados. O sorteio só grava
+ciclo/vistas depois de obter a prova inteira; tentativas insuficientes não os
+alteram. A emissão da prova já reserva as questões, mesmo se ela for abandonada.
+Não há persistência de uma prova em andamento; respostas e marcações continuam
+em memória, como antes.
+
+O caderno seleciona blocos com pelo menos uma questão errada e inclui seus
+companheiros para preservar contexto, podendo ficar abaixo do limite para não
+cortar um grupo na ALERO. A Transpetro não recebe um limite de erradas não
+especificado: usa os grupos com erros disponíveis. Companheiros corretos não são inseridos automaticamente na lista
+de IDs errados; quando respondidos na revisão, todos são corrigidos normalmente.
+A revisão não avança nem reinicia o ciclo normal. A tela e o relatório também
+reapresentam o enunciado/imagem da questão-base nas dependentes. Isso permite
+entender o contexto mesmo ao navegar diretamente pelo mapa.
+
+## Persistência e estatísticas
+
+Prefixo `simulado_<CONCURSO>_<CARGO>`: `_history`, `_wrong`, `_seen` e `_cycle`.
+Exemplos: `simulado_ALERO_DES_cycle`, `simulado_ALERO_ARQ_history`,
+`simulado_TRANSPETRO_ENG_SEG_wrong`. `_seen` é acumulado; `_cycle` controla o ciclo
+corrente por área. Na primeira utilização, vistas antigas alimentam o ciclo.
+Limpar histórico apaga os quatro conjuntos apenas da seleção atual.
+
+Cada nova tentativa salva concurso, cargo, data, modo, tipo, total, acertos, erros,
+pontos, percentual, tempo, situação, aprovação quando aplicável, motivos, `byArea`,
+`bySubject` (área → assunto → acertos/total) e `byTopicEsp` legado.
+`aggregateHistory` agrega áreas, tópicos e assuntos somente da seleção atual.
+O resumo existente de tópicos específicos usa os assuntos da Transpetro;
+nenhum dashboard temático adicional foi criado.
+
+A migração anterior permanece: copia chaves `simulado_*_v1__<CARGO>` identificadas
+como DES/DESENHISTA ou ARQ/ARQUITETO e usa marcadores por conjunto para não reimportar
+após uma limpeza. Não apaga originais. A chave antiga `undefined`, consequência
+de chaves não inicializadas antes da primeira etapa, permanece intacta: não há
+identidade confiável para separá-la automaticamente.
+
+## Testes
 
 ```sh
-python -m http.server 8000 --bind 127.0.0.1
-# Em outro terminal, na raiz do repositório:
 node --check app.js
+node --test tests/transpetro.cjs
+# Para os testes de navegador, servir a raiz em outro terminal:
+python -m http.server 8000 --bind 127.0.0.1
 node tests/multiconcurso.cjs
+node tests/transpetro-ui.cjs
 ```
 
-O script usa `/usr/bin/chromium` por padrão; aceita `CHROMIUM_PATH` e
-`SIMULADO_URL`. Cria um contexto de navegador isolado e não acessa os dados
-pessoais do navegador do usuário. Compara sorteios e pontuação ao código
-original do commit `74e41d2`, disponível no histórico Git.
+Os testes de lógica usam somente módulos nativos do Node. Playwright é ferramenta
+externa de desenvolvimento para os testes de navegador, não dependência do site.
+Os scripts aceitam `CHROMIUM_PATH` (padrão `/usr/bin/chromium`) e `SIMULADO_URL`.
+Executam em contextos isolados; mocks são exclusivos da memória dos testes e das
+requisições interceptadas no navegador. Nenhum mock vai para os JSONs reais.
 
-Cobertura: dois cargos × dois modos × dois formatos; quantidades, IDs únicos,
-grupos completos, equivalência de sorteios com sementes controladas, equivalência
-de pontuação, feedback imediato, resultados, histórico, erradas e correção do
-caderno; migração idempotente; limpeza sem reimportação e sem afetar outro cargo;
-Transpetro bloqueada sem requisições de banco; isolamento entre concursos;
-aviso, expiração e reinicialização do cronômetro; troca durante a prova;
-layout inicial em 390 px; ausência de erros JavaScript e de respostas HTTP de
-erro nos recursos usados. IDs HTML/JS, caminhos dos JSON e diff também revisados.
+Cobertura: configuração, cortes e notas zero, múltiplos motivos, bancos vazios e
+insuficientes, validação retrocompatível, isolamento, ciclo/renovação, grupos e
+contexto, estatísticas/histórico, ambos os cargos ALERO e modos/formatos,
+mapa/navegação/marcação, feedback, erradas e timers. A pontuação da ALERO é
+comparada com a implementação original do commit `74e41d2`; o sorteio não é mais
+comparado questão a questão, pois agora considera as vistas e todos os grupos.
+
+## Validação do banco — Etapa 1 parcial
+
+```sh
+node scripts/validate-transpetro.cjs --partial
+node scripts/audit-transpetro-calculations.cjs
+node scripts/audit-transpetro-similarity.cjs
+node --test tests/transpetro.cjs tests/transpetro-bank.cjs
+# Com o servidor local e Playwright disponível:
+node tests/transpetro-bank-ui.cjs
+```
+
+`node scripts/validate-transpetro.cjs` **sem `--partial` deve falhar** enquanto
+o banco não contiver exatamente 700 e a matriz completa. A opção parcial não
+altera a meta: exige as quantidades declaradas no plano, a proporção de
+dificuldades em cada área e a auditoria individual dos itens presentes.
+`--structure-only` isola a primeira rodada estrutural, sem substituir a revisão
+de conteúdo exigida por padrão.
+
+Os arquivos em `docs/auditorias/` registram estrutura, cálculos, triagem lexical e
+parecer sobre as cinco alternativas de cada item. O hash de cada questão impede
+reutilizar um parecer após mudar seu conteúdo. Esses controles não constituem
+prova automática de unicidade semântica nem calibração psicométrica: a revisão
+editorial e a revisão humana de domínio continuam distintas dos testes.

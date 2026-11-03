@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TP26-ENGSEG-PORT-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "tese_evidencia",
+    "difficulty": "media",
+    "statement": "Uma equipe instalou sensores em duas bombas para antecipar falhas. Em três meses, os alertas permitiram interromper uma operação antes de uma avaria. O relatório registrou também seis alertas sem defeito confirmado. A gerente recusou tanto retirar os sensores quanto ampliar imediatamente o projeto: queria comparar o custo das verificações com o das interrupções evitadas. Para ela, reconhecer um benefício não dispensava examinar o custo de obtê-lo.\n\nA posição da gerente caracteriza-se pela decisão de",
+    "options": [
+      "considerar os alertas não confirmados prova suficiente da inutilidade do projeto.",
+      "limitar a avaliação ao desempenho técnico, sem considerar as verificações.",
+      "tomar a avaria evitada como justificativa suficiente para ampliar o projeto.",
+      "comparar os benefícios com os custos das verificações.",
+      "adiar a análise econômica até que uma falha deixe de ser antecipada."
+    ],
+    "answer": 3,
+    "explanation": "A gerente reconhece o benefício e exige a comparação econômica. Ela não conclui que o projeto seja inútil, nem que o benefício baste para expandi-lo. Também não condiciona a análise a uma falha futura nem exclui custos.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-001"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "pressuposicao_argumentativa",
+    "difficulty": "alta",
+    "statement": "Qual afirmação enfraqueceria especificamente a justificativa para ampliar imediatamente o projeto, sem negar o benefício relatado?",
+    "options": [
+      "A instalação dos sensores antecedeu o período de observação.",
+      "As verificações exigidas por alertas não confirmados podem custar mais que as interrupções evitadas.",
+      "Uma das operações foi interrompida antes da ocorrência de uma avaria.",
+      "A experiência inicial abrangeu somente duas bombas da instalação.",
+      "O relatório distinguiu alertas com e sem defeito confirmado."
+    ],
+    "answer": 1,
+    "explanation": "A possibilidade de custo superior ao benefício questiona a expansão pelo resultado líquido, mas preserva a avaria evitada. O tamanho do estudo já recomenda cautela, porém não confronta especificamente a justificativa econômica; os demais fatos não a enfraquecem.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-001"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "causalidade_textual",
+    "difficulty": "alta",
+    "statement": "No terminal, o tempo médio entre a chegada e a liberação de veículos caiu de quarenta para trinta minutos após a implantação de um agendamento digital. No mesmo período, porém, o volume de veículos caiu um quarto e uma segunda equipe passou a conferir documentos. A direção divulgou a redução, mas evitou atribuí-la exclusivamente ao aplicativo. Pretendia comparar dias de volumes semelhantes, distinguindo os que tiveram uma ou duas equipes. O êxito administrativo de anunciar um número favorável não equivalia, assim, à demonstração de sua causa.\n\nA expressão “No mesmo período, porém” introduz informações que",
+    "options": [
+      "substituem o objetivo de comparar dias pelo de divulgar resultados.",
+      "limitam a explicação centrada no aplicativo.",
+      "negam que o tempo médio tenha efetivamente diminuído.",
+      "demonstram que a queda de volume não interferiu na liberação.",
+      "estabelecem que o aumento da equipe foi consequência do aplicativo."
+    ],
+    "answer": 1,
+    "explanation": "O contraste incide sobre a explicação causal, não sobre a redução observada. O texto não estabelece causalidade entre equipe e aplicativo, não exclui o efeito do volume e mantém a intenção de comparar dias.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-002"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "inferencia_controle_contrafactual",
+    "difficulty": "muito_alta",
+    "statement": "Consideradas a ressalva da direção e a comparação proposta, qual novo resultado permitiria avançar na análise sem autorizar a conclusão de causalidade exclusiva?",
+    "options": [
+      "O tempo médio caiu quando se reuniram dias de volumes e equipes distintos num único conjunto.",
+      "Os usuários aprovaram o aplicativo, mas a medição do tempo foi suspensa na fase de comparação.",
+      "Em dias com volumes e equipes semelhantes, o tempo continuou menor após o aplicativo, embora outras mudanças não tenham sido examinadas.",
+      "A direção divulgou a redução antes de comparar os dias, mas o anúncio teve repercussão positiva.",
+      "O tempo caiu nos dias de menor volume, mas não foi registrada a quantidade de equipes em serviço."
+    ],
+    "answer": 2,
+    "explanation": "Controlar as duas mudanças citadas reduz essas explicações concorrentes; não examinar outras mudanças impede afirmar exclusividade causal. Os demais resultados deixam os controles incompletos, perdem a medida de interesse ou dizem respeito à comunicação, não à causa.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-002"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "modalizacao",
+    "difficulty": "media",
+    "statement": "Um piloto de inspeção por drones foi realizado apenas em estruturas acessíveis a partir de uma área isolada. A equipe concluiu que a ferramenta pode reduzir o tempo de algumas verificações visuais. Acrescentou que ela não dispensa avaliação humana das imagens nem resolve, por si, o acesso a todos os pontos de uma instalação. No parecer, “pode” indicava uma possibilidade apoiada na experiência limitada; não era uma promessa de resultado universal. A equipe recomendou ampliar a observação antes de estabelecer metas para toda a unidade.\n\nNo parecer, o verbo “pode” expressa",
+    "options": [
+      "possibilidade de benefício sob as condições observadas.",
+      "obrigação de substituir todas as inspeções presenciais.",
+      "hipótese declarada incompatível com o piloto realizado.",
+      "permissão jurídica para dispensar a avaliação humana.",
+      "certeza de redução em qualquer estrutura da unidade."
+    ],
+    "answer": 0,
+    "explanation": "O próprio texto explica o valor de possibilidade e delimita a experiência. Não se trata de obrigação, garantia universal, autorização jurídica ou rejeição da hipótese.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-003"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "reescrita_escopo",
+    "difficulty": "alta",
+    "statement": "Qual reescrita preserva conjuntamente a modalização e a restrição de alcance da conclusão?",
+    "options": [
+      "A ferramenta talvez substitua as verificações visuais, embora não possa reduzir seu tempo.",
+      "A ferramenta só poderá reduzir o tempo depois que alcançar todos os pontos da instalação.",
+      "A ferramenta contribui necessariamente para reduzir o tempo de qualquer verificação visual.",
+      "Em algumas verificações visuais, a ferramenta pode reduzir o tempo.",
+      "A ferramenta reduzirá o tempo de todas as verificações quando a avaliação humana for retirada."
+    ],
+    "answer": 3,
+    "explanation": "“Em certas” conserva o alcance parcial, e “é capaz de contribuir” mantém possibilidade. As outras versões universalizam, introduzem condição contrária à avaliação humana, negam o benefício ou criam condição de cobertura total inexistente.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-003"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "referencia_sujeito_oculto",
+    "difficulty": "alta",
+    "statement": "A técnica entregou à coordenadora o relatório que havia revisado durante a madrugada. No registro da reunião, a frase pareceu precisa a quem já conhecia a divisão das tarefas. Para o leitor externo, entretanto, não ficava claro se a revisão fora feita pela técnica ou pela coordenadora: o sujeito de “havia revisado” não estava expresso, e ambas poderiam ocupar essa posição. A coordenadora solicitou uma redação que identificasse a revisora, sem mudar a autoria da entrega e sem sugerir que as duas tinham revisado o documento.\n\nA dificuldade apontada decorre principalmente",
+    "options": [
+      "da incompatibilidade de “durante a madrugada” com o tempo verbal empregado.",
+      "da exigência de que todo pronome relativo retome um nome de pessoa.",
+      "da dupla possibilidade de sujeito para “havia revisado”.",
+      "da impossibilidade de reconhecer quem recebeu o relatório na primeira oração.",
+      "da falta de concordância entre “relatório” e a forma verbal “havia revisado”."
+    ],
+    "answer": 2,
+    "explanation": "A entrega e a destinatária estão claras; o problema é o agente de “havia revisado”. O adjunto temporal é compatível, “relatório” funciona como objeto retomado por “que” e relativos podem retomar coisas.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-004"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "reescrita_agencia_regencia",
+    "difficulty": "muito_alta",
+    "statement": "Sabendo-se que a técnica revisou o documento, qual redação atende a todas as condições da coordenadora e mantém a norma-padrão?",
+    "options": [
+      "A coordenadora entregou à técnica o relatório que esta havia revisado durante a madrugada.",
+      "A técnica entregou à coordenadora o relatório que ela própria, a técnica, havia revisado durante a madrugada.",
+      "A técnica entregou à coordenadora o relatório cuja revisão esta havia feito durante a madrugada.",
+      "A técnica entregou a coordenadora o relatório que ambas haviam revisado durante a madrugada.",
+      "A técnica entregou à coordenadora o relatório ao qual esta havia revisado durante a madrugada."
+    ],
+    "answer": 1,
+    "explanation": "A forma correta mantém a entrega pela técnica, identifica explicitamente a revisora e usa “à coordenadora”. A versão com “ambas” muda a autoria e omite a crase; a inversão muda a entrega; “esta” junto à coordenadora não identifica inequivocamente a técnica; revisar é transitivo direto, não pede “ao qual”.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-004"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "sentido_contextual_precisao",
+    "difficulty": "alta",
+    "statement": "Um programa voluntário de caronas registrou aumento do número de usuários regulares de sessenta para noventa. O boletim chamou o resultado de “crescimento de adesão”, sem informar que o total de pessoas elegíveis havia passado de cem para duzentas. Ao revisar o texto, uma analista manteve os números absolutos, mas acrescentou as proporções correspondentes e retirou a afirmação de que a adesão relativa crescera. A revisão não pretendia desqualificar o programa: procurava distinguir o alcance absoluto da participação relativa.\n\nA distinção defendida pela analista exige",
+    "options": [
+      "distinguir o número de usuários de sua proporção entre os elegíveis.",
+      "omitir o crescimento do público elegível para manter comparáveis os dois resultados.",
+      "substituir os números absolutos por uma avaliação exclusivamente subjetiva do programa.",
+      "atribuir a redução da participação relativa à inexistência de benefícios das caronas.",
+      "tomar “crescimento de adesão” como expressão necessariamente inadequada em qualquer texto."
+    ],
+    "answer": 0,
+    "explanation": "A distinção é entre contagem e proporção. A analista mantém ambas, não nega benefícios, não condena universalmente a expressão e considera indispensável informar a mudança do universo.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-005"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "inferencia_quantitativa_argumento",
+    "difficulty": "muito_alta",
+    "statement": "Qual síntese combina corretamente os números e a finalidade argumentativa da revisão?",
+    "options": [
+      "Os usuários aumentaram 30%, enquanto a participação ficou em 45%; a revisão substitui alcance por satisfação pessoal.",
+      "Os usuários aumentaram 50%, mas sua participação caiu para 30%; a revisão conclui que a queda foi causada pelo programa.",
+      "Os usuários aumentaram 50%, e sua participação cresceu de 60% para 90%; a revisão apenas relativiza um ganho comprovado.",
+      "Os usuários aumentaram 50%, mas sua participação caiu de 60% para 45%; as duas medidas descrevem dimensões distintas do alcance.",
+      "Os usuários aumentaram 30%, e a participação caiu 15%; logo, a revisão demonstra a ausência de alcance do programa."
+    ],
+    "answer": 3,
+    "explanation": "De 60 para 90 há aumento de 30/60=50%. As proporções são 60/100=60% e 90/200=45%, queda de 15 pontos percentuais. Nenhum dado mede satisfação ou demonstra falta de benefício, nem identifica causa para a mudança de proporção.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-005"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "referencia_demonstrativo",
+    "difficulty": "media",
+    "statement": "O supervisor pediu que os operadores registrassem as interrupções assim que elas ocorressem. Explicou que o objetivo não era contar relatos, mas compreender por que equipamentos semelhantes paravam em condições diferentes. Nos primeiros dias, o número de registros aumentou; isso, segundo ele, podia refletir maior disposição para informar, e não necessariamente mais interrupções. “Esse aumento precisa ser interpretado”, afirmou. A decisão de alterar a rotina dependeria da análise dos eventos registrados, não apenas da contagem de formulários.\n\nNo trecho “Esse aumento precisa ser interpretado”, o demonstrativo retoma diretamente",
+    "options": [
+      "a elevação da duração média das interrupções analisadas.",
+      "o crescimento da quantidade de equipamentos semelhantes instalados.",
+      "a ampliação comprovada do número de interrupções dos equipamentos.",
+      "o aumento dos registros nos primeiros dias.",
+      "o aumento da disposição do supervisor para alterar a rotina."
+    ],
+    "answer": 3,
+    "explanation": "O antecedente textual explícito é o número de registros. A maior frequência real de interrupções é justamente posta em dúvida; equipamentos, duração e disposição do supervisor não têm aumentos informados.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-006"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "tempo_modo_finalidade",
+    "difficulty": "alta",
+    "statement": "Na orientação “registrassem as interrupções assim que elas ocorressem”, as formas verbais e o conector apresentam",
+    "options": [
+      "a ação pedida e o momento previsto para realizá-la.",
+      "duas ações habituais no presente, apresentadas como independentes entre si.",
+      "uma causa comprovada e o resultado necessário do aumento dos formulários.",
+      "uma hipótese rejeitada e a condição impossível para modificar a rotina.",
+      "duas ações passadas declaradas concluídas antes do pedido do supervisor."
+    ],
+    "answer": 0,
+    "explanation": "O subjuntivo integra o conteúdo do pedido e a ocorrência esperada; “assim que” marca prontidão temporal. Não afirma fatos passados concluídos nem converte a orientação em causa, hipótese impossível ou ações presentes independentes.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-006"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "concessao_coerencia",
+    "difficulty": "alta",
+    "statement": "Embora a substituição de luminárias tenha reduzido o consumo elétrico por hora de funcionamento, o consumo anual do galpão aumentou. A unidade passou a operar também à noite, e o total de horas de iluminação cresceu mais que a redução do consumo horário. A equipe chamou a troca de eficiente, mas recusou apresentá-la como redução do consumo anual. Para planejar a próxima intervenção, propôs analisar equipamentos e horários em conjunto. Melhorar uma parte do sistema não equivale necessariamente a diminuir seu consumo total.\n\nA oração iniciada por “Embora” constrói uma relação de",
+    "options": [
+      "retificação da afirmação de que houve redução no consumo horário das luminárias.",
+      "causalidade suficiente entre luminárias eficientes e aumento do consumo por hora.",
+      "comparação entre dois equipamentos que operaram pelo mesmo número de horas.",
+      "condição indispensável para que o galpão pudesse passar a funcionar à noite.",
+      "concessão entre uma melhora parcial e um resultado global diferente do esperado."
+    ],
+    "answer": 4,
+    "explanation": "A melhora horária é admitida, apesar do aumento anual. Ela não é negada nem apresentada como condição de funcionamento noturno ou comparação com horas iguais. Também não se afirma que o consumo por hora aumentou.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-007"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "integracao_concessao_escopo",
+    "difficulty": "muito_alta",
+    "statement": "Uma revisão pretende evitar a inferência de que o texto condena a troca das luminárias. Qual frase pode ser acrescentada sem contrariar o argumento?",
+    "options": [
+      "A operação noturna tornou impossível avaliar o consumo por hora, de modo que a eficiência foi apenas presumida.",
+      "A troca elimina a necessidade de discutir horários, porque sua eficiência independe do consumo anual.",
+      "Para a equipe, qualquer eficiência parcial assegura uma queda anual, desde que o equipamento seja novo.",
+      "O aumento do consumo anual comprova que a troca elevou a energia exigida em cada hora de iluminação.",
+      "Sem a troca, mantidas as novas horas de operação e as demais condições, o consumo anual seria maior que o observado."
+    ],
+    "answer": 4,
+    "explanation": "A inferência contrafactual combina menor consumo horário com a manutenção das novas horas: sem a melhora, o total seria maior, embora possa ter aumentado frente ao ano anterior. As demais frases dispensam a análise conjunta, negam a melhora ou inventam garantia ou impossibilidade não presentes.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-007"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "pontuacao_restritiva",
+    "difficulty": "media",
+    "statement": "Os técnicos que concluíram a capacitação receberam acesso ao laboratório. O aviso foi afixado para orientar uma equipe na qual alguns profissionais ainda não haviam concluído o curso. Um revisor sugeriu inserir vírgulas em torno de “que concluíram a capacitação”, alegando que se tratava apenas de uma pausa de leitura. A responsável rejeitou a mudança: a pontuação não deveria apresentar como simples informação acessória aquilo que delimitava o grupo autorizado. O comunicado precisava manter distinta a condição de capacitado da condição de integrante da equipe.\n\nNo primeiro período, a oração “que concluíram a capacitação” tem função de",
+    "options": [
+      "indicar a finalidade da concessão do acesso ao laboratório.",
+      "estabelecer uma comparação entre capacitação e trabalho em equipe.",
+      "explicar uma característica afirmada de todos os técnicos da equipe.",
+      "atribuir a concessão de acesso à vontade exclusiva do revisor.",
+      "delimitar quais técnicos receberam acesso."
+    ],
+    "answer": 4,
+    "explanation": "Sem vírgulas, a relativa delimita os técnicos que receberam acesso. Não é informação explicativa de todos, nem oração final, comparativa ou de atribuição de vontade.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-008"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "crase_concordancia_contextual",
+    "difficulty": "alta",
+    "statement": "Qual redação preserva a restrição aos capacitados e observa a norma-padrão?",
+    "options": [
+      "Foram concedido acesso ao laboratório aos técnicos que concluíram a capacitação.",
+      "Foi concedido acesso ao laboratório somente aos técnicos que concluíram a capacitação.",
+      "Foi concedido acesso ao laboratório à todos os técnicos, que concluíram a capacitação.",
+      "Concederam-se acesso ao laboratório somente aos técnicos que concluíram a capacitação.",
+      "Concedeu-se acesso ao laboratório aos técnicos, que concluíram a capacitação."
+    ],
+    "answer": 1,
+    "explanation": "“Acesso” singular determina “foi concedido”; “aos” introduz os destinatários e a relativa continua restritiva. Não há crase antes de “todos”. As formas “foram concedido” e “concederam-se acesso” violam a concordância passiva; as vírgulas tornam a capacitação explicativa no conjunto mencionado.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-008"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "condicao_possibilidade",
+    "difficulty": "alta",
+    "statement": "O manual interno de um centro de pesquisas estabelece: toda solicitação entregue até quarta-feira pode ser analisada na reunião de sexta-feira, desde que contenha os anexos; a análise não assegura aprovação. Solicitações sem anexos são devolvidas, independentemente do dia de entrega. Naquela semana, a reunião de sexta-feira foi cancelada, mas o texto do manual não foi alterado. Ao responder aos interessados, a secretaria precisava distinguir possibilidade de análise, suficiência documental e resultado da deliberação, sem prometer que uma reunião cancelada ocorreria.\n\nSegundo o manual, a entrega até quarta-feira, por si só,",
+    "options": [
+      "assegura a aprovação, embora a comunicação do resultado possa ser posterior.",
+      "impede a devolução de solicitações que não atendam aos requisitos documentais.",
+      "não basta para tornar a solicitação elegível à análise prevista, pois são necessários os anexos.",
+      "dispensa os anexos quando o pedido envolve um centro de pesquisas.",
+      "obriga a secretaria a marcar nova reunião se a reunião prevista for cancelada."
+    ],
+    "answer": 2,
+    "explanation": "O requisito temporal está associado à presença de anexos. O texto não cria aprovação automática, obrigação de nova reunião ou dispensa documental; sem anexos, a devolução ocorre independentemente do dia.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-009"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "integracao_condicoes_modalizacao",
+    "difficulty": "muito_alta",
+    "statement": "Uma solicitação chegou na terça-feira com todos os anexos. Qual resposta da secretaria preserva todas as distinções do texto?",
+    "options": [
+      "O pedido atende aos requisitos mencionados para a possibilidade de análise, mas a reunião foi cancelada e não há aprovação assegurada.",
+      "O pedido deverá ser devolvido por falta documental, pois o cancelamento equivale à ausência dos anexos.",
+      "O pedido será necessariamente analisado na sexta-feira, porque o manual não foi alterado após o cancelamento.",
+      "O pedido está definitivamente excluído de qualquer análise futura, pois perdeu a reunião prevista para aquela semana.",
+      "O pedido foi aprovado porque chegou antes do prazo e a suspensão da reunião não altera o direito à aprovação."
+    ],
+    "answer": 0,
+    "explanation": "Prazo e documentação foram atendidos, mas “pode” não é garantia; o fato do cancelamento impede prometer a reunião e o manual nega aprovação automática. Cancelamento não é falta de anexos nem exclusão definitiva, e não cria direito à aprovação.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-009"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "inferencia_multiplas_explicacoes",
+    "difficulty": "muito_alta",
+    "statement": "Uma cooperativa começou a fornecer relatórios de rastreamento às empresas que transportam seus produtos. Nas primeiras semanas, algumas empresas ajustaram as rotas depois de consultar os relatórios; outras mantiveram as rotas, apesar de também recebê-los. Ao avaliar o projeto, a cooperativa afirmou: “Disponibilizar informação é diferente de decidir em nome de quem a recebe”. Acrescentou que não sabia se as rotas mantidas já eram adequadas ou se os relatórios não haviam sido considerados. Para avaliar o efeito da informação, seria necessário conhecer o processo de decisão dos destinatários.\n\nQual conclusão respeita simultaneamente a distribuição dos relatórios, as decisões observadas e a incerteza explicitada?",
+    "options": [
+      "A manutenção de rotas demonstra que as empresas correspondentes não receberam relatórios úteis para decidir.",
+      "O recebimento dos relatórios tornou equivalentes os processos de decisão, mesmo quando produziram rotas diferentes.",
+      "A diferença entre decisões demonstra que os relatórios apresentavam erros apenas às empresas que não mudaram.",
+      "A alteração das rotas comprova que a cooperativa assumiu a decisão operacional de todas as transportadoras.",
+      "O recebimento não determinou uniformidade de decisões, e a manutenção de uma rota não permite concluir, sozinha, que o relatório foi ignorado."
+    ],
+    "answer": 4,
+    "explanation": "Receberam-se informações sem uma resposta uniforme; a manutenção admite ao menos duas explicações, incluindo adequação prévia. Não há dados sobre qualidade diferenciada ou erros. Alterar após consulta não transfere a autoria decisória à cooperativa, nem iguala processos internos.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-010"
+  },
+  {
+    "id": "TP26-ENGSEG-PORT-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "PORT",
+    "assunto": "compreensao_textual",
+    "subassunto": "reescrita_relacoes_logicas",
+    "difficulty": "muito_alta",
+    "statement": "Qual reescrita preserva as relações lógicas e os limites de conhecimento do texto?",
+    "options": [
+      "À medida que os relatórios foram recebidos, todas as rotas foram ajustadas, o que dispensou a análise do processo decisório.",
+      "Algumas empresas conservaram as rotas porque os relatórios o determinaram, ainda que a cooperativa ignorasse a adequação inicial.",
+      "Ainda que tenham recebido os relatórios, algumas empresas conservaram as rotas; não se sabe se isso decorreu de adequação prévia ou de desconsideração da informação.",
+      "Algumas empresas conservaram as rotas para não receber os relatórios, embora a cooperativa conhecesse as razões dessa escolha.",
+      "Como não receberam os relatórios, algumas empresas conservaram as rotas; por isso a cooperativa decidiu que elas já eram adequadas."
+    ],
+    "answer": 2,
+    "explanation": "A concessão do recebimento é mantida, assim como as duas hipóteses não resolvidas. As outras reescritas negam o recebimento, inventam finalidade ou determinação, atribuem conhecimento inexistente ou universalizam mudanças que não ocorreram.",
+    "etapa": 1,
+    "groupId": "TP26-PORT-010"
+  }
+]

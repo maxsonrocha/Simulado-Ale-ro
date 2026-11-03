@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TP26-ENGSEG-ING-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "main_idea_time_reference",
+    "difficulty": "media",
+    "statement": "A logistics archive combines records from offices in different time zones. An audit found that a shipment appeared to be dispatched before it was packed. The apparent reversal disappeared when the timestamps were converted to a common time reference. The archivist recommended preserving each original timestamp and its time-zone offset, while using a normalized timeline for sequence comparisons. Replacing every original label with an unqualified local time would make later verification harder, even if the current report happened to look consistent.\n\nWhat is the main reason for normalizing the timeline?",
+    "options": [
+      "To prove that every office recorded every event at the moment it occurred.",
+      "To compare the sequence of events recorded in different time zones.",
+      "To ensure that changing a timestamp also changes the sequence of the actual work.",
+      "To remove the original timestamps because their existence caused packing delays.",
+      "To make the shipment physically arrive before the recorded dispatch event."
+    ],
+    "answer": 1,
+    "explanation": "The apparent reversal came from comparing different time references. Normalization supports chronological comparison; it does not prove timely recording, cause physical changes or justify deleting original evidence.",
+    "etapa": 1,
+    "groupId": "TP26-ING-001"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "reference_and_traceability",
+    "difficulty": "alta",
+    "statement": "Why does the archivist recommend keeping original timestamps and offsets as well as a normalized timeline?",
+    "options": [
+      "They allow local labels without offsets to replace every original record without loss of traceability.",
+      "They guarantee that each event was recorded immediately, even if the audit has not tested recording delays.",
+      "They retain evidence needed to check conversions while supporting comparison on a common reference.",
+      "They show that a consistent report is enough to establish the accuracy of every unexamined source record.",
+      "They remove the need to know which time zone applied when each record was created."
+    ],
+    "answer": 2,
+    "explanation": "The two forms serve complementary purposes: comparison and traceability of conversion. Bare local labels lose information, and preserving originals does not guarantee recording immediacy or every record's accuracy; knowing the relevant zone remains necessary.",
+    "etapa": 1,
+    "groupId": "TP26-ING-001"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "contrast_receipt_performance",
+    "difficulty": "alta",
+    "statement": "A training team asked technicians to sign a form after reading a revised maintenance procedure. Nearly everyone signed, yet a practical exercise showed that several technicians still used the former sequence of steps. The team kept the forms as evidence that the document had been received, but introduced a demonstration before authorizing work under the revision. It also planned to repeat the exercise when future changes altered the sequence. A record of receipt answered one question; evidence of performance answered another.\n\nWhat does “yet” highlight in the passage?",
+    "options": [
+      "A condition under which the forms would cease to show that the document had been received.",
+      "A cause linking receipt of the document to an automatic improvement in every practical performance.",
+      "A contrast between widespread acknowledgment and incomplete adoption of the revised steps.",
+      "A sequence in which practical demonstrations necessarily took place before any forms were signed.",
+      "A comparison showing that fewer technicians signed than demonstrated the revised sequence."
+    ],
+    "answer": 2,
+    "explanation": "“Yet” contrasts near-universal signature with continued use of old steps. It does not establish the reversed timing, automatic improvement, loss of evidence of receipt or an unsupported numerical comparison.",
+    "etapa": 1,
+    "groupId": "TP26-ING-002"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "transfer_after_procedural_change",
+    "difficulty": "muito_alta",
+    "statement": "A technician correctly demonstrates the current sequence. A later revision changes the order of two critical steps. Which conclusion best follows the team's reasoning?",
+    "options": [
+      "The earlier signature is now sufficient to prove correct performance because the change affects only two steps.",
+      "The technician must have performed the later sequence during the earlier demonstration, since both concern maintenance.",
+      "The earlier demonstration does not by itself establish performance under the revision; the changed sequence should be checked again.",
+      "The earlier demonstration becomes evidence that the technician never received the current document.",
+      "The later revision removes the distinction between receipt of a document and ability to perform its steps."
+    ],
+    "answer": 2,
+    "explanation": "The evidence is specific to the sequence demonstrated. A relevant change requires checking transfer to the revised sequence. It neither erases receipt evidence nor turns signature into competence, and it cannot retroactively demonstrate a future sequence.",
+    "etapa": 1,
+    "groupId": "TP26-ING-002"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "vocabulary_in_context",
+    "difficulty": "media",
+    "statement": "A sensor can detect a change without explaining its cause. At one energy facility, a new monitoring system flagged an unusual vibration. Engineers found that a loose support, rather than the rotating equipment itself, was responsible. The team kept the sensor but revised the investigation procedure. The system had performed its detection function; the initial interpretation, not the signal, required correction. Calling the sensor “wrong” would have confused the evidence it supplied with the explanation people first attached to that evidence.\n\nIn the passage, “flagged” is closest in meaning to",
+    "options": [
+      "physically caused.",
+      "permanently removed.",
+      "deliberately concealed.",
+      "fully explained.",
+      "drew attention to."
+    ],
+    "answer": 4,
+    "explanation": "“Flagged” means signaled or drew attention to the vibration. The sensor did not cause, remove, explain or conceal the vibration; identifying its cause required engineers.",
+    "etapa": 1,
+    "groupId": "TP26-ING-003"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "cohesion_contrast",
+    "difficulty": "alta",
+    "statement": "The contrast “the initial interpretation, not the signal” emphasizes that",
+    "options": [
+      "keeping the sensor required accepting the initial equipment diagnosis.",
+      "a loose support prevents any vibration measurement from being meaningful.",
+      "a correct signal can identify the cause without any investigation.",
+      "useful detection can coexist with an incorrect first explanation.",
+      "the revised procedure was designed to stop the sensor from detecting changes."
+    ],
+    "answer": 3,
+    "explanation": "Detection was successful while interpretation was revised. The cause still required investigation; keeping the sensor did not preserve the diagnosis. The procedure was not meant to suppress signals, and the support did not invalidate measurement.",
+    "etapa": 1,
+    "groupId": "TP26-ING-003"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "scope_of_evidence",
+    "difficulty": "alta",
+    "statement": "A company offers an optional night shuttle. Employees who used it reported feeling safer on their journeys. However, the survey included only shuttle users, and no information was collected from eligible employees who chose other transport. Managers proposed expanding the survey before claiming that the service met the needs of the whole workforce. They also noted that feeling safer was a reported experience, not a direct measurement of the number of incidents prevented by the shuttle.\n\nWhich claim is directly supported by the survey as described?",
+    "options": [
+      "The responding users reported feeling safer on their journeys.",
+      "The shuttle prevented a measured number of incidents during each journey.",
+      "All eligible employees preferred the shuttle to every available alternative.",
+      "The service met the needs of employees who were not surveyed.",
+      "Employees using other transport had the same experience as shuttle users."
+    ],
+    "answer": 0,
+    "explanation": "Only users' reported perceptions were collected. The other claims expand the surveyed population or convert perception into incident-prevention measurement without evidence.",
+    "etapa": 1,
+    "groupId": "TP26-ING-004"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "integrating_two_limitations",
+    "difficulty": "muito_alta",
+    "statement": "Which revision would address both limitations identified by the managers?",
+    "options": [
+      "Survey more shuttle users about their satisfaction and report the resulting percentage as the proportion of incidents prevented.",
+      "Survey users and non-users about transport needs, and separately examine comparable incident data rather than treating perceptions as incident counts.",
+      "Collect incident totals from shuttle journeys only and use them to infer the preferences of employees using other transport.",
+      "Ask non-users whether they approve of the shuttle and assume that a favorable response measures prevented incidents.",
+      "Compare the opinions of users on different nights and treat agreement as evidence that every employee's needs are met."
+    ],
+    "answer": 1,
+    "explanation": "The correct revision broadens the population and distinguishes subjective reports from comparable incident evidence. Each other option retains a coverage problem or substitutes one kind of evidence for a different outcome.",
+    "etapa": 1,
+    "groupId": "TP26-ING-004"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "purpose_and_qualification",
+    "difficulty": "alta",
+    "statement": "The terminal will move routine messages from radio calls to a shared display. Urgent warnings will remain on the radio, and staff may request a call whenever a display message is unclear. The plan aims to reduce overlapping routine conversations, not to remove spoken communication. Before the change is extended, the team will check whether staff notice messages promptly and whether fewer routine calls leave urgent warnings easier to hear.\n\nWhat is the stated aim of the change?",
+    "options": [
+      "To require staff to resolve unclear messages without making calls.",
+      "To increase routine radio traffic so urgent warnings can be tested under maximum load.",
+      "To evaluate message visibility only after all spoken channels have been removed.",
+      "To reduce routine overlap without removing spoken channels when needed.",
+      "To replace urgent radio warnings with messages on a shared display."
+    ],
+    "answer": 3,
+    "explanation": "The plan reduces routine overlap but keeps urgent radio messages and clarification calls. The remaining options contradict these exceptions or the pre-extension evaluation.",
+    "etapa": 1,
+    "groupId": "TP26-ING-005"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "conditional_inference",
+    "difficulty": "muito_alta",
+    "statement": "Suppose routine radio traffic falls, but staff notice display messages too late. How should that finding affect the stated assessment?",
+    "options": [
+      "The result would require removing urgent radio warnings, since those warnings prevented the display from being noticed.",
+      "One intended improvement occurred, but the evidence would not yet support extending the change without addressing delayed notice.",
+      "The change should be extended unchanged because prompt notice was not part of the assessment before expansion.",
+      "The plan failed to reduce radio overlap, because delayed display notice necessarily increases routine radio calls.",
+      "Both intended improvements were demonstrated, since fewer routine calls guarantee that every message is noticed promptly."
+    ],
+    "answer": 1,
+    "explanation": "The assessment contains two relevant dimensions: reduced overlap and timely display notice. Success in one does not satisfy the other. No causal explanation for late notice or guarantee of timely notice is provided.",
+    "etapa": 1,
+    "groupId": "TP26-ING-005"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "pronoun_reference",
+    "difficulty": "media",
+    "statement": "A materials supplier changed its packaging to reduce the mass discarded after each delivery. The new containers can be returned, but only deliveries on certain routes currently have a collection service. The supplier therefore reports the reduction in disposable material separately from the share of containers actually returned. Keeping those measures separate helps customers distinguish a design opportunity from a practice that still depends on collection arrangements.\n\nIn “Keeping those measures separate”, “those measures” refers to",
+    "options": [
+      "collection cost and the time spent redesigning containers.",
+      "delivery speed and the distance of collection routes.",
+      "container weight and the number of customers interviewed.",
+      "customer satisfaction and the mass of materials supplied.",
+      "disposable-material reduction and the share of containers returned."
+    ],
+    "answer": 4,
+    "explanation": "The immediately preceding sentence names the two measures. Weight, distance, costs, interviews and satisfaction are not the pair being contrasted.",
+    "etapa": 1,
+    "groupId": "TP26-ING-006"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "semantic_distinction",
+    "difficulty": "alta",
+    "statement": "Why does the passage distinguish “a design opportunity” from “a practice”?",
+    "options": [
+      "The design has been withdrawn because collecting containers is unrelated to their return.",
+      "Actual returns can be inferred from the container's design without examining collection arrangements.",
+      "A reported return rate establishes the existence of collection on routes where none is available.",
+      "A returnable design does not establish that containers are actually returned on every route.",
+      "A container can be returned only if its design prevents a reduction in disposable mass."
+    ],
+    "answer": 3,
+    "explanation": "Returnability is a capacity; actual return depends on arrangements. The other options invent incompatibility, infer absent collection, assert withdrawal or equate possibility with actual practice.",
+    "etapa": 1,
+    "groupId": "TP26-ING-006"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "comparison_criteria",
+    "difficulty": "alta",
+    "statement": "Two research teams compared battery modules. One ranked them by energy delivered per kilogram; the other considered whether each module could meet a vessel's required operating time before recharging. A module could rank highly on the first measure and still fail the second test. Rather than declaring one ranking mistaken, the project leader asked the teams to state the question each measure answered. The disagreement concerned the purpose of the comparison as well as the measurements themselves.\n\nAccording to the passage, the teams should first clarify",
+    "options": [
+      "whether both rankings can be made identical by removing the vessel requirement.",
+      "the performance question each measure answers.",
+      "whether a higher energy-per-mass ranking eliminates the need to examine operating time.",
+      "which team can publish its ranking before the other team reports.",
+      "which measurement should be treated as mistaken solely because the rankings differ."
+    ],
+    "answer": 1,
+    "explanation": "The leader requests an explicit purpose for each measure. The passage rejects declaring error simply from disagreement and does not propose a publication contest or discarding the vessel requirement.",
+    "etapa": 1,
+    "groupId": "TP26-ING-007"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "joint_constraints",
+    "difficulty": "muito_alta",
+    "statement": "A third team must recommend a module for the vessel, whose operating time is a mandatory project requirement. Which approach best follows the passage?",
+    "options": [
+      "Check which modules meet the operating-time requirement, then use the mass-related measure to compare suitable candidates.",
+      "Choose the highest energy-per-kilogram ranking and assume that this also establishes the required operating time.",
+      "Reject every module ranked differently by the two teams, regardless of whether it meets the operating-time requirement.",
+      "Ignore energy per kilogram for all purposes because it answered a different question in the first comparison.",
+      "Average both rankings and accept any module with a favorable average, even if it misses the required operating time."
+    ],
+    "answer": 0,
+    "explanation": "Suitability under a mandatory requirement precedes comparison among suitable alternatives. A favorable relative measure or averaged ranking cannot waive the requirement; different rankings are not evidence of invalid modules, and a distinct measure can still be useful.",
+    "etapa": 1,
+    "groupId": "TP26-ING-007"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "grammar_meaning",
+    "difficulty": "media",
+    "statement": "The warehouse introduced a reporting channel that allows workers to describe near misses without naming themselves. In the first month, reports increased sharply. The safety team welcomed the additional information but did not treat the increase as proof that more near misses had occurred. Previously unreported events might now be visible. To assess changes in occurrence, the team would need evidence beyond the new channel's report count.\n\nIn “might now be visible”, “might” expresses",
+    "options": [
+      "a past obligation that the warehouse failed to meet.",
+      "a certainty that every previous near miss was unreported.",
+      "an ability to prevent events by changing their names.",
+      "a requirement that workers must submit anonymous reports.",
+      "a possible, unconfirmed explanation."
+    ],
+    "answer": 4,
+    "explanation": "The modal marks possibility: better reporting may explain the rise. It states neither obligation nor certainty about all events and does not describe prevention by naming.",
+    "etapa": 1,
+    "groupId": "TP26-ING-008"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "evidence_and_observation",
+    "difficulty": "alta",
+    "statement": "Which additional observation would most directly help distinguish a change in reporting from a change in occurrence?",
+    "options": [
+      "A comparable observation process independent of the channel records event frequency before and after the change.",
+      "A larger share of reports is submitted outside normal office hours after anonymity is introduced.",
+      "Workers say that they prefer not to include their names in descriptions of events.",
+      "The new reports contain more detailed descriptions than earlier reports submitted through other channels.",
+      "The reporting form is shorter than the form previously used to record near misses."
+    ],
+    "answer": 0,
+    "explanation": "An independent comparable occurrence measure helps separate reporting behavior from events. Detail, timing, anonymity preferences and form length concern reporting processes and do not independently establish occurrence frequency.",
+    "etapa": 1,
+    "groupId": "TP26-ING-008"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "contrast_proposed_actual",
+    "difficulty": "alta",
+    "statement": "During a trial, a route-planning tool suggested shorter trips for service vehicles. Drivers could reject a suggestion when temporary road conditions made it unsuitable. The trial report listed both proposed distances and distances actually driven, explaining why some suggestions were not followed. The authors warned that comparing proposals alone would overstate savings if unworkable routes remained in the calculation. They nevertheless considered the tool useful when its suggestions were checked against current conditions.\n\nWhy did the report record distances actually driven?",
+    "options": [
+      "To calculate savings from proposals without checking their feasibility.",
+      "To prove that temporary road conditions never affected the proposed routes.",
+      "To eliminate the need to explain why some suggestions were not followed.",
+      "To show that rejecting a suggestion always increased the distance beyond the original route.",
+      "To distinguish proposed reductions from savings achieved in practice."
+    ],
+    "answer": 4,
+    "explanation": "Realized distances distinguish actual savings from proposals. The passage does not claim that every rejection increases distance, deny road effects, dispense with explanation or endorse untested proposals.",
+    "etapa": 1,
+    "groupId": "TP26-ING-009"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "inference_limits_usefulness",
+    "difficulty": "muito_alta",
+    "statement": "Which conclusion combines the warning and the favorable assessment without contradiction?",
+    "options": [
+      "The tool can be useful under feasibility checks even when estimated savings based solely on proposals are overstated.",
+      "Feasibility checks should be abandoned because they make actual and proposed distances differ.",
+      "Actual savings must exceed proposed savings because drivers are allowed to reject unsuitable routes.",
+      "Overstated savings establish that no suggestion can reduce actual travel under any conditions.",
+      "The tool is useful only if every suggested route is followed regardless of temporary conditions."
+    ],
+    "answer": 0,
+    "explanation": "Usefulness conditional on checking is compatible with biased proposal-only estimates. The text does not require universal acceptance, infer universal failure, reject checks or establish that actual savings exceed proposals.",
+    "etapa": 1,
+    "groupId": "TP26-ING-009"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "aggregation_and_relevance",
+    "difficulty": "muito_alta",
+    "statement": "A laboratory published the average response time of a new detector. Most tests were conducted at room temperature; a smaller group used colder conditions. The average was satisfactory, but the colder tests included several long delays. Before recommending the detector for a cold-storage facility, the lead engineer requested separate results for the relevant conditions. A favorable combined average could hide precisely the weakness that mattered at the intended site.\n\nWhy is the combined average insufficient for the intended recommendation?",
+    "options": [
+      "It shows that every room-temperature test performed worse than every colder test in the trial.",
+      "It gives equal representation to all conditions and therefore directly estimates performance at the intended site.",
+      "It mixes conditions with unequal representation and can conceal delays under the conditions relevant to cold storage.",
+      "It proves that the detector cannot respond under colder conditions and must fail every cold-storage application.",
+      "It establishes that test delays were caused by the smaller number of cold-condition observations."
+    ],
+    "answer": 2,
+    "explanation": "The average combines mostly room-temperature tests with fewer relevant cold tests. This can mask condition-specific weakness. No complete ordering, universal inability or cause of the delays is demonstrated, and representation is not equal.",
+    "etapa": 1,
+    "groupId": "TP26-ING-010"
+  },
+  {
+    "id": "TP26-ENGSEG-ING-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ING",
+    "assunto": "leitura_interpretacao",
+    "subassunto": "decision_under_evidence",
+    "difficulty": "muito_alta",
+    "statement": "Which next step most closely matches the engineer's reasoning while avoiding a claim stronger than the evidence?",
+    "options": [
+      "Replace the cold results with the overall mean, so the intended site is assessed using a larger number of observations.",
+      "Infer the exact cold-storage failure frequency from the unequal sizes of the two groups without examining individual response times.",
+      "Reject the detector for all applications, because any cold-condition delay invalidates room-temperature observations.",
+      "Assess the cold-condition response distribution against the site's needs before deciding whether satisfactory overall performance transfers to that use.",
+      "Approve cold-storage use from the combined average, because a satisfactory mean rules out operationally important delays."
+    ],
+    "answer": 3,
+    "explanation": "The correct step combines relevant conditions, distribution rather than mean alone, and the intended use. An average does not rule out delays; cold delays do not invalidate all uses; replacing relevant data loses evidence; group sizes alone do not determine failure frequency.",
+    "etapa": 1,
+    "groupId": "TP26-ING-010"
+  }
+]
