@@ -1,0 +1,1306 @@
+{
+  "escopo": "Somente as 100 novas questões do lote 2. Os pareceres do lote 1 são preservados no arquivo original.",
+  "metodo": "Rodada editorial de conteúdo: resolução por item, análise das 500 alternativas finais e justificativa de dificuldade. O mesmo assistente fez rodadas distintas; não são três revisores humanos. Dificuldade não é calibração psicométrica.",
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0073",
+      "sha256": "d3837263e6b30d02e30e92bf7bdb78e303a288ebd9a687d4de4a482cb2df45f8",
+      "correctOption": 0,
+      "alternativas": [
+        "Dano material atende à definição, mesmo sem lesão.",
+        "Quebra de bancada não é lesão pessoal.",
+        "Houve evento físico efetivo.",
+        "A definição inclui dano material.",
+        "As duas categorias não exigem ausência de dano."
+      ],
+      "dificuldade": "Média: classificar usando os critérios técnicos expressamente fornecidos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0074",
+      "sha256": "38e30abdac2d441776bb6c6cfc1a0919b4b71884253bcb87c3fa44f0b9532ca5",
+      "correctOption": 1,
+      "alternativas": [
+        "Pessoa não vira evento separado.",
+        "Uma queda e outro evento somam dois; lesionados são três.",
+        "Omite o segundo acontecimento.",
+        "Conta indevidamente pessoas como eventos adicionais.",
+        "O evento sem lesão não cria pessoa lesionada."
+      ],
+      "dificuldade": "Média: manter distintas as unidades evento e pessoa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0075",
+      "sha256": "3b79ba8f2e4d56eae02fdea16a410118c645ec00e1facc001c3e49e587190275",
+      "correctOption": 4,
+      "alternativas": [
+        "9.000 omite as horas adicionais.",
+        "21.000 duplica rateio e ignora recuperação.",
+        "18.000 duplica o rateio.",
+        "16.000 omite recuperação.",
+        "12.000+80×50−3.000=13.000; rateio não duplica gasto."
+      ],
+      "dificuldade": "Alta: distinguir custo econômico, recuperação e transferência interna no cálculo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0076",
+      "sha256": "bb52f0d83148577e3c056eb22b65f7f2386634bebe92fa7ee486e0086bfd72fb",
+      "correctOption": 1,
+      "alternativas": [
+        "Restringe o relato a alternativas já oferecidas.",
+        "Narrativa aberta precede hipóteses e separa visto de inferido.",
+        "Impõe trajetória esquerda como premissa.",
+        "Sugere a versão da direita antes do relato.",
+        "Inventa consenso e induz confirmação."
+      ],
+      "dificuldade": "Alta: selecionar técnica de entrevista que preserve qualidade da evidência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0077",
+      "sha256": "51222811dd0538c106c21ea2a2860a2b09a9d3ddd459ae51bbc14b81f8f2e2f6",
+      "correctOption": 0,
+      "alternativas": [
+        "Original íntegro e cópia identificada permitem preservação e análise.",
+        "Renomear não torna editado original.",
+        "Nitidez não determina autenticidade.",
+        "Redução de resolução não comprova integridade anterior.",
+        "Sobrescrever perde o original."
+      ],
+      "dificuldade": "Alta: preservar cadeia de integridade sem impedir edição de cópia analítica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0078",
+      "sha256": "56e711c7026b14a5c5b0ff57dc7feeca33c673f529c9025fb7e63ef413424daf",
+      "correctOption": 2,
+      "alternativas": [
+        "E não equivale a alternativas.",
+        "B sem A não satisfaz a expressão.",
+        "Conjunção exige A, B e C; A sozinha não basta.",
+        "Ordem gráfica não dá suficiência.",
+        "Ausência de C torna falsa a conjunção."
+      ],
+      "dificuldade": "Alta: distinguir condição necessária e suficiência na estrutura causal fornecida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0079",
+      "sha256": "ab1891bbf6a555ecaf0e69cb2aa7fb1e62f4e0e7c7bd1272c48e1c27b7c8a62b",
+      "correctOption": 2,
+      "alternativas": [
+        "Duplica dias comuns no calendário.",
+        "Retira sobreposição indevidamente da soma de pessoas.",
+        "Cinco dias por pessoa somam dez; união temporal tem oito.",
+        "Inverte soma individual e união de datas.",
+        "Acrescenta dois dias além dos períodos reais."
+      ],
+      "dificuldade": "Muito alta: operar com soma de dias-pessoa e união de intervalos, em unidades distintas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0080",
+      "sha256": "6a7328026fc499788b63e45e7accc377f45ad74581db9c6de7fbe3c5ef2da941",
+      "correctOption": 1,
+      "alternativas": [
+        "70 soma listas com duplicidade.",
+        "N=60; união observada 50; diferença dez.",
+        "Quarenta é apenas uma das listas.",
+        "Cinquenta é união, não estimativa pelo modelo.",
+        "O produto sem divisão por sobreposição dá 1.200."
+      ],
+      "dificuldade": "Muito alta: estimar por duas capturas e separar total estimado, união e parcela não observada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0081",
+      "sha256": "1965178d07d4764fb7860c2ca223efb2b91b5808be04d74bf26513e1184c0039",
+      "correctOption": 3,
+      "alternativas": [
+        "Zero observado não elimina incerteza.",
+        "Inverte o efeito da duração.",
+        "Erra uma ordem de grandeza.",
+        "3/T dá 0,00010 e 0,00005 por hora; taxa zero não foi provada.",
+        "O limite depende explicitamente de T."
+      ],
+      "dificuldade": "Muito alta: inferência probabilística de zero contagens e relação entre exposição e limite unilateral."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0082",
+      "sha256": "6f7fe10268a3b35675a53d9b6be2da682e6c004013c7ed3ab23b5801afc98cbc",
+      "correctOption": 1,
+      "alternativas": [
+        "Duas saídas não identificam três hipóteses nesse arranjo.",
+        "Y possui saídas distintas para as três hipóteses.",
+        "Uma saída comum não iguala poder discriminante.",
+        "Comparar hipóteses não exige previsões iguais.",
+        "X deixa A e B indistintos."
+      ],
+      "dificuldade": "Muito alta: comparar partições de hipóteses e identificação inversa por um teste."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0117",
+      "sha256": "c073c7c36824ba969e687af77fa37ef262843fcf3df97d2ac2ba238cf008cdd0",
+      "correctOption": 4,
+      "alternativas": [
+        "Não garante devolução efetiva.",
+        "Desmontagem não impede desgaste.",
+        "Desempenho funcional continua relevante.",
+        "Dados não provam superioridade de todo ciclo.",
+        "Acesso reversível à peça favorece reparabilidade nessa etapa."
+      ],
+      "dificuldade": "Alta: atribuir benefício específico de projeto sem extrapolar outras etapas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0118",
+      "sha256": "08add89859d4ac6dd9c6266285735c5e1a15cd5a74fc3bbaa5440b18e9c0df1e",
+      "correctOption": 4,
+      "alternativas": [
+        "Quarenta e quatro usa somente uma base de 12 kg.",
+        "Cento e trinta e dois soma efeito da retenção.",
+        "Cento e dez ignora retenção.",
+        "Vinte e quatro aplica retenção ao carbono sem conversão.",
+        "30×44/12=110 gerados; 80% emitidos dão 88."
+      ],
+      "dificuldade": "Alta: converter massa elementar em composto e aplicar fração retida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0119",
+      "sha256": "ed9f5b119c8805c9ff8109af04ba4ba5d01b87e8cd9c50be1b78b6be77e9e09b",
+      "correctOption": 0,
+      "alternativas": [
+        "Área igual não preserva a mesma conectividade; A mantém a ligação.",
+        "Área não é a única dimensão espacial.",
+        "Não precisa mudar área para comparar topologia.",
+        "Uma ligação não exclui todos os outros impactos.",
+        "Interromper não melhora ligação."
+      ],
+      "dificuldade": "Alta: distinguir quantidade espacial e configuração de conexões para o objetivo dado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0120",
+      "sha256": "50e9865c437bb3de0f6e8ecfbf055b1dd88bb51697749f4d36d8593f0d67b7e6",
+      "correctOption": 4,
+      "alternativas": [
+        "Três ignora o aproveitamento noturno armazenado.",
+        "A oferta renovável não cobre oito e há perda no armazenamento.",
+        "Dois não aplica corretamente oferta diurna, carga e rendimento.",
+        "Um ignora a perda de armazenamento.",
+        "Excedente quatro entrega três; faltam três à noite e emitem 1,5."
+      ],
+      "dificuldade": "Muito alta: alocar energia em dois períodos, propagar rendimento e calcular emissão remanescente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0083",
+      "sha256": "e60b10a177fa4f080d1b4345ef7873721560266c99094bb35f7dd186243e4a55",
+      "correctOption": 0,
+      "alternativas": [
+        "Repetir os três elementos permite conferir entendimento.",
+        "Nome de origem não repete local e tarefa.",
+        "Volume não confirma conteúdo.",
+        "Recebido só confirma recepção, não os campos.",
+        "Mensagem antiga pode conter parâmetros diferentes."
+      ],
+      "dificuldade": "Média: reconhecer confirmação de conteúdo em comunicação de circuito fechado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0084",
+      "sha256": "b073eea6b630a972e41968839c5819c0e5d567dbb002ee1e0c0fb8201d61ceb7",
+      "correctOption": 1,
+      "alternativas": [
+        "Zero não corresponde ao saldo de registros.",
+        "48−8+6=46 esperadas; faltam duas frente a 44 identificadas.",
+        "Quatro usa somente a lotação inicial.",
+        "Dez ignora as oito saídas.",
+        "Seis não desconta corretamente as identificadas."
+      ],
+      "dificuldade": "Média: atualizar o manifesto antes de comparar presença, sem inferir localização de ausentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0085",
+      "sha256": "8e90ae8df72498a5a261d87e0ee21ccf72e4b5c5b5a45f42e2f257f67811c244",
+      "correctOption": 4,
+      "alternativas": [
+        "Vazão maior não torna conexão Q compatível.",
+        "Não há adaptador ou arranjo descrito.",
+        "Disponibilidade não é adequação.",
+        "P não compensa vazão 80.",
+        "A tem P e 120≥100."
+      ],
+      "dificuldade": "Alta: avaliar dois critérios de compatibilidade conjuntamente no recurso de resposta."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0086",
+      "sha256": "a550f56449d973181f691bf7d6d67848fb7b2d9a3676a4bbb41f7abdc1f64aec",
+      "correctOption": 2,
+      "alternativas": [
+        "Ignorância de origem não prova ausência de substância.",
+        "Objetividade não autoriza inventar confirmação.",
+        "Isolamento é confirmado; origem continua sob investigação.",
+        "Status de isolamento não exige negar o relato.",
+        "Transforma suspeita em causa identificada."
+      ],
+      "dificuldade": "Alta: construir comunicação que separe status operacional e hipótese investigada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0087",
+      "sha256": "f8389f96440a854929d11c73c7d84c089aca692f29677fe4169fa2eeba4232fc",
+      "correctOption": 3,
+      "alternativas": [
+        "Solicitação tardia não prepara o apoio previsto.",
+        "Acessibilidade geométrica não garante assistência humana.",
+        "Placa não equivale a auxílio físico.",
+        "A falha de apoio exige organização prévia e teste.",
+        "Excluir pessoas mascara a falha."
+      ],
+      "dificuldade": "Alta: integrar público, organização de recursos e verificação da assistência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0088",
+      "sha256": "19607fe3a76a52a52deb245d40591754a84a2c1c6ed528366814660afce63f9e",
+      "correctOption": 3,
+      "alternativas": [
+        "Repetir todos os pedidos pode duplicar recursos.",
+        "Troca de equipe não libera áreas.",
+        "Nome e objetivo não reconstituem decisões pendentes.",
+        "Passagem transmite estado atual e assunção de comando.",
+        "Plano original não contém todas as decisões posteriores."
+      ],
+      "dificuldade": "Alta: tratar continuidade de resposta na transferência, não apenas objetivo inicial."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0089",
+      "sha256": "fff5c36414aac5e004f5ee8861c8947c24f702e3da2cff7a103da8d39ef6d6c2",
+      "correctOption": 1,
+      "alternativas": [
+        "Não se somam capacidades de série como fluxo total.",
+        "Corredor limita a 30 antes e depois da melhora de A.",
+        "A não transforma a capacidade de C.",
+        "Há duas saídas paralelas, não uma única menor.",
+        "Soma de saídas ignora o corredor."
+      ],
+      "dificuldade": "Muito alta: identificar corte limitante em rede série-paralelo e testar efeito de melhoria local."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0090",
+      "sha256": "5514199a16dcc827ec964769d47c640518221d5bce0b0b9cb1d83ab1ebbb49bc",
+      "correctOption": 2,
+      "alternativas": [
+        "Não precisa esperar retorno de t=25.",
+        "Em t=5 saem módulos, não surge disponibilidade para o pedido futuro.",
+        "Saldo livre é um; em t=20 retornam três e o pedido conjunto pode ser atendido.",
+        "Ainda há um módulo livre em t=10.",
+        "Não há dois livres em t=10."
+      ],
+      "dificuldade": "Muito alta: reconstruir estoque por eventos e primeira viabilidade de requisição indivisível."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0091",
+      "sha256": "b9ca82eabb5a1df1ee6ab716cc31291f29a9f2b5e916ee95983063e52344f170",
+      "correctOption": 4,
+      "alternativas": [
+        "Verdade passada não garante validade presente.",
+        "Sem horários piora a resolução da divergência.",
+        "Noticiar verificação sem resultado não atualiza orientação.",
+        "Mensagem antiga não altera o estado confirmado.",
+        "Estado recente precisa ser disseminado com validade e confirmação de substituição."
+      ],
+      "dificuldade": "Muito alta: integrar validade temporal, estado físico e atualização efetiva da equipe."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0092",
+      "sha256": "12e1e32291976be9aded29d244ef5fa13e53ec971412d309e59494ebc57bfea7",
+      "correctOption": 2,
+      "alternativas": [
+        "Dois é o melhor caso de A, não seu máximo.",
+        "Quatro é o melhor caso de C.",
+        "Máximos 20,10,15 levam a B com dez.",
+        "Onze é média de A.",
+        "9,5 é média de C."
+      ],
+      "dificuldade": "Muito alta: aplicar minimax sem substituir pior caso por média ou melhor caso."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0101",
+      "sha256": "0e52eca49df7af91ecefdee956da1e9e99fb648b54e646442dbbc1baecb97619",
+      "correctOption": 1,
+      "alternativas": [
+        "Braço elevado não equivale a repouso.",
+        "Manutenção estática difere da alternância com apoio.",
+        "Apoio parcial não torna toda atividade estática.",
+        "Duração não iguala solicitação.",
+        "Sem movimento pode haver esforço."
+      ],
+      "dificuldade": "Média: classificar tipo de exigência física sem concluir magnitude por descrição insuficiente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0102",
+      "sha256": "5c26465e27e9bf619f02db40e16894257197d74c7aa65b26a4e62de5d5a16ed5",
+      "correctOption": 0,
+      "alternativas": [
+        "C contém 82,91,104.",
+        "B exclui 82.",
+        "Ajuste contínuo permite posições intermediárias no projeto.",
+        "Cobrir dois não demonstra cobrir o terceiro.",
+        "A média não atende necessidade individual de 104."
+      ],
+      "dificuldade": "Alta: verificar cobertura de intervalo para usuários distintos, sem usar média como substituto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0103",
+      "sha256": "5ae64b4e57e7f47117a6b1f4dbb124186b5cbec96da221e6e6dace468ca44346",
+      "correctOption": 0,
+      "alternativas": [
+        "Compatibilidade espacial precisa alinhar ação e resposta e ser testada.",
+        "Atrasar feedback não corrige correspondência.",
+        "Eliminar feedback não cria compatibilidade.",
+        "Brilho é outra variável.",
+        "Cadastro não muda a relação física."
+      ],
+      "dificuldade": "Alta: escolher intervenção correspondente ao mecanismo de erro de mapeamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0104",
+      "sha256": "dc44418db3a2060983ea817e23793f2c3b7105a18aa133fde87168fb2276209d",
+      "correctOption": 3,
+      "alternativas": [
+        "Divisão de massa não garante divisão dinâmica igual.",
+        "Idade não sincroniza movimentos.",
+        "Ausência de comunicação não coordena início.",
+        "Geometria e sincronização alteram distribuição real de esforço.",
+        "Velocidade sem análise pode manter ou agravar rotação."
+      ],
+      "dificuldade": "Alta: integrar ação de duas pessoas e comportamento da peça assimétrica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0105",
+      "sha256": "4eeeb4e33f522093c7bfd0ee12f746644b3f68626378fdcbfc35e384c539290f",
+      "correctOption": 0,
+      "alternativas": [
+        "Variação depende das exigências e da recuperação efetivas.",
+        "Código de produto não altera solicitação por si.",
+        "Chamar rodízio não converte tarefa em repouso.",
+        "Troca de setor não elimina gesto.",
+        "Nomes não medem recuperação muscular."
+      ],
+      "dificuldade": "Alta: testar um objetivo de recuperação contra semelhança biomecânica real das tarefas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0106",
+      "sha256": "0cf45b671a11e3a7e01f44200d8d55a944f4e5ca56d23dbe179f3e86c3aece3a",
+      "correctOption": 2,
+      "alternativas": [
+        "Conta apenas uma escolha no segundo desenho.",
+        "Omite termos fixos.",
+        "Plano 0,80; duas escolhas de 0,50 mais 0,25 dão 1,25.",
+        "Usa n em vez de log2(n+1) no plano.",
+        "Omite navegação."
+      ],
+      "dificuldade": "Muito alta: aplicar modelo logarítmico em arquiteturas com etapas e sobrecarga diferentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0107",
+      "sha256": "baaca1e630346688d30f1f2c0b5950e7ece2b0fbda623528a093350d83c079db",
+      "correctOption": 4,
+      "alternativas": [
+        "37,5 é queda, não fração restante, e altura não foi corrigida.",
+        "Confunde a altura corrigida com a altura mantida na segunda condição.",
+        "Soma alturas indevidamente e inverte sentido da mudança angular.",
+        "Inverte a razão de distâncias.",
+        "h=6,4 e razão angular com h fixo é 62,5%."
+      ],
+      "dificuldade": "Muito alta: preservar ângulo por projeto e calcular efeito sob uma condição alternativa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0108",
+      "sha256": "823c80befca756933136d64cd914d5f1f2606009927a72101e85207c7035327e",
+      "correctOption": 1,
+      "alternativas": [
+        "Dois blocos de oito violam o máximo.",
+        "Blocos 6,6,4 cobrem 16; A descansa seis minutos.",
+        "B executa dez minutos consecutivos.",
+        "Há lacuna entre 6 e 8.",
+        "A retorna após um minuto, abaixo de dois."
+      ],
+      "dificuldade": "Muito alta: verificar cobertura contínua, limite de bloco e recuperação por pessoa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0063",
+      "sha256": "837da276ceac4bdf500425bd21ab658928d0e1de858e1cb2e8050d05f76d6e0a",
+      "correctOption": 2,
+      "alternativas": [
+        "Etapas interna e externa não se excluem.",
+        "A propriedade não é o critério dado.",
+        "O escopo inclui a preparação mesmo em oficina externa.",
+        "Não é necessário comprar a oficina para incluí-la no escopo.",
+        "Contratação não prova conformidade."
+      ],
+      "dificuldade": "Média: aplicar limite de processo explicitado, não suposta regra de propriedade."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0064",
+      "sha256": "4acbaebf5cd2ef490097c8c566505e9a396325c21b7e24ce43d362c802603cdb",
+      "correctOption": 4,
+      "alternativas": [
+        "Mais slides não abrem a decisão a contribuições.",
+        "Silêncio não demonstra preferência.",
+        "Novo nome não muda o processo decisório.",
+        "Assinatura não transforma apresentação em proposta.",
+        "Participação requer contribuição considerada na escolha."
+      ],
+      "dificuldade": "Média: distinguir participação decisória e comunicação unilateral."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0065",
+      "sha256": "241e43ab3d2f211082a667c2297f9e1fa20b93d9ef468e0311255ba1cb5882a1",
+      "correctOption": 3,
+      "alternativas": [
+        "Livre escolha não cumpre vigência definida.",
+        "Data da impressão não substitui vigência.",
+        "Cadastro sozinho não atualiza as cópias de uso.",
+        "B deve chegar ao uso; A guardada precisa de status histórico.",
+        "Inverte as versões vigente e histórica."
+      ],
+      "dificuldade": "Alta: controlar implantação por ponto de uso e preservação histórica sem confusão de versão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0066",
+      "sha256": "f038bea1421290d333cafe6131cb2bffaf4ba82021d69abe9cb4878d31eb3921",
+      "correctOption": 3,
+      "alternativas": [
+        "A proibição não alcança todo processo executado na empresa.",
+        "Conhecimento não revoga a restrição de autoavaliação.",
+        "Declaração não elimina função exercida.",
+        "Carla não executa nem aprova compras, mas precisa ser competente.",
+        "A aprovação também é impedimento explicitado."
+      ],
+      "dificuldade": "Alta: combinar impedimentos funcionais e competência para o objeto auditado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0067",
+      "sha256": "8e552826c36d3c0a749df445ca0faef884fa38ee8a3f8efcca31e03c9384cb98",
+      "correctOption": 1,
+      "alternativas": [
+        "Não há transferência automática da aprovação interna.",
+        "Critérios e retorno fecham a interface entre entregas dependentes.",
+        "Envio isolado não conclui incorporação.",
+        "Eliminar aceite oculta a verificação necessária.",
+        "Dois e-mails não demonstram compatibilidade."
+      ],
+      "dificuldade": "Alta: avaliar interface interorganizacional e condição de integração, não só entregas isoladas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0068",
+      "sha256": "1402b12f0023327c93cc544f426d88107a7f1158c09ca67790b1998a1bac1753",
+      "correctOption": 2,
+      "alternativas": [
+        "Declarações de política não substituem evidência de execução.",
+        "Sequência documental não elimina critérios.",
+        "A mesma mudança permite rastrear interfaces concretas.",
+        "Um caso não é censo de todas as mudanças.",
+        "Representatividade estatística não decorre de envolver setores."
+      ],
+      "dificuldade": "Alta: distinguir trilha transversal de entrevistas setoriais ou generalização estatística."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0069",
+      "sha256": "a745b614c40bfacca40b8ce46e0068249d8408f4ac4aca21413469917ca6bdd7",
+      "correctOption": 2,
+      "alternativas": [
+        "Códigos de doença não substituem providências do posto.",
+        "Iniciais não asseguram anonimato.",
+        "A saída operacional contém ajustes, sem diagnóstico individual.",
+        "Mudar título não elimina informação clínica.",
+        "Abrir toda a base viola a separação acordada."
+      ],
+      "dificuldade": "Alta: conciliar finalidade operacional e separação de acesso ao dado clínico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0070",
+      "sha256": "d6a3ceed748215b346803dd50d422d9eabb50f7676d47c9508bb2c0d28c2c687",
+      "correctOption": 3,
+      "alternativas": [
+        "9/25 supõe reposição.",
+        "Um quinto corresponde a uma seleção, não duas.",
+        "Um par com dois erros não esgota pelo menos um.",
+        "Há 45 pares, 28 sem erro; complemento 17/45.",
+        "Somar duas chances ignora interseção."
+      ],
+      "dificuldade": "Muito alta: contagem combinatória sem reposição e evento complementar."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0071",
+      "sha256": "d24f19c4f1c1270572b9c679b85c41849604f362584e4535ee9ec7c642ae4955",
+      "correctOption": 0,
+      "alternativas": [
+        "D2 e T2 estão alinhados; a instrução precisa refletir impacto em D2.",
+        "A mesma revisão não é satisfeita por qualquer teste antigo.",
+        "Teste não atualiza conteúdo e referência de I1.",
+        "Apagar revisão oculta, não resolve incompatibilidade.",
+        "Teste recente não torna D1 igual a D2."
+      ],
+      "dificuldade": "Muito alta: propagar impacto de mudança entre três artefatos e suas referências."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0072",
+      "sha256": "4cf4232cc1723e1d198e5db6caff017ad73c2b92414f385c9a8d1ae59784084f",
+      "correctOption": 2,
+      "alternativas": [
+        "Gisele está indisponível.",
+        "Elisa se repete, violando segregação.",
+        "Sem Gisele, Fábio verifica; Elisa elabora e Hugo aprova.",
+        "Elisa não pode verificar.",
+        "Hugo não tem competência de elaboração informada."
+      ],
+      "dificuldade": "Muito alta: resolver designação global por exclusão, competência e pessoas distintas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0093",
+      "sha256": "98214d338cb259eb08d05ad33e003c07c06a3ed357afd5c92dd4e0b62a098b75",
+      "correctOption": 4,
+      "alternativas": [
+        "Convecção envolve fluido transportando energia.",
+        "Condução descrita exige contato sólido.",
+        "Partículas transportam material.",
+        "Vazamento transporta massa de combustível.",
+        "Radiação independe de contato e transporte material."
+      ],
+      "dificuldade": "Média: distinguir os mecanismos físicos pela descrição da transferência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0094",
+      "sha256": "e25f5bc424fe987863ffcd5e66fe2a653148affe682bd8d0e69fd479f8e1d42c",
+      "correctOption": 0,
+      "alternativas": [
+        "Diluir mistura rica pode atravessar faixa inflamável.",
+        "Riqueza não é ausência de combustível.",
+        "Adicionar ar altera a proporção.",
+        "Limites não são universais para todo combustível e condição.",
+        "Ar pode levar a faixa de propagação."
+      ],
+      "dificuldade": "Média: reconhecer trajetória de composição sem converter estado inicial em garantia permanente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0095",
+      "sha256": "3bcae9438e44701c692373f28d8981dd473deaf1f1a3a974bf199a10c0b419b6",
+      "correctOption": 0,
+      "alternativas": [
+        "800−100−180=520; margem 70.",
+        "Ignora as perdas por escoamento.",
+        "Soma a perda em vez de subtrair.",
+        "Inverte o sinal da margem.",
+        "Ignora a parcela de cota."
+      ],
+      "dificuldade": "Alta: compor balanço de pressão e verificar margem de projeto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0096",
+      "sha256": "f241a723eb582b1aaaf9ab1fd2b050c7cb039f0672c96d58165d43aede1d2ea1",
+      "correctOption": 3,
+      "alternativas": [
+        "Ignora diferença decisiva de ventilação.",
+        "Caráter térmico de I não apaga o papel do ar em II.",
+        "Troca os mecanismos e universaliza entrada de ar.",
+        "I é transição térmica generalizada; II envolve ar após limitação de oxigênio.",
+        "Impõe condição indevida a I e nega papel dos gases em II."
+      ],
+      "dificuldade": "Alta: distinguir fenômenos próximos usando história térmica e ventilação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0097",
+      "sha256": "df0a3de2b6233031d18a26c6ea7df17b6756c720d599b2d61c5c51bd11d6307c",
+      "correctOption": 1,
+      "alternativas": [
+        "Suprimir supervisão não preserva crédito sem ensaio.",
+        "Rever geometria e ensaiar estados distingue obstrução, falha e incêndio.",
+        "Movimentos não verificam as duas funções.",
+        "Presença física não prova caminho livre.",
+        "Obstrução não confirma incêndio."
+      ],
+      "dificuldade": "Alta: relacionar disponibilidade de detecção, interferência de operação e significado dos estados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0098",
+      "sha256": "3bc6bd7da0b5b313fdedb4ad94a8a015618b47c8224d99d82e9ec8e48a4d6aaa",
+      "correctOption": 3,
+      "alternativas": [
+        "Em Q≈44,72 a rede não se iguala à bomba.",
+        "Em Q=20 as curvas não se igualam.",
+        "Sessenta é altura de fechamento, não a do ponto.",
+        "Q²=1.000, Q≈31,62 e H=40.",
+        "Mil é Q², não Q."
+      ],
+      "dificuldade": "Muito alta: resolver interseção quadrática e recalcular a segunda grandeza."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0099",
+      "sha256": "9baed7eb4a06ca378676249e96303bc037e0d29287860fbedfc8ff8d9c8d66da",
+      "correctOption": 1,
+      "alternativas": [
+        "Inverte margem sem mudar volume.",
+        "Perdas líquidas são 40 e 40; resta 40 e margem dez.",
+        "Omite toda a segunda fase.",
+        "Repete a vazão líquida anterior na segunda fase.",
+        "Ignora a entrada da primeira fase."
+      ],
+      "dificuldade": "Muito alta: integrar duas fases de entrada e retirada e confrontar reserva de projeto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0100",
+      "sha256": "9bca091dcf798617527b62cdfc4ece7cc2fada79b0e830a63f475063b4ca482f",
+      "correctOption": 2,
+      "alternativas": [
+        "A regra é qualquer incêndio, não dupla confirmação.",
+        "Impõe precedência da falha contrária à especificação.",
+        "Incêndio e falha são indicados sem supressão; bloquear pelo canal falho viola a regra.",
+        "Estados diferentes não se cancelam.",
+        "Falha não converte o outro canal em normal."
+      ],
+      "dificuldade": "Muito alta: aplicar duas saídas e prioridade lógica em estado degradado."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0021",
+      "sha256": "9e7f77025f23f055cc3da885df70d4ea2abde95aa963d772d17f3e92e36ef258",
+      "correctOption": 4,
+      "alternativas": [
+        "Não é lista de venda de usados.",
+        "Desgaste comum não impõe troca a cada empréstimo.",
+        "Não há aquisição permanente.",
+        "Peças acompanham o item; compra separada não foi informada.",
+        "Catálogo orienta função, componentes e conferência do empréstimo."
+      ],
+      "dificuldade": "Média: reconhecer finalidade e gênero do catálogo no contexto."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0022",
+      "sha256": "fa8acd68ef7e141fd15405eef65cb0d70fd14814c8c777df6ed20dd90af3d254",
+      "correctOption": 4,
+      "alternativas": [
+        "Não há transferência de propriedade ou preço de venda.",
+        "Não foram dadas duas obrigações de substituição nem prazos.",
+        "O cabo continua parte do equipamento.",
+        "Um cabo gasto não significa que ele não foi devolvido.",
+        "Falta compromete completude; desgaste comum tem tratamento diverso."
+      ],
+      "dificuldade": "Alta: distinguir estados de devolução e alcance da expectativa de reposição."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0023",
+      "sha256": "359a468c498934a4e32da5ff81ad6e7f3024293b2fdd3791051535a344aee85d",
+      "correctOption": 2,
+      "alternativas": [
+        "Espera não implica necessariamente corrupção.",
+        "Arquivos já excluídos não aguardam envio.",
+        "Backlog é fila de arquivos já coletados e ainda não transmitidos.",
+        "Coleta pendente não define a fila citada.",
+        "Ausência de posicionamento não foi relatada."
+      ],
+      "dificuldade": "Alta: localizar a etapa do processo a que o termo se refere."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0024",
+      "sha256": "4c5d3eae5448917e01d6bfcdb36574cd2d08bb918fc6f055015f58ca9b2e7564",
+      "correctOption": 0,
+      "alternativas": [
+        "Coleta e transferência têm estados distintos; exclusão espera cópia completa.",
+        "Fim do mergulho não confirma entrega completa.",
+        "Cessar observações não cumpre a condição de cópia completa.",
+        "Contato restabelecido não equivale a arquivo entregue.",
+        "Coleta concluída não se desfaz pela transferência parcial."
+      ],
+      "dificuldade": "Muito alta: combinar estado de coleta, entrega e precedência da exclusão."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0025",
+      "sha256": "66d309b38f8ea79a250b35a465a6c5139c1d7cefff6a1e640879f1cc049074a2",
+      "correctOption": 0,
+      "alternativas": [
+        "A expressão identifica produto padronizado, não projeto sob encomenda.",
+        "Estoque local não é garantido.",
+        "Não impõe venda vinculada a serviço local.",
+        "Não confirma data de chegada.",
+        "Não dispensa especificações."
+      ],
+      "dificuldade": "Média: interpretar expressão idiomática explicitada no texto."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0026",
+      "sha256": "0f6856157295f57c9a433c5e42fecb016f01d0c70f89ad1c7492f9ddb116e2db",
+      "correctOption": 1,
+      "alternativas": [
+        "Disponibilidade comercial não demonstra propriedade.",
+        "A data para a quantidade requerida responde à incerteza logística restante.",
+        "Prateleira literal é a leitura corrigida.",
+        "Padronização já foi esclarecida.",
+        "O cronograma continua necessário."
+      ],
+      "dificuldade": "Alta: separar informação já resolvida e informação ainda necessária à compra."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0027",
+      "sha256": "5163cd569962258d75453944b823f9b566d871965412e6cb982a35bf92e3164a",
+      "correctOption": 2,
+      "alternativas": [
+        "Não prevê substituição permanente da navegação eletrônica.",
+        "Não estabelece idade relativa dos suportes.",
+        "Fallback descreve função diante da perda do meio principal.",
+        "A atualização separada é explicitamente mantida.",
+        "Não significa uso rotineiro mais frequente."
+      ],
+      "dificuldade": "Alta: interpretar papel funcional sem inferir idade ou obsolescência."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0028",
+      "sha256": "942484a84dd07f8ad9a8576dcbb7489c312542b4b9b1413725a534e9aafe0ddc",
+      "correctOption": 1,
+      "alternativas": [
+        "Manutenção não determina qual meio é primário.",
+        "Condição de acionamento e prontidão antecipada se complementam.",
+        "Preparação pode anteceder a falha prevista.",
+        "Inverte as funções normais e de prática.",
+        "Uso raro não implica desatualização."
+      ],
+      "dificuldade": "Muito alta: integrar condição de contingência, atualização e preparação."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0029",
+      "sha256": "a84bc83f2e0b0f19efee997fbb3fb5cc5df530fa2b96db5444593664325f7387",
+      "correctOption": 2,
+      "alternativas": [
+        "Ambos os conjuntos podem ser consultados.",
+        "A etiqueta não atribui ao arquivista a autoria.",
+        "Uma lacuna explícita não nega a existência de autor.",
+        "A lacuna convida, não impede pesquisa.",
+        "Desconhecido não é inexistente."
+      ],
+      "dificuldade": "Alta: distinguir ausência de conhecimento e ausência de entidade."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0030",
+      "sha256": "61f93f4a7ab798314e0b5b26ae65c7aad483bffc9ab3cefee59b94d4bf1fbae2",
+      "correctOption": 2,
+      "alternativas": [
+        "O estado de conhecimento não é permanente por natureza.",
+        "Etiqueta comum não demonstra autoria comum.",
+        "A nova evidência muda a atribuição de uma imagem, não cria seu autor.",
+        "Um caso resolvido não elimina outros estados desconhecidos.",
+        "Confunde descoberta e existência da autoria."
+      ],
+      "dificuldade": "Muito alta: atualizar metadado por nova evidência sem mudar indevidamente ontologia ou conjunto."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0031",
+      "sha256": "aee42f6021a45f0bfb830d3ee1162b21158557eb72176a66389e2d5f57dd38f8",
+      "correctOption": 3,
+      "alternativas": [
+        "Thrown away é a destruição contrastada.",
+        "Não se distribui como instrução ativa.",
+        "Não implica incorporar todos os trechos ao relatório.",
+        "Set aside é reter fora da consideração atual.",
+        "Reter não é aprovar."
+      ],
+      "dificuldade": "Média: inferir sentido de expressão pelo contraste e ação realizada."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0032",
+      "sha256": "00ba17686bb6e82fadc03edb3a7178d06ef8f6860ca8405196dce77a848e4c09",
+      "correctOption": 0,
+      "alternativas": [
+        "Retenção e autoridade para decidir são estados diferentes.",
+        "Não há validação futura necessária de todos os trechos.",
+        "Pasta de espera não vira instrução.",
+        "Local de armazenamento não torna relatório final.",
+        "A retenção não exige uso corrente."
+      ],
+      "dificuldade": "Alta: compreender a finalidade da separação entre pacotes documentais."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0033",
+      "sha256": "a18779090e23ddec0f562ef962c8686aea5ab4767f5f8195e6be260ec13d13ad",
+      "correctOption": 4,
+      "alternativas": [
+        "Few não é zero e a few não é ilimitado.",
+        "As formas não determinam por si o tempo verbal.",
+        "As duas referem quantidades contáveis, não singular obrigatório.",
+        "Não dá número preciso ou data.",
+        "Few acentua escassez; a few reconhece pequena disponibilidade."
+      ],
+      "dificuldade": "Alta: interpretar polaridade pragmática de dois quantificadores."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0034",
+      "sha256": "b0dc232de82e8ef491f704dd452d7ed91bf70474f0d38a1d3b759e86831fca69",
+      "correctOption": 3,
+      "alternativas": [
+        "Plenty contraria a escassez atual e muda o foco posterior.",
+        "Impõe zero onde havia quantidades pequenas positivas.",
+        "Universaliza vagas e inventa uma sessão única.",
+        "Hardly any conserva escassez e some conserva oportunidade sem absolutos.",
+        "Não se informou cancelamento ou ausência de planejamento."
+      ],
+      "dificuldade": "Muito alta: preservar duas quantificações, referência temporal e contraste na reescrita."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0035",
+      "sha256": "e3142d9b0e324c3485356c99d22e729c866e273dfccc247098715f02295a262a",
+      "correctOption": 4,
+      "alternativas": [
+        "Não envia comandos diretos ao equipamento real.",
+        "Não substitui liberação.",
+        "Os registros podem ser modificados e reiniciados.",
+        "Não é a planta desligada.",
+        "Sandbox é ambiente isolado com cópias para testar."
+      ],
+      "dificuldade": "Média: reconhecer uso técnico figurado a partir da definição operacional."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0036",
+      "sha256": "bc38f1bcdc6a0f8c9bef0dca0b4f977b50360c8dbf9a002f87e0a3d279b49f65",
+      "correctOption": 1,
+      "alternativas": [
+        "A ordem é liberação antes do uso, não depois.",
+        "A mudança é o sujeito paciente de being used.",
+        "Não se reinicia a identidade de usuário.",
+        "A planta não é substituída pelas cópias.",
+        "O sandbox não se transforma em sistema vivo."
+      ],
+      "dificuldade": "Alta: recuperar sujeito paciente e relação de precedência de oração não finita."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0037",
+      "sha256": "fe780a846ea93526803bcc6c448ad8d726a7b6be4d2900d2f5d3b6e1d5d6f987",
+      "correctOption": 1,
+      "alternativas": [
+        "Não há pergunta sobre o nome da presidência.",
+        "Only after antecipado desencadeia inversão na oração declarativa.",
+        "O mais-que-perfeito sozinho não exige interrogação posterior.",
+        "Close continua verbo, não nome.",
+        "O sujeito da principal é the chair."
+      ],
+      "dificuldade": "Alta: explicar inversão sintática sem converter declaração em pergunta."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0038",
+      "sha256": "9a0c5e4ee8e4c076fbb969e4b06484ec84417c12499e2342486d195ae0ac7289",
+      "correctOption": 3,
+      "alternativas": [
+        "Inverte a ordem e inventa ausência de atraso.",
+        "Inverte a ordem e afirma simultaneidade não dita.",
+        "Não há obrigação de fechar ao início de pergunta.",
+        "Discussão antecede fechamento, sem intervalo especificado.",
+        "A inversão não torna o acontecimento hipotético."
+      ],
+      "dificuldade": "Muito alta: articular dois tempos e restrição temporal sem inferir imediatismo."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0039",
+      "sha256": "52f196585b3288c9a1a4f6edb2b67adc8ed45f232119a0cfb529990b38400b49",
+      "correctOption": 3,
+      "alternativas": [
+        "Não há exceção automática por utilidade.",
+        "Utilidade não elimina restrição de autoria à tarde.",
+        "Gravação da manhã não permite reatribuir falas da tarde.",
+        "As duas sessões têm condições de atribuição diferentes, cumpridas pela proposta.",
+        "Inverte as permissões dos dois períodos."
+      ],
+      "dificuldade": "Muito alta: aplicar conjuntamente duas condições de uso e identificação de fontes."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0040",
+      "sha256": "024e4f5e74530d054ae8ebdad4ef56af51d35a7345b817960143cc7560bca242",
+      "correctOption": 0,
+      "alternativas": [
+        "Os marcadores delimitam acordo local e evitam universalização.",
+        "Não restringem assuntos ao espaço físico.",
+        "Afirma exatamente a universalização negada.",
+        "Não altera a sequência nem o conteúdo das gravações.",
+        "Localidade não revoga o acordo."
+      ],
+      "dificuldade": "Muito alta: distinguir definição local, alcance e condições de atribuição."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0021",
+      "sha256": "315617c5735d7e56a99b9318bd70db4457eb9ba9573884e71d26ace58908b596",
+      "correctOption": 3,
+      "alternativas": [
+        "Indexação não é a perda expressiva criticada.",
+        "Volume audível não elimina singularidades.",
+        "Estalos técnicos são retirados legitimamente.",
+        "Apagar hesitações e entonações é homogeneizar os relatos.",
+        "Cronologia não define o alisamento criticado."
+      ],
+      "dificuldade": "Média: inferir o sentido de uma metáfora pelo contraste expresso."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0022",
+      "sha256": "b05969e234d8ab58a2e11dc112c61223d9b7a15757613f66859b7a7b2222c205",
+      "correctOption": 0,
+      "alternativas": [
+        "Lembrança e ata distinguem relato singular e normalização formal.",
+        "Não há impedimento de guardar narrativa não linear.",
+        "A pausa não substitui nem elimina nomes.",
+        "O texto diferencia estalos de marcas expressivas.",
+        "O arquivo não visa converter relatos em atas."
+      ],
+      "dificuldade": "Alta: relacionar gênero documental e escolha editorial de preservação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0023",
+      "sha256": "249c32c767ed0c61666f4c2f9e3570d5c2b26ab245db1d801859749dd9b14e9f",
+      "correctOption": 4,
+      "alternativas": [
+        "A leitura literal do menino não é a única válida.",
+        "Envelopes não determinam o trajeto do rio.",
+        "Não se atribui consciência ao asfalto nesse trecho.",
+        "Não se trata apenas de sinonímia literal com avenida.",
+        "Saber personifica o rio e sugere permanência do trajeto."
+      ],
+      "dificuldade": "Alta: integrar figura de linguagem e referência espacial sob a mudança."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0024",
+      "sha256": "22cf7c90e8c7eda55f0093233ee4ec2a9e4212baddfea9c1db21b0e8fd9ad01b",
+      "correctOption": 4,
+      "alternativas": [
+        "O uso dos envelopes mostra domínio do nome novo.",
+        "Não houve correção imediata nem rio descoberto literalmente.",
+        "O desfecho não torna a memória dispensável.",
+        "Ela usa o endereço novo e não exige água visível no mapa.",
+        "Nome atual e memória coexistem; a interpretação literal cria desencontro produtivo."
+      ],
+      "dificuldade": "Muito alta: articular três passagens e duas perspectivas sobre um mesmo espaço."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0025",
+      "sha256": "14e4645e112b1048ffd01295eb0152f2fc7963e343f6336923a2daf05d6471d6",
+      "correctOption": 1,
+      "alternativas": [
+        "Siglas são expandidas, não usadas para substituir a explicação.",
+        "O percurso é explicitado sem apagar a complexidade das conclusões.",
+        "Não se limita o guia ao previamente conhecido.",
+        "Termos necessários são explicados, não eliminados.",
+        "Iniciantes integram expressamente o público."
+      ],
+      "dificuldade": "Média: reconhecer a definição contextual de acessibilidade."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0026",
+      "sha256": "d9e14b06e61a8022d526f9a8b07423cffca8485953f70c829976422cdcb55220",
+      "correctOption": 1,
+      "alternativas": [
+        "Não há autorização dos leitores experientes.",
+        "A correlação adiciona públicos sem excluir o primeiro.",
+        "O segundo público não causa dificuldade ao primeiro.",
+        "Os grupos não formam alternativas excludentes.",
+        "Não é correção substitutiva de público."
+      ],
+      "dificuldade": "Alta: analisar correlação sintática e alcance argumentativo aditivo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0027",
+      "sha256": "70aeb5b8adb71027fe8607e3d47955eb9f20edb412ec078e0ffe23a51afbcb2e",
+      "correctOption": 0,
+      "alternativas": [
+        "Fazer indica tempo decorrido impessoalmente.",
+        "O numeral não cria uma exceção à impessoalidade.",
+        "Equipe é sujeito de cataloga, não de faz.",
+        "Boletim não determina concordância da oração.",
+        "Faz e cataloga não constituem locução verbal."
+      ],
+      "dificuldade": "Alta: distinguir sujeitos em duas orações ligadas e a impessoalidade temporal."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0028",
+      "sha256": "9bfbcc657329afa324eb6ef0a6884b68de0430bceac348cf40829bc07b8d5e2d",
+      "correctOption": 4,
+      "alternativas": [
+        "Fazem e devem haver são inadequados; a temporal também muda.",
+        "Necessariamente transforma probabilidade em certeza.",
+        "Fazem temporal e deve existir peças violam concordância.",
+        "A duas semanas não exprime o passado pedido.",
+        "Faz e há ficam singulares; existir concorda com peças e mantém modalidade."
+      ],
+      "dificuldade": "Muito alta: coordenar três construções, concordância e modalidade na reescrita."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0029",
+      "sha256": "7a9f577034abbeae31502e0d237f5a3b612263fdcada22cc436cb2d341848496",
+      "correctOption": 0,
+      "alternativas": [
+        "O valor comum do lugar não determina solução de uso comum.",
+        "O desacordo não se limita à existência do editorial.",
+        "Valor e uso não são contrapostos como impossíveis.",
+        "Atividades não são declaradas fisicamente impossíveis.",
+        "Reportagem permite posições identificáveis."
+      ],
+      "dificuldade": "Alta: distinguir unidade temática e concordância das vozes."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0030",
+      "sha256": "0bc45259ebafbd20dbf0784d8ec0df9af52b49a32cf0189c8cb5cdaf93b23b67",
+      "correctOption": 0,
+      "alternativas": [
+        "Título e subtítulo conservam objeto compartilhado e divergência atribuída.",
+        "A edição não atribui a todos uma fala selecionada.",
+        "Não há silêncio ou acordo final entre todos.",
+        "Reunir falas não transforma uma posição em outra.",
+        "Há reconhecimento comum de valor."
+      ],
+      "dificuldade": "Muito alta: preservar polifonia e coerência entre dois níveis de titulação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0031",
+      "sha256": "3365416fa905c6a72972aa12545eb6d0900fc9003f3598657631b4b0c56adca6",
+      "correctOption": 4,
+      "alternativas": [
+        "Há voz de personagem, não definição impessoal.",
+        "Não foi informado um título escolhido pelos leitores.",
+        "Não há pergunta do narrador.",
+        "O discurso é diretamente delimitado.",
+        "Anunciou e as aspas introduzem a fala direta da personagem."
+      ],
+      "dificuldade": "Média: reconhecer marcas de discurso direto e sua autoria."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0032",
+      "sha256": "e62e8346b6dea73dd127c10fa879f976491b82cd1aaf347c85670c6f9264767d",
+      "correctOption": 2,
+      "alternativas": [
+        "Lhes não pluraliza a forma verbal.",
+        "Lhes não é sujeito.",
+        "Não atrai o pronome; livros e tempo são os sujeitos de faltar.",
+        "Os nomes não são objetos diretos de faltar.",
+        "Ponto e vírgula não neutraliza a próclise atraída por não."
+      ],
+      "dificuldade": "Alta: analisar colocação pronominal, função sintática e paralelismo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0033",
+      "sha256": "dd16f9b42f67c92e0883a0d66b59a7517655a9e6f999e86a2e21162ae7c0f3ec",
+      "correctOption": 3,
+      "alternativas": [
+        "Teimosia não significa apenas deterioração.",
+        "Não se afirmou que todas as cadeiras eram inutilizadas.",
+        "Não há reforma exclusiva do cronista.",
+        "A figura condensa os agentes coletivos, explicitados depois.",
+        "A vontade do prédio não é literal."
+      ],
+      "dificuldade": "Alta: interpretar deslocamento de agência entre duas formulações."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0034",
+      "sha256": "6d7b4b6353cbb4eb6e53810500323e2b767aee6463c589a6e3ac94903fb4f297",
+      "correctOption": 2,
+      "alternativas": [
+        "Consertos desenvolvem a persistência tematizada.",
+        "A gente tem referente coletivo nesse contexto.",
+        "O desfecho explica quem sustenta a figura sem invalidá-la.",
+        "Moradores são agentes, não mero cenário.",
+        "A personificação não é cancelada como erro factual."
+      ],
+      "dificuldade": "Muito alta: integrar figura, progressão e agência sem oposição artificial."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0035",
+      "sha256": "d8d3193ece6e9ef60346d276488f4bcc2c2c2a897226ed072a274ab9402741c8",
+      "correctOption": 2,
+      "alternativas": [
+        "Não é causa que impediu escrever.",
+        "Não condiciona a existência prévia das obras.",
+        "Para que introduz finalidade da elaboração de legendas.",
+        "Não afirma êxito universal já medido.",
+        "Não compara duas atividades de escrita."
+      ],
+      "dificuldade": "Média: identificar relação final explicitada na oração."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0036",
+      "sha256": "0efbbf6fe7bce1c6566b0d02f37dd0aaf30abcd160c6763dd807003e3a27bf78",
+      "correctOption": 2,
+      "alternativas": [
+        "Infinitivo não exige sempre plural.",
+        "A autoria das obras não decorre da omissão.",
+        "O infinitivo pode ser associado à equipe; a redução enfraquece a agência dos visitantes.",
+        "Para pode introduzir finalidade.",
+        "A redução não marca passado concluído."
+      ],
+      "dificuldade": "Alta: avaliar controle de sujeito e clareza, sem confundir com agramaticalidade."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0037",
+      "sha256": "e76a63830524de2d3d505e0a274a50a867f6b21cddbc0ebd94713e9b685d6cf8",
+      "correctOption": 1,
+      "alternativas": [
+        "Não é causal seguida de relativo.",
+        "Interrogativa indireta e nome precedido de artigo têm funções distintas.",
+        "O acento não depende de bairro ou reforma.",
+        "A grafia não depende da posição do parágrafo.",
+        "Não é pergunta direta nem locução verbal."
+      ],
+      "dificuldade": "Alta: relacionar grafia, substantivação e interrogação indireta."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0038",
+      "sha256": "e6cfd31dd085c987045ffd230cc9cbfcf6a7bc550b1c73247216e0e0cae611c5",
+      "correctOption": 3,
+      "alternativas": [
+        "As funções das três lacunas foram trocadas.",
+        "Porque não introduz a pergunta indireta e falta acento no fim.",
+        "A segunda precisa de substantivo e a final é interrogativa.",
+        "Interrogação indireta, substantivo e expressão interrogativa final pedem essas formas.",
+        "Troca grafias e funções nas três posições."
+      ],
+      "dificuldade": "Muito alta: resolver três contextos sintáticos e tonicidade sem mero jogo de palavras."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0039",
+      "sha256": "8afa2065ad14c51df1a0f3233c229b8800f5b7a9f27657db73d023a707bd5916",
+      "correctOption": 1,
+      "alternativas": [
+        "Nem simultaneidade nem exclusão dos antigos.",
+        "O tempo composto antecipa a retirada e até inclui reação inesperada dos familiares.",
+        "A retirada foi anterior, não posterior.",
+        "O fato não é hipotético nem o até é espacial.",
+        "Há evento temporalmente situado e reação dos familiarizados."
+      ],
+      "dificuldade": "Muito alta: integrar aspecto temporal e foco inclusivo no desenvolvimento narrativo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0040",
+      "sha256": "7ff7b1b60a1077f0393abd96475877f1d9b90af933d27cb4edab13c7b56f1097",
+      "correctOption": 3,
+      "alternativas": [
+        "O acréscimo é precisamente desnecessário no texto.",
+        "Não há descarte geral da conservação de objetos.",
+        "Uma relação anterior não impede nova percepção.",
+        "Retirar o obstáculo pode renovar uma relação já existente sem nova peça.",
+        "Havia relação anterior com o exterior, embora encoberta."
+      ],
+      "dificuldade": "Muito alta: interpretar escopo de negação e conclusão apoiada no desfecho."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0061",
+      "sha256": "0ffd3db2d80f661e1b028fe0e9a1e2de6203949512a839c106ea977cbbff334f",
+      "correctOption": 0,
+      "alternativas": [
+        "Ligação favorece equipotencialização dos condutores.",
+        "Não torna condutores isolantes.",
+        "Não verifica a resistência mecânica das conexões.",
+        "Não substitui análise de todas as fontes.",
+        "Não caracteriza composição da atmosfera."
+      ],
+      "dificuldade": "Média: reconhecer função elétrica delimitada sem atribuir proteção universal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0062",
+      "sha256": "fd3d1aafbb5035033620062df890cd54159daca6a511cf56775b778b83bdf582",
+      "correctOption": 2,
+      "alternativas": [
+        "Passagem de caminhão não avalia solicitações no terreno.",
+        "Sinalização não demonstra estabilidade.",
+        "Sobrecargas mudam hipóteses de solicitações no maciço.",
+        "Cargas externas podem afetar a estabilidade da escavação.",
+        "Pilha e tráfego são mudanças físicas relevantes."
+      ],
+      "dificuldade": "Alta: integrar mudança de entorno e validade das hipóteses geotécnicas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0109",
+      "sha256": "bd3f75677ac69c4cacb35ccba390be8926c81ac8a642972f2d4b77497dd33695",
+      "correctOption": 4,
+      "alternativas": [
+        "Data de início caracteriza caso incidente.",
+        "Tempo sob risco é informação relevante.",
+        "Esses são justamente os casos novos desejados.",
+        "Permanência caracteriza contribuição de acompanhamento.",
+        "Casos prévios não integram novos casos desse seguimento."
+      ],
+      "dificuldade": "Média: distinguir estoque inicial e incidência no seguimento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0110",
+      "sha256": "18f96489cbc220b147762fe26e93361e9a3fa58a5f6e730eda34f89be61d9489",
+      "correctOption": 4,
+      "alternativas": [
+        "88,89% é valor preditivo positivo.",
+        "80% é sensibilidade.",
+        "85% é acurácia global.",
+        "81,82% é valor preditivo negativo.",
+        "90/(90+10)=90% é especificidade."
+      ],
+      "dificuldade": "Média: selecionar o denominador correto entre métricas de uma tabela completa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0111",
+      "sha256": "029ec50673da20cbd78fa39c0b7f131212d1fde17a18b00dbe0d205ff47c4ede",
+      "correctOption": 3,
+      "alternativas": [
+        "Indicador longo não registra exclusivamente o último turno.",
+        "Resultado não demonstra fonte exclusiva.",
+        "Mesmo dia não iguala as cinéticas descritas.",
+        "Janela, coleta e tarefa precisam ser relacionadas sem excluir outras fontes.",
+        "Unidade igual não iguala janela temporal."
+      ],
+      "dificuldade": "Alta: integrar janela do marcador, cronologia da tarefa e limites de atribuição."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0112",
+      "sha256": "bab4be2c6073979856ffe8290a1344efa3f6f52a9f3e30cfa846198797da3981",
+      "correctOption": 3,
+      "alternativas": [
+        "Não se inventam dados para preencher registro.",
+        "Troca de responsável não valida conservação passada.",
+        "Embalagem não comprova histórico completo.",
+        "Lacuna de conservação exige apuração pelas especificações reais.",
+        "Eliminar identificação destrói rastreabilidade."
+      ],
+      "dificuldade": "Alta: distinguir integridade externa e evidência da condição de conservação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0113",
+      "sha256": "4260eef0fe335450f190698a11ebf191921835021bf0cee345a06e081522a64b",
+      "correctOption": 3,
+      "alternativas": [
+        "Mesmo n não recompõe a correspondência.",
+        "Posto ordinal não garante mesma pessoa.",
+        "Ordenar não prova melhora igual.",
+        "Ordenação separada rompe o par individual e as diferenças atribuídas.",
+        "Médias marginais não exigem apagar identidade."
+      ],
+      "dificuldade": "Alta: relacionar unidade de análise e pareamento, distinguindo médias e mudanças individuais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0114",
+      "sha256": "9402e14f3341a325d92b15fb59be4be16dec8a3715905dd6ec30907bc04e8a3c",
+      "correctOption": 1,
+      "alternativas": [
+        "Noventa por cento é sensibilidade.",
+        "180 positivos verdadeiros em 1.160 positivos dão 15,52%.",
+        "Dois por cento é prevalência.",
+        "1,8% é conjunta condição e positivo.",
+        "Dez por cento é falso positivo entre os sem a condição."
+      ],
+      "dificuldade": "Muito alta: construir duas subpopulações e inverter a condição por Bayes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0115",
+      "sha256": "7fab20c2a0e63940bc0e2551779ab09436fcc01cb8f280a6400e8bfee3a333e2",
+      "correctOption": 4,
+      "alternativas": [
+        "Nove arredonda os tempos indevidamente.",
+        "0,75 omite oito acompanhamentos completos.",
+        "8,25 omite meio ano até o caso.",
+        "Dez ignora eventos e saída no tempo contribuído.",
+        "8+0,5+0,25=8,75; 1/8,75≈0,1143."
+      ],
+      "dificuldade": "Muito alta: construir tempo sob risco com censura e evento e calcular densidade de incidência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0116",
+      "sha256": "71c312ced976b9ccb4224472408c23311f435a2a84258e44fca9740cfc9c0c09",
+      "correctOption": 0,
+      "alternativas": [
+        "10/90=11,11%; estados constantes mostram efeito de saída seletiva, não recuperação.",
+        "Dez por cento mantém denominador antigo e inventa recuperação.",
+        "Retirada seletiva altera a composição.",
+        "Sintomas prévios permanecem nos remanescentes que os relatam.",
+        "Não se conservam saídos só no numerador."
+      ],
+      "dificuldade": "Muito alta: reconstituir coorte fechada e distinguir seleção de mudança individual."
+    }
+  ]
+}

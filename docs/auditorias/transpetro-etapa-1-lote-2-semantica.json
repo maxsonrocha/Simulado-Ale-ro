@@ -1,0 +1,1177 @@
+{
+  "baseCommit": "7a54ee0",
+  "escopo": {
+    "antigas": 100,
+    "novas": 100,
+    "novasNovas": 4950,
+    "novasAntigas": 10000
+  },
+  "metodo": "Comparação semântica editorial por cenário, objeto da pergunta e operação de resolução. Todo o catálogo antigo foi analisado antes da autoria. Triagem textual de todos os pares é registrada separadamente. Não se usaram embeddings nem se apresenta Jaccard como prova semântica. Não foram feitos 14.950 pareceres humanos independentes.",
+  "analisePrevia": "transpetro-etapa-1-lote-2-previa.json",
+  "revisoes": [
+    {
+      "id": "TP26-ENGSEG-ESP-0073",
+      "sha256": "d3837263e6b30d02e30e92bf7bdb78e303a288ebd9a687d4de4a482cb2df45f8",
+      "operacaoRevisada": "Média: classificar usando os critérios técnicos expressamente fornecidos.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "distincao": "Classificação técnica com dano material e distinção evento/pessoa; não presença como causa ou taxa de ocorrência por horas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0074",
+      "sha256": "38e30abdac2d441776bb6c6cfc1a0919b4b71884253bcb87c3fa44f0b9532ca5",
+      "operacaoRevisada": "Média: manter distintas as unidades evento e pessoa.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "distincao": "Classificação técnica com dano material e distinção evento/pessoa; não presença como causa ou taxa de ocorrência por horas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0075",
+      "sha256": "3b79ba8f2e4d56eae02fdea16a410118c645ec00e1facc001c3e49e587190275",
+      "operacaoRevisada": "Alta: distinguir custo econômico, recuperação e transferência interna no cálculo.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0039"
+      ],
+      "distincao": "Gastos realizados, recuperação e eliminação de transferência interna duplicada; não benefício anual esperado por unidade de custo de alternativas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0076",
+      "sha256": "bb52f0d83148577e3c056eb22b65f7f2386634bebe92fa7ee486e0086bfd72fb",
+      "operacaoRevisada": "Alta: selecionar técnica de entrevista que preserve qualidade da evidência.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ING-0001"
+      ],
+      "distincao": "Elicitação não indutiva e preservação de original versus cópia de trabalho; não inferência causal pela presença nem normalização de referências horárias."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0077",
+      "sha256": "51222811dd0538c106c21ea2a2860a2b09a9d3ddd459ae51bbc14b81f8f2e2f6",
+      "operacaoRevisada": "Alta: preservar cadeia de integridade sem impedir edição de cópia analítica.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ING-0001"
+      ],
+      "distincao": "Elicitação não indutiva e preservação de original versus cópia de trabalho; não inferência causal pela presença nem normalização de referências horárias."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0078",
+      "sha256": "56e711c7026b14a5c5b0ff57dc7feeca33c673f529c9025fb7e63ef413424daf",
+      "operacaoRevisada": "Alta: distinguir condição necessária e suficiência na estrutura causal fornecida.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0031",
+        "TP26-ENGSEG-ESP-0033"
+      ],
+      "distincao": "Necessidade e suficiência numa conjunção causal dada, sem cálculo de frequência; não classificar categorias HAZOP ou calcular porta OU."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0079",
+      "sha256": "ab1891bbf6a555ecaf0e69cb2aa7fb1e62f4e0e7c7bd1272c48e1c27b7c8a62b",
+      "operacaoRevisada": "Muito alta: operar com soma de dias-pessoa e união de intervalos, em unidades distintas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0048"
+      ],
+      "distincao": "Soma de dias-pessoa versus união de intervalos de calendário; não média de taxas ponderada por exposição setorial."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0080",
+      "sha256": "6a7328026fc499788b63e45e7accc377f45ad74581db9c6de7fbe3c5ef2da941",
+      "operacaoRevisada": "Muito alta: estimar por duas capturas e separar total estimado, união e parcela não observada.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0038"
+      ],
+      "distincao": "Estimação populacional por sobreposição de listas e diferença da união observada; não probabilidade de falhas condicionais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0081",
+      "sha256": "1965178d07d4764fb7860c2ca223efb2b91b5808be04d74bf26513e1184c0039",
+      "operacaoRevisada": "Muito alta: inferência probabilística de zero contagens e relação entre exposição e limite unilateral.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0035",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "distincao": "Inferência por zero contagens sob Poisson com limite dependente de exposição; não sensibilidade por variar uma frequência dada nem taxa pontual N/H."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0082",
+      "sha256": "6f7fe10268a3b35675a53d9b6be2da682e6c004013c7ed3ab23b5801afc98cbc",
+      "operacaoRevisada": "Muito alta: comparar partições de hipóteses e identificação inversa por um teste.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0030"
+      ],
+      "distincao": "Escolha de teste pelas partições que distinguem três hipóteses; não organização preliminar de perigos sem probabilidades."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0117",
+      "sha256": "c073c7c36824ba969e687af77fa37ef262843fcf3df97d2ac2ba238cf008cdd0",
+      "operacaoRevisada": "Alta: atribuir benefício específico de projeto sem extrapolar outras etapas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0059",
+        "TP26-ENGSEG-ESP-0060"
+      ],
+      "distincao": "Desmontagem reversível, estequiometria com retenção e topologia de habitat; não equilíbrio de reutilizações ou comparação de intensidades e totais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0118",
+      "sha256": "08add89859d4ac6dd9c6266285735c5e1a15cd5a74fc3bbaa5440b18e9c0df1e",
+      "operacaoRevisada": "Alta: converter massa elementar em composto e aplicar fração retida.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0059",
+        "TP26-ENGSEG-ESP-0060"
+      ],
+      "distincao": "Desmontagem reversível, estequiometria com retenção e topologia de habitat; não equilíbrio de reutilizações ou comparação de intensidades e totais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0119",
+      "sha256": "ed9f5b119c8805c9ff8109af04ba4ba5d01b87e8cd9c50be1b78b6be77e9e09b",
+      "operacaoRevisada": "Alta: distinguir quantidade espacial e configuração de conexões para o objetivo dado.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0059",
+        "TP26-ENGSEG-ESP-0060"
+      ],
+      "distincao": "Desmontagem reversível, estequiometria com retenção e topologia de habitat; não equilíbrio de reutilizações ou comparação de intensidades e totais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0120",
+      "sha256": "50e9865c437bb3de0f6e8ecfbf055b1dd88bb51697749f4d36d8593f0d67b7e6",
+      "operacaoRevisada": "Muito alta: alocar energia em dois períodos, propagar rendimento e calcular emissão remanescente.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0060"
+      ],
+      "distincao": "Distribuição temporal de energia com armazenamento, rendimento e demanda noturna; não renumerar variações de intensidade de produção."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0083",
+      "sha256": "e60b10a177fa4f080d1b4345ef7873721560266c99094bb35f7dd186243e4a55",
+      "operacaoRevisada": "Média: reconhecer confirmação de conteúdo em comunicação de circuito fechado.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0084",
+      "sha256": "b073eea6b630a972e41968839c5819c0e5d567dbb002ee1e0c0fb8201d61ceb7",
+      "operacaoRevisada": "Média: atualizar o manifesto antes de comparar presença, sem inferir localização de ausentes.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0085",
+      "sha256": "8e90ae8df72498a5a261d87e0ee21ccf72e4b5c5b5a45f42e2f257f67811c244",
+      "operacaoRevisada": "Alta: avaliar dois critérios de compatibilidade conjuntamente no recurso de resposta.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0086",
+      "sha256": "a550f56449d973181f691bf7d6d67848fb7b2d9a3676a4bbb41f7abdc1f64aec",
+      "operacaoRevisada": "Alta: construir comunicação que separe status operacional e hipótese investigada.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0087",
+      "sha256": "f8389f96440a854929d11c73c7d84c089aca692f29677fe4169fa2eeba4232fc",
+      "operacaoRevisada": "Alta: integrar público, organização de recursos e verificação da assistência.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0088",
+      "sha256": "19607fe3a76a52a52deb245d40591754a84a2c1c6ed528366814660afce63f9e",
+      "operacaoRevisada": "Alta: tratar continuidade de resposta na transferência, não apenas objetivo inicial.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0050",
+        "TP26-ENGSEG-ESP-0051"
+      ],
+      "distincao": "Confirmação de conteúdo, manifesto atualizado, compatibilidade, comunicação pública, assistência e passagem de comando. Não repetir contatos indisponíveis, disputa por recurso ou rota sob pluma."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0089",
+      "sha256": "fff5c36414aac5e004f5ee8861c8947c24f702e3da2cff7a103da8d39ef6d6c2",
+      "operacaoRevisada": "Muito alta: identificar corte limitante em rede série-paralelo e testar efeito de melhoria local.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0052"
+      ],
+      "distincao": "Capacidade de rede série-paralelo e estoque com retornos/requisição indivisível; não início após duas mobilizações paralelas. O antigo candidato de designação foi descartado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0090",
+      "sha256": "5514199a16dcc827ec964769d47c640518221d5bce0b0b9cb1d83ab1ebbb49bc",
+      "operacaoRevisada": "Muito alta: reconstruir estoque por eventos e primeira viabilidade de requisição indivisível.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0052"
+      ],
+      "distincao": "Capacidade de rede série-paralelo e estoque com retornos/requisição indivisível; não início após duas mobilizações paralelas. O antigo candidato de designação foi descartado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0091",
+      "sha256": "b9ca82eabb5a1df1ee6ab716cc31291f29a9f2b5e916ee95983063e52344f170",
+      "operacaoRevisada": "Muito alta: integrar validade temporal, estado físico e atualização efetiva da equipe.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ESP-0039"
+      ],
+      "distincao": "Validade operacional de mapa e atualização da equipe; critério minimax sem probabilidades. Não fusos nem decisão por perda anual esperada/custo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0092",
+      "sha256": "12e1e32291976be9aded29d244ef5fa13e53ec971412d309e59494ebc57bfea7",
+      "operacaoRevisada": "Muito alta: aplicar minimax sem substituir pior caso por média ou melhor caso.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ESP-0039"
+      ],
+      "distincao": "Validade operacional de mapa e atualização da equipe; critério minimax sem probabilidades. Não fusos nem decisão por perda anual esperada/custo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0101",
+      "sha256": "0e52eca49df7af91ecefdee956da1e9e99fb648b54e646442dbbc1baecb97619",
+      "operacaoRevisada": "Média: classificar tipo de exigência física sem concluir magnitude por descrição insuficiente.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0055",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "distincao": "Tipo de esforço, intervalo antropométrico, compatibilidade espacial, coordenação de dupla e rodízio biomecânico. Não repetir trabalho prescrito/real ou fusão de alarmes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0102",
+      "sha256": "5c26465e27e9bf619f02db40e16894257197d74c7aa65b26a4e62de5d5a16ed5",
+      "operacaoRevisada": "Alta: verificar cobertura de intervalo para usuários distintos, sem usar média como substituto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0055",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "distincao": "Tipo de esforço, intervalo antropométrico, compatibilidade espacial, coordenação de dupla e rodízio biomecânico. Não repetir trabalho prescrito/real ou fusão de alarmes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0103",
+      "sha256": "5ae64b4e57e7f47117a6b1f4dbb124186b5cbec96da221e6e6dace468ca44346",
+      "operacaoRevisada": "Alta: escolher intervenção correspondente ao mecanismo de erro de mapeamento.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0055",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "distincao": "Tipo de esforço, intervalo antropométrico, compatibilidade espacial, coordenação de dupla e rodízio biomecânico. Não repetir trabalho prescrito/real ou fusão de alarmes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0104",
+      "sha256": "dc44418db3a2060983ea817e23793f2c3b7105a18aa133fde87168fb2276209d",
+      "operacaoRevisada": "Alta: integrar ação de duas pessoas e comportamento da peça assimétrica.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0055",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "distincao": "Tipo de esforço, intervalo antropométrico, compatibilidade espacial, coordenação de dupla e rodízio biomecânico. Não repetir trabalho prescrito/real ou fusão de alarmes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0105",
+      "sha256": "4eeeb4e33f522093c7bfd0ee12f746644b3f68626378fdcbfc35e384c539290f",
+      "operacaoRevisada": "Alta: testar um objetivo de recuperação contra semelhança biomecânica real das tarefas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0055",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "distincao": "Tipo de esforço, intervalo antropométrico, compatibilidade espacial, coordenação de dupla e rodízio biomecânico. Não repetir trabalho prescrito/real ou fusão de alarmes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0106",
+      "sha256": "0cf45b671a11e3a7e01f44200d8d55a944f4e5ca56d23dbe179f3e86c3aece3a",
+      "operacaoRevisada": "Muito alta: aplicar modelo logarítmico em arquiteturas com etapas e sobrecarga diferentes.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0016",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "distincao": "Modelo logarítmico de escolhas com navegação e ângulo visual/distância/altura. Não somar energias sonoras ou repetir cálculo de forças de tombamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0107",
+      "sha256": "baaca1e630346688d30f1f2c0b5950e7ece2b0fbda623528a093350d83c079db",
+      "operacaoRevisada": "Muito alta: preservar ângulo por projeto e calcular efeito sob uma condição alternativa.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0016",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "distincao": "Modelo logarítmico de escolhas com navegação e ângulo visual/distância/altura. Não somar energias sonoras ou repetir cálculo de forças de tombamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0108",
+      "sha256": "823c80befca756933136d64cd914d5f1f2606009927a72101e85207c7035327e",
+      "operacaoRevisada": "Muito alta: verificar cobertura contínua, limite de bloco e recuperação por pessoa.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0052"
+      ],
+      "distincao": "Verificação de cobertura, blocos máximos e recuperação de cada pessoa num revezamento; não caminho de prontidão entre duas mobilizações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0063",
+      "sha256": "837da276ceac4bdf500425bd21ab658928d0e1de858e1cb2e8050d05f76d6e0a",
+      "operacaoRevisada": "Média: aplicar limite de processo explicitado, não suposta regra de propriedade.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0064",
+      "sha256": "4acbaebf5cd2ef490097c8c566505e9a396325c21b7e24ce43d362c802603cdb",
+      "operacaoRevisada": "Média: distinguir participação decisória e comunicação unilateral.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0065",
+      "sha256": "241e43ab3d2f211082a667c2297f9e1fa20b93d9ef468e0311255ba1cb5882a1",
+      "operacaoRevisada": "Alta: controlar implantação por ponto de uso e preservação histórica sem confusão de versão.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0066",
+      "sha256": "f038bea1421290d333cafe6131cb2bffaf4ba82021d69abe9cb4878d31eb3921",
+      "operacaoRevisada": "Alta: combinar impedimentos funcionais e competência para o objeto auditado.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0067",
+      "sha256": "8e552826c36d3c0a749df445ca0faef884fa38ee8a3f8efcca31e03c9384cb98",
+      "operacaoRevisada": "Alta: avaliar interface interorganizacional e condição de integração, não só entregas isoladas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0068",
+      "sha256": "1402b12f0023327c93cc544f426d88107a7f1158c09ca67790b1998a1bac1753",
+      "operacaoRevisada": "Alta: distinguir trilha transversal de entrevistas setoriais ou generalização estatística.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0069",
+      "sha256": "a745b614c40bfacca40b8ce46e0068249d8408f4ac4aca21413469917ca6bdd7",
+      "operacaoRevisada": "Alta: conciliar finalidade operacional e separação de acesso ao dado clínico.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0042",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "distincao": "Escopo externo, participação, versões em pontos de uso, impedimentos, interface, trilha e finalidade de dados clínicos são sete objetos de controle distintos. Não repetir falta de registro, classificação de indicador ou eficácia de bloqueio de campo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0070",
+      "sha256": "d6a3ceed748215b346803dd50d422d9eabb50f7676d47c9508bb2c0d28c2c687",
+      "operacaoRevisada": "Muito alta: contagem combinatória sem reposição e evento complementar.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0033",
+        "TP26-ENGSEG-ESP-0038"
+      ],
+      "distincao": "Amostragem sem reposição por combinações e complemento de pares; não união independente de falhas nem marginal condicional."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0071",
+      "sha256": "d24f19c4f1c1270572b9c679b85c41849604f362584e4535ee9ec7c642ae4955",
+      "operacaoRevisada": "Muito alta: propagar impacto de mudança entre três artefatos e suas referências.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Dependências entre desenho/teste/instrução e designação tripla com indisponibilidade; não comprovação de execução de uma sequência por assinatura."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0072",
+      "sha256": "4cf4232cc1723e1d198e5db6caff017ad73c2b92414f385c9a8d1ae59784084f",
+      "operacaoRevisada": "Muito alta: resolver designação global por exclusão, competência e pessoas distintas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Dependências entre desenho/teste/instrução e designação tripla com indisponibilidade; não comprovação de execução de uma sequência por assinatura."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0093",
+      "sha256": "98214d338cb259eb08d05ad33e003c07c06a3ed357afd5c92dd4e0b62a098b75",
+      "operacaoRevisada": "Média: distinguir os mecanismos físicos pela descrição da transferência.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0053"
+      ],
+      "distincao": "Mecanismo de transmissão sem contato e trajetória de mistura rica sob diluição; não identificação do resfriamento como mecanismo de extinção."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0094",
+      "sha256": "e25f5bc424fe987863ffcd5e66fe2a653148affe682bd8d0e69fd479f8e1d42c",
+      "operacaoRevisada": "Média: reconhecer trajetória de composição sem converter estado inicial em garantia permanente.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0053"
+      ],
+      "distincao": "Mecanismo de transmissão sem contato e trajetória de mistura rica sob diluição; não identificação do resfriamento como mecanismo de extinção."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0095",
+      "sha256": "3bcae9438e44701c692373f28d8981dd473deaf1f1a3a974bf199a10c0b419b6",
+      "operacaoRevisada": "Alta: compor balanço de pressão e verificar margem de projeto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0009"
+      ],
+      "distincao": "Balanço de pressão com cota, perdas e margem de terminal; não força sobre área circular ou variação de diâmetro."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0096",
+      "sha256": "f241a723eb582b1aaaf9ab1fd2b050c7cb039f0672c96d58165d43aede1d2ea1",
+      "operacaoRevisada": "Alta: distinguir fenômenos próximos usando história térmica e ventilação.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0054",
+        "TP26-ENGSEG-ESP-0006"
+      ],
+      "distincao": "Flashover versus backdraft e obstrução de caminho óptico com falha/alarme distintos; não seleção genérica de agente compatível ou falsa posição de guarda."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0097",
+      "sha256": "df0a3de2b6233031d18a26c6ea7df17b6756c720d599b2d61c5c51bd11d6307c",
+      "operacaoRevisada": "Alta: relacionar disponibilidade de detecção, interferência de operação e significado dos estados.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0054",
+        "TP26-ENGSEG-ESP-0006"
+      ],
+      "distincao": "Flashover versus backdraft e obstrução de caminho óptico com falha/alarme distintos; não seleção genérica de agente compatível ou falsa posição de guarda."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0098",
+      "sha256": "3bc6bd7da0b5b313fdedb4ad94a8a015618b47c8224d99d82e9ec8e48a4d6aaa",
+      "operacaoRevisada": "Muito alta: resolver interseção quadrática e recalcular a segunda grandeza.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0017",
+        "TP26-ENGSEG-ESP-0013"
+      ],
+      "distincao": "Interseção quadrática de curvas e saldo por duas fases com entrada variável. Não trocar números da vazão por concentração ou do volume de amostragem único."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0099",
+      "sha256": "9baed7eb4a06ca378676249e96303bc037e0d29287860fbedfc8ff8d9c8d66da",
+      "operacaoRevisada": "Muito alta: integrar duas fases de entrada e retirada e confrontar reserva de projeto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0017",
+        "TP26-ENGSEG-ESP-0013"
+      ],
+      "distincao": "Interseção quadrática de curvas e saldo por duas fases com entrada variável. Não trocar números da vazão por concentração ou do volume de amostragem único."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0100",
+      "sha256": "9bca091dcf798617527b62cdfc4ece7cc2fada79b0e830a63f475063b4ca482f",
+      "operacaoRevisada": "Muito alta: aplicar duas saídas e prioridade lógica em estado degradado.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0011",
+        "TP26-ENGSEG-ESP-0040"
+      ],
+      "distincao": "Lógica especificada de duas saídas com prioridade incêndio/falha; não crédito de independência de válvulas ou probabilidade de causa comum."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0021",
+      "sha256": "9e7f77025f23f055cc3da885df70d4ea2abde95aa963d772d17f3e92e36ef258",
+      "operacaoRevisada": "Média: reconhecer finalidade e gênero do catálogo no contexto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0011",
+        "TP26-ENGSEG-ING-0012"
+      ],
+      "distincao": "Empréstimo de ferramentas, conjunto devolvido e desgaste excluído: unidades de obrigação contextual. Não é potencial de retorno versus taxa de retorno de embalagens."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0022",
+      "sha256": "fa8acd68ef7e141fd15405eef65cb0d70fd14814c8c777df6ed20dd90af3d254",
+      "operacaoRevisada": "Alta: distinguir estados de devolução e alcance da expectativa de reposição.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0011",
+        "TP26-ENGSEG-ING-0012"
+      ],
+      "distincao": "Empréstimo de ferramentas, conjunto devolvido e desgaste excluído: unidades de obrigação contextual. Não é potencial de retorno versus taxa de retorno de embalagens."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0023",
+      "sha256": "359a468c498934a4e32da5ff81ad6e7f3024293b2fdd3791051535a344aee85d",
+      "operacaoRevisada": "Alta: localizar a etapa do processo a que o termo se refere.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0017",
+        "TP26-ENGSEG-ING-0018"
+      ],
+      "distincao": "Estado de coleta, fila de transferência e condição de exclusão de arquivos; não propostas de rotas versus viagens realizadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0024",
+      "sha256": "4c5d3eae5448917e01d6bfcdb36574cd2d08bb918fc6f055015f58ca9b2e7564",
+      "operacaoRevisada": "Muito alta: combinar estado de coleta, entrega e precedência da exclusão.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0017",
+        "TP26-ENGSEG-ING-0018"
+      ],
+      "distincao": "Estado de coleta, fila de transferência e condição de exclusão de arquivos; não propostas de rotas versus viagens realizadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0025",
+      "sha256": "66d309b38f8ea79a250b35a465a6c5139c1d7cefff6a1e640879f1cc049074a2",
+      "operacaoRevisada": "Média: interpretar expressão idiomática explicitada no texto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0013",
+        "TP26-ENGSEG-ING-0014"
+      ],
+      "distincao": "Expressão off the shelf e informação logística ainda ausente; não rankings de eficiência de massa e autonomia obrigatória."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0026",
+      "sha256": "0f6856157295f57c9a433c5e42fecb016f01d0c70f89ad1c7492f9ddb116e2db",
+      "operacaoRevisada": "Alta: separar informação já resolvida e informação ainda necessária à compra.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0013",
+        "TP26-ENGSEG-ING-0014"
+      ],
+      "distincao": "Expressão off the shelf e informação logística ainda ausente; não rankings de eficiência de massa e autonomia obrigatória."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0027",
+      "sha256": "5163cd569962258d75453944b823f9b566d871965412e6cb982a35bf92e3164a",
+      "operacaoRevisada": "Alta: interpretar papel funcional sem inferir idade ou obsolescência.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0005",
+        "TP26-ENGSEG-ING-0006"
+      ],
+      "distincao": "Fallback como função, preparação e atualização de carta náutica; não detecção de vibração e erro de diagnóstico."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0028",
+      "sha256": "942484a84dd07f8ad9a8576dcbb7489c312542b4b9b1413725a534e9aafe0ddc",
+      "operacaoRevisada": "Muito alta: integrar condição de contingência, atualização e preparação.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0005",
+        "TP26-ENGSEG-ING-0006"
+      ],
+      "distincao": "Fallback como função, preparação e atualização de carta náutica; não detecção de vibração e erro de diagnóstico."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0029",
+      "sha256": "a84bc83f2e0b0f19efee997fbb3fb5cc5df530fa2b96db5444593664325f7387",
+      "operacaoRevisada": "Alta: distinguir ausência de conhecimento e ausência de entidade.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0007",
+        "TP26-ENGSEG-ING-0008"
+      ],
+      "distincao": "Desconhecimento de autoria não significa inexistência e é atualizável por imagem; não cobertura de pesquisa de opinião ou percepção versus incidentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0030",
+      "sha256": "61f93f4a7ab798314e0b5b26ae65c7aad483bffc9ab3cefee59b94d4bf1fbae2",
+      "operacaoRevisada": "Muito alta: atualizar metadado por nova evidência sem mudar indevidamente ontologia ou conjunto.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0007",
+        "TP26-ENGSEG-ING-0008"
+      ],
+      "distincao": "Desconhecimento de autoria não significa inexistência e é atualizável por imagem; não cobertura de pesquisa de opinião ou percepção versus incidentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0031",
+      "sha256": "aee42f6021a45f0bfb830d3ee1162b21158557eb72176a66389e2d5f57dd38f8",
+      "operacaoRevisada": "Média: inferir sentido de expressão pelo contraste e ação realizada.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Set aside contrasta retenção e uso corrente de rascunho; não assinatura versus demonstração de competência em sequência revisada."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0032",
+      "sha256": "00ba17686bb6e82fadc03edb3a7178d06ef8f6860ca8405196dce77a848e4c09",
+      "operacaoRevisada": "Alta: compreender a finalidade da separação entre pacotes documentais.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Set aside contrasta retenção e uso corrente de rascunho; não assinatura versus demonstração de competência em sequência revisada."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0033",
+      "sha256": "a18779090e23ddec0f562ef962c8686aea5ab4767f5f8195e6be260ec13d13ad",
+      "operacaoRevisada": "Alta: interpretar polaridade pragmática de dois quantificadores.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0015"
+      ],
+      "distincao": "Polaridade pragmática de few/a few, duas épocas e reescrita sem absolutos; não grau modal de possibilidade de might."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0034",
+      "sha256": "b0dc232de82e8ef491f704dd452d7ed91bf70474f0d38a1d3b759e86831fca69",
+      "operacaoRevisada": "Muito alta: preservar duas quantificações, referência temporal e contraste na reescrita.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0015"
+      ],
+      "distincao": "Polaridade pragmática de few/a few, duas épocas e reescrita sem absolutos; não grau modal de possibilidade de might."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0035",
+      "sha256": "e3142d9b0e324c3485356c99d22e729c866e273dfccc247098715f02295a262a",
+      "operacaoRevisada": "Média: reconhecer uso técnico figurado a partir da definição operacional.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Isolamento de ambiente copiado e sujeito paciente de being used; não transferência de competência humana após mudança de procedimento."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0036",
+      "sha256": "bc38f1bcdc6a0f8c9bef0dca0b4f977b50360c8dbf9a002f87e0a3d279b49f65",
+      "operacaoRevisada": "Alta: recuperar sujeito paciente e relação de precedência de oração não finita.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0004"
+      ],
+      "distincao": "Isolamento de ambiente copiado e sujeito paciente de being used; não transferência de competência humana após mudança de procedimento."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0037",
+      "sha256": "fe780a846ea93526803bcc6c448ad8d726a7b6be4d2900d2f5d3b6e1d5d6f987",
+      "operacaoRevisada": "Alta: explicar inversão sintática sem converter declaração em pergunta.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ING-0002"
+      ],
+      "distincao": "Inversão declarativa com Only after e sequência de tempos sem imediatismo; não conversão de fusos, preservação de offsets ou cálculo cronológico de registros."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0038",
+      "sha256": "9a0c5e4ee8e4c076fbb969e4b06484ec84417c12499e2342486d195ae0ac7289",
+      "operacaoRevisada": "Muito alta: articular dois tempos e restrição temporal sem inferir imediatismo.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ING-0002"
+      ],
+      "distincao": "Inversão declarativa com Only after e sequência de tempos sem imediatismo; não conversão de fusos, preservação de offsets ou cálculo cronológico de registros."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0039",
+      "sha256": "52f196585b3288c9a1a4f6edb2b67adc8ed45f232119a0cfb529990b38400b49",
+      "operacaoRevisada": "Muito alta: aplicar conjuntamente duas condições de uso e identificação de fontes.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0017",
+        "TP26-ENGSEG-PORT-0018"
+      ],
+      "distincao": "Atribuição em duas sessões e definição local de non-attributable; não elegibilidade documental de pedido e reunião cancelada."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0040",
+      "sha256": "024e4f5e74530d054ae8ebdad4ef56af51d35a7345b817960143cc7560bca242",
+      "operacaoRevisada": "Muito alta: distinguir definição local, alcance e condições de atribuição.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0017",
+        "TP26-ENGSEG-PORT-0018"
+      ],
+      "distincao": "Atribuição em duas sessões e definição local de non-attributable; não elegibilidade documental de pedido e reunião cancelada."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0021",
+      "sha256": "315617c5735d7e56a99b9318bd70db4457eb9ba9573884e71d26ace58908b596",
+      "operacaoRevisada": "Média: inferir o sentido de uma metáfora pelo contraste expresso.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0007",
+        "TP26-ENGSEG-PORT-0011"
+      ],
+      "distincao": "Arquivo de história oral: preservação da enunciação e diferença de gênero relato/ata; não é resolução de sujeito oculto nem aumento de registros."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0022",
+      "sha256": "b05969e234d8ab58a2e11dc112c61223d9b7a15757613f66859b7a7b2222c205",
+      "operacaoRevisada": "Alta: relacionar gênero documental e escolha editorial de preservação.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0007",
+        "TP26-ENGSEG-PORT-0011"
+      ],
+      "distincao": "Arquivo de história oral: preservação da enunciação e diferença de gênero relato/ata; não é resolução de sujeito oculto nem aumento de registros."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0023",
+      "sha256": "249c32c767ed0c61666f4c2f9e3570d5c2b26ab245db1d801859749dd9b14e9f",
+      "operacaoRevisada": "Alta: integrar figura de linguagem e referência espacial sob a mudança.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0013",
+        "TP26-ENGSEG-PORT-0019"
+      ],
+      "distincao": "Narrativa de memória urbana, personificação e duas perspectivas espaciais; não comparação de consumo ou inferência sobre decisões de transportadoras."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0024",
+      "sha256": "22cf7c90e8c7eda55f0093233ee4ec2a9e4212baddfea9c1db21b0e8fd9ad01b",
+      "operacaoRevisada": "Muito alta: articular três passagens e duas perspectivas sobre um mesmo espaço.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0013",
+        "TP26-ENGSEG-PORT-0019"
+      ],
+      "distincao": "Narrativa de memória urbana, personificação e duas perspectivas espaciais; não comparação de consumo ou inferência sobre decisões de transportadoras."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0025",
+      "sha256": "14e4645e112b1048ffd01295eb0152f2fc7963e343f6336923a2daf05d6471d6",
+      "operacaoRevisada": "Média: reconhecer a definição contextual de acessibilidade.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0005",
+        "TP26-ENGSEG-PORT-0006"
+      ],
+      "distincao": "Acessibilidade editorial e correlação aditiva de públicos; não modalização de benefício tecnológico e escopo de algumas inspeções."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0026",
+      "sha256": "d9e14b06e61a8022d526f9a8b07423cffca8485953f70c829976422cdcb55220",
+      "operacaoRevisada": "Alta: analisar correlação sintática e alcance argumentativo aditivo.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0005",
+        "TP26-ENGSEG-PORT-0006"
+      ],
+      "distincao": "Acessibilidade editorial e correlação aditiva de públicos; não modalização de benefício tecnológico e escopo de algumas inspeções."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0027",
+      "sha256": "70aeb5b8adb71027fe8607e3d47955eb9f20edb412ec078e0ffe23a51afbcb2e",
+      "operacaoRevisada": "Alta: distinguir sujeitos em duas orações ligadas e a impessoalidade temporal.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0016",
+        "TP26-ENGSEG-PORT-0012"
+      ],
+      "distincao": "Fazer/haver impessoais versus existir pessoal e modalidade; não concordância da passiva de conceder ou subjuntivo temporal de um pedido."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0028",
+      "sha256": "9bfbcc657329afa324eb6ef0a6884b68de0430bceac348cf40829bc07b8d5e2d",
+      "operacaoRevisada": "Muito alta: coordenar três construções, concordância e modalidade na reescrita.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0016",
+        "TP26-ENGSEG-PORT-0012"
+      ],
+      "distincao": "Fazer/haver impessoais versus existir pessoal e modalidade; não concordância da passiva de conceder ou subjuntivo temporal de um pedido."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0029",
+      "sha256": "7a9f577034abbeae31502e0d237f5a3b612263fdcada22cc436cb2d341848496",
+      "operacaoRevisada": "Alta: distinguir unidade temática e concordância das vozes.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0019",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "distincao": "Polifonia jornalística: título, objeto comum e posições divergentes; não autoria de decisões a partir de informação e duas hipóteses causais desconhecidas."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0030",
+      "sha256": "0bc45259ebafbd20dbf0784d8ec0df9af52b49a32cf0189c8cb5cdaf93b23b67",
+      "operacaoRevisada": "Muito alta: preservar polifonia e coerência entre dois níveis de titulação.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0019",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "distincao": "Polifonia jornalística: título, objeto comum e posições divergentes; não autoria de decisões a partir de informação e duas hipóteses causais desconhecidas."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0031",
+      "sha256": "3365416fa905c6a72972aa12545eb6d0900fc9003f3598657631b4b0c56adca6",
+      "operacaoRevisada": "Média: reconhecer marcas de discurso direto e sua autoria.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0008",
+        "TP26-ENGSEG-PORT-0016"
+      ],
+      "distincao": "Marcas de discurso direto, complemento lhes, sujeitos livros/tempo e atração de não; não regência de revisar ou acesso em voz passiva."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0032",
+      "sha256": "e62e8346b6dea73dd127c10fa879f976491b82cd1aaf347c85670c6f9264767d",
+      "operacaoRevisada": "Alta: analisar colocação pronominal, função sintática e paralelismo.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0008",
+        "TP26-ENGSEG-PORT-0016"
+      ],
+      "distincao": "Marcas de discurso direto, complemento lhes, sujeitos livros/tempo e atração de não; não regência de revisar ou acesso em voz passiva."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0033",
+      "sha256": "dd16f9b42f67c92e0883a0d66b59a7517655a9e6f999e86a2e21162ae7c0f3ec",
+      "operacaoRevisada": "Alta: interpretar deslocamento de agência entre duas formulações.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0007",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "distincao": "Agência coletiva condensada em personificação e reinterpretada pelo desfecho; não ambiguidade de sujeito nem reescrita de concessão e incerteza causal."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0034",
+      "sha256": "6d7b4b6353cbb4eb6e53810500323e2b767aee6463c589a6e3ac94903fb4f297",
+      "operacaoRevisada": "Muito alta: integrar figura, progressão e agência sem oposição artificial.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0007",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "distincao": "Agência coletiva condensada em personificação e reinterpretada pelo desfecho; não ambiguidade de sujeito nem reescrita de concessão e incerteza causal."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0035",
+      "sha256": "d8d3193ece6e9ef60346d276488f4bcc2c2c2a897226ed072a274ab9402741c8",
+      "operacaoRevisada": "Média: identificar relação final explicitada na oração.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0012",
+        "TP26-ENGSEG-PORT-0008"
+      ],
+      "distincao": "Finalidade e sujeito de infinitivo reduzido, em oposição à agência explicitada; não adjunto temporal de orientação ou regência de relativo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0036",
+      "sha256": "0efbbf6fe7bce1c6566b0d02f37dd0aaf30abcd160c6763dd807003e3a27bf78",
+      "operacaoRevisada": "Alta: avaliar controle de sujeito e clareza, sem confundir com agramaticalidade.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0012",
+        "TP26-ENGSEG-PORT-0008"
+      ],
+      "distincao": "Finalidade e sujeito de infinitivo reduzido, em oposição à agência explicitada; não adjunto temporal de orientação ou regência de relativo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0037",
+      "sha256": "e76a63830524de2d3d505e0a274a50a867f6b21cddbc0ebd94713e9b685d6cf8",
+      "operacaoRevisada": "Alta: relacionar grafia, substantivação e interrogação indireta.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0016"
+      ],
+      "distincao": "Interrogação indireta, substantivação e tonicidade final das formas por que; não variação de uma mesma frase de concordância."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0038",
+      "sha256": "e6cfd31dd085c987045ffd230cc9cbfcf6a7bc550b1c73247216e0e0cae611c5",
+      "operacaoRevisada": "Muito alta: resolver três contextos sintáticos e tonicidade sem mero jogo de palavras.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0016"
+      ],
+      "distincao": "Interrogação indireta, substantivação e tonicidade final das formas por que; não variação de uma mesma frase de concordância."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0039",
+      "sha256": "8afa2065ad14c51df1a0f3233c229b8800f5b7a9f27657db73d023a707bd5916",
+      "operacaoRevisada": "Muito alta: integrar aspecto temporal e foco inclusivo no desenvolvimento narrativo.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0014",
+        "TP26-ENGSEG-PORT-0012"
+      ],
+      "distincao": "Anterioridade narrativa, foco inclusivo de até e percepção por retirada de obstáculo; não contrafactual de energia ou orientação no subjuntivo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0040",
+      "sha256": "7ff7b1b60a1077f0393abd96475877f1d9b90af933d27cb4edab13c7b56f1097",
+      "operacaoRevisada": "Muito alta: interpretar escopo de negação e conclusão apoiada no desfecho.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0014",
+        "TP26-ENGSEG-PORT-0012"
+      ],
+      "distincao": "Anterioridade narrativa, foco inclusivo de até e percepção por retirada de obstáculo; não contrafactual de energia ou orientação no subjuntivo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0061",
+      "sha256": "0ffd3db2d80f661e1b028fe0e9a1e2de6203949512a839c106ea977cbbff334f",
+      "operacaoRevisada": "Média: reconhecer função elétrica delimitada sem atribuir proteção universal.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0001",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "distincao": "Função de equipotencialização e sobrecarga geotécnica de entorno; não energia do capacitor ou equilíbrio de tombamento de conjunto rígido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0062",
+      "sha256": "fd3d1aafbb5035033620062df890cd54159daca6a511cf56775b778b83bdf582",
+      "operacaoRevisada": "Alta: integrar mudança de entorno e validade das hipóteses geotécnicas.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0001",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "distincao": "Função de equipotencialização e sobrecarga geotécnica de entorno; não energia do capacitor ou equilíbrio de tombamento de conjunto rígido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0109",
+      "sha256": "bd3f75677ac69c4cacb35ccba390be8926c81ac8a642972f2d4b77497dd33695",
+      "operacaoRevisada": "Média: distinguir estoque inicial e incidência no seguimento.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0058"
+      ],
+      "distincao": "Incidência exclui estoque inicial; especificidade usa referência negativa em tabela diagnóstica completa. Não repetir a razão de prevalências de duas tarefas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0110",
+      "sha256": "18f96489cbc220b147762fe26e93361e9a3fa58a5f6e730eda34f89be61d9489",
+      "operacaoRevisada": "Média: selecionar o denominador correto entre métricas de uma tabela completa.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0058"
+      ],
+      "distincao": "Incidência exclui estoque inicial; especificidade usa referência negativa em tabela diagnóstica completa. Não repetir a razão de prevalências de duas tarefas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0111",
+      "sha256": "029ec50673da20cbd78fa39c0b7f131212d1fde17a18b00dbe0d205ff47c4ede",
+      "operacaoRevisada": "Alta: integrar janela do marcador, cronologia da tarefa e limites de atribuição.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0057",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "distincao": "Janelas cinéticas e coleta, histórico de conservação e correspondência pareada. Não concluir diagnóstico de sinal coletivo nem comparar intervalos de incerteza de medidas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0112",
+      "sha256": "bab4be2c6073979856ffe8290a1344efa3f6f52a9f3e30cfa846198797da3981",
+      "operacaoRevisada": "Alta: distinguir integridade externa e evidência da condição de conservação.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0057",
+        "TP26-ENGSEG-ESP-0020",
+        "TP26-ENGSEG-ESP-0041"
+      ],
+      "distincao": "Janelas cinéticas e coleta, histórico de conservação e correspondência pareada. Não concluir diagnóstico de sinal coletivo nem comparar intervalos de incerteza de medidas. Em relação ao antigo 0041, não se pede inferir execução pela falta de registro; decide-se liberação de remessa, confrontando integridade visual e evidência das especificações de conservação, que são dimensões diferentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0113",
+      "sha256": "4260eef0fe335450f190698a11ebf191921835021bf0cee345a06e081522a64b",
+      "operacaoRevisada": "Alta: relacionar unidade de análise e pareamento, distinguindo médias e mudanças individuais.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0057",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "distincao": "Janelas cinéticas e coleta, histórico de conservação e correspondência pareada. Não concluir diagnóstico de sinal coletivo nem comparar intervalos de incerteza de medidas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0114",
+      "sha256": "9402e14f3341a325d92b15fb59be4be16dec8a3715905dd6ec30907bc04e8a3c",
+      "operacaoRevisada": "Muito alta: construir duas subpopulações e inverter a condição por Bayes.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0038",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "distincao": "Bayes inverso com falsos positivos e construção de pessoa-tempo até evento/saída. Não apenas alterar números de conjunta/marginal ou usar horas totais já dadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0115",
+      "sha256": "7fab20c2a0e63940bc0e2551779ab09436fcc01cb8f280a6400e8bfee3a333e2",
+      "operacaoRevisada": "Muito alta: construir tempo sob risco com censura e evento e calcular densidade de incidência.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0038",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "distincao": "Bayes inverso com falsos positivos e construção de pessoa-tempo até evento/saída. Não apenas alterar números de conjunta/marginal ou usar horas totais já dadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0116",
+      "sha256": "71c312ced976b9ccb4224472408c23311f435a2a84258e44fca9740cfc9c0c09",
+      "operacaoRevisada": "Muito alta: reconstituir coorte fechada e distinguir seleção de mudança individual.",
+      "comparacaoComAcervo": "Corpus integral dos 100 IDs da análise prévia; os IDs abaixo são contrastes temáticos selecionados, não uma restrição do corpus.",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0058",
+        "TP26-ENGSEG-ESP-0048"
+      ],
+      "distincao": "Retirada seletiva em coorte com estados individuais constantes demonstra mecanismo de mudança do agregado; não associação de grupos distintos ou ponderação de taxas setoriais."
+    }
+  ],
+  "confrontosNovasNovas": [
+    {
+      "ids": [
+        "TP26-ENGSEG-PORT-0023",
+        "TP26-ENGSEG-PORT-0033"
+      ],
+      "resultado": "Mantidas: a primeira interpreta saber/caminho na personificação do rio; a segunda recupera agência coletiva e a reinterpretação da figura do teatro. Textos e tarefas não são substituições de nomes."
+    },
+    {
+      "ids": [
+        "TP26-ENGSEG-ING-0031",
+        "TP26-ENGSEG-ESP-0065"
+      ],
+      "resultado": "Mantidas: phrasal verb e finalidade da retenção de rascunho versus implantação de versão vigente em múltiplos postos com guarda histórica. Gênero, dados e operação pedida são distintos."
+    },
+    {
+      "ids": [
+        "TP26-ENGSEG-ESP-0066",
+        "TP26-ENGSEG-ESP-0072"
+      ],
+      "resultado": "Mantidas: impedimentos de uma auditoria para selecionar candidato versus designação de três funções distintas após indisponibilidade. A segunda exige compatibilização global, não só renomear um candidato."
+    },
+    {
+      "ids": [
+        "TP26-ENGSEG-ESP-0099",
+        "TP26-ENGSEG-ESP-0090"
+      ],
+      "resultado": "Mantidas: integração de vazões líquidas em duas janelas e margem final versus disponibilidade discreta com devoluções e pedido indivisível, para encontrar o primeiro instante de atendimento."
+    },
+    {
+      "ids": [
+        "TP26-ENGSEG-ESP-0074",
+        "TP26-ENGSEG-ESP-0079"
+      ],
+      "resultado": "Mantidas: unidade evento/pessoa em ocorrências distintas versus soma de dias-pessoa e união de intervalos temporais; não é contagem com valores trocados."
+    },
+    {
+      "ids": [
+        "TP26-ENGSEG-ESP-0110",
+        "TP26-ENGSEG-ESP-0114"
+      ],
+      "resultado": "Mantidas: especificidade condicionada ao estado de referência versus inferência inversa de condição após positivo combinando prevalência, sensibilidade e falsos positivos. Não são os mesmos denominadores."
+    }
+  ],
+  "candidatosDescartadosAntesDaPublicacao": [
+    {
+      "candidato": "ESP-0081 inicial",
+      "motivo": "Recontagem longitudinal de eventos/pessoas/atendimentos próxima da unidade de registro em ESP-0074.",
+      "substituto": "Limite de frequência a partir de zero eventos sob Poisson."
+    },
+    {
+      "candidato": "ESP-0090 inicial",
+      "motivo": "Designação de equipes por competência isomorfa à segregação/designação em ESP-0072.",
+      "substituto": "Estoque discreto com retornos e pedido sem atendimento parcial."
+    },
+    {
+      "candidato": "ESP-0092 inicial",
+      "motivo": "Dependência de caminhos por repetidor comum próxima ao tema antigo de causa comum e independência.",
+      "substituto": "Decisão minimax sem probabilidades atribuídas."
+    },
+    {
+      "candidato": "ING-0037/0038 iniciais",
+      "motivo": "Edição científica e expansão inicial de siglas se aproximavam do cenário novo de Português-0025/0026.",
+      "substituto": "Conferência, inversão com Only after e sequência de tempos sem inferir imediatismo."
+    }
+  ],
+  "conclusao": "Aprovado editorialmente para o lote 2 após cinco substituições de questões candidatas (três específicas e duas de Inglês). Os 100 antigos permaneceram intocados. A revisão editorial e a triagem computacional não substituem revisão humana especializada nem calibração de dificuldade."
+}

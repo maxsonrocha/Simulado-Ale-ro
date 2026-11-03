@@ -38,5 +38,173 @@
     "answer": 3,
     "explanation": "20/100=20%; 15/300=5%; razão=4. São proporções de sintomas, não incidência nem prova causal. Diferentes composições exigem análise; contar casos sem denominador ou transformar a razão em prova de igualdade de confundidores não é válido.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0109",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "incidencia_coorte_sob_risco",
+    "difficulty": "media",
+    "statement": "Um acompanhamento quer contar novos casos de uma condição durante o semestre entre pessoas sem essa condição no início. Qual informação deve ser separada dos novos casos para não confundir incidência com condição já presente?",
+    "options": [
+      "A data de surgimento dos casos que apareceram após a entrada no acompanhamento.",
+      "O tempo efetivamente acompanhado de quem estava inicialmente sem a condição.",
+      "Os casos cujo primeiro surgimento ocorreu durante o semestre entre os inicialmente sem a condição.",
+      "A identificação de quais pessoas permaneceram sob acompanhamento até o final.",
+      "Os casos identificados no início do acompanhamento."
+    ],
+    "answer": 4,
+    "explanation": "Casos já presentes na entrada não são casos incidentes naquele seguimento. Novos casos, tempo acompanhado, datas de surgimento e permanência ajudam a caracterizar o seguimento e não devem ser confundidos com a condição prévia.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0110",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "especificidade_tabela_teste",
+    "difficulty": "media",
+    "statement": "Na avaliação de um teste, o estado de referência é conhecido. Entre 100 pessoas sem a condição, 90 têm resultado negativo e dez positivo. Entre 100 com a condição, 80 têm resultado positivo e 20 negativo. A especificidade é definida como negativos entre os sem a condição. Qual é seu valor?",
+    "options": [
+      "88,89%.",
+      "80%.",
+      "85%.",
+      "81,82%.",
+      "90%."
+    ],
+    "answer": 4,
+    "explanation": "Especificidade=90/(90+10)=90%. Os outros valores são métricas diferentes: sensibilidade 80/100=80%, acurácia (90+80)/200=85%, valor preditivo positivo 80/90≈88,89% e valor preditivo negativo 90/110≈81,82%. Os denominadores respondem a perguntas distintas.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0111",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "biomarcador_janela_temporal",
+    "difficulty": "alta",
+    "statement": "Um indicador hipotético reflete principalmente exposições das últimas horas, enquanto outro integra exposições de várias semanas. O objetivo do estudo é investigar a contribuição de uma tarefa executada apenas naquele turno. Sem supor intercambialidade dos indicadores, qual planejamento é mais coerente?",
+    "options": [
+      "Escolher apenas o indicador de várias semanas, tratando-o como registro exclusivo do turno mais recente.",
+      "Usar qualquer resultado elevado como prova de que a tarefa daquele turno foi a única fonte de exposição.",
+      "Concluir que indicadores com janelas diferentes medem necessariamente o mesmo intervalo se coletados no mesmo dia.",
+      "Considerar a janela temporal do indicador, o horário da tarefa e da coleta, além de outras fontes que possam influenciar o resultado.",
+      "Desconsiderar a hora de coleta sempre que os dois resultados forem expressos na mesma unidade."
+    ],
+    "answer": 3,
+    "explanation": "A pergunta é temporalmente específica e exige compatibilizar cinética, tarefa e coleta, sem eliminar outras fontes. Unidade ou data comum não iguala janelas; um resultado não identifica sozinho uma fonte exclusiva. Não se fixa protocolo clínico ou índice biológico legal.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0112",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "qualidade_cadeia_conservacao",
+    "difficulty": "alta",
+    "statement": "Um programa recebe um material de uso em saúde cuja conservação depende das condições descritas no documento do fabricante. A remessa chega sem o registro de uma etapa de transporte, embora as embalagens estejam íntegras. Qual decisão é tecnicamente coerente antes de liberar o material?",
+    "options": [
+      "Preencher o registro ausente com os valores da etapa anterior, tratando continuidade documental como continuidade física demonstrada.",
+      "Trocar o responsável pelo recebimento e considerar essa troca suficiente para validar retrospectivamente a conservação.",
+      "Liberar pela integridade visual, que demonstra necessariamente que todas as condições de transporte foram mantidas.",
+      "Investigar e avaliar a lacuna de conservação em relação às especificações aplicáveis, sem usar apenas a aparência como comprovação do histórico.",
+      "Apagar a identificação da remessa para que a etapa sem registro deixe de afetar sua rastreabilidade."
+    ],
+    "answer": 3,
+    "explanation": "Embalagem íntegra não demonstra todo o histórico das condições relevantes. A lacuna deve ser apurada frente às especificações reais; inventar registro, eliminar rastreabilidade ou trocar responsável não valida a remessa. Não se inventa faixa de temperatura ou validade.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0113",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "acompanhamento_pareado_baseline",
+    "difficulty": "alta",
+    "statement": "Um estudo mede uma variável funcional antes e depois de uma intervenção nos mesmos 20 participantes. Na análise, alguém ordena separadamente os valores de cada momento e emparelha o menor antes com o menor depois, sem manter a identidade das pessoas. O objetivo era analisar mudanças individuais. Qual é o problema?",
+    "options": [
+      "Ter 20 medidas em cada momento torna a identidade irrelevante para qualquer pergunta sobre mudança individual.",
+      "Ordenar separadamente sempre preserva pares individuais porque posições iguais representam necessariamente a mesma pessoa.",
+      "O procedimento comprova que todos melhoraram na mesma magnitude, sem precisar calcular diferenças reais.",
+      "O novo emparelhamento perde a correspondência individual e pode alterar as diferenças atribuídas a cada participante.",
+      "A média de cada momento só pode ser calculada depois que as identidades forem substituídas pela ordenação."
+    ],
+    "answer": 3,
+    "explanation": "No desenho pareado, a ligação é pela pessoa, não pelo posto na ordenação. Ordenar não muda necessariamente as médias marginais, mas destrói as diferenças individuais se as posições não corresponderem. Igual número de observações não restaura os pares nem prova melhora uniforme.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0114",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "valor_preditivo_bayes",
+    "difficulty": "muito_alta",
+    "statement": "Em uma população hipotética, 2% têm uma condição. Um teste é positivo em 90% dos que a têm e em 10% dos que não a têm. Para raciocinar, use uma população de 10.000 e admita essas proporções exatas. Entre os resultados positivos, qual é a proporção de pessoas com a condição?",
+    "options": [
+      "90,00%.",
+      "Aproximadamente 15,52%.",
+      "2,00%.",
+      "1,80%.",
+      "10,00%."
+    ],
+    "answer": 1,
+    "explanation": "Há 200 com a condição, dos quais 180 positivos. Entre 9.800 sem a condição, 980 positivos. Total positivo=1.160; proporção=180/1.160≈15,52%. Dois por cento é prevalência, 90% é sensibilidade, 10% é a taxa de falsos positivos entre os sem a condição e 1,8% é a probabilidade conjunta de ter a condição e testar positivo. É uma probabilidade condicional inversa, não um diagnóstico individual.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0115",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "densidade_incidencia_pessoa_tempo",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo acompanha dez pessoas inicialmente sem a condição. Oito ficam sob risco por um ano inteiro; uma apresenta o único caso aos seis meses e deixa de contribuir após esse momento; outra sai sem caso aos três meses. Não há outras entradas. Usando casos novos por pessoa-ano, qual é o tempo total e a taxa observada?",
+    "options": [
+      "9 pessoas-ano; aproximadamente 0,1111 caso por pessoa-ano.",
+      "0,75 pessoa-ano; aproximadamente 1,3333 caso por pessoa-ano.",
+      "8,25 pessoas-ano; aproximadamente 0,1212 caso por pessoa-ano.",
+      "10 pessoas-ano; 0,1000 caso por pessoa-ano.",
+      "8,75 pessoas-ano; aproximadamente 0,1143 caso por pessoa-ano."
+    ],
+    "answer": 4,
+    "explanation": "Tempo=8×1+0,5+0,25=8,75 pessoas-ano. Taxa=1/8,75≈0,1143. Usar dez anos ignora saídas; 9 arredonda indevidamente contribuições; 8,25 omite o tempo até o caso; 0,75 perde os oito anos completos. O exercício não define uma taxa normativa aceitável.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0116",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "perdas_seguimento_selecao",
+    "difficulty": "muito_alta",
+    "statement": "Uma coorte fechada começa com 100 pessoas, das quais 20 relatam um sintoma. Antes da segunda medição, saem dez pessoas que relatavam o sintoma e nenhuma das demais; entre as 90 restantes, ninguém muda seu estado. Qual comparação é correta e qual interpretação deve ser evitada?",
+    "options": [
+      "A proporção entre remanescentes cai de 20% no início para 11,11%; não se pode atribuir a queda à recuperação, pois ela decorre das saídas seletivas.",
+      "A proporção cai para 10%, e a diferença demonstra que dez pessoas se recuperaram durante o acompanhamento.",
+      "A proporção continua em 20%, porque retirar somente pessoas com sintomas não pode alterar a composição dos remanescentes.",
+      "A proporção cai para zero, porque um seguimento deixa de contar qualquer sintoma informado na primeira medição.",
+      "A proporção aumenta para 22,22%, pois todas as pessoas que saíram devem permanecer no numerador e não no denominador."
+    ],
+    "answer": 0,
+    "explanation": "Inicial=20/100=20%. Permanecem dez com sintoma entre 90: 10/90≈11,11%. O estado de cada remanescente não mudou; a queda se deve à seleção de quem saiu, não à recuperação. Dez por cento usa o denominador antigo, e os demais valores tratam incoerentemente composição ou estado.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

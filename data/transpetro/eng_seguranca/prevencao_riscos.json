@@ -238,5 +238,47 @@
     "answer": 3,
     "explanation": "A mudança altera exposição e comportamento hidráulico. É necessário verificar o conjunto e as capacidades reais; não há dados para aprovação automática ou rejeição universal. Vazão igual não implica pressão/esforço iguais, e fixar pressão sem verificar o regime também não resolve o projeto.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0061",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "equipotencializacao_cargas",
+    "difficulty": "media",
+    "statement": "Num ensaio de transferência entre dois recipientes condutores, a equipe observou diferença de potencial entre suas carcaças. O projeto propõe uma ligação elétrica entre elas para reduzir essa diferença durante a operação, sem alegar que isso, isoladamente, elimina todo perigo de ignição. Qual é a função imediata dessa ligação?",
+    "options": [
+      "Favorecer a equipotencialização entre as partes conectadas.",
+      "Transformar os recipientes condutores em materiais eletricamente isolantes.",
+      "Comprovar a capacidade mecânica das conexões que transportam o produto.",
+      "Substituir a caracterização de todas as fontes de ignição presentes no processo.",
+      "Demonstrar, por si, a ausência de mistura inflamável no interior dos recipientes."
+    ],
+    "answer": 0,
+    "explanation": "A ligação permite equalizar potenciais entre partes condutoras. Ela não mede a atmosfera, não torna o material isolante, não prova integridade mecânica e não substitui a avaliação das demais fontes de ignição.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0062",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "escavacao_sobrecarga_entorno",
+    "difficulty": "alta",
+    "statement": "O parecer de estabilidade de uma escavação foi elaborado para o terreno e as cargas de entorno registrados no projeto. Durante o serviço, propõe-se aproximar uma pilha de material e uma via de caminhões da borda. A sinalização do acesso já foi reforçada. Qual avaliação aborda a mudança relevante para a estabilidade, além do controle de circulação de pessoas?",
+    "options": [
+      "Comparar apenas a largura da via com o tamanho dos caminhões, sem rever os efeitos das cargas junto à borda.",
+      "Usar a sinalização reforçada como comprovação de que as hipóteses de carga do parecer continuam válidas.",
+      "Reexaminar as novas solicitações sobre o maciço e sua compatibilidade com as condições adotadas no parecer.",
+      "Manter o parecer original porque uma carga fora da cava não interfere nas solicitações do terreno escavado.",
+      "Avaliar somente o volume retirado do interior da cava, tratando pilha e tráfego como mudanças administrativas."
+    ],
+    "answer": 2,
+    "explanation": "A pilha e o tráfego próximos podem alterar solicitações que sustentavam a análise. Sinalizar controla acesso, não comprova estabilidade; geometria de passagem e volume retirado não substituem avaliar essas sobrecargas. Não se fixa distância ou solução de contenção sem cálculo e dados geotécnicos.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

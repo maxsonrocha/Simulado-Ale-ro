@@ -88,8 +88,24 @@ function validate({ partial = false, rows = loadRows(), plan = read(planPath), a
     check((subjects[subject] || 0) === (targetSubjects[subject] || 0), `${subject}: ${subjects[subject] || 0}; necessário ${targetSubjects[subject] || 0}`);
     check((subjects[subject] || 0) <= plan.metaAssuntosESP[subject], `${subject}: extrapola meta`);
   }
+  // O plano pode declarar lotes sem renumerar ou acrescentar metadados aos antigos.
+  for (const batch of plan.lotes || []) {
+    const selected = rows.filter(({ q }) => (q?.lote || 1) === batch.numero);
+    check(selected.length === batch.total, `lote ${batch.numero}: quantidade`);
+    if (batch.assuntosESP) for (const subject of Object.keys(plan.metaAssuntosESP)) {
+      check(selected.filter(x => x.q?.area === 'ESP' && x.q.assunto === subject).length === (batch.assuntosESP[subject] || 0), `lote ${batch.numero}/${subject}: quantidade`);
+    }
+    for (const area of ['PORT', 'ING', 'ESP']) {
+      const qs = selected.map(x => x.q).filter(q => q?.area === area);
+      check(qs.length === batch.areas[area], `lote ${batch.numero}/${area}: quantidade`);
+      for (const [level, percent] of Object.entries(plan.proporcoesDificuldade)) {
+        check(qs.filter(q => q.difficulty === level).length * 100 === qs.length * percent, `lote ${batch.numero}/${area}: proporção ${level}`);
+      }
+    }
+  }
   if (audit) {
-    const reviews = read('docs/auditorias/transpetro-etapa-1-conteudo.json');
+    const files = plan.auditoriasConteudo || ['docs/auditorias/transpetro-etapa-1-conteudo.json'];
+    const reviews = { itens: files.flatMap(file => read(file).itens) };
     check(reviews.itens.length === rows.length, 'auditoria de conteúdo: cobertura');
     for (const { q } of rows) {
       const found = reviews.itens.filter(x => x.id === q.id);

@@ -1,7 +1,7 @@
 {
   "etapa": 1,
   "status": "parcial",
-  "baseCommit": "e9c9ef6",
+  "baseCommit": "7a54ee0",
   "metaTotal": 700,
   "metaAreas": {
     "PORT": 100,
@@ -21,23 +21,23 @@
     "saude_ocupacional": 16,
     "desenvolvimento_sustentavel": 10
   },
-  "loteTotal": 100,
+  "loteTotal": 200,
   "loteAreas": {
-    "PORT": 20,
-    "ING": 20,
-    "ESP": 60
+    "ESP": 120,
+    "PORT": 40,
+    "ING": 40
   },
   "loteAssuntosESP": {
-    "prevencao_riscos": 12,
+    "desenvolvimento_sustentavel": 6,
+    "acidentes": 14,
+    "ergonomia": 10,
+    "gestao_sms": 14,
     "higiene_ocupacional": 16,
+    "prevencao_riscos": 14,
+    "incendio": 10,
     "gerenciamento_riscos": 12,
-    "gestao_sms": 4,
-    "acidentes": 4,
-    "emergencias": 4,
-    "incendio": 2,
-    "ergonomia": 2,
-    "saude_ocupacional": 2,
-    "desenvolvimento_sustentavel": 2
+    "saude_ocupacional": 10,
+    "emergencias": 14
   },
   "proporcoesDificuldade": {
     "media": 20,
@@ -52,5 +52,41 @@
       "leitura_interpretacao"
     ]
   },
-  "limites": "Lote parcial autoral autossuficiente. Nenhuma referência normativa atual foi declarada verificada; legislação permanece pendente por indisponibilidade das fontes oficiais."
+  "limites": "Acumulado parcial de 200/700, em dois lotes de 100. Legislação não gerada por impossibilidade de conferir fontes oficiais (MTE, Planalto e Câmara: 403). Não foram criados itens de lotes posteriores.",
+  "auditoriasConteudo": [
+    "docs/auditorias/transpetro-etapa-1-conteudo.json",
+    "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json"
+  ],
+  "lotes": [
+    {
+      "numero": 1,
+      "total": 100,
+      "areas": {
+        "PORT": 20,
+        "ING": 20,
+        "ESP": 60
+      },
+      "baseCommit": "bd7a88e"
+    },
+    {
+      "numero": 2,
+      "total": 100,
+      "areas": {
+        "PORT": 20,
+        "ING": 20,
+        "ESP": 60
+      },
+      "assuntosESP": {
+        "prevencao_riscos": 2,
+        "gestao_sms": 10,
+        "acidentes": 10,
+        "emergencias": 10,
+        "incendio": 8,
+        "ergonomia": 8,
+        "saude_ocupacional": 8,
+        "desenvolvimento_sustentavel": 4
+      },
+      "baseCommit": "7a54ee0"
+    }
+  ]
 }

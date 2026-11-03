@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-03",
+  "baseMain": "7a54ee0",
+  "totalAnterior": 100,
+  "totalAdicionado": 100,
+  "totalAcumulado": 200,
+  "areasNovas": {
+    "ESP": 60,
+    "PORT": 20,
+    "ING": 20
+  },
+  "assuntosNovos": {
+    "desenvolvimento_sustentavel": 4,
+    "acidentes": 10,
+    "ergonomia": 8,
+    "gestao_sms": 10,
+    "prevencao_riscos": 2,
+    "incendio": 8,
+    "saude_ocupacional": 8,
+    "emergencias": 10
+  },
+  "assuntosAcumulados": {
+    "desenvolvimento_sustentavel": 6,
+    "acidentes": 14,
+    "ergonomia": 10,
+    "gestao_sms": 14,
+    "higiene_ocupacional": 16,
+    "prevencao_riscos": 14,
+    "incendio": 10,
+    "gerenciamento_riscos": 12,
+    "saude_ocupacional": 10,
+    "emergencias": 14
+  },
+  "dificuldadesNovas": {
+    "alta": 45,
+    "muito_alta": 35,
+    "media": 20
+  },
+  "gabaritosNovos": {
+    "E": 20,
+    "A": 20,
+    "D": 20,
+    "B": 20,
+    "C": 20
+  },
+  "gruposNovos": 20,
+  "independentesNovas": 60,
+  "gabaritoMaisLongo": {
+    "PORT": 9,
+    "ING": 9,
+    "ESP": 30
+  }
+}

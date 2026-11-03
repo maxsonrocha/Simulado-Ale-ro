@@ -1,0 +1,706 @@
+{
+  "base": "7a54ee0",
+  "total": 100,
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0001",
+      "sha256": "1a7d7c6a70a55b5dd9354265fea72b7885b8ecb82bb43d43068712621e74bab1",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_armazenada",
+      "raciocinioExistente": "E=0,020×100²/2=100 J. O resultado de 200 J omite o divisor 2; 10 e 1.000 J deslocam uma casa decimal; 1 J trata inadequadamente a dependência quadrática da tensão. A energia calculada não atesta segurança para uma intervenção."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0002",
+      "sha256": "f6648689322d21ca0a8d0f61b5f5faac798baf35c8dbe906b70f0699b8fecf64",
+      "assunto": "prevencao_riscos",
+      "subassunto": "hierarquia_controles",
+      "raciocinioExistente": "Modificar a transferência pode retirar o vertimento aberto que gera a exposição; orientar é uma medida dependente de comportamento. Orientação não retira fisicamente o líquido nem cria barreira. O projeto precisa ser avaliado, inclusive quanto a outros perigos, e não elimina a análise da exposição."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0003",
+      "sha256": "bf8beb96803bae7f157ca096c2fb9df5e7ffe6353fd6dab2283ad0a44d3664ae",
+      "assunto": "prevencao_riscos",
+      "subassunto": "movimentacao_cargas",
+      "raciocinioExistente": "O peso é 8.000 N. Tomando momentos no apoio esquerdo: R_d×4=8.000×1, portanto R_d=2.000 N. Os 6.000 N são a reação esquerda; 4.000 N pressupõe centro no meio; 8.000 N atribui todo o peso ao apoio direito e 1.000 N não satisfaz o momento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0004",
+      "sha256": "0305561fc5a80698bd3d26c023f78ed8e0dfc69e60e497c65a827e399dd056e5",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_mecanica_bloqueio",
+      "raciocinioExistente": "Há fontes e formas de energia distintas: elétrica, cinética e de fluido. Cada uma exige análise e verificação própria. Botão, rotor parado, pressão ou corrente, isoladamente, não demonstram o estado das outras formas. A questão é técnica e não fixa procedimento normativo de bloqueio."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0005",
+      "sha256": "d87ad62abea49f48fcd4dfc86818d57812e8fa120480ba4a607ba1e8dcaae86f",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ventilacao_espaco_confinado",
+      "raciocinioExistente": "Gradientes espaciais podem ocorrer por geometria, fontes e ventilação. Nem menor valor, média ou vazão nominal demonstra uniformidade. Divergência demanda investigação, não prova automaticamente defeito. Não se estabelece limite de entrada ou suficiência de apenas duas amostras."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0006",
+      "sha256": "4e99dea99312f5f4630746e12b8f4d06a8f459e5b765888e087d02b37e49fcbb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "intertravamento_maquinas",
+      "raciocinioExistente": "O problema é a correspondência entre posição real e sinal, não apenas aparência ou produtividade. É necessário tratar a montagem/detecção e verificar falhas. Limpeza, contagem, indicador ou ciclo não validam essa correspondência nem enfrentam diretamente a falsa indicação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0007",
+      "sha256": "c0b9a94f7bee920312734b4174c6ad747257d9424094e425f6f0a60f68a9376c",
+      "assunto": "prevencao_riscos",
+      "subassunto": "produtos_perigosos_compatibilidade",
+      "raciocinioExistente": "A contenção compartilhada pode promover o contato incompatível descrito. Volume, densidade, identificação e temperatura isoladamente não removem o mecanismo de reação. O enunciado fornece a incompatibilidade; não se presume que toda solução aquosa se comporte da mesma forma fora desse cenário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0008",
+      "sha256": "523ba6ed6a0ba51224c501f6693f537c2f0ebe8d384da0eee392643685df2734",
+      "assunto": "prevencao_riscos",
+      "subassunto": "trabalhos_a_quente_fontes_ignicao",
+      "raciocinioExistente": "É preciso atuar no transporte das partículas e no combustível alcançável, incluindo os níveis inferiores. Visibilidade, ventilação da fumaça ou ausência inicial de chama não excluem o caminho de ignição; ocultar materiais não prova segregação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0009",
+      "sha256": "f42cc5dfd93bd46d6cb460fe9a6cfbc6ed2047307e2d75078ef5267efc96f083",
+      "assunto": "prevencao_riscos",
+      "subassunto": "pressao_forca_geometria",
+      "raciocinioExistente": "A área original é 3,14×0,20²/4=0,0314 m² e F=300.000×0,0314=9.420 N. Dobrar d quadruplica A; reduzir p à metade deixa F multiplicada por 2: 18.840 N. Compensação linear ignora d²; metade ignora a área; quatro/oito vezes combinam fatores incorretamente. Isso não é dimensionamento completo de vaso."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0010",
+      "sha256": "2476c2156368963c414114fded3b41f8bf6acd6818f27182ebf873b016a4254e",
+      "assunto": "prevencao_riscos",
+      "subassunto": "estabilidade_tombamento",
+      "raciocinioExistente": "P=12.000 N. F_A=12.000×0,60/1,50=4.800 N; F_B=12.000×0,40/2=2.400 N. A alternativa dos momentos confunde N·m com N; elevar h reduz F para o mesmo momento. Não há compensação, e multiplicar P por h não fornece a força-limite."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0011",
+      "sha256": "b6c5ab0358844e2ff50f30b97746415389459c290770d2ffe9f31f662cac1f06",
+      "assunto": "prevencao_riscos",
+      "subassunto": "falha_causa_comum_barreiras",
+      "raciocinioExistente": "A perda comum pode incapacitar simultaneamente as barreiras, invalidando o crédito de independência. Ensaios normais não caracterizam essa falha. Contá-la como duas falhas independentes modela mal a dependência; o achado não afirma impossibilidade de fechar sob suprimento normal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0012",
+      "sha256": "ad9411ef95d17a9439354732882ea283d19c532dfd692df006e86552f5d68d62",
+      "assunto": "prevencao_riscos",
+      "subassunto": "mudanca_operacional_multiplos_riscos",
+      "raciocinioExistente": "A mudança altera exposição e comportamento hidráulico. É necessário verificar o conjunto e as capacidades reais; não há dados para aprovação automática ou rejeição universal. Vazão igual não implica pressão/esforço iguais, e fixar pressão sem verificar o regime também não resolve o projeto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0013",
+      "sha256": "104fa7e1b26ce762de1ceee7899a44c67b6a548a4252147cf88c632056923387",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_volume",
+      "raciocinioExistente": "V=2,0×120=240 L=0,240 m³. As demais opções erram a conversão por fatores de 10, 100 ou 1.000; não há concentração a calcular sem a massa coletada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0014",
+      "sha256": "5c221564baa62d62a103d90efa96db817d4dc4b8e40ba8779cffe41bafea717c",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "branco_analitico",
+      "raciocinioExistente": "Massa líquida=2,4−0,4=2,0 mg; C=2,0/0,50=4,0 mg/m³. 4,8 ignora o branco; 5,6 o soma; 2,0 confunde massa e concentração; 0,8 corresponde apenas ao branco por volume."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0015",
+      "sha256": "11a85a98c713495086d934215aacbd3c32ed2fd3a3d4a202171472b5a96174fa",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "media_temporal",
+      "raciocinioExistente": "C_m=(2×2+6×6)/8=40/8=5 mg/m³. 4 é a média simples e ignora os tempos; 6 toma o maior patamar como jornada inteira; 8 soma concentrações; 3 não satisfaz a média ponderada dos valores e durações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0016",
+      "sha256": "9821d9c9c8307653a460ddcc898bb440fcb6cc5e0bc870ce39e890445e67dab9",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_soma_energetica",
+      "raciocinioExistente": "Duas energias iguais dobram a energia: L_T=70+10log10(2)=73,01 dB. Somar os níveis produz 140 indevidamente; 76 corresponderia a quadruplicar energia; 70 ignora a segunda fonte e 100 não decorre da soma energética. Não se aplica limite normativo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0017",
+      "sha256": "87ad04c7bd5ca5b5697f876779a48a4d90db98b0bdfea9b7c2affc8ae2ca0721",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ventilacao_balanco_massa",
+      "raciocinioExistente": "Q=G/C=30/0,50=60 m³/min. Multiplicar G por C dá 15 com unidades inadequadas. As outras vazões dariam respectivamente 1,0; 0,667 e 0,25 mg/m³, não o valor de projeto indicado. A mistura perfeita é hipótese, não garantia de distribuição real."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0018",
+      "sha256": "fcc37e58c4a0b3211d5cffcd539eea5c12c0c525c5314336d085a965abf799cc",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "fracionamento_aerodispersoides",
+      "raciocinioExistente": "A definição da fração depende da resposta granulométrica do sistema, não só da unidade ou duração. Massa total não determina a distribuição sem dados adicionais; maior massa coletada não garante maior fração-alvo quando os métodos diferem."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0019",
+      "sha256": "5513b152f58f0d03c72744a361f886b3ceda1b68430682f5484074ee2d0158d0",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "picos_exposicao",
+      "raciocinioExistente": "Uma média não descreve máximos nem padrão temporal. A relevância dos picos depende do agente, tarefa e critérios efetivos. Nenhuma equivalência de máximos, exclusão causal ou infração normativa pode ser deduzida dos dados apresentados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0020",
+      "sha256": "3e017cbb6f90c6ef8de4a2e3199926bee2dce7a24238fd72dece3a5253609222",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "incerteza_medicao",
+      "raciocinioExistente": "Os intervalos se sobrepõem, mas isso não prova igualdade e tampouco substitui uma análise adequada da diferença. Pontos centrais diferentes não provam mudança real; incerteza maior não implica automaticamente erro de aplicação e não pode ser simplesmente retirada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0021",
+      "sha256": "d9dc45f7e848ef5d9692a836d530d325391faf3d7f195b86851358f23ed641a8",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "protecao_respiratoria_diagnostico",
+      "raciocinioExistente": "Identidade e condições dos agentes, capacidades/limitações do equipamento e adequação ao usuário são bases técnicas da seleção. Odor, aparência, rigidez ou preferência não determinam proteção e não dispensam avaliação. Não se prescreve um respirador sem os dados necessários."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0022",
+      "sha256": "6c40b1049d1efceb05e63c7262662e3c4c52ee1aae6c65d6abfc033ce00e0ce7",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "estrategia_amostragem",
+      "raciocinioExistente": "A representatividade exige analisar cenários de exposição diferentes; duração menor não garante concentração menor. Mais amostras do mesmo cenário não cobrem automaticamente os demais, e escolher mínimo ou omitir tarefa não resolve a limitação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0023",
+      "sha256": "9255d3ab869a528d2a2cfc05d38610fd2c938c3e2c73fcedc4937c9f4180f0c5",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calibracao_deriva_vazao",
+      "raciocinioExistente": "Vazão média=2,0 L/min; V=300 L=0,300 m³; massa líquida=0,90 mg; C=3,00 mg/m³. Com 1,8 L/min, V=0,270 m³ e C=3,333 mg/m³. Usar vazão menor reduz o denominador e aumenta C. 3,20 ignora o branco; 2,73 usa a vazão final; as demais erram fatores ou sentido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0024",
+      "sha256": "1a5256c9c805162e382f8531347b31078282d5bed44501fb11c9a67753bdc3e1",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "mistura_concentracoes_fluxos",
+      "raciocinioExistente": "As massas por minuto são 20×3=60 e 30×1=30 mg/min: total 90. Com diluição final, a vazão é 60 m³/min e C=90/60=1,50 mg/m³. 1,80 ignora o ar limpo; 2,00 é média não ponderada inicial; 1,00 e 2,50 não conservam a massa e o fluxo informados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0025",
+      "sha256": "3a5ae7baf77578422cc601468fd10cbefddbf4d2ffb816e8d10d35e515c07c43",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_reducao_energia",
+      "raciocinioExistente": "Depois: 0,80/4+0,20=0,40 da energia original. ΔL=10×(−0,398)=−3,98 dB: redução de 3,98. 6,02 dB aplicaria a redução de quatro vezes a toda a energia; 3,01 supõe metade; as outras não correspondem ao balanço energético."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0026",
+      "sha256": "845ad3de35ff468e32e01bbc9e60932f90f758406939068e05852e1ed73b6606",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "valores_abaixo_quantificacao",
+      "raciocinioExistente": "A soma conhecida é 6 e a soma desconhecida fica em [0,2). Dividindo por quatro, média em [1,5;2,0). Substituir por zero ou por 1 é uma convenção, não conclusão dos resultados. Excluir amostras muda o conjunto e não responde à média das quatro."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0027",
+      "sha256": "87f45c834ab7e0506d5f6b2450170bb0fa946f01dcc0e6b5c0ef2968726c18f7",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calor_balanco_termico",
+      "raciocinioExistente": "Inicial: 400−50+20+30−250=150 W. Depois, R=10 e E=290: S=90 W. Queda de 60/150=40%; 60% é o valor remanescente. 110 ou 130 ignoram um dos efeitos; 210 inverte o sentido do controle. O modelo não constitui critério normativo de exposição ao calor."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0028",
+      "sha256": "5942aa5d7cf17c3785d8730e60f809e3d03cdf3870d8abc83e6a167f3827ac01",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "radiacao_distancia_tempo",
+      "raciocinioExistente": "A razão entre taxas é 1/9 e entre tempos é 9/4; a razão de doses é (1/9)×(9/4)=1/4. Um nono ignora o aumento do tempo; 9/4 ignora a distância; 3/4 usa dependência linear com distância. O cálculo isolado não autoriza trabalho com radiação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0029",
+      "sha256": "a7f3b94a4a6c49d35c29e3f29c7bfb92ad20c1c2836c63ddd62a6cb76da8312b",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_consequencia",
+      "raciocinioExistente": "A=0,02×5.000.000=100.000/ano; B=0,10×400.000=40.000/ano. Dividir pela frequência ou omiti-la troca o indicador; os valores de 10 mil e 400 mil erram multiplicadores. Isso não torna esse indicador o único critério aceitável de decisão real."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0030",
+      "sha256": "aca7e8b9ebc27497019d42cd8937bd2779c89965171f20f660033288de8c43c7",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "apr_escopo",
+      "raciocinioExistente": "Uma análise preliminar pode organizar informações disponíveis e lacunas sem probabilidades inventadas. Ausência de quantificação não prova ausência de risco, um cenário não esgota todos e dados externos exigem comparabilidade e contexto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0031",
+      "sha256": "9bf8949dd0bacd5319b97eeebee32aa60af6dc0ddfb1f3537535b1c4cc7e50e2",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "hazop_desvio_causas",
+      "raciocinioExistente": "O desvio compara fluxo real/intencional; falha de retenção e diferencial de pressão podem produzi-lo; a contaminação pode resultar dele. As demais versões trocam categorias, descrevem operação normal ou usam efeitos administrativos como cadeia física."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0032",
+      "sha256": "1b5b72f3267c15c814fffc3800bf3de8081009d9b9c4bf8ce26f597ac1883b04",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fmea_criterios_decisao",
+      "raciocinioExistente": "10×2×2=40 e 4×5×2=40. Igual produto não iguala as dimensões. A tem S=10 e cumpre a condição específica; B tem S=4. O limiar interno não é norma universal e não se aplica ao produto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0033",
+      "sha256": "02308fccf6e50103267e31e695ab03e046f6e6f1ad665fb7e10718313082dad9",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_falhas_ou",
+      "raciocinioExistente": "0,02+0,03−0,0006=0,0494. O produto 0,0006 corresponde à falha simultânea; 0,0500 soma sem descontar interseção; 0,9506 é o complemento do evento e 0,0100 apenas a diferença entre probabilidades."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0034",
+      "sha256": "3e848f7e1b81e0557f173baa64bbbcbae837747fa772b05fc9c0f7b5a120b154",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "risco_individual_social",
+      "raciocinioExistente": "A distinção é entre exposição de um indivíduo em um ponto e consequências coletivas com suas frequências. Frequência ocorre nas duas métricas; não as torna iguais. Danos patrimoniais, concentração e falha isolada de equipamento não são os resultados descritos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0035",
+      "sha256": "161611c71acc2e549646d7684e96e286f7319f63bb452d74a0abf84106f2c6b8",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "analise_sensibilidade",
+      "raciocinioExistente": "R varia de 1 a 3 unidades/ano; se isso muda a decisão, a faixa é relevante. Escolher extremo ou média sem transparência não elimina incerteza; sensibilidade não invalida todo modelo nem exige que C varie junto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0036",
+      "sha256": "1bb6685cf847bd224275b49f905ef5fece64a3d2913f6deb3e71610fda5c350f",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "bow_tie_posicao_barreira",
+      "raciocinioExistente": "A posição relativa ao evento central distingue evitar a perda de conter seus efeitos. Identificar perigos antes do estudo não muda a atuação física dos controles; espalhamento é posterior à perda e não é necessário calcular risco de fatalidade para essa classificação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0037",
+      "sha256": "8331584e0c1ed66fb4a704aaafb8098eb512c908b7f71a71b374a185e5c026e4",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_eventos_terminais",
+      "raciocinioExistente": "Falha de A: 0,10; no ramo, falha de B: 0,20. Dano=0,20×0,10×0,20=0,004/ano. B contém=0,20×0,10×0,80=0,016/ano. Os demais pares omitem a demanda de B, trocam sucesso/falha ou atribuem o sucesso de A a B."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0038",
+      "sha256": "7805f6914e91cf36246a2e876fd7d52e9018f364d928eb1164bf024df2d419cb",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "dependencia_condicional",
+      "raciocinioExistente": "Conjunta=0,10×0,40=0,040. Total B=0,10×0,40+0,90×0,02=0,058. Produto marginal=0,10×0,058=0,0058, menor que 0,040. Somar condicionais sem pesos e ignorar a dependência são erros distintos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0039",
+      "sha256": "cb7a7ae6220269423537e8ef52ec7a260aff2d685614661e20a53027fea2c267",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "alocacao_reducao_risco",
+      "raciocinioExistente": "A evita (0,04−0,01)×1.000=30/ano; razão 30/20=1,5. B evita 0,06×(400−100)=18/ano; razão 18/10=1,8. Usar risco inicial em A dá 2,0, omitir custo dá 30/18, e os demais não combinam reduções e custos corretamente. O indicador foi definido no exercício, não é critério legal universal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0040",
+      "sha256": "d0574f6ae753adece3b0f4849865e32d1f47210ec4b6761af18aff925c6f6b85",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "causa_comum_quantificacao",
+      "raciocinioExistente": "P=0,01×1+0,99×(0,02×0,02)=0,01+0,000396=0,010396. 0,0004 ignora a causa comum; 0,01 ignora o ramo residual; 0,0104 soma sem ponderar a ausência da causa comum; 0,0396 é a união de duas falhas independentes de 0,02, não a conjunta pedida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0041",
+      "sha256": "41d2280f9c1f28ce0ebf37f68c4d229d361e1ce45558804c8e0f64123bd4b72f",
+      "assunto": "gestao_sms",
+      "subassunto": "evidencia_auditoria",
+      "raciocinioExistente": "O requisito inclui registro e a evidência correspondente está ausente. Isso não prova a não execução nem a inoperância. Conhecer a finalidade não revoga o procedimento e não autoriza fabricar evidência contemporânea."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0042",
+      "sha256": "be62ffc93450e2f999e4ff9c5297008fe616fdbaf9a4130767eaf7d1bf268b31",
+      "assunto": "gestao_sms",
+      "subassunto": "indicadores_proativos_reativos",
+      "raciocinioExistente": "Lesões são resultados e ações verificadas acompanham a gestão dos controles. Os indicadores são complementares, não equivalentes; cumprir ações não garante risco zero, e a contagem de lesões não mede atividades preventivas planejadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0043",
+      "sha256": "409ab3b3acfcdcb78ce4903bbfa254bad77fc00646328ed198a0743eb83df29d",
+      "assunto": "gestao_sms",
+      "subassunto": "eficacia_acao_corretiva",
+      "raciocinioExistente": "A eficácia deve testar o mecanismo de omissão e seu funcionamento no uso. Cor, pagamento, ciência ou aceitação visual podem registrar execução/comunicação, mas não demonstram que a liberação sem o dado foi impedida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0044",
+      "sha256": "aad91a1674f0f7b172d47cac3f39677d5671acfb93225124d8bf974b8cbfc401",
+      "assunto": "gestao_sms",
+      "subassunto": "comparabilidade_indicadores",
+      "raciocinioExistente": "A: 90/100=90% encerradas; 45/100=45% do total com eficácia verificada. B: 40/50=80% encerradas; 36/50=72% do total com eficácia verificada. Os percentuais 50% e 90% têm como base os encerramentos. As quantidades de ações eficazes são 45 e 36; a comparação de taxas requer distinguir essas bases e a composição das ações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0045",
+      "sha256": "599bf76c300fc27db4d185c6e1f68605dc32257b4a7a4a4a6270f126eb951f1d",
+      "assunto": "acidentes",
+      "subassunto": "evidencia_causa_investigacao",
+      "raciocinioExistente": "Localização é evidência contextual, não demonstração causal. Não se pode inferir intenção ou integridade de um componente não examinado. Trajetória e organização são informações potencialmente necessárias, não substituíveis por contagem."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0046",
+      "sha256": "ffb90ca224b09fe3073615c6b3d859831f5bc1667a05df430572a6c757397e18",
+      "assunto": "acidentes",
+      "subassunto": "taxa_frequencia_denominador",
+      "raciocinioExistente": "X=6/300.000×1.000.000=20; Y=8/800.000×1.000.000=10. A contagem não incorpora exposição; inverter a razão ou alterar a escala produz outros indicadores. Não se atribui ao indicador interno origem normativa."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0047",
+      "sha256": "98e2e14416e23ce4a4849fce5e620bb3a05e46de254264ab8b93c050d5d0c9a9",
+      "assunto": "acidentes",
+      "subassunto": "causa_imediata_sistemica",
+      "raciocinioExistente": "Há condições físicas e organizacionais que precisam ser relacionadas ao acesso. Parar no comportamento ou em fatores não demonstrados não trata a cadeia. Um novo título e ausência de histórico tampouco mostram controle do mecanismo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0048",
+      "sha256": "6e8bc51e016b30ee7d5b618f1420a2dba324ebb7ee4da7eb424bbd783c1bbf77",
+      "assunto": "acidentes",
+      "subassunto": "composicao_taxas",
+      "raciocinioExistente": "Ano 1: (1×900.000+4×100.000)/1.000.000=1,3. Ano 2: (1×500.000+4×500.000)/1.000.000=2,5. Pesos mudam sem mudança nas taxas; média simples só coincide quando as horas são iguais. Não houve migração total nem diluição de B por essa alteração."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0049",
+      "sha256": "4aeff3c8797bcbad2ce03dc79193719f6fb581f9017c8845abf7ff8d40011f6c",
+      "assunto": "emergencias",
+      "subassunto": "reconhecimento_recursos",
+      "raciocinioExistente": "O problema está no acionamento real e na disponibilidade; deve ser testado e corrigido. Documento, leitura, exclusão do teste e mudança de nome não demonstram prontidão operacional."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0050",
+      "sha256": "15ac63ecbe9f6c9969d9b57e7cbef4fdd9daf7eebf8d1e307448937f8f3b1894",
+      "assunto": "emergencias",
+      "subassunto": "comando_coordenacao",
+      "raciocinioExistente": "A coordenação prevista existe para integrar informações, prioridades e recursos. Competição independente, ordem de chegada, silêncio ou quantidade de mensagens não realizam essa função. Não se inventa uma estrutura normativa obrigatória."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0051",
+      "sha256": "14dcd218c025bb459cf15a90ab2486dc410892d97d8782e4dc37b2b06aac3160",
+      "assunto": "emergencias",
+      "subassunto": "rotas_evolucao_cenario",
+      "raciocinioExistente": "A premissa permite atualização orientada por monitoramento. Familiaridade, distância ou desenho inicial não substituem a avaliação do risco dinâmico. Expor pessoas para testar o caminho não é o monitoramento previsto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0052",
+      "sha256": "fc13df41ef28b50c31373cca343457cdd6a1dd02da506696400a552f85339230",
+      "assunto": "emergencias",
+      "subassunto": "mobilizacao_caminho_critico",
+      "raciocinioExistente": "Equipe pronta em t=8; equipamento em t=4+5=9; conjunto em max(8,9)=9. Depois, equipe em 5 e equipamento em 9: continua 9. Somar ramos paralelos, omitir o transporte ou deslocar a confirmação contraria as premissas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0053",
+      "sha256": "a2fbb667700fa469dfa31f06670c297123276a4f76078e494581762246871abd",
+      "assunto": "incendio",
+      "subassunto": "mecanismos_extincao",
+      "raciocinioExistente": "O mecanismo especificado é a remoção de calor, portanto resfriamento. Abafamento e diluição atuam na disponibilidade/concentração do oxidante; isolamento e interrupção de alimentação atuam no combustível. Não se escolhe um agente para um produto não identificado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0054",
+      "sha256": "6bda8db98fd81cdb79db604db0c389923b7b5cf969d090f755a789e31b84d61a",
+      "assunto": "incendio",
+      "subassunto": "selecao_agente_compatibilidade",
+      "raciocinioExistente": "A incompatibilidade exige avaliação técnica de agente e aplicação. Capacidade térmica, cor, detecção ou tamanho não eliminam a reação descrita nem bastam para selecionar o combate. A questão não prescreve atuação sem dados e treinamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0055",
+      "sha256": "d3fef262737e146c0b3891da58c87848ffea1ffe95e32791f402a7592143b08a",
+      "assunto": "ergonomia",
+      "subassunto": "trabalho_real_variabilidade",
+      "raciocinioExistente": "A atividade real inclui variabilidade e adaptações com exigências próprias. Prescrição, massa média e exclusão de retrabalho não cobrem os achados. A análise não pressupõe que toda adaptação seja arbitrária ou indesejável."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0056",
+      "sha256": "3c826c55c3a8f41e693c501165a58a24517c7668c2e2774b89a105dcf2328b5d",
+      "assunto": "ergonomia",
+      "subassunto": "carga_cognitiva_interface",
+      "raciocinioExistente": "O objetivo combina menor interferência e informação suficiente. É necessário testar desempenho nos dois eixos; contagem ou intensidade isoladas não o demonstram. Mais alarmes não garantem discriminação e exigir memória sem avaliação pode deslocar a carga."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0057",
+      "sha256": "672fa551b3ec3e362f3c2ef7bdd904024c27f1a90c46b2001e6a004a220c875d",
+      "assunto": "saude_ocupacional",
+      "subassunto": "vigilancia_dados_coletivos",
+      "raciocinioExistente": "Um sinal coletivo pode orientar investigação e integração com exposição, mas não substitui diagnóstico individual ou demonstração causal. Sintomas não fornecem concentração exata; variabilidade não exclui relação, e a informação não deve ser automaticamente descartada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0058",
+      "sha256": "4b5307565df6a07a1cfda45e0fa9e9dea56cf38e57f38f5b724ff13534980392",
+      "assunto": "saude_ocupacional",
+      "subassunto": "comparacao_prevalencias_composicao",
+      "raciocinioExistente": "20/100=20%; 15/300=5%; razão=4. São proporções de sintomas, não incidência nem prova causal. Diferentes composições exigem análise; contar casos sem denominador ou transformar a razão em prova de igualdade de confundidores não é válido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0059",
+      "sha256": "2bdbc9f4bdadd42b10a14e077c9ea59a4a1b4510e48bba67a40853cf2e2e4eb5",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "ciclo_vida_fronteiras",
+      "raciocinioExistente": "Comparar 12+0,20n com 1,0n: 12<0,80n, portanto n>15. O primeiro inteiro é 16; em 15 há empate. Ignorar operação, dividir por 0,20 ou apagar fabricação altera o modelo. A conclusão depende de usos reais e das fronteiras explicitadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0060",
+      "sha256": "fcc52e46a0f258fa6b2c8b48dcbb178540c26091573686e53efd83d178576879",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "intensidade_volume_multicriterio",
+      "raciocinioExistente": "Energia: 500/10.000=0,05 e 600/15.000=0,04 MWh/t, queda de 20%; total cresce 100/500=20%. Água: queda total 100/1.000=10%; intensidade passa de 0,10 a 0,06 m³/t, queda de 40%. Crescimento da produção não determina o sinal dos totais e as medidas não são intercambiáveis."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0001",
+      "sha256": "63717680ebbe007aa4df7098f165aef5dfce3b3347bea9078bd9a76bc59db080",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "main_idea_time_reference",
+      "raciocinioExistente": "The apparent reversal came from comparing different time references. Normalization supports chronological comparison; it does not prove timely recording, cause physical changes or justify deleting original evidence."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0002",
+      "sha256": "61e6535ba0f1e3761a5f6d6d32c4f2fcce4de92cb5486b728457d06fabff4729",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_and_traceability",
+      "raciocinioExistente": "The two forms serve complementary purposes: comparison and traceability of conversion. Bare local labels lose information, and preserving originals does not guarantee recording immediacy or every record's accuracy; knowing the relevant zone remains necessary."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0003",
+      "sha256": "6227ae91a25b179c7256ed6aef07afaa770c34128ce34b3189eacc547d55f43d",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_receipt_performance",
+      "raciocinioExistente": "“Yet” contrasts near-universal signature with continued use of old steps. It does not establish the reversed timing, automatic improvement, loss of evidence of receipt or an unsupported numerical comparison."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0004",
+      "sha256": "35d20700e0a1f5b97015ea9421154250aee907bae46aa2bf92ea7a369a240359",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "transfer_after_procedural_change",
+      "raciocinioExistente": "The evidence is specific to the sequence demonstrated. A relevant change requires checking transfer to the revised sequence. It neither erases receipt evidence nor turns signature into competence, and it cannot retroactively demonstrate a future sequence."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0005",
+      "sha256": "6e39681a197e1a8a92607e02e138b687a081fefbab5147a98cec3f6a87609442",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "vocabulary_in_context",
+      "raciocinioExistente": "“Flagged” means signaled or drew attention to the vibration. The sensor did not cause, remove, explain or conceal the vibration; identifying its cause required engineers."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0006",
+      "sha256": "2e438349a5b67c04015ad834c01752d3300a3bb6ac2b0d920e67241930165625",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "cohesion_contrast",
+      "raciocinioExistente": "Detection was successful while interpretation was revised. The cause still required investigation; keeping the sensor did not preserve the diagnosis. The procedure was not meant to suppress signals, and the support did not invalidate measurement."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0007",
+      "sha256": "dd92da670c1288519af05f86080772d1b3e459f26558642a8f8d504a3e60cf7c",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "scope_of_evidence",
+      "raciocinioExistente": "Only users' reported perceptions were collected. The other claims expand the surveyed population or convert perception into incident-prevention measurement without evidence."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0008",
+      "sha256": "fcd406e5c0d68895770e3803de6a74a255e6f070d23254d37cf55f7ca35abf02",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integrating_two_limitations",
+      "raciocinioExistente": "The correct revision broadens the population and distinguishes subjective reports from comparable incident evidence. Each other option retains a coverage problem or substitutes one kind of evidence for a different outcome."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0009",
+      "sha256": "24f69652903428ffb84a10dabbfea9cab32f9577fb3e075e126d1c7ca934eaea",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "purpose_and_qualification",
+      "raciocinioExistente": "The plan reduces routine overlap but keeps urgent radio messages and clarification calls. The remaining options contradict these exceptions or the pre-extension evaluation."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0010",
+      "sha256": "8a80fd7a9326d6f2a8054ebd1d83b1886987dda68508347b017a5fe2843d1a1f",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_inference",
+      "raciocinioExistente": "The assessment contains two relevant dimensions: reduced overlap and timely display notice. Success in one does not satisfy the other. No causal explanation for late notice or guarantee of timely notice is provided."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0011",
+      "sha256": "aee6dcd37b4a1479d40ad114c52cade3fe93be34ef3ebd8748b696df4df44b27",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "pronoun_reference",
+      "raciocinioExistente": "The immediately preceding sentence names the two measures. Weight, distance, costs, interviews and satisfaction are not the pair being contrasted."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0012",
+      "sha256": "781e519480130870787db08c0357a4846e55455fcab15e1543056addec9315c1",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "semantic_distinction",
+      "raciocinioExistente": "Returnability is a capacity; actual return depends on arrangements. The other options invent incompatibility, infer absent collection, assert withdrawal or equate possibility with actual practice."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0013",
+      "sha256": "130342cb1c8833969a545baf7c998e23853f23ce033e799e7a48e583800cc1fb",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "comparison_criteria",
+      "raciocinioExistente": "The leader requests an explicit purpose for each measure. The passage rejects declaring error simply from disagreement and does not propose a publication contest or discarding the vessel requirement."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0014",
+      "sha256": "7b417b3b5f7c2902471703cd2086050103c115a891785b370b7e849b78e14387",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "joint_constraints",
+      "raciocinioExistente": "Suitability under a mandatory requirement precedes comparison among suitable alternatives. A favorable relative measure or averaged ranking cannot waive the requirement; different rankings are not evidence of invalid modules, and a distinct measure can still be useful."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0015",
+      "sha256": "54916fe3ae358d4aa4c782a29e83d529e7e96056889f4e81f4122803e0c8be7a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "grammar_meaning",
+      "raciocinioExistente": "The modal marks possibility: better reporting may explain the rise. It states neither obligation nor certainty about all events and does not describe prevention by naming."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0016",
+      "sha256": "a341acca3b1bec096ef6e51e77714653bab8cd6f635bc7d4dee95ce526daf88a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "evidence_and_observation",
+      "raciocinioExistente": "An independent comparable occurrence measure helps separate reporting behavior from events. Detail, timing, anonymity preferences and form length concern reporting processes and do not independently establish occurrence frequency."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0017",
+      "sha256": "ffe748d5feefd6be49a347d655441b47001ede2f16b58b975bb8414aa4075b2d",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_proposed_actual",
+      "raciocinioExistente": "Realized distances distinguish actual savings from proposals. The passage does not claim that every rejection increases distance, deny road effects, dispense with explanation or endorse untested proposals."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0018",
+      "sha256": "dea1fe36069759f18bc2cade79335a8ea5b9c39a885332b77d7771e723fb359f",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_limits_usefulness",
+      "raciocinioExistente": "Usefulness conditional on checking is compatible with biased proposal-only estimates. The text does not require universal acceptance, infer universal failure, reject checks or establish that actual savings exceed proposals."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0019",
+      "sha256": "bc7176d5c7b45c2618d3d4f6c6d6313ea4b5e30b29946086579938ab6674af91",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "aggregation_and_relevance",
+      "raciocinioExistente": "The average combines mostly room-temperature tests with fewer relevant cold tests. This can mask condition-specific weakness. No complete ordering, universal inability or cause of the delays is demonstrated, and representation is not equal."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0020",
+      "sha256": "cf5c9e7ff6cfdc8da8b55acfb1e2e863dd451789a91c3db56c300cc039c1caf8",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "decision_under_evidence",
+      "raciocinioExistente": "The correct step combines relevant conditions, distribution rather than mean alone, and the intended use. An average does not rule out delays; cold delays do not invalidate all uses; replacing relevant data loses evidence; group sizes alone do not determine failure frequency."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0001",
+      "sha256": "113218a816c673b8e935549b587a1f8c33902a12ed23d41bef61c321a4c62714",
+      "assunto": "compreensao_textual",
+      "subassunto": "tese_evidencia",
+      "raciocinioExistente": "A gerente reconhece o benefício e exige a comparação econômica. Ela não conclui que o projeto seja inútil, nem que o benefício baste para expandi-lo. Também não condiciona a análise a uma falha futura nem exclui custos."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0002",
+      "sha256": "f78fbbfa4880805b08d8fb0aa89bf454050dc9ed0a9986d79949a1f83c8b21dc",
+      "assunto": "compreensao_textual",
+      "subassunto": "pressuposicao_argumentativa",
+      "raciocinioExistente": "A possibilidade de custo superior ao benefício questiona a expansão pelo resultado líquido, mas preserva a avaria evitada. O tamanho do estudo já recomenda cautela, porém não confronta especificamente a justificativa econômica; os demais fatos não a enfraquecem."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0003",
+      "sha256": "d16427c9e01f01f028bf76a763fd3f53aac92cf9b46c5e7fd6456248f8226b25",
+      "assunto": "compreensao_textual",
+      "subassunto": "causalidade_textual",
+      "raciocinioExistente": "O contraste incide sobre a explicação causal, não sobre a redução observada. O texto não estabelece causalidade entre equipe e aplicativo, não exclui o efeito do volume e mantém a intenção de comparar dias."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0004",
+      "sha256": "a21339fdb4cc10838bfb6f6927caf77d95d74f48d1ff90088d40aadc8aed7e20",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_controle_contrafactual",
+      "raciocinioExistente": "Controlar as duas mudanças citadas reduz essas explicações concorrentes; não examinar outras mudanças impede afirmar exclusividade causal. Os demais resultados deixam os controles incompletos, perdem a medida de interesse ou dizem respeito à comunicação, não à causa."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0005",
+      "sha256": "e2e6aa9e89f670545e7b128111dbb8724858e07de7f26814fc1bb30fad517a1e",
+      "assunto": "compreensao_textual",
+      "subassunto": "modalizacao",
+      "raciocinioExistente": "O próprio texto explica o valor de possibilidade e delimita a experiência. Não se trata de obrigação, garantia universal, autorização jurídica ou rejeição da hipótese."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0006",
+      "sha256": "50e6782245c8e62430f03209b25fea53373fc7ecb2cc7952377db3241cbfc183",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_escopo",
+      "raciocinioExistente": "“Em certas” conserva o alcance parcial, e “é capaz de contribuir” mantém possibilidade. As outras versões universalizam, introduzem condição contrária à avaliação humana, negam o benefício ou criam condição de cobertura total inexistente."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0007",
+      "sha256": "93e043aa3f94b4e0cbdeecd14adf383a1216d1093bf4f88258dd7481bf50a09e",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_sujeito_oculto",
+      "raciocinioExistente": "A entrega e a destinatária estão claras; o problema é o agente de “havia revisado”. O adjunto temporal é compatível, “relatório” funciona como objeto retomado por “que” e relativos podem retomar coisas."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0008",
+      "sha256": "8b7724d6ea9f59c043ccd4dbb0ac558df1b937ff51a822ceb9fe80e062d3c317",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_agencia_regencia",
+      "raciocinioExistente": "A forma correta mantém a entrega pela técnica, identifica explicitamente a revisora e usa “à coordenadora”. A versão com “ambas” muda a autoria e omite a crase; a inversão muda a entrega; “esta” junto à coordenadora não identifica inequivocamente a técnica; revisar é transitivo direto, não pede “ao qual”."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0009",
+      "sha256": "8fa926095d330068e98e699805066fd61225f5481e54b27703fae0c3773cbc55",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_contextual_precisao",
+      "raciocinioExistente": "A distinção é entre contagem e proporção. A analista mantém ambas, não nega benefícios, não condena universalmente a expressão e considera indispensável informar a mudança do universo."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0010",
+      "sha256": "0b977499f10eda26846b8a409b41f0f845794e3f074af55ffdd81957a4902326",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_quantitativa_argumento",
+      "raciocinioExistente": "De 60 para 90 há aumento de 30/60=50%. As proporções são 60/100=60% e 90/200=45%, queda de 15 pontos percentuais. Nenhum dado mede satisfação ou demonstra falta de benefício, nem identifica causa para a mudança de proporção."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0011",
+      "sha256": "10d455c9197f6648b0668c994828d49656500185f7bf7acb35d783c9b4d549fa",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_demonstrativo",
+      "raciocinioExistente": "O antecedente textual explícito é o número de registros. A maior frequência real de interrupções é justamente posta em dúvida; equipamentos, duração e disposição do supervisor não têm aumentos informados."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0012",
+      "sha256": "3a87e7d7257f74e768e69533ee1ca6ecffb4aafeacc38312bb16e8182f7e7e1a",
+      "assunto": "compreensao_textual",
+      "subassunto": "tempo_modo_finalidade",
+      "raciocinioExistente": "O subjuntivo integra o conteúdo do pedido e a ocorrência esperada; “assim que” marca prontidão temporal. Não afirma fatos passados concluídos nem converte a orientação em causa, hipótese impossível ou ações presentes independentes."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0013",
+      "sha256": "4c289919f07915fa08a7ac61fd4c3e663804c96c9f6241e6ce7e8a22a98f5b4f",
+      "assunto": "compreensao_textual",
+      "subassunto": "concessao_coerencia",
+      "raciocinioExistente": "A melhora horária é admitida, apesar do aumento anual. Ela não é negada nem apresentada como condição de funcionamento noturno ou comparação com horas iguais. Também não se afirma que o consumo por hora aumentou."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0014",
+      "sha256": "a8fb472fdf2ed2dedc86c3e8ad306a9f47aaf5c170452441cb284a7335cc8e76",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_concessao_escopo",
+      "raciocinioExistente": "A inferência contrafactual combina menor consumo horário com a manutenção das novas horas: sem a melhora, o total seria maior, embora possa ter aumentado frente ao ano anterior. As demais frases dispensam a análise conjunta, negam a melhora ou inventam garantia ou impossibilidade não presentes."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0015",
+      "sha256": "9f6f19b690c4d8cf17ee8509f8d7e82b071eec03f635faf674ca4129eb24295c",
+      "assunto": "compreensao_textual",
+      "subassunto": "pontuacao_restritiva",
+      "raciocinioExistente": "Sem vírgulas, a relativa delimita os técnicos que receberam acesso. Não é informação explicativa de todos, nem oração final, comparativa ou de atribuição de vontade."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0016",
+      "sha256": "a777bbea8f977f2e3fc215b5368c825cbb970ad9341decaaa7f713c6d7fd7786",
+      "assunto": "compreensao_textual",
+      "subassunto": "crase_concordancia_contextual",
+      "raciocinioExistente": "“Acesso” singular determina “foi concedido”; “aos” introduz os destinatários e a relativa continua restritiva. Não há crase antes de “todos”. As formas “foram concedido” e “concederam-se acesso” violam a concordância passiva; as vírgulas tornam a capacitação explicativa no conjunto mencionado."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0017",
+      "sha256": "565bccba6a62c1c9f325960c5894693586593415815b8a576d92653ae67b2eeb",
+      "assunto": "compreensao_textual",
+      "subassunto": "condicao_possibilidade",
+      "raciocinioExistente": "O requisito temporal está associado à presença de anexos. O texto não cria aprovação automática, obrigação de nova reunião ou dispensa documental; sem anexos, a devolução ocorre independentemente do dia."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0018",
+      "sha256": "513893b3157492b847d468a9f258b95c436732062dd8ef53ec5b3165dc4579d4",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_condicoes_modalizacao",
+      "raciocinioExistente": "Prazo e documentação foram atendidos, mas “pode” não é garantia; o fato do cancelamento impede prometer a reunião e o manual nega aprovação automática. Cancelamento não é falta de anexos nem exclusão definitiva, e não cria direito à aprovação."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0019",
+      "sha256": "0bb47b162a5df2ad20b4eed48461c35670f5187ad6b83ee41915382013242a6a",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_multiplas_explicacoes",
+      "raciocinioExistente": "Receberam-se informações sem uma resposta uniforme; a manutenção admite ao menos duas explicações, incluindo adequação prévia. Não há dados sobre qualidade diferenciada ou erros. Alterar após consulta não transfere a autoria decisória à cooperativa, nem iguala processos internos."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0020",
+      "sha256": "648ba69df23bd074ce2e6bad4a8133b6b5afe1ba3873ffefbf7cfe49e7a80161",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_relacoes_logicas",
+      "raciocinioExistente": "A concessão do recebimento é mantida, assim como as duas hipóteses não resolvidas. As outras reescritas negam o recebimento, inventam finalidade ou determinação, atribuem conhecimento inexistente ou universalizam mudanças que não ocorreram."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "method": "Tentativas HTTPS via proxy configurado do ambiente; sem contornar a política de rede.",
+  "verifiedNormativeSources": 0,
+  "attempts": [
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "result": "CONNECT recusado pelo proxy: 403 Forbidden; curl exit 56. Conteúdo de origem não consultado.",
+      "verified": false
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "result": "CONNECT recusado pelo proxy: 403 Forbidden; curl exit 56. Conteúdo de origem não consultado.",
+      "verified": false
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/",
+      "result": "CONNECT recusado pelo proxy: 403 Forbidden; curl exit 56. Conteúdo de origem não consultado.",
+      "verified": false
+    }
+  ],
+  "decision": "Não gerar itens de legislação ou requisitos normativos sem verificação. Parâmetros internos/hipotéticos dos exercícios não são apresentados como limites legais."
+}

@@ -38,5 +38,89 @@
     "answer": 0,
     "explanation": "Energia: 500/10.000=0,05 e 600/15.000=0,04 MWh/t, queda de 20%; total cresce 100/500=20%. Água: queda total 100/1.000=10%; intensidade passa de 0,10 a 0,06 m³/t, queda de 40%. Crescimento da produção não determina o sinal dos totais e as medidas não são intercambiáveis.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0117",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "projeto_desmontagem_reparabilidade",
+    "difficulty": "alta",
+    "statement": "Dois módulos cumprem a mesma função e têm vida inicial semelhante. Um usa união que exige romper a carcaça para acessar a peça substituível; o outro permite desmontagem reversível com ferramenta disponível, preservando a carcaça. Considerando a manutenção e sem supor dados ausentes de todo o ciclo de vida, qual vantagem específica pode ser atribuída ao segundo?",
+    "options": [
+      "Garante que os usuários efetivamente devolverão todos os módulos após o uso, independentemente da logística.",
+      "Elimina a necessidade futura de peças de reposição porque toda união reversível impede desgaste.",
+      "Torna desnecessário comparar a função dos módulos, pois desmontabilidade substitui qualquer requisito de desempenho.",
+      "Comprova menor impacto em todas as etapas, mesmo sem conhecer materiais, fabricação ou logística.",
+      "Facilita substituir a peça sem destruir a carcaça, favorecendo reparabilidade nessa etapa do uso."
+    ],
+    "answer": 4,
+    "explanation": "O dado sustenta uma vantagem de reparabilidade no acesso à peça, não superioridade universal de ciclo de vida. Desmontagem não elimina desgaste nem garante retorno; a função continua relevante. O foco é projeto para manutenção, distinto de apenas contar reutilizações ou retornos.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0118",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "carbono_estequiometria_captura",
+    "difficulty": "alta",
+    "statement": "Num balanço simplificado, 12 kg de carbono convertido integralmente em CO2 geram 44 kg de CO2. Um processo converte 30 kg de carbono, e um dispositivo retém 20% do CO2 gerado antes da saída. Sem outras entradas ou saídas de carbono no modelo, qual massa de CO2 é emitida?",
+    "options": [
+      "44 kg.",
+      "132 kg.",
+      "110 kg.",
+      "24 kg.",
+      "88 kg."
+    ],
+    "answer": 4,
+    "explanation": "CO2 gerado=30×44/12=110 kg. Emitido=110×0,80=88 kg. 110 ignora retenção; 24 aplica 80% ao carbono sem converter; 44 usa uma única base de 12 kg; 132 corresponde a fator de captura com sinal incorreto. Os fatores são estequiométricos fornecidos, não fatores legais de emissão.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0119",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "conectividade_habitat_traçado",
+    "difficulty": "alta",
+    "statement": "Um estudo compara dois traçados com a mesma área diretamente ocupada. O traçado A mantém uma ligação contínua entre duas partes de um habitat; B interrompe essa ligação. O objetivo explícito da decisão é preservar conectividade, além de limitar a área ocupada. Qual conclusão é sustentada pelos dados?",
+    "options": [
+      "A igualdade de área ocupada não torna os efeitos equivalentes; A atende melhor ao objetivo de manter a ligação descrita.",
+      "Os efeitos são necessariamente equivalentes porque área é a única característica espacial que pode ser comparada.",
+      "O objetivo de conectividade só pode ser examinado após aumentar a área ocupada de um dos traçados.",
+      "A existência de ligação contínua demonstra, sozinha, que A não produz qualquer outro impacto ambiental.",
+      "B atende melhor à conectividade porque interromper a ligação reduz o número de partes que se comunicam."
+    ],
+    "answer": 0,
+    "explanation": "Topologia e área são dimensões distintas. A preserva a ligação dada, sem que isso prove ausência de todo outro impacto. Interromper a conexão não a melhora, e não é preciso alterar a área para reconhecer essa diferença espacial.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0120",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "armazenamento_eletrico_emissoes",
+    "difficulty": "muito_alta",
+    "statement": "Um exercício exige 2 MWh durante o dia e 6 MWh à noite. Há 6 MWh renováveis disponíveis só de dia. O excedente pode carregar um armazenamento com rendimento de entrega de 75%, sem limite adicional de capacidade. A energia restante vem de uma fonte que emite 0,5 t de CO2/MWh. Não há outras perdas nem emissões atribuídas no modelo. Qual é a menor emissão possível?",
+    "options": [
+      "3,0 t de CO2.",
+      "0,0 t de CO2.",
+      "2,0 t de CO2.",
+      "1,0 t de CO2.",
+      "1,5 t de CO2."
+    ],
+    "answer": 4,
+    "explanation": "Após suprir os 2 MWh diurnos, sobram 4 renováveis para armazenar; entregam 4×0,75=3 MWh à noite. Restam 6−3=3 MWh da outra fonte, emitindo 3×0,5=1,5 t. Um total anual sem a restrição temporal ou rendimento daria conclusão diferente; 1,0 ignora a perda e 3,0 ignora todo o armazenamento.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

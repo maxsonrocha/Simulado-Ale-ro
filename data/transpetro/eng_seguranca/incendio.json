@@ -38,5 +38,173 @@
     "answer": 3,
     "explanation": "A incompatibilidade exige avaliação técnica de agente e aplicação. Capacidade térmica, cor, detecção ou tamanho não eliminam a reação descrita nem bastam para selecionar o combate. A questão não prescreve atuação sem dados e treinamento.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0093",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "transferencia_calor_radiacao",
+    "difficulty": "media",
+    "statement": "Em um cenário de incêndio, uma superfície recebe energia de outra sem contato entre elas e sem que seja necessário transportar material aquecido de uma para outra. Qual mecanismo corresponde a essa descrição?",
+    "options": [
+      "Convecção por deslocamento de fluido aquecido.",
+      "Condução através de contato sólido direto.",
+      "Transporte mecânico de partículas incandescentes.",
+      "Transferência de massa por vazamento de combustível.",
+      "Radiação térmica."
+    ],
+    "answer": 4,
+    "explanation": "Radiação pode transferir energia entre superfícies sem contato material. Condução por contato, convecção e transporte de partículas ou combustível envolvem mecanismos distintos dos descritos. Identificar o mecanismo não determina sozinho a proteção adequada.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0094",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "mistura_rica_diluicao",
+    "difficulty": "media",
+    "statement": "Um estudo descreve uma mistura combustível-ar muito rica para sustentar chama nas condições do ensaio. Ao acrescentar ar, ela pode atravessar uma faixa em que passa a sustentar chama. Qual interpretação é correta sem estabelecer valores universais de inflamabilidade?",
+    "options": [
+      "A condição inicialmente rica não garante que a mistura continue fora da faixa inflamável durante a diluição.",
+      "Uma condição não inflamável inicial demonstra que não há combustível presente na mistura.",
+      "A diluição mantém obrigatoriamente constante a proporção entre combustível e oxidante.",
+      "A faixa de inflamabilidade corresponde a uma única proporção fixa para todos os combustíveis e condições.",
+      "Adicionar ar torna impossível alcançar qualquer proporção inflamável a partir de uma mistura rica."
+    ],
+    "answer": 0,
+    "explanation": "A trajetória de composição importa: uma mistura rica pode entrar na faixa de propagação ao receber ar. Isso não significa ausência de combustível, proporção constante ou limites universais. O enunciado descreve o comportamento do ensaio, sem prescrever uma operação de diluição segura.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0095",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "pressao_residual_perdas",
+    "difficulty": "alta",
+    "statement": "No modelo de uma linha de água, a pressão disponível na entrada é 800 kPa. A diferença de cota consome 100 kPa e as perdas por escoamento, na vazão examinada, são 180 kPa. O equipamento terminal precisa de 450 kPa nessa condição. Qual é a pressão residual e a margem sobre a necessidade informada?",
+    "options": [
+      "520 kPa de pressão residual e margem positiva de 70 kPa.",
+      "700 kPa de pressão residual e margem positiva de 250 kPa.",
+      "880 kPa de pressão residual e margem positiva de 430 kPa.",
+      "520 kPa de pressão residual e margem negativa de 70 kPa.",
+      "620 kPa de pressão residual e margem positiva de 170 kPa."
+    ],
+    "answer": 0,
+    "explanation": "Residual=800−100−180=520 kPa; margem=520−450=70 kPa. Omitir cota ou perda, somar a perda ou inverter o sinal da margem não corresponde ao balanço. Os valores são do projeto didático, não exigências normativas de um sistema real.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0096",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "flashover_backdraft_distincao",
+    "difficulty": "alta",
+    "statement": "Duas descrições são examinadas em aula: I, aquecimento progressivo das superfícies de um compartimento leva à ignição quase generalizada de seus combustíveis; II, gases combustíveis acumulados em ambiente com oxigênio limitado entram em combustão intensa após uma entrada de ar. Qual distinção conceitual corresponde às descrições?",
+    "options": [
+      "I e II devem ser tratados como flashover, pois as condições anteriores de oxigênio não diferenciam os mecanismos descritos.",
+      "I tem caráter térmico, mas isso basta para classificar II do mesmo modo, sem considerar o papel da entrada de ar.",
+      "I corresponde a backdraft e II a flashover, pois a entrada de ar definiria por si a ignição generalizada de superfícies.",
+      "I caracteriza a transição associada a flashover; II descreve mecanismo associado a backdraft.",
+      "I só corresponderia a flashover se o ambiente tivesse sido inicialmente limitado em oxigênio; II seria apenas uma intensificação sem relação com gases acumulados."
+    ],
+    "answer": 3,
+    "explanation": "I descreve a transição térmica para ignição quase generalizada; II descreve combustão intensa de gases acumulados após admissão de ar em ambiente limitado em oxigênio. Inverter os nomes, ignorar a história da ventilação ou impor limitação prévia de oxigênio como condição definidora de flashover confunde os mecanismos. Não se prescreve ação de combate.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0097",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "deteccao_optica_obstrucao",
+    "difficulty": "alta",
+    "statement": "Um detector óptico linear do projeto depende de caminho livre entre emissor e receptor. A instalação proposta cruza a trajetória de um equipamento móvel que interrompe esse caminho regularmente. O sistema distingue falha de caminho e alarme de incêndio. Qual revisão trata a disponibilidade da detecção sem confundir esses estados?",
+    "options": [
+      "Desabilitar permanentemente a supervisão do caminho e manter o mesmo crédito de disponibilidade sem novo ensaio.",
+      "Rever o alinhamento e a posição para evitar a obstrução operacional, verificando separadamente a indicação de falha e a resposta ao cenário de detecção.",
+      "Usar a contagem de deslocamentos do equipamento como substituta da verificação das funções do detector.",
+      "Tomar a presença física do detector como garantia de cobertura contínua, mesmo quando o feixe fica interrompido.",
+      "Reclassificar toda interrupção pelo equipamento como incêndio real para dispensar a identificação de falha de caminho."
+    ],
+    "answer": 1,
+    "explanation": "A trajetória prevista afeta uma condição necessária ao funcionamento. A revisão deve eliminar a interferência e verificar estados distintos. Equipamento instalado, contagem de movimentos e supressão da supervisão não comprovam disponibilidade; obstrução não é confirmação automática de incêndio.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0098",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "ponto_operacao_curvas",
+    "difficulty": "muito_alta",
+    "statement": "Para um circuito didático, a bomba fornece H_b=60−0,02Q² e a rede exige H_r=10+0,03Q², com H em metros e Q na unidade de vazão adotada. O ponto de operação satisfaz H_b=H_r. Qual é Q e a altura correspondente, aproximadamente?",
+    "options": [
+      "Q=44,72 e H=20 m.",
+      "Q=20,00 e H=52 m.",
+      "Q=31,62 e H=60 m.",
+      "Q=31,62 e H=40 m.",
+      "Q=1.000,00 e H=40 m."
+    ],
+    "answer": 3,
+    "explanation": "60−0,02Q²=10+0,03Q² dá 50=0,05Q², Q²=1.000 e Q≈31,62. Em qualquer curva, H=40 m. É preciso extrair a raiz e recalcular H; usar altura de fechamento, igualar só um termo ou tratar Q² como Q produz os distratores.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0099",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "balanco_agua_janelas_demanda",
+    "difficulty": "muito_alta",
+    "statement": "Um reservatório começa um exercício com 120 m³ utilizáveis. Durante dez minutos saem 6 m³/min e entram 2 m³/min; nos cinco minutos seguintes saem 8 m³/min e não há entrada. Para o exercício, devem restar ao menos 30 m³ após as duas fases. Qual volume resta e qual margem existe em relação a esse requisito interno?",
+    "options": [
+      "Restam 40 m³, com margem negativa de 10 m³.",
+      "Restam 40 m³, com margem positiva de 10 m³.",
+      "Restam 80 m³, com margem positiva de 50 m³.",
+      "Restam 60 m³, com margem positiva de 30 m³.",
+      "Restam 20 m³, com margem negativa de 10 m³."
+    ],
+    "answer": 1,
+    "explanation": "Primeira fase: perda líquida=(6−2)×10=40 m³; saldo=80. Segunda: perda=8×5=40; saldo final=40. Margem=40−30=10. O caso exige integrar duas janelas com entradas distintas, não multiplicar uma única vazão por todo o tempo. O requisito é do exercício, não reserva legal de incêndio.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0100",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "logica_supervisao_alarme",
+    "difficulty": "muito_alta",
+    "statement": "Um exercício de lógica distingue três estados de cada canal: normal, incêndio e falha. A especificação determina alarme de incêndio se qualquer canal indicar incêndio; falha sem incêndio gera apenas aviso de falha; havendo ambos, o alarme não deve ser suprimido pelo aviso. Para os canais A=incêndio e B=falha, qual saída e qual erro de implementação devem ser reconhecidos?",
+    "options": [
+      "Alarme apenas se B também indicar incêndio; a especificação usa necessariamente confirmação por dois canais.",
+      "Somente aviso de falha; a falha de B deve bloquear o incêndio indicado em A, mesmo contra a regra de prioridade.",
+      "Alarme de incêndio e aviso de falha; uma lógica que exige ambos os canais saudáveis para permitir qualquer alarme descumpre a prioridade definida.",
+      "Nenhuma saída; incêndio e falha se cancelam por serem estados diferentes em canais distintos.",
+      "Somente indicação normal; um canal com falha converte o outro canal em normal até a manutenção."
+    ],
+    "answer": 2,
+    "explanation": "A especificação combina disjunção de incêndio com aviso de falha sem supressão. Logo ambas as saídas aparecem. Exigir saúde de todos os canais cria bloqueio indevido. Não há cancelamento, conversão para normal ou requisito de dupla confirmação no caso.",
+    "etapa": 1,
+    "lote": 2
   }
 ]
