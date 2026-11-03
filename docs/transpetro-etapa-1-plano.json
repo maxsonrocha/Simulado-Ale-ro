@@ -1,7 +1,7 @@
 {
   "etapa": 1,
   "status": "parcial",
-  "baseCommit": "7a54ee0",
+  "baseCommit": "ddb8e7a",
   "metaTotal": 700,
   "metaAreas": {
     "PORT": 100,
@@ -21,23 +21,24 @@
     "saude_ocupacional": 16,
     "desenvolvimento_sustentavel": 10
   },
-  "loteTotal": 200,
+  "loteTotal": 300,
   "loteAreas": {
-    "ESP": 120,
-    "PORT": 40,
-    "ING": 40
+    "PORT": 60,
+    "ING": 60,
+    "ESP": 180
   },
   "loteAssuntosESP": {
     "desenvolvimento_sustentavel": 6,
-    "acidentes": 14,
-    "ergonomia": 10,
-    "gestao_sms": 14,
-    "higiene_ocupacional": 16,
-    "prevencao_riscos": 14,
-    "incendio": 10,
-    "gerenciamento_riscos": 12,
-    "saude_ocupacional": 10,
-    "emergencias": 14
+    "acidentes": 16,
+    "ergonomia": 11,
+    "gestao_sms": 18,
+    "legislacao_nr": 30,
+    "higiene_ocupacional": 24,
+    "prevencao_riscos": 20,
+    "incendio": 11,
+    "gerenciamento_riscos": 18,
+    "saude_ocupacional": 11,
+    "emergencias": 15
   },
   "proporcoesDificuldade": {
     "media": 20,
@@ -52,10 +53,11 @@
       "leitura_interpretacao"
     ]
   },
-  "limites": "Acumulado parcial de 200/700, em dois lotes de 100. Legislação não gerada por impossibilidade de conferir fontes oficiais (MTE, Planalto e Câmara: 403). Não foram criados itens de lotes posteriores.",
+  "limites": "Acumulado parcial 300/700, três lotes de 100. Lote 3 usa corpus normativo local auditado como fallback. Restam 400 itens; não libera a Etapa 1 integral.",
   "auditoriasConteudo": [
     "docs/auditorias/transpetro-etapa-1-conteudo.json",
-    "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json"
+    "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json",
+    "docs/auditorias/transpetro-etapa-1-lote-3-conteudo.json"
   ],
   "lotes": [
     {
@@ -87,6 +89,28 @@
         "desenvolvimento_sustentavel": 4
       },
       "baseCommit": "7a54ee0"
+    },
+    {
+      "numero": 3,
+      "total": 100,
+      "areas": {
+        "PORT": 20,
+        "ING": 20,
+        "ESP": 60
+      },
+      "assuntosESP": {
+        "legislacao_nr": 30,
+        "higiene_ocupacional": 8,
+        "prevencao_riscos": 6,
+        "gerenciamento_riscos": 6,
+        "gestao_sms": 4,
+        "acidentes": 2,
+        "emergencias": 1,
+        "incendio": 1,
+        "ergonomia": 1,
+        "saude_ocupacional": 1
+      },
+      "baseCommit": "ddb8e7a"
     }
   ]
 }

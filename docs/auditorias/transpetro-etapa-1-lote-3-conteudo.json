@@ -1,0 +1,1406 @@
+{
+  "lote": 3,
+  "metodo": "Revisão editorial individual pelo assistente, com exame das cinco alternativas; não equivale a parecer de especialista humano independente.",
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-PORT-0041",
+      "alternativas": [
+        "O dado agregado descreve uma dimensão; decidir justiça requer um critério que a média não fornece. O texto preserva a necessidade de medir.",
+        "O texto exige medição e critério, não incompatibilidade.",
+        "Transforma descrição em critério normativo.",
+        "Desconsidera a desigualdade dos horários.",
+        "Contraria a afirmação de que medir é necessário."
+      ],
+      "dificuldade": "alta: Separar descrição agregada, experiência distribuída e escolha valorativa. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separar descrição agregada, experiência distribuída e escolha valorativa",
+      "correctOption": 0,
+      "sha256": "d0ba8fae0fa3ff7db5eebc1bd68a52ce3eeb2918c7363df5112600ac63f28fdf"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0042",
+      "alternativas": [
+        "Subordina necessidade à dispensa do critério, relação ausente.",
+        "Converte necessidade em suficiência.",
+        "Conclui dispensabilidade a partir da insuficiência.",
+        "Nega a necessidade e afirma suficiência.",
+        "A concessiva reconhece a necessidade sem converter a medição em condição suficiente para o julgamento."
+      ],
+      "dificuldade": "muito_alta: Preservar duas relações lógicas e testar inversões de condição. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Preservar duas relações lógicas e testar inversões de condição",
+      "correctOption": 4,
+      "sha256": "c9394ae4266a4b86e6b30dff14171e4aa6739f613a403fc530053ad6b4473113"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0043",
+      "alternativas": [
+        "A filha não assume a narração.",
+        "O texto distingue passado, presente e futuro.",
+        "Literaliza a imagem que o adulto reconhece como invenção.",
+        "O narrador reconhece a invenção e continua valorizando sua delicadeza e sua função afetiva.",
+        "Reconhecimento não significa rejeição afetiva."
+      ],
+      "dificuldade": "alta: Relacionar tempos verbais à mudança de perspectiva. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Relacionar tempos verbais à mudança de perspectiva",
+      "correctOption": 3,
+      "sha256": "6b3b50cc66964292a9e4c0094669cc7160d15c666b534106e3cfda426c450d45"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0044",
+      "alternativas": [
+        "O alcance da negação é a finalidade de ensinar a hora.",
+        "Talvez modaliza contar a história; a estrutura não para... mas para contrapõe finalidades, sem negar a visita.",
+        "Inverte a finalidade expressa.",
+        "A modalização não incide na existência da filha.",
+        "Talvez não assegura transmissão nem exige correção."
+      ],
+      "dificuldade": "muito_alta: Resolver escopo da modalização, negação e contraste de finalidades. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Resolver escopo da modalização, negação e contraste de finalidades",
+      "correctOption": 1,
+      "sha256": "e4b4f08edb65a0fd5aae0d3ec995a8fd2456a1a4086a5247ec4bdb7f1a94f91e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0045",
+      "alternativas": [
+        "A reserva não é consequência inevitável.",
+        "A reserva é condição, não obstáculo concedido.",
+        "Desde que introduz a condição financeira sob a qual a compra foi aprovada.",
+        "A oração não explica a ocorrência de chuva.",
+        "Não se indica finalidade de prever."
+      ],
+      "dificuldade": "media: Identificar relação semântica da locução contextualizada. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Identificar relação semântica da locução contextualizada",
+      "correctOption": 2,
+      "sha256": "f96b0c8a5a9e403a75c971cd735f7c86d16166fce8a46e88c3925e7d09de3d21"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0046",
+      "alternativas": [
+        "O conselho decide sem certeza, impondo uma reserva: prudência assume um limite em vez de paralisar.",
+        "Contraria a decisão de comprar.",
+        "Ignora a condição financeira.",
+        "O texto mantém a incerteza meteorológica.",
+        "Desvincula a reserva da possibilidade de decidir."
+      ],
+      "dificuldade": "alta: Inferir uma definição pelo encadeamento de alternativas práticas. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Inferir uma definição pelo encadeamento de alternativas práticas",
+      "correctOption": 0,
+      "sha256": "9223cfbbf40d8ee8f4a54cf9186bc39766c3862b27f4c0ca03dd0977bd251845"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0047",
+      "alternativas": [
+        "A retomada aponta para a promessa do anúncio e a confronta com o custo real do retrabalho. O sentido é irônico, não uma contagem de ganhos comprovados.",
+        "O silêncio não é apresentado como aprovação.",
+        "Ninguém ri e a promessa é contrariada.",
+        "O texto apresenta peças refeitas e desperdício.",
+        "O mestre manda retirar, não guardar como prova de ganho."
+      ],
+      "dificuldade": "media: Identificar antecedente e efeito crítico na retomada de uma promessa. A extensão do texto não define a classificação.",
+      "operacao": "Identificar antecedente e efeito crítico na retomada de uma promessa",
+      "correctOption": 0,
+      "sha256": "89c248b8b6189501bb6e9c7d6762faf3bef6fadf0a43618e0209cfea6ad3af6e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0048",
+      "alternativas": [
+        "Silêncio não impede interpretação irônica.",
+        "O desperdício e o retrabalho dão à repetição valor irônico. Ironia não exige riso, e as aspas por si não a produzem. A ordem do mestre é coerente com reconhecer o custo da promessa.",
+        "Aspas marcam citação, não ironia obrigatória.",
+        "O texto não atribui autoria original ao aprendiz.",
+        "Inverte a relação entre retrabalho e promessa."
+      ],
+      "dificuldade": "muito_alta: Integrar contexto, citação, ironia e reação dos participantes sem confundir ironia com humor. A extensão do texto não define a classificação.",
+      "operacao": "Integrar contexto, citação, ironia e reação dos participantes sem confundir ironia com humor",
+      "correctOption": 1,
+      "sha256": "0568a65410bcbbb0ff517adae075f04dba346076384e7e68f06d1539cf1f223e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0049",
+      "alternativas": [
+        "Entrar nele pertence a outra relação.",
+        "Participantes não rege a oração relativa.",
+        "Precisar de algo exige a preposição preservada antes do relativo que retoma tempo.",
+        "O destinatário de deu é a alguns participantes.",
+        "Tempo não exige de por ser objeto de deu."
+      ],
+      "dificuldade": "alta: Identificar regência em oração relativa contextualizada. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Identificar regência em oração relativa contextualizada",
+      "correctOption": 2,
+      "sha256": "ca298be1291f8be31c83475b7d2450f084826d012bfdb714127b670a4487b2c5"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0050",
+      "alternativas": [
+        "Inverte a substituição e falha nas regências.",
+        "Necessitar de e participar de não admitem essas preposições aqui.",
+        "Oferecer-lhes e participar dele, não os/lhe nessas funções.",
+        "Inverte a relação escrita/debate e troca indevidamente o destinatário.",
+        "Oferecer algo a alguém permite lhes; necessitar de exige de que; participar do debate permite dele. Preserva-se a negação da substituição do debate."
+      ],
+      "dificuldade": "muito_alta: Conferir três regências, referências pronominais e direção da reformulação. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Conferir três regências, referências pronominais e direção da reformulação",
+      "correctOption": 4,
+      "sha256": "9c2311cd0b98ff5d2334c93d42a46de3c1e206c95a1e0e4c45c7a907c9afa04e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0051",
+      "alternativas": [
+        "Não se afirma instabilidade comprovada.",
+        "O estudo continua em curso.",
+        "Parecer marca uma avaliação não conclusiva, coerente com a investigação em curso.",
+        "Não é modalidade de obrigação.",
+        "Há observação, embora insuficiente para certeza."
+      ],
+      "dificuldade": "media: Reconhecer a marca de grau de certeza. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconhecer a marca de grau de certeza",
+      "correctOption": 2,
+      "sha256": "239fc23f5fe93a4f9d910baea3b14dfc039d0437c09f4295bf498840e71df665"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0052",
+      "alternativas": [
+        "Pediu que restituísse emprega o subjuntivo esperado no pedido passado; retirara situa a retirada anterior ao pedido.",
+        "Tempos e modos não preservam pedido e anterioridade.",
+        "Amanhã e retirasse deslocam a retirada para hipótese futura.",
+        "Futuros não preservam a sequência passada.",
+        "Combina tempos sem preservar a sequência narrada."
+      ],
+      "dificuldade": "alta: Reconstituir anterioridade e modo verbal no discurso indireto. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconstituir anterioridade e modo verbal no discurso indireto",
+      "correctOption": 0,
+      "sha256": "02b66e87eccbe231016689acaf964d465794a8537a5bc13c239a8efc43ee659f"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0053",
+      "alternativas": [
+        "Datação informa mudança, não a impede.",
+        "Nega a correção anterior explicitamente reconhecida.",
+        "A precisão refere-se a um estado datado; não garante validade operacional sob transformação.",
+        "Desloca precisão para estética ausente.",
+        "Generaliza falsidade imediata não afirmada."
+      ],
+      "dificuldade": "alta: Conciliar validade histórica e utilidade presente. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Conciliar validade histórica e utilidade presente",
+      "correctOption": 2,
+      "sha256": "4dee8b9b02396e9e5b73b0d0b79733b60fdbfee8d1d56f04b3609bc6a293bdfb"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0054",
+      "alternativas": [
+        "Falha a concordância e inverte a finalidade.",
+        "À proporção que preserva proporcionalidade; ajustavam-se concorda com rotas; visar a evitar não tem crase antes de infinitivo e conserva a finalidade.",
+        "Falha a locução e troca a finalidade.",
+        "Faltam crase na locução e concordância; sobra crase antes de infinitivo.",
+        "De que rompe a locução; infinitivo não recebe crase."
+      ],
+      "dificuldade": "muito_alta: Integrar locução proporcional, voz passiva, regência e preservação semântica. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Integrar locução proporcional, voz passiva, regência e preservação semântica",
+      "correctOption": 1,
+      "sha256": "180c79de9ae8a5b00f59b1b0ab3a21c80c04a16f96a97c8fe87c67d1eaba19dc"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0055",
+      "alternativas": [
+        "Não corresponde às duas classes explicitadas.",
+        "Inverte a ordem dos referentes próximos.",
+        "A comissão não é objeto das objeções nessa classificação.",
+        "A retomada segue as orações paralelas imediatamente anteriores: algumas/percurso e outras/destino.",
+        "Inverte objetivo e execução."
+      ],
+      "dificuldade": "alta: Resolver retomada local apesar da ordem de menção mais distante. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Resolver retomada local apesar da ordem de menção mais distante",
+      "correctOption": 3,
+      "sha256": "480c07539e7555340e7eafe36850d42da52501da54712545e8dc3c16726736f0"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0056",
+      "alternativas": [
+        "Não se afirma procedência de toda crítica nem abandono.",
+        "É justamente a inferência recusada.",
+        "Há divergência expressamente mantida.",
+        "O texto distingue níveis de objeção e recusa simular que uma resposta a meios resolve a disputa de fins.",
+        "As primeiras são acolhidas."
+      ],
+      "dificuldade": "muito_alta: Combinar referentes, negação de simulação e distinção entre meios e fins. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Combinar referentes, negação de simulação e distinção entre meios e fins",
+      "correctOption": 3,
+      "sha256": "5660b2c22171aff22eb24f4fcf58f9258e0ff339ec728c784ff5ff4cfb5fa0b2"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0057",
+      "alternativas": [
+        "A preservação é restrição relevante.",
+        "Quando tem valor condicional nesse contexto: a possibilidade depende das condições de preservação.",
+        "A oração precede logicamente a validade da análise.",
+        "Não é opinião do leitor.",
+        "Não se comparam técnicas."
+      ],
+      "dificuldade": "media: Reconhecer valor condicional de quando contextualizado. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconhecer valor condicional de quando contextualizado",
+      "correctOption": 1,
+      "sha256": "fa9d3927625fb01b2051a9d288e4cf33b0711fdbc8418f68c845adede59dc3cf"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0058",
+      "alternativas": [
+        "Remove a condição de conservação.",
+        "Nega a possibilidade para antigas.",
+        "Acrescenta universalidade e causa inexistente.",
+        "Inverte a relação preservação/possibilidade.",
+        "Desde que mantém a condição original sem estendê-la a todas as amostras antigas."
+      ],
+      "dificuldade": "alta: Preservar a condição em reformulação equivalente. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Preservar a condição em reformulação equivalente",
+      "correctOption": 4,
+      "sha256": "a15a0a1cae0ead63c1ec8cb70768514d944cf4bc14c1a0daac4ec1bdaed6c81a"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0059",
+      "alternativas": [
+        "Aceitação de execução não converte voto.",
+        "A decisão é executada, não anulada.",
+        "Os conselheiros aceitam a execução.",
+        "Procedimento, mérito e registro são planos distintos: aceitar execução não altera voto nem conteúdo da discordância.",
+        "O resultado já é conhecido e registrado."
+      ],
+      "dificuldade": "muito_alta: Distinguir legitimidade procedimental, mérito e efeito documental. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir legitimidade procedimental, mérito e efeito documental",
+      "correctOption": 3,
+      "sha256": "8f8eea8c316acf87c4061f469a07653a7ce6242958ded4d3367be3287f274d75"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0060",
+      "alternativas": [
+        "Falha concordância e afirma unanimidade inexistente.",
+        "Introduz preposição indevida e omite crase exigida.",
+        "Inverte as concordâncias exigidas pelos sujeitos.",
+        "Acrescenta unanimidade contrária ao texto.",
+        "Os fundamentos são sujeito plural da passiva; unanimidade é sujeito singular de atribuísse; à decisão recebe a preposição e artigo."
+      ],
+      "dificuldade": "alta: Relacionar sujeitos de duas passivas e conservar ausência de unanimidade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Relacionar sujeitos de duas passivas e conservar ausência de unanimidade",
+      "correctOption": 4,
+      "sha256": "5d67db73e91962cc8274c1ff92f6ca05d158ece55e138ee32dbccbb3852ac06d"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0041",
+      "alternativas": [
+        "The text separates a promising mechanism from demonstration under actual service conditions.",
+        "Mechanism alone does not establish readiness.",
+        "No deployment failure is reported.",
+        "The coupons were uniformly heated and thin.",
+        "Only small scratches under warming were tested."
+      ],
+      "dificuldade": "alta: Separate observed evidence, extrapolation and deployment claim. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separate observed evidence, extrapolation and deployment claim",
+      "correctOption": 0,
+      "sha256": "99fad7456e361cfe121e3cced3aaa08ae31fe23f30061178cbaf51d64161d10c"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0042",
+      "alternativas": [
+        "Reverses the distinction between mechanism and readiness.",
+        "Targets experimental conditions rather than the result’s scope.",
+        "Healing is an observation retained in the argument.",
+        "Not contrasts two descriptions of what the result establishes. It limits the conclusion; it does not retract the laboratory observation.",
+        "Further investigation is expressly proposed."
+      ],
+      "dificuldade": "muito_alta: Resolve negation across evidence and inference while preserving the observation. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Resolve negation across evidence and inference while preserving the observation",
+      "correctOption": 3,
+      "sha256": "89eb05f8e49a4d5d7e3433cdddeefb36b75060122314965079739323f810cfd2"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0043",
+      "alternativas": [
+        "Cancellation is expressly excluded.",
+        "Thursday is within the stated period.",
+        "A pause is the opposite of obligatory release.",
+        "Manufacturing needs another instruction.",
+        "Thursday is before Friday. A timely request pauses release; cancellation and manufacturing authorization do not follow."
+      ],
+      "dificuldade": "media: Apply an explicit unless condition to a stated date. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Apply an explicit unless condition to a stated date",
+      "correctOption": 4,
+      "sha256": "b5cbaca15a393ead2921f7be873bd982848c57b9d6b6b1e5c897b12d1896bc81"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0044",
+      "alternativas": [
+        "Release is expressly limited to drawings.",
+        "Conflates separate conditions.",
+        "Reverses the dependencies stated.",
+        "Absence of review triggers release, while the separate manufacturing requirement remains unsatisfied. Neither rule substitutes for the other.",
+        "No cancellation rule is given."
+      ],
+      "dificuldade": "muito_alta: Combine default action and a separate necessary authorization without conflating them. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Combine default action and a separate necessary authorization without conflating them",
+      "correctOption": 3,
+      "sha256": "1225f5b14013328a96074fbb25014d672d3e4e33a974c7d6036817720b41a80b"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0045",
+      "alternativas": [
+        "Costs remain comparable.",
+        "Initially there was no proximity cost.",
+        "The route was short and adjacent to the excavation.",
+        "A finite penalty can be outweighed in optimization; a constraint excludes the zone rather than trading it against other costs.",
+        "A penalty does not equalize all routes."
+      ],
+      "dificuldade": "alta: Interpret the distinction between optimization objective and feasibility. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Interpret the distinction between optimization objective and feasibility",
+      "correctOption": 3,
+      "sha256": "c8e9084a2f75081ab454b7a86973738e5e7116f639761400e99e8a1f00c4b512"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0046",
+      "alternativas": [
+        "Expense is not a synonym for distance here.",
+        "The objective is not discarded.",
+        "The contrast distinguishes cost from prohibition.",
+        "Another indicates coexistence, not exclusivity.",
+        "Merely limits the status of the expense: it remains a tradeable component rather than an exclusion."
+      ],
+      "dificuldade": "alta: Interpret a limiting adverb in an optimization argument. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Interpret a limiting adverb in an optimization argument",
+      "correctOption": 4,
+      "sha256": "e1917151b790dc27381732ff6dd486c9aa706873b36f4c5986b6c908e364fe82"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0047",
+      "alternativas": [
+        "Local precision does not prove structural coverage.",
+        "Access gives no evidence of equivalence.",
+        "The defect is missing environments. Replication can refine local estimates without correcting the coverage gap.",
+        "Sample size does not identify missing conditions.",
+        "More replication does not add omitted environments."
+      ],
+      "dificuldade": "muito_alta: Distinguish sampling coverage from precision and select the corrective design. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguish sampling coverage from precision and select the corrective design",
+      "correctOption": 2,
+      "sha256": "ececb1be97feda1ed5046e77a8a697c95659a177334d16e1604b94612d85ac02"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0048",
+      "alternativas": [
+        "Those environments would remain unsampled.",
+        "There points to the same surfaces on which measurements would be repeated.",
+        "There is locative here, not a time expression.",
+        "The passage denies whole-structure coverage.",
+        "No office is mentioned."
+      ],
+      "dificuldade": "media: Resolve a locative reference from the previous clause. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Resolve a locative reference from the previous clause",
+      "correctOption": 1,
+      "sha256": "dc027dce642707a19cea81bae05fcbfc34647021159fb7b890f71787a799947e"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0049",
+      "alternativas": [
+        "Confuses no obligation with prohibition.",
+        "Adds a condition not present.",
+        "Reverses absence of necessity.",
+        "Extends the screen rule to the distinct panel task.",
+        "Need not denotes absence of necessity for the specified task; it is not must not."
+      ],
+      "dificuldade": "alta: Distinguish modal force while respecting task scope. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguish modal force while respecting task scope",
+      "correctOption": 4,
+      "sha256": "eab0a51a8d9696fcfffb7f8d68c45b7fccabf6e70aa3866168db36cd7e796f80"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0050",
+      "alternativas": [
+        "No override is stated.",
+        "Adds a condition contrary to the removal rule.",
+        "The paraphrase keeps absence of obligation, positive obligation and absence of prohibition distinct.",
+        "Reverses the modal rules.",
+        "Misreads need not and invents contradiction."
+      ],
+      "dificuldade": "muito_alta: Preserve two task-specific modalities and the logical distinction between permission and obligation. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Preserve two task-specific modalities and the logical distinction between permission and obligation",
+      "correctOption": 2,
+      "sha256": "e2bdc7f5cbd62bee0b1e006e7c5cdc6438f6ceee985a82c1021b124211bd6581"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0051",
+      "alternativas": [
+        "The concession acknowledges a remaining low-speed source without cancelling the cruising-speed improvement.",
+        "Although does not express chronology here.",
+        "No universal reduction or cause is stated.",
+        "A dominant source remains at low speed.",
+        "The cruising improvement remains true."
+      ],
+      "dificuldade": "alta: Relate concession to the operating range of a technical result. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Relate concession to the operating range of a technical result",
+      "correctOption": 0,
+      "sha256": "6f07aa062b035f282c8d113e249e7d740193fbf42016f7e73ef4cb0b797ae4d4"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0052",
+      "alternativas": [
+        "Qualified modifies the scope of success: the report identifies conditions and limits.",
+        "The point is the presence of qualifications.",
+        "Qualified does not mean certified in this construction.",
+        "Speed marks operating conditions, not the only metric.",
+        "The success is not retracted."
+      ],
+      "dificuldade": "alta: Disambiguate a polysemous word by its argumentative use. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Disambiguate a polysemous word by its argumentative use",
+      "correctOption": 0,
+      "sha256": "f4dd3f663cf3c18a95d25d8edd40edd1fdcf8871d15d9f1cbc5f8ae12a5bf063"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0053",
+      "alternativas": [
+        "Predictive accuracy alone does not prove unique physical assumptions.",
+        "A limited test cannot guarantee future equivalence.",
+        "Data excluded from fitting can test out-of-fitting performance; they do not guarantee all future conditions or physical truth.",
+        "Their role is precisely beyond fitting data.",
+        "An error criterion remains necessary."
+      ],
+      "dificuldade": "muito_alta: Separate fitting, holdout validation and limits of generalization. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separate fitting, holdout validation and limits of generalization",
+      "correctOption": 2,
+      "sha256": "50e958c3b2ec77999d8e77c53780841eddfe7e790e3a399eb220bd2109ab5d2c"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0054",
+      "alternativas": [
+        "No alteration is reported.",
+        "Hold back means reserve or withhold; the next clause explains their test use.",
+        "Publication timing is not the meaning.",
+        "No deletion or error is stated.",
+        "No return is mentioned."
+      ],
+      "dificuldade": "media: Infer the phrasal verb from the experimental purpose. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Infer the phrasal verb from the experimental purpose",
+      "correctOption": 1,
+      "sha256": "8535a7377cee4e2c85cbaad8557ea4edfa463edb8df0990af546a9b65d50045f"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0055",
+      "alternativas": [
+        "Not disclosing preference does not imply equal outcomes.",
+        "Random assignment and undisclosed preference reduce particular biases; a single task and population still limit external generalization.",
+        "Concealment is not proof of identical skills.",
+        "The manuals can be compared on the stated task.",
+        "Randomization does not guarantee transportability."
+      ],
+      "dificuldade": "muito_alta: Integrate allocation, expectation effects and external validity. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Integrate allocation, expectation effects and external validity",
+      "correctOption": 1,
+      "sha256": "39c25a78db46ea5068483d144db7b412d8f05641c5536224b31d861867401162"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0056",
+      "alternativas": [
+        "Preference was not disclosed or universally assigned.",
+        "No rewriting is described.",
+        "Universal application is explicitly limited.",
+        "Readers were assigned manuals and the same unfamiliar task.",
+        "The demonstrative summarizes the preceding design, not an outcome or a different allocation."
+      ],
+      "dificuldade": "alta: Resolve a demonstrative spanning several sentences. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Resolve a demonstrative spanning several sentences",
+      "correctOption": 4,
+      "sha256": "59ac4680a668d43089fb4127209593f89a96156b5790f976c04257e0ea4f802b"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0057",
+      "alternativas": [
+        "The passage explicitly makes access relevant.",
+        "Knowledge is relevant to the distinction made.",
+        "Restates the reporting scope.",
+        "An obligation over discovered defects does not assert that every hidden defect will be discovered. It quantifies over a restricted set.",
+        "Preserves the two distinct claims."
+      ],
+      "dificuldade": "muito_alta: Detect a quantifier-domain expansion and distinguish detection from disclosure. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Detect a quantifier-domain expansion and distinguish detection from disclosure",
+      "correctOption": 3,
+      "sha256": "177e346d2a6b685921d7f192b03bfc9d3c6a5e041e6ebdde0c7c6ad736555bbb"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0058",
+      "alternativas": [
+        "Reporting concerns disclosure; detection concerns finding information in the first place.",
+        "No count or contract length is discussed.",
+        "Neither preference nor date organizes the contrast.",
+        "Inaccessibility does not imply nonexistence.",
+        "The contrast is not medium of communication."
+      ],
+      "dificuldade": "media: Identify the semantic distinction between two actions. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Identify the semantic distinction between two actions",
+      "correctOption": 0,
+      "sha256": "aa2d5dc9d35a2be1445e5598e274dca053286607df75f777cc6383709e5a18e1"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0059",
+      "alternativas": [
+        "Pending verification is not disproof.",
+        "Transmission order allowed a summary to precede examination of its supporting readings, so its status was qualified.",
+        "Local storage continued during outage.",
+        "That reverses the described sequence.",
+        "Local measurements supported the summaries."
+      ],
+      "dificuldade": "alta: Connect transmission sequence with status of a claim. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Connect transmission sequence with status of a claim",
+      "correctOption": 1,
+      "sha256": "606b944b06e5aa3e0e8369d01789c95db81188b2c17f8e02df1c3b60e6d519a7"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0060",
+      "alternativas": [
+        "The construction does not assert incorrectness.",
+        "No continued outage is required.",
+        "Until sets the endpoint of provisional status; had been examined is passive perfect, making readings the object of completed examination.",
+        "Sending first does not dispense with examination.",
+        "The passive makes readings recipients, not examiners."
+      ],
+      "dificuldade": "alta: Interpret temporal endpoint and passive aspect together. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Interpret temporal endpoint and passive aspect together",
+      "correctOption": 2,
+      "sha256": "4cbaa1f80d396fb3e3cda6fee35870f3004424228cff3492293d29f1cef8a9f2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0121",
+      "alternativas": [
+        "O PGR deve conter, no mínimo, Inventário de Riscos Ocupacionais e Plano de Ação. Listar perigos e avaliações não substitui o planejamento das medidas.",
+        "Custos podem subsidiar gestão, mas não substituem o Plano de Ação.",
+        "ASO pertence à esfera médica e não substitui planejamento preventivo.",
+        "CA qualifica EPI, não constitui plano de prevenção.",
+        "Participação não equivale ao documento exigido."
+      ],
+      "dificuldade": "media: Reconhecer a lacuna entre inventário e ação. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconhecer a lacuna entre inventário e ação",
+      "correctOption": 0,
+      "sha256": "c503c2d980700377855b00136f0af3f7e270087a65ecc0d33d9ab7042ef63c2e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0122",
+      "alternativas": [
+        "Acrescenta doenças e omite assédio na denominação pedida.",
+        "A NR-05 utiliza Comissão Interna de Prevenção de Acidentes e de Assédio. A inclusão do assédio integra a denominação vigente.",
+        "Finalidades próximas não compõem o título oficial.",
+        "A palavra oficial é Interna, não Integrada.",
+        "Omite o assédio na denominação vigente."
+      ],
+      "dificuldade": "media: reconhecer a denominação vigente, sem presumir obrigações ou composição não registradas na ficha.",
+      "operacao": "Reconhecer a denominação vigente e distinguir títulos de comissões com escopo próximo",
+      "correctOption": 1,
+      "sha256": "ab18443a6a36fe28eac36e0b2d900effb9105ed1dbf5a364a8feee9810ec1034"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0123",
+      "alternativas": [
+        "Produção e atas não substituem os critérios.",
+        "Idade e voluntários não são os eixos apontados.",
+        "Área e exportação não são os eixos registrados.",
+        "Faturamento e exames não substituem empregados e risco.",
+        "A ficha da NR-04 vincula a contratação de profissionais ao número de empregados e à natureza do risco da atividade econômica. Não fornece tabelas para dimensionar."
+      ],
+      "dificuldade": "media: sesmt_criterios_de_dimensionamento. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "sesmt_criterios_de_dimensionamento",
+      "correctOption": 4,
+      "sha256": "b31e9f50a9afdda6f6df1f5444337fbc4ff38daec3c6ab9081ee49d54751593f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0124",
+      "alternativas": [
+        "NR-05 trata da CIPA.",
+        "Esse é o objeto atual da NR-09. A referência não autoriza reconstruir automaticamente o antigo PPRA como exigência vigente.",
+        "NR-11 trata de transporte e movimentação de materiais.",
+        "NR-26 trata de sinalização e comunicação de perigos.",
+        "NR-04 trata de SESMT."
+      ],
+      "dificuldade": "media: nr09_objeto_atual. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "nr09_objeto_atual",
+      "correctOption": 1,
+      "sha256": "308e2a1e866163dc55f08b97d4d11e47124ebb3535ec75c62147b2ca8a58ccf5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0125",
+      "alternativas": [
+        "A ficha atribui ao trabalhador comunicar extravio, dano ou alteração que torne o EPI impróprio. Não lhe atribui emitir CA ou selecionar sozinho o EPI de toda a organização.",
+        "A seleção cabe à organização com participação prevista.",
+        "CA não é alterado pelo usuário.",
+        "Não se exige continuar usando equipamento impróprio para comunicar.",
+        "Limpeza, guarda e conservação são responsabilidades do usuário."
+      ],
+      "dificuldade": "media: epi_responsabilidades_do_usuario. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "epi_responsabilidades_do_usuario",
+      "correctOption": 0,
+      "sha256": "67270988c3af7f557f6b3dba6e4a8fff39ec5557c9eaa4313f0d713038501019"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0126",
+      "alternativas": [
+        "A elaboração considera os riscos identificados e classificados.",
+        "A implantação é obrigação do empregador.",
+        "O empregador custeia sem ônus ao empregado.",
+        "O programa considera os riscos do PGR, não o substitui.",
+        "A NR-07 veda o caráter de seleção de pessoal e vincula o programa à saúde e aos riscos ocupacionais."
+      ],
+      "dificuldade": "media: pcmso_finalidade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "pcmso_finalidade",
+      "correctOption": 4,
+      "sha256": "891e4ff435a17b1f04bdd31f9f30e3f1942895bb43593a441be2b7945d24ef0d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0127",
+      "alternativas": [
+        "A transição não equivale à revogação integral da norma.",
+        "O corpus registra vigência da nova redação em 01/06/2027 e manutenção da anterior até 31/05/2027. Publicação não antecipa a vigência.",
+        "A data de janeiro não está registrada.",
+        "A empresa não escolhe a vigência normativa.",
+        "Desconsidera a data registrada de entrada em vigor."
+      ],
+      "dificuldade": "alta: Distinguir promulgação/publicação e eficácia temporal no cenário datado. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir promulgação/publicação e eficácia temporal no cenário datado",
+      "correctOption": 1,
+      "sha256": "94da386e03cf9f6dfed60e1697b8b28e109dfb5cfc7025e12478514d27e7673a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0128",
+      "alternativas": [
+        "Documentação médica não substitui segurança de máquina.",
+        "Importação é expressamente incluída.",
+        "A ficha abrange máquinas e equipamentos.",
+        "Repete o recorte limitado que a ficha supera.",
+        "A ficha da NR-12 registra abordagem de segurança desde concepção/fabricação/importação, além da utilização. A primeira partida não é o único ponto de interesse."
+      ],
+      "dificuldade": "alta: Aplicar a perspectiva de ciclo de vida a uma decisão de aquisição. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Aplicar a perspectiva de ciclo de vida a uma decisão de aquisição",
+      "correctOption": 4,
+      "sha256": "f4b87aa051e98612afabd232ff710905a42ec6d2548d6e2acb925f658e0d0295"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0129",
+      "alternativas": [
+        "Escopo amplo não dispensa verificar condições específicas.",
+        "CIPA não substitui a análise do equipamento.",
+        "A NR-13 é especial, não restrita a um setor econômico.",
+        "Contradiz o escopo explicitamente registrado.",
+        "O escopo registrado inclui caldeiras, vasos, tubulações e tanques metálicos de armazenamento. Isso impõe triagem adequada, não enquadramento automático de qualquer recipiente."
+      ],
+      "dificuldade": "alta: Diferenciar pertencer ao universo de triagem e estar individualmente enquadrado. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Diferenciar pertencer ao universo de triagem e estar individualmente enquadrado",
+      "correctOption": 4,
+      "sha256": "3c8c80cde93769dfaf703a260c153b08831e46e86f219069494f4faae98c122d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0130",
+      "alternativas": [
+        "Exclui atividade sem análise do campo.",
+        "Confunde a NR-20 com campo setorial da NR-37.",
+        "A NR-20 é norma especial para inflamáveis e combustíveis, não condicionada a único setor. A ficha não permite presumir classificação ou capacitação uniforme.",
+        "Cria exclusividade setorial inexistente.",
+        "Extrapola a ficha para classificação e capacitação."
+      ],
+      "dificuldade": "alta: Separar campo por atividade de recorte por setor econômico. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separar campo por atividade de recorte por setor econômico",
+      "correctOption": 2,
+      "sha256": "cd8c399d7549e4c2e64cdd594d0104489b57f259d8858b76a7d46d840dcb3096"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0131",
+      "alternativas": [
+        "A ficha exige trabalhador formalmente autorizado pela organização; capacitação e aptidão são componentes relevantes, não substitutos da formalização.",
+        "A autorização considera as atividades.",
+        "Concordância do trabalhador não equivale à autorização formal.",
+        "Aptidão não substitui autorização.",
+        "A organização é responsável por formalizar a autorização."
+      ],
+      "dificuldade": "alta: Reconhecer condições necessárias que não bastam sem formalização. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconhecer condições necessárias que não bastam sem formalização",
+      "correctOption": 0,
+      "sha256": "c74adcfc5e5c1b8719d2ab0d5fe8ca2f920bc74d2a4f8527fbecd22e7377c6e6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0132",
+      "alternativas": [
+        "A ficha distingue a possibilidade de análise no procedimento para rotina da exigência de PT prévia para a não rotina.",
+        "Procedimento não é dispensa universal de autorização.",
+        "PT não é documento clínico.",
+        "Inverte a distinção da ficha.",
+        "Escrever um procedimento não altera por si a natureza da atividade."
+      ],
+      "dificuldade": "alta: Aplicar tratamentos distintos à rotina e à não rotina. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Aplicar tratamentos distintos à rotina e à não rotina",
+      "correctOption": 0,
+      "sha256": "f8882681249b518023e60ccd6670b02e737df836e93850d114259e92623cf736"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0133",
+      "alternativas": [
+        "A NR-17 contempla adaptação às características psicofisiológicas e elementos da organização, inclusive ritmo, conteúdo, meios e aspectos cognitivos.",
+        "Conforto visual não esgota as dimensões apontadas.",
+        "Exclui elementos explicitamente registrados.",
+        "Contagem isolada não avalia organização.",
+        "Não se pode presumir doença nem substituir análise por exame."
+      ],
+      "dificuldade": "alta: Ampliar o recorte para dimensões organizacionais e cognitivas pertinentes. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Ampliar o recorte para dimensões organizacionais e cognitivas pertinentes",
+      "correctOption": 0,
+      "sha256": "3fb55b4c34f5d4cea3bbea80dafbfdf55623bf1fae38759404344492ef702d07"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0134",
+      "alternativas": [
+        "SESMT não é norma de projeto de toda máquina.",
+        "O corpus associa NR-26 à sinalização e comunicação de perigos e NR-12 à segurança em máquinas. Não se afirma exclusividade ou que sinalizar substitua proteger.",
+        "Inverte os objetos das duas referências.",
+        "PCMSO/CIPA não correspondem a esses dois objetos.",
+        "Esses campos não correspondem à divisão proposta."
+      ],
+      "dificuldade": "alta: Distinguir comunicação e controle físico na seleção de referências. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir comunicação e controle físico na seleção de referências",
+      "correctOption": 1,
+      "sha256": "41ca08b78a0f7cd67c1a90da4e7527cc7fed447e535261d3819ccd78229d8128"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0135",
+      "alternativas": [
+        "CIPA não é o objeto específico da operação.",
+        "A NR-11 é a referência direta para transporte, movimentação, armazenagem e manuseio. Outras normas podem ser pertinentes conforme o cenário.",
+        "Serviços de saúde não definem esse campo geral.",
+        "Programa médico não substitui a referência operacional.",
+        "Ergonomia pode ser pertinente, mas não é a única referência."
+      ],
+      "dificuldade": "alta: Selecionar norma pelo objeto da operação sem afirmar exclusividade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Selecionar norma pelo objeto da operação sem afirmar exclusividade",
+      "correctOption": 1,
+      "sha256": "2d17c86d6cff73e9dfbf0b4297f88bb32be8371ec2f6fec2faa8d26239aab819"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0136",
+      "alternativas": [
+        "Atividade principal não resolve sozinha a aplicabilidade do serviço.",
+        "Confunde pertencimento à empresa com natureza da atividade.",
+        "O corpus não autoriza substituição das outras NRs.",
+        "Exclui serviço interno sem verificar campo.",
+        "O corpus limita a NR-32 ao campo de serviços de saúde quando justificado. A atividade principal não autoriza exclusão automática nem extensão irrestrita."
+      ],
+      "dificuldade": "alta: Distinguir unidade funcional, atividade e pertencimento empresarial. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir unidade funcional, atividade e pertencimento empresarial",
+      "correctOption": 4,
+      "sha256": "0ffcff67520b80297d1df4c309b72cef88ebda1906855dc88adef860e69d5b57"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0137",
+      "alternativas": [
+        "Confunde a finalidade dos instrumentos.",
+        "Avaliação de higiene não prova periculosidade.",
+        "Não há equivalência automática dos enquadramentos.",
+        "Cargo isolado não substitui a verificação das condições aplicáveis.",
+        "NR-15 trata de insalubridade e NR-16 de periculosidade, com enquadramentos distintos e requisitos próprios. A ficha não fornece dados para declarar adicionais ou percentuais."
+      ],
+      "dificuldade": "alta: Separar classificações jurídicas e identificar a necessidade de verificação específica. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separar classificações jurídicas e identificar a necessidade de verificação específica",
+      "correctOption": 4,
+      "sha256": "44cc04f8f215529b94d12b3445c6c2760be879a38c2f167dab835804926fba15"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0138",
+      "alternativas": [
+        "Inverte as referências setoriais.",
+        "Proximidade da água não define plataforma.",
+        "O corpus distingue trabalho portuário da NR-29 e aquaviário da NR-30. A associação não dispensa examinar interfaces e condições de aplicação.",
+        "Movimentação não se converte automaticamente em construção.",
+        "Operar navio não torna toda atividade construção/reparação naval."
+      ],
+      "dificuldade": "alta: Delimitar duas atividades adjacentes sem confundir localização e campo. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Delimitar duas atividades adjacentes sem confundir localização e campo",
+      "correctOption": 2,
+      "sha256": "cf2f55add712218f5e02451f705e37dd25b84e2bfe6f4913d23be696cf7e4529"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0139",
+      "alternativas": [
+        "Confunde estruturas e atividades sem analisar campo.",
+        "Serviços de saúde/construção não correspondem ao pareamento pedido.",
+        "A NR-34 cobre construção, reparação e desmonte naval; NR-37 corresponde a plataformas de petróleo. O campo precisa ser observado em cada frente.",
+        "Inverte os campos registrados.",
+        "Portuário não substitui os campos distintos."
+      ],
+      "dificuldade": "alta: Identificar campos setoriais em duas frentes distintas. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Identificar campos setoriais em duas frentes distintas",
+      "correctOption": 2,
+      "sha256": "2709896a9f8d670d517aebcabfb90e1840c3cddac14c44fa32b70a918f83b956"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0140",
+      "alternativas": [
+        "Não há autorização para usar norma revogada como substituta geral.",
+        "Vigência não é escolha da empresa.",
+        "Data de documento interno não muda vigência normativa.",
+        "O corpus identifica NR-02 e NR-27 como revogadas. É necessário revisar a fundamentação, sem inferir que a revogação elimina todo o sistema de SST.",
+        "Revogações específicas não são dispensa geral de SST."
+      ],
+      "dificuldade": "alta: Distinguir correção editorial e revisão de fundamento jurídico. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir correção editorial e revisão de fundamento jurídico",
+      "correctOption": 3,
+      "sha256": "7f6043a39bdef94dc97a0ab62850ba4f8aadd9079c13aecb4769a80179ba8cf5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0141",
+      "alternativas": [
+        "Exames não substituem o Inventário.",
+        "A identificação/avaliação alimenta a prevenção no Plano de Ação; o PCMSO considera os riscos do PGR. Atualizar um documento não resolve automaticamente as interfaces de prevenção e saúde.",
+        "PCMSO não é seleção de pessoal nem substitui medidas preventivas.",
+        "A ficha não condiciona prevenção à doença comprovada.",
+        "Inventário não substitui Plano e o PCMSO precisa considerar os riscos."
+      ],
+      "dificuldade": "muito_alta: Integrar identificação, planejamento preventivo e acompanhamento de saúde sem substituições indevidas. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Integrar identificação, planejamento preventivo e acompanhamento de saúde sem substituições indevidas",
+      "correctOption": 1,
+      "sha256": "9d6742ecdf9069773a2abf9bf8e87c756db3536a5b681adf8f1201ecddfa5dba"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0142",
+      "alternativas": [
+        "CA não é registro das atividades da organização.",
+        "Fornecedor não recebe essas funções por essa dispensa.",
+        "Uso de EPI não revoga a dispensa registrada.",
+        "Confunde dispensa específica com dispensa de toda documentação.",
+        "A dispensa de elaborar PGR do MEI não elimina a regra específica da NR-06 para registro de atividades e EPI das organizações dispensadas. CA qualifica o produto, não descreve suas atividades."
+      ],
+      "dificuldade": "muito_alta: Cruzar dispensa específica, obrigação documental remanescente e alcance do CA. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Cruzar dispensa específica, obrigação documental remanescente e alcance do CA",
+      "correctOption": 4,
+      "sha256": "a8c18490751ef03cb1f2c9a80ee973e03967522f0f6cb4f826407fbee664732e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0143",
+      "alternativas": [
+        "Exame não substitui o processo de seleção registrado.",
+        "Participação da CIPA não exclui organização e SESMT.",
+        "O CA não contém a avaliação específica dos usuários.",
+        "Qualificação do produto não equivale à adequação universal.",
+        "A ficha da NR-06 atribui seleção à organização, com participação do SESMT quando houver e ouvidos usuários/CIPA ou nomeado. CA qualifica o produto como EPI, não demonstra adequação universal nem substitui a participação."
+      ],
+      "dificuldade": "muito_alta: Combinar responsabilidades, participação e diferença entre aprovação de produto e seleção para uso. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Combinar responsabilidades, participação e diferença entre aprovação de produto e seleção para uso",
+      "correctOption": 4,
+      "sha256": "f11bbc91d8b3350f4a62f5af83cfd8bc7695cec1a4096787e0033f863f20bac2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0144",
+      "alternativas": [
+        "A validade não é indeterminada.",
+        "A ficha admite revalidação sob as condições registradas.",
+        "A PT é limitada à atividade e ao turno/jornada, mas admite revalidação pelo responsável sem mudança das condições ou da equipe. I preserva ambos; II altera a equipe; III altera condições. Não se declara dispensa de outras verificações.",
+        "A equipe é condição expressa da possibilidade de revalidação.",
+        "Condições também precisam ser mantidas."
+      ],
+      "dificuldade": "muito_alta: Avaliar simultaneamente limite de validade e duas condições cumulativas em três casos. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Avaliar simultaneamente limite de validade e duas condições cumulativas em três casos",
+      "correctOption": 2,
+      "sha256": "1809ee6dc76562faa2f5e187a0703e44470891ae50474c3d2f168e992b8f59e8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0145",
+      "alternativas": [
+        "As datas são específicas: NR-01 já vigente desde maio de 2026; a nova NR-10 só passa a vigorar em junho de 2027. Até lá, aplica-se a redação anterior indicada pela ficha.",
+        "Confunde publicação com início de vigência.",
+        "Acerta só a NR-01 e aplica à NR-10 inferência temporal inválida.",
+        "A NR-01 já vigora e não há vazio normativo na NR-10.",
+        "Troca as datas e os objetos normativos."
+      ],
+      "dificuldade": "muito_alta: Cruzar duas linhas temporais com publicação, entrada em vigor e continuidade da redação anterior. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Cruzar duas linhas temporais com publicação, entrada em vigor e continuidade da redação anterior",
+      "correctOption": 0,
+      "sha256": "56508fa4e63617b8502711c8ac175c1dcbf2bb46b29789d49028a9f060e5bbd4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0146",
+      "alternativas": [
+        "Troca monitoramento clínico e exposição.",
+        "O corpus registra CAT no S-2210 mesmo sem afastamento; monitoramento/ASO no S-2220; afastamento no S-2230; exposição no S-2240. Pertencer ao edital não torna os eventos intercambiáveis.",
+        "Relação com SST não unifica as finalidades.",
+        "Troca acidente e afastamento.",
+        "A ausência de afastamento não exclui CAT."
+      ],
+      "dificuldade": "muito_alta: Classificar quatro objetos e afastar a inferência de que CAT depende de afastamento. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Classificar quatro objetos e afastar a inferência de que CAT depende de afastamento",
+      "correctOption": 1,
+      "sha256": "77c42efd78885ff04295b6b4f0c6e1ed2d66fc0d479286929a929ac5538f03f3"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0147",
+      "alternativas": [
+        "Não se vincula o prazo ao retorno.",
+        "S-2210 não depende de aguardar afastamento.",
+        "Domingo não é o dia útil dado; enterro não é marco registrado.",
+        "A ficha registra primeiro dia útil seguinte à ocorrência e, em caso de morte, de imediato. Sexta-feira conduz a segunda no calendário dado; não é necessário haver afastamento para comunicar acidente.",
+        "Morte possui regra imediata registrada."
+      ],
+      "dificuldade": "muito_alta: Aplicar exceção por morte, calendário explicitado e independência de afastamento. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Aplicar exceção por morte, calendário explicitado e independência de afastamento",
+      "correctOption": 3,
+      "sha256": "16ea384f4e8adbc552c264ace5a2cb395facc041e6542de126cb79832d760455"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0148",
+      "alternativas": [
+        "Não há substituição da avaliação médica pela medição.",
+        "NHO 10 é mãos e braços; NHO 11 não é clínica.",
+        "Inverte os objetos e atribui seleção de pessoal ao programa.",
+        "As fichas Fundacentro e NR-17 associam NHO 11 a iluminamento; NHO 09 a corpo inteiro; NR-07 vincula PCMSO aos riscos do PGR. Métodos ambientais não substituem o programa médico.",
+        "Troca métodos e rompe a relação com riscos."
+      ],
+      "dificuldade": "muito_alta: Integrar três objetos técnicos e sua relação sem substituir ambiente por clínica. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Integrar três objetos técnicos e sua relação sem substituir ambiente por clínica",
+      "correctOption": 3,
+      "sha256": "01ce15c5458c0f25076f70d7aebb8c3ceebc951f6bad5ac6ddad0914898192be"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0149",
+      "alternativas": [
+        "A admissão condicionada não equivale a proibição total.",
+        "Erra o campo e generaliza a modalidade.",
+        "A NR-20 não se restringe a um setor; a admissão de EaD e semipresencial está sujeita a termos e condições. A ficha não autoriza dizer que toda capacitação pode ser integralmente remota.",
+        "Acerta o campo, mas remove condições registradas.",
+        "O campo não depende de alterar a atividade econômica formal."
+      ],
+      "dificuldade": "muito_alta: Rejeitar duas generalizações independentes e delimitar o que ainda deve ser conferido. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Rejeitar duas generalizações independentes e delimitar o que ainda deve ser conferido",
+      "correctOption": 2,
+      "sha256": "264ac447c89fdf9c4ded1189120c4527cef50668c89082bf06b45e9a3d6d2f32"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0150",
+      "alternativas": [
+        "Correção de unidade não prova enquadramento ou percentual.",
+        "As fichas distinguem enquadramentos de NR-15/16 e vedam inventar limites, percentuais e exceções. Procedimento técnico não substitui automaticamente critério legal; dados válidos podem ser preservados enquanto a conclusão jurídica é verificada.",
+        "Limitação de conclusão jurídica não torna os dados inúteis.",
+        "Prudência não autoriza inventar fundamento.",
+        "Método auxiliar não substitui integralmente critério legal."
+      ],
+      "dificuldade": "muito_alta: Separar validade da medição, critérios de dois enquadramentos e insuficiência da fonte para percentuais. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separar validade da medição, critérios de dois enquadramentos e insuficiência da fonte para percentuais",
+      "correctOption": 1,
+      "sha256": "9f0319c36c9d472e40fa91ab33b39b55aa77dc266b17a27b50c3a0010107e58e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0151",
+      "alternativas": [
+        "Estabilidade não amplia a seletividade do instrumento.",
+        "Extrapola a variável medida para todos os agentes.",
+        "Um instrumento seletivo não informa sobre todo agente. Oxigênio dentro de uma referência não demonstra ausência de gás tóxico nem permite escolher proteção sem caracterizá-lo.",
+        "Não há função que relacione os dois valores no cenário.",
+        "Escolha de respirador exige caracterizar o agente e as condições."
+      ],
+      "dificuldade": "media: seletividade_de_sensores. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "seletividade_de_sensores",
+      "correctOption": 2,
+      "sha256": "75c8b3958732d2e2f7f479ae1856462928518e4175e238353831c289d1af3921"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0152",
+      "alternativas": [
+        "São calor e calibração de bombas.",
+        "Inverte corpo inteiro e mãos/braços.",
+        "São material particulado e iluminamento.",
+        "O corpus associa NHO 09 à vibração de corpo inteiro e NHO 10 à vibração de mãos e braços. Não se especificam valores ou procedimentos ausentes da ficha.",
+        "São calibração e material particulado."
+      ],
+      "dificuldade": "media: metodo_vibracao_corpo_inteiro. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "metodo_vibracao_corpo_inteiro",
+      "correctOption": 3,
+      "sha256": "b15e73d5fe4e4b8f0084b73b575afb6731dd3d691a9d8e8407e2638a97d5ac99"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0153",
+      "alternativas": [
+        "Unidade no visor não assegura seletividade.",
+        "Correção fixa não é sustentada pelos ensaios dados.",
+        "Seleção pelo tamanho da leitura não valida as restantes.",
+        "O branco úmido revela resposta cruzada possível. É necessário caracterizar a interferência e verificar a concentração com seletividade adequada, não presumir uma correção sem validação.",
+        "Troca o analito em vez de tratar interferência."
+      ],
+      "dificuldade": "alta: interferencia_cruzada. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "interferencia_cruzada",
+      "correctOption": 3,
+      "sha256": "f3dbf628beb9af2da5526c293e95afceeffcd3241da97f756b61187a79d156c6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0154",
+      "alternativas": [
+        "Contato cutâneo não invalida a redução aérea observada.",
+        "Exaustão não elimina por definição o contato cutâneo.",
+        "Existência de luva não prova compatibilidade.",
+        "Exposição por inalação e por contato cutâneo são vias distintas. O dado aéreo não quantifica nem exclui a absorção possível pela pele.",
+        "Medição de ar não mede automaticamente absorção dérmica."
+      ],
+      "dificuldade": "alta: vias_de_absorcao. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "vias_de_absorcao",
+      "correctOption": 3,
+      "sha256": "10730efe9e3a4fd61ff6c00b79fc2b48e9b34e1ae0170fbf850113457abe8f86"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0155",
+      "alternativas": [
+        "Passagem não prova retenção completa do conjunto.",
+        "A posição posterior é justamente relevante para o diagnóstico.",
+        "A seção posterior pode indicar passagem e possível limitação de retenção. O significado e o tratamento dependem do método; não se inventa limiar ou correção universal.",
+        "Razão entre massas não tem unidade de concentração aérea.",
+        "O agente foi medido, não apenas umidade."
+      ],
+      "dificuldade": "alta: amostragem_e_breakthrough. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "amostragem_e_breakthrough",
+      "correctOption": 2,
+      "sha256": "8831cfa2d2912ba00d94af42bb3ddf13a2a32a2c30e90e9d0f0406ec36f4dc89"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0156",
+      "alternativas": [
+        "Troca a associação entre recintos e volumes molares.",
+        "A razão é molar: 15×98/24,5=60 e 15×98/30=49 mg/m³. Mesmo ppm não implica mesma massa por volume quando muda o volume molar. Não se aplica limite legal.",
+        "Multiplica pelo aumento de volume molar quando deveria dividir.",
+        "Inverte massa molar no modelo.",
+        "Omite o divisor volume molar."
+      ],
+      "dificuldade": "muito_alta: Aplicar conversão dimensional e interpretar alteração do volume molar sem mudar fração molar. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Aplicar conversão dimensional e interpretar alteração do volume molar sem mudar fração molar",
+      "correctOption": 1,
+      "sha256": "364fd9343e0b075615accf23379cc75754b05096518a61858af826fcf2f812ae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0157",
+      "alternativas": [
+        "Desempenho fora da banda dominante não demonstra resultado requerido.",
+        "Frestas alteram caminhos de transmissão.",
+        "Soma de máximos não modela a configuração real.",
+        "É necessário compatibilizar espectro, desempenho por banda e caminhos de transmissão da montagem. Valor máximo fora de banda e ensaio em montagem diferente não validam a previsão no operador.",
+        "Média entre dados incompatíveis não supre validação."
+      ],
+      "dificuldade": "muito_alta: Cruzar espectro dominante, validade de ensaio e efeito de caminhos de transmissão. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Cruzar espectro dominante, validade de ensaio e efeito de caminhos de transmissão",
+      "correctOption": 3,
+      "sha256": "46dfe81d5b4b923190a023527ab90ec1bdabd6c98a2a5ee0025b3ffec0d139a6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0158",
+      "alternativas": [
+        "Ausência de diagnóstico não muda a natureza do alvo.",
+        "Acrescenta viabilidade e causalidade não demonstradas.",
+        "Não há modelo de adoecimento nem exposição individual.",
+        "Sintomas não suprem a investigação de agente e nexo.",
+        "Detectar material genético não prova viabilidade neste método; sintomas inespecíficos sem nexo demonstrado não estabelecem etiologia. São lacunas distintas a investigar, sem negar a detecção."
+      ],
+      "dificuldade": "muito_alta: Distinguir detecção molecular, viabilidade e causalidade clínica em evidências de naturezas diferentes. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Distinguir detecção molecular, viabilidade e causalidade clínica em evidências de naturezas diferentes",
+      "correctOption": 4,
+      "sha256": "74fd7abdc6e88c0f40e48ed70b5a7caabee88f815b3bc5780c63c9de256cb00e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0159",
+      "alternativas": [
+        "Estanqueidade impede a vazão presumida.",
+        "A bomba não é a única fonte de elevação de pressão.",
+        "Válvula fechada não elimina calor recebido.",
+        "Massa constante não implica pressão constante.",
+        "Aquecimento pode elevar a pressão de líquido retido sem entrada de massa. Isolar não equivale a proteger contra expansão térmica."
+      ],
+      "dificuldade": "media: expansao_termica_bloqueada. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "expansao_termica_bloqueada",
+      "correctOption": 4,
+      "sha256": "3ab30c1aaca00d665afd9aec426e458707b5059710b69a79167315e88d989e88"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0160",
+      "alternativas": [
+        "Jato fino sob pressão pode penetrar tecidos. A busca pelo tato expõe a mão ao mecanismo; ausência de corte prévio ou transparência não demonstra segurança.",
+        "Ausência de dor imediata não valida exposição deliberada ao jato.",
+        "O mecanismo de injeção não depende de fluido quente.",
+        "Proteção para abrasão não comprova proteção contra injeção por jato.",
+        "Ausência de movimento não elimina o mecanismo do jato pressurizado."
+      ],
+      "dificuldade": "alta: jato_sob_pressao. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "jato_sob_pressao",
+      "correctOption": 0,
+      "sha256": "7d811ffd71832f227d5959f96286f5f36a32c309755997fbbeea2a5fadf402d9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0161",
+      "alternativas": [
+        "Remover identificação não altera resistência.",
+        "Compatibilidade geométrica não garante resistência na rotação imposta. Deve-se respeitar a velocidade admissível e avaliar as demais condições do conjunto.",
+        "Encaixe não prova integridade na rotação.",
+        "Curto tempo não corrige limite de velocidade.",
+        "Força manual não corrige incompatibilidade do disco."
+      ],
+      "dificuldade": "alta: ferramenta_e_velocidade_admissivel. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "ferramenta_e_velocidade_admissivel",
+      "correctOption": 1,
+      "sha256": "e291e9c097f32aa2fb8544f98ff19336559069b3c178b721f6fbee456d6817ed"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0162",
+      "alternativas": [
+        "Tomada é entrada, não barreira universal.",
+        "Equipes distintas não impedem transporte pelo ar.",
+        "O sistema que fornece ar pode transportar contaminantes de outra atividade. As avaliações separadas precisam ser integradas na interface entre geração externa e admissão.",
+        "Ventilar não garante que o ar admitido seja adequado.",
+        "Horários não demonstram independência física."
+      ],
+      "dificuldade": "alta: trabalho_simultaneo_e_admissao_de_ar. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "trabalho_simultaneo_e_admissao_de_ar",
+      "correctOption": 2,
+      "sha256": "cbec4a76b24695acf396d4288c3d7d5c2f44af71b7743b7c1ef8f522865c0d58"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0163",
+      "alternativas": [
+        "Erra a comparação que define fechamento rápido.",
+        "Tempo crítico não é pressão.",
+        "Um segundo não é o critério do modelo.",
+        "2L/a=400/1.000=0,40 s; 0,20<0,40. Δp=1.000×1.000×1=1.000.000 Pa=1 MPa. É triagem ideal, não dimensionamento completo do sistema.",
+        "Erra a conversão de Pa para kPa/MPa."
+      ],
+      "dificuldade": "muito_alta: Testar o regime de aplicabilidade antes de calcular incremento e converter a unidade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Testar o regime de aplicabilidade antes de calcular incremento e converter a unidade",
+      "correctOption": 3,
+      "sha256": "16671f385f26c9b6ed172503c64e0cdd8ed4ba1bc9467c8eab430f96409184d2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0164",
+      "alternativas": [
+        "Capacidades em direções e mecanismos distintos não são automaticamente equivalentes.",
+        "Verificação do peso não cobre automaticamente o empuxo da pressão.",
+        "Capacidade vertical não prova resistência axial.",
+        "Peso e reação axial são ações diferentes, com caminhos de carga e contenções distintos. O reforço vertical proposto não demonstra retenção axial da tampa ou da ligação durante o teste.",
+        "Permitir deslocamento não elimina a ação da pressão."
+      ],
+      "dificuldade": "muito_alta: Integrar mecanismo de carregamento, caminho de reação e pertinência da modificação proposta. A extensão do texto não define a classificação.",
+      "operacao": "Integrar mecanismo de carregamento, caminho de reação e pertinência da modificação proposta",
+      "correctOption": 3,
+      "sha256": "01642588d28dbd44a20cdb323c04b6c162d33106e304b49f0e1dd8b4b586a2f1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0165",
+      "alternativas": [
+        "Não são perdas monetárias.",
+        "Não são descritos problemas de arredondamento.",
+        "Troca as naturezas e adiciona medição exata não informada.",
+        "Não se fornecem probabilidades nem independência.",
+        "Flutuação real de demandas é variabilidade; desconhecimento da espessura é lacuna de conhecimento que inspeção pode reduzir. A classificação orienta ações diferentes."
+      ],
+      "dificuldade": "media: incerteza_epistemica_e_variabilidade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "incerteza_epistemica_e_variabilidade",
+      "correctOption": 4,
+      "sha256": "b90592448b78e30dd9df787a4f05b58880016f54e3ed290d0faa5dd184ef26c7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0166",
+      "alternativas": [
+        "Registro e frequência física são distintos.",
+        "As dimensões não são automaticamente equivalentes.",
+        "O ensaio atua sobre identificar a falha antes da expedição. Detectar mais não significa formar mais ou menos trincas, nem alterar a consequência da ruptura.",
+        "Ensaiar não muda necessariamente a formação.",
+        "O dano físico da ruptura não foi alterado."
+      ],
+      "dificuldade": "alta: fmea_deteccao_e_prevencao. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "fmea_deteccao_e_prevencao",
+      "correctOption": 2,
+      "sha256": "5c9f62aa71e24d54b03d508e31107477d5ad1645dffeb27137b8a40a87d7efda"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0167",
+      "alternativas": [
+        "Correção uniforme não identifica novos mecanismos.",
+        "Ignora a mudança física do sistema.",
+        "Duração curta não demonstra irrelevância do cenário.",
+        "A configuração e a intenção de operação mudam na partida. A cobertura de um modo não demonstra cobertura de outro com conexões distintas.",
+        "Quantidade de nós não prova cobertura de configurações."
+      ],
+      "dificuldade": "alta: hazop_modos_de_operacao. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "hazop_modos_de_operacao",
+      "correctOption": 3,
+      "sha256": "947a6a208772e3564912c528aae0b26cf3899316114936ccbdf9a995df6e7202"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0168",
+      "alternativas": [
+        "Esses conjuntos não tornam T verdadeiro.",
+        "Inclui ABD, que é redundante por absorção de AB.",
+        "AB e AC bastam e são mínimos. ABD basta, mas contém AB, portanto não é mínimo. A isolado não satisfaz os ramos; B ou C sem A também não.",
+        "Inclui conjunto não mínimo e omite AB.",
+        "Eventos isolados não satisfazem a expressão."
+      ],
+      "dificuldade": "muito_alta: Aplicar suficiência, minimalidade e absorção booleana em ramos sobrepostos. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Aplicar suficiência, minimalidade e absorção booleana em ramos sobrepostos",
+      "correctOption": 2,
+      "sha256": "ac508adf2d5644f18f7fdff574b1c1305c031e1984ed4a9be8922a89fa9d2824"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0169",
+      "alternativas": [
+        "Q domina R: 4<5 e 5<7. P domina S: 2<3 e 9<10. P e Q não se dominam, pois um melhora L e o outro A. Não se soma indicadores com pesos não fornecidos.",
+        "R e S são dominadas.",
+        "R é dominada por Q.",
+        "R não pertence à fronteira.",
+        "S é dominada por P."
+      ],
+      "dificuldade": "muito_alta: Comparar vetores de consequência sem agregação e eliminar duas dominâncias distintas. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Comparar vetores de consequência sem agregação e eliminar duas dominâncias distintas",
+      "correctOption": 0,
+      "sha256": "a7fecac34f9e8437dd9e9fd4245e58616de1c36a6ed67303a0ca93e4e73cd4f7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0170",
+      "alternativas": [
+        "Produto não fornece a união e ignora a dependência estrutural.",
+        "Retirar ignição do universo também excluiria vazamentos reais.",
+        "Máximo não representa a união dessas classes.",
+        "Nomes distintos não demonstram exclusividade.",
+        "A partição por porte já inclui ocorrências com e sem ignição. A quarta categoria é sobreposta; é preciso cruzá-la ou subdividir, não adicioná-la ao total novamente."
+      ],
+      "dificuldade": "muito_alta: Reconhecer uma partição e uma classificação transversal, evitando dupla contagem de cenários. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Reconhecer uma partição e uma classificação transversal, evitando dupla contagem de cenários",
+      "correctOption": 4,
+      "sha256": "a8c22f4115db6a655506589fa75396f2bdd20251502239f8f80bc92f1648506d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0171",
+      "alternativas": [
+        "Troca duas edições expressas por posteriores.",
+        "O edital estruturado fixa 45001:2018, 14001:2015 e 19011:2018. Edições posteriores são contexto de atualização, não substituição automática do conteúdo cobrado.",
+        "Revisão posterior não elimina o tema do edital.",
+        "Presume edições e desconsidera a trava do edital.",
+        "Fornecedor não redefine o programa da prova."
+      ],
+      "dificuldade": "media: edicoes_iso_do_edital. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "edicoes_iso_do_edital",
+      "correctOption": 1,
+      "sha256": "eb8d67e683d4c711eebc7cb48148902e92cf89b3229f8e269b8377dfc87260e8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0172",
+      "alternativas": [
+        "O cenário define funções distintas. Participar ou recomendar não transfere a decisão; o registro deve permitir compreender a recomendação e o desvio decisório.",
+        "Equipara assessoria à competência decisória definida.",
+        "Não corresponde à atribuição expressa.",
+        "Oculta informação relevante à rastreabilidade da decisão.",
+        "Participação não demonstra concordância."
+      ],
+      "dificuldade": "alta: responsabilidade_e_assessoria. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "responsabilidade_e_assessoria",
+      "correctOption": 0,
+      "sha256": "fe42b6d4d77bfa6d19690600a68d017621560d35802768f3c205c4f0ffe0f743"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0173",
+      "alternativas": [
+        "Intervalo maior não atende frequência maior.",
+        "Integração documental não revoga requisitos. Um documento único pode manter controles diferenciados ou revisão mais frequente sem perder a obrigação interna semestral.",
+        "Diferença não torna integração impossível.",
+        "Revogação não foi prevista.",
+        "Data de arquivo não substitui o requisito."
+      ],
+      "dificuldade": "alta: agregacao_de_requisitos_integrados. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "agregacao_de_requisitos_integrados",
+      "correctOption": 1,
+      "sha256": "ffc1519e390517ae62f54f9d7b727f0d1f314b9c99cf6882905554c923deaf09"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0174",
+      "alternativas": [
+        "A evidência pode sustentar achados nos casos examinados; a seleção por sinais de problema não fornece estimativa simples da prevalência populacional. Uma limitação de generalização não apaga evidência individual.",
+        "O desenho não muda retroativamente.",
+        "Não examinado não equivale a conforme.",
+        "Achados documentados não dependem de sorteio para existir.",
+        "Inverte validade do achado e limitação da extrapolação."
+      ],
+      "dificuldade": "muito_alta: Separar validade de achados locais de validade de uma estimativa populacional sob seleção dirigida. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Separar validade de achados locais de validade de uma estimativa populacional sob seleção dirigida",
+      "correctOption": 0,
+      "sha256": "6e62703240d940c88705abf8a58c987ae57b9baee4b07029ca7d2c07252eecc4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0175",
+      "alternativas": [
+        "Ignora a possibilidade de influência recíproca conhecida.",
+        "A origem comum é justamente uma possibilidade a investigar.",
+        "Votação não substitui exame das fontes de informação.",
+        "Relatos podem compartilhar informação adquirida depois do evento. Concordância não demonstra independência nem prova mentira. É necessário distinguir observação própria, informação recebida e corroboração externa.",
+        "Conversa não prova falsidade deliberada de todo o relato."
+      ],
+      "dificuldade": "alta: Avaliar independência epistemológica de testemunhos e distinguir concordância, corroboração e intenção. A extensão do texto não define a classificação.",
+      "operacao": "Avaliar independência epistemológica de testemunhos e distinguir concordância, corroboração e intenção",
+      "correctOption": 3,
+      "sha256": "cb0a51ba8ccc8db43ae869706560a8f21879caaebaa368deff9e62d588d4a9bd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0176",
+      "alternativas": [
+        "A direção do efeito não é demonstrada.",
+        "Conclusão exige sobrevivência/permanência, não é amostra automática de janeiro.",
+        "A exposição ao curso é definida pelo futuro e pela permanência; casos anteriores podem ser excluídos do grupo tratado por construção. É preciso alinhar elegibilidade, tempo e classificação antes de inferir efeito do curso.",
+        "A restrição não corrige a seleção temporal descrita.",
+        "Alinhamento temporal é precisamente necessário."
+      ],
+      "dificuldade": "muito_alta: Identificar seleção por permanência futura e desalinhamento entre tempo de risco e definição da exposição. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Identificar seleção por permanência futura e desalinhamento entre tempo de risco e definição da exposição",
+      "correctOption": 2,
+      "sha256": "e8b4e91f44ae99c4a9bcbbcd2c65d0740696f9d1801640c4152d17724a798613"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0177",
+      "alternativas": [
+        "Não confirmação não é prova de ausência.",
+        "Inverte a condição prévia estabelecida.",
+        "A ação pode retirar a única saída; sob o protocolo dado, a divergência deve ser resolvida antes do bloqueio. Informação ausente ou incompatível não comprova área desocupada.",
+        "Recência sozinha não resolve confiabilidade nem localização.",
+        "Média de posições não é confirmação de presença/ausência."
+      ],
+      "dificuldade": "alta: acao_irreversivel_e_informacao_incompleta. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "acao_irreversivel_e_informacao_incompleta",
+      "correctOption": 2,
+      "sha256": "88c102e5e359f5bea8b432fb81c91938f138082bee942f74fe571eb00d3921ce"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0178",
+      "alternativas": [
+        "O atravessamento pode interromper a barreira passiva. Detecção, potência ou acabamento não restauram a continuidade do sistema de compartimentação.",
+        "Aparência fechada não comprova desempenho compatível.",
+        "A classificação da parede intacta não valida a abertura.",
+        "Detecção não recompõe a barreira passiva.",
+        "Comportamento do cabo não substitui selagem do atravessamento."
+      ],
+      "dificuldade": "media: continuidade_de_barreiras_passivas. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "continuidade_de_barreiras_passivas",
+      "correctOption": 0,
+      "sha256": "4bc8a79f0595dace08ab102fa5509c668c710e2e226011e9d04aa8e3241fb1ad"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0179",
+      "alternativas": [
+        "Legibilidade de um valor não fornece automaticamente a tendência. A tarefa exige integrar tempo e valor sob demandas concorrentes; apresentação de tendência precisa ser avaliada no uso real.",
+        "Não remove a operação de comparar valores no tempo.",
+        "Cor sem relação com variação não fornece a informação decisória.",
+        "Amplia a carga sem avaliar o projeto informacional.",
+        "Pode ocultar a mudança rápida que orienta a decisão."
+      ],
+      "dificuldade": "muito_alta: Relacionar variável apresentada, informação decisória, memória de trabalho e avaliação em tarefa concorrente. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "Relacionar variável apresentada, informação decisória, memória de trabalho e avaliação em tarefa concorrente",
+      "correctOption": 0,
+      "sha256": "45633aebc8c8dff22b36b5d73a84198fae77b4b267bc8671d8e0f4712af52f0c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0180",
+      "alternativas": [
+        "Elaboração sem implantação não atende à proposição.",
+        "Finalidade ocupacional não autoriza a cobrança proposta.",
+        "Contrato comercial não substitui o programa.",
+        "A ficha da NR-07 atribui ao empregador garantir elaboração/implantação e custear os procedimentos relacionados ao PCMSO sem ônus ao empregado. O contrato não elimina essas responsabilidades.",
+        "Terceirização não muda as responsabilidades registradas."
+      ],
+      "dificuldade": "alta: seguimento_medico_e_responsabilidade. A classificação considera as operações necessárias, não a extensão do texto.",
+      "operacao": "seguimento_medico_e_responsabilidade",
+      "correctOption": 3,
+      "sha256": "f604f2e1ef73fa0b1003c19a993f53e49f9664d5ee0a8177cb288322c4b55fec"
+    }
+  ]
+}

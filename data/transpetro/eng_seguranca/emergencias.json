@@ -288,5 +288,26 @@
     "explanation": "Máximos: A=20, B=10, C=15. O menor desses é 10, de B. Dois e quatro são melhores casos; onze e 9,5 são médias não solicitadas. Sem probabilidades, o critério explicitado não autoriza transformar médias simples em perdas máximas.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0177",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "acao_irreversivel_e_informacao_incompleta",
+    "difficulty": "alta",
+    "statement": "No exercício, duas fontes divergem sobre a posição de uma equipe. O protocolo interno prevê localizar e confirmar pessoas antes de uma ação remota que pode bloquear a única saída daquela área. Não há urgência adicional informada que justifique desvio do protocolo. Qual decisão é coerente com a restrição?",
+    "options": [
+      "Considerar a equipe fora da área porque uma das fontes não confirma sua presença.",
+      "Executar o bloqueio e depois perguntar se a equipe ainda depende da saída.",
+      "Adiar o bloqueio, confirmar a localização por canal confiável e manter a saída disponível enquanto se resolve a divergência.",
+      "Bloquear pela posição mais recente sem verificar confiabilidade nem pessoas expostas.",
+      "Usar a média das duas posições para decidir que a área está desocupada."
+    ],
+    "answer": 2,
+    "explanation": "A ação pode retirar a única saída; sob o protocolo dado, a divergência deve ser resolvida antes do bloqueio. Informação ausente ou incompatível não comprova área desocupada.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

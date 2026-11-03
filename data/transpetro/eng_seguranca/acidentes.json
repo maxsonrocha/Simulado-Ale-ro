@@ -288,5 +288,47 @@
     "explanation": "Y faz uma partição com três resultados distintos, permitindo inferência inversa única. X deixa A e B indistinguíveis quando a leitura é 0. Ter saída em comum não torna testes equivalentes; comparabilidade não exige previsões idênticas e não há vantagem automática em menos saídas.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0175",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "independencia_de_relatos",
+    "difficulty": "alta",
+    "statement": "Na investigação de um acidente, três testemunhas discutiram suas lembranças entre si antes das entrevistas formais. Os depoimentos posteriores coincidem em um detalhe que nenhum registro independente confirma. Como tratar essa concordância?",
+    "options": [
+      "Contar a concordância como três confirmações independentes, sem examinar as conversas anteriores.",
+      "Considerar que o detalhe ocorreu exatamente como narrado porque versões coincidentes não podem ter origem comum.",
+      "Substituir os três relatos por uma única versão oficial escolhida pela maioria.",
+      "Verificar a origem de cada lembrança e buscar corroboração independente; o acordo pode refletir influência entre os relatos.",
+      "Desconsiderar integralmente todo depoimento, pois conversar prova intenção de mentir."
+    ],
+    "answer": 3,
+    "explanation": "Relatos podem compartilhar informação adquirida depois do evento. Concordância não demonstra independência nem prova mentira. É necessário distinguir observação própria, informação recebida e corroboração externa.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0176",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "tempo_em_risco_e_imortalidade",
+    "difficulty": "muito_alta",
+    "statement": "Um estudo compara empregados que concluíram um curso em dezembro aos demais quanto a acidentes de janeiro a dezembro. Para pertencer ao grupo “concluiu”, era necessário permanecer empregado até dezembro; acidentes que causaram desligamento antes disso impediam a entrada nesse grupo. Qual problema compromete atribuir menor incidência ao curso?",
+    "options": [
+      "O curso precisa aumentar acidentes porque foi realizado no final do ano.",
+      "O grupo de concluintes representa automaticamente todos os empregados presentes em janeiro.",
+      "A classificação por conclusão futura seleciona quem permaneceu até dezembro.",
+      "Contar apenas acidentes com desligamento torna os grupos comparáveis sem rever a classificação.",
+      "Todo estudo de acidentes dispensa alinhar o início de observação dos grupos."
+    ],
+    "answer": 2,
+    "explanation": "A exposição ao curso é definida pelo futuro e pela permanência; casos anteriores podem ser excluídos do grupo tratado por construção. É preciso alinhar elegibilidade, tempo e classificação antes de inferir efeito do curso.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

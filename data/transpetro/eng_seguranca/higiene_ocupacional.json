@@ -318,5 +318,176 @@
     "answer": 0,
     "explanation": "A razão entre taxas é 1/9 e entre tempos é 9/4; a razão de doses é (1/9)×(9/4)=1/4. Um nono ignora o aumento do tempo; 9/4 ignora a distância; 3/4 usa dependência linear com distância. O cálculo isolado não autoriza trabalho com radiação.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0151",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "seletividade_de_sensores",
+    "difficulty": "media",
+    "statement": "Um detector mede apenas oxigênio. A leitura está no intervalo operacional de referência do instrumento, mas há possibilidade de um gás tóxico que o sensor não detecta. Qual conclusão é válida?",
+    "options": [
+      "O detector passa a medir o tóxico se a leitura de oxigênio permanecer estável.",
+      "A leitura no intervalo demonstra ausência de qualquer contaminante atmosférico.",
+      "A leitura de oxigênio não exclui o gás tóxico; é necessária avaliação específica do agente.",
+      "A possibilidade do tóxico permite deduzir seu valor a partir da leitura de oxigênio.",
+      "A leitura comprova que qualquer respirador filtrante é adequado ao local."
+    ],
+    "answer": 2,
+    "explanation": "Um instrumento seletivo não informa sobre todo agente. Oxigênio dentro de uma referência não demonstra ausência de gás tóxico nem permite escolher proteção sem caracterizá-lo.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0152",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "metodo_vibracao_corpo_inteiro",
+    "difficulty": "media",
+    "statement": "Uma campanha deve avaliar vibração transmitida pelo assento ao corpo do motorista e, em outra tarefa, vibração transmitida pelas ferramentas às mãos. Conforme os títulos das NHOs registrados localmente, quais referências correspondem, nessa ordem?",
+    "options": [
+      "NHO 06 e NHO 07.",
+      "NHO 10 e NHO 09.",
+      "NHO 08 e NHO 11.",
+      "NHO 09 e NHO 10.",
+      "NHO 07 e NHO 08."
+    ],
+    "answer": 3,
+    "explanation": "O corpus associa NHO 09 à vibração de corpo inteiro e NHO 10 à vibração de mãos e braços. Não se especificam valores ou procedimentos ausentes da ficha.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0153",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "interferencia_cruzada",
+    "difficulty": "alta",
+    "statement": "Um monitor de vapor apresenta resposta elevada quando a umidade sobe, mesmo num ensaio com ar sem o vapor-alvo. O método foi validado apenas em ar seco. Qual providência é mais informativa antes de interpretar o sinal de campo como concentração do vapor?",
+    "options": [
+      "Converter todo o sinal em vapor-alvo porque o visor utiliza a unidade correta.",
+      "Subtrair o maior valor observado em ar seco de toda leitura úmida, sem ensaio adicional.",
+      "Descartar apenas leituras altas, preservando as baixas como necessariamente exatas.",
+      "Caracterizar a interferência de umidade e confrontar a medição com método seletivo adequado.",
+      "Reclassificar a umidade como vapor-alvo para conservar a calibração anterior."
+    ],
+    "answer": 3,
+    "explanation": "O branco úmido revela resposta cruzada possível. É necessário caracterizar a interferência e verificar a concentração com seletividade adequada, não presumir uma correção sem validação.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0154",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "vias_de_absorcao",
+    "difficulty": "alta",
+    "statement": "Após melhorar a exaustão, a medição aérea de um solvente caiu, mas o manuseio continua molhando luvas incompatíveis e a pele. O solvente pode ser absorvido pela pele, segundo informação verificada do produto. Qual limite da conclusão “a exposição total foi controlada” é decisivo?",
+    "options": [
+      "O contato cutâneo comprova que a exaustão não reduziu a concentração aérea.",
+      "A via cutânea pode ser estimada como zero sempre que há exaustão local.",
+      "A presença de luvas demonstra compatibilidade com qualquer solvente.",
+      "A queda no ar não caracteriza a contribuição cutânea que continua possível.",
+      "A medição aérea inclui automaticamente a massa absorvida pela pele."
+    ],
+    "answer": 3,
+    "explanation": "Exposição por inalação e por contato cutâneo são vias distintas. O dado aéreo não quantifica nem exclui a absorção possível pela pele.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0155",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostragem_e_breakthrough",
+    "difficulty": "alta",
+    "statement": "Um conjunto adsorvente possui seção principal e seção de segurança, analisadas separadamente. A segunda contém quantidade relevante do agente, e o método exige investigar passagem para essa seção. Qual interpretação é prudente?",
+    "options": [
+      "Tratar o conteúdo da seção de segurança como confirmação automática de coleta quantitativa completa.",
+      "Descartar a seção de segurança porque ela está depois da principal no fluxo.",
+      "Investigar capacidade e passagem do agente antes de tratar a seção principal isolada como coleta integral.",
+      "Dividir a massa principal pela massa de segurança e chamar a razão de concentração no ar.",
+      "Usar apenas a seção principal e presumir que a seção de segurança mede somente umidade."
+    ],
+    "answer": 2,
+    "explanation": "A seção posterior pode indicar passagem e possível limitação de retenção. O significado e o tratamento dependem do método; não se inventa limiar ou correção universal.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0156",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "conversao_ppm_massa",
+    "difficulty": "muito_alta",
+    "statement": "Um relatório de gás ideal a 25 °C e 1 atm usa C(mg/m³)=ppm·M/24,5, com M em g/mol. Para um agente de M=98, a leitura é 15 ppm. Em outro recinto, o volume molar é 30 L/mol, mantendo-se os mesmos 15 ppm e M. Pelo mesmo modelo, quais concentrações correspondem aos dois recintos?",
+    "options": [
+      "49 mg/m³ e 60 mg/m³.",
+      "60 mg/m³ e 49 mg/m³.",
+      "60 mg/m³ e 73,5 mg/m³.",
+      "3,75 mg/m³ e 4,59 mg/m³.",
+      "1.470 mg/m³ em ambos os recintos."
+    ],
+    "answer": 1,
+    "explanation": "A razão é molar: 15×98/24,5=60 e 15×98/30=49 mg/m³. Mesmo ppm não implica mesma massa por volume quando muda o volume molar. Não se aplica limite legal.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0157",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "espectro_sonoro_e_controle",
+    "difficulty": "muito_alta",
+    "statement": "Uma análise por bandas identifica que a maior contribuição sonora na posição do operador está em baixa frequência. Uma proposta tem ensaio de atenuação apenas em altas frequências; outra tem dados por banda, mas somente em montagem vedada, diferente da instalação prevista com frestas. Qual decisão integra as duas limitações?",
+    "options": [
+      "Escolher a primeira só pelo maior valor de atenuação publicado, independentemente da banda.",
+      "Creditar integralmente a segunda porque um ensaio vedado representa qualquer montagem com frestas.",
+      "Somar os maiores valores das propostas e garantir esse resultado sem definir qual será instalada.",
+      "Exigir desempenho nas bandas relevantes e verificar a montagem real antes de creditar a redução pretendida.",
+      "Usar a média simples das atenuações publicadas para compensar ambas as lacunas."
+    ],
+    "answer": 3,
+    "explanation": "É necessário compatibilizar espectro, desempenho por banda e caminhos de transmissão da montagem. Valor máximo fora de banda e ensaio em montagem diferente não validam a previsão no operador.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0158",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "deteccao_biologica_e_viabilidade",
+    "difficulty": "muito_alta",
+    "statement": "Um ensaio detecta material genético de um microrganismo numa superfície; o método não distingue organismos viáveis de material residual. Há trabalhadores com sintomas inespecíficos, mas sem diagnóstico etiológico ou vínculo temporal estabelecido. Qual conclusão e investigação respeitam as duas limitações?",
+    "options": [
+      "A ausência de diagnóstico prova que o material detectado não tem origem biológica.",
+      "A detecção prova viabilidade e atribui automaticamente todos os sintomas ao microrganismo.",
+      "O ensaio pode ser usado para estimar diretamente quantos trabalhadores adoecerão.",
+      "Sintomas inespecíficos tornam desnecessário verificar a presença e a viabilidade do agente.",
+      "A detecção é válida; viabilidade e nexo com sintomas dependem de outras evidências."
+    ],
+    "answer": 4,
+    "explanation": "Detectar material genético não prova viabilidade neste método; sintomas inespecíficos sem nexo demonstrado não estabelecem etiologia. São lacunas distintas a investigar, sem negar a detecção.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

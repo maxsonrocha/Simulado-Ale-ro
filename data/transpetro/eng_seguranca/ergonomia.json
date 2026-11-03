@@ -206,5 +206,26 @@
     "explanation": "A sequência correta limita blocos a seis minutos, dá seis minutos de recuperação a A e não deixa lacunas. Blocos de oito ou dez violam o máximo; retorno de A em t=7 dá só um minuto de recuperação; iniciar B em t=8 deixa intervalo descoberto. O arranjo é uma premissa do exercício, não prescrição de pausas da legislação.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0179",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "compatibilidade_entre_tarefa_e_informacao",
+    "difficulty": "muito_alta",
+    "statement": "Num console, um mostrador apresenta temperatura atual, mas a decisão depende de saber se ela cresce rapidamente. Operadores calculam mentalmente diferenças entre leituras memorizadas enquanto respondem a outras demandas. A proposta é ampliar apenas o tamanho dos algarismos. Qual revisão integra as exigências cognitivas com a informação necessária?",
+    "options": [
+      "Exibir tendência e valor legíveis, testando a decisão sob demandas concorrentes.",
+      "Aumentar só os algarismos e concluir que toda carga de memória foi eliminada.",
+      "Retirar a temperatura atual e mostrar apenas a cor do equipamento, sem relação com taxa de mudança.",
+      "Exigir memorização de mais leituras como substituta de avaliar o suporte à decisão.",
+      "Reduzir a frequência de atualização sem verificar se a tendência rápida continua detectável."
+    ],
+    "answer": 0,
+    "explanation": "Legibilidade de um valor não fornece automaticamente a tendência. A tarefa exige integrar tempo e valor sob demandas concorrentes; apresentação de tendência precisa ser avaliada no uso real.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

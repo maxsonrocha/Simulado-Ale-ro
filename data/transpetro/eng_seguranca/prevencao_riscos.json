@@ -280,5 +280,131 @@
     "explanation": "A pilha e o tráfego próximos podem alterar solicitações que sustentavam a análise. Sinalizar controla acesso, não comprova estabilidade; geometria de passagem e volume retirado não substituem avaliar essas sobrecargas. Não se fixa distância ou solução de contenção sem cálculo e dados geotécnicos.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0159",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "expansao_termica_bloqueada",
+    "difficulty": "media",
+    "statement": "Uma seção de tubulação cheia de líquido fica isolada entre duas válvulas e depois é aquecida externamente. No cenário, o líquido se expande e não há volume livre nem alívio previsto. Qual mecanismo deve ser avaliado?",
+    "options": [
+      "Conversão de toda expansão em vazão através de válvulas perfeitamente estanques.",
+      "Impossibilidade de variar pressão sem funcionamento da bomba.",
+      "Eliminação da energia interna pela simples posição fechada das válvulas.",
+      "Redução obrigatória da pressão porque não entra novo líquido.",
+      "Aumento de pressão pela expansão térmica em volume confinado."
+    ],
+    "answer": 4,
+    "explanation": "Aquecimento pode elevar a pressão de líquido retido sem entrada de massa. Isolar não equivale a proteger contra expansão térmica.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0160",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "jato_sob_pressao",
+    "difficulty": "alta",
+    "statement": "Durante uma busca de vazamento hidráulico, um técnico propõe passar a mão perto de uma conexão para sentir o jato. O fluido é claro e a falha pode produzir um jato fino sob alta pressão. Qual abordagem enfrenta o mecanismo de lesão por injeção?",
+    "options": [
+      "Eliminar a exposição da mão e planejar inspeção adequada às energias presentes.",
+      "Usar a ausência de dor imediata no primeiro contato como critério para continuar a busca.",
+      "Aceitar o contato se a temperatura do fluido estiver abaixo da temperatura corporal.",
+      "Usar luva para abrasão como confirmação de proteção contra qualquer jato hidráulico.",
+      "Fazer a busca tátil apenas com o equipamento sem movimento, mantendo a linha pressurizada."
+    ],
+    "answer": 0,
+    "explanation": "Jato fino sob pressão pode penetrar tecidos. A busca pelo tato expõe a mão ao mecanismo; ausência de corte prévio ou transparência não demonstra segurança.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0161",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "ferramenta_e_velocidade_admissivel",
+    "difficulty": "alta",
+    "statement": "Um disco indica velocidade máxima inferior à rotação da esmerilhadeira em que se pretende instalá-lo. Diâmetro e furo permitem encaixe. Que decisão é coerente com a compatibilidade mecânica, sem tratar o encaixe como critério suficiente?",
+    "options": [
+      "Remover a indicação do disco para adotar apenas a placa da máquina.",
+      "Não usar essa combinação e selecionar conjunto com velocidade e demais características compatíveis.",
+      "Aceitar o disco porque encaixe geométrico demonstra resistência à rotação.",
+      "Usar o conjunto em ciclos curtos, pois duração substitui compatibilidade de velocidade.",
+      "Compensar a incompatibilidade segurando a ferramenta com mais força."
+    ],
+    "answer": 1,
+    "explanation": "Compatibilidade geométrica não garante resistência na rotação imposta. Deve-se respeitar a velocidade admissível e avaliar as demais condições do conjunto.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0162",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "trabalho_simultaneo_e_admissao_de_ar",
+    "difficulty": "alta",
+    "statement": "A parada de um tanque prevê pintura interna e, simultaneamente, serviço a quente junto à tomada de ar do ventilador que o atende. Os serviços foram avaliados separadamente. Qual interface é prioritária?",
+    "options": [
+      "Tratar a tomada de ar como limite que impede a passagem de emissões externas.",
+      "Aprovar por separação física das equipes, sem examinar o trajeto do ar.",
+      "Avaliar se gases e partículas do serviço externo podem ser levados ao interior pelo sistema de ventilação.",
+      "Considerar a ventilação proteção contra qualquer contaminante que entre na tomada.",
+      "Usar apenas os horários de cada permissão como prova de ausência de interação."
+    ],
+    "answer": 2,
+    "explanation": "O sistema que fornece ar pode transportar contaminantes de outra atividade. As avaliações separadas precisam ser integradas na interface entre geração externa e admissão.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0163",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "transiente_e_celeridade",
+    "difficulty": "muito_alta",
+    "statement": "Para uma triagem ideal de golpe de aríete, use Δp=ρ·a·Δv quando o fechamento ocorre em tempo menor que 2L/a. Dados: ρ=1.000 kg/m³, a=1.000 m/s, L=200 m, Δv=1 m/s e fechamento em 0,20 s. Qual conclusão resulta do modelo fornecido?",
+    "options": [
+      "O fechamento é lento por comparação com 0,40 s e a elevação é 1 MPa.",
+      "O fechamento é rápido e a elevação é 0,40 MPa por usar o tempo como pressão.",
+      "O fechamento é lento e não pode haver transiente por estar abaixo de 1 s.",
+      "O fechamento satisfaz a condição rápida de 0,40 s e a elevação estimada é 1 MPa.",
+      "O fechamento é rápido e a elevação é 1 kPa."
+    ],
+    "answer": 3,
+    "explanation": "2L/a=400/1.000=0,40 s; 0,20<0,40. Δp=1.000×1.000×1=1.000.000 Pa=1 MPa. É triagem ideal, não dimensionamento completo do sistema.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0164",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "caminhos_de_reacao_em_teste",
+    "difficulty": "muito_alta",
+    "statement": "Um teste pressuriza trecho de tubulação com uma tampa temporária. O suporte foi verificado apenas para o peso do trecho; a reação axial da tampa será transmitida a uma ligação deslizante que não foi projetada para retê-la. Uma proposta aumenta a capacidade vertical do apoio, mantendo a ligação deslizante. Qual avaliação enfrenta a lacuna?",
+    "options": [
+      "Autorizar o teste porque aumentar uma capacidade do suporte aumenta automaticamente todas as demais.",
+      "Usar a resistência ao peso para dispensar a verificação dos esforços da pressurização.",
+      "Aceitar o reforço vertical como comprovação de retenção da tampa em qualquer direção.",
+      "Verificar a reação axial, seu caminho de transmissão e a retenção temporária; reforço vertical não demonstra resistência axial.",
+      "Considerar que uma ligação deslizante elimina a reação da pressão, sem examinar deslocamento."
+    ],
+    "answer": 3,
+    "explanation": "Peso e reação axial são ações diferentes, com caminhos de carga e contenções distintos. O reforço vertical proposto não demonstra retenção axial da tampa ou da ligação durante o teste.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

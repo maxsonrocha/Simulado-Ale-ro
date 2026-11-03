@@ -206,5 +206,26 @@
     "explanation": "A especificação combina disjunção de incêndio com aviso de falha sem supressão. Logo ambas as saídas aparecem. Exigir saúde de todos os canais cria bloqueio indevido. Não há cancelamento, conversão para normal ou requisito de dupla confirmação no caso.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0178",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "continuidade_de_barreiras_passivas",
+    "difficulty": "media",
+    "statement": "Uma parede resistente ao fogo recebeu passagem de cabos. A abertura ficou sem sistema de selagem compatível com a parede. Que função da compartimentação deve ser verificada prioritariamente?",
+    "options": [
+      "A continuidade da barreira à passagem de fogo e fumaça no atravessamento.",
+      "O fechamento aparente com material genérico, sem comprovar compatibilidade do sistema.",
+      "A resistência nominal da parede intacta, sem considerar o efeito da abertura.",
+      "A ampliação da detecção, tratando o aviso antecipado como recomposição da barreira.",
+      "A troca dos cabos por tipo de menor propagação de chama, como substituta da selagem."
+    ],
+    "answer": 0,
+    "explanation": "O atravessamento pode interromper a barreira passiva. Detecção, potência ou acabamento não restauram a continuidade do sistema de compartimentação.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

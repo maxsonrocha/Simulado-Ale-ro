@@ -1,0 +1,3245 @@
+{
+  "metodo": "Confronto editorial por cenário, conceito, operação e distratores, usando inventário dos 200 antigos e registros de resolução dos 100 novos. Triagem automática de todos os pares é lexical; não se afirma revisão humana independente de 24.950 pares nem certificação automática de originalidade.",
+  "inventarioAnterior": [
+    {
+      "id": "TP26-ENGSEG-ESP-0001",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_armazenada",
+      "sha256": "1a7d7c6a70a55b5dd9354265fea72b7885b8ecb82bb43d43068712621e74bab1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0002",
+      "assunto": "prevencao_riscos",
+      "subassunto": "hierarquia_controles",
+      "sha256": "f6648689322d21ca0a8d0f61b5f5faac798baf35c8dbe906b70f0699b8fecf64"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0003",
+      "assunto": "prevencao_riscos",
+      "subassunto": "movimentacao_cargas",
+      "sha256": "bf8beb96803bae7f157ca096c2fb9df5e7ffe6353fd6dab2283ad0a44d3664ae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0004",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_mecanica_bloqueio",
+      "sha256": "0305561fc5a80698bd3d26c023f78ed8e0dfc69e60e497c65a827e399dd056e5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0005",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ventilacao_espaco_confinado",
+      "sha256": "d87ad62abea49f48fcd4dfc86818d57812e8fa120480ba4a607ba1e8dcaae86f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0006",
+      "assunto": "prevencao_riscos",
+      "subassunto": "intertravamento_maquinas",
+      "sha256": "4e99dea99312f5f4630746e12b8f4d06a8f459e5b765888e087d02b37e49fcbb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0007",
+      "assunto": "prevencao_riscos",
+      "subassunto": "produtos_perigosos_compatibilidade",
+      "sha256": "c0b9a94f7bee920312734b4174c6ad747257d9424094e425f6f0a60f68a9376c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0008",
+      "assunto": "prevencao_riscos",
+      "subassunto": "trabalhos_a_quente_fontes_ignicao",
+      "sha256": "523ba6ed6a0ba51224c501f6693f537c2f0ebe8d384da0eee392643685df2734"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0009",
+      "assunto": "prevencao_riscos",
+      "subassunto": "pressao_forca_geometria",
+      "sha256": "f42cc5dfd93bd46d6cb460fe9a6cfbc6ed2047307e2d75078ef5267efc96f083"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0010",
+      "assunto": "prevencao_riscos",
+      "subassunto": "estabilidade_tombamento",
+      "sha256": "2476c2156368963c414114fded3b41f8bf6acd6818f27182ebf873b016a4254e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0011",
+      "assunto": "prevencao_riscos",
+      "subassunto": "falha_causa_comum_barreiras",
+      "sha256": "b6c5ab0358844e2ff50f30b97746415389459c290770d2ffe9f31f662cac1f06"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0012",
+      "assunto": "prevencao_riscos",
+      "subassunto": "mudanca_operacional_multiplos_riscos",
+      "sha256": "ad9411ef95d17a9439354732882ea283d19c532dfd692df006e86552f5d68d62"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0013",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_volume",
+      "sha256": "104fa7e1b26ce762de1ceee7899a44c67b6a548a4252147cf88c632056923387"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0014",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "branco_analitico",
+      "sha256": "5c221564baa62d62a103d90efa96db817d4dc4b8e40ba8779cffe41bafea717c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0015",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "media_temporal",
+      "sha256": "11a85a98c713495086d934215aacbd3c32ed2fd3a3d4a202171472b5a96174fa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0016",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_soma_energetica",
+      "sha256": "9821d9c9c8307653a460ddcc898bb440fcb6cc5e0bc870ce39e890445e67dab9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0017",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ventilacao_balanco_massa",
+      "sha256": "87ad04c7bd5ca5b5697f876779a48a4d90db98b0bdfea9b7c2affc8ae2ca0721"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0018",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "fracionamento_aerodispersoides",
+      "sha256": "fcc37e58c4a0b3211d5cffcd539eea5c12c0c525c5314336d085a965abf799cc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0019",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "picos_exposicao",
+      "sha256": "5513b152f58f0d03c72744a361f886b3ceda1b68430682f5484074ee2d0158d0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0020",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "incerteza_medicao",
+      "sha256": "3e017cbb6f90c6ef8de4a2e3199926bee2dce7a24238fd72dece3a5253609222"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0021",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "protecao_respiratoria_diagnostico",
+      "sha256": "d9dc45f7e848ef5d9692a836d530d325391faf3d7f195b86851358f23ed641a8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0022",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "estrategia_amostragem",
+      "sha256": "6c40b1049d1efceb05e63c7262662e3c4c52ee1aae6c65d6abfc033ce00e0ce7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0023",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calibracao_deriva_vazao",
+      "sha256": "9255d3ab869a528d2a2cfc05d38610fd2c938c3e2c73fcedc4937c9f4180f0c5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0024",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "mistura_concentracoes_fluxos",
+      "sha256": "1a5256c9c805162e382f8531347b31078282d5bed44501fb11c9a67753bdc3e1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0025",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_reducao_energia",
+      "sha256": "3a5ae7baf77578422cc601468fd10cbefddbf4d2ffb816e8d10d35e515c07c43"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0026",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "valores_abaixo_quantificacao",
+      "sha256": "845ad3de35ff468e32e01bbc9e60932f90f758406939068e05852e1ed73b6606"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0027",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calor_balanco_termico",
+      "sha256": "87f45c834ab7e0506d5f6b2450170bb0fa946f01dcc0e6b5c0ef2968726c18f7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0028",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "radiacao_distancia_tempo",
+      "sha256": "5942aa5d7cf17c3785d8730e60f809e3d03cdf3870d8abc83e6a167f3827ac01"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0029",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_consequencia",
+      "sha256": "a7f3b94a4a6c49d35c29e3f29c7bfb92ad20c1c2836c63ddd62a6cb76da8312b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0030",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "apr_escopo",
+      "sha256": "aca7e8b9ebc27497019d42cd8937bd2779c89965171f20f660033288de8c43c7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0031",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "hazop_desvio_causas",
+      "sha256": "9bf8949dd0bacd5319b97eeebee32aa60af6dc0ddfb1f3537535b1c4cc7e50e2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0032",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fmea_criterios_decisao",
+      "sha256": "1b5b72f3267c15c814fffc3800bf3de8081009d9b9c4bf8ce26f597ac1883b04"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0033",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_falhas_ou",
+      "sha256": "02308fccf6e50103267e31e695ab03e046f6e6f1ad665fb7e10718313082dad9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0034",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "risco_individual_social",
+      "sha256": "3e848f7e1b81e0557f173baa64bbbcbae837747fa772b05fc9c0f7b5a120b154"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0035",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "analise_sensibilidade",
+      "sha256": "161611c71acc2e549646d7684e96e286f7319f63bb452d74a0abf84106f2c6b8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0036",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "bow_tie_posicao_barreira",
+      "sha256": "1bb6685cf847bd224275b49f905ef5fece64a3d2913f6deb3e71610fda5c350f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0037",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_eventos_terminais",
+      "sha256": "8331584e0c1ed66fb4a704aaafb8098eb512c908b7f71a71b374a185e5c026e4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0038",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "dependencia_condicional",
+      "sha256": "7805f6914e91cf36246a2e876fd7d52e9018f364d928eb1164bf024df2d419cb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0039",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "alocacao_reducao_risco",
+      "sha256": "cb7a7ae6220269423537e8ef52ec7a260aff2d685614661e20a53027fea2c267"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0040",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "causa_comum_quantificacao",
+      "sha256": "d0574f6ae753adece3b0f4849865e32d1f47210ec4b6761af18aff925c6f6b85"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0041",
+      "assunto": "gestao_sms",
+      "subassunto": "evidencia_auditoria",
+      "sha256": "41d2280f9c1f28ce0ebf37f68c4d229d361e1ce45558804c8e0f64123bd4b72f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0042",
+      "assunto": "gestao_sms",
+      "subassunto": "indicadores_proativos_reativos",
+      "sha256": "be62ffc93450e2f999e4ff9c5297008fe616fdbaf9a4130767eaf7d1bf268b31"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0043",
+      "assunto": "gestao_sms",
+      "subassunto": "eficacia_acao_corretiva",
+      "sha256": "409ab3b3acfcdcb78ce4903bbfa254bad77fc00646328ed198a0743eb83df29d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0044",
+      "assunto": "gestao_sms",
+      "subassunto": "comparabilidade_indicadores",
+      "sha256": "aad91a1674f0f7b172d47cac3f39677d5671acfb93225124d8bf974b8cbfc401"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0045",
+      "assunto": "acidentes",
+      "subassunto": "evidencia_causa_investigacao",
+      "sha256": "599bf76c300fc27db4d185c6e1f68605dc32257b4a7a4a4a6270f126eb951f1d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0046",
+      "assunto": "acidentes",
+      "subassunto": "taxa_frequencia_denominador",
+      "sha256": "ffb90ca224b09fe3073615c6b3d859831f5bc1667a05df430572a6c757397e18"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0047",
+      "assunto": "acidentes",
+      "subassunto": "causa_imediata_sistemica",
+      "sha256": "98e2e14416e23ce4a4849fce5e620bb3a05e46de254264ab8b93c050d5d0c9a9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0048",
+      "assunto": "acidentes",
+      "subassunto": "composicao_taxas",
+      "sha256": "6e8bc51e016b30ee7d5b618f1420a2dba324ebb7ee4da7eb424bbd783c1bbf77"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0049",
+      "assunto": "emergencias",
+      "subassunto": "reconhecimento_recursos",
+      "sha256": "4aeff3c8797bcbad2ce03dc79193719f6fb581f9017c8845abf7ff8d40011f6c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0050",
+      "assunto": "emergencias",
+      "subassunto": "comando_coordenacao",
+      "sha256": "15ac63ecbe9f6c9969d9b57e7cbef4fdd9daf7eebf8d1e307448937f8f3b1894"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0051",
+      "assunto": "emergencias",
+      "subassunto": "rotas_evolucao_cenario",
+      "sha256": "14dcd218c025bb459cf15a90ab2486dc410892d97d8782e4dc37b2b06aac3160"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0052",
+      "assunto": "emergencias",
+      "subassunto": "mobilizacao_caminho_critico",
+      "sha256": "fc13df41ef28b50c31373cca343457cdd6a1dd02da506696400a552f85339230"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0053",
+      "assunto": "incendio",
+      "subassunto": "mecanismos_extincao",
+      "sha256": "a2fbb667700fa469dfa31f06670c297123276a4f76078e494581762246871abd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0054",
+      "assunto": "incendio",
+      "subassunto": "selecao_agente_compatibilidade",
+      "sha256": "6bda8db98fd81cdb79db604db0c389923b7b5cf969d090f755a789e31b84d61a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0055",
+      "assunto": "ergonomia",
+      "subassunto": "trabalho_real_variabilidade",
+      "sha256": "d3fef262737e146c0b3891da58c87848ffea1ffe95e32791f402a7592143b08a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0056",
+      "assunto": "ergonomia",
+      "subassunto": "carga_cognitiva_interface",
+      "sha256": "3c826c55c3a8f41e693c501165a58a24517c7668c2e2774b89a105dcf2328b5d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0057",
+      "assunto": "saude_ocupacional",
+      "subassunto": "vigilancia_dados_coletivos",
+      "sha256": "672fa551b3ec3e362f3c2ef7bdd904024c27f1a90c46b2001e6a004a220c875d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0058",
+      "assunto": "saude_ocupacional",
+      "subassunto": "comparacao_prevalencias_composicao",
+      "sha256": "4b5307565df6a07a1cfda45e0fa9e9dea56cf38e57f38f5b724ff13534980392"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0059",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "ciclo_vida_fronteiras",
+      "sha256": "2bdbc9f4bdadd42b10a14e077c9ea59a4a1b4510e48bba67a40853cf2e2e4eb5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0060",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "intensidade_volume_multicriterio",
+      "sha256": "fcc52e46a0f258fa6b2c8b48dcbb178540c26091573686e53efd83d178576879"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0061",
+      "assunto": "prevencao_riscos",
+      "subassunto": "equipotencializacao_cargas",
+      "sha256": "0ffd3db2d80f661e1b028fe0e9a1e2de6203949512a839c106ea977cbbff334f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0062",
+      "assunto": "prevencao_riscos",
+      "subassunto": "escavacao_sobrecarga_entorno",
+      "sha256": "fd3d1aafbb5035033620062df890cd54159daca6a511cf56775b778b83bdf582"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0063",
+      "assunto": "gestao_sms",
+      "subassunto": "escopo_terceirizacao",
+      "sha256": "837da276ceac4bdf500425bd21ab658928d0e1de858e1cb2e8050d05f76d6e0a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0064",
+      "assunto": "gestao_sms",
+      "subassunto": "consulta_trabalhadores",
+      "sha256": "4acbaebf5cd2ef490097c8c566505e9a396325c21b7e24ce43d362c802603cdb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0065",
+      "assunto": "gestao_sms",
+      "subassunto": "revisao_documental_pontos_uso",
+      "sha256": "241e43ab3d2f211082a667c2297f9e1fa20b93d9ef468e0311255ba1cb5882a1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0066",
+      "assunto": "gestao_sms",
+      "subassunto": "imparcialidade_designacao_auditor",
+      "sha256": "f038bea1421290d333cafe6131cb2bffaf4ba82021d69abe9cb4878d31eb3921"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0067",
+      "assunto": "gestao_sms",
+      "subassunto": "responsabilidade_interface_contrato",
+      "sha256": "8e552826c36d3c0a749df445ca0faef884fa38ee8a3f8efcca31e03c9384cb98"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0068",
+      "assunto": "gestao_sms",
+      "subassunto": "auditoria_trilha_transversal",
+      "sha256": "1402b12f0023327c93cc544f426d88107a7f1158c09ca67790b1998a1bac1753"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0069",
+      "assunto": "gestao_sms",
+      "subassunto": "confidencialidade_divulgacao_operacional",
+      "sha256": "a745b614c40bfacca40b8ce46e0068249d8408f4ac4aca21413469917ca6bdd7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0070",
+      "assunto": "gestao_sms",
+      "subassunto": "amostragem_sem_reposicao",
+      "sha256": "d6a3ceed748215b346803dd50d422d9eabb50f7676d47c9508bb2c0d28c2c687"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0071",
+      "assunto": "gestao_sms",
+      "subassunto": "compatibilidade_versoes_requisitos",
+      "sha256": "d24f19c4f1c1270572b9c679b85c41849604f362584e4535ee9ec7c642ae4955"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0072",
+      "assunto": "gestao_sms",
+      "subassunto": "designacao_segregacao_disponibilidade",
+      "sha256": "4cf4232cc1723e1d198e5db6caff017ad73c2b92414f385c9a8d1ae59784084f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0073",
+      "assunto": "acidentes",
+      "subassunto": "classificacao_tecnica_evento",
+      "sha256": "d3837263e6b30d02e30e92bf7bdb78e303a288ebd9a687d4de4a482cb2df45f8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0074",
+      "assunto": "acidentes",
+      "subassunto": "unidade_registro_evento_pessoa",
+      "sha256": "38e30abdac2d441776bb6c6cfc1a0919b4b71884253bcb87c3fa44f0b9532ca5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0075",
+      "assunto": "acidentes",
+      "subassunto": "custos_contabeis_recuperacao",
+      "sha256": "3b79ba8f2e4d56eae02fdea16a410118c645ec00e1facc001c3e49e587190275"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0076",
+      "assunto": "acidentes",
+      "subassunto": "entrevista_nao_indutiva",
+      "sha256": "bb52f0d83148577e3c056eb22b65f7f2386634bebe92fa7ee486e0086bfd72fb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0077",
+      "assunto": "acidentes",
+      "subassunto": "preservacao_evidencia_original_copia",
+      "sha256": "51222811dd0538c106c21ea2a2860a2b09a9d3ddd459ae51bbc14b81f8f2e2f6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0078",
+      "assunto": "acidentes",
+      "subassunto": "arvore_causas_condicoes_minimas",
+      "sha256": "56e711c7026b14a5c5b0ff57dc7feeca33c673f529c9025fb7e63ef413424daf"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0079",
+      "assunto": "acidentes",
+      "subassunto": "dias_pessoa_sobreposicao",
+      "sha256": "ab1891bbf6a555ecaf0e69cb2aa7fb1e62f4e0e7c7bd1272c48e1c27b7c8a62b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0080",
+      "assunto": "acidentes",
+      "subassunto": "estimativa_registros_duas_fontes",
+      "sha256": "6a7328026fc499788b63e45e7accc377f45ad74581db9c6de7fbe3c5ef2da941"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0081",
+      "assunto": "acidentes",
+      "subassunto": "limite_frequencia_zero_eventos",
+      "sha256": "1965178d07d4764fb7860c2ca223efb2b91b5808be04d74bf26513e1184c0039"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0082",
+      "assunto": "acidentes",
+      "subassunto": "teste_discriminante_hipoteses",
+      "sha256": "6f7fe10268a3b35675a53d9b6be2da682e6c004013c7ed3ab23b5801afc98cbc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0083",
+      "assunto": "emergencias",
+      "subassunto": "comunicacao_retorno_fechado",
+      "sha256": "e60b10a177fa4f080d1b4345ef7873721560266c99094bb35f7dd186243e4a55"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0084",
+      "assunto": "emergencias",
+      "subassunto": "conferencia_presencas_manifesto",
+      "sha256": "b073eea6b630a972e41968839c5819c0e5d567dbb002ee1e0c0fb8201d61ceb7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0085",
+      "assunto": "emergencias",
+      "subassunto": "compatibilidade_recursos_conexoes",
+      "sha256": "8e90ae8df72498a5a261d87e0ee21ccf72e4b5c5b5a45f42e2f257f67811c244"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0086",
+      "assunto": "emergencias",
+      "subassunto": "comunicacao_publica_status",
+      "sha256": "a550f56449d973181f691bf7d6d67848fb7b2d9a3676a4bbb41f7abdc1f64aec"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0087",
+      "assunto": "emergencias",
+      "subassunto": "plano_pessoas_necessidade_assistencia",
+      "sha256": "f8389f96440a854929d11c73c7d84c089aca692f29677fe4169fa2eeba4232fc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0088",
+      "assunto": "emergencias",
+      "subassunto": "transferencia_comando_estado_resposta",
+      "sha256": "19607fe3a76a52a52deb245d40591754a84a2c1c6ed528366814660afce63f9e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0089",
+      "assunto": "emergencias",
+      "subassunto": "escoamento_rede_gargalo",
+      "sha256": "fff5c36414aac5e004f5ee8861c8947c24f702e3da2cff7a103da8d39ef6d6c2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0090",
+      "assunto": "emergencias",
+      "subassunto": "estoque_retorno_requisicoes",
+      "sha256": "5514199a16dcc827ec964769d47c640518221d5bce0b0b9cb1d83ab1ebbb49bc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0091",
+      "assunto": "emergencias",
+      "subassunto": "propagacao_informacao_atualizacao",
+      "sha256": "b9ca82eabb5a1df1ee6ab716cc31291f29a9f2b5e916ee95983063e52344f170"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0092",
+      "assunto": "emergencias",
+      "subassunto": "decisao_minimax_perdas",
+      "sha256": "12e1e32291976be9aded29d244ef5fa13e53ec971412d309e59494ebc57bfea7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0093",
+      "assunto": "incendio",
+      "subassunto": "transferencia_calor_radiacao",
+      "sha256": "98214d338cb259eb08d05ad33e003c07c06a3ed357afd5c92dd4e0b62a098b75"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0094",
+      "assunto": "incendio",
+      "subassunto": "mistura_rica_diluicao",
+      "sha256": "e25f5bc424fe987863ffcd5e66fe2a653148affe682bd8d0e69fd479f8e1d42c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0095",
+      "assunto": "incendio",
+      "subassunto": "pressao_residual_perdas",
+      "sha256": "3bcae9438e44701c692373f28d8981dd473deaf1f1a3a974bf199a10c0b419b6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0096",
+      "assunto": "incendio",
+      "subassunto": "flashover_backdraft_distincao",
+      "sha256": "f241a723eb582b1aaaf9ab1fd2b050c7cb039f0672c96d58165d43aede1d2ea1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0097",
+      "assunto": "incendio",
+      "subassunto": "deteccao_optica_obstrucao",
+      "sha256": "df0a3de2b6233031d18a26c6ea7df17b6756c720d599b2d61c5c51bd11d6307c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0098",
+      "assunto": "incendio",
+      "subassunto": "ponto_operacao_curvas",
+      "sha256": "3bc6bd7da0b5b313fdedb4ad94a8a015618b47c8224d99d82e9ec8e48a4d6aaa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0099",
+      "assunto": "incendio",
+      "subassunto": "balanco_agua_janelas_demanda",
+      "sha256": "9baed7eb4a06ca378676249e96303bc037e0d29287860fbedfc8ff8d9c8d66da"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0100",
+      "assunto": "incendio",
+      "subassunto": "logica_supervisao_alarme",
+      "sha256": "9bca091dcf798617527b62cdfc4ece7cc2fada79b0e830a63f475063b4ca482f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0101",
+      "assunto": "ergonomia",
+      "subassunto": "esforco_estatico_dinamico",
+      "sha256": "0e52eca49df7af91ecefdee956da1e9e99fb648b54e646442dbbc1baecb97619"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0102",
+      "assunto": "ergonomia",
+      "subassunto": "ajuste_antropometrico_intervalos",
+      "sha256": "5c26465e27e9bf619f02db40e16894257197d74c7aa65b26a4e62de5d5a16ed5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0103",
+      "assunto": "ergonomia",
+      "subassunto": "compatibilidade_controle_mostrador",
+      "sha256": "5ae64b4e57e7f47117a6b1f4dbb124186b5cbec96da221e6e6dace468ca44346"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0104",
+      "assunto": "ergonomia",
+      "subassunto": "movimentacao_dupla_sincronizacao",
+      "sha256": "dc44418db3a2060983ea817e23793f2c3b7105a18aa133fde87168fb2276209d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0105",
+      "assunto": "ergonomia",
+      "subassunto": "rodizio_exigencias_semelhantes",
+      "sha256": "4eeeb4e33f522093c7bfd0ee12f746644b3f68626378fdcbfc35e384c539290f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0106",
+      "assunto": "ergonomia",
+      "subassunto": "tempo_escolha_navegacao",
+      "sha256": "0cf45b671a11e3a7e01f44200d8d55a944f4e5ca56d23dbe179f3e86c3aece3a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0107",
+      "assunto": "ergonomia",
+      "subassunto": "legibilidade_angulo_visual",
+      "sha256": "baaca1e630346688d30f1f2c0b5950e7ece2b0fbda623528a093350d83c079db"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0108",
+      "assunto": "ergonomia",
+      "subassunto": "revezamento_janelas_recuperacao",
+      "sha256": "823c80befca756933136d64cd914d5f1f2606009927a72101e85207c7035327e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0109",
+      "assunto": "saude_ocupacional",
+      "subassunto": "incidencia_coorte_sob_risco",
+      "sha256": "bd3f75677ac69c4cacb35ccba390be8926c81ac8a642972f2d4b77497dd33695"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0110",
+      "assunto": "saude_ocupacional",
+      "subassunto": "especificidade_tabela_teste",
+      "sha256": "18f96489cbc220b147762fe26e93361e9a3fa58a5f6e730eda34f89be61d9489"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0111",
+      "assunto": "saude_ocupacional",
+      "subassunto": "biomarcador_janela_temporal",
+      "sha256": "029ec50673da20cbd78fa39c0b7f131212d1fde17a18b00dbe0d205ff47c4ede"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0112",
+      "assunto": "saude_ocupacional",
+      "subassunto": "qualidade_cadeia_conservacao",
+      "sha256": "bab4be2c6073979856ffe8290a1344efa3f6f52a9f3e30cfa846198797da3981"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0113",
+      "assunto": "saude_ocupacional",
+      "subassunto": "acompanhamento_pareado_baseline",
+      "sha256": "4260eef0fe335450f190698a11ebf191921835021bf0cee345a06e081522a64b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0114",
+      "assunto": "saude_ocupacional",
+      "subassunto": "valor_preditivo_bayes",
+      "sha256": "9402e14f3341a325d92b15fb59be4be16dec8a3715905dd6ec30907bc04e8a3c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0115",
+      "assunto": "saude_ocupacional",
+      "subassunto": "densidade_incidencia_pessoa_tempo",
+      "sha256": "7fab20c2a0e63940bc0e2551779ab09436fcc01cb8f280a6400e8bfee3a333e2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0116",
+      "assunto": "saude_ocupacional",
+      "subassunto": "perdas_seguimento_selecao",
+      "sha256": "71c312ced976b9ccb4224472408c23311f435a2a84258e44fca9740cfc9c0c09"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0117",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "projeto_desmontagem_reparabilidade",
+      "sha256": "c073c7c36824ba969e687af77fa37ef262843fcf3df97d2ac2ba238cf008cdd0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0118",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "carbono_estequiometria_captura",
+      "sha256": "08add89859d4ac6dd9c6266285735c5e1a15cd5a74fc3bbaa5440b18e9c0df1e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0119",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "conectividade_habitat_traçado",
+      "sha256": "ed9f5b119c8805c9ff8109af04ba4ba5d01b87e8cd9c50be1b78b6be77e9e09b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0120",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "armazenamento_eletrico_emissoes",
+      "sha256": "50e9865c437bb3de0f6e8ecfbf055b1dd88bb51697749f4d36d8593f0d67b7e6"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0001",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "main_idea_time_reference",
+      "sha256": "63717680ebbe007aa4df7098f165aef5dfce3b3347bea9078bd9a76bc59db080"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0002",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_and_traceability",
+      "sha256": "61e6535ba0f1e3761a5f6d6d32c4f2fcce4de92cb5486b728457d06fabff4729"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0003",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_receipt_performance",
+      "sha256": "6227ae91a25b179c7256ed6aef07afaa770c34128ce34b3189eacc547d55f43d"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0004",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "transfer_after_procedural_change",
+      "sha256": "35d20700e0a1f5b97015ea9421154250aee907bae46aa2bf92ea7a369a240359"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0005",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "vocabulary_in_context",
+      "sha256": "6e39681a197e1a8a92607e02e138b687a081fefbab5147a98cec3f6a87609442"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0006",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "cohesion_contrast",
+      "sha256": "2e438349a5b67c04015ad834c01752d3300a3bb6ac2b0d920e67241930165625"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0007",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "scope_of_evidence",
+      "sha256": "dd92da670c1288519af05f86080772d1b3e459f26558642a8f8d504a3e60cf7c"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0008",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integrating_two_limitations",
+      "sha256": "fcd406e5c0d68895770e3803de6a74a255e6f070d23254d37cf55f7ca35abf02"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0009",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "purpose_and_qualification",
+      "sha256": "24f69652903428ffb84a10dabbfea9cab32f9577fb3e075e126d1c7ca934eaea"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0010",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_inference",
+      "sha256": "8a80fd7a9326d6f2a8054ebd1d83b1886987dda68508347b017a5fe2843d1a1f"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0011",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "pronoun_reference",
+      "sha256": "aee6dcd37b4a1479d40ad114c52cade3fe93be34ef3ebd8748b696df4df44b27"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0012",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "semantic_distinction",
+      "sha256": "781e519480130870787db08c0357a4846e55455fcab15e1543056addec9315c1"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0013",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "comparison_criteria",
+      "sha256": "130342cb1c8833969a545baf7c998e23853f23ce033e799e7a48e583800cc1fb"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0014",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "joint_constraints",
+      "sha256": "7b417b3b5f7c2902471703cd2086050103c115a891785b370b7e849b78e14387"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0015",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "grammar_meaning",
+      "sha256": "54916fe3ae358d4aa4c782a29e83d529e7e96056889f4e81f4122803e0c8be7a"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0016",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "evidence_and_observation",
+      "sha256": "a341acca3b1bec096ef6e51e77714653bab8cd6f635bc7d4dee95ce526daf88a"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0017",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_proposed_actual",
+      "sha256": "ffe748d5feefd6be49a347d655441b47001ede2f16b58b975bb8414aa4075b2d"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0018",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_limits_usefulness",
+      "sha256": "dea1fe36069759f18bc2cade79335a8ea5b9c39a885332b77d7771e723fb359f"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0019",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "aggregation_and_relevance",
+      "sha256": "bc7176d5c7b45c2618d3d4f6c6d6313ea4b5e30b29946086579938ab6674af91"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0020",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "decision_under_evidence",
+      "sha256": "cf5c9e7ff6cfdc8da8b55acfb1e2e863dd451789a91c3db56c300cc039c1caf8"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0021",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "genre_and_purpose_catalogue",
+      "sha256": "9e7f77025f23f055cc3da885df70d4ea2abde95aa963d772d17f3e92e36ef258"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0022",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "lexical_collocation_wear_missing",
+      "sha256": "fa8acd68ef7e141fd15405eef65cb0d70fd14814c8c777df6ed20dd90af3d254"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0023",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "backlog_context_process_stage",
+      "sha256": "359a468c498934a4e32da5ff81ad6e7f3024293b2fdd3791051535a344aee85d"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0024",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "temporal_dependencies_handover",
+      "sha256": "4c5d3eae5448917e01d6bfcdb36574cd2d08bb918fc6f055015f58ca9b2e7564"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0025",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "idiom_off_the_shelf",
+      "sha256": "66d309b38f8ea79a250b35a465a6c5139c1d7cefff6a1e640879f1cc049074a2"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0026",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_procurement_information",
+      "sha256": "0f6856157295f57c9a433c5e42fecb016f01d0c70f89ad1c7492f9ddb116e2db"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0027",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "fallback_role_not_obsolescence",
+      "sha256": "5163cd569962258d75453944b823f9b566d871965412e6cb982a35bf92e3164a"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0028",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_function_precondition",
+      "sha256": "942484a84dd07f8ad9a8576dcbb7489c312542b4b9b1413725a534e9aafe0ddc"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0029",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "explicit_unknown_vs_absent_entity",
+      "sha256": "a84bc83f2e0b0f19efee997fbb3fb5cc5df530fa2b96db5444593664325f7387"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0030",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "revision_epistemic_status_and_reference",
+      "sha256": "61f93f4a7ab798314e0b5b26ae65c7aad483bffc9ab3cefee59b94d4bf1fbae2"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0031",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "phrasal_verb_set_aside",
+      "sha256": "aee42f6021a45f0bfb830d3ee1162b21158557eb72176a66389e2d5f57dd38f8"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0032",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_retention_authority",
+      "sha256": "00ba17686bb6e82fadc03edb3a7178d06ef8f6860ca8405196dce77a848e4c09"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0033",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "few_a_few_perspective",
+      "sha256": "a18779090e23ddec0f562ef962c8686aea5ab4767f5f8195e6be260ec13d13ad"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0034",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "quantifier_rewrite_communicative_intent",
+      "sha256": "b0dc232de82e8ef491f704dd452d7ed91bf70474f0d38a1d3b759e86831fca69"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0035",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "figurative_technical_vocabulary_sandbox",
+      "sha256": "e3142d9b0e324c3485356c99d22e729c866e273dfccc247098715f02295a262a"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0036",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "passive_and_scope_release",
+      "sha256": "bc38f1bcdc6a0f8c9bef0dca0b4f977b50360c8dbf9a002f87e0a3d279b49f65"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0037",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inversion_after_fronted_only",
+      "sha256": "fe780a846ea93526803bcc6c448ad8d726a7b6be4d2900d2f5d3b6e1d5d6f987"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0038",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "tense_sequence_without_immediacy",
+      "sha256": "9a0c5e4ee8e4c076fbb969e4b06484ec84417c12499e2342486d195ae0ac7289"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0039",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integrated_attribution_conditions",
+      "sha256": "52f196585b3288c9a1a4f6edb2b67adc8ed45f232119a0cfb529990b38400b49"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0040",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "local_definition_avoids_overgeneralization",
+      "sha256": "024e4f5e74530d054ae8ebdad4ef56af51d35a7345b817960143cc7560bca242"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0001",
+      "assunto": "compreensao_textual",
+      "subassunto": "tese_evidencia",
+      "sha256": "113218a816c673b8e935549b587a1f8c33902a12ed23d41bef61c321a4c62714"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0002",
+      "assunto": "compreensao_textual",
+      "subassunto": "pressuposicao_argumentativa",
+      "sha256": "f78fbbfa4880805b08d8fb0aa89bf454050dc9ed0a9986d79949a1f83c8b21dc"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0003",
+      "assunto": "compreensao_textual",
+      "subassunto": "causalidade_textual",
+      "sha256": "d16427c9e01f01f028bf76a763fd3f53aac92cf9b46c5e7fd6456248f8226b25"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0004",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_controle_contrafactual",
+      "sha256": "a21339fdb4cc10838bfb6f6927caf77d95d74f48d1ff90088d40aadc8aed7e20"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0005",
+      "assunto": "compreensao_textual",
+      "subassunto": "modalizacao",
+      "sha256": "e2e6aa9e89f670545e7b128111dbb8724858e07de7f26814fc1bb30fad517a1e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0006",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_escopo",
+      "sha256": "50e6782245c8e62430f03209b25fea53373fc7ecb2cc7952377db3241cbfc183"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0007",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_sujeito_oculto",
+      "sha256": "93e043aa3f94b4e0cbdeecd14adf383a1216d1093bf4f88258dd7481bf50a09e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0008",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_agencia_regencia",
+      "sha256": "8b7724d6ea9f59c043ccd4dbb0ac558df1b937ff51a822ceb9fe80e062d3c317"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0009",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_contextual_precisao",
+      "sha256": "8fa926095d330068e98e699805066fd61225f5481e54b27703fae0c3773cbc55"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0010",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_quantitativa_argumento",
+      "sha256": "0b977499f10eda26846b8a409b41f0f845794e3f074af55ffdd81957a4902326"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0011",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_demonstrativo",
+      "sha256": "10d455c9197f6648b0668c994828d49656500185f7bf7acb35d783c9b4d549fa"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0012",
+      "assunto": "compreensao_textual",
+      "subassunto": "tempo_modo_finalidade",
+      "sha256": "3a87e7d7257f74e768e69533ee1ca6ecffb4aafeacc38312bb16e8182f7e7e1a"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0013",
+      "assunto": "compreensao_textual",
+      "subassunto": "concessao_coerencia",
+      "sha256": "4c289919f07915fa08a7ac61fd4c3e663804c96c9f6241e6ce7e8a22a98f5b4f"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0014",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_concessao_escopo",
+      "sha256": "a8fb472fdf2ed2dedc86c3e8ad306a9f47aaf5c170452441cb284a7335cc8e76"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0015",
+      "assunto": "compreensao_textual",
+      "subassunto": "pontuacao_restritiva",
+      "sha256": "9f6f19b690c4d8cf17ee8509f8d7e82b071eec03f635faf674ca4129eb24295c"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0016",
+      "assunto": "compreensao_textual",
+      "subassunto": "crase_concordancia_contextual",
+      "sha256": "a777bbea8f977f2e3fc215b5368c825cbb970ad9341decaaa7f713c6d7fd7786"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0017",
+      "assunto": "compreensao_textual",
+      "subassunto": "condicao_possibilidade",
+      "sha256": "565bccba6a62c1c9f325960c5894693586593415815b8a576d92653ae67b2eeb"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0018",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_condicoes_modalizacao",
+      "sha256": "513893b3157492b847d468a9f258b95c436732062dd8ef53ec5b3165dc4579d4"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0019",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_multiplas_explicacoes",
+      "sha256": "0bb47b162a5df2ad20b4eed48461c35670f5187ad6b83ee41915382013242a6a"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0020",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_relacoes_logicas",
+      "sha256": "648ba69df23bd074ce2e6bad4a8133b6b5afe1ba3873ffefbf7cfe49e7a80161"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0021",
+      "assunto": "compreensao_textual",
+      "subassunto": "metafora_alisar_experiencias",
+      "sha256": "315617c5735d7e56a99b9318bd70db4457eb9ba9573884e71d26ace58908b596"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0022",
+      "assunto": "compreensao_textual",
+      "subassunto": "genero_ata_relato_oral",
+      "sha256": "b05969e234d8ab58a2e11dc112c61223d9b7a15757613f66859b7a7b2222c205"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0023",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_figurado_personificacao",
+      "sha256": "249c32c767ed0c61666f4c2f9e3570d5c2b26ab245db1d801859749dd9b14e9f"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0024",
+      "assunto": "compreensao_textual",
+      "subassunto": "perspectiva_memoria_espaco",
+      "sha256": "22cf7c90e8c7eda55f0093233ee4ec2a9e4212baddfea9c1db21b0e8fd9ad01b"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0025",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_acessibilidade_textual",
+      "sha256": "14e4645e112b1048ffd01295eb0152f2fc7963e343f6336923a2daf05d6471d6"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0026",
+      "assunto": "compreensao_textual",
+      "subassunto": "correlacao_aditiva_focalizacao",
+      "sha256": "d9e14b06e61a8022d526f9a8b07423cffca8485953f70c829976422cdcb55220"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0027",
+      "assunto": "compreensao_textual",
+      "subassunto": "verbos_impessoais_tempo",
+      "sha256": "70aeb5b8adb71027fe8607e3d47955eb9f20edb412ec078e0ffe23a51afbcb2e"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0028",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_haver_existir_modal",
+      "sha256": "9bfbcc657329afa324eb6ef0a6884b68de0430bceac348cf40829bc07b8d5e2d"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0029",
+      "assunto": "compreensao_textual",
+      "subassunto": "coerencia_polifonia_editorial",
+      "sha256": "7a9f577034abbeae31502e0d237f5a3b612263fdcada22cc436cb2d341848496"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0030",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_atribuicao_vozes",
+      "sha256": "0bc45259ebafbd20dbf0784d8ec0df9af52b49a32cf0189c8cb5cdaf93b23b67"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0031",
+      "assunto": "compreensao_textual",
+      "subassunto": "discurso_direto_delimitacao",
+      "sha256": "3365416fa905c6a72972aa12545eb6d0900fc9003f3598657631b4b0c56adca6"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0032",
+      "assunto": "compreensao_textual",
+      "subassunto": "paralelismo_concordancia_pronomes",
+      "sha256": "e62e8346b6dea73dd127c10fa879f976491b82cd1aaf347c85670c6f9264767d"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0033",
+      "assunto": "compreensao_textual",
+      "subassunto": "metonimia_personificacao_agencia",
+      "sha256": "dd16f9b42f67c92e0883a0d66b59a7517655a9e6f999e86a2e21162ae7c0f3ec"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0034",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_figura_e_progressao",
+      "sha256": "6d7b4b6353cbb4eb6e53810500323e2b767aee6463c589a6e3ac94903fb4f297"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0035",
+      "assunto": "compreensao_textual",
+      "subassunto": "oracao_final_destinatario",
+      "sha256": "d8d3193ece6e9ef60346d276488f4bcc2c2c2a897226ed072a274ab9402741c8"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0036",
+      "assunto": "compreensao_textual",
+      "subassunto": "reducao_oracional_controle_sujeito",
+      "sha256": "0efbbf6fe7bce1c6566b0d02f37dd0aaf30abcd160c6763dd807003e3a27bf78"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0037",
+      "assunto": "compreensao_textual",
+      "subassunto": "ortografia_porques_funcao",
+      "sha256": "e76a63830524de2d3d505e0a274a50a867f6b21cddbc0ebd94713e9b685d6cf8"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0038",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_interrogacao_causalidade",
+      "sha256": "e6cfd31dd085c987045ffd230cc9cbfcf6a7bc550b1c73247216e0e0cae611c5"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0039",
+      "assunto": "compreensao_textual",
+      "subassunto": "anterioridade_focalizador_ate",
+      "sha256": "8afa2065ad14c51df1a0f3233c229b8800f5b7a9f27657db73d023a707bd5916"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0040",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_negacao_e_foco",
+      "sha256": "7ff7b1b60a1077f0393abd96475877f1d9b90af933d27cb4edab13c7b56f1097"
+    }
+  ],
+  "revisoes": [
+    {
+      "id": "TP26-ENGSEG-ESP-0121",
+      "sha256": "c503c2d980700377855b00136f0af3f7e270087a65ecc0d33d9ab7042ef63c2e",
+      "operacao": "Reconhecer a lacuna entre inventário e ação",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0002",
+        "TP26-ENGSEG-ESP-0115"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0002",
+          "subassunto": "hierarquia_controles"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0115",
+          "subassunto": "densidade_incidencia_pessoa_tempo"
+        }
+      ],
+      "distincao": "Exercício novo: Reconhecer a lacuna entre inventário e ação. A solução exige as condições do novo cenário: O PGR deve conter, no mínimo, Inventário de Riscos Ocupacionais e Plano de Ação. Listar perigos e avaliações não substitui o planejamento das medidas.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0122",
+      "sha256": "ab18443a6a36fe28eac36e0b2d900effb9105ed1dbf5a364a8feee9810ec1034",
+      "operacao": "Reconhecer a denominação vigente e distinguir títulos de comissões com escopo próximo",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0084",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0084",
+          "subassunto": "conferencia_presencas_manifesto"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0046",
+          "subassunto": "taxa_frequencia_denominador"
+        }
+      ],
+      "distincao": "Exercício novo: cipa_escopo. A solução exige as condições do novo cenário: A NR-05 utiliza Comissão Interna de Prevenção de Acidentes e de Assédio. A inclusão do assédio integra a denominação vigente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0123",
+      "sha256": "b31e9f50a9afdda6f6df1f5444337fbc4ff38daec3c6ab9081ee49d54751593f",
+      "operacao": "sesmt_criterios_de_dimensionamento",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ESP-0073"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0045",
+          "subassunto": "evidencia_causa_investigacao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0073",
+          "subassunto": "classificacao_tecnica_evento"
+        }
+      ],
+      "distincao": "Exercício novo: sesmt_criterios_de_dimensionamento. A solução exige as condições do novo cenário: A ficha da NR-04 vincula a contratação de profissionais ao número de empregados e à natureza do risco da atividade econômica. Não fornece tabelas para dimensionar.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0124",
+      "sha256": "308e2a1e866163dc55f08b97d4d11e47124ebb3535ec75c62147b2ca8a58ccf5",
+      "operacao": "nr09_objeto_atual",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0119",
+        "TP26-ENGSEG-ESP-0046"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0046",
+          "subassunto": "taxa_frequencia_denominador"
+        }
+      ],
+      "distincao": "Exercício novo: nr09_objeto_atual. A solução exige as condições do novo cenário: Esse é o objeto atual da NR-09. A referência não autoriza reconstruir automaticamente o antigo PPRA como exigência vigente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0125",
+      "sha256": "67270988c3af7f557f6b3dba6e4a8fff39ec5557c9eaa4313f0d713038501019",
+      "operacao": "epi_responsabilidades_do_usuario",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0046",
+        "TP26-ENGSEG-ESP-0047"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0046",
+          "subassunto": "taxa_frequencia_denominador"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0047",
+          "subassunto": "causa_imediata_sistemica"
+        }
+      ],
+      "distincao": "Exercício novo: epi_responsabilidades_do_usuario. A solução exige as condições do novo cenário: A ficha atribui ao trabalhador comunicar extravio, dano ou alteração que torne o EPI impróprio. Não lhe atribui emitir CA ou selecionar sozinho o EPI de toda a organização.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0126",
+      "sha256": "891e4ff435a17b1f04bdd31f9f30e3f1942895bb43593a441be2b7945d24ef0d",
+      "operacao": "pcmso_finalidade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0021",
+        "TP26-ENGSEG-ESP-0022"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "subassunto": "protecao_respiratoria_diagnostico"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0022",
+          "subassunto": "estrategia_amostragem"
+        }
+      ],
+      "distincao": "Exercício novo: pcmso_finalidade. A solução exige as condições do novo cenário: A NR-07 veda o caráter de seleção de pessoal e vincula o programa à saúde e aos riscos ocupacionais.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0127",
+      "sha256": "94da386e03cf9f6dfed60e1697b8b28e109dfb5cfc7025e12478514d27e7673a",
+      "operacao": "Distinguir promulgação/publicação e eficácia temporal no cenário datado",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0019",
+        "TP26-ENGSEG-ESP-0011"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0019",
+          "subassunto": "picos_exposicao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0011",
+          "subassunto": "falha_causa_comum_barreiras"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir promulgação/publicação e eficácia temporal no cenário datado. A solução exige as condições do novo cenário: O corpus registra vigência da nova redação em 01/06/2027 e manutenção da anterior até 31/05/2027. Publicação não antecipa a vigência.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0128",
+      "sha256": "f4b87aa051e98612afabd232ff710905a42ec6d2548d6e2acb925f658e0d0295",
+      "operacao": "Aplicar a perspectiva de ciclo de vida a uma decisão de aquisição",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0119",
+        "TP26-ENGSEG-ESP-0045"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0045",
+          "subassunto": "evidencia_causa_investigacao"
+        }
+      ],
+      "distincao": "Exercício novo: Aplicar a perspectiva de ciclo de vida a uma decisão de aquisição. A solução exige as condições do novo cenário: A ficha da NR-12 registra abordagem de segurança desde concepção/fabricação/importação, além da utilização. A primeira partida não é o único ponto de interesse.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0129",
+      "sha256": "3c8c80cde93769dfaf703a260c153b08831e46e86f219069494f4faae98c122d",
+      "operacao": "Diferenciar pertencer ao universo de triagem e estar individualmente enquadrado",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0020",
+        "TP26-ENGSEG-ESP-0057"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0057",
+          "subassunto": "vigilancia_dados_coletivos"
+        }
+      ],
+      "distincao": "Exercício novo: Diferenciar pertencer ao universo de triagem e estar individualmente enquadrado. A solução exige as condições do novo cenário: O escopo registrado inclui caldeiras, vasos, tubulações e tanques metálicos de armazenamento. Isso impõe triagem adequada, não enquadramento automático de qualquer recipiente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0130",
+      "sha256": "cd8c399d7549e4c2e64cdd594d0104489b57f259d8858b76a7d46d840dcb3096",
+      "operacao": "Separar campo por atividade de recorte por setor econômico",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0059",
+        "TP26-ENGSEG-ESP-0119"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0059",
+          "subassunto": "ciclo_vida_fronteiras"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        }
+      ],
+      "distincao": "Exercício novo: Separar campo por atividade de recorte por setor econômico. A solução exige as condições do novo cenário: A NR-20 é norma especial para inflamáveis e combustíveis, não condicionada a único setor. A ficha não permite presumir classificação ou capacitação uniforme.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0131",
+      "sha256": "c74adcfc5e5c1b8719d2ab0d5fe8ca2f920bc74d2a4f8527fbecd22e7377c6e6",
+      "operacao": "Reconhecer condições necessárias que não bastam sem formalização",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0077",
+        "TP26-ENGSEG-ESP-0045"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0077",
+          "subassunto": "preservacao_evidencia_original_copia"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0045",
+          "subassunto": "evidencia_causa_investigacao"
+        }
+      ],
+      "distincao": "Exercício novo: Reconhecer condições necessárias que não bastam sem formalização. A solução exige as condições do novo cenário: A ficha exige trabalhador formalmente autorizado pela organização; capacitação e aptidão são componentes relevantes, não substitutos da formalização.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0132",
+      "sha256": "f8882681249b518023e60ccd6670b02e737df836e93850d114259e92623cf736",
+      "operacao": "Aplicar tratamentos distintos à rotina e à não rotina",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0021",
+        "TP26-ENGSEG-ESP-0045"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "subassunto": "protecao_respiratoria_diagnostico"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0045",
+          "subassunto": "evidencia_causa_investigacao"
+        }
+      ],
+      "distincao": "Exercício novo: Aplicar tratamentos distintos à rotina e à não rotina. A solução exige as condições do novo cenário: A ficha distingue a possibilidade de análise no procedimento para rotina da exigência de PT prévia para a não rotina.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0133",
+      "sha256": "3fb55b4c34f5d4cea3bbea80dafbfdf55623bf1fae38759404344492ef702d07",
+      "operacao": "Ampliar o recorte para dimensões organizacionais e cognitivas pertinentes",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0077",
+        "TP26-ENGSEG-ESP-0055"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0077",
+          "subassunto": "preservacao_evidencia_original_copia"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0055",
+          "subassunto": "trabalho_real_variabilidade"
+        }
+      ],
+      "distincao": "Exercício novo: Ampliar o recorte para dimensões organizacionais e cognitivas pertinentes. A solução exige as condições do novo cenário: A NR-17 contempla adaptação às características psicofisiológicas e elementos da organização, inclusive ritmo, conteúdo, meios e aspectos cognitivos.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0134",
+      "sha256": "41ca08b78a0f7cd67c1a90da4e7527cc7fed447e535261d3819ccd78229d8128",
+      "operacao": "Distinguir comunicação e controle físico na seleção de referências",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0030",
+        "TP26-ENGSEG-ESP-0119"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0030",
+          "subassunto": "apr_escopo"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir comunicação e controle físico na seleção de referências. A solução exige as condições do novo cenário: O corpus associa NR-26 à sinalização e comunicação de perigos e NR-12 à segurança em máquinas. Não se afirma exclusividade ou que sinalizar substitua proteger.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0135",
+      "sha256": "2d17c86d6cff73e9dfbf0b4297f88bb32be8371ec2f6fec2faa8d26239aab819",
+      "operacao": "Selecionar norma pelo objeto da operação sem afirmar exclusividade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0059",
+        "TP26-ENGSEG-ESP-0063"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0059",
+          "subassunto": "ciclo_vida_fronteiras"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0063",
+          "subassunto": "escopo_terceirizacao"
+        }
+      ],
+      "distincao": "Exercício novo: Selecionar norma pelo objeto da operação sem afirmar exclusividade. A solução exige as condições do novo cenário: A NR-11 é a referência direta para transporte, movimentação, armazenagem e manuseio. Outras normas podem ser pertinentes conforme o cenário.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0136",
+      "sha256": "0ffcff67520b80297d1df4c309b72cef88ebda1906855dc88adef860e69d5b57",
+      "operacao": "Distinguir unidade funcional, atividade e pertencimento empresarial",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0071",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0071",
+          "subassunto": "compatibilidade_versoes_requisitos"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir unidade funcional, atividade e pertencimento empresarial. A solução exige as condições do novo cenário: O corpus limita a NR-32 ao campo de serviços de saúde quando justificado. A atividade principal não autoriza exclusão automática nem extensão irrestrita.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0137",
+      "sha256": "44cc04f8f215529b94d12b3445c6c2760be879a38c2f167dab835804926fba15",
+      "operacao": "Separar classificações jurídicas e identificar a necessidade de verificação específica",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0119",
+        "TP26-ENGSEG-ESP-0117"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0117",
+          "subassunto": "projeto_desmontagem_reparabilidade"
+        }
+      ],
+      "distincao": "Exercício novo: Separar classificações jurídicas e identificar a necessidade de verificação específica. A solução exige as condições do novo cenário: NR-15 trata de insalubridade e NR-16 de periculosidade, com enquadramentos distintos e requisitos próprios. A ficha não fornece dados para declarar adicionais ou percentuais.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0138",
+      "sha256": "cf2f55add712218f5e02451f705e37dd25b84e2bfe6f4913d23be696cf7e4529",
+      "operacao": "Delimitar duas atividades adjacentes sem confundir localização e campo",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0077",
+        "TP26-ENGSEG-ESP-0030"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0077",
+          "subassunto": "preservacao_evidencia_original_copia"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0030",
+          "subassunto": "apr_escopo"
+        }
+      ],
+      "distincao": "Exercício novo: Delimitar duas atividades adjacentes sem confundir localização e campo. A solução exige as condições do novo cenário: O corpus distingue trabalho portuário da NR-29 e aquaviário da NR-30. A associação não dispensa examinar interfaces e condições de aplicação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0139",
+      "sha256": "2709896a9f8d670d517aebcabfb90e1840c3cddac14c44fa32b70a918f83b956",
+      "operacao": "Identificar campos setoriais em duas frentes distintas",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0076",
+        "TP26-ENGSEG-ESP-0061"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0076",
+          "subassunto": "entrevista_nao_indutiva"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0061",
+          "subassunto": "equipotencializacao_cargas"
+        }
+      ],
+      "distincao": "Exercício novo: Identificar campos setoriais em duas frentes distintas. A solução exige as condições do novo cenário: A NR-34 cobre construção, reparação e desmonte naval; NR-37 corresponde a plataformas de petróleo. O campo precisa ser observado em cada frente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0140",
+      "sha256": "7f6043a39bdef94dc97a0ab62850ba4f8aadd9079c13aecb4769a80179ba8cf5",
+      "operacao": "Distinguir correção editorial e revisão de fundamento jurídico",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0021",
+        "TP26-ENGSEG-ESP-0006"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "subassunto": "protecao_respiratoria_diagnostico"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0006",
+          "subassunto": "intertravamento_maquinas"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir correção editorial e revisão de fundamento jurídico. A solução exige as condições do novo cenário: O corpus identifica NR-02 e NR-27 como revogadas. É necessário revisar a fundamentação, sem inferir que a revogação elimina todo o sistema de SST.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0141",
+      "sha256": "9d6742ecdf9069773a2abf9bf8e87c756db3536a5b681adf8f1201ecddfa5dba",
+      "operacao": "Integrar identificação, planejamento preventivo e acompanhamento de saúde sem substituições indevidas",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0012",
+        "TP26-ENGSEG-ESP-0056"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0012",
+          "subassunto": "mudanca_operacional_multiplos_riscos"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0056",
+          "subassunto": "carga_cognitiva_interface"
+        }
+      ],
+      "distincao": "Exercício novo: Integrar identificação, planejamento preventivo e acompanhamento de saúde sem substituições indevidas. A solução exige as condições do novo cenário: A identificação/avaliação alimenta a prevenção no Plano de Ação; o PCMSO considera os riscos do PGR. Atualizar um documento não resolve automaticamente as interfaces de prevenção e saúde.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0142",
+      "sha256": "a8c18490751ef03cb1f2c9a80ee973e03967522f0f6cb4f826407fbee664732e",
+      "operacao": "Cruzar dispensa específica, obrigação documental remanescente e alcance do CA",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0035",
+        "TP26-ENGSEG-ESP-0119"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0035",
+          "subassunto": "analise_sensibilidade"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        }
+      ],
+      "distincao": "Exercício novo: Cruzar dispensa específica, obrigação documental remanescente e alcance do CA. A solução exige as condições do novo cenário: A dispensa de elaborar PGR do MEI não elimina a regra específica da NR-06 para registro de atividades e EPI das organizações dispensadas. CA qualifica o produto, não descreve suas atividades.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0143",
+      "sha256": "f11bbc91d8b3350f4a62f5af83cfd8bc7695cec1a4096787e0033f863f20bac2",
+      "operacao": "Combinar responsabilidades, participação e diferença entre aprovação de produto e seleção para uso",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0068",
+        "TP26-ENGSEG-ESP-0066"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0068",
+          "subassunto": "auditoria_trilha_transversal"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0066",
+          "subassunto": "imparcialidade_designacao_auditor"
+        }
+      ],
+      "distincao": "Exercício novo: Combinar responsabilidades, participação e diferença entre aprovação de produto e seleção para uso. A solução exige as condições do novo cenário: A ficha da NR-06 atribui seleção à organização, com participação do SESMT quando houver e ouvidos usuários/CIPA ou nomeado. CA qualifica o produto como EPI, não demonstra adequação universal nem substitui a participação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0144",
+      "sha256": "1809ee6dc76562faa2f5e187a0703e44470891ae50474c3d2f168e992b8f59e8",
+      "operacao": "Avaliar simultaneamente limite de validade e duas condições cumulativas em três casos",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0062",
+        "TP26-ENGSEG-ESP-0041"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0062",
+          "subassunto": "escavacao_sobrecarga_entorno"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0041",
+          "subassunto": "evidencia_auditoria"
+        }
+      ],
+      "distincao": "Exercício novo: Avaliar simultaneamente limite de validade e duas condições cumulativas em três casos. A solução exige as condições do novo cenário: A PT é limitada à atividade e ao turno/jornada, mas admite revalidação pelo responsável sem mudança das condições ou da equipe. I preserva ambos; II altera a equipe; III altera condições. Não se declara dispensa de outras verificações.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0145",
+      "sha256": "56508fa4e63617b8502711c8ac175c1dcbf2bb46b29789d49028a9f060e5bbd4",
+      "operacao": "Cruzar duas linhas temporais com publicação, entrada em vigor e continuidade da redação anterior",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0076",
+        "TP26-ENGSEG-ESP-0084"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0076",
+          "subassunto": "entrevista_nao_indutiva"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0084",
+          "subassunto": "conferencia_presencas_manifesto"
+        }
+      ],
+      "distincao": "Exercício novo: Cruzar duas linhas temporais com publicação, entrada em vigor e continuidade da redação anterior. A solução exige as condições do novo cenário: As datas são específicas: NR-01 já vigente desde maio de 2026; a nova NR-10 só passa a vigorar em junho de 2027. Até lá, aplica-se a redação anterior indicada pela ficha.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0146",
+      "sha256": "77c42efd78885ff04295b6b4f0c6e1ed2d66fc0d479286929a929ac5538f03f3",
+      "operacao": "Classificar quatro objetos e afastar a inferência de que CAT depende de afastamento",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0067",
+        "TP26-ENGSEG-ESP-0036"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0067",
+          "subassunto": "responsabilidade_interface_contrato"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0036",
+          "subassunto": "bow_tie_posicao_barreira"
+        }
+      ],
+      "distincao": "Exercício novo: Classificar quatro objetos e afastar a inferência de que CAT depende de afastamento. A solução exige as condições do novo cenário: O corpus registra CAT no S-2210 mesmo sem afastamento; monitoramento/ASO no S-2220; afastamento no S-2230; exposição no S-2240. Pertencer ao edital não torna os eventos intercambiáveis.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0147",
+      "sha256": "16ea384f4e8adbc552c264ace5a2cb395facc041e6542de126cb79832d760455",
+      "operacao": "Aplicar exceção por morte, calendário explicitado e independência de afastamento",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0065",
+        "TP26-ENGSEG-ESP-0079"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0065",
+          "subassunto": "revisao_documental_pontos_uso"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0079",
+          "subassunto": "dias_pessoa_sobreposicao"
+        }
+      ],
+      "distincao": "Exercício novo: Aplicar exceção por morte, calendário explicitado e independência de afastamento. A solução exige as condições do novo cenário: A ficha registra primeiro dia útil seguinte à ocorrência e, em caso de morte, de imediato. Sexta-feira conduz a segunda no calendário dado; não é necessário haver afastamento para comunicar acidente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0148",
+      "sha256": "01ce15c5458c0f25076f70d7aebb8c3ceebc951f6bad5ac6ddad0914898192be",
+      "operacao": "Integrar três objetos técnicos e sua relação sem substituir ambiente por clínica",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0119",
+        "TP26-ENGSEG-ESP-0048"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0119",
+          "subassunto": "conectividade_habitat_traçado"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0048",
+          "subassunto": "composicao_taxas"
+        }
+      ],
+      "distincao": "Exercício novo: Integrar três objetos técnicos e sua relação sem substituir ambiente por clínica. A solução exige as condições do novo cenário: As fichas Fundacentro e NR-17 associam NHO 11 a iluminamento; NHO 09 a corpo inteiro; NR-07 vincula PCMSO aos riscos do PGR. Métodos ambientais não substituem o programa médico.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0149",
+      "sha256": "264ac447c89fdf9c4ded1189120c4527cef50668c89082bf06b45e9a3d6d2f32",
+      "operacao": "Rejeitar duas generalizações independentes e delimitar o que ainda deve ser conferido",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0048",
+        "TP26-ENGSEG-ESP-0118"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0048",
+          "subassunto": "composicao_taxas"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0118",
+          "subassunto": "carbono_estequiometria_captura"
+        }
+      ],
+      "distincao": "Exercício novo: Rejeitar duas generalizações independentes e delimitar o que ainda deve ser conferido. A solução exige as condições do novo cenário: A NR-20 não se restringe a um setor; a admissão de EaD e semipresencial está sujeita a termos e condições. A ficha não autoriza dizer que toda capacitação pode ser integralmente remota.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0150",
+      "sha256": "9f0319c36c9d472e40fa91ab33b39b55aa77dc266b17a27b50c3a0010107e58e",
+      "operacao": "Separar validade da medição, critérios de dois enquadramentos e insuficiência da fonte para percentuais",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0021",
+        "TP26-ENGSEG-ESP-0077"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "subassunto": "protecao_respiratoria_diagnostico"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0077",
+          "subassunto": "preservacao_evidencia_original_copia"
+        }
+      ],
+      "distincao": "Exercício novo: Separar validade da medição, critérios de dois enquadramentos e insuficiência da fonte para percentuais. A solução exige as condições do novo cenário: As fichas distinguem enquadramentos de NR-15/16 e vedam inventar limites, percentuais e exceções. Procedimento técnico não substitui automaticamente critério legal; dados válidos podem ser preservados enquanto a conclusão jurídica é verificada.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0151",
+      "sha256": "75c8b3958732d2e2f7f479ae1856462928518e4175e238353831c289d1af3921",
+      "operacao": "seletividade_de_sensores",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0019",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0019",
+          "subassunto": "picos_exposicao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        }
+      ],
+      "distincao": "Exercício novo: seletividade_de_sensores. A solução exige as condições do novo cenário: Um instrumento seletivo não informa sobre todo agente. Oxigênio dentro de uma referência não demonstra ausência de gás tóxico nem permite escolher proteção sem caracterizá-lo.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0152",
+      "sha256": "b15e73d5fe4e4b8f0084b73b575afb6731dd3d691a9d8e8407e2638a97d5ac99",
+      "operacao": "metodo_vibracao_corpo_inteiro",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0018",
+        "TP26-ENGSEG-ESP-0022"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0018",
+          "subassunto": "fracionamento_aerodispersoides"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0022",
+          "subassunto": "estrategia_amostragem"
+        }
+      ],
+      "distincao": "Exercício novo: metodo_vibracao_corpo_inteiro. A solução exige as condições do novo cenário: O corpus associa NHO 09 à vibração de corpo inteiro e NHO 10 à vibração de mãos e braços. Não se especificam valores ou procedimentos ausentes da ficha.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0153",
+      "sha256": "f3dbf628beb9af2da5526c293e95afceeffcd3241da97f756b61187a79d156c6",
+      "operacao": "interferencia_cruzada",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        }
+      ],
+      "distincao": "Exercício novo: interferencia_cruzada. A solução exige as condições do novo cenário: O branco úmido revela resposta cruzada possível. É necessário caracterizar a interferência e verificar a concentração com seletividade adequada, não presumir uma correção sem validação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0154",
+      "sha256": "10730efe9e3a4fd61ff6c00b79fc2b48e9b34e1ae0170fbf850113457abe8f86",
+      "operacao": "vias_de_absorcao",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0019",
+        "TP26-ENGSEG-ESP-0021"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0019",
+          "subassunto": "picos_exposicao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "subassunto": "protecao_respiratoria_diagnostico"
+        }
+      ],
+      "distincao": "Exercício novo: vias_de_absorcao. A solução exige as condições do novo cenário: Exposição por inalação e por contato cutâneo são vias distintas. O dado aéreo não quantifica nem exclui a absorção possível pela pele.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0155",
+      "sha256": "8831cfa2d2912ba00d94af42bb3ddf13a2a32a2c30e90e9d0f0406ec36f4dc89",
+      "operacao": "amostragem_e_breakthrough",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0017",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0017",
+          "subassunto": "ventilacao_balanco_massa"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        }
+      ],
+      "distincao": "Exercício novo: amostragem_e_breakthrough. A solução exige as condições do novo cenário: A seção posterior pode indicar passagem e possível limitação de retenção. O significado e o tratamento dependem do método; não se inventa limiar ou correção universal.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0156",
+      "sha256": "364fd9343e0b075615accf23379cc75754b05096518a61858af826fcf2f812ae",
+      "operacao": "Aplicar conversão dimensional e interpretar alteração do volume molar sem mudar fração molar",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0013",
+        "TP26-ENGSEG-ESP-0014"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0013",
+          "subassunto": "amostragem_volume"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0014",
+          "subassunto": "branco_analitico"
+        }
+      ],
+      "distincao": "Exercício novo: Aplicar conversão dimensional e interpretar alteração do volume molar sem mudar fração molar. A solução exige as condições do novo cenário: A razão é molar: 15×98/24,5=60 e 15×98/30=49 mg/m³. Mesmo ppm não implica mesma massa por volume quando muda o volume molar. Não se aplica limite legal.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0157",
+      "sha256": "46dfe81d5b4b923190a023527ab90ec1bdabd6c98a2a5ee0025b3ffec0d139a6",
+      "operacao": "Cruzar espectro dominante, validade de ensaio e efeito de caminhos de transmissão",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0016",
+        "TP26-ENGSEG-ESP-0025"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0016",
+          "subassunto": "ruido_soma_energetica"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0025",
+          "subassunto": "ruido_reducao_energia"
+        }
+      ],
+      "distincao": "Exercício novo: Cruzar espectro dominante, validade de ensaio e efeito de caminhos de transmissão. A solução exige as condições do novo cenário: É necessário compatibilizar espectro, desempenho por banda e caminhos de transmissão da montagem. Valor máximo fora de banda e ensaio em montagem diferente não validam a previsão no operador.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0158",
+      "sha256": "74fd7abdc6e88c0f40e48ed70b5a7caabee88f815b3bc5780c63c9de256cb00e",
+      "operacao": "Distinguir detecção molecular, viabilidade e causalidade clínica em evidências de naturezas diferentes",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0019",
+        "TP26-ENGSEG-ESP-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0019",
+          "subassunto": "picos_exposicao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0020",
+          "subassunto": "incerteza_medicao"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir detecção molecular, viabilidade e causalidade clínica em evidências de naturezas diferentes. A solução exige as condições do novo cenário: Detectar material genético não prova viabilidade neste método; sintomas inespecíficos sem nexo demonstrado não estabelecem etiologia. São lacunas distintas a investigar, sem negar a detecção.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0159",
+      "sha256": "3ab30c1aaca00d665afd9aec426e458707b5059710b69a79167315e88d989e88",
+      "operacao": "expansao_termica_bloqueada",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0002",
+        "TP26-ENGSEG-ESP-0006"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0002",
+          "subassunto": "hierarquia_controles"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0006",
+          "subassunto": "intertravamento_maquinas"
+        }
+      ],
+      "distincao": "Exercício novo: expansao_termica_bloqueada. A solução exige as condições do novo cenário: Aquecimento pode elevar a pressão de líquido retido sem entrada de massa. Isolar não equivale a proteger contra expansão térmica.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0160",
+      "sha256": "7d811ffd71832f227d5959f96286f5f36a32c309755997fbbeea2a5fadf402d9",
+      "operacao": "jato_sob_pressao",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0006",
+        "TP26-ENGSEG-ESP-0061"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0006",
+          "subassunto": "intertravamento_maquinas"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0061",
+          "subassunto": "equipotencializacao_cargas"
+        }
+      ],
+      "distincao": "Exercício novo: jato_sob_pressao. A solução exige as condições do novo cenário: Jato fino sob pressão pode penetrar tecidos. A busca pelo tato expõe a mão ao mecanismo; ausência de corte prévio ou transparência não demonstra segurança.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0161",
+      "sha256": "e291e9c097f32aa2fb8544f98ff19336559069b3c178b721f6fbee456d6817ed",
+      "operacao": "ferramenta_e_velocidade_admissivel",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0102"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0102",
+          "subassunto": "ajuste_antropometrico_intervalos"
+        }
+      ],
+      "distincao": "Exercício novo: ferramenta_e_velocidade_admissivel. A solução exige as condições do novo cenário: Compatibilidade geométrica não garante resistência na rotação imposta. Deve-se respeitar a velocidade admissível e avaliar as demais condições do conjunto.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0162",
+      "sha256": "cbec4a76b24695acf396d4288c3d7d5c2f44af71b7743b7c1ef8f522865c0d58",
+      "operacao": "trabalho_simultaneo_e_admissao_de_ar",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0008"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0008",
+          "subassunto": "trabalhos_a_quente_fontes_ignicao"
+        }
+      ],
+      "distincao": "Exercício novo: trabalho_simultaneo_e_admissao_de_ar. A solução exige as condições do novo cenário: O sistema que fornece ar pode transportar contaminantes de outra atividade. As avaliações separadas precisam ser integradas na interface entre geração externa e admissão.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0163",
+      "sha256": "16671f385f26c9b6ed172503c64e0cdd8ed4ba1bc9467c8eab430f96409184d2",
+      "operacao": "Testar o regime de aplicabilidade antes de calcular incremento e converter a unidade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0009"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0009",
+          "subassunto": "pressao_forca_geometria"
+        }
+      ],
+      "distincao": "Exercício novo: Testar o regime de aplicabilidade antes de calcular incremento e converter a unidade. A solução exige as condições do novo cenário: 2L/a=400/1.000=0,40 s; 0,20<0,40. Δp=1.000×1.000×1=1.000.000 Pa=1 MPa. É triagem ideal, não dimensionamento completo do sistema.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0164",
+      "sha256": "01642588d28dbd44a20cdb323c04b6c162d33106e304b49f0e1dd8b4b586a2f1",
+      "operacao": "Integrar mecanismo de carregamento, caminho de reação e pertinência da modificação proposta",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0004",
+        "TP26-ENGSEG-ESP-0009"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0004",
+          "subassunto": "energia_mecanica_bloqueio"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0009",
+          "subassunto": "pressao_forca_geometria"
+        }
+      ],
+      "distincao": "Exercício novo: Integrar mecanismo de carregamento, caminho de reação e pertinência da modificação proposta. A solução exige as condições do novo cenário: Peso e reação axial são ações diferentes, com caminhos de carga e contenções distintos. O reforço vertical proposto não demonstra retenção axial da tampa ou da ligação durante o teste.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0165",
+      "sha256": "b90592448b78e30dd9df787a4f05b58880016f54e3ed290d0faa5dd184ef26c7",
+      "operacao": "incerteza_epistemica_e_variabilidade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0030",
+        "TP26-ENGSEG-ESP-0036"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0030",
+          "subassunto": "apr_escopo"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0036",
+          "subassunto": "bow_tie_posicao_barreira"
+        }
+      ],
+      "distincao": "Exercício novo: incerteza_epistemica_e_variabilidade. A solução exige as condições do novo cenário: Flutuação real de demandas é variabilidade; desconhecimento da espessura é lacuna de conhecimento que inspeção pode reduzir. A classificação orienta ações diferentes.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0166",
+      "sha256": "5c9f62aa71e24d54b03d508e31107477d5ad1645dffeb27137b8a40a87d7efda",
+      "operacao": "fmea_deteccao_e_prevencao",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0032"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0032",
+          "subassunto": "fmea_criterios_decisao"
+        }
+      ],
+      "distincao": "Exercício novo: fmea_deteccao_e_prevencao. A solução exige as condições do novo cenário: O ensaio atua sobre identificar a falha antes da expedição. Detectar mais não significa formar mais ou menos trincas, nem alterar a consequência da ruptura.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0167",
+      "sha256": "947a6a208772e3564912c528aae0b26cf3899316114936ccbdf9a995df6e7202",
+      "operacao": "hazop_modos_de_operacao",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0031"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0031",
+          "subassunto": "hazop_desvio_causas"
+        }
+      ],
+      "distincao": "Exercício novo: hazop_modos_de_operacao. A solução exige as condições do novo cenário: A configuração e a intenção de operação mudam na partida. A cobertura de um modo não demonstra cobertura de outro com conexões distintas.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0168",
+      "sha256": "ac508adf2d5644f18f7fdff574b1c1305c031e1984ed4a9be8922a89fa9d2824",
+      "operacao": "Aplicar suficiência, minimalidade e absorção booleana em ramos sobrepostos",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0033",
+        "TP26-ENGSEG-ESP-0040"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0033",
+          "subassunto": "arvore_falhas_ou"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0040",
+          "subassunto": "causa_comum_quantificacao"
+        }
+      ],
+      "distincao": "Exercício novo: Aplicar suficiência, minimalidade e absorção booleana em ramos sobrepostos. A solução exige as condições do novo cenário: AB e AC bastam e são mínimos. ABD basta, mas contém AB, portanto não é mínimo. A isolado não satisfaz os ramos; B ou C sem A também não.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0169",
+      "sha256": "a7fecac34f9e8437dd9e9fd4245e58616de1c36a6ed67303a0ca93e4e73cd4f7",
+      "operacao": "Comparar vetores de consequência sem agregação e eliminar duas dominâncias distintas",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0039",
+        "TP26-ENGSEG-ESP-0092"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0039",
+          "subassunto": "alocacao_reducao_risco"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0092",
+          "subassunto": "decisao_minimax_perdas"
+        }
+      ],
+      "distincao": "Exercício novo: Comparar vetores de consequência sem agregação e eliminar duas dominâncias distintas. A solução exige as condições do novo cenário: Q domina R: 4<5 e 5<7. P domina S: 2<3 e 9<10. P e Q não se dominam, pois um melhora L e o outro A. Não se soma indicadores com pesos não fornecidos.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0170",
+      "sha256": "a8c22f4115db6a655506589fa75396f2bdd20251502239f8f80bc92f1648506d",
+      "operacao": "Reconhecer uma partição e uma classificação transversal, evitando dupla contagem de cenários",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0074"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0074",
+          "subassunto": "unidade_registro_evento_pessoa"
+        }
+      ],
+      "distincao": "Exercício novo: Reconhecer uma partição e uma classificação transversal, evitando dupla contagem de cenários. A solução exige as condições do novo cenário: A partição por porte já inclui ocorrências com e sem ignição. A quarta categoria é sobreposta; é preciso cruzá-la ou subdividir, não adicioná-la ao total novamente.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0171",
+      "sha256": "eb8d67e683d4c711eebc7cb48148902e92cf89b3229f8e269b8377dfc87260e8",
+      "operacao": "edicoes_iso_do_edital",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0065",
+        "TP26-ENGSEG-ESP-0067"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0065",
+          "subassunto": "revisao_documental_pontos_uso"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0067",
+          "subassunto": "responsabilidade_interface_contrato"
+        }
+      ],
+      "distincao": "Exercício novo: edicoes_iso_do_edital. A solução exige as condições do novo cenário: O edital estruturado fixa 45001:2018, 14001:2015 e 19011:2018. Edições posteriores são contexto de atualização, não substituição automática do conteúdo cobrado.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0172",
+      "sha256": "fe42b6d4d77bfa6d19690600a68d017621560d35802768f3c205c4f0ffe0f743",
+      "operacao": "responsabilidade_e_assessoria",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0066",
+        "TP26-ENGSEG-ESP-0064"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0066",
+          "subassunto": "imparcialidade_designacao_auditor"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0064",
+          "subassunto": "consulta_trabalhadores"
+        }
+      ],
+      "distincao": "Exercício novo: responsabilidade_e_assessoria. A solução exige as condições do novo cenário: O cenário define funções distintas. Participar ou recomendar não transfere a decisão; o registro deve permitir compreender a recomendação e o desvio decisório.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0173",
+      "sha256": "ffc1519e390517ae62f54f9d7b727f0d1f314b9c99cf6882905554c923deaf09",
+      "operacao": "agregacao_de_requisitos_integrados",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0071",
+        "TP26-ENGSEG-ESP-0043"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0071",
+          "subassunto": "compatibilidade_versoes_requisitos"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0043",
+          "subassunto": "eficacia_acao_corretiva"
+        }
+      ],
+      "distincao": "Exercício novo: agregacao_de_requisitos_integrados. A solução exige as condições do novo cenário: Integração documental não revoga requisitos. Um documento único pode manter controles diferenciados ou revisão mais frequente sem perder a obrigação interna semestral.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0174",
+      "sha256": "6e62703240d940c88705abf8a58c987ae57b9baee4b07029ca7d2c07252eecc4",
+      "operacao": "Separar validade de achados locais de validade de uma estimativa populacional sob seleção dirigida",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0041",
+        "TP26-ENGSEG-ESP-0048"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0041",
+          "subassunto": "evidencia_auditoria"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0048",
+          "subassunto": "composicao_taxas"
+        }
+      ],
+      "distincao": "Exercício novo: Separar validade de achados locais de validade de uma estimativa populacional sob seleção dirigida. A solução exige as condições do novo cenário: A evidência pode sustentar achados nos casos examinados; a seleção por sinais de problema não fornece estimativa simples da prevalência populacional. Uma limitação de generalização não apaga evidência individual.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0175",
+      "sha256": "cb0a51ba8ccc8db43ae869706560a8f21879caaebaa368deff9e62d588d4a9bd",
+      "operacao": "Avaliar independência epistemológica de testemunhos e distinguir concordância, corroboração e intenção",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0045",
+        "TP26-ENGSEG-ESP-0077",
+        "TP26-ENGSEG-ESP-0082"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0045",
+          "subassunto": "evidencia_causa_investigacao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0077",
+          "subassunto": "preservacao_evidencia_original_copia"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0082",
+          "subassunto": "teste_discriminante_hipoteses"
+        }
+      ],
+      "distincao": "Exercício novo: Avaliar independência epistemológica de testemunhos e distinguir concordância, corroboração e intenção. A solução exige as condições do novo cenário: Relatos podem compartilhar informação adquirida depois do evento. Concordância não demonstra independência nem prova mentira. É necessário distinguir observação própria, informação recebida e corroboração externa.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0176",
+      "sha256": "e8b4e91f44ae99c4a9bcbbcd2c65d0740696f9d1801640c4152d17724a798613",
+      "operacao": "Identificar seleção por permanência futura e desalinhamento entre tempo de risco e definição da exposição",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0116"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0116",
+          "subassunto": "perdas_seguimento_selecao"
+        }
+      ],
+      "distincao": "Exercício novo: Identificar seleção por permanência futura e desalinhamento entre tempo de risco e definição da exposição. A solução exige as condições do novo cenário: A exposição ao curso é definida pelo futuro e pela permanência; casos anteriores podem ser excluídos do grupo tratado por construção. É preciso alinhar elegibilidade, tempo e classificação antes de inferir efeito do curso.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0177",
+      "sha256": "88c102e5e359f5bea8b432fb81c91938f138082bee942f74fe571eb00d3921ce",
+      "operacao": "acao_irreversivel_e_informacao_incompleta",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0049",
+        "TP26-ENGSEG-ESP-0084"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0049",
+          "subassunto": "reconhecimento_recursos"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0084",
+          "subassunto": "conferencia_presencas_manifesto"
+        }
+      ],
+      "distincao": "Exercício novo: acao_irreversivel_e_informacao_incompleta. A solução exige as condições do novo cenário: A ação pode retirar a única saída; sob o protocolo dado, a divergência deve ser resolvida antes do bloqueio. Informação ausente ou incompatível não comprova área desocupada.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0178",
+      "sha256": "4bc8a79f0595dace08ab102fa5509c668c710e2e226011e9d04aa8e3241fb1ad",
+      "operacao": "continuidade_de_barreiras_passivas",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0053",
+        "TP26-ENGSEG-ESP-0097"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0053",
+          "subassunto": "mecanismos_extincao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0097",
+          "subassunto": "deteccao_optica_obstrucao"
+        }
+      ],
+      "distincao": "Exercício novo: continuidade_de_barreiras_passivas. A solução exige as condições do novo cenário: O atravessamento pode interromper a barreira passiva. Detecção, potência ou acabamento não restauram a continuidade do sistema de compartimentação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0179",
+      "sha256": "45633aebc8c8dff22b36b5d73a84198fae77b4b267bc8671d8e0f4712af52f0c",
+      "operacao": "Relacionar variável apresentada, informação decisória, memória de trabalho e avaliação em tarefa concorrente",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0056",
+        "TP26-ENGSEG-ESP-0103"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0056",
+          "subassunto": "carga_cognitiva_interface"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0103",
+          "subassunto": "compatibilidade_controle_mostrador"
+        }
+      ],
+      "distincao": "Exercício novo: Relacionar variável apresentada, informação decisória, memória de trabalho e avaliação em tarefa concorrente. A solução exige as condições do novo cenário: Legibilidade de um valor não fornece automaticamente a tendência. A tarefa exige integrar tempo e valor sob demandas concorrentes; apresentação de tendência precisa ser avaliada no uso real.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0180",
+      "sha256": "f604f2e1ef73fa0b1003c19a993f53e49f9664d5ee0a8177cb288322c4b55fec",
+      "operacao": "seguimento_medico_e_responsabilidade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0112",
+        "TP26-ENGSEG-ESP-0057"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0112",
+          "subassunto": "qualidade_cadeia_conservacao"
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0057",
+          "subassunto": "vigilancia_dados_coletivos"
+        }
+      ],
+      "distincao": "Exercício novo: seguimento_medico_e_responsabilidade. A solução exige as condições do novo cenário: A ficha da NR-07 atribui ao empregador garantir elaboração/implantação e custear os procedimentos relacionados ao PCMSO sem ônus ao empregado. O contrato não elimina essas responsabilidades.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0041",
+      "sha256": "99fad7456e361cfe121e3cced3aaa08ae31fe23f30061178cbaf51d64161d10c",
+      "operacao": "Separate observed evidence, extrapolation and deployment claim",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0007"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0007",
+          "subassunto": "scope_of_evidence"
+        }
+      ],
+      "distincao": "Exercício novo: Separate observed evidence, extrapolation and deployment claim. A solução exige as condições do novo cenário: The text separates a promising mechanism from demonstration under actual service conditions.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0042",
+      "sha256": "89eb05f8e49a4d5d7e3433cdddeefb36b75060122314965079739323f810cfd2",
+      "operacao": "Resolve negation across evidence and inference while preserving the observation",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0008"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0008",
+          "subassunto": "integrating_two_limitations"
+        }
+      ],
+      "distincao": "Exercício novo: Resolve negation across evidence and inference while preserving the observation. A solução exige as condições do novo cenário: Not contrasts two descriptions of what the result establishes. It limits the conclusion; it does not retract the laboratory observation.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0043",
+      "sha256": "b5cbaca15a393ead2921f7be873bd982848c57b9d6b6b1e5c897b12d1896bc81",
+      "operacao": "Apply an explicit unless condition to a stated date",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0011"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0003",
+          "subassunto": "contrast_receipt_performance"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0011",
+          "subassunto": "pronoun_reference"
+        }
+      ],
+      "distincao": "Exercício novo: Apply an explicit unless condition to a stated date. A solução exige as condições do novo cenário: Thursday is before Friday. A timely request pauses release; cancellation and manufacturing authorization do not follow.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0044",
+      "sha256": "1225f5b14013328a96074fbb25014d672d3e4e33a974c7d6036817720b41a80b",
+      "operacao": "Combine default action and a separate necessary authorization without conflating them",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0004",
+        "TP26-ENGSEG-ING-0009"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0004",
+          "subassunto": "transfer_after_procedural_change"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0009",
+          "subassunto": "purpose_and_qualification"
+        }
+      ],
+      "distincao": "Exercício novo: Combine default action and a separate necessary authorization without conflating them. A solução exige as condições do novo cenário: Absence of review triggers release, while the separate manufacturing requirement remains unsatisfied. Neither rule substitutes for the other.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0045",
+      "sha256": "c8e9084a2f75081ab454b7a86973738e5e7116f639761400e99e8a1f00c4b512",
+      "operacao": "Interpret the distinction between optimization objective and feasibility",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0013",
+        "TP26-ENGSEG-ING-0017"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0013",
+          "subassunto": "comparison_criteria"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0017",
+          "subassunto": "contrast_proposed_actual"
+        }
+      ],
+      "distincao": "Exercício novo: Interpret the distinction between optimization objective and feasibility. A solução exige as condições do novo cenário: A finite penalty can be outweighed in optimization; a constraint excludes the zone rather than trading it against other costs.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0046",
+      "sha256": "e1917151b790dc27381732ff6dd486c9aa706873b36f4c5986b6c908e364fe82",
+      "operacao": "Interpret a limiting adverb in an optimization argument",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0005",
+        "TP26-ENGSEG-ING-0001"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0005",
+          "subassunto": "vocabulary_in_context"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0001",
+          "subassunto": "main_idea_time_reference"
+        }
+      ],
+      "distincao": "Exercício novo: Interpret a limiting adverb in an optimization argument. A solução exige as condições do novo cenário: Merely limits the status of the expense: it remains a tradeable component rather than an exclusion.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0047",
+      "sha256": "ececb1be97feda1ed5046e77a8a697c95659a177334d16e1604b94612d85ac02",
+      "operacao": "Distinguish sampling coverage from precision and select the corrective design",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ESP-0018"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ESP-0018",
+          "subassunto": "fracionamento_aerodispersoides"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguish sampling coverage from precision and select the corrective design. A solução exige as condições do novo cenário: The defect is missing environments. Replication can refine local estimates without correcting the coverage gap.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0048",
+      "sha256": "dc027dce642707a19cea81bae05fcbfc34647021159fb7b890f71787a799947e",
+      "operacao": "Resolve a locative reference from the previous clause",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0011",
+        "TP26-ENGSEG-ING-0023"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0011",
+          "subassunto": "pronoun_reference"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0023",
+          "subassunto": "backlog_context_process_stage"
+        }
+      ],
+      "distincao": "Exercício novo: Resolve a locative reference from the previous clause. A solução exige as condições do novo cenário: There points to the same surfaces on which measurements would be repeated.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0049",
+      "sha256": "eab0a51a8d9696fcfffb7f8d68c45b7fccabf6e70aa3866168db36cd7e796f80",
+      "operacao": "Distinguish modal force while respecting task scope",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0009",
+        "TP26-ENGSEG-ING-0013"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0009",
+          "subassunto": "purpose_and_qualification"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0013",
+          "subassunto": "comparison_criteria"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguish modal force while respecting task scope. A solução exige as condições do novo cenário: Need not denotes absence of necessity for the specified task; it is not must not.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0050",
+      "sha256": "e2bdc7f5cbd62bee0b1e006e7c5cdc6438f6ceee985a82c1021b124211bd6581",
+      "operacao": "Preserve two task-specific modalities and the logical distinction between permission and obligation",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0026",
+        "TP26-ENGSEG-ING-0028"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0026",
+          "subassunto": "inference_procurement_information"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0028",
+          "subassunto": "reference_function_precondition"
+        }
+      ],
+      "distincao": "Exercício novo: Preserve two task-specific modalities and the logical distinction between permission and obligation. A solução exige as condições do novo cenário: The paraphrase keeps absence of obligation, positive obligation and absence of prohibition distinct.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0051",
+      "sha256": "6f07aa062b035f282c8d113e249e7d740193fbf42016f7e73ef4cb0b797ae4d4",
+      "operacao": "Relate concession to the operating range of a technical result",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0013",
+        "TP26-ENGSEG-ING-0025"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0013",
+          "subassunto": "comparison_criteria"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0025",
+          "subassunto": "idiom_off_the_shelf"
+        }
+      ],
+      "distincao": "Exercício novo: Relate concession to the operating range of a technical result. A solução exige as condições do novo cenário: The concession acknowledges a remaining low-speed source without cancelling the cruising-speed improvement.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0052",
+      "sha256": "f4dd3f663cf3c18a95d25d8edd40edd1fdcf8871d15d9f1cbc5f8ae12a5bf063",
+      "operacao": "Disambiguate a polysemous word by its argumentative use",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0003",
+        "TP26-ENGSEG-ING-0027"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0003",
+          "subassunto": "contrast_receipt_performance"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0027",
+          "subassunto": "fallback_role_not_obsolescence"
+        }
+      ],
+      "distincao": "Exercício novo: Disambiguate a polysemous word by its argumentative use. A solução exige as condições do novo cenário: Qualified modifies the scope of success: the report identifies conditions and limits.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0053",
+      "sha256": "50e958c3b2ec77999d8e77c53780841eddfe7e790e3a399eb220bd2109ab5d2c",
+      "operacao": "Separate fitting, holdout validation and limits of generalization",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0019"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0019",
+          "subassunto": "aggregation_and_relevance"
+        }
+      ],
+      "distincao": "Exercício novo: Separate fitting, holdout validation and limits of generalization. A solução exige as condições do novo cenário: Data excluded from fitting can test out-of-fitting performance; they do not guarantee all future conditions or physical truth.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0054",
+      "sha256": "8535a7377cee4e2c85cbaad8557ea4edfa463edb8df0990af546a9b65d50045f",
+      "operacao": "Infer the phrasal verb from the experimental purpose",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0023"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0023",
+          "subassunto": "backlog_context_process_stage"
+        }
+      ],
+      "distincao": "Exercício novo: Infer the phrasal verb from the experimental purpose. A solução exige as condições do novo cenário: Hold back means reserve or withhold; the next clause explains their test use.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0055",
+      "sha256": "39c25a78db46ea5068483d144db7b412d8f05641c5536224b31d861867401162",
+      "operacao": "Integrate allocation, expectation effects and external validity",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ING-0003"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0001",
+          "subassunto": "main_idea_time_reference"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0003",
+          "subassunto": "contrast_receipt_performance"
+        }
+      ],
+      "distincao": "Exercício novo: Integrate allocation, expectation effects and external validity. A solução exige as condições do novo cenário: Random assignment and undisclosed preference reduce particular biases; a single task and population still limit external generalization.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0056",
+      "sha256": "59ac4680a668d43089fb4127209593f89a96156b5790f976c04257e0ea4f802b",
+      "operacao": "Resolve a demonstrative spanning several sentences",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0011",
+        "TP26-ENGSEG-ING-0023"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0011",
+          "subassunto": "pronoun_reference"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0023",
+          "subassunto": "backlog_context_process_stage"
+        }
+      ],
+      "distincao": "Exercício novo: Resolve a demonstrative spanning several sentences. A solução exige as condições do novo cenário: The demonstrative summarizes the preceding design, not an outcome or a different allocation.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0057",
+      "sha256": "177e346d2a6b685921d7f192b03bfc9d3c6a5e041e6ebdde0c7c6ad736555bbb",
+      "operacao": "Detect a quantifier-domain expansion and distinguish detection from disclosure",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ING-0039"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0001",
+          "subassunto": "main_idea_time_reference"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0039",
+          "subassunto": "integrated_attribution_conditions"
+        }
+      ],
+      "distincao": "Exercício novo: Detect a quantifier-domain expansion and distinguish detection from disclosure. A solução exige as condições do novo cenário: An obligation over discovered defects does not assert that every hidden defect will be discovered. It quantifies over a restricted set.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0058",
+      "sha256": "aa2d5dc9d35a2be1445e5598e274dca053286607df75f777cc6383709e5a18e1",
+      "operacao": "Identify the semantic distinction between two actions",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0001",
+        "TP26-ENGSEG-ING-0005"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0001",
+          "subassunto": "main_idea_time_reference"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0005",
+          "subassunto": "vocabulary_in_context"
+        }
+      ],
+      "distincao": "Exercício novo: Identify the semantic distinction between two actions. A solução exige as condições do novo cenário: Reporting concerns disclosure; detection concerns finding information in the first place.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0059",
+      "sha256": "606b944b06e5aa3e0e8369d01789c95db81188b2c17f8e02df1c3b60e6d519a7",
+      "operacao": "Connect transmission sequence with status of a claim",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0024"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0024",
+          "subassunto": "temporal_dependencies_handover"
+        }
+      ],
+      "distincao": "Exercício novo: Connect transmission sequence with status of a claim. A solução exige as condições do novo cenário: Transmission order allowed a summary to precede examination of its supporting readings, so its status was qualified.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0060",
+      "sha256": "4cbaa1f80d396fb3e3cda6fee35870f3004424228cff3492293d29f1cef8a9f2",
+      "operacao": "Interpret temporal endpoint and passive aspect together",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-ING-0007",
+        "TP26-ENGSEG-ING-0001"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-ING-0007",
+          "subassunto": "scope_of_evidence"
+        },
+        {
+          "id": "TP26-ENGSEG-ING-0001",
+          "subassunto": "main_idea_time_reference"
+        }
+      ],
+      "distincao": "Exercício novo: Interpret temporal endpoint and passive aspect together. A solução exige as condições do novo cenário: Until sets the endpoint of provisional status; had been examined is passive perfect, making readings the object of completed examination.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0041",
+      "sha256": "d0ba8fae0fa3ff7db5eebc1bd68a52ce3eeb2918c7363df5112600ac63f28fdf",
+      "operacao": "Separar descrição agregada, experiência distribuída e escolha valorativa",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0009",
+        "TP26-ENGSEG-PORT-0010"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0009",
+          "subassunto": "sentido_contextual_precisao"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0010",
+          "subassunto": "inferencia_quantitativa_argumento"
+        }
+      ],
+      "distincao": "Exercício novo: Separar descrição agregada, experiência distribuída e escolha valorativa. A solução exige as condições do novo cenário: O dado agregado descreve uma dimensão; decidir justiça requer um critério que a média não fornece. O texto preserva a necessidade de medir.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0042",
+      "sha256": "c9394ae4266a4b86e6b30dff14171e4aa6739f613a403fc530053ad6b4473113",
+      "operacao": "Preservar duas relações lógicas e testar inversões de condição",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0006",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0006",
+          "subassunto": "reescrita_escopo"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0020",
+          "subassunto": "reescrita_relacoes_logicas"
+        }
+      ],
+      "distincao": "Exercício novo: Preservar duas relações lógicas e testar inversões de condição. A solução exige as condições do novo cenário: A concessiva reconhece a necessidade sem converter a medição em condição suficiente para o julgamento.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0043",
+      "sha256": "6b3b50cc66964292a9e4c0094669cc7160d15c666b534106e3cfda426c450d45",
+      "operacao": "Relacionar tempos verbais à mudança de perspectiva",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0003",
+        "TP26-ENGSEG-PORT-0021"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0003",
+          "subassunto": "causalidade_textual"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0021",
+          "subassunto": "metafora_alisar_experiencias"
+        }
+      ],
+      "distincao": "Exercício novo: Relacionar tempos verbais à mudança de perspectiva. A solução exige as condições do novo cenário: O narrador reconhece a invenção e continua valorizando sua delicadeza e sua função afetiva.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0044",
+      "sha256": "e4b4f08edb65a0fd5aae0d3ec995a8fd2456a1a4086a5247ec4bdb7f1a94f91e",
+      "operacao": "Resolver escopo da modalização, negação e contraste de finalidades",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0015",
+        "TP26-ENGSEG-PORT-0040"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0015",
+          "subassunto": "pontuacao_restritiva"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0040",
+          "subassunto": "inferencia_negacao_e_foco"
+        }
+      ],
+      "distincao": "Exercício novo: Resolver escopo da modalização, negação e contraste de finalidades. A solução exige as condições do novo cenário: Talvez modaliza contar a história; a estrutura não para... mas para contrapõe finalidades, sem negar a visita.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0045",
+      "sha256": "f96b0c8a5a9e403a75c971cd735f7c86d16166fce8a46e88c3925e7d09de3d21",
+      "operacao": "Identificar relação semântica da locução contextualizada",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0019",
+        "TP26-ENGSEG-PORT-0035"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0019",
+          "subassunto": "inferencia_multiplas_explicacoes"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0035",
+          "subassunto": "oracao_final_destinatario"
+        }
+      ],
+      "distincao": "Exercício novo: Identificar relação semântica da locução contextualizada. A solução exige as condições do novo cenário: Desde que introduz a condição financeira sob a qual a compra foi aprovada.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0046",
+      "sha256": "9223cfbbf40d8ee8f4a54cf9186bc39766c3862b27f4c0ca03dd0977bd251845",
+      "operacao": "Inferir uma definição pelo encadeamento de alternativas práticas",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0031",
+        "TP26-ENGSEG-PORT-0033"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0031",
+          "subassunto": "discurso_direto_delimitacao"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0033",
+          "subassunto": "metonimia_personificacao_agencia"
+        }
+      ],
+      "distincao": "Exercício novo: Inferir uma definição pelo encadeamento de alternativas práticas. A solução exige as condições do novo cenário: O conselho decide sem certeza, impondo uma reserva: prudência assume um limite em vez de paralisar.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0047",
+      "sha256": "89c248b8b6189501bb6e9c7d6762faf3bef6fadf0a43618e0209cfea6ad3af6e",
+      "operacao": "Identificar antecedente e efeito crítico na retomada de uma promessa",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0033"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0033",
+          "subassunto": "metonimia_personificacao_agencia"
+        }
+      ],
+      "distincao": "Exercício novo: Identificar antecedente e efeito crítico na retomada de uma promessa. A solução exige as condições do novo cenário: A retomada aponta para a promessa do anúncio e a confronta com o custo real do retrabalho. O sentido é irônico, não uma contagem de ganhos comprovados.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0048",
+      "sha256": "0568a65410bcbbb0ff517adae075f04dba346076384e7e68f06d1539cf1f223e",
+      "operacao": "Integrar contexto, citação, ironia e reação dos participantes sem confundir ironia com humor",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0034"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0034",
+          "subassunto": "integracao_figura_e_progressao"
+        }
+      ],
+      "distincao": "Exercício novo: Integrar contexto, citação, ironia e reação dos participantes sem confundir ironia com humor. A solução exige as condições do novo cenário: O desperdício e o retrabalho dão à repetição valor irônico. Ironia não exige riso, e as aspas por si não a produzem. A ordem do mestre é coerente com reconhecer o custo da promessa.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0049",
+      "sha256": "ca298be1291f8be31c83475b7d2450f084826d012bfdb714127b670a4487b2c5",
+      "operacao": "Identificar regência em oração relativa contextualizada",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0003",
+        "TP26-ENGSEG-PORT-0035"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0003",
+          "subassunto": "causalidade_textual"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0035",
+          "subassunto": "oracao_final_destinatario"
+        }
+      ],
+      "distincao": "Exercício novo: Identificar regência em oração relativa contextualizada. A solução exige as condições do novo cenário: Precisar de algo exige a preposição preservada antes do relativo que retoma tempo.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0050",
+      "sha256": "9c2311cd0b98ff5d2334c93d42a46de3c1e206c95a1e0e4c45c7a907c9afa04e",
+      "operacao": "Conferir três regências, referências pronominais e direção da reformulação",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0006",
+        "TP26-ENGSEG-PORT-0020"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0006",
+          "subassunto": "reescrita_escopo"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0020",
+          "subassunto": "reescrita_relacoes_logicas"
+        }
+      ],
+      "distincao": "Exercício novo: Conferir três regências, referências pronominais e direção da reformulação. A solução exige as condições do novo cenário: Oferecer algo a alguém permite lhes; necessitar de exige de que; participar do debate permite dele. Preserva-se a negação da substituição do debate.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0051",
+      "sha256": "239fc23f5fe93a4f9d910baea3b14dfc039d0437c09f4295bf498840e71df665",
+      "operacao": "Reconhecer a marca de grau de certeza",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0005"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0005",
+          "subassunto": "modalizacao"
+        }
+      ],
+      "distincao": "Exercício novo: Reconhecer a marca de grau de certeza. A solução exige as condições do novo cenário: Parecer marca uma avaliação não conclusiva, coerente com a investigação em curso.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0052",
+      "sha256": "02b66e87eccbe231016689acaf964d465794a8537a5bc13c239a8efc43ee659f",
+      "operacao": "Reconstituir anterioridade e modo verbal no discurso indireto",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0006"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0006",
+          "subassunto": "reescrita_escopo"
+        }
+      ],
+      "distincao": "Exercício novo: Reconstituir anterioridade e modo verbal no discurso indireto. A solução exige as condições do novo cenário: Pediu que restituísse emprega o subjuntivo esperado no pedido passado; retirara situa a retirada anterior ao pedido.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0053",
+      "sha256": "4dee8b9b02396e9e5b73b0d0b79733b60fdbfee8d1d56f04b3609bc6a293bdfb",
+      "operacao": "Conciliar validade histórica e utilidade presente",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0023",
+        "TP26-ENGSEG-PORT-0001"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0023",
+          "subassunto": "sentido_figurado_personificacao"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0001",
+          "subassunto": "tese_evidencia"
+        }
+      ],
+      "distincao": "Exercício novo: Conciliar validade histórica e utilidade presente. A solução exige as condições do novo cenário: A precisão refere-se a um estado datado; não garante validade operacional sob transformação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0054",
+      "sha256": "180c79de9ae8a5b00f59b1b0ab3a21c80c04a16f96a97c8fe87c67d1eaba19dc",
+      "operacao": "Integrar locução proporcional, voz passiva, regência e preservação semântica",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0020",
+        "TP26-ENGSEG-PORT-0006"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0020",
+          "subassunto": "reescrita_relacoes_logicas"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0006",
+          "subassunto": "reescrita_escopo"
+        }
+      ],
+      "distincao": "Exercício novo: Integrar locução proporcional, voz passiva, regência e preservação semântica. A solução exige as condições do novo cenário: À proporção que preserva proporcionalidade; ajustavam-se concorda com rotas; visar a evitar não tem crase antes de infinitivo e conserva a finalidade.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0055",
+      "sha256": "480c07539e7555340e7eafe36850d42da52501da54712545e8dc3c16726736f0",
+      "operacao": "Resolver retomada local apesar da ordem de menção mais distante",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0019",
+        "TP26-ENGSEG-PORT-0003"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0019",
+          "subassunto": "inferencia_multiplas_explicacoes"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0003",
+          "subassunto": "causalidade_textual"
+        }
+      ],
+      "distincao": "Exercício novo: Resolver retomada local apesar da ordem de menção mais distante. A solução exige as condições do novo cenário: A retomada segue as orações paralelas imediatamente anteriores: algumas/percurso e outras/destino.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0056",
+      "sha256": "5660b2c22171aff22eb24f4fcf58f9258e0ff339ec728c784ff5ff4cfb5fa0b2",
+      "operacao": "Combinar referentes, negação de simulação e distinção entre meios e fins",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0029",
+        "TP26-ENGSEG-PORT-0004"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0029",
+          "subassunto": "coerencia_polifonia_editorial"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0004",
+          "subassunto": "inferencia_controle_contrafactual"
+        }
+      ],
+      "distincao": "Exercício novo: Combinar referentes, negação de simulação e distinção entre meios e fins. A solução exige as condições do novo cenário: O texto distingue níveis de objeção e recusa simular que uma resposta a meios resolve a disputa de fins.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0057",
+      "sha256": "fa9d3927625fb01b2051a9d288e4cf33b0711fdbc8418f68c845adede59dc3cf",
+      "operacao": "Reconhecer valor condicional de quando contextualizado",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0027",
+        "TP26-ENGSEG-PORT-0015"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0027",
+          "subassunto": "verbos_impessoais_tempo"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0015",
+          "subassunto": "pontuacao_restritiva"
+        }
+      ],
+      "distincao": "Exercício novo: Reconhecer valor condicional de quando contextualizado. A solução exige as condições do novo cenário: Quando tem valor condicional nesse contexto: a possibilidade depende das condições de preservação.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0058",
+      "sha256": "a15a0a1cae0ead63c1ec8cb70768514d944cf4bc14c1a0daac4ec1bdaed6c81a",
+      "operacao": "Preservar a condição em reformulação equivalente",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0034",
+        "TP26-ENGSEG-PORT-0036"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0034",
+          "subassunto": "integracao_figura_e_progressao"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0036",
+          "subassunto": "reducao_oracional_controle_sujeito"
+        }
+      ],
+      "distincao": "Exercício novo: Preservar a condição em reformulação equivalente. A solução exige as condições do novo cenário: Desde que mantém a condição original sem estendê-la a todas as amostras antigas.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0059",
+      "sha256": "8f8eea8c316acf87c4061f469a07653a7ce6242958ded4d3367be3287f274d75",
+      "operacao": "Distinguir legitimidade procedimental, mérito e efeito documental",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0018"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0018",
+          "subassunto": "integracao_condicoes_modalizacao"
+        }
+      ],
+      "distincao": "Exercício novo: Distinguir legitimidade procedimental, mérito e efeito documental. A solução exige as condições do novo cenário: Procedimento, mérito e registro são planos distintos: aceitar execução não altera voto nem conteúdo da discordância.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0060",
+      "sha256": "5d67db73e91962cc8274c1ff92f6ca05d158ece55e138ee32dbccbb3852ac06d",
+      "operacao": "Relacionar sujeitos de duas passivas e conservar ausência de unanimidade",
+      "contrastesAntigos": [
+        "TP26-ENGSEG-PORT-0007",
+        "TP26-ENGSEG-PORT-0008"
+      ],
+      "contrastes": [
+        {
+          "id": "TP26-ENGSEG-PORT-0007",
+          "subassunto": "referencia_sujeito_oculto"
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0008",
+          "subassunto": "reescrita_agencia_regencia"
+        }
+      ],
+      "distincao": "Exercício novo: Relacionar sujeitos de duas passivas e conservar ausência de unanimidade. A solução exige as condições do novo cenário: Os fundamentos são sujeito plural da passiva; unanimidade é sujeito singular de atribuísse; à decisão recebe a preposição e artigo.",
+      "limite": "Há conceitos de língua/SST recorrentes; novidade é do exercício e cenário, não da existência de um conceito nunca cobrado. Candidatos lexicais não são embeddings."
+    }
+  ],
+  "substituicoes": [
+    {
+      "ids": [
+        "PORT-0047",
+        "PORT-0048"
+      ],
+      "motivo": "O rascunho sobre restauração repetia a oposição descrição/prescrição da dupla PORT-0041/0042; substituído por ironia e responsabilidade enunciativa em oficina."
+    },
+    {
+      "ids": [
+        "ESP-0175"
+      ],
+      "motivo": "Queda de peça e evidência de fixação próximas da investigação antiga; substituído por independência e contaminação de relatos."
+    },
+    {
+      "ids": [
+        "ESP-0164"
+      ],
+      "motivo": "Falso sinal permissivo próximo de ESP-0006; substituído por caminho de reação axial em teste de tubulação."
+    }
+  ],
+  "ajustesDistratores": [
+    "ESP-0122: denominações próximas da CIPA, em vez de nomes de comissões sem relação.",
+    "ESP-0160: erros plausíveis de proteção/energia/temperatura no lugar de alternativas caricatas.",
+    "ESP-0178: alternativas de projeto plausíveis, mas sem restabelecer a barreira passiva."
+  ],
+  "duplicatasFinaisEncontradas": 0,
+  "limites": "Revisão pelo mesmo assistente em rodadas distintas, sem avaliador humano ou modelo de embeddings independente. Dificuldade editorial, sem calibração psicométrica."
+}
