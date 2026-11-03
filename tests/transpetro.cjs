@@ -3,36 +3,9 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
-const source = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
 const clean = value => JSON.parse(JSON.stringify(value));
-
-function runtime() {
-  const storage = new Map();
-  const element = () => ({
-    classList: { add() {}, remove() {}, toggle() {} },
-    addEventListener() {}, replaceChildren() {}, appendChild() {}, append() {}
-  });
-  const context = vm.createContext({
-    console, setInterval, clearInterval,
-    document: { getElementById: element, createElement: element, addEventListener() {} },
-    window: { addEventListener() {} },
-    localStorage: {
-      getItem: key => storage.get(key) ?? null,
-      setItem: (key, value) => storage.set(key, String(value)),
-      removeItem: key => storage.delete(key)
-    },
-    fetch: async file => ({ ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8').replace(/^\uFEFF/, '')) })
-  });
-  vm.runInContext(source + `\nglobalThis.api = { App, CONCURSOS, evaluateTranspetro, evaluateAlero,
-    computeScore, saveResults, validateBank, loadQuestionsBank, generateExam, groupToBlocks,
-    setRoleStorageKeys, readJSON, writeJSON, getCycleIds, clearStorage, aggregateHistory };`, context);
-  return { ...context.api, context, storage };
-}
-function select(r, contest = 'TRANSPETRO', role = 'ENG_SEG', type = 'FULL') {
-  Object.assign(r.App, { contest, role, type }); r.setRoleStorageKeys();
-}
+const { createRuntime: runtime, select } = require('../scripts/lib/runtime.cjs');
 function mock(area, index, overrides = {}) {
   return { id: `${area}-${index}`, concurso: 'TRANSPETRO', cargo: 'ENG_SEG', area,
     assunto: area === 'ESP' ? 'ergonomia' : 'teste_interno', statement: 'mock interno',
@@ -61,7 +34,7 @@ test('concursos, cargos, áreas, formatos e duração independentes', () => {
   assert.deepEqual(clean(c.TRANSPETRO.formatos.ESP.quantidades), { ESP: 50 });
   assert.equal(c.TRANSPETRO.tempo.limiteMs, 270 * 60000); assert.equal(c.TRANSPETRO.tempo.avisoMs, 15 * 60000);
   assert.equal(c.ALERO.tempo.limiteMs, 240 * 60000); assert.notEqual(c.ALERO.avaliar, c.TRANSPETRO.avaliar);
-  assert.equal(Object.keys(c.TRANSPETRO.cargos.ENG_SEG.assuntos).length, 10);
+  assert.equal(Object.keys(c.TRANSPETRO.cargos.ENG_SEG.assuntos).length, 11);
 });
 for (const [port, ing, esp, passed, reasons] of [
   [5, 5, 24, false, ['Específicos']], [5, 5, 25, true, []],
@@ -85,16 +58,20 @@ test('simulados parciais não inventam aprovação oficial', () => {
     assert.equal(result.passedAll, null); assert.equal(result.criteria.length, 0); assert.equal(result.applicable, false);
   }
 });
-test('os 12 bancos reais da Transpetro são arrays vazios e carregam isoladamente', async () => {
+test('bancos reais carregam isoladamente; banco vazio continua tratado por fixture em memória', async () => {
   const r = runtime(); select(r); const files = r.CONCURSOS.TRANSPETRO.cargos.ENG_SEG.bancos;
-  assert.equal(files.length, 12);
-  for (const { path: file } of files) assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, file))), []);
+  assert.equal(files.length, 13);
+  for (const { path: file } of files) assert(Array.isArray(JSON.parse(fs.readFileSync(path.join(root, file)))));
   r.App.questionsBank = pool('ESP', 80, { concurso: 'ALERO' });
+  await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 100);
+  assert(r.App.questionsBank.every(q => q.concurso === 'TRANSPETRO' && q.cargo === 'ENG_SEG'));
+  r.context.fetch = async () => ({ ok: true, json: async () => [] });
   await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 0);
   assert.throws(() => r.generateExam(), /Língua Portuguesa: disponíveis: 0; necessárias: 10/);
   assert.equal(r.App.exam.length, 0); assert.equal(r.App.timer.running, false);
   assert(!r.storage.has(r.App.cycleKey));
 });
+
 for (const [port, ing, esp, area, available, required] of [
   [8, 10, 50, 'Língua Portuguesa', 8, 10], [10, 8, 50, 'Língua Inglesa', 8, 10],
   [10, 10, 40, 'Conhecimentos Específicos', 40, 50]

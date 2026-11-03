@@ -52,6 +52,8 @@ const originalScore=baseline.slice(baseline.indexOf('function computeScore()'),b
    }
   }
  }
+ // Regressão de banco vazio preservada por interceptação só neste teste.
+ await page.route('**/data/transpetro/**', route=>route.fulfill({json:[]}));
  const alero=await page.evaluate(()=>Object.fromEntries(Object.entries(localStorage).filter(([k])=>k.startsWith('simulado_ALERO'))));
  await page.locator('#btnChangeContest').click();await page.getByRole('button',{name:'Transpetro 2026',exact:true}).click();await page.getByRole('button',{name:'Engenharia de Segurança do Trabalho',exact:true}).click();
  assert(await page.locator('#btnStart').isEnabled());

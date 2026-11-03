@@ -1,0 +1,102 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { execFileSync, spawnSync } = require('node:child_process');
+const { validate, loadRows, read } = require('../scripts/validate-transpetro.cjs');
+const { createRuntime, select, root } = require('../scripts/lib/runtime.cjs');
+const clone = x => JSON.parse(JSON.stringify(x));
+
+test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 100 itens', () => {
+  const result = validate({ partial: true });
+  assert.deepEqual(result.errors, []); assert.equal(result.total, 100);
+  assert.deepEqual(result.areas, { PORT: 20, ING: 20, ESP: 60 });
+  assert.equal(result.groups, 20); assert.equal(result.independentQuestions, 60);
+  assert.equal(result.warnings.length, 1);
+});
+test('liberação da Etapa 1 FALHA enquanto faltarem 600 questões', () => {
+  const result = validate(); assert(result.errors.includes('total: 100; necessário 700'));
+  const command = spawnSync(process.execPath, ['scripts/validate-transpetro.cjs'], { cwd: root, encoding: 'utf8' });
+  assert.equal(command.status, 1); assert(command.stdout.includes('necessário 700'));
+});
+for (const [name, change, expected] of [
+  ['campo obrigatório', q => delete q.subassunto, /subassunto/],
+  ['dificuldade', q => q.difficulty = 'baixa', /dificuldade/],
+  ['ID duplicado', (q, rows) => q.id = rows[1].q.id, /duplicado/],
+  ['ID ALERO', q => q.id = 'PORT-001', /colisão ALERO/],
+  ['área', q => q.area = 'RLM', /área/],
+  ['assunto', q => q.assunto = 'desconhecido', /assunto/],
+  ['cargo', q => q.cargo = 'DES', /identidade/],
+  ['concurso', q => q.concurso = 'ALERO', /identidade/],
+  ['cinco alternativas', q => q.options.pop(), /cinco alternativas/],
+  ['alternativa vazia', q => q.options[0] = '', /cinco alternativas/],
+  ['alternativa duplicada', q => q.options[1] = q.options[0], /alternativas duplicadas/],
+  ['índice fracionário', q => q.answer = 1.5, /gabarito/],
+  ['índice fora da faixa', q => q.answer = 5, /gabarito/],
+  ['explicação', q => q.explanation = '', /explanation/],
+  ['gabarito alterado após revisão', q => q.answer = (q.answer + 1) % 5, /auditoria\/gabarito/],
+  ['grupo inexistente', q => q.groupId = 'TP26-PORT-999', /órfão/],
+  ['base sem contexto', q => q.statement = q.statement.split('\n\n').at(-1), /base textual/],
+  ['ordem de grupo', q => q.id = 'TP26-ENGSEG-PORT-9999', /ordem interna/],
+  ['mudança pós-auditoria', q => q.statement += ' Texto adicional.', /após revisão/],
+  ['fonte normativa não verificada', q => q.statement += ' Conforme NR-01.', /fonte/]
+]) test(`validador reprova corrupção: ${name}`, () => {
+  const rows = clone(loadRows()); change(rows[0].q, rows);
+  assert(validate({ partial: true, rows }).errors.some(s => expected.test(s)));
+});
+test('validador detecta grupo intercalado e alteração de quantidade', () => {
+  const rows = clone(loadRows()); rows[1].index = 50;
+  assert(validate({ partial: true, rows }).errors.some(s => s.includes('intercalado')));
+  rows.pop(); assert(validate({ partial: true, rows }).errors.some(s => s.startsWith('total:')));
+});
+test('as 30 resoluções quantitativas recalculadas encontram exatamente uma alternativa', () => {
+  const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-calculations.cjs'], { cwd: root, encoding: 'utf8' }));
+  assert.equal(output.checked, 30); assert(output.passed); assert(output.results.every(r => r.matches.length === 1));
+});
+test('triagem lexical global não encontra pares acima do limiar', () => {
+  const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-similarity.cjs'], { cwd: root, encoding: 'utf8' }));
+  assert.equal(output.comparedPairs, 4950); assert.deepEqual(output.flagged, []);
+});
+test('motor real em dez provas: evita repetição quando há inéditas suficientes e preserva todo grupo', async () => {
+  const r = createRuntime(); select(r); await r.loadQuestionsBank();
+  const reports = [];
+  for (let attempt = 0; attempt < 10; attempt++) {
+    const cycle = r.getCycleIds();
+    const before = Object.fromEntries(['PORT', 'ING', 'ESP'].map(area => [area, r.App.questionsBank.filter(q => q.area === area && !cycle.has(q.id)).length]));
+    r.generateExam(); assert.equal(r.App.exam.length, 70); assert.equal(new Set(r.App.exam.map(q => q.id)).size, 70);
+    const fresh = {};
+    for (const [area, needed] of Object.entries({ PORT: 10, ING: 10, ESP: 50 })) {
+      const selected = r.App.exam.filter(q => q.area === area);
+      assert.equal(selected.length, needed); fresh[area] = selected.filter(q => !cycle.has(q.id)).length;
+      if (before[area] >= needed) assert.equal(fresh[area], needed);
+      else if (before[area] > 0) assert.equal(fresh[area], before[area]);
+    }
+    for (const q of r.App.exam.filter(q => q.groupId)) {
+      const group = r.App.questionsBank.filter(x => x.groupId === q.groupId), start = r.App.exam.findIndex(x => x.id === group[0].id);
+      assert(start >= 0); assert.deepEqual(Array.from(r.App.exam.slice(start, start + group.length), x => x.id), Array.from(group, x => x.id));
+    }
+    reports.push({ attempt: attempt + 1, before, fresh });
+  }
+  assert.equal(reports[0].fresh.ESP, 50);
+  assert.equal(reports[1].fresh.PORT, 10); assert.equal(reports[1].fresh.ING, 10); assert.equal(reports[1].fresh.ESP, 10);
+  // 100 itens não autorizam alegar dez provas sem repetição: o lote só garante uma completa inédita.
+});
+test('bancos ALERO não sofreram alteração de conteúdo nesta branch', () => {
+  for (const name of ['port', 'rlm', 'info', 'leg', 'hgr', 'esp_arquiteto', 'esp_desenhista']) {
+    const file = `data/${name}.json`;
+    assert.deepEqual(fs.readFileSync(path.join(root, file)), execFileSync('git', ['show', `e9c9ef6:${file}`], { cwd: root }));
+  }
+});
+
+test('leitor rejeita JSON sintaticamente inválido sem tocar nos bancos reais', () => {
+ const os = require('node:os'); const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tp-json-'));
+ try {
+  const file = path.join(dir, 'invalid.json'); fs.writeFileSync(file, '[{"id":]');
+  assert.throws(() => read(path.relative(root, file)), SyntaxError);
+ } finally { fs.rmSync(dir, { recursive: true, force: true }); }
+});
+test('validador rejeita cópia com ID novo e opções reordenadas', () => {
+ const rows = clone(loadRows());
+ rows[2].q = { ...rows[0].q, id: rows[2].q.id, options: rows[0].q.options.slice().reverse() };
+ assert(validate({ partial: true, rows }).errors.some(s => s.includes('conteúdo duplicado')));
+});

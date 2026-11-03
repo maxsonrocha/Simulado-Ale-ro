@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0053",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "mecanismos_extincao",
+    "difficulty": "media",
+    "statement": "Em um modelo simplificado de combustão, o fogo depende de combustível, oxidante e energia térmica suficiente. Um sistema remove calor do material de modo a interromper a sustentação da combustão. Qual mecanismo está sendo descrito?",
+    "options": [
+      "Abafamento.",
+      "Isolamento do combustível.",
+      "Interrupção da alimentação de combustível.",
+      "Diluição do oxidante.",
+      "Resfriamento."
+    ],
+    "answer": 4,
+    "explanation": "O mecanismo especificado é a remoção de calor, portanto resfriamento. Abafamento e diluição atuam na disponibilidade/concentração do oxidante; isolamento e interrupção de alimentação atuam no combustível. Não se escolhe um agente para um produto não identificado.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0054",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "selecao_agente_compatibilidade",
+    "difficulty": "alta",
+    "statement": "As informações técnicas de um produto indicam reação perigosa com água. A equipe precisa selecionar a estratégia de combate de um cenário que envolve esse produto. Qual encaminhamento é justificado pelas informações disponíveis?",
+    "options": [
+      "Dispensar a identificação do combustível se o sistema de alarme já tiver detectado o evento.",
+      "Usar o tamanho do recipiente como único critério para escolher o agente, sem examinar a reação descrita.",
+      "Selecionar água em contato direto porque sua capacidade de absorver calor elimina qualquer reação química incompatível.",
+      "Verificar agentes e formas de aplicação compatíveis com o produto e o cenário, sem presumir que resfriamento por contato com água seja adequado.",
+      "Selecionar qualquer pó de mesma cor do produto porque semelhança visual demonstra compatibilidade."
+    ],
+    "answer": 3,
+    "explanation": "A incompatibilidade exige avaliação técnica de agente e aplicação. Capacidade térmica, cor, detecção ou tamanho não eliminam a reação descrita nem bastam para selecionar o combate. A questão não prescreve atuação sem dados e treinamento.",
+    "etapa": 1
+  }
+]

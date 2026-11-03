@@ -33,26 +33,36 @@ erros, tempo e situação. As estratégias de avaliação/resumo são configurá
 
 ## Bancos e assuntos da Transpetro
 
-Os 12 arquivos em `data/transpetro/eng_seguranca/` contêm **somente `[]`**:
+Os 13 arquivos em `data/transpetro/eng_seguranca/` contêm um **lote parcial de
+100 questões da Etapa 1** (20 PORT, 20 ING, 60 ESP). Legislação permanece vazio.
+A meta de 700 não foi concluída. Relatório: [Etapa 1](docs/transpetro-etapa-1-relatorio.md).
+
+Arquivos:
 
 - `portugues.json` (PORT), `ingles.json` (ING);
 - ESP: `prevencao_riscos.json`, `gerenciamento_riscos.json`, `legislacao_nr.json`,
   `gestao_sms.json`, `emergencias.json`, `incendio.json`, `acidentes.json`,
-  `higiene_ocupacional.json`, `saude_ocupacional.json`, `ergonomia.json`.
+  `higiene_ocupacional.json`, `saude_ocupacional.json`, `ergonomia.json`,
+  `desenvolvimento_sustentavel.json`.
 
-`ASSUNTOS_ENG_SEG` mapeia esses identificadores aos dez nomes completos dos grupos
+`ASSUNTOS_ENG_SEG` mapeia esses identificadores aos onze nomes completos dos grupos
 de conhecimentos específicos. O cadastro do cargo aponta para todos os arquivos.
-Não há questões, exemplos nem preenchimento automático nos bancos reais.
+Não há preenchimento automático ou questões de teste nos bancos reais.
+O motor, os grupos e o armazenamento permanecem os da infraestrutura anterior.
 
 Futuras questões devem informar `id` único, `concurso: "TRANSPETRO"`,
 `cargo: "ENG_SEG"`, `area`, `assunto`, `statement`, cinco strings em `options`,
-`answer` inteiro de 0 a 4 e `explanation` string. Em ESP, `assunto` deve ser o
+`answer` inteiro de 0 a 4 e `explanation` string. O lote acrescenta `subassunto`,
+`difficulty` (`media`, `alta`, `muito_alta`) e `etapa: 1`. A validação editorial
+exige explicação não vazia. Os números de dificuldade da ALERO são preservados. Em ESP, `assunto` deve ser o
 identificador cadastrado e corresponder ao arquivo. Em PORT/ING, é um texto
 não vazio para o assunto, sem inventar um programa de tópicos nesta etapa.
 O carregador aceita arrays e o envelope legado `{ "questions": [...] }`.
 ALERO continua aceitando `topic` e não precisa de novos campos de identidade.
 
-O botão de gerar está habilitado para permitir configurar e tentar iniciar.
+O lote já permite prova completa 10/10/50 e específico 50. Garante **uma**
+prova completa inteiramente inédita por ciclo, não dez; faltam questões para
+a capacidade planejada. O botão de gerar permite configurar e iniciar.
 Banco vazio/insuficiente mantém a configuração visível e informa, por disciplina,
 disponíveis e necessárias. Nenhuma prova vazia é iniciada, nenhum timer é
 acionado e nenhum banco alheio completa a quantidade. Basta adicionar questões
@@ -141,3 +151,27 @@ contexto, estatísticas/histórico, ambos os cargos ALERO e modos/formatos,
 mapa/navegação/marcação, feedback, erradas e timers. A pontuação da ALERO é
 comparada com a implementação original do commit `74e41d2`; o sorteio não é mais
 comparado questão a questão, pois agora considera as vistas e todos os grupos.
+
+## Validação do banco — Etapa 1 parcial
+
+```sh
+node scripts/validate-transpetro.cjs --partial
+node scripts/audit-transpetro-calculations.cjs
+node scripts/audit-transpetro-similarity.cjs
+node --test tests/transpetro.cjs tests/transpetro-bank.cjs
+# Com o servidor local e Playwright disponível:
+node tests/transpetro-bank-ui.cjs
+```
+
+`node scripts/validate-transpetro.cjs` **sem `--partial` deve falhar** enquanto
+o banco não contiver exatamente 700 e a matriz completa. A opção parcial não
+altera a meta: exige as quantidades declaradas no plano, a proporção de
+dificuldades em cada área e a auditoria individual dos itens presentes.
+`--structure-only` isola a primeira rodada estrutural, sem substituir a revisão
+de conteúdo exigida por padrão.
+
+Os arquivos em `docs/auditorias/` registram estrutura, cálculos, triagem lexical e
+parecer sobre as cinco alternativas de cada item. O hash de cada questão impede
+reutilizar um parecer após mudar seu conteúdo. Esses controles não constituem
+prova automática de unicidade semântica nem calibração psicométrica: a revisão
+editorial e a revisão humana de domínio continuam distintas dos testes.

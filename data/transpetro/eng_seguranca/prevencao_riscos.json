@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "energia_armazenada",
+    "difficulty": "media",
+    "statement": "Um atuador possui um capacitor de 0,020 F carregado a 100 V. Para o modelo do equipamento, E = C·V²/2. Qual é a energia elétrica armazenada antes da descarga, sem considerar outras fontes?",
+    "options": [
+      "100 J.",
+      "200 J.",
+      "1 J.",
+      "10 J.",
+      "1.000 J."
+    ],
+    "answer": 0,
+    "explanation": "E=0,020×100²/2=100 J. O resultado de 200 J omite o divisor 2; 10 e 1.000 J deslocam uma casa decimal; 1 J trata inadequadamente a dependência quadrática da tensão. A energia calculada não atesta segurança para uma intervenção.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "hierarquia_controles",
+    "difficulty": "media",
+    "statement": "Uma linha de abastecimento exige que um trabalhador verta manualmente um líquido irritante de baldes para um tanque. Um projeto pode eliminar essa etapa com transferência por circuito fechado, desde que seus próprios perigos sejam avaliados. Em relação à exposição causada pelo vertimento, qual é a principal diferença técnica entre essa solução e apenas orientar o trabalhador a verter mais devagar?",
+    "options": [
+      "O circuito fechado e a orientação atuam igualmente na fonte, pois ambos alteram a velocidade do trabalhador.",
+      "A orientação constitui uma separação física contínua, enquanto o circuito fechado depende de contato manual com o líquido.",
+      "O circuito fechado só altera a consequência do contato, enquanto a orientação elimina fisicamente o líquido.",
+      "A orientação elimina a necessidade de avaliar a exposição, enquanto o circuito fechado exige apenas avaliar produtividade.",
+      "O circuito fechado atua no processo gerador, em vez de depender só da execução individual."
+    ],
+    "answer": 4,
+    "explanation": "Modificar a transferência pode retirar o vertimento aberto que gera a exposição; orientar é uma medida dependente de comportamento. Orientação não retira fisicamente o líquido nem cria barreira. O projeto precisa ser avaliado, inclusive quanto a outros perigos, e não elimina a análise da exposição.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "movimentacao_cargas",
+    "difficulty": "media",
+    "statement": "Uma peça homogênea de 800 kg é apoiada horizontalmente em dois pontos situados a 4 m um do outro. Seu centro de massa fica a 1 m do apoio esquerdo. Admitindo equilíbrio estático, apoios verticais e g=10 m/s², qual é a força vertical no apoio direito?",
+    "options": [
+      "8.000 N.",
+      "2.000 N.",
+      "1.000 N.",
+      "6.000 N.",
+      "4.000 N."
+    ],
+    "answer": 1,
+    "explanation": "O peso é 8.000 N. Tomando momentos no apoio esquerdo: R_d×4=8.000×1, portanto R_d=2.000 N. Os 6.000 N são a reação esquerda; 4.000 N pressupõe centro no meio; 8.000 N atribui todo o peso ao apoio direito e 1.000 N não satisfaz o momento.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "energia_mecanica_bloqueio",
+    "difficulty": "alta",
+    "statement": "Uma bomba foi desligada pelo botão de comando. O eixo ainda gira por inércia, e uma linha conectada permanece pressurizada. Para planejar a intervenção sem presumir que “parado no comando” equivale a “sem energia”, qual levantamento é tecnicamente adequado?",
+    "options": [
+      "Mapear e tratar separadamente alimentação, inércia e pressão, verificando o estado obtido.",
+      "Aguardar que o eixo pare e considerar a energia da linha eliminada pela imobilidade mecânica do rotor.",
+      "Registrar a corrente instantânea do motor e usar esse valor como confirmação das condições de todas as energias.",
+      "Verificar a pressão da linha e considerar o circuito de alimentação isolado pela posição do botão de parada.",
+      "Confirmar a ausência do comando de partida e tratar a pressão como variável apenas de desempenho hidráulico."
+    ],
+    "answer": 0,
+    "explanation": "Há fontes e formas de energia distintas: elétrica, cinética e de fluido. Cada uma exige análise e verificação própria. Botão, rotor parado, pressão ou corrente, isoladamente, não demonstram o estado das outras formas. A questão é técnica e não fixa procedimento normativo de bloqueio.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "ventilacao_espaco_confinado",
+    "difficulty": "alta",
+    "statement": "Em uma simulação de ventilação, duas sondas indicam concentrações distintas de um contaminante: uma na entrada de ar e outra num rebaixo distante. O plano exige caracterizar a atmosfera de toda a zona de trabalho antes de autorizar acesso. Qual interpretação deve orientar a avaliação, sem presumir mistura uniforme?",
+    "options": [
+      "A média aritmética das duas leituras comprova que nenhum ponto apresenta concentração superior à média calculada.",
+      "A divergência demonstra necessariamente falha das sondas, tornando dispensável examinar a circulação do ar.",
+      "A menor leitura caracteriza todo o volume, pois o ar renovado na entrada se distribui instantaneamente pelo espaço.",
+      "A maior leitura deve ser descartada se a vazão nominal do ventilador não tiver variado entre as medições.",
+      "Verificar a distribuição no espaço e no tempo: a entrada não representa necessariamente o rebaixo."
+    ],
+    "answer": 4,
+    "explanation": "Gradientes espaciais podem ocorrer por geometria, fontes e ventilação. Nem menor valor, média ou vazão nominal demonstra uniformidade. Divergência demanda investigação, não prova automaticamente defeito. Não se estabelece limite de entrada ou suficiência de apenas duas amostras.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "intertravamento_maquinas",
+    "difficulty": "alta",
+    "statement": "Uma proteção intertravada interrompe uma máquina quando é aberta. O histórico mostra que a chave pode permanecer acionada mesmo com a proteção deslocada, por desalinhamento do conjunto. Qual medida enfrenta o mecanismo de falha identificado?",
+    "options": [
+      "Aumentar a frequência de limpeza externa e aceitar a indicação da chave como evidência suficiente de posição.",
+      "Manter o projeto e usar a contagem de acionamentos como substituta do ensaio com a proteção deslocada.",
+      "Reavaliar a detecção da posição real e testar falhas previsíveis, impedindo operação insegura.",
+      "Reposicionar apenas o indicador luminoso, sem examinar a relação entre chave, proteção e movimento perigoso.",
+      "Reduzir o tempo do ciclo produtivo para encurtar a permanência da proteção na posição deslocada."
+    ],
+    "answer": 2,
+    "explanation": "O problema é a correspondência entre posição real e sinal, não apenas aparência ou produtividade. É necessário tratar a montagem/detecção e verificar falhas. Limpeza, contagem, indicador ou ciclo não validam essa correspondência nem enfrentam diretamente a falsa indicação.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "produtos_perigosos_compatibilidade",
+    "difficulty": "alta",
+    "statement": "Dois produtos devem ser armazenados temporariamente. As informações verificadas do processo dizem que o produto X reage com água liberando calor e gás, e que o produto Y é transportado em solução aquosa. Um operador propõe usar a mesma bacia de contenção para ambos. Qual análise é prioritária?",
+    "options": [
+      "Verificar o contato entre vazamentos e segregar os produtos conforme a reação identificada.",
+      "Comparar somente as massas específicas, pois produtos mais densos ficam separados de qualquer solução aquosa.",
+      "Somar apenas os volumes dos recipientes, pois capacidade volumétrica suficiente também demonstra compatibilidade química.",
+      "Adotar a maior temperatura de armazenamento como prova de que a presença de água não altera a reação.",
+      "Considerar os produtos compatíveis se os recipientes tiverem cores de identificação diferentes."
+    ],
+    "answer": 0,
+    "explanation": "A contenção compartilhada pode promover o contato incompatível descrito. Volume, densidade, identificação e temperatura isoladamente não removem o mecanismo de reação. O enunciado fornece a incompatibilidade; não se presume que toda solução aquosa se comporte da mesma forma fora desse cenário.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "trabalhos_a_quente_fontes_ignicao",
+    "difficulty": "alta",
+    "statement": "Um serviço com projeção de partículas será feito numa plataforma. A avaliação identificou aberturas pelas quais partículas podem atingir materiais combustíveis no piso inferior, fora da visão de quem executa o serviço. Qual proposta responde ao caminho de propagação identificado?",
+    "options": [
+      "Usar a ausência de chama durante os primeiros minutos como evidência suficiente para encerrar a vigilância nos demais níveis.",
+      "Concentrar a inspeção no raio visível ao executor, porque a mudança de nível elimina a energia das partículas.",
+      "Controlar aberturas e combustíveis alcançáveis, com acompanhamento nos níveis expostos.",
+      "Aumentar apenas a ventilação da plataforma, considerando que a redução de fumaça impede a ignição no nível inferior.",
+      "Transferir os combustíveis para uma posição não visível da plataforma sem verificar onde as partículas podem chegar."
+    ],
+    "answer": 2,
+    "explanation": "É preciso atuar no transporte das partículas e no combustível alcançável, incluindo os níveis inferiores. Visibilidade, ventilação da fumaça ou ausência inicial de chama não excluem o caminho de ignição; ocultar materiais não prova segregação.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "pressao_forca_geometria",
+    "difficulty": "muito_alta",
+    "statement": "Numa análise de bancada, uma tampa circular de 0,20 m de diâmetro está submetida a pressão interna manométrica uniforme de 300 kPa. O modelo considera somente F=p·A, com A=πd²/4 e π=3,14. Uma mudança dobra o diâmetro e reduz a pressão à metade. Qual é a nova força e sua relação com a original?",
+    "options": [
+      "37.680 N, correspondente ao quádruplo da força original.",
+      "9.420 N, igual à força original porque as duas mudanças se compensam.",
+      "18.840 N, correspondente ao dobro da força original.",
+      "75.360 N, correspondente a oito vezes a força original.",
+      "4.710 N, correspondente à metade da força original."
+    ],
+    "answer": 2,
+    "explanation": "A área original é 3,14×0,20²/4=0,0314 m² e F=300.000×0,0314=9.420 N. Dobrar d quadruplica A; reduzir p à metade deixa F multiplicada por 2: 18.840 N. Compensação linear ignora d²; metade ignora a área; quatro/oito vezes combinam fatores incorretamente. Isso não é dimensionamento completo de vaso.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "estabilidade_tombamento",
+    "difficulty": "muito_alta",
+    "statement": "Um conjunto de massa 1.200 kg pode tombar em torno de uma borda. Na configuração A, seu centro de massa está 0,60 m para dentro da borda e uma força horizontal atua a 1,50 m de altura. Na configuração B, a distância do centro cai para 0,40 m e a altura da força aumenta para 2,00 m. Com g=10 m/s² e limiar ideal F·h=P·b, sem deslizamento, compare as forças-limite.",
+    "options": [
+      "A: 4.800 N; B: 4.800 N; as mudanças geométricas se anulam exatamente.",
+      "A: 2.400 N; B: 4.800 N; elevar o ponto de aplicação aumenta a estabilidade no modelo.",
+      "A: 7.200 N; B: 4.800 N; a força-limite é igual ao momento resistente em ambas.",
+      "A: 4.800 N; B: 2.400 N; a mudança reduz pela metade a força necessária ao tombamento ideal.",
+      "A: 18.000 N; B: 24.000 N; a força-limite acompanha o produto do peso pela altura."
+    ],
+    "answer": 3,
+    "explanation": "P=12.000 N. F_A=12.000×0,60/1,50=4.800 N; F_B=12.000×0,40/2=2.400 N. A alternativa dos momentos confunde N·m com N; elevar h reduz F para o mesmo momento. Não há compensação, e multiplicar P por h não fornece a força-limite.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "falha_causa_comum_barreiras",
+    "difficulty": "muito_alta",
+    "statement": "Uma linha depende de duas válvulas de isolamento. A proposta inicial trata cada uma como barreira independente. Na revisão, descobre-se que ambas precisam do mesmo suprimento pneumático para atingir a posição de isolamento; a perda desse suprimento impede o fechamento das duas. Qual conclusão e verificação são coerentes com esse achado?",
+    "options": [
+      "A causa comum deve ser contada duas vezes como eventos independentes para aumentar a precisão da estimativa conjunta.",
+      "A existência de dois corpos de válvula basta para manter a independência, sendo suficiente testar cada uma com suprimento normal.",
+      "O compartilhamento torna o fechamento necessariamente impossível em qualquer condição, dispensando a análise dos estados de falha.",
+      "Rever a independência e avaliar o estado de ambas na perda do suprimento compartilhado.",
+      "O teste com suprimento normal elimina a necessidade de analisar a perda de suprimento, desde que ambas respondam ao comando."
+    ],
+    "answer": 3,
+    "explanation": "A perda comum pode incapacitar simultaneamente as barreiras, invalidando o crédito de independência. Ensaios normais não caracterizam essa falha. Contá-la como duas falhas independentes modela mal a dependência; o achado não afirma impossibilidade de fechar sob suprimento normal.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "mudanca_operacional_multiplos_riscos",
+    "difficulty": "muito_alta",
+    "statement": "Uma mudança de processo prevê um solvente menos volátil, porém duas vezes mais viscoso. A transferência usará a bomba existente, e a equipe pretende manter a vazão elevando a pressão. A avaliação anterior considerava emissão de vapores, mas não essa nova pressão. Qual decisão integra os efeitos informados sem presumir que reduzir um perigo resolve os demais?",
+    "options": [
+      "Aprovar pela menor volatilidade, usando o benefício de exposição como evidência suficiente de integridade da transferência.",
+      "Rejeitar qualquer solvente menos volátil, porque a menor emissão implica necessariamente maior risco global.",
+      "Aprovar o aumento de pressão sempre que a vazão original for atingida, pois vazão igual implica esforços iguais na linha.",
+      "Reavaliar exposição, bombeamento e integridade antes de aprovar as novas condições.",
+      "Manter a pressão anterior como única condição de aprovação, sem examinar a perda de vazão ou o novo regime da bomba."
+    ],
+    "answer": 3,
+    "explanation": "A mudança altera exposição e comportamento hidráulico. É necessário verificar o conjunto e as capacidades reais; não há dados para aprovação automática ou rejeição universal. Vazão igual não implica pressão/esforço iguais, e fixar pressão sem verificar o regime também não resolve o projeto.",
+    "etapa": 1
+  }
+]

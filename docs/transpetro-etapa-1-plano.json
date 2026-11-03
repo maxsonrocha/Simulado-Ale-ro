@@ -1,0 +1,56 @@
+{
+  "etapa": 1,
+  "status": "parcial",
+  "baseCommit": "e9c9ef6",
+  "metaTotal": 700,
+  "metaAreas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 500
+  },
+  "metaAssuntosESP": {
+    "prevencao_riscos": 90,
+    "legislacao_nr": 90,
+    "higiene_ocupacional": 80,
+    "gerenciamento_riscos": 60,
+    "gestao_sms": 40,
+    "acidentes": 40,
+    "emergencias": 30,
+    "incendio": 24,
+    "ergonomia": 20,
+    "saude_ocupacional": 16,
+    "desenvolvimento_sustentavel": 10
+  },
+  "loteTotal": 100,
+  "loteAreas": {
+    "PORT": 20,
+    "ING": 20,
+    "ESP": 60
+  },
+  "loteAssuntosESP": {
+    "prevencao_riscos": 12,
+    "higiene_ocupacional": 16,
+    "gerenciamento_riscos": 12,
+    "gestao_sms": 4,
+    "acidentes": 4,
+    "emergencias": 4,
+    "incendio": 2,
+    "ergonomia": 2,
+    "saude_ocupacional": 2,
+    "desenvolvimento_sustentavel": 2
+  },
+  "proporcoesDificuldade": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "assuntosLinguas": {
+    "PORT": [
+      "compreensao_textual"
+    ],
+    "ING": [
+      "leitura_interpretacao"
+    ]
+  },
+  "limites": "Lote parcial autoral autossuficiente. Nenhuma referência normativa atual foi declarada verificada; legislação permanece pendente por indisponibilidade das fontes oficiais."
+}

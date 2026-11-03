@@ -8,7 +8,8 @@ const ASSUNTOS_ENG_SEG = {
   "acidentes": "Acidentes do Trabalho",
   "higiene_ocupacional": "Higiene Ocupacional",
   "saude_ocupacional": "Saúde Ocupacional",
-  "ergonomia": "Ergonomia"
+  "ergonomia": "Ergonomia",
+  "desenvolvimento_sustentavel": "Desenvolvimento Sustentável"
 };
 
 // Configuração de cada concurso: bancos, formatos, avaliação e cronômetro.
@@ -51,6 +52,7 @@ const CONCURSOS = {
     bancosComuns: [], areas: ["PORT", "ING", "ESP"],
     nomesAreas: { PORT: "Língua Portuguesa", ING: "Língua Inglesa", ESP: "Conhecimentos Específicos" },
     validarIdentidade: true,
+    dificuldades: { media: "Média", alta: "Alta", muito_alta: "Muito alta" },
     formatos: {
       FULL: { nome: "Prova completa (70)", quantidades: { PORT: 10, ING: 10, ESP: 50 } },
       ESP: { nome: "Conhecimentos Específicos (50)", quantidades: { ESP: 50 } },
@@ -441,6 +443,8 @@ function validateQuestion(q, idx) {
     if (typeof q.assunto !== "string" || !q.assunto.trim()) errors.push("assunto obrigatório");
     if (q.area === "ESP" && !Object.hasOwn(currentRole().assuntos, q.assunto)) errors.push("assunto específico inválido");
     if (typeof q.explanation !== "string") errors.push("explanation deve ser texto");
+    if (q.difficulty != null && !Object.hasOwn(currentContest().dificuldades, q.difficulty)) errors.push("difficulty inválida");
+    if (q.subassunto != null && (typeof q.subassunto !== "string" || !q.subassunto.trim())) errors.push("subassunto inválido");
   }
   if (q.groupId != null && (typeof q.groupId !== "string" || !q.groupId)) errors.push("groupId inválido");
 
@@ -624,7 +628,7 @@ function renderQuestion() {
   $("qTag").textContent = q.area || "—";
   $("qTopic").textContent = subjectName(subjectOf(q));
   fillGroupContext($("qContext"), q);
-  $("qDiff").textContent = `Nível ${q.difficulty ?? "—"}`;
+  $("qDiff").textContent = `Nível ${currentContest().dificuldades?.[q.difficulty] ?? q.difficulty ?? "—"}`;
   $("qStatement").textContent = q.statement || "";
 
   // imagem
@@ -937,7 +941,7 @@ function renderResult() {
         <div class="meta">
           <span class="tag">${w.area}</span>
           <span class="tag secondary">${w.topic}</span>
-          <span class="tag tertiary">Nível ${w.difficulty ?? "—"}</span>
+          <span class="tag tertiary">Nível ${currentContest().dificuldades?.[w.difficulty] ?? w.difficulty ?? "—"}</span>
         </div>
         <div><strong>${w.statement}</strong></div>
         <div class="muted small" style="margin-top:8px;">

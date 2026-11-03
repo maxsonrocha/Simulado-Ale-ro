@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0041",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "evidencia_auditoria",
+    "difficulty": "media",
+    "statement": "Um procedimento interno exige registrar a verificação de um alarme a cada turno. Na auditoria, o responsável afirma verbalmente que sempre verifica, mas os registros de cinco turnos não foram apresentados. Qual conclusão é compatível com a evidência disponível?",
+    "options": [
+      "A declaração verbal demonstra que todos os registros existem e satisfaz integralmente a exigência de registrá-los.",
+      "A falta dos registros prova necessariamente que o alarme ficou inoperante durante os cinco turnos.",
+      "A auditoria deve converter a declaração em cinco registros retroativos, como se fossem contemporâneos.",
+      "Há lacuna de evidência quanto ao registro exigido, sem que isso, por si, prove que nenhuma verificação ocorreu.",
+      "O requisito de registro deixa de existir se o responsável descrever corretamente a finalidade do alarme."
+    ],
+    "answer": 3,
+    "explanation": "O requisito inclui registro e a evidência correspondente está ausente. Isso não prova a não execução nem a inoperância. Conhecer a finalidade não revoga o procedimento e não autoriza fabricar evidência contemporânea.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0042",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "indicadores_proativos_reativos",
+    "difficulty": "alta",
+    "statement": "Um painel reúne número de lesões registradas e proporção de ações críticas verificadas como eficazes no prazo. Qual leitura diferencia corretamente as duas medidas?",
+    "options": [
+      "Uma proporção de ações de 100% torna desnecessária a análise de resultados porque demonstra risco futuro nulo.",
+      "A verificação de ações eficazes mede apenas consequências de lesões e não se relaciona ao funcionamento dos controles.",
+      "As duas medem diretamente a mesma exposição, de modo que uma delas pode substituir a outra sem perda de informação.",
+      "A contagem de lesões registra exclusivamente atividades preventivas planejadas antes da exposição.",
+      "A primeira descreve um resultado já ocorrido; a segunda acompanha o tratamento e a verificação de controles, sem garantir ausência futura de lesões."
+    ],
+    "answer": 4,
+    "explanation": "Lesões são resultados e ações verificadas acompanham a gestão dos controles. Os indicadores são complementares, não equivalentes; cumprir ações não garante risco zero, e a contagem de lesões não mede atividades preventivas planejadas.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0043",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "eficacia_acao_corretiva",
+    "difficulty": "alta",
+    "statement": "Uma investigação identificou que o sistema permite liberar ordens sem verificar um dado crítico. A ação foi adicionar a verificação obrigatória no fluxo. Qual evidência é mais adequada para avaliar eficácia além da mera conclusão da alteração?",
+    "options": [
+      "Comparar apenas o número de pessoas que assinaram ciência da mudança, sem observar o funcionamento do fluxo.",
+      "Testar tentativas de liberação com e sem o dado e acompanhar se o fluxo impede a omissão nas condições em que ela ocorria.",
+      "Registrar que a tela recebeu uma nova cor, independentemente do comportamento da liberação de ordens.",
+      "Usar a ausência de reclamações sobre o leiaute como demonstração de que o dado não pode mais ser omitido.",
+      "Confirmar que a alteração foi paga e encerrar a avaliação sem verificar o mecanismo que causava a omissão."
+    ],
+    "answer": 1,
+    "explanation": "A eficácia deve testar o mecanismo de omissão e seu funcionamento no uso. Cor, pagamento, ciência ou aceitação visual podem registrar execução/comunicação, mas não demonstram que a liberação sem o dado foi impedida.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0044",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "comparabilidade_indicadores",
+    "difficulty": "muito_alta",
+    "statement": "Uma empresa encerrou 90 de 100 ações no ano A e 40 de 50 no ano B. Entretanto, a proporção de ações encerradas cuja eficácia foi verificada foi 50% em A e 90% em B. Qual comparação quantitativa e gerencial está correta?",
+    "options": [
+      "A queda do número de encerramentos demonstra piora gerencial, independentemente das proporções de eficácia e da composição das ações.",
+      "A taxa de encerramento caiu de 90% para 80%, mas os encerramentos com eficácia verificada passaram de 45% para 72% do total de ações.",
+      "A taxa de encerramento e a parcela de eficácia verificada são idênticas em cada ano, pois usam o mesmo denominador.",
+      "A taxa de encerramento aumentou de 80% para 90%, e a eficácia verificada representa 90% de todas as ações em B.",
+      "As taxas de eficácia verificada podem ser comparadas diretamente como 50% e 90% do total de ações, sem considerar os encerramentos."
+    ],
+    "answer": 1,
+    "explanation": "A: 90/100=90% encerradas; 45/100=45% do total com eficácia verificada. B: 40/50=80% encerradas; 36/50=72% do total com eficácia verificada. Os percentuais 50% e 90% têm como base os encerramentos. As quantidades de ações eficazes são 45 e 36; a comparação de taxas requer distinguir essas bases e a composição das ações.",
+    "etapa": 1
+  }
+]

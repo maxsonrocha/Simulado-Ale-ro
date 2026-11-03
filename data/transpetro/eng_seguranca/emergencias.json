@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0049",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "reconhecimento_recursos",
+    "difficulty": "media",
+    "statement": "Um plano de exercício prevê resposta a um vazamento, mas a equipe encontra no ponto de encontro uma lista de contatos desatualizada e não consegue confirmar a disponibilidade dos recursos previstos. Qual providência fortalece diretamente a prontidão do plano?",
+    "options": [
+      "Repetir apenas a leitura do cenário, mantendo sem teste a comunicação com os responsáveis pelos recursos.",
+      "Verificar acionamento, contatos e disponibilidade dos recursos em condições de exercício e corrigir as lacunas identificadas.",
+      "Trocar o nome do ponto de encontro, sem conferir como os recursos são solicitados e mobilizados.",
+      "Retirar do exercício o acionamento dos recursos para que o resultado não dependa de informações atualizadas.",
+      "Considerar a existência do documento como comprovação de que os recursos estarão disponíveis quando necessários."
+    ],
+    "answer": 1,
+    "explanation": "O problema está no acionamento real e na disponibilidade; deve ser testado e corrigido. Documento, leitura, exclusão do teste e mudança de nome não demonstram prontidão operacional.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0050",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "comando_coordenacao",
+    "difficulty": "alta",
+    "statement": "Duas equipes de resposta recebem prioridades incompatíveis de chefias diferentes e disputam o mesmo recurso. O plano do exercício prevê coordenação única para conciliar objetivos e alocação. Qual conduta aplica esse arranjo?",
+    "options": [
+      "Substituir a avaliação das prioridades pela contagem de mensagens que cada chefia enviou à equipe.",
+      "Suspender a comunicação entre as equipes para evitar que elas recebam novas informações contraditórias.",
+      "Consolidar a situação e as necessidades na coordenação prevista, definir prioridades e comunicar a alocação às equipes.",
+      "Permitir que cada equipe redefina o destino do recurso sem informar as demais, até que uma delas conclua a tarefa.",
+      "Entregar o recurso à primeira chefia que o solicitar, independentemente da comparação entre as necessidades."
+    ],
+    "answer": 2,
+    "explanation": "A coordenação prevista existe para integrar informações, prioridades e recursos. Competição independente, ordem de chegada, silêncio ou quantidade de mensagens não realizam essa função. Não se inventa uma estrutura normativa obrigatória.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0051",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "rotas_evolucao_cenario",
+    "difficulty": "alta",
+    "statement": "Num exercício, a rota de saída inicialmente indicada pode ser atingida por uma pluma simulada. O plano permite mudar a rota conforme o monitoramento. Qual decisão é compatível com essa premissa?",
+    "options": [
+      "Selecionar a rota apenas pelo número de pessoas que já a conhecem, sem considerar a posição da pluma.",
+      "Reavaliar a rota com as informações atuais e orientar a mudança prevista antes que a exposição simulada alcance os deslocamentos.",
+      "Desconsiderar o monitoramento sempre que a rota alternativa implicar distância maior que a rota inicial.",
+      "Manter a rota inicial porque sua inclusão no plano impede qualquer alteração durante um cenário em evolução.",
+      "Enviar primeiro um grupo pela rota ameaçada para usar seus efeitos como único indicador de condição de passagem."
+    ],
+    "answer": 1,
+    "explanation": "A premissa permite atualização orientada por monitoramento. Familiaridade, distância ou desenho inicial não substituem a avaliação do risco dinâmico. Expor pessoas para testar o caminho não é o monitoramento previsto.",
+    "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0052",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "mobilizacao_caminho_critico",
+    "difficulty": "muito_alta",
+    "statement": "Um exercício só pode iniciar uma operação quando equipe e equipamento estiverem prontos. A equipe leva 8 min após o aviso; o equipamento leva 5 min após confirmação, que ocorre 4 min depois do aviso. As duas mobilizações prosseguem em paralelo após seus acionamentos. Uma melhoria reduz o tempo da equipe em 3 min, sem alterar os demais tempos. Qual é o início mais cedo antes e depois da melhoria?",
+    "options": [
+      "Antes: 17 min; depois: 14 min; os dois ramos devem ser somados mesmo sendo paralelos.",
+      "Antes: 8 min; depois: 5 min; o equipamento fica pronto assim que sua confirmação é emitida.",
+      "Antes: 9 min; depois: 6 min; toda redução no tempo da equipe reduz igualmente o tempo do equipamento.",
+      "Antes: 9 min; depois: 9 min; a melhoria não altera o ramo que limita a prontidão conjunta.",
+      "Antes: 13 min; depois: 10 min; a confirmação só pode começar quando a equipe estiver pronta."
+    ],
+    "answer": 3,
+    "explanation": "Equipe pronta em t=8; equipamento em t=4+5=9; conjunto em max(8,9)=9. Depois, equipe em 5 e equipamento em 9: continua 9. Somar ramos paralelos, omitir o transporte ou deslocar a confirmação contraria as premissas.",
+    "etapa": 1
+  }
+]
