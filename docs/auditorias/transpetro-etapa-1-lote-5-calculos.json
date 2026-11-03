@@ -1,0 +1,460 @@
+{
+  "checked": 23,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0249",
+      "segundaResolucao": {
+        "out": [
+          233.33
+        ],
+        "method": "Quantidade PV/T e conversão de referência de pressão antes e depois."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0250",
+      "segundaResolucao": {
+        "heads": [
+          7,
+          5
+        ],
+        "margins": [
+          1,
+          -1
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0251",
+      "segundaResolucao": {
+        "natural": [
+          3.184713375796178,
+          1.592356687898089
+        ],
+        "forcing": [
+          3.2,
+          1.6
+        ],
+        "ratios": [
+          1.0048000000000001,
+          1.0048000000000001
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0252",
+      "segundaResolucao": {
+        "locations": [
+          350
+        ],
+        "checkTimes": [
+          0.35,
+          0.65
+        ]
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0253",
+      "segundaResolucao": {
+        "out": [
+          100,
+          50,
+          12
+        ],
+        "method": "Enumera espessuras comerciais e verifica os dois esforços em cada uma."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0254",
+      "segundaResolucao": {
+        "out": [
+          6000
+        ],
+        "method": "Orçamento de dano já usado e recomposição por um terceiro nível."
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0270",
+      "segundaResolucao": {
+        "index": 5,
+        "criterion": false
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0272",
+      "segundaResolucao": {
+        "out": [
+          16,
+          40
+        ],
+        "method": "Modelo de tamanho efetivo com quatro replicações por grupo."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0273",
+      "segundaResolucao": {
+        "solutions": [
+          {
+            "a": 5,
+            "b": 4,
+            "total": 9
+          }
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0274",
+      "segundaResolucao": {
+        "out": [
+          31.62
+        ],
+        "method": "Calibração em coordenada logarítmica e inversão por bisseção."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0275",
+      "segundaResolucao": {
+        "A": 0,
+        "B": 10,
+        "distinctB": 60
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0277",
+      "segundaResolucao": {
+        "out": [
+          99.01,
+          90.91
+        ],
+        "method": "Tempo operacional dividido pelo ciclo operação+reparo."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0282",
+      "segundaResolucao": {
+        "orders": [
+          {
+            "a": "A",
+            "b": "B",
+            "cost": 2.8000000000000003
+          },
+          {
+            "a": "A",
+            "b": "C",
+            "cost": 4.6
+          },
+          {
+            "a": "B",
+            "b": "A",
+            "cost": 2.4000000000000004
+          },
+          {
+            "a": "B",
+            "b": "C",
+            "cost": 3.6000000000000005
+          },
+          {
+            "a": "C",
+            "b": "A",
+            "cost": 4.7
+          },
+          {
+            "a": "C",
+            "b": "B",
+            "cost": 5.3999999999999995
+          }
+        ],
+        "minimum": 2.4000000000000004
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0283",
+      "segundaResolucao": {
+        "out": [
+          0.028000000000000004,
+          0.001184
+        ],
+        "method": "Enumera os oito estados de três canais para cada modo de erro."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0284",
+      "segundaResolucao": {
+        "out": [
+          9.6,
+          10.4
+        ],
+        "method": "Otimiza ação em cada estado e compara com a melhor ação sem informação."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0287",
+      "segundaResolucao": {
+        "out": [
+          0.37499999999999983
+        ],
+        "method": "Marginais da tabela, probabilidade de acordo ao acaso e normalização de kappa."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0289",
+      "segundaResolucao": {
+        "suppliers": [
+          {
+            "name": "B",
+            "T": 8,
+            "E": 7,
+            "eligible": true,
+            "score": 7.6
+          },
+          {
+            "name": "C",
+            "T": 7,
+            "E": 9,
+            "eligible": true,
+            "score": 7.800000000000001
+          },
+          {
+            "name": "D",
+            "T": 6,
+            "E": 10,
+            "eligible": true,
+            "score": 7.6
+          }
+        ],
+        "winner": {
+          "name": "C",
+          "T": 7,
+          "E": 9,
+          "eligible": true,
+          "score": 7.800000000000001
+        }
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0290",
+      "segundaResolucao": {
+        "path": [
+          0.5,
+          0,
+          1.5,
+          2,
+          3.5
+        ],
+        "first": 5
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0293",
+      "segundaResolucao": {
+        "out": [
+          2,
+          6
+        ],
+        "method": "Busca de instante de impacto e avaliação independente do movimento horizontal."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0295",
+      "segundaResolucao": {
+        "pairs": [
+          {
+            "pair": [
+              "A",
+              "B"
+            ],
+            "complete": false
+          },
+          {
+            "pair": [
+              "A",
+              "C"
+            ],
+            "complete": true
+          },
+          {
+            "pair": [
+              "A",
+              "D"
+            ],
+            "complete": false
+          },
+          {
+            "pair": [
+              "B",
+              "C"
+            ],
+            "complete": false
+          },
+          {
+            "pair": [
+              "B",
+              "D"
+            ],
+            "complete": false
+          },
+          {
+            "pair": [
+              "C",
+              "D"
+            ],
+            "complete": false
+          }
+        ],
+        "possible": [
+          {
+            "pair": [
+              "A",
+              "C"
+            ],
+            "complete": true
+          }
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0297",
+      "segundaResolucao": {
+        "pA": -5,
+        "pB": -15,
+        "difference": 10,
+        "direction": "A→B"
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0298",
+      "segundaResolucao": {
+        "conditions": 6,
+        "positions": 2,
+        "minShapes": 3,
+        "oldCapacity": 4,
+        "newCapacity": 6
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0300",
+      "segundaResolucao": {
+        "out": [
+          89.5
+        ],
+        "method": "Simula separadamente regeneração e retirada em cada estoque anual."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    }
+  ],
+  "limites": "19 verificações numéricas e quatro discretas/geométricas/de direção. Modelos e dados dos enunciados; não se apresentam como limites legais, métodos NHO integralmente verificados ou condições suficientes de segurança real."
+}

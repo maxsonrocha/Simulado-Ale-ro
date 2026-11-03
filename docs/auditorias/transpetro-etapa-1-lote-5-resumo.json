@@ -1,0 +1,153 @@
+{
+  "branch": "feature/transpetro-banco-questoes-etapa-1-lote-5",
+  "baseCommit": "9c7d51d",
+  "mergeConfirmado": "PR #7",
+  "antes": 400,
+  "novas": 100,
+  "acumulado": 500,
+  "arquivos": [
+    {
+      "arquivo": "data/transpetro/eng_seguranca/acidentes.json",
+      "antes": 20,
+      "novas": 3,
+      "acumulado": 23
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/desenvolvimento_sustentavel.json",
+      "antes": 6,
+      "novas": 1,
+      "acumulado": 7
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/emergencias.json",
+      "antes": 17,
+      "novas": 2,
+      "acumulado": 19
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ergonomia.json",
+      "antes": 12,
+      "novas": 1,
+      "acumulado": 13
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gerenciamento_riscos.json",
+      "antes": 26,
+      "novas": 9,
+      "acumulado": 35
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gestao_sms.json",
+      "antes": 21,
+      "novas": 6,
+      "acumulado": 27
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/higiene_ocupacional.json",
+      "antes": 35,
+      "novas": 11,
+      "acumulado": 46
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/incendio.json",
+      "antes": 13,
+      "novas": 2,
+      "acumulado": 15
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ingles.json",
+      "antes": 80,
+      "novas": 20,
+      "acumulado": 100
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/legislacao_nr.json",
+      "antes": 44,
+      "novas": 10,
+      "acumulado": 54
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/portugues.json",
+      "antes": 80,
+      "novas": 20,
+      "acumulado": 100
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/prevencao_riscos.json",
+      "antes": 34,
+      "novas": 14,
+      "acumulado": 48
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/saude_ocupacional.json",
+      "antes": 12,
+      "novas": 1,
+      "acumulado": 13
+    }
+  ],
+  "areasNovas": {
+    "ESP": 60,
+    "ING": 20,
+    "PORT": 20
+  },
+  "dificuldadeNova": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "dificuldadeAcumulada": {
+    "media": 100,
+    "alta": 225,
+    "muito_alta": 175
+  },
+  "gabaritosNovos": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20
+  },
+  "gruposNovos": 20,
+  "vinculadasNovas": 40,
+  "independentesNovas": 60,
+  "gruposAcumulados": 100,
+  "vinculadasAcumuladas": 200,
+  "independentesAcumuladas": 300,
+  "ids": {
+    "PORT": "0081..0100",
+    "ING": "0081..0100",
+    "ESP": "0241..0300"
+  },
+  "auditoria1": "APROVADA",
+  "auditoria2": "APROVADA EDITORIALMENTE",
+  "auditoria3": "APROVADA EDITORIALMENTE COM LIMITES",
+  "corretaMaiorQueMedianaDistratores": {
+    "PORT": 10,
+    "ING": 12,
+    "ESP": 22
+  },
+  "testesNode": 86,
+  "suitesBrowserFinais": 3,
+  "falhaBrowserInicial": "ERR_EMPTY_RESPONSE no servidor antigo da porta 8003; três suítes passaram após novo servidor na porta 8005 e verificação HTTP/JSON.",
+  "segundasResolucoesNovas": 23,
+  "recalculosAntigos": 81,
+  "paresNovosNovos": 4950,
+  "paresNovosAntigos": 40000,
+  "paresAntigosAntigos": 79800,
+  "paresTotal": 124750,
+  "substituicoesDeRascunho": 7,
+  "duplicatasCanonicasFinais": 0,
+  "capacidadeRealInedita": 6,
+  "saldoEtapa": {
+    "PORT": 0,
+    "ING": 0,
+    "ESP": 200
+  },
+  "limites": [
+    "Revisão editorial pelo assistente; aguardar auditoria independente do usuário. Sem calibração psicométrica.",
+    "Sem embeddings independentes ou prova absoluta de originalidade semântica.",
+    "Quatro consultas oficiais recusadas pelo proxy; corpus local limita profundidade normativa.",
+    "Sem novos requisitos finos de NR-12/13/18/20/33 ausentes das fontes; engenharia não é apresentada como transcrição dessas normas.",
+    "Etapa 1 parcial: faltam exclusivamente 200 ESP. Lote 6 não iniciado."
+  ]
+}

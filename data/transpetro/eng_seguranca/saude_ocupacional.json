@@ -254,5 +254,26 @@
     "fontes": [
       "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0299",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "reidentificacao_por_quase_identificadores",
+    "difficulty": "alta",
+    "statement": "Um painel de saúde remove nomes, mas mostra posto único, data e turno de um atendimento. Uma escala de trabalho acessível permite associar essa combinação a uma pessoa. O gestor declara anonimato garantido apenas pela retirada do nome. Qual avaliação técnica é correta?",
+    "options": [
+      "Cada campo isolado parecer genérico prova que sua combinação nunca identifica alguém.",
+      "O cruzamento pode reidentificar; retirar nomes não prova anonimato.",
+      "A existência de escala acessível elimina a necessidade de avaliar o vínculo entre as informações.",
+      "Um código numérico no lugar do nome torna irrelevantes todos os demais campos.",
+      "Ausência de nome impede qualquer vínculo com dados externos em toda circunstância."
+    ],
+    "answer": 1,
+    "explanation": "A combinação e o cruzamento com outra fonte podem identificar a pessoa. A avaliação depende dos dados e do contexto; não se inventa obrigação legal específica.",
+    "etapa": 1,
+    "lote": 5
   }
 ]

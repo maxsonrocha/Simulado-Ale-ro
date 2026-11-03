@@ -1,0 +1,174 @@
+{
+  "fallback": "Corpus local auditado autorizado; uso limitado às proposições explícitas. Edicoes técnicas seguem o edital.",
+  "consultas": [
+    {
+      "id": "MTE_NR_VIGENTES",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_ARQUIVOS_NR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_NR1_GRO_PGR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/manual_gro_pgr_da_nr_1.pdf/view",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_INDICE_ALTERNATIVO",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0255",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "O corpus registra introduzir, aprimorar ou manter medidas. Manutenção de prevenção existente é parte possível do planejamento, sem presumir prazo ou forma não registrados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0256",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A proposição local abrange EPI nacional ou importado colocado à venda ou utilizado. Não se afirma equivalência de documento estrangeiro sem base."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0257",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-05"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A finalidade registrada inclui prevenir acidentes e doenças decorrentes do trabalho, preservando vida e promovendo saúde. Não depende da ocorrência recente de acidente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0258",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha diferencia responsabilidades na seleção e no uso. O dever do trabalhador de limpeza/guarda/conservação permanece, junto das determinações da organização."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0259",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "O corpus registra exames ocupacionais obrigatórios, incluindo admissional e periódico. Não se fornecem periodicidades específicas nem dispensa geral por ausência de sintomas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0260",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha admite análise de atividade rotineira no procedimento e, separadamente, exige trabalhador formalmente autorizado considerando atividade, capacitação e aptidão. Documentos cumprem funções diferentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0261",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-17"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A direção da adaptação na ficha é do trabalho às características psicofisiológicas. Isso exige examinar as condições, não encerrar a análise pela seleção de pessoas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0262",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        },
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-09",
+            "NR-33"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "NR-09 tem recorte de exposições a agentes físicos/químicos/biológicos; NR-01 trata GRO e identificação/avaliação de riscos. Uma tabela de um recorte não demonstra que perigos já identificados em outros estudos foram cobertos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0263",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35",
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "São pendências de naturezas distintas: autorização formal da organização e deveres do usuário no uso/guarda/conservação. Corrigir uma não substitui a outra."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0264",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-10"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        },
+        {
+          "arquivo": "references/transpetro/edital_004_2026.json",
+          "fichas": [
+            "normasTecnicasComEdicaoExpressa"
+          ],
+          "sha256Fonte": "70563f30839a10ac1a1ada631068fdca86772b2700d83e63b643407f3d006b6b"
+        }
+      ],
+      "fundamentoConferido": "O edital trava ISO 14001:2015; o corpus registra a nova NR-10 com início em01/06/2027. Uma política interna não se transforma em obrigação dessa redação só por adotar uma melhoria. Não se inventa conteúdo da redação futura."
+    }
+  ],
+  "limites": "Sem acesso externo bem-sucedido alegado. Não foram acrescentados requisitos finos ausentes de NR-12/13/18/20/33, nem limites de exposição ou cláusulas ISO/ABNT. Engenharia e higiene usam modelos/dados explícitos sem atribuí-los a requisitos normativos."
+}

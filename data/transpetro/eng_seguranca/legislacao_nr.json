@@ -1055,5 +1055,247 @@
       "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
       "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0255",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "plano_de_acao_e_manutencao",
+    "difficulty": "media",
+    "statement": "O Inventário reconhece um risco e a avaliação confirma que uma medida existente deve continuar operando. A equipe quer excluí-la do Plano de Ação porque só haveria espaço para medidas novas. Qual orientação corresponde à ficha NR-01?",
+    "options": [
+      "O reconhecimento no Inventário dispensa planejar qualquer medida de prevenção.",
+      "O Plano de Ação também contempla medidas a manter, não apenas a introduzir.",
+      "Medidas que funcionam deixam de ser medidas de prevenção para fins do planejamento.",
+      "O Plano de Ação é destinado exclusivamente a resultados clínicos individuais.",
+      "Toda medida existente deve ser abandonada para que o plano contenha apenas novidades."
+    ],
+    "answer": 1,
+    "explanation": "O corpus registra introduzir, aprimorar ou manter medidas. Manutenção de prevenção existente é parte possível do planejamento, sem presumir prazo ou forma não registrados.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0256",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_importado_e_ca",
+    "difficulty": "media",
+    "statement": "Um lote de EPI importado tem documento estrangeiro, mas não indicação de CA do órgão nacional competente em SST do MTE. O fornecedor sustenta que a exigência registrada na NR-06 é só para produto nacional. Qual análise é correta?",
+    "options": [
+      "A origem estrangeira dispensa automaticamente o CA referido na ficha.",
+      "Qualquer documento estrangeiro é definido na ficha como CA nacional.",
+      "O CA só é necessário quando o produto é vendido sem embalagem.",
+      "A ficha exige indicação de CA para EPI nacional ou importado; a origem não cria a dispensa alegada.",
+      "A escolha pelo comprador substitui a indicação de CA em qualquer produto."
+    ],
+    "answer": 3,
+    "explanation": "A proposição local abrange EPI nacional ou importado colocado à venda ou utilizado. Não se afirma equivalência de documento estrangeiro sem base.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0257",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "cipa_prevencao_de_doencas",
+    "difficulty": "media",
+    "statement": "Uma comissão pretende excluir discussão de prevenção de doenças decorrentes do trabalho porque não houve acidente com lesão recente. Segundo a finalidade da CIPA registrada no corpus, qual revisão é necessária?",
+    "options": [
+      "Limitar a CIPA à apuração de acidentes que já tenham provocado lesão.",
+      "Tratar a inexistência de acidente recente como prova de inexistência de riscos à saúde.",
+      "Considerar doenças apenas quando houver dano material simultâneo.",
+      "Manter prevenção de doenças relacionadas ao trabalho no seu horizonte, sem condicioná-la a acidente recente.",
+      "Substituir toda atuação preventiva por seleção clínica de candidatos."
+    ],
+    "answer": 3,
+    "explanation": "A finalidade registrada inclui prevenir acidentes e doenças decorrentes do trabalho, preservando vida e promovendo saúde. Não depende da ocorrência recente de acidente.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0258",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "deveres_distintos_no_uso_epi",
+    "difficulty": "alta",
+    "statement": "A organização selecionou EPI com a participação prevista. Um usuário conclui que, por ter havido essa seleção, limpeza, guarda e conservação deixaram de ser de sua responsabilidade. Qual leitura da NR-06 distingue as etapas?",
+    "options": [
+      "Seleção não elimina deveres do usuário de limpeza, guarda e conservação.",
+      "A participação na seleção transfere automaticamente toda conservação ao fornecedor.",
+      "A CIPA passa a fazer a guarda diária de cada EPI porque foi ouvida na seleção.",
+      "O usuário pode redefinir a finalidade de proteção como compensação por guardar o produto.",
+      "Qualquer EPI selecionado fica dispensado de conservação durante seu uso."
+    ],
+    "answer": 0,
+    "explanation": "A ficha diferencia responsabilidades na seleção e no uso. O dever do trabalhador de limpeza/guarda/conservação permanece, junto das determinações da organização.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0259",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "exames_obrigatorios_e_sintomas",
+    "difficulty": "alta",
+    "statement": "Um PCMSO prevê exames admissionais e periódicos, mas um gestor quer executar procedimentos do programa apenas quando o trabalhador espontaneamente relatar sintomas. O que a ficha NR-07 permite concluir, sem inventar intervalos?",
+    "options": [
+      "A ausência de sintomas transforma o PCMSO em instrumento apenas de seleção de pessoal.",
+      "Garantir os tipos obrigatórios de exame, sem substituí-los só por relatos de sintomas.",
+      "Sem sintomas, a ficha elimina qualquer exame admissional ou periódico.",
+      "O próprio trabalhador pode escolher dispensar a elaboração do PCMSO quando se sente bem.",
+      "Exames periódicos são definidos no corpus como facultativos para todo trabalhador."
+    ],
+    "answer": 1,
+    "explanation": "O corpus registra exames ocupacionais obrigatórios, incluindo admissional e periódico. Não se fornecem periodicidades específicas nem dispensa geral por ausência de sintomas.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0260",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "analise_rotineira_e_autorizacao",
+    "difficulty": "alta",
+    "statement": "Uma atividade rotineira em altura tem análise de risco contemplada no procedimento operacional. O supervisor usa esse documento como prova de que qualquer pessoa escalada já está formalmente autorizada. Qual distinção da ficha NR-35 deve ser preservada?",
+    "options": [
+      "Rotina é definida como dispensa universal de autorização pela organização.",
+      "O documento operacional substitui sempre os registros funcionais de autorização.",
+      "Ter procedimento torna capacitação e aptidão irrelevantes para toda pessoa escalada.",
+      "Distinguir análise da atividade e autorização funcional de cada trabalhador.",
+      "O trabalhador autoriza a si mesmo apenas por declarar que leu o procedimento."
+    ],
+    "answer": 3,
+    "explanation": "A ficha admite análise de atividade rotineira no procedimento e, separadamente, exige trabalhador formalmente autorizado considerando atividade, capacitação e aptidão. Documentos cumprem funções diferentes.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0261",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr17_direcao_da_adaptacao",
+    "difficulty": "alta",
+    "statement": "Uma avaliação registra dificuldade de alcance dos comandos e incompatibilidade entre a tarefa e características dos trabalhadores. A proposta encerra o tema com “selecionar somente quem se adapte ao posto”, sem examinar o projeto do trabalho. Qual objetivo da NR-17 confronta esse encerramento?",
+    "options": [
+      "Tratar condições de trabalho como invariáveis e ajustar apenas quem será contratado.",
+      "Limitar ergonomia ao título do cargo, independentemente da tarefa real.",
+      "Substituir toda avaliação do trabalho por uma descrição da produtividade desejada.",
+      "Usar a mesma configuração de posto como demonstração de adequação a qualquer pessoa.",
+      "Adaptar as condições de trabalho às características psicofisiológicas dos trabalhadores."
+    ],
+    "answer": 4,
+    "explanation": "A direção da adaptação na ficha é do trabalho às características psicofisiológicas. Isso exige examinar as condições, não encerrar a análise pela seleção de pessoas.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0262",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "gro_e_recorte_da_higiene",
+    "difficulty": "muito_alta",
+    "statement": "Um projeto de PGR importa somente uma tabela de agentes físicos, químicos e biológicos da avaliação de exposições e a declara inventário completo. Os próprios estudos de máquinas e de espaço confinado registram outros perigos de operação não incluídos na tabela. Qual revisão respeita os objetos das fichas NR-01 e NR-09?",
+    "options": [
+      "Classificar qualquer perigo operacional como dado clínico e retirá-lo do Inventário.",
+      "Apagar a avaliação ambiental para substituir todo o PGR por um estudo de máquina.",
+      "Integrar os demais perigos identificados, sem reduzir o GRO à tabela de exposições.",
+      "Excluir os demais perigos porque a NR-09 fornece o único universo possível do GRO.",
+      "Considerar que o número de linhas da tabela prova sua completude, sem comparar os estudos."
+    ],
+    "answer": 2,
+    "explanation": "NR-09 tem recorte de exposições a agentes físicos/químicos/biológicos; NR-01 trata GRO e identificação/avaliação de riscos. Uma tabela de um recorte não demonstra que perigos já identificados em outros estudos foram cobertos.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0263",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "responsabilidades_e_autorizacao_em_altura",
+    "difficulty": "muito_alta",
+    "statement": "Na preparação de uma tarefa em altura, a organização ainda não formalizou a autorização de um trabalhador capacitado e apto. Paralelamente, esse trabalhador atribui ao setor de compras a guarda do EPI que já recebeu. Qual plano corrige as duas atribuições segundo as fichas NR-35 e NR-06?",
+    "options": [
+      "Compras autoriza o trabalho automaticamente ao entregar o EPI, e a aptidão dispensa formalização.",
+      "A capacitação substitui todos os registros funcionais, enquanto a CIPA guarda cada EPI no uso diário.",
+      "O usuário formaliza a própria autorização e transfere a guarda a compras por ter recebido o EPI.",
+      "Formalizar a autorização pela organização e preservar guarda/conservação pelo usuário.",
+      "A pendência da organização elimina os deveres do usuário, e a conservação do EPI supre a autorização."
+    ],
+    "answer": 3,
+    "explanation": "São pendências de naturezas distintas: autorização formal da organização e deveres do usuário no uso/guarda/conservação. Corrigir uma não substitui a outra.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0264",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "precedencia_edicao_vigencia_e_politica",
+    "difficulty": "muito_alta",
+    "statement": "Uma biblioteca para o concurso adota três decisões: I — trocar a edição ISO 14001:2015 expressa no edital por 2026 só por ser mais recente; II — tratar a nova redação NR-10 publicada em 2026 como obrigação já vigente em 03/11/2026; III — registrar uma melhoria interna como política da empresa sem apresentá-la, só por isso, como obrigação daquela redação futura. Qual avaliação distingue as três bases?",
+    "options": [
+      "I é correta e II incorreta, pois apenas normas internacionais permitem ignorar a edição expressa.",
+      "I e II são corretas porque publicação e novidade sempre prevalecem sobre edital e vigência.",
+      "I e II incorretas; III distingue política interna de obrigação normativa.",
+      "As três são incorretas porque nenhuma melhoria pode existir antes de virar obrigação legal.",
+      "I e II são incorretas, mas toda política interna tem de ser descrita como obrigação da norma futura."
+    ],
+    "answer": 2,
+    "explanation": "O edital trava ISO 14001:2015; o corpus registra a nova NR-10 com início em01/06/2027. Uma política interna não se transforma em obrigação dessa redação só por adotar uma melhoria. Não se inventa conteúdo da redação futura.",
+    "etapa": 1,
+    "lote": 5,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "references/transpetro/edital_004_2026.json"
+    ]
   }
 ]
