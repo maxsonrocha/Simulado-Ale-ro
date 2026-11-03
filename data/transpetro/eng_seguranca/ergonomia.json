@@ -227,5 +227,26 @@
     "explanation": "Legibilidade de um valor não fornece automaticamente a tendência. A tarefa exige integrar tempo e valor sob demandas concorrentes; apresentação de tendência precisa ser avaliada no uso real.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0239",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "momento_no_ombro_e_alcance",
+    "difficulty": "muito_alta",
+    "statement": "Num modelo estático de tarefa, uma carga de 40 N é mantida pela mão a 0,50 m do ombro. A alavanca muscular efetiva é 0,04 m; desprezam-se peso do braço e outros esforços. Pelo equilíbrio Fm·0,04=40·d, compare d=0,50 m com d=0,30 m após aproximar a peça. Qual resultado segue do modelo?",
+    "options": [
+      "Fm passa de 500 para 300 N, redução de 40%.",
+      "Fm fica em 40 N em ambos porque o peso externo não mudou.",
+      "Fm passa de 20 para 12 N, confundindo momento com força muscular.",
+      "Fm passa de 300 para 500 N, aumento de 40%.",
+      "Fm passa de 500 para 200 N, redução de 60%."
+    ],
+    "answer": 0,
+    "explanation": "Inicial40×0,5/0,04=500 N; depois40×0,3/0,04=300 N. Redução200/500=40%. O modelo limita-se ao momento externo e não conclui aceitabilidade da tarefa.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

@@ -1,7 +1,7 @@
 {
   "etapa": 1,
   "status": "parcial",
-  "baseCommit": "ddb8e7a",
+  "baseCommit": "5b51b64",
   "metaTotal": 700,
   "metaAreas": {
     "PORT": 100,
@@ -21,24 +21,24 @@
     "saude_ocupacional": 16,
     "desenvolvimento_sustentavel": 10
   },
-  "loteTotal": 300,
+  "loteTotal": 400,
   "loteAreas": {
-    "PORT": 60,
-    "ING": 60,
-    "ESP": 180
+    "PORT": 80,
+    "ING": 80,
+    "ESP": 240
   },
   "loteAssuntosESP": {
     "desenvolvimento_sustentavel": 6,
-    "acidentes": 16,
-    "ergonomia": 11,
-    "gestao_sms": 18,
-    "legislacao_nr": 30,
-    "higiene_ocupacional": 24,
-    "prevencao_riscos": 20,
-    "incendio": 11,
-    "gerenciamento_riscos": 18,
-    "saude_ocupacional": 11,
-    "emergencias": 15
+    "acidentes": 20,
+    "ergonomia": 12,
+    "gestao_sms": 21,
+    "legislacao_nr": 44,
+    "higiene_ocupacional": 35,
+    "prevencao_riscos": 34,
+    "incendio": 13,
+    "gerenciamento_riscos": 26,
+    "saude_ocupacional": 12,
+    "emergencias": 17
   },
   "proporcoesDificuldade": {
     "media": 20,
@@ -53,11 +53,12 @@
       "leitura_interpretacao"
     ]
   },
-  "limites": "Acumulado parcial 300/700, três lotes de 100. Lote 3 usa corpus normativo local auditado como fallback. Restam 400 itens; não libera a Etapa 1 integral.",
+  "limites": "Acumulado parcial 400/700 em quatro lotes. Faltam 300 para concluir a Etapa 1. Autoria normativa do lote 4 limitada às proposições verificadas do corpus autorizado, sem completar requisitos finos.",
   "auditoriasConteudo": [
     "docs/auditorias/transpetro-etapa-1-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json",
-    "docs/auditorias/transpetro-etapa-1-lote-3-conteudo.json"
+    "docs/auditorias/transpetro-etapa-1-lote-3-conteudo.json",
+    "docs/auditorias/transpetro-etapa-1-lote-4-conteudo.json"
   ],
   "lotes": [
     {
@@ -111,6 +112,28 @@
         "saude_ocupacional": 1
       },
       "baseCommit": "ddb8e7a"
+    },
+    {
+      "numero": 4,
+      "total": 100,
+      "areas": {
+        "PORT": 20,
+        "ING": 20,
+        "ESP": 60
+      },
+      "assuntosESP": {
+        "legislacao_nr": 14,
+        "prevencao_riscos": 14,
+        "higiene_ocupacional": 11,
+        "gerenciamento_riscos": 8,
+        "gestao_sms": 3,
+        "acidentes": 4,
+        "emergencias": 2,
+        "incendio": 2,
+        "ergonomia": 1,
+        "saude_ocupacional": 1
+      },
+      "baseCommit": "5b51b64"
     }
   ]
 }

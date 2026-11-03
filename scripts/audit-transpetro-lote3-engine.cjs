@@ -7,7 +7,10 @@ const {createRuntime,select}=require('./lib/runtime.cjs');
  for(let seed=1;seed<=10;seed++){
   const r=createRuntime();select(r);
   vm.runInContext(`{ let state=${seed}; Math.random=()=>{state=(Math.imul(state,1664525)+1013904223)>>>0;return state/4294967296;}; }`,r.context);
-  await r.loadQuestionsBank();const seen=new Set(),exams=[];
+  await r.loadQuestionsBank();
+  // Snapshot histórico do lote 3; bancos posteriores não mudam sua capacidade auditada.
+  r.App.questionsBank=r.App.questionsBank.filter(q=>(q.lote||1)<=3);
+  const seen=new Set(),exams=[];
   for(let k=0;k<4;k++){
    r.generateExam();assert.equal(r.App.exam.length,70);assert.equal(new Set(r.App.exam.map(q=>q.id)).size,70);
    const fresh={};for(const [area,n] of Object.entries({PORT:10,ING:10,ESP:50})){

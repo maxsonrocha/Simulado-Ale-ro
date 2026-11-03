@@ -227,5 +227,47 @@
     "explanation": "O atravessamento pode interromper a barreira passiva. Detecção, potência ou acabamento não restauram a continuidade do sistema de compartimentação.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0237",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "fulgor_e_autoignicao",
+    "difficulty": "media",
+    "statement": "A ficha técnica distingue ponto de fulgor, relacionado à formação de vapor que se inflama com fonte externa nas condições do ensaio, e temperatura de autoignição, relacionada à ignição sem essa fonte. Uma equipe trata os termos como equivalentes. Qual distinção deve ser mantida?",
+    "options": [
+      "A fonte externa distingue as condições de ignição dos conceitos.",
+      "Temperatura de autoignição é o nome da temperatura de uma chama já estabelecida.",
+      "Ponto de fulgor mede somente a temperatura de solidificação.",
+      "Atingir o ponto de fulgor garante autoignição em qualquer condição real.",
+      "Os dois termos sempre designam a mesma temperatura para todo produto."
+    ],
+    "answer": 0,
+    "explanation": "Os conceitos se referem a condições distintas de ignição; o ponto de fulgor não deve ser convertido em temperatura universal de autoignição. O enunciado fornece as definições e não atribui valores normativos.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0238",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "superficie_de_liquido_e_espuma",
+    "difficulty": "alta",
+    "statement": "Um derramamento forma uma lâmina de combustível em chamas. A ficha do agente selecionado informa que ele deve formar cobertura contínua sobre a superfície e que jato que revolva o líquido pode romper essa cobertura. Qual variável operacional precisa ser controlada para preservar o mecanismo descrito?",
+    "options": [
+      "Altura da chama como garantia de que a cobertura nunca se rompe.",
+      "Forma de aplicação que mantenha a cobertura sem revolver o líquido.",
+      "Cor da embalagem como substituta da compatibilidade e aplicação previstas.",
+      "Intensidade máxima de agitação para misturar a cobertura ao combustível.",
+      "Somente o volume total lançado, independentemente da integridade da camada."
+    ],
+    "answer": 1,
+    "explanation": "O enunciado define o mecanismo superficial do agente; aplicação que rompe a camada pode comprometer sua função. Não se inventam taxa normativa, compatibilidade universal ou tática real de ataque.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

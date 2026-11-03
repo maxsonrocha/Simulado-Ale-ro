@@ -330,5 +330,89 @@
     "explanation": "A exposição ao curso é definida pelo futuro e pela permanência; casos anteriores podem ser excluídos do grupo tratado por construção. É preciso alinhar elegibilidade, tempo e classificação antes de inferir efeito do curso.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0231",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "sequencia_temporal_e_causa",
+    "difficulty": "media",
+    "statement": "Um registro mostra que a troca de turno precedeu um acidente. Ainda não há evidência de falha na passagem de informações nem de outro mecanismo ligado à troca. O que pode ser afirmado?",
+    "options": [
+      "Sem mecanismo conhecido, o registro temporal deve ser apagado.",
+      "A troca de turno é causa comprovada por ter ocorrido antes.",
+      "Qualquer evento anterior deve ser classificado como causa básica.",
+      "A precedência temporal está documentada, mas sozinha não demonstra causalidade.",
+      "A sequência exclui qualquer participação de fatores técnicos."
+    ],
+    "answer": 3,
+    "explanation": "Ordem temporal é informação relevante, mas não identifica sozinha um mecanismo causal. Preservar a evidência não exige antecipar a conclusão.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0232",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "classificacao_retrospectiva_de_cenarios",
+    "difficulty": "alta",
+    "statement": "Após um acidente, o relatório afirma que “era óbvio que ocorreria”, citando um detalhe cujo significado só foi reconhecido depois do evento. A revisão pretende avaliar a decisão anterior sem usar conhecimento futuro como se já fosse conhecido. Qual procedimento é adequado?",
+    "options": [
+      "Retirar toda informação posterior da investigação, inclusive a evidência sobre o mecanismo real.",
+      "Julgar a decisão anterior apenas pela gravidade do resultado final.",
+      "Tratar a redação atual do procedimento como prova de que ela já existia na época.",
+      "Reconstruir as informações e restrições disponíveis à época, separando-as do que se soube depois.",
+      "Assumir que o resultado ocorrido era a única trajetória possível desde o início."
+    ],
+    "answer": 3,
+    "explanation": "A investigação usa evidências posteriores, mas deve distingui-las da informação disponível ao decidir. Isso evita atribuir previsão retrospectiva indevida.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0233",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "codificacao_de_causas_e_consistencia",
+    "difficulty": "alta",
+    "statement": "Dois analistas usam categorias internas de causa. Um classifica contato com superfície quente como mecanismo de lesão; outro usa a mesma expressão como causa organizacional. Os totais deixam de ser comparáveis. Qual correção fortalece a análise sem mudar fatos dos eventos?",
+    "options": [
+      "Alterar as descrições dos eventos para forçar números iguais.",
+      "Escolher o maior total e descartar a definição do outro analista.",
+      "Somar as categorias como equivalentes porque compartilham uma palavra.",
+      "Concluir que critérios de classificação não afetam comparações entre períodos.",
+      "Definir níveis de codificação e recodificar com rastreabilidade."
+    ],
+    "answer": 4,
+    "explanation": "Mecanismo de lesão e fatores organizacionais são níveis analíticos distintos. Definição e rastreabilidade permitem melhorar comparabilidade preservando os fatos.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0234",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "inferencia_sobre_intervencao_e_selecao",
+    "difficulty": "muito_alta",
+    "statement": "Uma empresa aplica uma medida após escolher os setores com maior contagem de acidentes no último mês. No mês seguinte, a contagem cai, sem grupo comparável nem série anterior. O relatório atribui toda a queda à medida. Qual alternativa examina uma explicação concorrente relevante?",
+    "options": [
+      "A ausência de comparação demonstra necessariamente que a medida foi ineficaz.",
+      "Investigar regressão à média e outros efeitos antes da atribuição causal.",
+      "Qualquer queda posterior prova que a medida teve exatamente o efeito observado.",
+      "Selecionar extremos elimina toda variação aleatória e comprova eficácia por construção.",
+      "A contagem menor prova que os setores nunca tiveram risco elevado."
+    ],
+    "answer": 1,
+    "explanation": "Seleção por um extremo recente pode produzir regressão à média. Isso não prova ausência de efeito, mas impede atribuição integral automática sem desenho e informação adicional.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

@@ -375,5 +375,68 @@
     "explanation": "A evidência pode sustentar achados nos casos examinados; a seleção por sinais de problema não fornece estimativa simples da prevalência populacional. Uma limitação de generalização não apaga evidência individual.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0228",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "objetivo_meta_e_acao",
+    "difficulty": "media",
+    "statement": "Um plano interno distingue objetivo de reduzir vazamentos, meta mensurável em prazo definido e ação de substituir uma vedação. Qual item corresponde diretamente a uma ação, em vez de apenas ao objetivo ou ao resultado pretendido?",
+    "options": [
+      "Substituir a vedação identificada no planejamento.",
+      "Alcançar o valor-meta de vazamentos até a data fixada.",
+      "Melhorar a segurança dos processos de modo geral.",
+      "Reduzir impactos da operação como intenção institucional.",
+      "Obter desempenho melhor do que no período anterior."
+    ],
+    "answer": 0,
+    "explanation": "A ação descreve uma intervenção executável; objetivo e meta descrevem direção ou resultado a alcançar. Não se atribui esse vocabulário a uma cláusula ISO.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0229",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "cobertura_de_capacitacao_por_pessoa",
+    "difficulty": "alta",
+    "statement": "Uma ação interna exige que cada um dos 70 trabalhadores complete os módulos A e B. Há 50 concluintes de A, 40 de B e 30 presentes nas duas listas. O relatório soma as 90 conclusões e declara cobertura superior a 100%. Considerando a exigência de ambos os módulos por pessoa, qual cobertura está demonstrada?",
+    "options": [
+      "40 de 70, aproximadamente 57,14%.",
+      "60 de 70, aproximadamente 85,71%.",
+      "50 de 70, aproximadamente 71,43%.",
+      "90 de 70, aproximadamente 128,57%.",
+      "30 de 70, aproximadamente 42,86%."
+    ],
+    "answer": 4,
+    "explanation": "O requisito é a interseção das listas:30 completaram A e B. Cobertura30/70×100=42,86%. A união60 completou pelo menos um;90 soma conclusões, não pessoas aptas segundo o requisito interno.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0230",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "incentivos_e_reporte_de_desvios",
+    "difficulty": "muito_alta",
+    "statement": "Um contrato interno premia equipes por zero relatos de desvio, e o gestor usa a queda de relatos como prova de melhoria. Entrevistas indicam que equipes temem perder o prêmio ao registrar problemas. Qual revisão integra incentivo, informação e avaliação?",
+    "options": [
+      "Rever o incentivo ao silêncio e confrontar registros com evidências independentes.",
+      "Concluir melhora necessária porque o indicador foi definido antes do período.",
+      "Aumentar o prêmio por silêncio para tornar o indicador mais sensível aos desvios.",
+      "Tratar todo relato como aumento real de frequência e punir a equipe que o registra.",
+      "Descartar as entrevistas e manter a contagem como medida direta de todos os desvios existentes."
+    ],
+    "answer": 0,
+    "explanation": "O indicador pode refletir comportamento de relato alterado pelo incentivo, não melhora das condições. É preciso revisar o mecanismo e triangulá-lo com evidências independentes.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

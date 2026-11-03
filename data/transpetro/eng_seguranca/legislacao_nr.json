@@ -718,5 +718,342 @@
     "fontes": [
       "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0181",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr18_recorte_setorial",
+    "difficulty": "media",
+    "statement": "Uma equipe organiza as referências de uma obra civil para construir um prédio administrativo. Qual NR fornece o recorte setorial de segurança e saúde na indústria da construção, sem que essa indicação dispense examinar outras normas aplicáveis?",
+    "options": [
+      "NR-34.",
+      "NR-37.",
+      "NR-30.",
+      "NR-18.",
+      "NR-29."
+    ],
+    "answer": 3,
+    "explanation": "A NR-18 é a referência setorial da indústria da construção. As demais opções pertencem a campos naval, portuário, aquaviário ou plataformas, sem que o nome construção as torne intercambiáveis.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0182",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr33_fonte_do_estudo",
+    "difficulty": "media",
+    "statement": "A empresa pretende estudar o trabalho em espaços confinados e seus processos de identificação, avaliação e controle. Qual referência normativa e guia técnico, registrados no corpus, são diretamente pertinentes ao tema?",
+    "options": [
+      "NR-32 e seu guia de riscos biológicos como substitutos gerais.",
+      "NR-18 como referência exclusiva para qualquer recinto fechado.",
+      "NR-30 como referência exclusiva porque todo espaço confinado é aquaviário.",
+      "NR-35 e apenas seu conteúdo de trabalho em altura.",
+      "NR-33 e seu Guia Técnico."
+    ],
+    "answer": 4,
+    "explanation": "O corpus identifica NR-33 e Guia Técnico como referências para trabalhos em espaços confinados. A ficha não fornece definições completas ou requisitos finos de entrada.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0183",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "lei14063_objeto_geral",
+    "difficulty": "media",
+    "statement": "Um projeto precisa pesquisar o uso de assinaturas eletrônicas em interações com entes públicos e questões de saúde. Qual fonte registrada no corpus é diretamente pertinente, sem presumir qual classe de assinatura será exigida em cada ato?",
+    "options": [
+      "NR-26 como definição universal de autenticação digital.",
+      "Lei 14.063/2020.",
+      "Lei 8.213/1991 como fonte exclusiva sobre classes de assinatura.",
+      "Decreto 3.048/1999 como única fonte para qualquer ato eletrônico.",
+      "NR-07 como substituta da legislação de assinaturas."
+    ],
+    "answer": 1,
+    "explanation": "O corpus registra esse objeto na Lei 14.063/2020. A classe e os requisitos de assinatura dependem de conferência específica do texto legal.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0184",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr23_e_inflamaveis",
+    "difficulty": "alta",
+    "statement": "Um terminal avalia proteção contra incêndio em uma instalação com inflamáveis. O escopo de pesquisa foi restrito à NR-20, excluindo previamente qualquer outra referência de incêndio. Qual ajuste inicial corresponde ao corpus?",
+    "options": [
+      "Substituir ambas pela NR-26, por haver comunicação de perigos.",
+      "Trocar a NR-20 pela NR-23 e excluir toda avaliação dos inflamáveis.",
+      "Cruzar a NR-20 com a NR-23 no recorte de proteção contra incêndio.",
+      "Tratar NR-23 como norma exclusiva de construção naval.",
+      "Adotar um afastamento numérico de projeto sem conferir nenhuma fonte."
+    ],
+    "answer": 2,
+    "explanation": "A ficha da NR-23 a inclui no bloco de incêndio e recomenda cruzamento com NR-20 em cenários de inflamáveis. Não fornece distâncias ou dimensionamentos.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0185",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "dispensa_me_epp_condicoes",
+    "difficulty": "alta",
+    "statement": "Uma ME de grau de risco 1 pede dispensa de PGR apenas com base nesses dois dados. O levantamento de exposições e as informações digitais exigidas ainda não foram examinados. Qual conclusão é sustentada pela ficha da NR-01?",
+    "options": [
+      "As informações digitais substituem qualquer levantamento, mesmo antes de serem prestadas.",
+      "Os dados não bastam: é preciso verificar cumulativamente as condições normativas da dispensa.",
+      "Ser ME basta, mesmo se as demais condições normativas não forem atendidas.",
+      "A ausência de levantamento comprova ausência de exposições ocupacionais.",
+      "Grau de risco 1 dispensa todas as empresas de PGR, sem outros requisitos."
+    ],
+    "answer": 1,
+    "explanation": "A dispensa de ME/EPP dos graus 1/2 é condicionada cumulativamente, incluindo levantamento e declaração. Ausência de exame não prova atendimento.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0186",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr35_treinamento_inicial",
+    "difficulty": "alta",
+    "statement": "Antes de iniciar trabalho em altura, uma organização oferece treinamento inicial de 6 h e pretende completá-lo com 2 h após a primeira atividade. Considerando exclusivamente a carga e o momento registrados na ficha NR-35, qual avaliação procede?",
+    "options": [
+      "A ficha exige 8 h apenas para o periódico, dispensando carga mínima inicial.",
+      "A ficha exige pelo menos 8 h antes do início; o fracionamento proposto deixa a exigência inicial incompleta.",
+      "A carga inicial mínima é 2 h, desde que a atividade dure menos de um turno.",
+      "Seis horas antes bastam porque as duas restantes são consideradas experiência prática automática.",
+      "Oito horas somadas a qualquer tempo atendem, inclusive depois da primeira atividade."
+    ],
+    "answer": 1,
+    "explanation": "O treinamento inicial registrado é de no mínimo 8 h antes do início da atividade. A soma posterior não satisfaz o requisito temporal. Não se afirma que carga, sozinha, autoriza o trabalhador.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0187",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr12_anexo_xii",
+    "difficulty": "alta",
+    "statement": "Uma compra envolve cesto suspenso para elevar pessoas e realizar trabalho, não apenas transportar materiais. Qual parte da NR-12, explicitamente registrada no corpus, deve integrar a pesquisa específica do equipamento?",
+    "options": [
+      "Apenas a NR-11, excluindo o anexo por haver movimentação.",
+      "Anexo 13-A da NR-15 como referência de projeto desse cesto.",
+      "Somente a NR-26, pois identificação do cesto substitui a pesquisa do equipamento.",
+      "Apenas a NR-30, independentemente do local e da atividade.",
+      "Anexo XII, relativo à elevação de pessoas para trabalho."
+    ],
+    "answer": 4,
+    "explanation": "A ficha da NR-12 registra o Anexo XII e inclui cesto suspenso. A indicação não inventa especificações dimensionais nem exclui outras normas pertinentes.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0188",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "fontes_trabalhistas_e_previdenciarias",
+    "difficulty": "alta",
+    "statement": "Um estudo separa obrigações trabalhistas, benefícios relacionados a acidentes e regulamentação previdenciária/PPP. Qual organização inicial das fontes corresponde às fichas locais, sem atribuir artigos ou benefícios específicos?",
+    "options": [
+      "CLT; Lei 8.213/1991; Decreto 3.048/1999, respectivamente.",
+      "Decreto 3.048/1999 para os três, dispensando a legislação aplicável.",
+      "Lei 14.063/2020; NR-26; NR-11, respectivamente.",
+      "NR-05; NR-12; Lei 14.063/2020, respectivamente.",
+      "NR-15 para os três, dispensando qualquer fonte previdenciária."
+    ],
+    "answer": 0,
+    "explanation": "O corpus distingue CLT trabalhista, Lei 8.213 previdenciária/acidentes/benefícios e Decreto 3.048 Regulamento da Previdência. Detalhes dependem dos textos.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0189",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "finalidade_de_uso_epi",
+    "difficulty": "alta",
+    "statement": "Um trabalhador recebe EPI destinado a uma proteção específica e o reutiliza em tarefa de finalidade diferente, afirmando que qualquer equipamento com CA serve para todo uso. Qual dever do usuário registrado na NR-06 confronta diretamente essa conclusão?",
+    "options": [
+      "Usar a marca do equipamento como critério universal de aplicação.",
+      "Transferir ao usuário a emissão de novo CA para cada tarefa.",
+      "Considerar a guarda adequada como substituta da finalidade de uso.",
+      "Alterar pessoalmente a finalidade aprovada quando houver urgência.",
+      "Utilizar o EPI apenas para a finalidade a que se destina."
+    ],
+    "answer": 4,
+    "explanation": "A ficha atribui ao trabalhador uso apenas para a finalidade prevista. CA qualifica produto como EPI, não converte qualquer proteção em universal.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0190",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "interfaces_obra_espaco_e_incendio",
+    "difficulty": "muito_alta",
+    "statement": "Uma obra civil prevê três frentes: execução de estruturas, intervenção em espaço já identificado como confinado e proteção contra incêndio numa área com inflamáveis. Uma matriz trata todas apenas como construção. Qual revisão do recorte de referências é mais consistente, sem decidir requisitos finos?",
+    "options": [
+      "Manter NR-18 e agregar NR-33 e NR-23/20 às frentes correspondentes.",
+      "Trocar todas por NR-33 porque uma das frentes envolve espaço confinado.",
+      "Manter apenas NR-18 porque o setor econômico exclui normas por atividade.",
+      "Usar NR-23 para a obra inteira e excluir o estudo dos inflamáveis.",
+      "Usar somente NR-29 porque qualquer frente com materiais é portuária."
+    ],
+    "answer": 0,
+    "explanation": "Os campos se cruzam: construção, espaço confinado e incêndio/inflamáveis exigem pesquisa pertinente a cada frente. Não há autorização para uma norma absorver indiscriminadamente as outras.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0191",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr35_periodico_intervalo_e_carga",
+    "difficulty": "muito_alta",
+    "statement": "Para aplicar a regra de treinamento periódico da ficha NR-35, considere último treinamento em 10/03/2025. Três propostas: P, 8 h concluídas em 09/03/2027; Q, 6 h concluídas em 09/03/2027; R, 8 h concluídas em 11/03/2027. Não há outra hipótese de antecipação informada. Qual atende simultaneamente à carga e ao intervalo periódico registrados, sem que isso sozinho comprove autorização?",
+    "options": [
+      "Q e R.",
+      "P e R.",
+      "P e Q.",
+      "As três propostas.",
+      "P apenas."
+    ],
+    "answer": 4,
+    "explanation": "A ficha exige treinamento periódico a cada 2 anos, mínimo de 8 h. P termina antes de 10/03/2027 e tem 8 h; Q falha na carga; R ultrapassa o intervalo. Autorização depende de outros requisitos.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0192",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "evitar_altura_e_condicao_de_spc",
+    "difficulty": "muito_alta",
+    "statement": "A ficha NR-35 registra obrigatoriedade de Sistema de Proteção Contra Quedas quando não for possível evitar trabalho em altura. No estudo, X elimina a necessidade de trabalho em altura por operar ao nível do solo; Y mantém esse trabalho e não apresenta SPC; Z mantém o trabalho e prevê SPC a ser adequadamente avaliado. Qual triagem respeita a condição registrada?",
+    "options": [
+      "X e Y são equivalentes porque ambos deixaram de mencionar SPC; Z pode dispensar aptidão clínica.",
+      "X, Y e Z estão todos liberados, pois qualquer proposta documentada demonstra segurança.",
+      "X evita a atividade; Y omite SPC exigido; Z requer avaliação de adequação.",
+      "X exige SPC mesmo sem trabalho em altura; Y fica dispensado por ter projeto escrito; Z está automaticamente liberado.",
+      "X deve ser rejeitado por eliminar a atividade; Y pode operar se o serviço durar pouco; Z dispensa análise."
+    ],
+    "answer": 2,
+    "explanation": "Evitar a atividade não é omitir proteção em atividade mantida. Quando ela permanece, SPC é obrigatório segundo a ficha, mas sua mera previsão não comprova adequação ou demais requisitos.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0193",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr17_sobrecarga_e_medidas",
+    "difficulty": "muito_alta",
+    "statement": "Uma avaliação identifica sobrecarga muscular numa tarefa com ciclos repetidos e ritmo imposto. A proposta considera somente trocar a cadeira; outra considera somente uma ordem genérica para mudar a postura. Conforme a ficha NR-17, qual encaminhamento amplia a decisão sem declarar uma medida isolada sempre suficiente?",
+    "options": [
+      "Escolher sempre a troca de cadeira, pois organização não integra condições de trabalho.",
+      "Fundamentar as medidas na avaliação ergonômica preliminar ou AET.",
+      "Escolher sempre a ordem de postura, pois medidas de engenharia são incompatíveis com análise ergonômica.",
+      "Tratar a existência de duas propostas como demonstração de que qualquer uma elimina a sobrecarga.",
+      "Exigir apenas um exame clínico e encerrar a avaliação do ritmo e das tarefas."
+    ],
+    "answer": 1,
+    "explanation": "A ficha admite medidas técnicas de engenharia, organizacionais e/ou administrativas apoiadas na avaliação. Ritmo e tarefa importam; a existência de uma proposta não demonstra sua suficiência.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0194",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr18_e_equipamentos_especiais",
+    "difficulty": "muito_alta",
+    "statement": "Numa obra civil, a documentação cobre o canteiro pela NR-18, mas retira do cadastro de pesquisa a segurança da máquina e a caldeira temporária porque seriam temas de outro setor. Qual crítica se sustenta no corpus, sem concluir enquadramento individual da caldeira?",
+    "options": [
+      "A existência de NR-13 torna a NR-18 sem utilidade para a obra.",
+      "A temporariedade demonstra que nenhum equipamento pode integrar o campo da NR-13.",
+      "Pesquisar NR-12 e NR-13 além do recorte setorial da NR-18.",
+      "A NR-18 automaticamente revoga as normas especiais durante toda obra civil.",
+      "NR-12 e NR-13 só podem ser pesquisadas em empresas de fabricação de máquinas e caldeiras."
+    ],
+    "answer": 2,
+    "explanation": "O corpus distingue norma setorial de referências a atividades/equipamentos. NR-12 trata de máquinas; NR-13 é especial e não limitada a setor. Triagem não equivale a enquadrar qualquer caldeira sem dados.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
   }
 ]
