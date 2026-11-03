@@ -1,0 +1,328 @@
+{
+  "checked": 26,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0075",
+      "recalculated": [
+        13000
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0079",
+      "recalculated": [
+        10,
+        8
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0081",
+      "recalculated": [
+        0.0001,
+        0.00005
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0084",
+      "recalculated": [
+        2
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0095",
+      "recalculated": [
+        520,
+        70
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0098",
+      "recalculated": [
+        31.62,
+        40
+      ],
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0099",
+      "recalculated": [
+        40,
+        10
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0106",
+      "recalculated": [
+        0.8,
+        1.25
+      ],
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0107",
+      "recalculated": [
+        6.4,
+        4,
+        62.5
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0110",
+      "recalculated": [
+        90
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0114",
+      "recalculated": [
+        15.52
+      ],
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0115",
+      "recalculated": [
+        8.75,
+        0.1143
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0116",
+      "recalculated": [
+        20,
+        11.11
+      ],
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0118",
+      "recalculated": [
+        88
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0120",
+      "recalculated": [
+        1.5
+      ],
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0080",
+      "recalculated": {
+        "estimated": 60,
+        "observed": 50,
+        "extra": 10
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0070",
+      "recalculated": {
+        "pairs": 45,
+        "withoutError": 28,
+        "probability": 0.37777777777777777
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0074",
+      "recalculated": {
+        "events": 2,
+        "injured": 3
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0089",
+      "recalculated": {
+        "before": 30,
+        "after": 30
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0090",
+      "recalculated": {
+        "freeAt10": 1,
+        "firstPossible": 20
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0092",
+      "recalculated": {
+        "worst": {
+          "A": 20,
+          "B": 10,
+          "C": 15
+        },
+        "winner": "B"
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0072",
+      "recalculated": {
+        "validAssignments": [
+          {
+            "elabora": "Elisa",
+            "verifica": "Fábio",
+            "aprova": "Hugo"
+          }
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0082",
+      "recalculated": {
+        "distinctX": 2,
+        "distinctY": 3
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0085",
+      "recalculated": {
+        "eligible": [
+          "A"
+        ]
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0102",
+      "recalculated": {
+        "covering": [
+          "C"
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0108",
+      "recalculated": {
+        "coverage": 16,
+        "maxConsecutive": 6,
+        "minRecovery": 2
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    }
+  ],
+  "limitation": "Modelos e premissas dos enunciados; não são limites normativos. Regras discretas foram reavaliadas além dos cálculos numéricos."
+}

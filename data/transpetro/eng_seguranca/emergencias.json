@@ -78,5 +78,215 @@
     "answer": 3,
     "explanation": "Equipe pronta em t=8; equipamento em t=4+5=9; conjunto em max(8,9)=9. Depois, equipe em 5 e equipamento em 9: continua 9. Somar ramos paralelos, omitir o transporte ou deslocar a confirmação contraria as premissas.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0083",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "comunicacao_retorno_fechado",
+    "difficulty": "media",
+    "statement": "No exercício, uma ordem informa local, tarefa e destinatário. Para conferir entendimento antes da execução, o emissor solicita confirmação. Qual resposta permite verificar melhor os três componentes, em vez de apenas confirmar recepção do som?",
+    "options": [
+      "Repetir o local, a tarefa atribuída e quem a executará, permitindo ao emissor corrigir divergências.",
+      "Repetir somente o nome do emissor, tratando identificação de origem como confirmação de toda a ordem.",
+      "Informar o volume do rádio e omitir os elementos operacionais da mensagem.",
+      "Responder apenas “recebido”, sem indicar qual tarefa ou local foi entendido.",
+      "Retransmitir uma ordem anterior sem verificar se destinatário e local continuam os mesmos."
+    ],
+    "answer": 0,
+    "explanation": "A confirmação em circuito fechado verifica o conteúdo operacional por retorno. Recebido, volume, identificação de origem ou repetição de mensagem antiga não demonstram entendimento dos três elementos atuais.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0084",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "conferencia_presencas_manifesto",
+    "difficulty": "media",
+    "statement": "O controle de um exercício tem 48 pessoas inicialmente na unidade. Antes do alarme, oito saíram e tiveram a saída registrada; seis visitantes entraram e foram incluídos no controle. No ponto de encontro, há 44 pessoas identificadas. Segundo apenas esses registros, quantas pessoas esperadas ainda não foram identificadas no ponto?",
+    "options": [
+      "0 pessoas.",
+      "2 pessoas.",
+      "4 pessoas.",
+      "10 pessoas.",
+      "6 pessoas."
+    ],
+    "answer": 1,
+    "explanation": "Esperadas=48−8+6=46. Identificadas=44; faltam identificar duas. Usar a lotação inicial dá quatro e ignorar uma das mudanças altera a base. Falta de identificação no ponto não prova, por si, a localização ou condição dessas pessoas.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0085",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "compatibilidade_recursos_conexoes",
+    "difficulty": "alta",
+    "statement": "Um recurso do plano precisa operar com conexão tipo P e vazão mínima de projeto de 100 unidades. O almoxarifado tem conjuntos A (P, 120), B (Q, 150) e C (P, 80), sem adaptadores disponíveis. Qual é a escolha compatível com as duas condições informadas?",
+    "options": [
+      "B, porque a vazão maior substitui a compatibilidade da conexão.",
+      "B e C juntos sem adaptação, porque combinar dados de catálogos torna intercambiáveis suas conexões.",
+      "Qualquer conjunto, porque constar no almoxarifado comprova adequação ao uso previsto.",
+      "C, porque compartilhar o tipo P elimina o requisito de vazão mínima.",
+      "A, por atender à conexão e à vazão de projeto simultaneamente."
+    ],
+    "answer": 4,
+    "explanation": "A atende a P e a pelo menos 100. B falha na conexão; C falha na vazão. Não há adaptador ou arranjo de combinação descrito que elimine essas limitações, e disponibilidade não equivale a compatibilidade.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0086",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "comunicacao_publica_status",
+    "difficulty": "alta",
+    "statement": "Uma atualização pública deve separar fatos confirmados de ações em andamento. A equipe confirmou o isolamento de uma área, mas ainda procura a origem do odor relatado. Qual mensagem respeita esse estado da resposta sem transformar investigação em conclusão?",
+    "options": [
+      "“A ausência de identificação da origem confirma que não existe qualquer substância relacionada ao odor.”",
+      "“O equipamento suspeito será apresentado como causa confirmada para tornar a atualização mais objetiva.”",
+      "“A área foi isolada; a origem do odor está sob investigação e novas informações serão divulgadas após confirmação.”",
+      "“O isolamento será descrito como concluído apenas quando for possível anunciar que o odor nunca existiu.”",
+      "“A área foi isolada porque a origem foi identificada como o equipamento ainda em avaliação.”"
+    ],
+    "answer": 2,
+    "explanation": "A primeira mensagem identifica uma ação confirmada e mantém a origem como investigação. As outras transformam hipótese ou ausência de identificação em certeza, vinculam indevidamente status de isolamento à negação do relato ou fabricam confirmação.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0087",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "plano_pessoas_necessidade_assistencia",
+    "difficulty": "alta",
+    "statement": "O plano de exercício prevê que parte do público precisará de assistência para deslocamento. A rota principal é fisicamente acessível, mas o teste anterior mostrou que pessoas que necessitavam de auxílio ficaram sem orientação enquanto a equipe procurava voluntários. Qual preparação enfrenta especificamente essa falha?",
+    "options": [
+      "Reservar o auxílio a quem conseguir solicitar diretamente à chefia depois que todas as demais pessoas tiverem saído.",
+      "Considerar a acessibilidade física da rota suficiente para assegurar assistência pessoal sem designação prévia.",
+      "Substituir a designação de apoio por uma placa, tratando informação visual como equivalente a auxílio de deslocamento.",
+      "Definir previamente apoio, acionamento e alternativas para essas pessoas, e verificar a execução no exercício.",
+      "Retirar essas pessoas da contagem para que o tempo do exercício represente apenas deslocamentos independentes."
+    ],
+    "answer": 3,
+    "explanation": "A falha é de organização da assistência, não apenas geometria da rota. Preparação, acionamento e teste tratam esse mecanismo; exclusão da contagem, espera indefinida ou placa não asseguram o apoio previsto. Não se atribuem prazos ou requisitos a uma norma não consultada.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0088",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "transferencia_comando_estado_resposta",
+    "difficulty": "alta",
+    "statement": "Durante um exercício longo, a coordenação é transferida. A equipe entrante conhece o objetivo geral, mas não sabe quais recursos já foram acionados, quais decisões estão pendentes ou quais áreas foram liberadas. Qual transferência reduz o risco de repetir ações ou desfazer controles por desconhecimento?",
+    "options": [
+      "Reiniciar todas as solicitações de recursos sem conferir acionamentos anteriores para padronizar a nova gestão.",
+      "Considerar todas as áreas liberadas automaticamente no instante em que a equipe entrante chega.",
+      "Informar somente o nome de quem sai, presumindo que conhecer o objetivo geral reconstitui as ações já executadas.",
+      "Realizar passagem explícita da situação atual, decisões, recursos e pendências, confirmando quem assume a coordenação.",
+      "Transferir apenas a lista original do plano e omitir decisões tomadas durante a evolução do cenário."
+    ],
+    "answer": 3,
+    "explanation": "A passagem deve transmitir estado e responsabilidades atuais. Objetivo ou plano inicial não contém necessariamente recursos já acionados e decisões posteriores. Reiniciar ou liberar sem conferência cria exatamente os conflitos que se quer prevenir.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0089",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "escoamento_rede_gargalo",
+    "difficulty": "muito_alta",
+    "statement": "Em um modelo de exercício, todos passam por um corredor C antes de escolher entre duas saídas paralelas A e B. C comporta 30 pessoas/min; A, 20; B, 25. Não há outras restrições nem acúmulo inicial, e a divisão pode ser ajustada livremente. Qual é o fluxo máximo sustentado e o efeito de elevar somente A a 35 pessoas/min?",
+    "options": [
+      "75 antes e 90 depois, porque corredor e saídas são capacidades que devem ser somadas em série.",
+      "30 pessoas/min nos dois casos, porque o corredor comum continua limitando a soma dos fluxos.",
+      "30 antes e 35 depois, porque aumentar uma saída torna sua capacidade igual à do corredor comum.",
+      "20 antes e 25 depois, porque toda a rede deve usar o menor valor de uma única saída.",
+      "45 antes e 60 depois, porque as capacidades das duas saídas sempre podem ser somadas sem considerar C."
+    ],
+    "answer": 1,
+    "explanation": "O corte pelo corredor limita a 30; as saídas inicialmente somam 45 e depois 60, ambas acima de 30. A capacidade da rede é min(30,20+25)=30. Somar trechos em série ou tomar uma única saída desconsidera a topologia; melhorar A não altera o gargalo comum.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0090",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "estoque_retorno_requisicoes",
+    "difficulty": "muito_alta",
+    "statement": "Um exercício começa com seis módulos reutilizáveis disponíveis. Três saem às 0 min e retornam prontos às 20 min; dois saem às 5 min e retornam prontos às 25 min. Às 10 min, uma nova frente pede dois módulos juntos; não aceita atendimento parcial. Não há outras movimentações. Quantos estão livres às 10 min e quando esse pedido pode ser atendido primeiro?",
+    "options": [
+      "Um módulo livre; atendimento apenas aos 25 min.",
+      "Três módulos livres; atendimento aos 5 min.",
+      "Um módulo livre; atendimento aos 20 min.",
+      "Nenhum módulo livre; atendimento aos 20 min.",
+      "Dois módulos livres; atendimento aos 10 min."
+    ],
+    "answer": 2,
+    "explanation": "Após as saídas, 6−3−2=1 está livre em t=10. O pedido precisa de dois juntos e espera; em t=20 retornam três e passam a existir quatro livres, suficientes. Não é necessário esperar t=25, nem contabilizar como livres módulos ainda em uso. O raciocínio é estoque por eventos, não designação de equipes por competência.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0091",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "propagacao_informacao_atualizacao",
+    "difficulty": "muito_alta",
+    "statement": "Uma sala usa mapa com horário de validade para orientar equipes. Às 10h, o setor N estava liberado. Às 10h05, uma nova verificação o interditou; às 10h07, uma equipe recebeu apenas a fotografia do mapa das 10h. O protocolo do exercício exige orientar pelo estado mais recente confirmado. Qual correção aborda validade, disseminação e ação?",
+    "options": [
+      "Manter a fotografia das 10h, porque ter sido verdadeira uma vez a torna válida para qualquer momento posterior.",
+      "Retirar todos os horários das mensagens para que a equipe não precise resolver divergências temporais.",
+      "Comunicar somente que houve uma verificação, sem informar seu resultado, presumindo atualização automática da fotografia.",
+      "Considerar o setor novamente liberado às 10h07, pois o recebimento de uma mensagem antiga altera o estado físico confirmado.",
+      "Transmitir a interdição confirmada, identificar o horário da atualização e verificar se a equipe substituiu a orientação antiga."
+    ],
+    "answer": 4,
+    "explanation": "O novo estado confirmado supera o anterior e precisa chegar à equipe com identificação de validade e confirmação de substituição. Fotografia antiga não se atualiza ao ser recebida; omitir horário ou resultado impede resolver o conflito. Não há conversão de fusos: o problema é validade operacional e disseminação de atualização.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0092",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "decisao_minimax_perdas",
+    "difficulty": "muito_alta",
+    "statement": "Num exercício de decisão sem probabilidades atribuídas aos cenários, deve-se escolher a resposta com menor perda no pior caso. As perdas das respostas A, B e C nos cenários 1 e 2 são, respectivamente, A=(2,20), B=(8,10) e C=(15,4), em pontos definidos para a simulação. Qual resposta atende ao critério e qual é sua perda máxima?",
+    "options": [
+      "A, com perda máxima de 2 pontos.",
+      "C, com perda máxima de 4 pontos.",
+      "B, com perda máxima de 10 pontos.",
+      "A, com perda máxima de 11 pontos.",
+      "C, com perda máxima de 9,5 pontos."
+    ],
+    "answer": 2,
+    "explanation": "Máximos: A=20, B=10, C=15. O menor desses é 10, de B. Dois e quatro são melhores casos; onze e 9,5 são médias não solicitadas. Sem probabilidades, o critério explicitado não autoriza transformar médias simples em perdas máximas.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

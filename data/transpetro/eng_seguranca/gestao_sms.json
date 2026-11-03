@@ -78,5 +78,215 @@
     "answer": 1,
     "explanation": "A: 90/100=90% encerradas; 45/100=45% do total com eficácia verificada. B: 40/50=80% encerradas; 36/50=72% do total com eficácia verificada. Os percentuais 50% e 90% têm como base os encerramentos. As quantidades de ações eficazes são 45 e 36; a comparação de taxas requer distinguir essas bases e a composição das ações.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0063",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "escopo_terceirizacao",
+    "difficulty": "media",
+    "statement": "Uma auditoria tem como escopo o serviço de manutenção contratado, inclusive a preparação das peças numa oficina externa. A contratante recebe peças prontas, mas a preparação interfere nas condições de execução do serviço. Segundo esse escopo explicitamente definido, como deve ser tratada a oficina?",
+    "options": [
+      "Como substituta da verificação do serviço dentro da contratante, tornando as etapas mutuamente excludentes.",
+      "Como etapa excluída porque a propriedade física do terreno é o único critério de escopo informado.",
+      "Como parte do processo a ser examinada, ainda que esteja fora do terreno da contratante.",
+      "Como processo incluído somente se a contratante comprar o imóvel onde a oficina funciona.",
+      "Como evidência suficiente de conformidade das peças apenas por pertencer à empresa contratada."
+    ],
+    "answer": 2,
+    "explanation": "O escopo fornecido inclui a preparação externa; localização e propriedade não a retiram dele. Terceirizar não prova conformidade, não exclui as etapas internas e não exige compra do imóvel. A resposta aplica o escopo do caso, sem criar obrigação legal geral.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0064",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "consulta_trabalhadores",
+    "difficulty": "media",
+    "statement": "Um projeto quer incorporar a experiência dos executantes na escolha entre duas formas de organizar uma tarefa. A versão inicial foi apenas apresentada em uma reunião, sem espaço para propostas. Qual ação acrescenta participação efetiva na escolha, conforme o objetivo descrito?",
+    "options": [
+      "Repetir a apresentação com maior número de slides, mantendo a decisão fechada a sugestões.",
+      "Usar somente a ausência de perguntas ao fim da apresentação como confirmação da alternativa preferida.",
+      "Trocar o título da reunião por consulta, sem permitir comparar alternativas ou propor alterações.",
+      "Solicitar assinatura de presença na exposição da versão já escolhida e tratá-la como proposta dos executantes.",
+      "Discutir as alternativas com executantes e registrar como suas contribuições foram consideradas na decisão."
+    ],
+    "answer": 4,
+    "explanation": "Participar da escolha envolve oportunidade real de contribuir e de saber o tratamento dado às contribuições. Presença, tamanho da apresentação, rótulo da reunião e silêncio não estabelecem essa participação.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0065",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "revisao_documental_pontos_uso",
+    "difficulty": "alta",
+    "statement": "A revisão B de uma instrução passa a valer na segunda-feira. O cadastro eletrônico foi atualizado, mas há cópias impressas da revisão A nos postos. O procedimento interno exige que cada posto use a versão vigente e que versões anteriores, quando guardadas, sejam identificadas como históricas. Qual combinação atende às duas exigências?",
+    "options": [
+      "Conservar A e B juntas, sem indicação de vigência, para que a escolha da versão dependa da familiaridade de cada turno.",
+      "Destruir o cadastro de B e usar a data de impressão de A como autorização para sua permanência nos postos.",
+      "Atualizar somente o título do cadastro, mantendo A nos postos enquanto os operadores ainda reconhecerem suas páginas.",
+      "Disponibilizar B nos postos e retirar A do uso operacional, identificando como históricas as cópias que forem preservadas.",
+      "Arquivar B como histórica e manter A ativa até a próxima auditoria, embora a vigência de B já tenha começado."
+    ],
+    "answer": 3,
+    "explanation": "O requisito distingue uso vigente e guarda histórica. É necessário chegar ao ponto de uso e impedir confusão de status. Cadastro sozinho, livre escolha, inversão de vigência e data de impressão não satisfazem a condição explicitada.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0066",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "imparcialidade_designacao_auditor",
+    "difficulty": "alta",
+    "statement": "Uma auditoria interna adota a regra de que ninguém avalie o processo que executa nem aquele cuja aprovação final lhe pertence. Ana executa compras, Bruno aprova compras e Carla executa a preparação de cargas, sem função em compras. Para examinar compras entre esses três profissionais, qual designação atende à regra?",
+    "options": [
+      "Nenhum deles, porque executar qualquer processo da empresa impede auditar compras no caso descrito.",
+      "Ana, porque conhecer diretamente a execução elimina a restrição imposta pela regra de independência.",
+      "Ana ou Bruno indistintamente, pois assinatura de declaração elimina qualquer restrição de função.",
+      "Carla, desde que tenha competência para a auditoria, pois não executa nem aprova compras.",
+      "Bruno, porque aprovação final e avaliação são sempre equivalentes para a regra fornecida."
+    ],
+    "answer": 3,
+    "explanation": "A restrição é específica a executar ou aprovar o processo avaliado, não a todo vínculo com a empresa. Carla não exerce essas funções em compras, mas ainda precisa de competência. Declaração não elimina a regra, e conhecer o processo não autoriza autoavaliação segundo ela.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0067",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "responsabilidade_interface_contrato",
+    "difficulty": "alta",
+    "statement": "Uma ação depende de uma contratada fornecer um desenho e da contratante incorporá-lo ao plano da intervenção. Cada organização indica um responsável pela própria entrega, mas ninguém verifica o encaixe entre elas. Qual medida trata a lacuna de interface?",
+    "options": [
+      "Atribuir automaticamente à contratada a aprovação do plano interno, sem alterar as responsabilidades estabelecidas.",
+      "Definir responsável pela integração, critérios de aceite e fluxo de retorno quando o desenho não permitir atualizar o plano.",
+      "Encerrar a ação assim que qualquer uma das organizações enviar um arquivo, sem relacioná-lo à entrega seguinte.",
+      "Eliminar o critério de aceite para reduzir divergências sobre a compatibilidade entre desenho e plano.",
+      "Manter dois responsáveis isolados e tomar a existência de dois e-mails como prova de integração concluída."
+    ],
+    "answer": 1,
+    "explanation": "As entregas são encadeadas e a interface exige critérios e retorno. Um envio isolado, dois e-mails ou ausência de critério não provam integração. A resposta não transfere unilateralmente a aprovação de uma organização para outra.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0068",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "auditoria_trilha_transversal",
+    "difficulty": "alta",
+    "statement": "Para examinar como uma mudança percorre o sistema de gestão, uma auditora escolhe uma alteração concreta e acompanha sua passagem pelo projeto, compras, treinamento e operação. Qual vantagem distingue essa trilha de entrevistar cada setor sobre suas rotinas sem ligar um mesmo caso?",
+    "options": [
+      "Substitui a necessidade de evidência de execução por declarações sobre a política de cada setor.",
+      "Dispensa critérios de avaliação, já que a existência de uma sequência documental demonstra conformidade.",
+      "Permite verificar a continuidade e a consistência das interfaces em uma mudança identificável.",
+      "Permite concluir que todas as mudanças da empresa foram verificadas porque quatro setores participaram.",
+      "Garante que a mudança escolhida representa estatisticamente qualquer população, mesmo sem plano amostral."
+    ],
+    "answer": 2,
+    "explanation": "A trilha concreta conecta interfaces e possibilita localizar rupturas entre etapas. Não transforma um caso em censo ou amostra estatística automaticamente, não elimina critérios e não substitui execução por declarações de política.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0069",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "confidencialidade_divulgacao_operacional",
+    "difficulty": "alta",
+    "statement": "No projeto de um painel, a regra acordada determina que supervisores recebam pendências de ajuste do posto, sem diagnósticos individuais. O serviço de saúde conserva os diagnósticos em base de acesso restrito. Qual saída do painel respeita essa finalidade e essa separação?",
+    "options": [
+      "Omitir os ajustes do posto e substituí-los por códigos de doenças, ainda que o painel deva orientar a correção operacional.",
+      "Publicar diagnósticos com iniciais dos trabalhadores, considerando que iniciais eliminam necessariamente a identificação.",
+      "Listar ajustes necessários por posto e seus responsáveis, sem anexar o diagnóstico individual que motivou a avaliação.",
+      "Usar o nome do supervisor como título de uma planilha que continue contendo os diagnósticos individuais.",
+      "Dar aos supervisores toda a base clínica para que escolham quais diagnósticos devem permanecer no painel."
+    ],
+    "answer": 2,
+    "explanation": "A finalidade fornecida é agir sobre ajustes, separando o acesso clínico. Iniciais podem identificar pessoas; trocar título não retira dados. Abrir a base inteira ou substituir providências por diagnósticos contraria o acordo explicitado, sem que se invoque artigo de lei.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0070",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "amostragem_sem_reposicao",
+    "difficulty": "muito_alta",
+    "statement": "Um universo tem dez ordens, das quais duas contêm um tipo de erro conhecido apenas para a análise deste exercício. Duas ordens são selecionadas aleatoriamente, sem reposição. Usando combinações, qual é a probabilidade de selecionar pelo menos uma com erro, e por que 2/10 não basta para calculá-la?",
+    "options": [
+      "9/25, exatamente 36%; a fórmula de dois sorteios com reposição aplica-se sem ajuste ao caso.",
+      "1/5, exatamente 20%; selecionar duas ordens mantém a mesma probabilidade de um único sorteio.",
+      "1/45, aproximadamente 2,22%; somente a seleção das duas ordens com erro atende a pelo menos uma.",
+      "17/45, aproximadamente 37,78%; a seleção tem duas ordens, e deve-se considerar o complemento de ambas estarem entre as oito sem erro.",
+      "2/5, exatamente 40%; basta somar duas probabilidades de 20%, sem considerar o resultado conjunto."
+    ],
+    "answer": 3,
+    "explanation": "Há C(10,2)=45 pares possíveis e C(8,2)=28 sem erro. Probabilidade=1−28/45=17/45. 20% é para um sorteio; 36% usa reposição; 1/45 é selecionar as duas erradas; 40% ignora a interseção no raciocínio de união.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0071",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "compatibilidade_versoes_requisitos",
+    "difficulty": "muito_alta",
+    "statement": "Um pacote de liberação exige que o teste e a instrução se refiram à mesma revisão do desenho. O desenho mudou de D1 para D2: apenas a posição de um comando foi alterada. O teste T1 e a instrução I1 referem-se a D1; o teste T2 já examinou D2. A análise da mudança concluiu que a posição do comando afeta a instrução. Qual pacote é coerente com essas dependências?",
+    "options": [
+      "D2, T2 e uma instrução atualizada e conferida para D2, sem reaproveitar I1 como se sua referência fosse a nova revisão.",
+      "D2, T1 e I1, porque a existência de um teste aprovado para alguma revisão satisfaz a exigência de mesma revisão.",
+      "D2, T2 e I1 sem reavaliação, porque um teste novo altera automaticamente o conteúdo e a referência da instrução anterior.",
+      "D2 e I1, retirando a identificação de revisão de todos os documentos para que a divergência deixe de aparecer.",
+      "D1, T2 e I1, porque a numeração mais recente do teste torna o desenho antigo equivalente ao novo."
+    ],
+    "answer": 0,
+    "explanation": "A mudança tem impacto declarado na instrução; T2 cobre o desenho D2, mas I1 não foi atualizado. É preciso fechar a coerência entre três referências. Teste não reescreve instrução, numeração não muda o objeto testado e retirar identificadores oculta a incompatibilidade.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0072",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "designacao_segregacao_disponibilidade",
+    "difficulty": "muito_alta",
+    "statement": "Um projeto exige três pessoas distintas para elaborar, verificar e aprovar um plano. Elisa e Fábio podem elaborar; Fábio e Gisele podem verificar; Elisa e Hugo podem aprovar. No dia da liberação, Gisele está indisponível. Todos os demais estão presentes. Qual designação satisfaz simultaneamente competência e segregação?",
+    "options": [
+      "Fábio elabora, Gisele verifica e Hugo aprova.",
+      "Elisa elabora, Fábio verifica e Elisa aprova.",
+      "Elisa elabora, Fábio verifica e Hugo aprova.",
+      "Fábio elabora, Elisa verifica e Hugo aprova.",
+      "Hugo elabora, Fábio verifica e Elisa aprova."
+    ],
+    "answer": 2,
+    "explanation": "Sem Gisele, somente Fábio pode verificar. Elisa deve elaborar e Hugo aprovar para manter pessoas distintas e qualificadas. As outras opções atribuem função sem competência, repetem Elisa ou usam Gisele indisponível.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

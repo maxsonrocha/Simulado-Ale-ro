@@ -34,8 +34,10 @@ erros, tempo e situação. As estratégias de avaliação/resumo são configurá
 ## Bancos e assuntos da Transpetro
 
 Os 13 arquivos em `data/transpetro/eng_seguranca/` contêm um **lote parcial de
-100 questões da Etapa 1** (20 PORT, 20 ING, 60 ESP). Legislação permanece vazio.
-A meta de 700 não foi concluída. Relatório: [Etapa 1](docs/transpetro-etapa-1-relatorio.md).
+200 questões da Etapa 1** (40 PORT, 40 ING, 120 ESP), em dois lotes de 100.
+Legislação permanece vazio.
+A meta de 700 não foi concluída: faltam 500. Relatórios: [lote 1](docs/transpetro-etapa-1-relatorio.md)
+e [lote 2](docs/transpetro-etapa-1-lote-2-relatorio.md).
 
 Arquivos:
 
@@ -60,8 +62,8 @@ não vazio para o assunto, sem inventar um programa de tópicos nesta etapa.
 O carregador aceita arrays e o envelope legado `{ "questions": [...] }`.
 ALERO continua aceitando `topic` e não precisa de novos campos de identidade.
 
-O lote já permite prova completa 10/10/50 e específico 50. Garante **uma**
-prova completa inteiramente inédita por ciclo, não dez; faltam questões para
+O lote já permite prova completa 10/10/50 e específico 50. Garante **duas**
+provas completas inteiramente inéditas por ciclo, não dez; faltam questões para
 a capacidade planejada. O botão de gerar permite configurar e iniciar.
 Banco vazio/insuficiente mantém a configuração visível e informa, por disciplina,
 disponíveis e necessárias. Nenhuma prova vazia é iniciada, nenhum timer é
@@ -157,6 +159,7 @@ comparado questão a questão, pois agora considera as vistas e todos os grupos.
 ```sh
 node scripts/validate-transpetro.cjs --partial
 node scripts/audit-transpetro-calculations.cjs
+node scripts/audit-transpetro-lote2-calculations.cjs
 node scripts/audit-transpetro-similarity.cjs
 node --test tests/transpetro.cjs tests/transpetro-bank.cjs
 # Com o servidor local e Playwright disponível:
@@ -165,8 +168,9 @@ node tests/transpetro-bank-ui.cjs
 
 `node scripts/validate-transpetro.cjs` **sem `--partial` deve falhar** enquanto
 o banco não contiver exatamente 700 e a matriz completa. A opção parcial não
-altera a meta: exige as quantidades declaradas no plano, a proporção de
-dificuldades em cada área e a auditoria individual dos itens presentes.
+altera a meta: exige as quantidades acumuladas declaradas no plano, as quotas de cada lote, a proporção
+de dificuldades em cada área e os pareceres individuais dos dois lotes. O arquivo
+de parecer do lote 1 não é reescrito; `auditoriasConteudo` lista os dois arquivos.
 `--structure-only` isola a primeira rodada estrutural, sem substituir a revisão
 de conteúdo exigida por padrão.
 

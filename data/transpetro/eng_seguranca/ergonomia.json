@@ -38,5 +38,173 @@
     "answer": 4,
     "explanation": "O objetivo combina menor interferência e informação suficiente. É necessário testar desempenho nos dois eixos; contagem ou intensidade isoladas não o demonstram. Mais alarmes não garantem discriminação e exigir memória sem avaliação pode deslocar a carga.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0101",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "esforco_estatico_dinamico",
+    "difficulty": "media",
+    "statement": "Em duas tarefas com duração semelhante, uma pessoa sustenta os braços elevados quase sem movimento; em outra, alterna movimentos e apoia os braços entre ciclos. Sem concluir a magnitude do risco só pela descrição, qual distinção deve ser registrada na análise física?",
+    "options": [
+      "A primeira equivale a repouso completo porque os braços não realizam deslocamento visível.",
+      "A primeira envolve manutenção postural estática, enquanto a segunda tem alternância de movimento e apoio.",
+      "A segunda deve ser classificada como estática durante toda a duração por incluir algum apoio.",
+      "As duas têm a mesma exigência muscular necessariamente, porque a duração total é semelhante.",
+      "A ausência de movimento na primeira demonstra ausência de esforço para manter a postura."
+    ],
+    "answer": 1,
+    "explanation": "Manter posição pode exigir esforço estático, sem deslocamento visível. Alternância e apoio configuram organização física diferente. Duração semelhante não iguala exigência e apoio parcial não torna toda a atividade estática.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0102",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "ajuste_antropometrico_intervalos",
+    "difficulty": "alta",
+    "statement": "Um projeto de bancada atende três alturas de trabalho requeridas para usuários específicos: 82, 91 e 104 cm. As faixas ajustáveis oferecidas são A: 80–100 cm; B: 85–110 cm; C: 80–110 cm. Cada usuário precisa poder ajustar exatamente sua altura requerida. Qual opção cobre o conjunto sem adaptação adicional?",
+    "options": [
+      "C, porque inclui as três alturas requeridas em sua faixa.",
+      "B, porque o maior limite superior compensa a ausência de ajuste abaixo de 85 cm.",
+      "Nenhuma, porque um intervalo ajustável não pode atender valores intermediários de altura.",
+      "A ou B indistintamente, porque cobrir duas pessoas demonstra cobertura da terceira.",
+      "A, porque a média das três alturas está abaixo de 100 cm e a média substitui cada necessidade individual."
+    ],
+    "answer": 0,
+    "explanation": "C contém 82, 91 e 104. A exclui 104 e B exclui 82; média e limite superior não substituem adequação de cada pessoa. Uma faixa ajustável permite os valores intermediários nas condições do projeto. Não se afirma que essas alturas sejam recomendação geral de ergonomia.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0103",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "compatibilidade_controle_mostrador",
+    "difficulty": "alta",
+    "statement": "Num painel, girar o comando para a direita desloca o indicador para a esquerda. Usuários treinados no sentido oposto corrigem frequentemente a primeira ação. O projeto quer reduzir esse erro de correspondência, mantendo identificáveis as funções. Qual intervenção deve ser avaliada?",
+    "options": [
+      "Alinhar a relação espacial entre movimento do comando e resposta indicada, testando a correspondência com usuários e tarefas representativas.",
+      "Reduzir a frequência de atualização do indicador para que a primeira ação errada deixe de ser percebida.",
+      "Eliminar a indicação da resposta, tratando ausência de realimentação como compatibilidade entre controle e efeito.",
+      "Aumentar apenas o brilho do indicador, considerando que legibilidade luminosa equivale à correspondência de movimentos.",
+      "Trocar os nomes dos usuários no cadastro, sem modificar comando, resposta ou orientação do painel."
+    ],
+    "answer": 0,
+    "explanation": "A dificuldade descrita é de compatibilidade espacial, que deve ser projetada e testada. Brilho trata outra característica; esconder ou atrasar a resposta prejudica a realimentação e não corrige a relação entre ação e efeito.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0104",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "movimentacao_dupla_sincronizacao",
+    "difficulty": "alta",
+    "statement": "Dois trabalhadores movimentam juntos uma peça com geometria assimétrica. O ensaio mostra que um inicia o levantamento antes de o outro estabelecer a pega, produzindo rotação inesperada. Sem presumir que dividir a massa por dois resolva a tarefa, qual aspecto precisa ser tratado?",
+    "options": [
+      "Somente a divisão aritmética da massa, porque ela garante esforço igual em cada pessoa durante todas as fases.",
+      "Somente a escolha de trabalhadores da mesma idade, pois isso sincroniza automaticamente início e pega.",
+      "A retirada de qualquer comunicação entre os dois, para que cada um escolha livremente quando aplicar força.",
+      "Coordenação do início, posições de pega e distribuição real de esforços, considerando a geometria e as condições da movimentação.",
+      "O aumento da velocidade do levantamento para reduzir o tempo em que a peça pode girar, sem rever as pegas."
+    ],
+    "answer": 3,
+    "explanation": "A rotação resulta da interação entre geometria e ações não sincronizadas. Massa por pessoa, idade ou rapidez não demonstram distribuição real nem coordenação; retirar comunicação pode agravar a diferença de início. A análise pode indicar outra forma de movimentação, não necessariamente levantamento manual.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0105",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "rodizio_exigencias_semelhantes",
+    "difficulty": "alta",
+    "statement": "Um rodízio pretende variar exigências físicas. As três tarefas propostas mudam de nome e produto, mas mantêm o mesmo alcance elevado, repetição de punho e ausência de apoio. Qual avaliação evita confundir diversidade administrativa com variação biomecânica?",
+    "options": [
+      "Comparar efetivamente os segmentos solicitados, posturas, forças e oportunidades de recuperação antes de creditar o rodízio como variação.",
+      "Creditar variação completa sempre que os produtos tenham códigos diferentes, mesmo com exigências iguais.",
+      "Tratar a sequência como repouso por ser chamada de rodízio, sem examinar o trabalho realizado em cada etapa.",
+      "Considerar que a troca de setor elimina a repetição de punho independentemente de como o gesto é executado.",
+      "Contar o número de nomes de tarefas como medida suficiente da recuperação dos mesmos grupos musculares."
+    ],
+    "answer": 0,
+    "explanation": "A variação relevante depende das exigências e da recuperação, não do rótulo. Produtos, setores e nomes distintos podem manter as mesmas solicitações; o rodízio não é automaticamente repouso.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0106",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "tempo_escolha_navegacao",
+    "difficulty": "muito_alta",
+    "statement": "Para comparar interfaces neste exercício, adota-se T=0,20+0,15·log2(n+1) segundos por escolha entre n opções. Um menu plano tem 15 opções e exige uma escolha. Outro exige duas escolhas sucessivas entre três opções, mais 0,25 s de navegação entre elas. Use log2(16)=4 e log2(4)=2. Quais tempos totais o modelo prevê?",
+    "options": [
+      "Menu plano: 0,80 s; menu em dois níveis: 0,75 s.",
+      "Menu plano: 0,60 s; menu em dois níveis: 0,85 s.",
+      "Menu plano: 0,80 s; menu em dois níveis: 1,25 s.",
+      "Menu plano: 2,45 s; menu em dois níveis: 1,25 s.",
+      "Menu plano: 0,80 s; menu em dois níveis: 1,00 s."
+    ],
+    "answer": 2,
+    "explanation": "Plano: 0,20+0,15×4=0,80. Cada escolha nos níveis: 0,20+0,15×2=0,50; total=2×0,50+0,25=1,25. 0,75 conta uma escolha, 1,00 omite navegação e as outras opções tratam incorretamente a fórmula. É um modelo comparativo fornecido, não um tempo normativo universal.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0107",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "legibilidade_angulo_visual",
+    "difficulty": "muito_alta",
+    "statement": "Um exercício de projeto usa o pequeno ângulo θ≈h/d, em radianos, para um caractere de altura h visto à distância d, nas mesmas unidades. O caractere tem 4 mm e a distância passa de 500 para 800 mm. Para manter o mesmo θ do projeto inicial, qual nova altura é necessária e qual seria a fração do ângulo original se a altura permanecesse 4 mm?",
+    "options": [
+      "4,0 mm; com 4 mm, o ângulo cairia para 37,5% do original.",
+      "6,4 mm; com 4 mm, o ângulo permaneceria em 100% do original.",
+      "10,4 mm; com 4 mm, o ângulo aumentaria para 62,5% do original.",
+      "2,5 mm; com 4 mm, o ângulo aumentaria para 160% do original.",
+      "6,4 mm; com 4 mm, o ângulo cairia para 62,5% do original."
+    ],
+    "answer": 4,
+    "explanation": "θ inicial=4/500=0,008. Para d=800, h=0,008×800=6,4 mm. Mantendo h=4, razão de ângulos=(4/800)/(4/500)=500/800=0,625. 37,5% é a redução, não a fração restante; inverter distância inverte o sentido. O critério não é apresentado como limite geral de legibilidade.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0108",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "revezamento_janelas_recuperacao",
+    "difficulty": "muito_alta",
+    "statement": "Num arranjo didático, cada pessoa pode executar no máximo seis minutos consecutivos de uma tarefa e precisa depois de dois minutos sem executá-la. Duas pessoas começam descansadas e uma delas precisa ocupar a tarefa continuamente por 16 min, sem sobreposição. Qual sequência cumpre o arranjo e cobre todo o período?",
+    "options": [
+      "A de 0 a 8 e B de 8 a 16.",
+      "A de 0 a 6, B de 6 a 12 e A de 12 a 16.",
+      "A de 0 a 6 e B de 6 a 16.",
+      "A de 0 a 6, B de 8 a 14 e A de 14 a 16.",
+      "A de 0 a 6, B de 6 a 7 e A de 7 a 13, com B de 13 a 16."
+    ],
+    "answer": 1,
+    "explanation": "A sequência correta limita blocos a seis minutos, dá seis minutos de recuperação a A e não deixa lacunas. Blocos de oito ou dez violam o máximo; retorno de A em t=7 dá só um minuto de recuperação; iniciar B em t=8 deixa intervalo descoberto. O arranjo é uma premissa do exercício, não prescrição de pausas da legislação.",
+    "etapa": 1,
+    "lote": 2
   }
 ]

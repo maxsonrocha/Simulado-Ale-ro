@@ -7,15 +7,15 @@ const { validate, loadRows, read } = require('../scripts/validate-transpetro.cjs
 const { createRuntime, select, root } = require('../scripts/lib/runtime.cjs');
 const clone = x => JSON.parse(JSON.stringify(x));
 
-test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 100 itens', () => {
+test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 200 itens', () => {
   const result = validate({ partial: true });
-  assert.deepEqual(result.errors, []); assert.equal(result.total, 100);
-  assert.deepEqual(result.areas, { PORT: 20, ING: 20, ESP: 60 });
-  assert.equal(result.groups, 20); assert.equal(result.independentQuestions, 60);
+  assert.deepEqual(result.errors, []); assert.equal(result.total, 200);
+  assert.deepEqual(result.areas, { PORT: 40, ING: 40, ESP: 120 });
+  assert.equal(result.groups, 40); assert.equal(result.independentQuestions, 120);
   assert.equal(result.warnings.length, 1);
 });
-test('liberação da Etapa 1 FALHA enquanto faltarem 600 questões', () => {
-  const result = validate(); assert(result.errors.includes('total: 100; necessário 700'));
+test('liberação da Etapa 1 FALHA enquanto faltarem 500 questões', () => {
+  const result = validate(); assert(result.errors.includes('total: 200; necessário 700'));
   const command = spawnSync(process.execPath, ['scripts/validate-transpetro.cjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(command.status, 1); assert(command.stdout.includes('necessário 700'));
 });
@@ -55,7 +55,7 @@ test('as 30 resoluções quantitativas recalculadas encontram exatamente uma alt
 });
 test('triagem lexical global não encontra pares acima do limiar', () => {
   const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-similarity.cjs'], { cwd: root, encoding: 'utf8' }));
-  assert.equal(output.comparedPairs, 4950); assert.deepEqual(output.flagged, []);
+  assert.equal(output.comparedPairs, 19900); assert.deepEqual(output.flagged, []);
 });
 test('motor real em dez provas: evita repetição quando há inéditas suficientes e preserva todo grupo', async () => {
   const r = createRuntime(); select(r); await r.loadQuestionsBank();
@@ -78,8 +78,9 @@ test('motor real em dez provas: evita repetição quando há inéditas suficient
     reports.push({ attempt: attempt + 1, before, fresh });
   }
   assert.equal(reports[0].fresh.ESP, 50);
-  assert.equal(reports[1].fresh.PORT, 10); assert.equal(reports[1].fresh.ING, 10); assert.equal(reports[1].fresh.ESP, 10);
-  // 100 itens não autorizam alegar dez provas sem repetição: o lote só garante uma completa inédita.
+  assert.equal(reports[1].fresh.PORT, 10); assert.equal(reports[1].fresh.ING, 10); assert.equal(reports[1].fresh.ESP, 50);
+  assert.equal(reports[2].fresh.ESP, 20);
+  // 200 itens garantem duas completas inéditas por ciclo, não dez.
 });
 test('bancos ALERO não sofreram alteração de conteúdo nesta branch', () => {
   for (const name of ['port', 'rlm', 'info', 'leg', 'hgr', 'esp_arquiteto', 'esp_desenhista']) {
@@ -99,4 +100,50 @@ test('validador rejeita cópia com ID novo e opções reordenadas', () => {
  const rows = clone(loadRows());
  rows[2].q = { ...rows[0].q, id: rows[2].q.id, options: rows[0].q.options.slice().reverse() };
  assert(validate({ partial: true, rows }).errors.some(s => s.includes('conteúdo duplicado')));
+});
+
+test('lote 2 acrescenta exatamente 100 itens sem alterar ou reordenar os 100 anteriores', () => {
+ let preserved=0, added=0;
+ for(const file of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
+  const relative=`data/transpetro/eng_seguranca/${file}`;
+  const prior=JSON.parse(execFileSync('git',['show',`7a54ee0:${relative}`],{cwd:root,encoding:'utf8'}));
+  const current=read(relative);
+  assert.deepEqual(current.slice(0,prior.length),prior);preserved+=prior.length;
+  const delta=current.slice(prior.length);assert(delta.every(q=>q.lote===2));added+=delta.length;
+ }
+ assert.equal(preserved,100);assert.equal(added,100);
+ for(const name of ['conteudo','estrutura','calculos','similaridade']){
+  const file=`docs/auditorias/transpetro-etapa-1-${name}.json`;
+  assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`7a54ee0:${file}`],{cwd:root}));
+ }
+});
+test('novas áreas, dificuldades, IDs e gabaritos atendem às cotas próprias do lote 2', () => {
+ const qs=loadRows().map(x=>x.q).filter(q=>q.lote===2);
+ assert.equal(qs.length,100);
+ for(const [area,total,levels,offset] of [['PORT',20,[4,9,7],20],['ING',20,[4,9,7],20],['ESP',60,[12,27,21],60]]){
+  const a=qs.filter(q=>q.area===area);assert.equal(a.length,total);
+  assert.deepEqual(['media','alta','muito_alta'].map(d=>a.filter(q=>q.difficulty===d).length),levels);
+  assert.deepEqual([0,1,2,3,4].map(v=>a.filter(q=>q.answer===v).length),Array(5).fill(total/5));
+  const ids=a.map(q=>+q.id.slice(-4)).sort((a,b)=>a-b);assert.deepEqual(Array.from(ids),Array.from({length:total},(_,i)=>offset+i+1));
+ }
+});
+test('as 26 resoluções novas enfrentam as cinco alternativas e a semântica editorial cobre todos os novos itens', () => {
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-lote2-calculations.cjs'],{cwd:root,encoding:'utf8'}));
+ assert.equal(r.checked,26);assert(r.passed);assert(r.results.every(x=>x.matches.length===1));
+ const {digest}=require('../scripts/validate-transpetro.cjs');
+ const semantic=read('docs/auditorias/transpetro-etapa-1-lote-2-semantica.json');
+ const prior=read('docs/auditorias/transpetro-etapa-1-lote-2-previa.json');
+ assert.equal(prior.itens.length,100);assert.equal(semantic.revisoes.length,100);
+ const newQuestions=loadRows().map(x=>x.q).filter(q=>q.lote===2);
+ for(const q of newQuestions){
+  const entry=semantic.revisoes.filter(x=>x.id===q.id);assert.equal(entry.length,1);assert.equal(entry[0].sha256,digest(q));
+  assert(entry[0].distincao.length>50);assert(entry[0].contrastesAntigos.length);
+  for(const id of entry[0].contrastesAntigos)assert(prior.itens.some(x=>x.id===id));
+ }
+ const similarity=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs'],{cwd:root,encoding:'utf8'}));
+ assert.deepEqual(similarity.scopes,{novas_novas:4950,novas_antigas:10000,antigas_antigas:4950});
+ assert.deepEqual(similarity.flagged,[]);
+});
+test('aplicação, motor e apresentação permanecem exatamente como na main de partida', () => {
+ for(const file of ['app.js','index.html','styles.css'])assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`7a54ee0:${file}`],{cwd:root}));
 });

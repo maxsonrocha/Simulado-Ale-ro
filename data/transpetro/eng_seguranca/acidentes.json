@@ -78,5 +78,215 @@
     "answer": 2,
     "explanation": "Ano 1: (1×900.000+4×100.000)/1.000.000=1,3. Ano 2: (1×500.000+4×500.000)/1.000.000=2,5. Pesos mudam sem mudança nas taxas; média simples só coincide quando as horas são iguais. Não houve migração total nem diluição de B por essa alteração.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0073",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "classificacao_tecnica_evento",
+    "difficulty": "media",
+    "statement": "Para um inventário técnico, a empresa define evento com dano como aquele que produz lesão ou dano material, e quase acidente como ocorrência sem esses danos, mas com potencial de causá-los. Uma carga se desprende, atinge uma bancada e a quebra, sem lesionar pessoas. Como deve ser classificada nesse inventário, sem fazer enquadramento legal?",
+    "options": [
+      "Evento com dano material, mesmo sem lesão pessoal.",
+      "Evento com lesão pessoal, porque dano à bancada e lesão foram definidos como a mesma consequência.",
+      "Condição potencial sem ocorrência, porque a ausência de pessoas impede caracterizar um evento.",
+      "Quase acidente, porque somente lesões contam como dano na definição dada.",
+      "Ocorrência excluída das duas categorias, porque ambas exigem ausência de dano material."
+    ],
+    "answer": 0,
+    "explanation": "A definição inclui dano material, e a bancada foi quebrada. Quase acidente exige ausência dos danos definidos. Houve ocorrência efetiva, mas não lesão relatada; não se pretende aplicar classificação legal de acidente.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0074",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "unidade_registro_evento_pessoa",
+    "difficulty": "media",
+    "statement": "Um levantamento quer manter separados número de eventos e número de pessoas lesionadas. Em uma única queda de uma plataforma móvel, três pessoas sofreram lesões. No mesmo dia ocorreu outro evento, sem lesões nem relação com a queda. Quantos eventos e quantas pessoas lesionadas devem ser registrados no levantamento?",
+    "options": [
+      "Três eventos e três pessoas lesionadas.",
+      "Dois eventos e três pessoas lesionadas.",
+      "Um evento e três pessoas lesionadas.",
+      "Quatro eventos e três pessoas lesionadas.",
+      "Dois eventos e quatro pessoas lesionadas."
+    ],
+    "answer": 1,
+    "explanation": "A queda é um evento com três lesionados, e o outro acontecimento é um segundo evento sem lesionados. Não se deve converter cada pessoa em evento, contar novamente o acontecimento ou adicionar uma pessoa por um evento sem lesão.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0075",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "custos_contabeis_recuperacao",
+    "difficulty": "alta",
+    "statement": "Um levantamento define custo econômico do evento como reparos e horas adicionais efetivamente pagas, deduzindo recuperações financeiras; não inclui transferências internas. Houve reparo de R$ 12.000, 80 horas adicionais a R$ 50/h e recuperação de R$ 3.000. Um setor transferiu R$ 5.000 a outro para ratear o reparo já contabilizado. Qual custo segue a definição, sem duplicar o rateio?",
+    "options": [
+      "R$ 9.000.",
+      "R$ 21.000.",
+      "R$ 18.000.",
+      "R$ 16.000.",
+      "R$ 13.000."
+    ],
+    "answer": 4,
+    "explanation": "Horas adicionais=80×50=4.000. Custo=12.000+4.000−3.000=13.000. 16.000 ignora recuperação; 18.000 inclui indevidamente o rateio de 5.000; 21.000 inclui rateio sem deduzir recuperação. 9.000 omite as horas adicionais efetivamente pagas. A regra é a do levantamento, não norma contábil universal.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0076",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "entrevista_nao_indutiva",
+    "difficulty": "alta",
+    "statement": "Uma testemunha ainda não foi entrevistada após uma colisão interna. O investigador dispõe de duas versões sobre a trajetória, mas não sabe qual corresponde ao que ela viu. Qual abertura favorece um relato não induzido, mantendo a distinção entre observação e inferência?",
+    "options": [
+      "“Escolha uma das duas versões que vou ler e repita a que considerar mais provável, sem acrescentar outra descrição.”",
+      "“Descreva o que viu desde o início; depois indicaremos quais partes você observou diretamente e quais concluiu a partir de outros sinais.”",
+      "“A colisão só pode ter ocorrido pela trajetória da esquerda; em qual momento você percebeu isso?”",
+      "“Você confirma que o veículo veio pela direita, como já declarou a primeira pessoa entrevistada?”",
+      "“Como todos concordam sobre a trajetória, relate apenas os detalhes que mostrem que essa conclusão estava correta.”"
+    ],
+    "answer": 1,
+    "explanation": "Uma solicitação aberta coleta a narrativa antes de sugerir as hipóteses, e a distinção posterior separa observação de inferência. As outras aberturas oferecem uma conclusão, restringem o relato às versões conhecidas ou anunciam um consenso não demonstrado.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0077",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "preservacao_evidencia_original_copia",
+    "difficulty": "alta",
+    "statement": "O vídeo original de uma ocorrência precisa ser preservado, enquanto a equipe quer ampliar trechos e inserir marcadores para a análise. O procedimento do caso exige manter uma cópia íntegra verificável do original. Qual organização atende a essa exigência sem impedir o trabalho analítico?",
+    "options": [
+      "Preservar o original com controle de integridade e produzir uma cópia de trabalho identificada para as ampliações e marcações.",
+      "Renomear a versão editada como original e remover o histórico para que não haja divergência entre as versões.",
+      "Distribuir cópias sem identificação e escolher depois como original aquela em que a trajetória pareça mais nítida.",
+      "Converter o único arquivo para menor resolução e tratar o novo tamanho como comprovação de integridade da evidência anterior.",
+      "Sobrescrever o original com a versão anotada, mantendo apenas a informação de que as marcações foram úteis."
+    ],
+    "answer": 0,
+    "explanation": "Preservação e análise são separadas por cópias identificadas e controle de integridade. Sobrescrever, reduzir irreversivelmente ou renomear não conserva o original; nitidez não define autenticidade. Não se atribui ao procedimento caráter de regra processual legal.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0078",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "arvore_causas_condicoes_minimas",
+    "difficulty": "alta",
+    "statement": "Um modelo de investigação define que a queda ocorre quando há carga suspensa (A) e falha da fixação principal (B), em conjunto com ausência de retenção secundária (C). O modelo assume a expressão A E B E C. Qual interpretação distingue condição necessária, dentro desse modelo, de condição suficiente isoladamente?",
+    "options": [
+      "B e C são alternativas entre si, de modo que apenas uma delas precisa acompanhar A.",
+      "A é dispensável se B ocorrer, porque qualquer falha de fixação determina uma queda de carga suspensa.",
+      "A é necessária ao cenário modelado, mas sua presença sozinha não basta para produzir a queda.",
+      "A sozinha é suficiente porque aparece antes das outras letras na expressão.",
+      "A ausência de C mantém o evento verdadeiro quando A e B estão presentes, pois a ligação E atua como OU."
+    ],
+    "answer": 2,
+    "explanation": "Na conjunção, todas as três condições são requeridas e nenhuma isolada basta. Ordem gráfica não significa suficiência, E não é alternativa e retirar uma condição torna falsa a conjunção. A conclusão é sobre o modelo explicitado, não sobre todo acidente real.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0079",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "dias_pessoa_sobreposicao",
+    "difficulty": "muito_alta",
+    "statement": "Um indicador interno soma dias-pessoa de afastamento, contando cada dia de cada pessoa uma vez. Ana esteve afastada nos dias 1 a 5, inclusive; Bruno, nos dias 4 a 8, inclusive. Outro indicador conta dias de calendário com pelo menos uma pessoa afastada. Quais são, respectivamente, os dois resultados?",
+    "options": [
+      "10 dias-pessoa e 10 dias de calendário.",
+      "8 dias-pessoa e 8 dias de calendário.",
+      "10 dias-pessoa e 8 dias de calendário.",
+      "8 dias-pessoa e 10 dias de calendário.",
+      "12 dias-pessoa e 8 dias de calendário."
+    ],
+    "answer": 2,
+    "explanation": "Cada pessoa soma cinco dias, totalizando dez dias-pessoa. A união dos intervalos ocupa dias 1 a 8: oito dias de calendário. A interseção 4 e 5 conta uma vez por pessoa no primeiro indicador, mas só uma vez por dia no segundo; não deve ser retirada da soma individual nem duplicada na união.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0080",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "estimativa_registros_duas_fontes",
+    "difficulty": "muito_alta",
+    "statement": "Para um estudo exploratório, duas listas de ocorrências têm 30 e 40 registros, com 20 ocorrências presentes nas duas. O exercício adota a estimativa N=(n1×n2)/m, dependente de hipóteses de captura comparável e independência entre listas. Qual é a estimativa e quantas ocorrências ela sugere além das distintas já observadas?",
+    "options": [
+      "Estimativa de 70; nenhuma além das 70 observadas.",
+      "Estimativa de 60; dez além das 50 distintas observadas.",
+      "Estimativa de 60; vinte além das 40 distintas observadas.",
+      "Estimativa de 50; dez além das 40 distintas observadas.",
+      "Estimativa de 1.200; 1.150 além das 50 distintas observadas."
+    ],
+    "answer": 1,
+    "explanation": "N=30×40/20=60. A união observada tem 30+40−20=50; diferença estimada=10. Somar listas sem descontar sobreposição dá 70, usar apenas uma lista ignora registros exclusivos e omitir divisão por m dá 1.200. A estimativa não é censo nem independe das hipóteses declaradas.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0081",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "limite_frequencia_zero_eventos",
+    "difficulty": "muito_alta",
+    "statement": "Em um modelo de Poisson com taxa constante λ por hora, P(zero eventos em T horas)=exp(−λT). Um exercício usa λ_sup=−ln(0,05)/T como limite superior unilateral e fornece −ln(0,05)≈3. Após zero eventos em 30.000 h, qual é esse limite e qual seria após zero em 60.000 h, sob o mesmo modelo?",
+    "options": [
+      "0/h nos dois casos; observar zero eventos elimina toda incerteza da taxa.",
+      "0,00005/h e 0,00010/h; aumentar a observação sem eventos aumenta o limite superior.",
+      "0,00100/h e 0,00050/h; o fator três deve ser multiplicado por dez antes da divisão.",
+      "0,00010/h e 0,00005/h; nenhum dos resultados demonstra taxa verdadeira igual a zero.",
+      "0,00010/h nos dois casos; a duração deixa de importar quando não houve evento."
+    ],
+    "answer": 3,
+    "explanation": "3/30.000=0,00010/h e 3/60.000=0,00005/h. Mais tempo sem eventos reduz o limite do modelo, mas não demonstra taxa zero. Inverter a relação, errar uma ordem de grandeza ou manter o limite apesar de T dobrar contraria a expressão. Não se apresenta um limite legal de risco.",
+    "etapa": 1,
+    "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0082",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "teste_discriminante_hipoteses",
+    "difficulty": "muito_alta",
+    "statement": "Uma investigação reduziu o problema a três mecanismos mutuamente exclusivos. No teste X, as previsões são: mecanismo A produz leitura 0, B produz 0 e C produz 1. No teste Y, A produz 0, B produz 1 e C produz 2. As leituras são exatas neste exercício, os testes têm igual custo e não modificam o mecanismo. Qual deve ser escolhido para identificar o mecanismo com uma única leitura?",
+    "options": [
+      "X, pois um teste com duas saídas sempre discrimina melhor três mecanismos que um teste com três saídas.",
+      "Y, pois suas três saídas previstas são diferentes e correspondem uma a uma aos mecanismos.",
+      "X e Y são equivalentes porque ambos incluem pelo menos uma previsão de leitura 0.",
+      "Nenhum pode discriminar mecanismos, porque uma previsão deve ser igual nas três hipóteses para ser comparável.",
+      "X, pois sua saída 0 reúne duas hipóteses e isso garante identificar qual delas ocorreu."
+    ],
+    "answer": 1,
+    "explanation": "Y faz uma partição com três resultados distintos, permitindo inferência inversa única. X deixa A e B indistinguíveis quando a leitura é 0. Ter saída em comum não torna testes equivalentes; comparabilidade não exige previsões idênticas e não há vantagem automática em menos saídas.",
+    "etapa": 1,
+    "lote": 2
   }
 ]
