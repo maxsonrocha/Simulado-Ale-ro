@@ -1,79 +1,63 @@
-# Auditoria tripla — Base normativa Transpetro 2026
+# Auditoria tripla — Base normativa e corpus local Transpetro 2026
 
 Data de referência: 03/11/2026.
 
-Arquivos auditados:
-- `README.md`
-- `fontes.json` (schemaVersion 2)
-- `INSTRUCOES_CODEX.md`
-- `MATRIZ_ASSUNTOS.md`
-- `AUDITORIA_3X.md`
+Arquivos auditados: `README.md`, `fontes.json`, `INSTRUCOES_CODEX.md`, `MATRIZ_ASSUNTOS.md`, `edital_004_2026.json`, `corpus/README.md`, `corpus/CORPUS_NORMATIVO_LOCAL.md` e `corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md`.
 
-## Auditoria 1 — Estrutura e consistência interna
+## Auditoria 1 — estrutura e cobertura
 
-**Resultado final: APROVADO APÓS CORREÇÕES.**
+**APROVADO.**
 
-Foram conferidos IDs, mapa de assuntos, 11 blocos, NRs prioritárias, regras de 403, eSocial, ISO/ABNT e proteção contra preenchimento por memória.
+A base cobre os 11 blocos do conteúdo específico e todas as NRs prioritárias do projeto: NR-01, 04, 05, 06, 07, 09, 10, 11, 12, 13, 15, 16, 17, 18, 20, 23, 26, 29, 30, 32, 33, 34, 35 e 37. NR-02 e NR-27 permanecem explicitamente revogadas.
 
-### Erro encontrado e corrigido
-A auditoria anterior ainda mencionava `schemaVersion: 1`, enquanto `fontes.json` já havia evoluído para `schemaVersion: 2`. Este relatório foi atualizado.
+O corpus foi dividido em arquivo principal + complementar para evitar um arquivo excessivamente grande. `corpus/README.md` e `INSTRUCOES_CODEX.md` obrigam a leitura de ambos. A cobertura complementar eliminou a lacuna anteriormente registrada para NR-04, 09, 11, 15, 16, 18, 23, 26, 29, 30, 32, 33, 34 e 37.
 
-Também foi reforçada em README, protocolo e matriz a precedência do edital sobre atualizações posteriores de normas técnicas.
+## Auditoria 2 — conferência normativa e temporal
 
-## Auditoria 2 — Conferência normativa e aderência ao edital
+**APROVADO COM LIMITES EXPLÍCITOS.**
 
-**Resultado final: APROVADO APÓS CORREÇÃO MATERIAL IMPORTANTE.**
+A conferência externa usou fontes oficiais do Ministério do Trabalho e Emprego, eSocial, Fundacentro e legislação federal cadastrada em `fontes.json`.
 
-### Achado crítico
-A atualização anterior cadastrou corretamente ISO 14001:2026 e ISO 19011:2026 como edições internacionais atuais, mas isso criava risco de o Codex substituir as versões expressamente cobradas no Edital 004/2026.
+Verificações críticas:
+- o índice oficial do MTE identifica NR-02 e NR-27 como revogadas e lista as demais NRs usadas pelo corpus;
+- o repositório oficial do MTE disponibiliza os textos das NRs prioritárias, inclusive NR-04, 09, 15, 16, 18, 23, 26, 29, 30, 32, 33, 34 e 37;
+- a página oficial da NR-04 confirma o vínculo com o art. 162 da CLT, a lógica de SESMT ligada a empregados/risco e a Portaria MTP 2.318/2022 como última modificação indicada;
+- a página oficial da NR-09 confirma o foco atual em avaliação e controle das exposições ocupacionais a agentes físicos, químicos e biológicos;
+- a documentação oficial do eSocial em 2026 mantém leiautes S-1.3 e identifica S-2210, S-2220, S-2230 e S-2240 com suas finalidades próprias;
+- o Manual WEB Geral identifica S-2210, S-2220 e S-2240 como eventos do módulo SST, enquanto S-2230 é Afastamento Temporário;
+- a Fundacentro mantém oficialmente o catálogo de NHOs como instrumentos técnicos de Higiene Ocupacional.
 
-O conteúdo programático da Ênfase 21 cobra:
-- ISO 45001:2018;
-- ABNT NBR ISO 14001:2015;
-- ABNT NBR ISO 19011:2018.
+Mantida a trava temporal da NR-10: a nova redação publicada em 2026 não deve ser tratada como vigente antes da data de entrada em vigor registrada na base.
 
-Portanto, ISO 14001:2026 e ISO 19011:2026 ficam apenas como referências de atualização/contexto. **Não devem substituir as edições do edital na geração das questões deste concurso.**
+## Auditoria 3 — risco de geração e consistência cruzada
 
-Foi confirmado nas páginas oficiais da ISO que:
-- ISO 14001:2026 é edição 4, publicada em abril de 2026, substituindo internacionalmente ISO 14001:2015;
-- ISO 19011:2026 é edição 4, publicada em maio de 2026, substituindo internacionalmente ISO 19011:2018;
-- ISO 45001:2018 permanece publicada/corrente em 2026, enquanto sua revisão está em desenvolvimento para substituição posterior.
+**APROVADO.**
 
-A consulta ABNT/Confea/Crea/Mútua foi confirmada como acesso de visualização online ilimitada para usuários autorizados, sem permissão de impressão segundo a página do convênio.
-
-### Segundo erro/risco encontrado e corrigido
-O protocolo anterior tratava S-2210, S-2220 e S-2240 como os três eventos SST centrais e alertava para não confundir S-2230. Isso era conceitualmente útil, mas podia levar o gerador a **deixar S-2230 de fora**, embora o Edital 004/2026 cite expressamente S-2210, S-2220, S-2230 e S-2240.
-
-A regra foi corrigida: os quatro eventos pertencem ao universo de cobrança; S-2230 continua corretamente identificado como Afastamento Temporário e não deve ter sua finalidade confundida com as dos demais.
-
-## Auditoria 3 — Revisão cruzada dos arquivos e risco de geração
-
-**Resultado final: APROVADO APÓS CORREÇÕES.**
-
-Cruzamento realizado entre README, `fontes.json`, protocolo Codex, matriz e este relatório.
-
-Verificado após as correções:
-- edital tem precedência para delimitar edição normativa cobrada;
-- legislação/NR com atualizações deve ser conferida conforme regra do edital e vigência aplicável;
-- ISO 14001:2026 e ISO 19011:2026 não podem substituir silenciosamente 2015/2018;
-- S-2230 não pode ser excluído do banco;
-- fontes protegidas ISO/ABNT não são autorizadas a ser redistribuídas integralmente;
-- acesso licenciado é permitido somente dentro dos termos e por usuário autorizado;
-- preview oficial sustenta somente o conteúdo efetivamente visível;
-- fonte secundária não autoriza inventar cláusula/redação normativa;
+Foi verificado que:
+- o edital continua prevalecendo para versões expressamente cobradas;
+- ISO 45001:2018, ABNT NBR ISO 14001:2015 e ABNT NBR ISO 19011:2018 permanecem como edições de prova;
+- edições ISO posteriores não substituem silenciosamente as do edital;
+- o corpus não reproduz integralmente normas ISO/ABNT protegidas;
+- o Codex não pode completar lacunas por memória;
+- indisponibilidade de rede não obriga abandonar toda a autoria normativa quando houver proposição local verificada;
+- uma ficha de escopo não autoriza inventar prazo, limite, artigo, percentual, dimensionamento ou exceção;
 - questões quantitativas continuam exigindo segunda resolução independente;
-- fontes inacessíveis não podem ser substituídas por memória do modelo;
-- regras de dificuldade e auditoria do banco não são afetadas por esta base.
+- a base normativa não altera o motor, os bancos de questões ou a ALERO.
 
-## Ressalva sobre `fontes.json`
+## Achados e correções desta rodada
 
-O JSON mantém páginas das edições ISO 2026 porque elas são úteis para controle de atualização. Para o simulado, porém, sua interpretação é subordinada à regra explícita de precedência do edital definida em `README.md`, `INSTRUCOES_CODEX.md` e `MATRIZ_ASSUNTOS.md`. Em futura revisão de schema, é recomendável marcar diretamente no JSON cada ISO como `edicaoCobradaNoEdital` ou `somenteContextoAtualizacao` para eliminar qualquer ambiguidade de máquina.
+1. A primeira versão do corpus não cobria suficientemente 14 NRs prioritárias. Foi criado `CORPUS_NORMATIVO_COMPLEMENTAR.md` cobrindo todas elas em nível seguro para autoria offline.
+2. O protocolo lia apenas o corpus principal. Foi corrigido para exigir os dois arquivos.
+3. O conceito de “corpus completo” foi delimitado: completo para autoria offline controlada, não reprodução integral das normas.
+4. Mantida a separação correta entre S-2230 e os eventos do módulo SST do Manual WEB Geral.
+5. Mantida a precedência das edições ISO/ABNT do edital.
+
+## Limitações deliberadas
+
+O corpus não pretende substituir integralmente textos normativos. Para cobrança fina de item, artigo, prazo, limite de tolerância, dimensionamento, periodicidade, percentual, campo ou exceção, o dado precisa estar explicitamente registrado ou ser conferido na fonte oficial. Essa limitação é intencional e impede falsa precisão.
 
 ## Conclusão
 
-A auditoria tripla desta atualização **encontrou dois problemas reais de risco de geração e um problema documental**, e eles foram corrigidos:
-1. risco de usar ISO 14001:2026/ISO 19011:2026 no lugar das versões expressas do edital;
-2. risco de omitir S-2230;
-3. relatório anterior desatualizado em relação ao `schemaVersion`.
+**AUDITORIA GERAL APROVADA PARA MERGE.**
 
-Com essas correções, a base fica aprovada para orientar os próximos lotes, mantendo a condição de que URL cadastrada não equivale, sozinha, a conteúdo normativo verificado.
+A base está apta a sustentar o Lote 3, inclusive as 30 questões de Legislação/NRs, sem exigir que o Codex abandone a matéria quando seu ambiente não acessar diretamente uma página oficial. O Codex deve escolher apenas proposições efetivamente cobertas e substituir qualquer questão cujo detalhe decisivo não possa ser verificado.
