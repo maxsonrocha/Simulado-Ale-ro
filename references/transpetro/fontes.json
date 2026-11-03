@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "projeto": "Transpetro 2026 - Engenharia de Segurança do Trabalho",
+  "dataReferencia": "2026-11-03",
+  "politica": {
+    "fontePrimariaObrigatoria": true,
+    "memoriaModeloComoFonteNormativa": false,
+    "emCasoDe403": [
+      "tentar pagina indice, preview oficial ou representacao oficial alternativa",
+      "usar fonte oficial previamente registrada nesta base",
+      "usar fonte tecnica secundaria confiavel apenas para conceitos que ela efetivamente suporte",
+      "nao gerar afirmacao normativa especifica sem verificacao",
+      "registrar pendencia no relatorio do lote"
+    ],
+    "itensQueExigemVerificacao": ["artigo", "item", "clausula", "prazo", "limite", "valor", "obrigacao", "excecao", "vigencia", "classificacao"],
+    "fontesProtegidas": "ISO e ABNT nao devem ter texto integral copiado para repositorio publico sem autorizacao/licenca. Acesso licenciado pode ser usado para conferencia dentro dos termos de uso, sem redistribuir o documento."
+  },
+  "fontes": [
+    {"id":"MTE_NR_VIGENTES","orgao":"Ministerio do Trabalho e Emprego","tipo":"indice_normativo","titulo":"Normas Regulamentadoras Vigentes","url":"https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes","prioridade":1,"uso":["legislacao_nr","prevencao_riscos","higiene_ocupacional","saude_ocupacional","ergonomia","incendio","gestao_sms"],"observacoes":"Indice mestre para vigencia. NR-2 e NR-27 constam como revogadas."},
+    {"id":"MTE_ARQUIVOS_NR","orgao":"Ministerio do Trabalho e Emprego","tipo":"repositorio_normativo","titulo":"Arquivos das Normas Regulamentadoras","url":"https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras","prioridade":1,"uso":["legislacao_nr"],"observacoes":"Usar para localizar o texto oficial correspondente e conferir versao/data."},
+    {"id":"MTE_NR1_GRO_PGR","orgao":"Ministerio do Trabalho e Emprego","tipo":"manual_oficial","titulo":"Manual de interpretacao e aplicacao do capitulo 1.5 da NR-1 - GRO/PGR","url":"https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/manual_gro_pgr_da_nr_1.pdf/view","prioridade":1,"uso":["gerenciamento_riscos","legislacao_nr","gestao_sms"],"observacoes":"Usar em conjunto com o texto vigente da NR-1."},
+    {"id":"FUNDACENTRO_NHO","orgao":"Fundacentro","tipo":"normas_tecnicas_publicas","titulo":"Normas de Higiene Ocupacional - NHO","url":"https://www.gov.br/fundacentro/pt-br/centrais-de-conteudo/biblioteca/nhos","prioridade":1,"uso":["higiene_ocupacional"],"observacoes":"Fonte primaria para metodos NHO. Recalcular independentemente toda questao quantitativa."},
+    {"id":"PLANALTO_CLT","orgao":"Presidencia da Republica","tipo":"legislacao","titulo":"Consolidacao das Leis do Trabalho","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm","prioridade":1,"uso":["legislacao_nr","acidentes","gestao_sms"],"observacoes":"Conferir redacao vigente antes de citar artigo ou requisito."},
+    {"id":"PLANALTO_LEI_14063_2020","orgao":"Presidencia da Republica","tipo":"legislacao","titulo":"Lei 14.063/2020","url":"https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm","prioridade":1,"uso":["legislacao_nr"],"observacoes":"Assinaturas eletronicas."},
+    {"id":"PLANALTO_DECRETO_5098_2004","orgao":"Presidencia da Republica","tipo":"legislacao","titulo":"Decreto 5.098/2004 - P2R2","url":"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5098.htm","prioridade":1,"uso":["emergencias"],"observacoes":"P2R2."},
+    {"id":"ESOCIAL_MANUAL_WEB","orgao":"eSocial","tipo":"manual_oficial","titulo":"Manual WEB Geral / SST","url":"https://www.gov.br/esocial/pt-br/empresas/manual-web-geral","prioridade":1,"uso":["legislacao_nr","acidentes","saude_ocupacional","higiene_ocupacional"],"observacoes":"Eventos SST centrais: S-2210, S-2220 e S-2240. S-2230 e afastamento temporario."},
+    {"id":"ESOCIAL_DOCUMENTACAO","orgao":"eSocial","tipo":"documentacao_tecnica","titulo":"Documentacao Tecnica eSocial","url":"https://www.gov.br/esocial/pt-br/documentacao-tecnica","prioridade":1,"uso":["legislacao_nr","acidentes","saude_ocupacional"],"observacoes":"Conferir leiaute vigente antes de criar questao sobre campos, prazos ou regras."},
+    {"id":"GOVBR_PPP_ELETRONICO","orgao":"Governo Federal / INSS","tipo":"servico_oficial","titulo":"PPP Eletronico","url":"https://www.gov.br/pt-br/servicos/emitir-ppp-eletronico-perfil-profissiografico-previdenciario","prioridade":1,"uso":["legislacao_nr","higiene_ocupacional","saude_ocupacional"],"observacoes":"Verificar regras atuais e periodos de aplicacao."},
+    {"id":"PLANALTO_LEI_8213_1991","orgao":"Presidencia da Republica","tipo":"legislacao","titulo":"Lei 8.213/1991","url":"https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm","prioridade":1,"uso":["acidentes","saude_ocupacional","legislacao_nr"],"observacoes":"Conferir texto vigente."},
+    {"id":"PLANALTO_DECRETO_3048_1999","orgao":"Presidencia da Republica","tipo":"legislacao","titulo":"Decreto 3.048/1999","url":"https://www.planalto.gov.br/ccivil_03/decreto/d3048.htm","prioridade":1,"uso":["legislacao_nr","higiene_ocupacional","saude_ocupacional"],"observacoes":"Regulamento da Previdencia Social; conferir redacao consolidada."},
+    {"id":"IBAMA_CONAMA_398","orgao":"IBAMA / CONAMA","tipo":"resolucao","titulo":"Resolucao CONAMA 398/2008","url":"https://www.ibama.gov.br/sophia/cnia/legislacao/MMA/RE0398-110608.PDF","prioridade":1,"uso":["emergencias"],"observacoes":"Conferir texto oficial antes de citar requisito especifico."},
+    {"id":"ILO_OSH","orgao":"Organizacao Internacional do Trabalho","tipo":"fonte_internacional_oficial","titulo":"ILO - Occupational Safety and Health","url":"https://www.ilo.org/","prioridade":2,"uso":["legislacao_nr","gestao_sms"],"observacoes":"Conferir texto da convencao e status de ratificacao pelo Brasil."},
+    {"id":"ISO_45001_2018","orgao":"International Organization for Standardization","tipo":"catalogo_preview_oficial_protegido","titulo":"ISO 45001:2018 - Occupational health and safety management systems","url":"https://www.iso.org/standard/63787.html","prioridade":1,"uso":["gestao_sms"],"statusEm2026":"publicada; confirmar no catalogo antes de cada lote","observacoes":"Usar pagina oficial/preview para metadados e conceitos publicamente expostos. Clausula ou redacao exata exige acesso licenciado/verificavel. Nao armazenar copia integral nao autorizada."},
+    {"id":"ISO_TC283_45001","orgao":"ISO/TC 283","tipo":"pagina_tecnica_oficial","titulo":"ISO/TC 283 - standards published","url":"https://committee.iso.org/sites/tc283/home/projects/published/published.html","prioridade":1,"uso":["gestao_sms"],"observacoes":"Fonte oficial complementar sobre ISO 45001 e familia 45000."},
+    {"id":"ISO_14001_2026","orgao":"International Organization for Standardization","tipo":"catalogo_preview_oficial_protegido","titulo":"ISO 14001:2026 - Environmental management systems","url":"https://www.iso.org/standard/14001","prioridade":1,"uso":["gestao_sms","desenvolvimento_sustentavel"],"statusEm2026":"publicada em 2026-04; substitui ISO 14001:2015","observacoes":"Em novembro de 2026 e a edicao internacional atual. Preview/OBP oficial pode sustentar apenas o conteudo publicamente exibido; requisitos integrais exigem acesso licenciado."},
+    {"id":"ISO_14001_2026_OBP","orgao":"International Organization for Standardization","tipo":"preview_oficial","titulo":"ISO 14001:2026 - Online Browsing Platform","url":"https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3A14001%3Aed-4%3Av1%3Aen","prioridade":1,"uso":["gestao_sms","desenvolvimento_sustentavel"],"observacoes":"Preview oficial. Nao presumir que secoes nao exibidas publicamente foram verificadas."},
+    {"id":"ISO_19011_2026","orgao":"International Organization for Standardization","tipo":"catalogo_preview_oficial_protegido","titulo":"ISO 19011:2026 - Guidelines for auditing management systems","url":"https://www.iso.org/standard/19011","prioridade":1,"uso":["gestao_sms"],"statusEm2026":"publicada em 2026-05; ISO 19011:2018 retirada","observacoes":"Usar para conceitos de auditoria publicamente suportados. Redacao/clausula exata exige acesso licenciado."},
+    {"id":"ABNT_CONFEA_CONSULTA","orgao":"ABNT / Confea / Crea / Mutua","tipo":"acesso_licenciado_online","titulo":"Consulta de normas tecnicas via convenio Confea/Crea/Mutua","url":"https://www.abntcatalogo.com.br/confea/alt.aspx","prioridade":1,"uso":["gestao_sms","prevencao_riscos","higiene_ocupacional","ergonomia","incendio"],"observacoes":"A parceria informa visualizacao ilimitada para consulta online, sem permissao de impressao. Utilizar apenas mediante acesso autorizado do usuario e respeitando os termos; nao copiar nem redistribuir integralmente a norma no repositorio."}
+  ],
+  "mapaAssuntos": {
+    "prevencao_riscos":["MTE_NR_VIGENTES","MTE_ARQUIVOS_NR","ABNT_CONFEA_CONSULTA"],
+    "gerenciamento_riscos":["MTE_NR1_GRO_PGR","MTE_NR_VIGENTES"],
+    "legislacao_nr":["MTE_NR_VIGENTES","MTE_ARQUIVOS_NR","PLANALTO_CLT","PLANALTO_LEI_14063_2020","ESOCIAL_MANUAL_WEB","ESOCIAL_DOCUMENTACAO","GOVBR_PPP_ELETRONICO","PLANALTO_LEI_8213_1991","PLANALTO_DECRETO_3048_1999","ILO_OSH"],
+    "gestao_sms":["MTE_NR1_GRO_PGR","MTE_NR_VIGENTES","ISO_45001_2018","ISO_TC283_45001","ISO_14001_2026","ISO_14001_2026_OBP","ISO_19011_2026","ABNT_CONFEA_CONSULTA","ILO_OSH"],
+    "emergencias":["PLANALTO_DECRETO_5098_2004","IBAMA_CONAMA_398"],
+    "incendio":["MTE_NR_VIGENTES","MTE_ARQUIVOS_NR","ABNT_CONFEA_CONSULTA"],
+    "acidentes":["PLANALTO_LEI_8213_1991","ESOCIAL_MANUAL_WEB","PLANALTO_CLT"],
+    "higiene_ocupacional":["FUNDACENTRO_NHO","MTE_NR_VIGENTES","PLANALTO_DECRETO_3048_1999","ABNT_CONFEA_CONSULTA"],
+    "saude_ocupacional":["MTE_NR_VIGENTES","ESOCIAL_MANUAL_WEB","PLANALTO_LEI_8213_1991"],
+    "ergonomia":["MTE_NR_VIGENTES","MTE_ARQUIVOS_NR","ABNT_CONFEA_CONSULTA"],
+    "desenvolvimento_sustentavel":["ISO_14001_2026","ISO_14001_2026_OBP","ILO_OSH"]
+  },
+  "nrPrioritarias":["NR-01","NR-04","NR-05","NR-06","NR-07","NR-09","NR-10","NR-11","NR-12","NR-13","NR-15","NR-16","NR-17","NR-18","NR-20","NR-23","NR-26","NR-29","NR-30","NR-32","NR-33","NR-34","NR-35","NR-37"],
+  "nrRevogadas":["NR-02","NR-27"]
+}
