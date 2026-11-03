@@ -59,7 +59,7 @@
     "Sem embeddings ou especialista externo; comparação lexical não prova originalidade semântica absoluta.",
     "Dificuldade é avaliação editorial e precisa de calibração independente.",
     "Resultados quantitativos pertencem aos modelos dos enunciados; não constituem laudo, projeto ou limite legal.",
-    "Publicação e PR serão tentadas após o commit; sem merge."
+    "Branch publicada, mas abertura da PR bloqueada pela API403."
   ],
   "achadosCorrigidos": [
     "Duas colisões de alternativas no normalizador:0307 e0321.",
@@ -68,5 +68,13 @@
     "0316: correspondência textual do verificador corrigida; cálculo e gabarito corretos.",
     "Novo teste: conversão explícita de array entre contextos VM.",
     "Texto de sucesso do navegador atualizado de500 para600."
-  ]
+  ],
+  "entrega": {
+    "commitConteudo": "87134b3",
+    "branchPublicada": true,
+    "prCriada": false,
+    "erroPR": "Post https://api.github.com/graphql: Forbidden (HTTP403)",
+    "aberturaManual": "https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-banco-questoes-etapa-1-lote-6",
+    "mergeExecutado": false
+  }
 }

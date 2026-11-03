@@ -239,8 +239,12 @@ Os grupos novos não reduziram a capacidade teórica de 400/50=8 neste teste rea
 
 ## Entrega e revisão
 
-Commit/push e abertura de PR serão tentados nesta branch; o resultado de publicação
-é informado na resposta de entrega. Nenhum merge será executado. O Lote 7 não foi
-iniciado. A aprovação acima descreve a revisão autoral e as evidências executadas;
+Commit de conteúdo e auditorias: `87134b3`, publicado na branch remota.
+A tentativa real de `gh pr create` falhou com
+`Post "https://api.github.com/graphql": Forbidden` (HTTP403).
+A PR **não foi criada** pelo ambiente. Link de abertura manual:
+https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-banco-questoes-etapa-1-lote-6
+
+Nenhum merge foi executado. O Lote7 não foi iniciado. A aprovação acima descreve a revisão autoral e as evidências executadas;
 a auditoria independente técnica/editorial do usuário permanece necessária antes
 da integração. O site em main não recebe estes 100 itens até o merge autorizado.
