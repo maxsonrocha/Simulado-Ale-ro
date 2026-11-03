@@ -7,15 +7,15 @@ const { validate, loadRows, read } = require('../scripts/validate-transpetro.cjs
 const { createRuntime, select, root } = require('../scripts/lib/runtime.cjs');
 const clone = x => JSON.parse(JSON.stringify(x));
 
-test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 200 itens', () => {
+test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 300 itens', () => {
   const result = validate({ partial: true });
-  assert.deepEqual(result.errors, []); assert.equal(result.total, 200);
-  assert.deepEqual(result.areas, { PORT: 40, ING: 40, ESP: 120 });
-  assert.equal(result.groups, 40); assert.equal(result.independentQuestions, 120);
+  assert.deepEqual(result.errors, []); assert.equal(result.total, 300);
+  assert.deepEqual(result.areas, { PORT: 60, ING: 60, ESP: 180 });
+  assert.equal(result.groups, 60); assert.equal(result.independentQuestions, 180);
   assert.equal(result.warnings.length, 1);
 });
-test('liberação da Etapa 1 FALHA enquanto faltarem 500 questões', () => {
-  const result = validate(); assert(result.errors.includes('total: 200; necessário 700'));
+test('liberação da Etapa 1 FALHA enquanto faltarem 400 questões', () => {
+  const result = validate(); assert(result.errors.includes('total: 300; necessário 700'));
   const command = spawnSync(process.execPath, ['scripts/validate-transpetro.cjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(command.status, 1); assert(command.stdout.includes('necessário 700'));
 });
@@ -55,7 +55,7 @@ test('as 30 resoluções quantitativas recalculadas encontram exatamente uma alt
 });
 test('triagem lexical global não encontra pares acima do limiar', () => {
   const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-similarity.cjs'], { cwd: root, encoding: 'utf8' }));
-  assert.equal(output.comparedPairs, 19900); assert.deepEqual(output.flagged, []);
+  assert.equal(output.comparedPairs, 44850); assert.deepEqual(output.flagged, []);
 });
 test('motor real em dez provas: evita repetição quando há inéditas suficientes e preserva todo grupo', async () => {
   const r = createRuntime(); select(r); await r.loadQuestionsBank();
@@ -79,8 +79,9 @@ test('motor real em dez provas: evita repetição quando há inéditas suficient
   }
   assert.equal(reports[0].fresh.ESP, 50);
   assert.equal(reports[1].fresh.PORT, 10); assert.equal(reports[1].fresh.ING, 10); assert.equal(reports[1].fresh.ESP, 50);
-  assert.equal(reports[2].fresh.ESP, 20);
-  // 200 itens garantem duas completas inéditas por ciclo, não dez.
+  assert.equal(reports[2].fresh.ESP, 50);
+  assert.equal(reports[3].fresh.ESP, 30);
+  // Três completas inéditas: a quarta usa as 30 ESP ainda inéditas e 20 vistas.
 });
 test('bancos ALERO não sofreram alteração de conteúdo nesta branch', () => {
   for (const name of ['port', 'rlm', 'info', 'leg', 'hgr', 'esp_arquiteto', 'esp_desenhista']) {
@@ -107,7 +108,7 @@ test('lote 2 acrescenta exatamente 100 itens sem alterar ou reordenar os 100 ant
  for(const file of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
   const relative=`data/transpetro/eng_seguranca/${file}`;
   const prior=JSON.parse(execFileSync('git',['show',`7a54ee0:${relative}`],{cwd:root,encoding:'utf8'}));
-  const current=read(relative);
+  const current=read(relative).filter(q=>(q.lote||1)<=2);
   assert.deepEqual(current.slice(0,prior.length),prior);preserved+=prior.length;
   const delta=current.slice(prior.length);assert(delta.every(q=>q.lote===2));added+=delta.length;
  }
@@ -140,10 +141,65 @@ test('as 26 resoluções novas enfrentam as cinco alternativas e a semântica ed
   assert(entry[0].distincao.length>50);assert(entry[0].contrastesAntigos.length);
   for(const id of entry[0].contrastesAntigos)assert(prior.itens.some(x=>x.id===id));
  }
- const similarity=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs'],{cwd:root,encoding:'utf8'}));
+ const similarity=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs','--lote','2'],{cwd:root,encoding:'utf8'}));
  assert.deepEqual(similarity.scopes,{novas_novas:4950,novas_antigas:10000,antigas_antigas:4950});
  assert.deepEqual(similarity.flagged,[]);
 });
 test('aplicação, motor e apresentação permanecem exatamente como na main de partida', () => {
  for(const file of ['app.js','index.html','styles.css'])assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`7a54ee0:${file}`],{cwd:root}));
+});
+
+test('lote 3 preserva os 200 objetos, sua ordem e as auditorias históricas da main',()=>{
+ let old=0,added=0;
+ for(const file of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
+  const relative=`data/transpetro/eng_seguranca/${file}`;
+  const baseline=JSON.parse(execFileSync('git',['show',`ddb8e7a:${relative}`],{cwd:root,encoding:'utf8'}));
+  const current=read(relative);assert.deepEqual(current.slice(0,baseline.length),baseline);old+=baseline.length;
+  const delta=current.slice(baseline.length);assert(delta.every(q=>q.lote===3));added+=delta.length;
+ }
+ assert.equal(old,200);assert.equal(added,100);
+ const previousFiles=execFileSync('git',['ls-tree','-r','--name-only','ddb8e7a','docs/auditorias'],{cwd:root,encoding:'utf8'}).trim().split('\n');
+ for(const file of previousFiles)assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`ddb8e7a:${file}`],{cwd:root}));
+});
+test('lote 3 atende cotas, dificuldades, gabaritos e sequências de IDs próprias',()=>{
+ const rows=loadRows().map(x=>x.q).filter(q=>q.lote===3);assert.equal(rows.length,100);
+ for(const [area,n,offset,levels] of [['PORT',20,40,[4,9,7]],['ING',20,40,[4,9,7]],['ESP',60,120,[12,27,21]]]){
+  const a=rows.filter(q=>q.area===area);assert.equal(a.length,n);
+  assert.deepEqual(['media','alta','muito_alta'].map(d=>a.filter(q=>q.difficulty===d).length),levels);
+  assert.deepEqual([0,1,2,3,4].map(v=>a.filter(q=>q.answer===v).length),Array(5).fill(n/5));
+  assert.deepEqual(Array.from(a,q=>+q.id.slice(-4)).sort((a,b)=>a-b),Array.from({length:n},(_,i)=>offset+i+1));
+ }
+ const specific=Object.fromEntries(Object.keys(read('docs/transpetro-etapa-1-plano.json').metaAssuntosESP).map(s=>[s,rows.filter(q=>q.area==='ESP'&&q.assunto===s).length]));
+ assert.deepEqual(specific,{prevencao_riscos:6,legislacao_nr:30,higiene_ocupacional:8,gerenciamento_riscos:6,gestao_sms:4,acidentes:2,emergencias:1,incendio:1,ergonomia:1,saude_ocupacional:1,desenvolvimento_sustentavel:0});
+});
+test('oito segundas resoluções do lote 3 selecionam uma única alternativa',()=>{
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-lote3-calculations.cjs'],{cwd:root,encoding:'utf8'}));assert.equal(r.checked,8);assert(r.passed);assert(r.results.every(x=>x.matches.length===1));
+});
+test('similaridade do lote 3 cobre 4950 pares novos e 20000 confrontos com os anteriores',()=>{
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs'],{cwd:root,encoding:'utf8'}));
+ assert.equal(r.lote,3);assert.deepEqual(r.scopes,{novas_novas:4950,novas_antigas:20000,antigas_antigas:19900});assert.deepEqual(r.flagged,[]);
+});
+test('caderno real do lote 3 mantém o contexto, os companheiros e o ciclo normal',async()=>{
+ const r=createRuntime();select(r);await r.loadQuestionsBank();
+ for(const area of ['PORT','ING']){
+  r.App.type='ERRADAS';r.writeJSON(r.App.wrongKey,[`TP26-ENGSEG-${area}-0042`]);const cycle=Array.from(r.getCycleIds());r.generateExam();
+  assert.deepEqual(Array.from(r.App.exam,q=>q.id),[`TP26-ENGSEG-${area}-0041`,`TP26-ENGSEG-${area}-0042`]);
+  assert(r.App.exam[0].statement.includes('\n\n'));assert.deepEqual(Array.from(r.getCycleIds()),cycle);
+ }
+});
+test('lote 3: fontes locais e revisão editorial estão vinculadas ao conteúdo efetivo',()=>{
+ const {digest}=require('../scripts/validate-transpetro.cjs');
+ const crypto=require('node:crypto');const rows=loadRows().map(x=>x.q).filter(q=>q.lote===3);
+ const semantic=read('docs/auditorias/transpetro-etapa-1-lote-3-semantica.json');assert.equal(semantic.inventarioAnterior.length,200);assert.equal(semantic.revisoes.length,100);
+ const sources=read('docs/auditorias/transpetro-etapa-1-lote-3-fontes.json');
+ for(const q of rows){
+  const entry=semantic.revisoes.filter(x=>x.id===q.id);assert.equal(entry.length,1);assert.equal(entry[0].sha256,digest(q));assert(entry[0].operacao.length>15);
+  for(const id of entry[0].contrastesAntigos)assert(semantic.inventarioAnterior.some(x=>x.id===id));
+  if(q.fontes){const source=sources.itens.find(x=>x.id===q.id);assert(source);assert.equal(source.arquivo,q.fontes[0]);assert.equal(source.sha256Fonte,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,source.arquivo))).digest('hex'));}
+  if(q.assunto==='legislacao_nr')assert(q.fontes?.length);
+ }
+ assert.equal(rows.filter(q=>q.assunto==='legislacao_nr').length,30);
+});
+test('capacidade prática: três completas inéditas em dez sementes, com grupos íntegros',()=>{
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-lote3-engine.cjs'],{cwd:root,encoding:'utf8'}));assert(r.passed);assert.equal(r.completeFreshExams,3);assert.equal(r.runs.length,10);
 });

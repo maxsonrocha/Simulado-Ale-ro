@@ -1,0 +1,374 @@
+{
+  "data": "2026-11-03",
+  "fallbackAutorizado": true,
+  "consultasExternas": [
+    {
+      "id": "MTE_NR_VIGENTES",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_ARQUIVOS_NR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "FUNDACENTRO_NHO",
+      "url": "https://www.gov.br/fundacentro/pt-br/centrais-de-conteudo/biblioteca/nhos",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "PLANALTO_CLT",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "ESOCIAL_DOCUMENTACAO",
+      "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_INDICE_ALTERNATIVO",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0121",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-01 — Disposições Gerais e GRO/PGR"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O PGR deve conter, no mínimo, Inventário de Riscos Ocupacionais e Plano de Ação. Listar perigos e avaliações não substitui o planejamento das medidas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0122",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-05 — CIPA"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-05 utiliza Comissão Interna de Prevenção de Acidentes e de Assédio. A inclusão do assédio integra a denominação vigente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0123",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-04 — SESMT"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha da NR-04 vincula a contratação de profissionais ao número de empregados e à natureza do risco da atividade econômica. Não fornece tabelas para dimensionar."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0124",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-09 — Exposições ocupacionais"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "Esse é o objeto atual da NR-09. A referência não autoriza reconstruir automaticamente o antigo PPRA como exigência vigente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0125",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-06 — EPI"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha atribui ao trabalhador comunicar extravio, dano ou alteração que torne o EPI impróprio. Não lhe atribui emitir CA ou selecionar sozinho o EPI de toda a organização."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0126",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-07 — PCMSO"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-07 veda o caráter de seleção de pessoal e vincula o programa à saúde e aos riscos ocupacionais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0127",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-10 — Eletricidade"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus registra vigência da nova redação em 01/06/2027 e manutenção da anterior até 31/05/2027. Publicação não antecipa a vigência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0128",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-12 — Máquinas e Equipamentos"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha da NR-12 registra abordagem de segurança desde concepção/fabricação/importação, além da utilização. A primeira partida não é o único ponto de interesse."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0129",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-13 — Caldeiras, Vasos, Tubulações e Tanques"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O escopo registrado inclui caldeiras, vasos, tubulações e tanques metálicos de armazenamento. Isso impõe triagem adequada, não enquadramento automático de qualquer recipiente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0130",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-20 — Inflamáveis e Combustíveis"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-20 é norma especial para inflamáveis e combustíveis, não condicionada a único setor. A ficha não permite presumir classificação ou capacitação uniforme."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0131",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-35 — Trabalho em Altura"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha exige trabalhador formalmente autorizado pela organização; capacitação e aptidão são componentes relevantes, não substitutos da formalização."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0132",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-35 — Trabalho em Altura"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha distingue a possibilidade de análise no procedimento para rotina da exigência de PT prévia para a não rotina."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0133",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-17 — Ergonomia"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-17 contempla adaptação às características psicofisiológicas e elementos da organização, inclusive ritmo, conteúdo, meios e aspectos cognitivos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0134",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "Relações entre NRs — proposições seguras para autoria"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus associa NR-26 à sinalização e comunicação de perigos e NR-12 à segurança em máquinas. Não se afirma exclusividade ou que sinalizar substitua proteger."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0135",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-11 — Transporte e movimentação de materiais"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-11 é a referência direta para transporte, movimentação, armazenagem e manuseio. Outras normas podem ser pertinentes conforme o cenário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0136",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-32 — Serviços de saúde"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus limita a NR-32 ao campo de serviços de saúde quando justificado. A atividade principal não autoriza exclusão automática nem extensão irrestrita."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0137",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-15 — Atividades e operações insalubres"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "NR-15 trata de insalubridade e NR-16 de periculosidade, com enquadramentos distintos e requisitos próprios. A ficha não fornece dados para declarar adicionais ou percentuais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0138",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-29 — Trabalho portuário"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus distingue trabalho portuário da NR-29 e aquaviário da NR-30. A associação não dispensa examinar interfaces e condições de aplicação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0139",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-34 — Construção, reparação e desmonte naval"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-34 cobre construção, reparação e desmonte naval; NR-37 corresponde a plataformas de petróleo. O campo precisa ser observado em cada frente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0140",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA — Situação das NRs"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus identifica NR-02 e NR-27 como revogadas. É necessário revisar a fundamentação, sem inferir que a revogação elimina todo o sistema de SST."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0141",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-01 — Disposições Gerais e GRO/PGR",
+        "FICHA NR-07 — PCMSO"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A identificação/avaliação alimenta a prevenção no Plano de Ação; o PCMSO considera os riscos do PGR. Atualizar um documento não resolve automaticamente as interfaces de prevenção e saúde."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0142",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-01 — Disposições Gerais e GRO/PGR",
+        "FICHA NR-06 — EPI"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A dispensa de elaborar PGR do MEI não elimina a regra específica da NR-06 para registro de atividades e EPI das organizações dispensadas. CA qualifica o produto, não descreve suas atividades."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0143",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-06 — EPI"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha da NR-06 atribui seleção à organização, com participação do SESMT quando houver e ouvidos usuários/CIPA ou nomeado. CA qualifica o produto como EPI, não demonstra adequação universal nem substitui a participação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0144",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-35 — Trabalho em Altura"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A PT é limitada à atividade e ao turno/jornada, mas admite revalidação pelo responsável sem mudança das condições ou da equipe. I preserva ambos; II altera a equipe; III altera condições. Não se declara dispensa de outras verificações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0145",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-01 — Disposições Gerais e GRO/PGR",
+        "FICHA NR-10 — Eletricidade"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "As datas são específicas: NR-01 já vigente desde maio de 2026; a nova NR-10 só passa a vigorar em junho de 2027. Até lá, aplica-se a redação anterior indicada pela ficha."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0146",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "eSocial — documentação 2026"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus registra CAT no S-2210 mesmo sem afastamento; monitoramento/ASO no S-2220; afastamento no S-2230; exposição no S-2240. Pertencer ao edital não torna os eventos intercambiáveis."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0147",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA eSocial — SST e eventos do edital"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha registra primeiro dia útil seguinte à ocorrência e, em caso de morte, de imediato. Sexta-feira conduz a segunda no calendário dado; não é necessário haver afastamento para comunicar acidente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0148",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA Fundacentro — NHO",
+        "FICHA NR-07 — PCMSO",
+        "FICHA NR-17 — Ergonomia"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "As fichas Fundacentro e NR-17 associam NHO 11 a iluminamento; NHO 09 a corpo inteiro; NR-07 vincula PCMSO aos riscos do PGR. Métodos ambientais não substituem o programa médico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0149",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-20 — Inflamáveis e Combustíveis"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A NR-20 não se restringe a um setor; a admissão de EaD e semipresencial está sujeita a termos e condições. A ficha não autoriza dizer que toda capacitação pode ser integralmente remota."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0150",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "fichas": [
+        "NR-15 — Atividades e operações insalubres",
+        "NR-16 — Atividades e operações perigosas",
+        "Fundacentro — NHOs"
+      ],
+      "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "As fichas distinguem enquadramentos de NR-15/16 e vedam inventar limites, percentuais e exceções. Procedimento técnico não substitui automaticamente critério legal; dados válidos podem ser preservados enquanto a conclusão jurídica é verificada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0152",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA Fundacentro — NHO"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O corpus associa NHO 09 à vibração de corpo inteiro e NHO 10 à vibração de mãos e braços. Não se especificam valores ou procedimentos ausentes da ficha."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0171",
+      "arquivo": "references/transpetro/edital_004_2026.json",
+      "fichas": [],
+      "sha256Fonte": "70563f30839a10ac1a1ada631068fdca86772b2700d83e63b643407f3d006b6b",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "O edital estruturado fixa 45001:2018, 14001:2015 e 19011:2018. Edições posteriores são contexto de atualização, não substituição automática do conteúdo cobrado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0180",
+      "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "fichas": [
+        "FICHA NR-07 — PCMSO"
+      ],
+      "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0",
+      "uso": "Corpus local auditado como fallback autorizado; não se afirma consulta externa ao texto integral.",
+      "fundamentoConferido": "A ficha da NR-07 atribui ao empregador garantir elaboração/implantação e custear os procedimentos relacionados ao PCMSO sem ônus ao empregado. O contrato não elimina essas responsabilidades."
+    }
+  ],
+  "limites": "Fichas de escopo não autorizam detalhes ausentes. Não foram usados textos integrais ISO/ABNT, números de artigos, percentuais legais ou limites de exposição não cobertos."
+}

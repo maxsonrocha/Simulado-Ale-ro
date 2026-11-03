@@ -238,5 +238,131 @@
     "answer": 0,
     "explanation": "P=0,01×1+0,99×(0,02×0,02)=0,01+0,000396=0,010396. 0,0004 ignora a causa comum; 0,01 ignora o ramo residual; 0,0104 soma sem ponderar a ausência da causa comum; 0,0396 é a união de duas falhas independentes de 0,02, não a conjunta pedida.",
     "etapa": 1
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0165",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "incerteza_epistemica_e_variabilidade",
+    "difficulty": "media",
+    "statement": "Um estudo distingue a flutuação real das demandas ao longo do ano da falta de informação sobre a espessura atual de uma tubulação. Qual classificação é útil para escolher ações de melhoria do estudo?",
+    "options": [
+      "Duas consequências monetárias que dispensam medição.",
+      "Dois erros de arredondamento que desaparecem ao aumentar casas decimais.",
+      "Incerteza de conhecimento nas demandas e variabilidade anual da espessura já medida com exatidão.",
+      "Duas frequências de falha necessariamente independentes e iguais.",
+      "Variabilidade das demandas e incerteza por conhecimento insuficiente da espessura."
+    ],
+    "answer": 4,
+    "explanation": "Flutuação real de demandas é variabilidade; desconhecimento da espessura é lacuna de conhecimento que inspeção pode reduzir. A classificação orienta ações diferentes.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0166",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fmea_deteccao_e_prevencao",
+    "difficulty": "alta",
+    "statement": "Uma FMEA distingue ocorrência da falha, detecção antes do efeito e severidade do efeito caso ocorra. Um novo ensaio encontra trincas já existentes antes de expedir a peça, mas não altera sua formação nem o dano de uma ruptura. Que crédito é diretamente sustentado?",
+    "options": [
+      "Aumento obrigatório da frequência de trincas porque mais delas serão registradas.",
+      "Eliminação simultânea das três dimensões apenas pela existência do ensaio.",
+      "Melhoria de detecção antes da expedição, sem redução demonstrada da formação ou da severidade.",
+      "Redução automática da ocorrência física de trincas, mesmo sem alterar o processo.",
+      "Redução da severidade da ruptura por ter medido melhor a trinca."
+    ],
+    "answer": 2,
+    "explanation": "O ensaio atua sobre identificar a falha antes da expedição. Detectar mais não significa formar mais ou menos trincas, nem alterar a consequência da ruptura.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0167",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "hazop_modos_de_operacao",
+    "difficulty": "alta",
+    "statement": "Um estudo examinou um reator apenas em regime estável. Na partida, uma linha temporária conecta pontos que ficam separados durante a operação normal. Qual ampliação do HAZOP enfrenta a lacuna identificada?",
+    "options": [
+      "Aplicar apenas uma correção percentual à frequência de todos os cenários antigos, sem identificar novos desvios.",
+      "Repetir apenas os desvios do regime estável, supondo que a configuração de tubulações não importa.",
+      "Excluir a linha temporária porque sua curta duração impede consequências relevantes.",
+      "Examinar no HAZOP o modo de partida e a conexão temporária.",
+      "Usar o número de nós do estudo anterior como prova de cobertura de todos os modos."
+    ],
+    "answer": 3,
+    "explanation": "A configuração e a intenção de operação mudam na partida. A cobertura de um modo não demonstra cobertura de outro com conexões distintas.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0168",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "conjuntos_minimos_de_corte",
+    "difficulty": "muito_alta",
+    "statement": "Uma árvore lógica define T=(A e B) ou (A e C) ou (A e B e D). Eventos são booleanos; não se pede probabilidade. Um conjunto mínimo de corte deve bastar para T e perder essa suficiência se qualquer elemento for removido. Quais são todos os conjuntos mínimos?",
+    "options": [
+      "{B,C} e {D}.",
+      "{A,B}, {A,C} e {A,B,D}.",
+      "{A,B} e {A,C}.",
+      "{A,B,D} e {A,C}.",
+      "{A}, {B} e {C}."
+    ],
+    "answer": 2,
+    "explanation": "AB e AC bastam e são mínimos. ABD basta, mas contém AB, portanto não é mínimo. A isolado não satisfaz os ramos; B ou C sem A também não.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0169",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fronteira_de_pareto",
+    "difficulty": "muito_alta",
+    "statement": "Um comitê minimiza simultaneamente dois indicadores independentes, lesões esperadas L e perda ambiental A, sem permitir compensação entre eles. Alternativas: P=(2,9), Q=(4,5), R=(5,7), S=(3,10). Uma opção é dominada se outra não é pior em nenhum indicador e é melhor em pelo menos um. Qual conjunto é não dominado?",
+    "options": [
+      "P e Q.",
+      "Todas as quatro.",
+      "P e R.",
+      "P, Q e R.",
+      "Q e S."
+    ],
+    "answer": 0,
+    "explanation": "Q domina R: 4<5 e 5<7. P domina S: 2<3 e 9<10. P e Q não se dominam, pois um melhora L e o outro A. Não se soma indicadores com pesos não fornecidos.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0170",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "resolucao_de_cenarios_e_dupla_contagem",
+    "difficulty": "muito_alta",
+    "statement": "Um inventário divide vazamentos em pequenos, médios e grandes, classes mutuamente exclusivas por evento. Em outro relatório, “vazamento com ignição” inclui ocorrências de qualquer uma dessas classes. Um analista soma as quatro frequências para obter a frequência de todos os vazamentos. Qual revisão resolve o erro sem supor independência?",
+    "options": [
+      "Multiplicar as quatro frequências, assumindo independência apesar da sobreposição.",
+      "Subtrair todos os vazamentos com ignição, retirando-os também das três classes originais.",
+      "Usar apenas a maior frequência, pois ela representa necessariamente a união.",
+      "Somar as quatro porque nomes diferentes sempre identificam eventos disjuntos.",
+      "Tratar ignição dentro da partição por porte, sem adicioná-la novamente ao total."
+    ],
+    "answer": 4,
+    "explanation": "A partição por porte já inclui ocorrências com e sem ignição. A quarta categoria é sobreposta; é preciso cruzá-la ou subdividir, não adicioná-la ao total novamente.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

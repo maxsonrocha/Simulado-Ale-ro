@@ -288,5 +288,92 @@
     "explanation": "Sem Gisele, somente Fábio pode verificar. Elisa deve elaborar e Hugo aprovar para manter pessoas distintas e qualificadas. As outras opções atribuem função sem competência, repetem Elisa ou usam Gisele indisponível.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0171",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "edicoes_iso_do_edital",
+    "difficulty": "media",
+    "statement": "Um fornecedor entrega material atualizado somente para ISO 14001:2026 e ISO 19011:2026. Para estudar as edições expressamente cobradas neste concurso, qual conjunto deve continuar como referência de prova?",
+    "options": [
+      "ISO 45001:2018, ISO 14001:2026 e ISO 19011:2026, por serem mais recentes.",
+      "ISO 45001:2018, ABNT NBR ISO 14001:2015 e ABNT NBR ISO 19011:2018.",
+      "Somente ISO 45001:2018, excluindo as outras normas quando houver revisão.",
+      "ISO 45001:2026, ISO 14001:2026 e ISO 19011:2026, todas com edição presumida.",
+      "Somente as normas escolhidas pelo fornecedor, independentemente do edital."
+    ],
+    "answer": 1,
+    "explanation": "O edital estruturado fixa 45001:2018, 14001:2015 e 19011:2018. Edições posteriores são contexto de atualização, não substituição automática do conteúdo cobrado.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/edital_004_2026.json"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0172",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "responsabilidade_e_assessoria",
+    "difficulty": "alta",
+    "statement": "Uma política interna atribui ao gerente a decisão de aceitar riscos residuais e ao consultor a emissão de parecer técnico. O consultor recomenda uma medida e o gerente a rejeita. No registro final aparece apenas “decisão do consultor”. Qual correção respeita a governança descrita?",
+    "options": [
+      "Distinguir recomendação e decisão, registrando o parecer, a decisão do gerente e sua justificativa.",
+      "Manter a autoria no consultor porque recomendar equivale a aceitar qualquer risco residual.",
+      "Atribuir a decisão à equipe operacional sem verificar quem possuía a competência interna.",
+      "Apagar o parecer para que não haja divergência entre documentos de gestão.",
+      "Registrar aceitação consensual porque o consultor participou do processo."
+    ],
+    "answer": 0,
+    "explanation": "O cenário define funções distintas. Participar ou recomendar não transfere a decisão; o registro deve permitir compreender a recomendação e o desvio decisório.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0173",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "agregacao_de_requisitos_integrados",
+    "difficulty": "alta",
+    "statement": "Um sistema de SMS recebe dois requisitos internos para o mesmo conjunto: revisão semestral de um plano ambiental e revisão anual de um plano de segurança. A integração é proposta como documento único com revisão apenas anual. Nenhum requisito foi revogado. Qual análise é adequada?",
+    "options": [
+      "A periodicidade anual absorve a semestral porque ambas se referem ao mesmo documento.",
+      "Integrar o suporte documental sem perder a periodicidade semestral exigida para a parte ambiental.",
+      "Não é possível integrar documentos se qualquer requisito tiver periodicidade diferente.",
+      "A integração revoga automaticamente o requisito mais frequente.",
+      "Escolher a periodicidade pela data mais antiga do arquivo, sem examinar o requisito."
+    ],
+    "answer": 1,
+    "explanation": "Integração documental não revoga requisitos. Um documento único pode manter controles diferenciados ou revisão mais frequente sem perder a obrigação interna semestral.",
+    "etapa": 1,
+    "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0174",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "amostragem_por_risco_e_conclusao",
+    "difficulty": "muito_alta",
+    "statement": "Uma auditoria selecionou deliberadamente os dez contratos com maiores sinais de problema, dentre cem. Encontrou não conformidade em oito. O relatório propõe extrapolar 80% a todos os contratos e, ao mesmo tempo, encerrar a investigação nos oito porque a amostra não foi aleatória. Qual revisão trata corretamente as duas inferências?",
+    "options": [
+      "Manter os oito achados, sem extrapolar 80% aos cem por essa seleção dirigida.",
+      "Transformar a seleção dirigida em aleatória após a coleta, sem alterar o plano ou os dados.",
+      "Concluir conformidade dos noventa restantes porque eles não foram selecionados.",
+      "Descartar todo achado porque somente amostragem aleatória produz evidência sobre um contrato.",
+      "Extrapolar 80% aos cem e descartar os oito achados individuais por não haver sorteio."
+    ],
+    "answer": 0,
+    "explanation": "A evidência pode sustentar achados nos casos examinados; a seleção por sinais de problema não fornece estimativa simples da prevalência populacional. Uma limitação de generalização não apaga evidência individual.",
+    "etapa": 1,
+    "lote": 3
   }
 ]

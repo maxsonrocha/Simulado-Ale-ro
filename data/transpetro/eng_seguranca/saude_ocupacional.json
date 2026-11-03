@@ -206,5 +206,29 @@
     "explanation": "Inicial=20/100=20%. Permanecem dez com sintoma entre 90: 10/90≈11,11%. O estado de cada remanescente não mudou; a queda se deve à seleção de quem saiu, não à recuperação. Dez por cento usa o denominador antigo, e os demais valores tratam incoerentemente composição ou estado.",
     "etapa": 1,
     "lote": 2
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0180",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "seguimento_medico_e_responsabilidade",
+    "difficulty": "alta",
+    "statement": "Uma organização terceirizou a execução de procedimentos do PCMSO. Para reduzir despesas, pretende cobrar dos empregados os exames do programa e considera que contratar o serviço dispensa garantir sua efetiva implantação. Qual correção se apoia na ficha da NR-07?",
+    "options": [
+      "Basta pagar a elaboração inicial, ainda que os procedimentos previstos não sejam realizados.",
+      "O empregado pode ser cobrado sempre que o exame tiver finalidade ocupacional.",
+      "A existência de prestador permite substituir o PCMSO pelo contrato comercial.",
+      "O empregador deve garantir elaboração e implantação efetiva e custear os procedimentos sem ônus ao empregado.",
+      "A terceirização transfere o custeio ao empregado e extingue a necessidade de implantação."
+    ],
+    "answer": 3,
+    "explanation": "A ficha da NR-07 atribui ao empregador garantir elaboração/implantação e custear os procedimentos relacionados ao PCMSO sem ônus ao empregado. O contrato não elimina essas responsabilidades.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
   }
 ]

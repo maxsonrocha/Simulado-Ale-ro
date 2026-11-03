@@ -1,0 +1,137 @@
+{
+  "branch": "feature/transpetro-banco-questoes-etapa-1-lote-3",
+  "baseCommit": "ddb8e7a",
+  "antes": 200,
+  "adicionadas": 100,
+  "depois": 300,
+  "arquivos": [
+    {
+      "arquivo": "data/transpetro/eng_seguranca/acidentes.json",
+      "antes": 14,
+      "adicionadas": 2,
+      "depois": 16
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/desenvolvimento_sustentavel.json",
+      "antes": 6,
+      "adicionadas": 0,
+      "depois": 6
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/emergencias.json",
+      "antes": 14,
+      "adicionadas": 1,
+      "depois": 15
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ergonomia.json",
+      "antes": 10,
+      "adicionadas": 1,
+      "depois": 11
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gerenciamento_riscos.json",
+      "antes": 12,
+      "adicionadas": 6,
+      "depois": 18
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gestao_sms.json",
+      "antes": 14,
+      "adicionadas": 4,
+      "depois": 18
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/higiene_ocupacional.json",
+      "antes": 16,
+      "adicionadas": 8,
+      "depois": 24
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/incendio.json",
+      "antes": 10,
+      "adicionadas": 1,
+      "depois": 11
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ingles.json",
+      "antes": 40,
+      "adicionadas": 20,
+      "depois": 60
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/legislacao_nr.json",
+      "antes": 0,
+      "adicionadas": 30,
+      "depois": 30
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/portugues.json",
+      "antes": 40,
+      "adicionadas": 20,
+      "depois": 60
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/prevencao_riscos.json",
+      "antes": 14,
+      "adicionadas": 6,
+      "depois": 20
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/saude_ocupacional.json",
+      "antes": 10,
+      "adicionadas": 1,
+      "depois": 11
+    }
+  ],
+  "areas": {
+    "ESP": 60,
+    "ING": 20,
+    "PORT": 20
+  },
+  "dificuldades": {
+    "alta": 45,
+    "muito_alta": 35,
+    "media": 20
+  },
+  "gabaritos": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20
+  },
+  "gruposNovos": 20,
+  "vinculadasNovas": 40,
+  "independentesNovas": 60,
+  "ids": {
+    "PORT": "0041–0060",
+    "ING": "0041–0060",
+    "ESP": "0121–0180"
+  },
+  "auditoria1": "APROVADA",
+  "auditoria2": "APROVADA EDITORIALMENTE",
+  "auditoria3": "APROVADA EDITORIALMENTE COM LIMITES EXPLÍCITOS",
+  "testesNode": 72,
+  "browserSuites": [
+    "transpetro-bank-ui.cjs",
+    "transpetro-ui.cjs",
+    "multiconcurso.cjs"
+  ],
+  "calculosAntigos": 56,
+  "segundasResolucoesNovas": 8,
+  "capacidadeCompletaInedita": 3,
+  "comparacoes": {
+    "novas_novas": 4950,
+    "novas_antigas": 20000,
+    "antigas_antigas": 19900
+  },
+  "substituicoesRascunho": 4,
+  "duplicatasFinaisEncontradas": 0,
+  "limites": [
+    "Sem embeddings independentes ou especialista humano; triagem lexical não prova originalidade semântica.",
+    "Dificuldade editorial sem calibração psicométrica.",
+    "Seis consultas de fontes externas, incluindo representação alternativa, recusadas pelo proxy com 403; corpus auditado usado como autorizado.",
+    "Etapa 1 integral permanece incompleta: 300/700; faltam 400."
+  ]
+}

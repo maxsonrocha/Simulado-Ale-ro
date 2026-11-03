@@ -1,0 +1,133 @@
+{
+  "checked": 8,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0156",
+      "segundaResolucao": {
+        "method": "Balanço molar em 1 m³, conversão g→mg, não reaplicação cega do fator pronto.",
+        "concentrations": [
+          60,
+          49
+        ],
+        "units": "mg/m³"
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0163",
+      "segundaResolucao": {
+        "roundTripSeconds": 0.4,
+        "closingSeconds": 0.2,
+        "rapid": true,
+        "riseMPa": 1
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0168",
+      "segundaResolucao": {
+        "sufficient": [
+          3,
+          5,
+          7,
+          11,
+          13,
+          15
+        ],
+        "minimal": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "A",
+            "C"
+          ]
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0169",
+      "segundaResolucao": {
+        "frontier": [
+          "P",
+          "Q"
+        ],
+        "method": "Comparação de todos os pares de vetores, sem soma ou pesos."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0144",
+      "segundaResolucao": {
+        "possible": [
+          1
+        ],
+        "method": "Conjunção das duas condições para revalidação, não duração ilimitada."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0145",
+      "segundaResolucao": {
+        "nr01Effective": true,
+        "newNr10Effective": false,
+        "reference": "2026-11-03T00:00:00.000Z"
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0147",
+      "segundaResolucao": {
+        "method": "Calendário de exemplo sem feriados, como explicitado; ramo morte não espera dia útil.",
+        "firstWorkingDay": "2026-11-09T00:00:00.000Z",
+        "death": "imediato"
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0174",
+      "segundaResolucao": {
+        "observedFraction": 0.8,
+        "observedPercent": 80,
+        "populationEstimate": "Não identificável por extrapolação simples da seleção dirigida."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    }
+  ],
+  "limitation": "Dois cálculos físicos e seis verificações quantitativas/discretas. Datas e PT usam apenas o corpus; parâmetros dos modelos físicos são fornecidos nos enunciados, não limites legais."
+}

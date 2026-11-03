@@ -1,1 +1,722 @@
-[]
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0121",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pgr_documentos_minimos",
+    "difficulty": "media",
+    "statement": "Uma unidade apresenta apenas uma relação de perigos e avaliações de risco como seu PGR. Considerando o conteúdo mínimo registrado na NR-01, que complemento documental é necessário?",
+    "options": [
+      "Plano de Ação com medidas de prevenção a introduzir, aprimorar ou manter.",
+      "Relatório financeiro que substitua as medidas de prevenção por custos anuais.",
+      "ASO de cada trabalhador em substituição à definição de ações preventivas.",
+      "Certificados de Aprovação dos EPI como único plano de intervenção.",
+      "Lista de presença da CIPA em substituição ao planejamento de medidas."
+    ],
+    "answer": 0,
+    "explanation": "O PGR deve conter, no mínimo, Inventário de Riscos Ocupacionais e Plano de Ação. Listar perigos e avaliações não substitui o planejamento das medidas.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0122",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "cipa_escopo",
+    "difficulty": "media",
+    "statement": "Uma apresentação institucional expande a sigla CIPA como comissão voltada apenas a acidentes, excluindo assédio de sua denominação. Qual ajuste corresponde à denominação vigente registrada no corpus?",
+    "options": [
+      "Comissão Interna de Prevenção de Acidentes e de Doenças Ocupacionais.",
+      "Comissão Interna de Prevenção de Acidentes e de Assédio.",
+      "Comissão Interna de Promoção da Saúde e de Combate ao Assédio.",
+      "Comissão Integrada de Prevenção de Acidentes e de Assédio.",
+      "Comissão Interna de Prevenção de Acidentes do Trabalho."
+    ],
+    "answer": 1,
+    "explanation": "A NR-05 utiliza Comissão Interna de Prevenção de Acidentes e de Assédio. A inclusão do assédio integra a denominação vigente.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0123",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "sesmt_criterios_de_dimensionamento",
+    "difficulty": "media",
+    "statement": "Para iniciar a verificação de enquadramento do SESMT de uma empresa, quais informações correspondem aos eixos indicados pela NR-04 na ficha local, sem calcular ainda qualquer dimensionamento?",
+    "options": [
+      "Volume anual produzido e número de atas de reuniões.",
+      "Idade média dos empregados e número de brigadistas voluntários.",
+      "Área construída e quantidade de contratos de exportação.",
+      "Faturamento líquido e quantidade de exames laboratoriais.",
+      "Número de empregados e natureza do risco da atividade econômica."
+    ],
+    "answer": 4,
+    "explanation": "A ficha da NR-04 vincula a contratação de profissionais ao número de empregados e à natureza do risco da atividade econômica. Não fornece tabelas para dimensionar.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0124",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr09_objeto_atual",
+    "difficulty": "media",
+    "statement": "Um termo de referência pretende avaliar e controlar exposições ocupacionais a agentes físicos, químicos e biológicos. Qual norma corresponde diretamente a esse objeto, conforme o corpus vigente?",
+    "options": [
+      "NR-05.",
+      "NR-09.",
+      "NR-11.",
+      "NR-26.",
+      "NR-04."
+    ],
+    "answer": 1,
+    "explanation": "Esse é o objeto atual da NR-09. A referência não autoriza reconstruir automaticamente o antigo PPRA como exigência vigente.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0125",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_responsabilidades_do_usuario",
+    "difficulty": "media",
+    "statement": "Um trabalhador percebe dano que torna seu EPI impróprio. Qual conduta corresponde à responsabilidade do usuário expressamente registrada na ficha da NR-06?",
+    "options": [
+      "Comunicar o dano à organização, observando as determinações de uso adequado.",
+      "Selecionar sozinho um substituto para todos os usuários da organização.",
+      "Alterar por conta própria o CA do produto para registrar a avaria.",
+      "Manter o uso como condição para que a organização reconheça o dano.",
+      "Transferir à CIPA a guarda cotidiana do equipamento que recebeu."
+    ],
+    "answer": 0,
+    "explanation": "A ficha atribui ao trabalhador comunicar extravio, dano ou alteração que torne o EPI impróprio. Não lhe atribui emitir CA ou selecionar sozinho o EPI de toda a organização.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0126",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pcmso_finalidade",
+    "difficulty": "media",
+    "statement": "Na revisão de um PCMSO, um gestor propõe defini-lo como instrumento de seleção dos candidatos com melhor desempenho físico. Qual orientação da NR-07 confronta diretamente essa proposta?",
+    "options": [
+      "O PCMSO é elaborado sem considerar riscos ocupacionais.",
+      "O PCMSO prescinde de efetiva implantação quando há seleção.",
+      "O PCMSO transfere ao candidato o custeio dos procedimentos.",
+      "O PCMSO substitui as avaliações de risco no PGR.",
+      "O PCMSO não deve ter caráter de seleção de pessoal."
+    ],
+    "answer": 4,
+    "explanation": "A NR-07 veda o caráter de seleção de pessoal e vincula o programa à saúde e aos riscos ocupacionais.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0127",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr10_vigencia_e_publicacao",
+    "difficulty": "alta",
+    "statement": "Em novembro de 2026, um consultor trata a publicação da Portaria MTE 737/2026 como prova de que a nova redação da NR-10 já substituiu a anterior. Segundo a trava temporal do corpus, como corrigir a conclusão?",
+    "options": [
+      "Considerar a NR-10 integralmente revogada durante toda a transição.",
+      "Distinguir publicação e vigência: a nova redação entra em vigor em 01/06/2027.",
+      "Aplicar a nova redação desde janeiro de 2026, antes mesmo da publicação.",
+      "Tratar as duas redações como alternativas livremente escolhidas pela empresa.",
+      "Manter a redação anterior mesmo depois de 01/06/2027, sem examinar a alteração."
+    ],
+    "answer": 1,
+    "explanation": "O corpus registra vigência da nova redação em 01/06/2027 e manutenção da anterior até 31/05/2027. Publicação não antecipa a vigência.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0128",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr12_ciclo_de_vida",
+    "difficulty": "alta",
+    "statement": "Uma compra de máquina importada é analisada como se a NR-12 só passasse a importar depois da primeira partida no Brasil. Qual revisão de abordagem é sustentada pela ficha local?",
+    "options": [
+      "Substituir a análise da máquina pela documentação clínica dos operadores.",
+      "Considerar que o país de origem afasta a abordagem de segurança da máquina.",
+      "Aplicar a análise apenas a ferramentas manuais, excluindo máquinas importadas.",
+      "Restringir a análise à utilização e deixar a importação fora da abordagem.",
+      "Incluir segurança na concepção, fabricação e importação, além da utilização."
+    ],
+    "answer": 4,
+    "explanation": "A ficha da NR-12 registra abordagem de segurança desde concepção/fabricação/importação, além da utilização. A primeira partida não é o único ponto de interesse.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0129",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr13_escopo_equipamentos",
+    "difficulty": "alta",
+    "statement": "Um cadastro excluiu tanques metálicos de armazenamento da triagem normativa porque a NR-13 foi associada apenas a caldeiras e vasos. Que encaminhamento respeita o escopo registrado, sem concluir enquadramento individual sem dados?",
+    "options": [
+      "Enquadrar todo recipiente metálico automaticamente, sem verificar aplicabilidade.",
+      "Substituir a triagem de equipamentos por verificação exclusiva da CIPA.",
+      "Usar apenas o setor econômico para excluir equipamentos do exame.",
+      "Manter a exclusão porque tanques não pertencem ao escopo em nenhuma hipótese.",
+      "Reincluir tanques metálicos e tubulações na triagem do campo da NR-13."
+    ],
+    "answer": 4,
+    "explanation": "O escopo registrado inclui caldeiras, vasos, tubulações e tanques metálicos de armazenamento. Isso impõe triagem adequada, não enquadramento automático de qualquer recipiente.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0130",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr20_transversalidade",
+    "difficulty": "alta",
+    "statement": "Uma indústria alimentícia armazena e utiliza inflamáveis. Seu gestor descarta a NR-20 por entender que ela se dirige exclusivamente ao setor petrolífero. Qual conclusão é fundamentada na ficha local?",
+    "options": [
+      "Todo estabelecimento alimentício está automaticamente excluído, mesmo usando inflamáveis.",
+      "A NR-20 somente se aplica quando existe uma plataforma de petróleo.",
+      "O setor, isoladamente, não afasta a NR-20; devem ser examinadas atividades, instalações e equipamentos.",
+      "A NR-20 só pode ser examinada em empresas cuja atividade principal seja extrair petróleo.",
+      "A presença de inflamável impõe a mesma classe e a mesma capacitação a qualquer instalação."
+    ],
+    "answer": 2,
+    "explanation": "A NR-20 é norma especial para inflamáveis e combustíveis, não condicionada a único setor. A ficha não permite presumir classificação ou capacitação uniforme.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0131",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr35_autorizacao",
+    "difficulty": "alta",
+    "statement": "Um trabalhador possui capacitação e foi considerado apto para trabalho em altura, mas a organização ainda não formalizou sua autorização. O supervisor entende que os dois primeiros registros bastam. Qual análise corresponde à ficha da NR-35?",
+    "options": [
+      "Falta a autorização formal da organização, considerando atividades, capacitação e aptidão.",
+      "A inscrição como empregado autoriza toda atividade em altura, sem delimitação.",
+      "A autorização pode ser substituída por concordância verbal do próprio trabalhador.",
+      "A aptidão clínica, sozinha, dispensa qualquer autorização da organização.",
+      "O certificado de curso transfere a autorização exclusivamente ao instrutor."
+    ],
+    "answer": 0,
+    "explanation": "A ficha exige trabalhador formalmente autorizado pela organização; capacitação e aptidão são componentes relevantes, não substitutos da formalização.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0132",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr35_atividade_nao_rotineira",
+    "difficulty": "alta",
+    "statement": "A equipe planeja uma intervenção em altura não rotineira. Propõe autorizá-la apenas por um procedimento usado em atividades rotineiras. Segundo a ficha local da NR-35, qual distinção deve ser observada?",
+    "options": [
+      "A não rotineira requer autorização prévia mediante PT; a rotina pode ter análise de risco no procedimento operacional.",
+      "A existência de procedimento dispensa autorização para qualquer trabalho em altura.",
+      "A PT é documento de aptidão clínica e substitui a avaliação da atividade.",
+      "Somente atividades rotineiras exigem PT prévia, nunca as não rotineiras.",
+      "Toda atividade não rotineira se torna rotineira ao receber um procedimento escrito."
+    ],
+    "answer": 0,
+    "explanation": "A ficha distingue a possibilidade de análise no procedimento para rotina da exigência de PT prévia para a não rotina.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0133",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr17_organizacao_e_cognicao",
+    "difficulty": "alta",
+    "statement": "Uma análise ergonômica limita condições de trabalho a cadeira e bancada. Na sala de controle há ritmo intenso, tarefas concorrentes e dificuldade de interpretar informações. O que a ficha da NR-17 exige considerar no recorte da análise?",
+    "options": [
+      "Organização, ritmo, conteúdo das tarefas e aspectos cognitivos, além de mobiliário.",
+      "Apenas conforto visual, excluindo conteúdo e meios técnicos das tarefas.",
+      "Somente as dimensões da bancada, pois a organização não integra condições de trabalho.",
+      "Somente o número de equipamentos, independentemente das tarefas e do ritmo.",
+      "Apenas exames médicos, pois dificuldades de interpretação são sempre doenças."
+    ],
+    "answer": 0,
+    "explanation": "A NR-17 contempla adaptação às características psicofisiológicas e elementos da organização, inclusive ritmo, conteúdo, meios e aspectos cognitivos.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0134",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr26_e_controles",
+    "difficulty": "alta",
+    "statement": "O escopo de um estudo foi dividido em comunicação de perigos e proteção física de máquinas. A equipe quer usar uma única NR como se esses objetos fossem idênticos. Qual pareamento de referências diretas evita a confusão?",
+    "options": [
+      "NR-04 para ambos, por tratar de todo projeto de equipamento.",
+      "NR-26 para sinalização/comunicação; NR-12 para segurança de máquinas.",
+      "NR-12 para sinalização/comunicação; NR-26 para segurança de máquinas.",
+      "NR-07 para comunicação e NR-05 para proteções físicas de máquinas.",
+      "NR-13 para comunicação e NR-30 para toda máquina terrestre."
+    ],
+    "answer": 1,
+    "explanation": "O corpus associa NR-26 à sinalização e comunicação de perigos e NR-12 à segurança em máquinas. Não se afirma exclusividade ou que sinalizar substitua proteger.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0135",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr11_operacao_de_materiais",
+    "difficulty": "alta",
+    "statement": "Uma auditoria separou o projeto de uma máquina das operações de transporte, armazenagem e manuseio de materiais. Para o segundo recorte, qual referência direta deve ser acrescida à análise, sem excluir outras NRs aplicáveis?",
+    "options": [
+      "NR-05.",
+      "NR-11.",
+      "NR-32 como única referência possível.",
+      "NR-07.",
+      "NR-17 como única referência possível."
+    ],
+    "answer": 1,
+    "explanation": "A NR-11 é a referência direta para transporte, movimentação, armazenagem e manuseio. Outras normas podem ser pertinentes conforme o cenário.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0136",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr32_delimitacao_de_campo",
+    "difficulty": "alta",
+    "statement": "Um complexo industrial possui ambulatório e unidades de processo. Uma proposta estende automaticamente todos os requisitos da NR-32 às unidades de processo apenas por pertencerem à mesma empresa. Qual revisão é apropriada?",
+    "options": [
+      "Ignorar a NR-32 no ambulatório porque a atividade principal da empresa é industrial.",
+      "Classificar todas as operações industriais como serviços de saúde por existir ambulatório.",
+      "Usar a NR-32 como substituta geral das normas de máquinas, eletricidade e inflamáveis.",
+      "Aplicar a NR-32 apenas a hospitais externos, excluindo qualquer serviço interno sem análise.",
+      "Examinar o campo de serviços de saúde no ambulatório, sem generalizá-lo automaticamente a todo o processo industrial."
+    ],
+    "answer": 4,
+    "explanation": "O corpus limita a NR-32 ao campo de serviços de saúde quando justificado. A atividade principal não autoriza exclusão automática nem extensão irrestrita.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0137",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "insalubridade_e_periculosidade",
+    "difficulty": "alta",
+    "statement": "Um parecer usa indistintamente insalubridade e periculosidade e copia o enquadramento de uma para a outra. Sem dados para enquadrar a atividade, qual orientação metodológica é sustentada no corpus?",
+    "options": [
+      "Aplicar a NR-16 como tabela universal de limites de tolerância de todos os agentes.",
+      "Presumir periculosidade sempre que houver qualquer avaliação de higiene ocupacional.",
+      "Tratar toda operação perigosa como automaticamente insalubre no mesmo grau.",
+      "Decidir ambos os enquadramentos pelo nome do cargo, sem examinar atividades.",
+      "Distinguir NR-15 e NR-16 e verificar o texto/anexo aplicável a cada enquadramento."
+    ],
+    "answer": 4,
+    "explanation": "NR-15 trata de insalubridade e NR-16 de periculosidade, com enquadramentos distintos e requisitos próprios. A ficha não fornece dados para declarar adicionais ou percentuais.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0138",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "interfaces_portuaria_aquaviaria",
+    "difficulty": "alta",
+    "statement": "Um estudo reúne uma operação portuária de movimentação no terminal e o trabalho aquaviário a bordo. Qual organização inicial das referências setoriais evita tratar as duas frentes como um único campo?",
+    "options": [
+      "NR-30 para o portuário e NR-29 para o aquaviário, por inversão dos títulos.",
+      "NR-37 para ambas, porque toda instalação próxima à água é plataforma.",
+      "NR-29 para o recorte portuário e NR-30 para o aquaviário, verificando as interfaces.",
+      "NR-18 para ambas, porque toda movimentação é atividade da construção.",
+      "NR-34 para ambas, porque toda operação com navio é construção naval."
+    ],
+    "answer": 2,
+    "explanation": "O corpus distingue trabalho portuário da NR-29 e aquaviário da NR-30. A associação não dispensa examinar interfaces e condições de aplicação.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0139",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "construcao_naval_e_plataformas",
+    "difficulty": "alta",
+    "statement": "Um portfólio contém reparação naval em estaleiro e operação de plataforma de petróleo. Qual associação setorial corresponde ao corpus, sem transferir automaticamente requisitos entre as atividades?",
+    "options": [
+      "NR-30 para ambas, porque qualquer estrutura marítima é embarcação.",
+      "NR-32 para estaleiro e NR-18 para toda plataforma em operação.",
+      "NR-34 para reparação naval e NR-37 para plataforma de petróleo.",
+      "NR-37 para reparação naval e NR-34 para plataforma de petróleo.",
+      "NR-29 para ambas, independentemente das atividades realizadas."
+    ],
+    "answer": 2,
+    "explanation": "A NR-34 cobre construção, reparação e desmonte naval; NR-37 corresponde a plataformas de petróleo. O campo precisa ser observado em cada frente.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0140",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "revogacao_e_atualizacao_documental",
+    "difficulty": "alta",
+    "statement": "Uma lista interna apresenta NR-02 e NR-27 como fundamentos vigentes e propõe apenas atualizar a data da capa. Qual medida enfrenta o erro normativo de maneira correta?",
+    "options": [
+      "Substituir todo o conteúdo das NRs vigentes pela antiga NR-02.",
+      "Escolher uma das duas para continuar vigente por decisão interna.",
+      "Manter os fundamentos porque alterar a data revalida normas revogadas.",
+      "Retirar a classificação de vigentes e rever os fundamentos das exigências afetadas, pois ambas estão revogadas.",
+      "Tratar a revogação como dispensa de todas as obrigações de SST da empresa."
+    ],
+    "answer": 3,
+    "explanation": "O corpus identifica NR-02 e NR-27 como revogadas. É necessário revisar a fundamentação, sem inferir que a revogação elimina todo o sistema de SST.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0141",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "integracao_pgr_pcmso_e_acoes",
+    "difficulty": "muito_alta",
+    "statement": "Após reconhecer um novo risco de processo, uma unidade atualizou a descrição e a avaliação no Inventário. O PCMSO continua baseado na classificação anterior, e o Plano de Ação não foi examinado. A gerência considera o ciclo concluído porque o perigo já consta de um documento. Qual revisão integra as proposições da NR-01 e da NR-07 registradas no corpus?",
+    "options": [
+      "Atualizar apenas o PCMSO, usando seus exames para substituir identificação e avaliação no Inventário.",
+      "Rever Plano de Ação e PCMSO em função dos riscos identificados e classificados.",
+      "Transferir a avaliação inteira para seleção de pessoal pelo PCMSO, dispensando medidas no processo.",
+      "Encerrar a revisão documental e deixar o Plano de Ação condicionado à ocorrência de doença comprovada.",
+      "Manter o PCMSO anterior e converter o Inventário em substituto do Plano de Ação, pois o risco já foi descrito."
+    ],
+    "answer": 1,
+    "explanation": "A identificação/avaliação alimenta a prevenção no Plano de Ação; o PCMSO considera os riscos do PGR. Atualizar um documento não resolve automaticamente as interfaces de prevenção e saúde.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0142",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "dispensa_pgr_e_registro_epi",
+    "difficulty": "muito_alta",
+    "statement": "Um MEI utiliza EPI em suas atividades. Sua consultoria reconhece a dispensa de elaborar PGR e conclui que, por consequência, é desnecessário registrar as atividades e os respectivos EPI. Qual decisão concilia as fichas da NR-01 e da NR-06?",
+    "options": [
+      "Substituir o registro das atividades pelo CA, que informa o processo de trabalho de cada empresa.",
+      "Transferir ao fornecedor do EPI a dispensa de PGR e a descrição das atividades do MEI.",
+      "Exigir PGR do MEI exclusivamente porque usa EPI, apesar da dispensa registrada.",
+      "Dispensar o registro de EPI, pois toda obrigação documental depende da existência de PGR.",
+      "Manter a dispensa de PGR e o registro de atividades e respectivos EPI."
+    ],
+    "answer": 4,
+    "explanation": "A dispensa de elaborar PGR do MEI não elimina a regra específica da NR-06 para registro de atividades e EPI das organizações dispensadas. CA qualifica o produto, não descreve suas atividades.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0143",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "selecao_epi_e_participacao",
+    "difficulty": "muito_alta",
+    "statement": "Uma empresa possui SESMT e CIPA. O setor de compras escolheu sozinho um EPI com CA e sustenta que o certificado dispensa ouvir usuários ou envolver os demais participantes. Qual encaminhamento distingue qualificação do produto e processo de seleção?",
+    "options": [
+      "Eliminar a participação dos usuários e substituir o SESMT por um exame médico individual como ato de seleção.",
+      "Delegar exclusivamente à CIPA a seleção, retirando a organização e o SESMT por haver certificado.",
+      "Transferir a seleção integral ao fornecedor, pois o CA já contém a opinião dos usuários daquela empresa.",
+      "Aceitar a escolha de compras como suficiente, pois o CA comprova adequação a qualquer atividade.",
+      "Selecionar pela organização, com SESMT, ouvidos usuários e CIPA; o CA não substitui esse processo."
+    ],
+    "answer": 4,
+    "explanation": "A ficha da NR-06 atribui seleção à organização, com participação do SESMT quando houver e ouvidos usuários/CIPA ou nomeado. CA qualifica o produto como EPI, não demonstra adequação universal nem substitui a participação.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0144",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pt_revalidacao_e_mudancas",
+    "difficulty": "muito_alta",
+    "statement": "Uma PT autoriza serviço não rotineiro em altura no turno da manhã. Para continuar à tarde, o responsável propõe revalidá-la. Compare: I — condições e equipe mantidas; II — equipe substituída, condições mantidas; III — equipe mantida, condições modificadas. Considerando somente os requisitos de revalidação da ficha NR-35, qual avaliação é correta?",
+    "options": [
+      "Todos atendem, pois uma PT não rotineira vale por prazo indeterminado após a emissão.",
+      "Nenhum atende, pois a ficha proíbe qualquer revalidação, mesmo sem mudanças.",
+      "Apenas I atende às condições registradas para admitir revalidação pelo responsável.",
+      "I e II atendem, porque a manutenção das condições torna irrelevante a troca de equipe.",
+      "I e III atendem, porque a equipe original permite revalidar apesar da mudança de condições."
+    ],
+    "answer": 2,
+    "explanation": "A PT é limitada à atividade e ao turno/jornada, mas admite revalidação pelo responsável sem mudança das condições ou da equipe. I preserva ambos; II altera a equipe; III altera condições. Não se declara dispensa de outras verificações.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0145",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "vigencias_simultaneas_nr01_nr10",
+    "difficulty": "muito_alta",
+    "statement": "Um controle documental com data-base 03/11/2026 contém duas linhas: “capítulo 1.5 da NR-01 dado pela Portaria 1.419/2024: ainda futuro”; “nova redação da NR-10 dada pela Portaria 737/2026: já vigente”. Qual correção conjunta corresponde às datas registradas no corpus?",
+    "options": [
+      "NR-01: vigente desde 26/05/2026; nova NR-10: vigência em 01/06/2027; anterior aplicável na data-base.",
+      "Ambas vigentes desde a publicação, pois datas de início de vigência não alteram a aplicação.",
+      "NR-01: em vigor; nova NR-10: em vigor, pois toda portaria publicada em 2026 já vale na data-base.",
+      "Ambas futuras até 01/06/2027, ficando sem requisitos aplicáveis até essa data.",
+      "NR-01: futura até 01/06/2027; nova NR-10: em vigor desde 26/05/2026."
+    ],
+    "answer": 0,
+    "explanation": "As datas são específicas: NR-01 já vigente desde maio de 2026; a nova NR-10 só passa a vigorar em junho de 2027. Até lá, aplica-se a redação anterior indicada pela ficha.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0146",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "esocial_finalidades_e_ausencia_de_afastamento",
+    "difficulty": "muito_alta",
+    "statement": "A equipe trata quatro registros distintos: acidente sem afastamento; ASO e exames complementares; afastamento temporário por situação própria; exposição a agentes nocivos. Qual classificação preserva as finalidades dos quatro eventos do edital e evita excluir o primeiro por não haver afastamento?",
+    "options": [
+      "S-2210; S-2240; S-2230; S-2220, respectivamente.",
+      "S-2210; S-2220; S-2230; S-2240, respectivamente.",
+      "S-2210 para os quatro, pois todos se relacionam de algum modo à SST.",
+      "S-2230; S-2220; S-2210; S-2240, respectivamente.",
+      "Nenhum evento no primeiro caso; S-2220; S-2230; S-2240 nos demais."
+    ],
+    "answer": 1,
+    "explanation": "O corpus registra CAT no S-2210 mesmo sem afastamento; monitoramento/ASO no S-2220; afastamento no S-2230; exposição no S-2240. Pertencer ao edital não torna os eventos intercambiáveis.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0147",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "esocial_prazo_e_documentacao",
+    "difficulty": "muito_alta",
+    "statement": "Uma empresa recebeu notícia de dois acidentes: um não fatal na sexta-feira e outro fatal no sábado. Considere expressamente que a segunda-feira seguinte é dia útil e não há feriados no intervalo. Um analista propõe enviar ambos na segunda porque S-2210 só seria devido com afastamento. Qual revisão aplica integralmente a ficha local?",
+    "options": [
+      "Ambos exigem envio somente depois do retorno ao trabalho, para confirmar o afastamento.",
+      "O não fatal deve aguardar o S-2230 e o fatal pode aguardar segunda.",
+      "O não fatal deve ser enviado até domingo, e o fatal apenas no primeiro dia útil após o enterro.",
+      "Não fatal: até segunda; fatal: de imediato. Sem afastamento também pode haver S-2210.",
+      "Ambos podem aguardar segunda, pois a regra do primeiro dia útil também vale para morte."
+    ],
+    "answer": 3,
+    "explanation": "A ficha registra primeiro dia útil seguinte à ocorrência e, em caso de morte, de imediato. Sexta-feira conduz a segunda no calendário dado; não é necessário haver afastamento para comunicar acidente.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0148",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "iluminamento_vibracoes_e_saude",
+    "difficulty": "muito_alta",
+    "statement": "Um plano reúne iluminamento interno, vibração de corpo inteiro e acompanhamento médico. A minuta destina a NHO 11 a exames clínicos, a NHO 09 a iluminamento e o PCMSO à medição de vibração. Qual redistribuição respeita o corpus e mantém a ligação com os riscos?",
+    "options": [
+      "NHO 11 para os três objetos, pois uma norma de medição substitui avaliação médica.",
+      "NHO 10 para corpo inteiro, NHO 11 para exames e PGR substituído pelos resultados clínicos.",
+      "PCMSO para as duas medições ambientais e NHO 09 para a seleção clínica de pessoal.",
+      "NHO 11 para iluminamento, NHO 09 para corpo inteiro e PCMSO considerando os riscos do PGR.",
+      "NHO 09 para iluminamento, NHO 11 para corpo inteiro e PCMSO sem relação com o PGR."
+    ],
+    "answer": 3,
+    "explanation": "As fichas Fundacentro e NR-17 associam NHO 11 a iluminamento; NHO 09 a corpo inteiro; NR-07 vincula PCMSO aos riscos do PGR. Métodos ambientais não substituem o programa médico.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0149",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr20_ead_limites_da_inferencia",
+    "difficulty": "muito_alta",
+    "statement": "Uma organização de dois setores econômicos utiliza inflamáveis e quer uma capacitação integralmente remota para todas as funções. A justificativa é: “a NR-20 só regula um setor e admitir EaD elimina qualquer condição adicional”. Qual decisão respeita as duas limitações da ficha?",
+    "options": [
+      "Proibir qualquer EaD sob a NR-20, dispensando verificar modalidades e condições.",
+      "Excluir o setor não petrolífero e liberar integralmente EaD no restante sem outra análise.",
+      "Examinar ambos os setores e verificar as condições de modalidade para cada capacitação.",
+      "Aplicar a NR-20 aos dois setores e considerar toda capacitação automaticamente autorizada a distância.",
+      "Exigir mudança da atividade econômica da empresa para que a NR-20 possa ser considerada."
+    ],
+    "answer": 2,
+    "explanation": "A NR-20 não se restringe a um setor; a admissão de EaD e semipresencial está sujeita a termos e condições. A ficha não autoriza dizer que toda capacitação pode ser integralmente remota.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0150",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "metodo_tecnico_e_enquadramento_legal",
+    "difficulty": "muito_alta",
+    "statement": "Um relatório mediu um agente segundo procedimento técnico e, sem indicar o anexo aplicável, declarou simultaneamente insalubridade e periculosidade com percentuais preenchidos por analogia. A equipe tem apenas as fichas gerais de NR-15, NR-16 e NHOs. Qual tratamento é tecnicamente e documentalmente defensável?",
+    "options": [
+      "Aceitar os percentuais porque a unidade de concentração foi corretamente calculada.",
+      "Preservar dados válidos e verificar as bases de NR-15/16 antes dos enquadramentos e percentuais.",
+      "Descartar os dados medidos porque um relatório sem enquadramento legal não contém informação técnica útil.",
+      "Escolher o maior percentual por prudência e dispensar a identificação do anexo.",
+      "Usar qualquer NHO como substituta integral dos critérios legais de ambos os enquadramentos."
+    ],
+    "answer": 1,
+    "explanation": "As fichas distinguem enquadramentos de NR-15/16 e vedam inventar limites, percentuais e exceções. Procedimento técnico não substitui automaticamente critério legal; dados válidos podem ser preservados enquanto a conclusão jurídica é verificada.",
+    "etapa": 1,
+    "lote": 3,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  }
+]
