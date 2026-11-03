@@ -1297,5 +1297,488 @@
       "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
       "references/transpetro/edital_004_2026.json"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0323",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "avaliar_exposicao_e_controlar",
+    "difficulty": "media",
+    "statement": "Uma organização apresenta campanha de medição como se ela, por existir, já demonstrasse controle das exposições. O relatório descreve concentrações, mas não informa qualquer atuação sobre o processo. Considerando o objeto da NR-09 e o papel auxiliar das NHOs registrado no corpus, qual conclusão é sustentada?",
+    "options": [
+      "Relatório de concentração é equivalente à execução de qualquer ação corretiva.",
+      "A validade do instrumento comprova automaticamente eficácia de toda prevenção.",
+      "Uma campanha dispensa examinar o que acontece no processo após o diagnóstico.",
+      "Medir uma exposição altera necessariamente o agente na fonte.",
+      "A avaliação fornece informação, mas sua existência não demonstra que medidas de controle tenham sido implementadas."
+    ],
+    "answer": 4,
+    "explanation": "A NR-09 reúne avaliação e controle; instrumentos técnicos auxiliam a caracterização, mas produzir informação não é executar uma intervenção.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0324",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "vinculo_entre_produto_e_documento_ca",
+    "difficulty": "media",
+    "statement": "Uma compra recebe produto identificado como Y, mas o documento de CA apresentado declara cobertura de X e não demonstra vínculo com Y. Sem presumir que X e Y sejam equivalentes, qual providência decorre da finalidade do CA registrada na NR-06?",
+    "options": [
+      "Tratar a origem nacional como dispensa da identificação de CA do produto.",
+      "Usar apenas a semelhança visual como demonstração de cobertura documental.",
+      "Alterar internamente o nome Y para X sem examinar o produto recebido.",
+      "Verificar a cobertura efetiva do produto fornecido antes de tomar o documento como sua comprovação.",
+      "Aceitar qualquer CA existente como prova de qualquer produto da mesma categoria comercial."
+    ],
+    "answer": 3,
+    "explanation": "O CA qualifica determinado produto. O cenário aponta lacuna de correspondência, não prova que todo produto semelhante esteja coberto. É necessário verificar o vínculo, sem inventar regra de famílias/modelos.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0325",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "escopo_da_autorizacao_funcional",
+    "difficulty": "media",
+    "statement": "O documento funcional autoriza um trabalhador para as atividades A indicadas nele. Ele será escalado para B, não contemplada no registro, embora tenha capacitação e aptidão consideradas para A. Segundo a ficha NR-35, qual revisão evita ampliar a autorização sem análise?",
+    "options": [
+      "Usar apenas tempo de serviço como substituto da análise das atividades.",
+      "Delegar ao trabalhador a ampliação unilateral do registro da organização.",
+      "Tratar qualquer autorização existente como autorização irrestrita para toda atividade futura.",
+      "Presumir que aptidão para A demonstra automaticamente toda condição necessária para B.",
+      "Verificar B e a autorização correspondente, pois o registro considera as atividades, além de capacitação e aptidão."
+    ],
+    "answer": 4,
+    "explanation": "A autorização registrada considera atividades, capacitação e aptidão. A existência do documento para A não demonstra seu alcance sobre B, sem examinar as condições pertinentes.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0326",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "escopo_do_edital_e_modulo_esocial",
+    "difficulty": "media",
+    "statement": "Um editor decide retirar S-2230 do material porque o Manual WEB Geral descreve três eventos no módulo SST. O edital estruturado cita quatro eventos, incluindo S-2230. Qual decisão respeita ambos os recortes?",
+    "options": [
+      "Manter S-2230 no programa e distingui-lo dos três eventos do módulo, sem mudar sua finalidade de afastamento temporário.",
+      "Rebatizar S-2230 como condições ambientais para incluí-lo artificialmente entre os três.",
+      "Excluir S-2230 do edital porque a classificação de módulo redefine automaticamente o programa.",
+      "Retirar também S-2210, pois programas de prova não podem incluir eventos de software.",
+      "Tratar os quatro eventos como nomes equivalentes da mesma informação."
+    ],
+    "answer": 0,
+    "explanation": "O recorte de um módulo não altera o universo explicitamente cobrado. S-2230 permanece com finalidade própria; não precisa ser confundido com CAT, saúde ou exposição para constar do estudo.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "references/transpetro/edital_004_2026.json"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0327",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "declaracao_e_evidencia_de_dispensa",
+    "difficulty": "alta",
+    "statement": "Uma EPP de grau de risco 2 apresentou declaração digital alegando ausência das exposições consideradas na hipótese de dispensa de PGR. O levantamento que ela própria anexou identifica exposição ocupacional a agente químico. Considerando apenas essas informações e a ficha NR-01, qual revisão procede?",
+    "options": [
+      "A declaração torna verdadeira a ausência de exposição independentemente dos dados anexados.",
+      "Há incompatibilidade com uma condição da hipótese de dispensa; a declaração não neutraliza o levantamento positivo.",
+      "A identificação do agente deve ser apagada para manter a declaração formal.",
+      "A mera presença de dois documentos demonstra atendimento cumulativo de todas as condições.",
+      "Grau de risco 2, isoladamente, compensa qualquer condição não atendida."
+    ],
+    "answer": 1,
+    "explanation": "A ficha exige condições cumulativas, incluindo a ausência indicada no levantamento e informações digitais. Um registro contraditório não é suprido pelo outro.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0328",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "participacao_na_selecao_nao_e_votacao",
+    "difficulty": "alta",
+    "statement": "Usuários preferem um EPI pela comodidade. A avaliação técnica do cenário informa que ele não protege contra um dos perigos presentes. A organização pretende adotá-lo para todos os usos porque a NR-06 manda ouvir os usuários. Qual decisão distingue participação e responsabilidade?",
+    "options": [
+      "O SESMT deve ignorar toda opinião dos usuários para preservar a responsabilidade da organização.",
+      "Ouvir os usuários integra a seleção, mas não transfere a eles a responsabilidade nem supre a proteção requerida no cenário.",
+      "A preferência majoritária transforma qualquer produto em proteção adequada para todos os perigos.",
+      "O resultado da consulta substitui a finalidade prevista do EPI e seu CA.",
+      "Ouvir usuários impede a organização de avaliar limitações técnicas do produto."
+    ],
+    "answer": 1,
+    "explanation": "A seleção cabe à organização com a participação registrada. Ouvir não equivale a delegar a decisão por votação nem a alterar a capacidade técnica do produto.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0329",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "rastreabilidade_bitemporal_de_avaliacoes",
+    "difficulty": "alta",
+    "statement": "Uma base contém avaliações datadas de 01/10/2026 e01/07/2027. Há duas redações da NR-10: uma aplicável até31/05/2027 e outra a partir de01/06/2027. A plataforma foi migrada em01/08/2027 e passou a anexar a redação nova a todos os registros anteriores. Para preservar o sentido histórico e permitir reavaliação atual, qual modelo de registro é adequado?",
+    "options": [
+      "Usar a data de migração como se fosse a data de realização de cada avaliação.",
+      "Manter apenas a redação antiga para todos os registros, inclusive avaliações de julho de2027.",
+      "Reclassificar todas as conclusões antigas como produzidas pela redação nova, mantendo as datas originais.",
+      "Vincular cada conclusão histórica à redação aplicável na sua data e registrar separadamente eventual reavaliação posterior.",
+      "Apagar a data da avaliação e manter só a data de publicação da redação mais recente."
+    ],
+    "answer": 3,
+    "explanation": "A regra temporal fornece duas janelas de aplicação. Migrar não muda a base da avaliação histórica. Uma avaliação posterior pode ter nova data/base sem falsear a anterior; isso distingue vigência normativa, data da avaliação e data da migração.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0330",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "tipagem_de_evidencias_no_ciclo_de_maquinas",
+    "difficulty": "alta",
+    "statement": "O plano interno de auditoria de uma máquina requer evidência para três fases: concepção, fabricação e uso. As fichas da NR-12 incluem essas fases no alcance. Há três documentos: D1 verifica desenhos e tolerâncias antes da fabricação; D2 registra ensaio da unidade fabricada, sem tratar do uso; D3 avalia a operação na instalação. O sistema aceitaria qualquer documento com a palavra segurança como cobertura das três fases. Qual correção do critério evita essa equivalência indevida?",
+    "options": [
+      "Classificar a proposição demonstrada por cada documento e verificar cobertura D1/concepção, D2/fabricação e D3/uso.",
+      "Aceitar a palavra segurança como substituta do vínculo entre evidência e fase.",
+      "Atribuir D2 ao uso porque fabricar e operar são sempre o mesmo evento.",
+      "Contar três cópias de D1 como três fases cobertas, sem examinar sua finalidade.",
+      "Atribuir D3 às três fases porque foi emitido mais recentemente."
+    ],
+    "answer": 0,
+    "explanation": "O requisito de cobertura é interno e explícito; o corpus confirma alcance ao longo do ciclo. Quantidade, data ou palavra-chave não tornam documentos provas intercambiáveis. D1,D2,D3 fornecem proposições diferentes nas hipóteses dadas.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0331",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "equipamento_e_identidade_no_prontuario",
+    "difficulty": "alta",
+    "statement": "Uma empresa conserva dados sob apelidos de equipamentos. O vaso V1 mudou de setor e recebeu apelido V2; o antigo V2 foi retirado. A ficha da NR-13 confirma o campo de equipamentos, mas a auditoria pretende juntar históricos só porque os apelidos coincidem. Qual critério de integração preserva a análise do equipamento real?",
+    "options": [
+      "Vincular registros por identidade física demonstrada e vigência do apelido, sem fundir equipamentos distintos por nome reutilizado.",
+      "Escolher sempre o documento mais recente e atribuí-lo a todos os equipamentos.",
+      "Unir todo registro com V2, mesmo anterior à mudança, porque apelidos identificam universalmente o mesmo objeto.",
+      "Apagar todo histórico anterior à transferência, pois mudar de setor cria fisicamente outro vaso.",
+      "Concluir que o equipamento deixou de ser vaso por ter recebido outro código."
+    ],
+    "answer": 0,
+    "explanation": "A ficha não fornece regras documentais finas; o problema é rastreabilidade de identidade na análise técnica. Apelidos reutilizados não provam mesmo objeto, e mudança de setor não apaga identidade física ou histórico.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0332",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "matriz_de_criterios_e_compatibilidade_de_fontes",
+    "difficulty": "alta",
+    "statement": "Um dossiê tem três colunas independentes: resultado de medição, critério técnico interno e conclusão legal de insalubridade. O critério interno é deliberadamente mais conservador para decisão preventiva; a equipe quer renomear toda ultrapassagem interna como enquadramento legal pela NR-15. Qual organização mantém as inferências distintas?",
+    "options": [
+      "Eliminar a coluna interna porque somente uma conclusão legal pode justificar prevenção.",
+      "Afirmar ausência de risco sempre que não houver enquadramento legal demonstrado.",
+      "Suspender toda prevenção até existir conclusão legal positiva.",
+      "Transformar o critério interno em limite legal para evitar resultados diferentes nas colunas.",
+      "Separar a decisão preventiva interna e o enquadramento legal, cada qual com seu critério."
+    ],
+    "answer": 4,
+    "explanation": "O corpus distingue o critério legal da NR-15 de avaliações técnicas auxiliares. Um limiar interno pode motivar prevenção sem provar enquadramento legal; ausência desse enquadramento tampouco prova ausência de risco. Não se fornece limite legal não registrado.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0333",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "medidas_ergonomicas_e_restricao_conjunta",
+    "difficulty": "alta",
+    "statement": "Uma AET identifica dois índices internos de carga, estática8 e dinâmica6, e exige ambos≤3 após intervenção. O modelo interno admite multiplicar os fatores residuais de medidas combinadas. X custa2 e tem fatores(0,25;1); Y custa2 e tem(1;0,5); Z custa3 e tem(0,5;0,5). O orçamento é4. Sem atribuir esses índices à NR-17, qual pacote atende simultaneamente ao orçamento e aos dois alvos?",
+    "options": [
+      "X+Z, com custo5 e índices finais1 e3.",
+      "Y, com custo2 e índices finais8 e3.",
+      "X+Y, com custo4 e índices finais2 e3.",
+      "Z, com custo3 e índices finais4 e3.",
+      "X, com custo2 e índices finais2 e6."
+    ],
+    "answer": 2,
+    "explanation": "A NR-17 admite medidas técnicas, organizacionais e/ou administrativas baseadas na avaliação. Neste modelo interno, X+Y custa4 e produz8×0,25×1=2 e6×1×0,5=3. Z e medidas isoladas falham em um índice; X+Z ultrapassa o orçamento. Não são limites legais.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0334",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "fronteira_entre_obras_e_manutencao_no_cadastro",
+    "difficulty": "alta",
+    "statement": "Um cadastro interno usa o rótulo manutenção para todos os contratos, inclusive um cuja descrição factual é execução de obra de construção. A ficha da NR-18 informa seu campo na indústria da construção. A triagem automática exclui o contrato da análise da NR-18 somente pelo rótulo. Qual revisão do classificador é necessária?",
+    "options": [
+      "Excluir todo contrato de manutenção, mesmo quando sua descrição inclua obra de construção.",
+      "Manter a exclusão, pois o nome do contrato altera automaticamente a atividade executada.",
+      "Concluir atendimento integral à NR-18 só pela descrição obra, sem análise de requisitos.",
+      "Considerar o conteúdo efetivo da atividade e registrar a triagem, em vez de usar apenas o nome genérico do contrato.",
+      "Trocar o rótulo e declarar encerrada toda avaliação técnica e normativa."
+    ],
+    "answer": 3,
+    "explanation": "O problema é uma falha de classificação por metadado genérico. O campo da NR-18 exige examinar a atividade real; isso torna a análise pertinente, não prova atendimento a todos os requisitos. A ficha de escopo não autoriza detalhar obrigações ausentes.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0335",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "capacitacao_e_identificacao_da_modalidade",
+    "difficulty": "alta",
+    "statement": "Dois registros de capacitação para trabalho com inflamáveis têm o mesmo título abreviado, mas um identifica edição e conteúdo; o outro apenas um comprovante de acesso a plataforma. A proposta é agregá-los como evidências equivalentes porque a NR-20 admite modalidades a distância sob condições. Qual validação é necessária antes da agregação?",
+    "options": [
+      "Transformar tempo de conexão em autorização geral para qualquer atividade.",
+      "Usar o título abreviado como prova suficiente de conteúdo e conclusão.",
+      "Conferir conteúdo comprovado, conclusão e condições aplicáveis antes de agregar os registros.",
+      "Contar qualquer acesso como curso completo porque existe previsão de EaD.",
+      "Excluir toda modalidade a distância sem examinar as condições admitidas."
+    ],
+    "answer": 2,
+    "explanation": "A previsão condicionada de modalidade não torna o comprovante de acesso prova de conteúdo, conclusão ou adequação. O foco é validade da agregação de evidências heterogêneas, não inventar duração ou requisito curricular.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0336",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "autorizacao_e_designacao_com_restricoes",
+    "difficulty": "muito_alta",
+    "statement": "Três frentes simultâneas de altura, A,B,C, exigem internamente duas pessoas distintas em cada uma. Todos os seis estão capacitados e aptos. As autorizações formais por atividade são: P1 apenasA; P2 A/B; P3 B/C; P4 apenasC; P5 apenasA; P6 nenhuma. Antes do serviço pode ser formalizada exatamente uma nova autorização de P6 para uma frente, após verificar os requisitos pertinentes. Qual proposta é suficiente e mostra uma distribuição sem acumulação?",
+    "options": [
+      "Autorizar P6 para A: A recebe P1/P6, B recebe P2/P3, C recebe P4/P5.",
+      "Autorizar P6 para B: A recebe P1/P5, B recebe P2/P6, C recebe P4/P6.",
+      "Autorizar P6 para B: A recebe P1/P5, B recebe P2/P6, C recebe P3/P4.",
+      "Não autorizar P6: A recebe P1/P5, B recebe P2/P3, C recebe P3/P4.",
+      "Autorizar P6 para A: A recebe P5/P6, B recebe P1/P2, C recebe P3/P4."
+    ],
+    "answer": 2,
+    "explanation": "A proposta com P6 em B fornece duas pessoas autorizadas por frente e usa cada uma uma só vez. As demais usam pessoa sem autorização para a frente ou acumulam uma pessoa. Capacitação e aptidão não substituem o registro formal considerado na NR-35.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0337",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "dependencias_documentais_de_riscos",
+    "difficulty": "muito_alta",
+    "statement": "Um sistema interno usa esta regra expressa: quando muda a classificação de risco do inventário, recalcular a prioridade do plano e reexaminar a matriz médica baseada nos riscos. A NR-01 relaciona inventário e plano; a NR-07 vincula PCMSO aos riscos identificados e classificados. Após reclassificar um risco, três versões são propostas: X atualiza só inventário; Y atualiza inventário e prioridade, mantendo a matriz médica sem reexame; Z atualiza inventário, prioridade e registra reexame médico, que conclui justificadamente pela manutenção da matriz. Qual pacote cumpre o fluxo descrito sem presumir que toda revisão exige alteração?",
+    "options": [
+      "Nenhum, pois reexaminar obriga necessariamente a modificar a matriz médica.",
+      "Somente X, pois mudar inventário dispensa verificar qualquer dependência.",
+      "X e Y, pois a estabilidade numérica da matriz prova que houve revisão.",
+      "Somente Z, pois a manutenção após reexame é diferente de omitir o reexame.",
+      "Somente Y, pois um resultado médico igual dispensa até verificar sua adequação."
+    ],
+    "answer": 3,
+    "explanation": "Pelo fluxo interno, ambos os dependentes devem ser reexaminados. Z registra esse exame e pode manter o resultado com fundamento; revisão não implica mudança obrigatória. A base normativa fornece a vinculação de riscos, não esse algoritmo interno.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0338",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "capacitacao_inicial_e_disponibilidade",
+    "difficulty": "muito_alta",
+    "statement": "Seis novos trabalhadores precisam concluir individualmente oito horas de capacitação inicial antes do trabalho em altura. Não há aproveitamento anterior. O centro dispõe de um instrutor, uma turma por dia com capacidade interna de três pessoas. P1/P2 só podem treinar no dia1; P3/P4 só no dia2; P5 no dia1 ou2; P6 só no dia3. P1 a P5 começam o serviço no dia3; P6 no dia4. Qual programação atende a disponibilidade e a antecedência, com mínimo de jornadas de instrutor?",
+    "options": [
+      "Duas jornadas: dia1 P1/P2 e dia3 P3/P4/P5/P6, oito horas por turma.",
+      "Uma jornada de oito horas no dia2 para seis pessoas, usando duas salas com o mesmo instrutor.",
+      "Três jornadas: dia1 P1/P2/P5, dia2 P3/P4 e dia3 P6, sempre oito horas por turma.",
+      "Duas jornadas: dia1 P1/P2/P5 e dia2 P3/P4/P6, oito horas por turma.",
+      "Três jornadas de quatro horas, somadas como doze horas para cada trabalhador."
+    ],
+    "answer": 2,
+    "explanation": "As restrições exclusivas de P1/P2, P3/P4 e P6 obrigam sessões nos três dias. P5 cabe com os dois do dia1, sem exceder três. Cada participante conclui oito horas antes do próprio serviço. Capacidade de turma e disponibilidades são dados internos, não números atribuídos à NR.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0339",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "coexistencia_de_fatos_e_eventos",
+    "difficulty": "muito_alta",
+    "statement": "Um acidente sem afastamento foi comunicado. Dias depois há afastamento temporário e, em outra avaliação, são produzidas informações médicas e ambientais. Uma rotina interna deduplica tudo por pessoa e mês, guardando somente o último documento. Sem discutir campos ou prazos não fornecidos, qual arquitetura de registro preserva as finalidades dos eventos do edital?",
+    "options": [
+      "Substituir a comunicação de acidente pelo afastamento, pois o último fato torna o primeiro inexistente.",
+      "Distinguir os fatos por sua natureza e relações, permitindo coexistirem comunicação acidentária, afastamento, monitoramento de saúde e exposição.",
+      "Conservar apenas um documento por pessoa e mês, usando a data mais recente como prova de completude.",
+      "Substituir os registros médicos pela avaliação ambiental, pois ambos são necessariamente a mesma informação.",
+      "Eliminar o afastamento porque ele não é um dos três eventos do módulo SST, mesmo integrando o edital."
+    ],
+    "answer": 1,
+    "explanation": "Os eventos têm finalidades distintas. Deduplicar por pessoa/mês pode apagar fatos não duplicados. Afastamento posterior não apaga o acidente, saúde não se confunde com exposição e S-2230 permanece no universo do edital. Não são especificadas chaves reais do leiaute.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "references/transpetro/edital_004_2026.json"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0340",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "interfaces_normativas_e_precedencias",
+    "difficulty": "muito_alta",
+    "statement": "Uma obra tem três análises internas: A, NR-18/construção, dura4 dias; B, NR-12/máquina importada, dura7; C, NR-33/espaço confinado, dura5 e só pode começar após A fornecer a configuração final. Há dois analistas, cada análise ocupa um deles integralmente, sem preempção. A e B estão disponíveis no dia0. A liberação exige concluir as três até o dia10. Qual cronograma mínimo e folga atendem ao fluxo, sem tratar uma norma como substituta das outras?",
+    "options": [
+      "A termina em4 e substitui B e C; término4, folga6 dias.",
+      "A e B iniciam em0; C inicia em0 também; término7, folga3 dias.",
+      "A,B,C devem ser todas seriadas; término16, sem alternativa paralela.",
+      "B e C iniciam em0 e A termina depois; término7, ignorando a dependência de C.",
+      "A e B iniciam em0; C segue A de4 a9; término9, folga1 dia."
+    ],
+    "answer": 4,
+    "explanation": "A cadeia A→C dura9 e fornece limite inferior. A e B paralelas ocupam os dois analistas; após4, o de A executa C até9, enquanto B termina7. Portanto9 é alcançável e mínimo; folga10−9=1. As dependências e recursos são internos, com campos normativos confirmados nas fichas.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0341",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "custeio_pcmso_e_proposta_elegivel",
+    "difficulty": "muito_alta",
+    "statement": "Para custear150 procedimentos necessários do PCMSO, três propostas tecnicamente equivalentes no conteúdo têm preços e capacidades internos: X cobra implantação R$6mil mais R$80 por procedimento, mas atende no máximo100; Y cobra R$3mil mais R$110, capacidade200; Z cobra R$5mil mais R$90, capacidade200. Exige-se um único prestador, sem fracionamento. Há R$18mil disponíveis, e os procedimentos não podem ser reduzidos. Qual contratação de menor custo admissível e recomposição, respeitando custeio sem ônus aos empregados?",
+    "options": [
+      "X para100 e Z para50, tratando como atendido o requisito de prestador único.",
+      "Z por R$18,5mil; cobrar R$0,5mil dos empregados.",
+      "Z por R$18,5mil; recompor R$0,5mil pela organização.",
+      "Y por R$19,5mil; recompor R$1,5mil, ignorando alternativa admissível menor.",
+      "X por R$18mil; não recompor, pois é o menor preço calculado."
+    ],
+    "answer": 2,
+    "explanation": "X daria6+150×0,080=18mil, mas viola capacidade100. Y custa3+16,5=19,5; Z5+13,5=18,5, menor admissível. Déficit0,5mil cabe à organização; a NR-07 atribui o custeio sem ônus ao empregado. Não se presume equivalência clínica além da hipótese expressa.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0342",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "selecoes_de_epi_com_restricoes_conjuntas",
+    "difficulty": "muito_alta",
+    "statement": "A organização seleciona EPIs com SESMT, usuários e CIPA. O cenário exige proteger simultaneamente os perigos X e Y; ensaios internos já válidos identificaram: conjunto A cobre X e Y, mas suas peças interferem entre si e o ensaio combinado reprova; B cobre ambos e passa combinado, com desconforto que pode ser reduzido por ajuste; C é confortável, mas só cobre X. Nenhum dado adicional é presumido. Qual encaminhamento respeita proteção conjunta e participação?",
+    "options": [
+      "Escolher A, pois a aprovação isolada de cada peça substitui o resultado do ensaio combinado.",
+      "Avaliar o ajuste de B com os usuários, preservando a proteção conjunta requerida.",
+      "Excluir B definitivamente porque qualquer desconforto torna impossível avaliar ajuste.",
+      "Declarar A e C equivalentes a B porque todos contêm ao menos uma peça aprovada.",
+      "Escolher C, pois a consulta aos usuários pode dispensar proteção contra Y."
+    ],
+    "answer": 1,
+    "explanation": "A seleção participativa não elimina os requisitos de proteção. A soma de desempenhos isolados falha para A porque há incompatibilidade demonstrada; C não cobre Y. B permite investigar ajuste e adequação final, sem presumir aprovação automática.",
+    "etapa": 1,
+    "lote": 6,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
   }
 ]

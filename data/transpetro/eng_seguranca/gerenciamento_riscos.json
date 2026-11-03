@@ -721,5 +721,320 @@
     "explanation": "Sem informação, prevenir custa12 contra perda esperada20. Com informação gratuita, previne-se só no estado perigoso:0,2×12=2,4. Valor12−2,4=9,6; preço8 dá10,4, ainda abaixo de12. São custos do exercício, não critério normativo.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0360",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "probabilidade_condicional_e_marginal",
+    "difficulty": "media",
+    "statement": "Em uma análise, P(falha da barreira dado incêndio)=0,10. Um analista registra que a probabilidade anual de incêndio é 0,10, usando apenas esse dado. Qual é o erro?",
+    "options": [
+      "Considerar que uma probabilidade condicional sempre vale zero.",
+      "Confundir 10% com 0,10, que representam probabilidades diferentes.",
+      "Confundir falha condicionada ao incêndio com ocorrência do próprio incêndio.",
+      "Supor que todo incêndio necessariamente causa falha da barreira.",
+      "Deixar de somar 1 à probabilidade condicional para obter a anual."
+    ],
+    "answer": 2,
+    "explanation": "A condicional informa resposta da barreira quando já há incêndio; não fornece frequência ou probabilidade do evento condicionante. A marginal precisa de informação própria.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0361",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "grafo_causal_e_colisor",
+    "difficulty": "media",
+    "statement": "Duas causas independentes A e B podem levar a alarme S. A análise seleciona somente registros com S. Nesse subconjunto aparece associação entre A e B. Qual precaução é adequada?",
+    "options": [
+      "Declarar impossível qualquer associação após selecionar um efeito comum.",
+      "Não tratar automaticamente a associação induzida pela seleção como causalidade entre A e B.",
+      "Eliminar S da descrição sem examinar como os registros foram selecionados.",
+      "Concluir que B causa A porque as causas eram independentes antes da seleção.",
+      "Concluir que A causa B, pois qualquer associação em alarmes prova direção causal."
+    ],
+    "answer": 1,
+    "explanation": "Selecionar um efeito comum pode induzir dependência entre suas causas no subconjunto. O mecanismo de seleção precisa entrar na interpretação; associação selecionada não estabelece direção causal.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0362",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "conjunto_de_cenarios_e_completude",
+    "difficulty": "media",
+    "statement": "Um modelo lista quatro cenários e suas probabilidades somam 0,80. O autor afirma que são exclusivos e exaustivos. Sem outras informações, qual providência é necessária?",
+    "options": [
+      "Normalizar automaticamente por 0,80 e afirmar que a lista original era exaustiva.",
+      "Concluir que todos os cenários têm a mesma probabilidade.",
+      "Acrescentar 0,20 ao cenário mais grave sem justificar sua origem.",
+      "Investigar a lacuna ou a inconsistência antes de usar a lista como partição completa.",
+      "Tratar 0,80 como certeza porque há quatro cenários."
+    ],
+    "answer": 3,
+    "explanation": "Uma partição probabilística completa soma1. O valor0,80 exige investigar cenários omitidos, bases ou estimativas; normalizar altera o modelo e não prova completude.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0363",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "teste_de_barreira_com_condicoes_diferentes",
+    "difficulty": "alta",
+    "statement": "Uma barreira foi ensaiada com sucesso em baixo diferencial de pressão. O cenário crítico usa diferencial elevado e o mecanismo de acionamento depende dessa força. Qual conclusão é tecnicamente sustentada?",
+    "options": [
+      "Um ensaio bem-sucedido elimina a necessidade de identificar a função da barreira.",
+      "A existência de relatório transforma a condição testada na condição real.",
+      "O sucesso em uma condição prova desempenho invariável em qualquer diferencial.",
+      "Quanto maior o diferencial, melhor será necessariamente todo mecanismo de acionamento.",
+      "O ensaio suporta a condição testada; a transferência ao cenário crítico exige avaliar a dependência com pressão."
+    ],
+    "answer": 4,
+    "explanation": "A pressão influencia fisicamente a força de atuação. A validade externa do ensaio depende de representar ou justificar a condição de demanda, não de sua aprovação formal isolada.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0364",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "frequencia_em_dois_modos",
+    "difficulty": "alta",
+    "statement": "Uma instalação passa 20% do ano no modo A, com frequência condicional de cenário 0,10 por ano de permanência nesse modo, e 80% no modo B, com 0,01 por ano de permanência. Assuma taxas constantes. Qual frequência anual média ponderada?",
+    "options": [
+      "0,028 por ano.",
+      "0,002 por ano.",
+      "0,110 por ano.",
+      "0,082 por ano.",
+      "0,055 por ano."
+    ],
+    "answer": 0,
+    "explanation": "0,20×0,10+0,80×0,01=0,028 por ano. As taxas se referem a tempo de permanência em cada modo, e não a dois anos completos sobrepostos.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0365",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "decisao_lexicografica_com_admissibilidade",
+    "difficulty": "alta",
+    "statement": "Um projeto admite custo≤6. Entre admissíveis, minimiza primeiro pior perda, depois custo e, persistindo empate, horas de indisponibilidade. Propostas (pior perda;custo;horas): A(100;5;4), B(100;5;2), C(95;8;6), D(110;2;1). Qual escolha aplica as prioridades na ordem definida?",
+    "options": [
+      "D, pois seu menor custo substitui a prioridade da pior perda.",
+      "B, após excluir C e desempatar A/B pelas horas.",
+      "C, pois a menor pior perda dispensa atender o orçamento.",
+      "A e B continuam empatadas, porque o terceiro critério não pode ser usado.",
+      "A, pois ser listado primeiro é o desempate após igual custo."
+    ],
+    "answer": 1,
+    "explanation": "C é inadmissível. Entre A,B,D, a menor pior perda100 restringe a A/B; custos5 empatam e as horas2 de B vencem4 de A. Não há soma ponderada nem prioridade implícita.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0366",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "riscos_competitivos_e_primeiro_evento",
+    "difficulty": "alta",
+    "statement": "Dois mecanismos concorrentes encerram uma missão no primeiro evento. O modelo declara taxas constantes λA=0,02 h⁻¹ e λB=0,03 h⁻¹; a probabilidade de A ser o primeiro é λA/(λA+λB). Qual probabilidade e qual erro ocorre ao interpretar 0,02 como 2% para qualquer duração?",
+    "options": [
+      "2%; a unidade por hora não altera a interpretação.",
+      "60%; o mecanismo A recebe a fração de λB.",
+      "50%; dois mecanismos implicam causas equiprováveis.",
+      "5%; somar taxas já fornece a probabilidade de A ser primeiro.",
+      "40%; 0,02 h⁻¹ é taxa, não probabilidade de primeira causa."
+    ],
+    "answer": 4,
+    "explanation": "A fração é0,02/0,05=0,4. Taxa tem dimensão inversa de tempo; a probabilidade de qual mecanismo vence a competição não é obtida chamando a taxa de porcentagem.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0367",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arvore_de_eventos_com_tempo_de_missao",
+    "difficulty": "alta",
+    "statement": "Uma demanda ocorre no início de missão de duas horas. Para este exercício, a barreira só protege se permanecer operante até o fim e sua sobrevivência é exp(−λt), com λ=0,1 h⁻¹ e exp(−0,2)=0,819. Qual probabilidade de missão não protegida por essa barreira?",
+    "options": [
+      "0,200 exatamente.",
+      "0,819.",
+      "0,100.",
+      "0,019.",
+      "0,181."
+    ],
+    "answer": 4,
+    "explanation": "A probabilidade de não sobreviver às duas horas é1−0,819=0,181. A taxa por hora não é diretamente probabilidade e a aproximação λt não é o valor exato do modelo.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0368",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "tentativas_de_acao_e_prazo_de_protecao",
+    "difficulty": "alta",
+    "statement": "Uma proteção executa a primeira tentativa em1s, com sucesso0,8. Se falhar, faz uma segunda tentativa que termina em5s desde a demanda, com sucesso condicional0,5. Não há terceira tentativa. O dano só é evitado se houver sucesso até3s. Quais probabilidades de sucesso eventual e de evitar o dano pelo prazo, respectivamente?",
+    "options": [
+      "0,40 e0,40.",
+      "0,90 e0,90.",
+      "0,80 e0,90.",
+      "0,90 e0,80.",
+      "0,50 e0,80."
+    ],
+    "answer": 3,
+    "explanation": "Sucesso eventual=0,8+0,2×0,5=0,9. O segundo sucesso chega após3s, logo só a primeira tentativa evita o dano:0,8. Sucesso funcional tardio não equivale à proteção no prazo.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0369",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "decisao_com_informacao_imperfeita",
+    "difficulty": "muito_alta",
+    "statement": "Uma intervenção custa 10 e elimina uma perda de 100 se houver defeito. A priori P(defeito)=0,10. Um exame de custo 1 tem sensibilidade 0,8 e falso positivo 0,1. A política proposta é intervir só se positivo. Em comparação à menor perda esperada sem exame, quanto se economiza por item, incluindo exame e danos residuais?",
+    "options": [
+      "8,3 unidades.",
+      "3,3 unidades.",
+      "0,0 unidade.",
+      "7,3 unidades.",
+      "5,3 unidades."
+    ],
+    "answer": 4,
+    "explanation": "Sem exame, intervir custa10 e não intervir perde0,1×100=10. Com exame, positivos0,1×0,8+0,9×0,1=0,17 custam1,7; falsos negativos0,1×0,2 geram2 de perda; exame1. Total4,7 e economia5,3.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0370",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "corte_minimo_com_causa_compartilhada",
+    "difficulty": "muito_alta",
+    "statement": "Um sistema falha quando A e B falham, ou quando B e C falham: T=(A∩B)∪(B∩C). A, B e C são independentes, com probabilidades 0,1; 0,2; 0,3. Qual P(T), preservando a interseção comum?",
+    "options": [
+      "0,080.",
+      "0,074.",
+      "0,060.",
+      "0,0148.",
+      "0,006."
+    ],
+    "answer": 1,
+    "explanation": "Fatora-se B∩(A∪C):0,2×(0,1+0,3−0,1×0,3)=0,074. Somar os dois cortes sem descontar ABC produz0,08 e dupla contagem.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0371",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "evolucao_de_degradacao_e_primeira_falha",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo tem estados G íntegro, D degradado e F falho absorvente. A cada ciclo: de G passa a G com0,8 ou D com0,2; de D passa a G com0,5, D com0,4 ou F com0,1. Inicia em G. Uma regra interna exige P(F)≤0,05 até o fim da missão de três ciclos. Qual cálculo após dois e três ciclos e conclusão?",
+    "options": [
+      "0,020 e0,052; não atende.",
+      "0,020 e0,044; atende à regra no horizonte dado.",
+      "0,040 e0,060; basta multiplicar0,02 pelo número do ciclo.",
+      "0,020 e0,024; a massa já em F deve ser descartada a cada ciclo.",
+      "0,100 e0,100; não é preciso propagar os estados."
+    ],
+    "answer": 1,
+    "explanation": "Após1:(G,D,F)=(0,8;0,2;0). Após2:(0,74;0,24;0,02). Após3, F=0,02+0,24×0,1=0,044. O estado falho conserva a massa acumulada; a comparação0,044≤0,05 atende apenas ao modelo e horizonte internos.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0372",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "risco_com_condicionante_ambiental",
+    "difficulty": "muito_alta",
+    "statement": "Em 10% dos dias há condição severa e, nesse estado, duas barreiras falham independentemente com probabilidade 0,2 cada. Nos demais dias, falham independentemente com 0,01 cada. A condição diária é compartilhada. Qual probabilidade conjunta de falha das duas e por que não usar o produto das marginais?",
+    "options": [
+      "0,004; dias não severos nunca contribuem.",
+      "0,00409; o estado comum torna inadequada a independência marginal.",
+      "0,029; a marginal de uma barreira já é a conjunta.",
+      "0,0401; basta somar produtos sem ponderar o estado.",
+      "0,000841; a independência em cada estado implica independência marginal."
+    ],
+    "answer": 1,
+    "explanation": "P(dupla)=0,1×0,2²+0,9×0,01²=0,00409. Cada marginal é0,029, cujo produto0,000841 ignora a dependência induzida pela condição compartilhada.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0373",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "decisao_por_restricao_de_cauda",
+    "difficulty": "muito_alta",
+    "statement": "Uma regra interna exige P(perda≥100)≤0,02; entre opções admissíveis, escolhe menor perda esperada. X tem perda0 com0,97 e100 com0,03. Y tem perda10 com0,99 e100 com0,01. Z tem perda5 com0,98 e100 com0,02. Qual opção é escolhida?",
+    "options": [
+      "Z, pois atende à restrição e tem esperança 6,9, menor que 10,9 de Y.",
+      "Z, pois a igualdade a 0,02 reprova Y e aprova somente Z.",
+      "X e Z, pois probabilidades de 0,03 e 0,02 são equivalentes.",
+      "X, pois sua esperança 3 é a menor, independentemente da restrição.",
+      "Y, pois a menor probabilidade de cauda sempre substitui o critério de desempate dado."
+    ],
+    "answer": 0,
+    "explanation": "X viola0,02. Y eZ são admissíveis; E(Y)=0,99×10+0,01×100=10,9 e E(Z)=0,98×5+0,02×100=6,9. A regra admite igualdade ao limite.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0374",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "sensibilidade_e_inversao_de_preferencia",
+    "difficulty": "muito_alta",
+    "statement": "As perdas esperadas residuais são RX=2+8p e RY=5−2p, com 0≤p≤1 representando um estado incerto. O valor plausível de p está entre 0,2 e 0,4; menor perda é melhor. Qual conclusão é robusta sobre a preferência?",
+    "options": [
+      "Não há opção dominante no intervalo; a preferência muda em p=0,3.",
+      "Y é melhor em todo o intervalo porque é melhor em p=1.",
+      "As opções empatam para todo p entre 0,2 e 0,4.",
+      "X é melhor em todo o intervalo porque é melhor em p=0.",
+      "A preferência muda em p=0,5, fora do intervalo relevante."
+    ],
+    "answer": 0,
+    "explanation": "2+8p=5−2p dá10p=3, p=0,3. Em0,2:RX3,6<RY4,6; em0,4:RX5,2>RY4,2. A incerteza cruza a mudança de preferência.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

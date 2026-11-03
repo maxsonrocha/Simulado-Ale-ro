@@ -63,7 +63,7 @@ test('bancos reais carregam isoladamente; banco vazio continua tratado por fixtu
   assert.equal(files.length, 13);
   for (const { path: file } of files) assert(Array.isArray(JSON.parse(fs.readFileSync(path.join(root, file)))));
   r.App.questionsBank = pool('ESP', 80, { concurso: 'ALERO' });
-  await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 500);
+  await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 600);
   assert(r.App.questionsBank.every(q => q.concurso === 'TRANSPETRO' && q.cargo === 'ENG_SEG'));
   r.context.fetch = async () => ({ ok: true, json: async () => [] });
   await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 0);

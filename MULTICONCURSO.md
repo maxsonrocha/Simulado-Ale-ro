@@ -34,13 +34,14 @@ erros, tempo e situação. As estratégias de avaliação/resumo são configurá
 ## Bancos e assuntos da Transpetro
 
 Os 13 arquivos em `data/transpetro/eng_seguranca/` contêm um **lote parcial de
-500 questões da Etapa 1** (100 PORT, 100 ING, 300 ESP), em cinco lotes de 100.
-Legislação/NRs possui 54 questões fundamentadas no corpus local auditado.
-A meta de 700 não foi concluída: faltam 200. Relatórios: [lote 1](docs/transpetro-etapa-1-relatorio.md),
+600 questões da Etapa 1** (100 PORT, 100 ING, 400 ESP), em seis lotes de 100.
+Legislação/NRs possui 74 questões fundamentadas no corpus local auditado.
+A meta de 700 não foi concluída: faltam 100 ESP. Relatórios: [lote 1](docs/transpetro-etapa-1-relatorio.md),
 [lote 2](docs/transpetro-etapa-1-lote-2-relatorio.md),
 [lote 3](docs/transpetro-etapa-1-lote-3-relatorio.md)
 [lote 4](docs/transpetro-etapa-1-lote-4-relatorio.md)
-e [lote 5](docs/transpetro-etapa-1-lote-5-relatorio.md).
+[lote 5](docs/transpetro-etapa-1-lote-5-relatorio.md)
+e [lote 6](docs/transpetro-etapa-1-lote-6-relatorio.md).
 
 Arquivos:
 
@@ -65,7 +66,7 @@ não vazio para o assunto, sem inventar um programa de tópicos nesta etapa.
 O carregador aceita arrays e o envelope legado `{ "questions": [...] }`.
 ALERO continua aceitando `topic` e não precisa de novos campos de identidade.
 
-O lote já permite prova completa 10/10/50 e específico 50. Garante **seis**
+O lote já permite prova completa 10/10/50 e específico 50. Garante **oito**
 provas completas inteiramente inéditas por ciclo, não dez; faltam questões para
 a capacidade planejada. O botão de gerar permite configurar e iniciar.
 Banco vazio/insuficiente mantém a configuração visível e informa, por disciplina,
@@ -168,9 +169,11 @@ node scripts/audit-transpetro-lote3-engine.cjs
 node scripts/audit-transpetro-lote4-calculations.cjs
 node scripts/audit-transpetro-lote4-engine.cjs
 node scripts/audit-transpetro-lote5-calculations.cjs
+node scripts/audit-transpetro-lote6-calculations.cjs
 node scripts/audit-transpetro-lote5-engine.cjs
+node scripts/audit-transpetro-lote6-engine.cjs
 node scripts/audit-transpetro-similarity.cjs
-node --test tests/transpetro.cjs tests/transpetro-bank.cjs tests/transpetro-lote4.cjs tests/transpetro-lote5.cjs
+node --test tests/transpetro.cjs tests/transpetro-bank.cjs tests/transpetro-lote4.cjs tests/transpetro-lote5.cjs tests/transpetro-lote6.cjs
 # Com o servidor local e Playwright disponível:
 node tests/transpetro-bank-ui.cjs
 ```

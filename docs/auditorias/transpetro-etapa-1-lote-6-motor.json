@@ -1,0 +1,777 @@
+{
+  "passed": true,
+  "completeFreshExams": 8,
+  "runs": [
+    {
+      "seed": 1,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "exams": [
+        {
+          "prova": 1,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 2,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 3,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 4,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 5,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 6,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 7,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 8,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 50
+          }
+        },
+        {
+          "prova": 9,
+          "ineditas": {
+            "PORT": 10,
+            "ING": 10,
+            "ESP": 0
+          }
+        }
+      ]
+    }
+  ],
+  "reason": "400 específicas permitem oito completas inéditas, confirmadas em dez sementes com grupos íntegros. Na nona, ESP renova seu ciclo: 50 repetidas no histórico de vida, enquanto PORT/ING ainda usam 10 inéditas cada. Contagem de inéditas usa o conjunto global desta execução, não redefine repetidas como inéditas após renovar o ciclo."
+}

@@ -1,0 +1,72 @@
+{
+  "baseCommit": "538307c",
+  "branch": "feature/transpetro-banco-questoes-etapa-1-lote-6",
+  "antes": 500,
+  "adicionadas": 100,
+  "depois": 600,
+  "areas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 400
+  },
+  "dificuldadesNovas": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "gabaritosNovos": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20
+  },
+  "gruposNovos": 2,
+  "vinculadasNovas": 4,
+  "independentesNovas": 96,
+  "auditorias": {
+    "estrutura": "APROVADA",
+    "conteudo": "APROVADA NA REVISAO AUTORAL; auditoria humana independente pendente",
+    "global": "APROVADA NA REVISAO EDITORIAL DIRIGIDA E TESTES, COM LIMITES EXPLICITOS"
+  },
+  "paresLexicais": 179700,
+  "escopos": {
+    "novas_novas": 4950,
+    "novas_antigas": 50000,
+    "antigas_antigas": 124750
+  },
+  "alertasLexicais": [],
+  "revisoesIndividuais": 100,
+  "alternativasRevisadas": 500,
+  "substituicoesDeRascunho": 23,
+  "segundasResolucoesNovas": 65,
+  "regressoesQuantitativasAnteriores": 104,
+  "testesNode": {
+    "executados": 93,
+    "aprovados": 93,
+    "falhas": 0
+  },
+  "testesNavegador": [
+    "transpetro-bank-ui.cjs: PASS, JSONs reais600",
+    "transpetro-ui.cjs: PASS, fixtures em memória",
+    "multiconcurso.cjs: PASS, oito combinações ALERO e isolamento"
+  ],
+  "capacidadeIneditaConfirmada": 8,
+  "sementesTestadas": 10,
+  "gate700": "REPROVADO COMO ESPERADO (600/700)",
+  "limitacoes": [
+    "Fontes oficiais retornaram403; uso das proposições explícitas do corpus, sem acesso novo ao texto oficial.",
+    "Sem embeddings ou especialista externo; comparação lexical não prova originalidade semântica absoluta.",
+    "Dificuldade é avaliação editorial e precisa de calibração independente.",
+    "Resultados quantitativos pertencem aos modelos dos enunciados; não constituem laudo, projeto ou limite legal.",
+    "Publicação e PR serão tentadas após o commit; sem merge."
+  ],
+  "achadosCorrigidos": [
+    "Duas colisões de alternativas no normalizador:0307 e0321.",
+    "23 rascunhos integralmente substituídos por proximidade ou operação insuficiente.",
+    "0393: janela móvel explicitada para eliminar interpretação de janela fixa.",
+    "0316: correspondência textual do verificador corrigida; cálculo e gabarito corretos.",
+    "Novo teste: conversão explícita de array entre contextos VM.",
+    "Texto de sucesso do navegador atualizado de500 para600."
+  ]
+}

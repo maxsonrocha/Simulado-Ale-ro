@@ -143,5 +143,26 @@
     "explanation": "Ano1:100×1,1−15=95. Ano2:95×1,1−15=89,5. A regeneração diminui com o estoque neste modelo; a retirada excede a reposição. Parâmetros são dados do exercício, não taxas ecológicas universais.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0400",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "reciclagem_em_circuito_e_massa_virgem",
+    "difficulty": "muito_alta",
+    "statement": "Uma operação entrega100t de produto por ciclo. No fim de cada ciclo, recupera80% do produto; a reciclagem aproveita75% da massa recuperada, devolvida integralmente ao ciclo seguinte. Sem estoque externo e mantendo100t por ciclo, qual necessidade virgem no regime estabelecido e qual erro seria tratá-la como20t?",
+    "options": [
+      "40t; 20t considera só a coleta e ignora a perda no processamento da fração coletada.",
+      "5t; subtrair75% de80% fornece a perda global.",
+      "60t; a massa que retorna equivale à necessidade virgem.",
+      "25t; basta usar a perda percentual da reciclagem sobre o total produzido.",
+      "20t; toda massa coletada retorna necessariamente como produto."
+    ],
+    "answer": 0,
+    "explanation": "Retorno=100×0,80×0,75=60t; complemento virgem40t. As perdas são20t não recuperadas e20t no processamento das80t coletadas. Coleta e reciclagem são etapas distintas de um circuito, sem afirmar benefício ambiental universal.",
+    "etapa": 1,
+    "lote": 6
   }
 ]
