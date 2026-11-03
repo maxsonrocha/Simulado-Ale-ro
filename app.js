@@ -1,3 +1,16 @@
+const ASSUNTOS_ENG_SEG = {
+  "prevencao_riscos": "Prevenção e Controle de Riscos",
+  "gerenciamento_riscos": "Análise e Gerenciamento de Riscos",
+  "legislacao_nr": "Legislação e Normas Regulamentadoras",
+  "gestao_sms": "Gestão de Segurança, Meio Ambiente e Saúde",
+  "emergencias": "Emergências",
+  "incendio": "Proteção Contra Incêndio",
+  "acidentes": "Acidentes do Trabalho",
+  "higiene_ocupacional": "Higiene Ocupacional",
+  "saude_ocupacional": "Saúde Ocupacional",
+  "ergonomia": "Ergonomia"
+};
+
 // Configuração de cada concurso: bancos, formatos, avaliação e cronômetro.
 const CONCURSOS = {
   ALERO: {
@@ -15,14 +28,46 @@ const CONCURSOS = {
     },
     regras: { general: 0.30, esp: 0.40, total: 0.40 },
     avaliar: evaluateAlero,
+    resumo: renderModulesSummary,
+    situacao: result => result.passedAll ? "Status: OK ✅" : "Status: ELIMINADO ❌",
     tempo: { limiteMs: 4 * 60 * 60 * 1000, avisoMs: 15 * 60 * 1000 },
     regrasTexto: ["Módulo I (gerais): mínimo 12/40", "Módulo II (específico): mínimo 16/40", "Total: mínimo 32/80"]
   },
   TRANSPETRO: {
-    nome: "Transpetro 2026", banca: "Cesgranrio",
-    cargos: { ENG_SEG: { nome: "Engenharia de Segurança do Trabalho", banco: null } },
-    bancosComuns: [], areas: [], formatos: {}, regras: null, avaliar: null, tempo: null,
-    regrasTexto: [], mensagem: "Banco de questões da Transpetro em preparação."
+    nome: "Transpetro 2026", banca: "Fundação Cesgranrio",
+    cargos: {
+      ENG_SEG: {
+        nome: "Engenharia de Segurança do Trabalho",
+        assuntos: ASSUNTOS_ENG_SEG,
+        bancos: [
+          { path: "data/transpetro/eng_seguranca/portugues.json", area: "PORT" },
+          { path: "data/transpetro/eng_seguranca/ingles.json", area: "ING" },
+          ...Object.keys(ASSUNTOS_ENG_SEG).map(assunto => ({
+            path: `data/transpetro/eng_seguranca/${assunto}.json`, area: "ESP", assunto
+          }))
+        ]
+      }
+    },
+    bancosComuns: [], areas: ["PORT", "ING", "ESP"],
+    nomesAreas: { PORT: "Língua Portuguesa", ING: "Língua Inglesa", ESP: "Conhecimentos Específicos" },
+    validarIdentidade: true,
+    formatos: {
+      FULL: { nome: "Prova completa (70)", quantidades: { PORT: 10, ING: 10, ESP: 50 } },
+      ESP: { nome: "Conhecimentos Específicos (50)", quantidades: { ESP: 50 } },
+      ERRADAS: { nome: "Caderno de erradas" }
+    },
+    regras: { esp: 25, general: 10, minPort: 1, minIng: 1 },
+    avaliar: evaluateTranspetro,
+    resumo: renderTranspetroSummary,
+    situacao: result => `Situação: ${result.status}`,
+    tempo: { limiteMs: 270 * 60 * 1000, avisoMs: 15 * 60 * 1000 },
+    regrasTexto: [
+      "Prova completa: 10 de Português + 10 de Inglês + 50 Específicos; 1 ponto por questão (70 pontos).",
+      "Duração: 4h30; aviso nos 15 minutos finais.",
+      "Específicos: mínimo de 25/50. Gerais (Português + Inglês): mínimo de 10/20.",
+      "Não zerar Português nem Inglês. Todos os critérios devem ser atendidos.",
+      "Critérios de aprovação aplicáveis apenas à prova completa; específico e erradas são simulados parciais."
+    ]
   }
 };
 
@@ -40,6 +85,35 @@ function evaluateAlero(general, esp, total) {
   }
   module.passedAll = module.general.passed && module.esp.passed && module.total.passed;
   return module;
+}
+
+function evaluateTranspetro(general, esp, total, byArea = {}, context = { type: "FULL" }) {
+  const rules = CONCURSOS.TRANSPETRO.regras;
+  const port = byArea.PORT || { correct: 0, total: 0 };
+  const ing = byArea.ING || { correct: 0, total: 0 };
+  const basics = { correct: port.correct + ing.correct, total: port.total + ing.total };
+  const quantities = CONCURSOS.TRANSPETRO.formatos.FULL.quantidades;
+  const applicable = context.type === "FULL" && port.total === quantities.PORT && ing.total === quantities.ING && esp.total === quantities.ESP;
+  const criteria = applicable ? [
+    { passed: esp.correct >= rules.esp, reason: `Conhecimentos Específicos abaixo do mínimo de ${rules.esp} pontos.` },
+    { passed: basics.correct >= rules.general, reason: `Conhecimentos Gerais abaixo do mínimo de ${rules.general} pontos.` },
+    { passed: port.correct >= rules.minPort, reason: "Nota zero em Língua Portuguesa." },
+    { passed: ing.correct >= rules.minIng, reason: "Nota zero em Língua Inglesa." }
+  ] : [];
+  const reasons = criteria.filter(c => !c.passed).map(c => c.reason);
+  const passedAll = applicable ? reasons.length === 0 : null;
+  return {
+    port, ing, general: basics, esp, total, criteria, reasons, passedAll, applicable,
+    status: applicable ? (passedAll ? "APROVADO" : "REPROVADO") : "NÃO APLICÁVEL (simulado parcial)"
+  };
+}
+
+function subjectOf(q) { return q.assunto || q.topic || "—"; }
+function subjectName(subject) { return currentRole()?.assuntos?.[subject] || subject; }
+function areaName(area) { return currentContest().nomesAreas?.[area] || area; }
+function bankSources() {
+  return currentRole().bancos || [currentRole().banco, ...currentContest().bancosComuns]
+    .filter(Boolean).map(path => ({ path }));
 }
 
 // ===========================
@@ -99,6 +173,7 @@ function computeScore() {
   const letters = ["A", "B", "C", "D", "E"];
 
   const byArea = {};       // area -> { correct, total }
+  const bySubject = {};
   const byTopicEsp = {};   // topic -> { correct, total }
   const wrongDetails = []; // lista de erradas (pra relatório)
   const wrongIds = [];     // ids erradas (pra salvar)
@@ -136,7 +211,10 @@ function computeScore() {
       wrongDetails.push({
         id: q.id,
         area: q.area,
-        topic: q.topic || "—",
+        topic: subjectName(subjectOf(q)),
+        assunto: q.assunto,
+        groupId: q.groupId,
+        image: q.image,
         difficulty: q.difficulty ?? null,
         statement: q.statement,
         options: q.options,
@@ -148,9 +226,15 @@ function computeScore() {
       });
     }
 
+    const subject = subjectOf(q);
+    if (!bySubject[q.area]) bySubject[q.area] = {};
+    if (!bySubject[q.area][subject]) bySubject[q.area][subject] = { correct: 0, total: 0 };
+    bySubject[q.area][subject].total++;
+    if (isCorrect) bySubject[q.area][subject].correct++;
+
     // tópico do específico
     if (q.area === "ESP") {
-      const t = q.topic || "—";
+      const t = subjectName(subjectOf(q));
       if (!byTopicEsp[t]) byTopicEsp[t] = { correct: 0, total: 0 };
       byTopicEsp[t].total++;
       if (isCorrect) byTopicEsp[t].correct++;
@@ -160,12 +244,17 @@ function computeScore() {
   const module = currentContest().avaliar(
     { correct: modIGeneralCorrect, total: modIGeneralTotal },
     { correct: modIIEspCorrect, total: modIIEspTotal },
-    { correct, total }
+    { correct, total },
+    byArea,
+    { type: App.type }
   );
 
   return {
     total,
     correct,
+    errors: total - correct,
+    points: correct,
+    bySubject,
     percent: total ? Math.round((correct / total) * 100) : 0,
 
     byArea,
@@ -211,6 +300,14 @@ function saveResults(scoreObj) {
   const entry = {
     contest: App.contest,
     role: App.role,
+    mode: App.mode,
+    type: App.type,
+    errors: scoreObj.errors,
+    points: scoreObj.points,
+    status: scoreObj.module.status || (scoreObj.module.passedAll ? "OK" : "ELIMINADO"),
+    passed: scoreObj.module.passedAll,
+    reasons: scoreObj.module.reasons || [],
+    bySubject: scoreObj.bySubject,
     date: new Date().toISOString(),
     total: scoreObj.total,
     correct: scoreObj.correct,
@@ -237,6 +334,7 @@ function clearStorage() {
   localStorage.removeItem(App.historyKey);
   localStorage.removeItem(App.wrongKey);
   localStorage.removeItem(App.seenKey);
+  localStorage.removeItem(App.cycleKey);
 }
 
 function getWrongIdsSet() {
@@ -300,47 +398,51 @@ function timerReset() {
   $("timer").textContent = `?? 00:00:00`;
 }
 
-// ---------- Placeholder: carregar banco ----------
+// ---------- Carregar bancos configurados ----------
 async function loadQuestionsBank() {
-async function loadOne(path) {
-  const res = await fetch(path, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Falha ao carregar ${path} (${res.status})`);
-  const data = await res.json();
-  const arr = Array.isArray(data.questions) ? data.questions : [];
-
-  arr.forEach((q, i) => { q._ord = i; });
-
-  return arr;
-}
-  
-  if (!currentRole()?.banco || !currentContest().avaliar || !currentContest().tempo) {
-    throw new Error(currentContest().mensagem || "Configuração do concurso em preparação.");
-  }
-  const banks = await Promise.all([currentRole().banco, ...currentContest().bancosComuns].map(loadOne));
-  App.questionsBank = banks.flat();
-
-  // validação mínima
-  if (App.questionsBank.length === 0) {
-    throw new Error("Banco vazio: nenhum arquivo JSON tem questões.");
-  }
-
-  const problems = validateBank(App.questionsBank);
-  if (problems.length) {
-    console.error("Erros no banco:", problems);
-    alert("Foram encontrados erros no banco de questões:\n\n" + problems.join("\n"));
-    throw new Error("Banco inválido");
-  }
-
+  // Nunca conservar banco de uma seleção anterior após erro ou banco vazio.
+  App.questionsBank = [];
+  const sources = bankSources();
+  if (!sources.length) throw new Error("Bancos do concurso ainda não configurados.");
+  const banks = await Promise.all(sources.map(async source => {
+    const res = await fetch(source.path, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Falha ao carregar ${source.path} (${res.status})`);
+    const data = await res.json();
+    const questions = Array.isArray(data) ? data : data?.questions;
+    if (!Array.isArray(questions)) throw new Error(`Formato de banco inválido: ${source.path}`);
+    for (const q of questions) {
+      if (source.area && q.area !== source.area) throw new Error(`Área incompatível em ${source.path}`);
+      if (source.assunto && q.assunto !== source.assunto) throw new Error(`Assunto incompatível em ${source.path}`);
+    }
+    return questions;
+  }));
+  const bank = banks.flat();
+  bank.forEach((q, i) => { q._ord = i; });
+  const problems = validateBank(bank);
+  if (problems.length) throw new Error("Banco inválido:\n" + problems.join("\n"));
+  App.questionsBank = bank; // [] é válido; a suficiência depende do formato.
 }
 
 function validateQuestion(q, idx) {
   const errors = [];
 
-  if (!q.id) errors.push("sem id");
+  if (!q || typeof q !== "object") return `Questão ${idx}: objeto inválido`;
+  if (!q.id || typeof q.id !== "string") errors.push("sem id válido");
   if (!currentContest().areas.includes(q.area)) errors.push("area inválida");
-  if (!q.statement) errors.push("sem statement");
-  if (!Array.isArray(q.options) || q.options.length !== 5) errors.push("options deve ter 5 itens");
-  if (typeof q.answer !== "number" || q.answer < 0 || q.answer > 4) errors.push("answer fora de 0–4");
+  if (typeof q.statement !== "string" || !q.statement.trim()) errors.push("sem statement");
+  if (!Array.isArray(q.options) || q.options.length !== 5 || q.options.some(opt => typeof opt !== "string" || !opt.trim())) errors.push("options deve ter 5 itens");
+  if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 4) errors.push("answer fora de 0–4");
+
+  if (q.concurso && q.concurso !== App.contest) errors.push("concurso incompatível");
+  if (q.cargo && q.cargo !== App.role) errors.push("cargo incompatível");
+  if (currentContest().validarIdentidade) {
+    if (q.concurso !== App.contest) errors.push("concurso obrigatório");
+    if (q.cargo !== App.role) errors.push("cargo obrigatório");
+    if (typeof q.assunto !== "string" || !q.assunto.trim()) errors.push("assunto obrigatório");
+    if (q.area === "ESP" && !Object.hasOwn(currentRole().assuntos, q.assunto)) errors.push("assunto específico inválido");
+    if (typeof q.explanation !== "string") errors.push("explanation deve ser texto");
+  }
+  if (q.groupId != null && (typeof q.groupId !== "string" || !q.groupId)) errors.push("groupId inválido");
 
   return errors.length ? `Questão ${idx}: ${errors.join(", ")}` : null;
 }
@@ -350,8 +452,8 @@ function validateBank(questions) {
   const ids = new Set();
 
   questions.forEach((q, i) => {
-    if (ids.has(q.id)) msgs.push(`ID repetido: ${q.id}`);
-    else ids.add(q.id);
+    if (ids.has(q?.id)) msgs.push(`ID repetido: ${q?.id}`);
+    else ids.add(q?.id);
 
     const err = validateQuestion(q, i);
     if (err) msgs.push(err);
@@ -360,7 +462,7 @@ function validateBank(questions) {
   return msgs;
 }
 
-// ---------- Placeholder: gerar simulado ----------
+// ---------- Sorteio por blocos e ciclo de questões ----------
 function shuffle(arr) {
   return arr
     .map(v => ({ v, r: Math.random() }))
@@ -389,15 +491,16 @@ function groupToBlocks(list) {
       blocks.push([q]);
       continue;
     }
-    if (seenGroups.has(q.groupId)) continue;
+    const key = `${q.area}::${q.groupId}`;
+    if (seenGroups.has(key)) continue;
 
     const group = list
-      .filter(x => x.groupId === q.groupId)
+      .filter(x => x.groupId === q.groupId && x.area === q.area)
       .slice()
       .sort((a,b) => (a._ord ?? 0) - (b._ord ?? 0));
 
     blocks.push(group);
-    seenGroups.add(q.groupId);
+    seenGroups.add(key);
   }
 
   return blocks;
@@ -407,85 +510,109 @@ function wrapSingles(list) {
   return list.map(q => [q]);
 }
 
+function getCycleIds() {
+  // A primeira versão registrava vistas sem controlar ciclos. Usá-las na transição.
+  const ids = readJSON(App.cycleKey, readJSON(App.seenKey, []));
+  return new Set(Array.isArray(ids) ? ids : []);
+}
+
+function insufficientBank(area, available, required, grouped = false) {
+  const suffix = grouped ? " Não é possível completar a quantidade sem quebrar grupos vinculados." : "";
+  const deficit = `${areaName(area)}: disponíveis: ${available}; necessárias: ${required}.${suffix}`;
+  const error = new Error(`Banco de questões de ${currentContest().nome} ainda não possui questões suficientes para este simulado.\n${deficit}`);
+  error.deficit = deficit;
+  return error;
+}
+
+function pickAreaBlocks(pool, required, cycle) {
+  if (pool.length < required) throw insufficientBank(pool[0]?.area || "ESP", pool.length, required);
+  const blocks = shuffle(groupToBlocks(pool));
+  // Programação dinâmica: quantidade exata sem cortar grupos; maximiza inéditas.
+  // O embaralhamento existente desempata somente entre blocos inteiros.
+  const choices = Array(required + 1).fill(null);
+  choices[0] = { fresh: 0, blocks: [] };
+  for (const block of blocks) {
+    const size = block.length;
+    const fresh = block.filter(q => !cycle.has(q.id)).length;
+    for (let n = required; n >= size; n--) {
+      const prev = choices[n - size];
+      if (prev && (!choices[n] || prev.fresh + fresh > choices[n].fresh)) {
+        choices[n] = { fresh: prev.fresh + fresh, blocks: [...prev.blocks, block] };
+      }
+    }
+  }
+  if (!choices[required]) throw insufficientBank(pool[0]?.area || "ESP", pool.length, required, true);
+  return choices[required].blocks;
+}
+
+function wrongExamBlocks(bank) {
+  const wrong = getWrongIdsSet();
+  const candidates = shuffle(groupToBlocks(bank).filter(block => block.some(q => wrong.has(q.id))));
+  const limit = currentContest().formatos.ERRADAS.limite ?? bank.length;
+  const selected = [];
+  let count = 0;
+  for (const block of candidates) {
+    if (block.length > limit) throw insufficientBank(block[0].area, limit, block.length, true);
+    if (count + block.length > limit) continue;
+    selected.push(block); count += block.length;
+  }
+  return selected;
+}
+
 function generateExam() {
   const bank = Array.isArray(App.questionsBank) ? App.questionsBank : [];
-
-  const byArea = (area) => bank.filter(q => q.area === area);
-
-  const pick = (area, n) => {
-    const pool = shuffle(byArea(area));
-
-    const selected = [];
-    const usedGroups = new Set();
-
-    for (const q of pool) {
-      if (selected.length >= n) break;
-
-      // sem grupo: entra normal
-      if (!q.groupId) {
-        selected.push(q);
-        continue;
-      }
-
-      // com grupo: só entra se ainda não entrou e se couber inteiro
-      if (usedGroups.has(q.groupId)) continue;
-
-      const groupQs = byArea(area).filter(x => x.groupId === q.groupId);
-
-      // Ordena pra manter a "base" antes (PORT-106 antes do PORT-107)
-      groupQs.sort((a, b) => (a._ord ?? 0) - (b._ord ?? 0));
-
-      if (selected.length + groupQs.length <= n) {
-        selected.push(...groupQs);
-        usedGroups.add(q.groupId);
-      }
-    }
-
-    if (selected.length < n) {
-      // Aqui evita “silêncio”: se faltou, é porque muitos grupos não couberam ou banco pequeno
-      throw new Error(`Insuficiente em ${area}: conseguiu ${selected.length}, precisa ${n}`);
-    }
-
-    return selected;
-  };
-
-
-  // 1) Modo "só erradas"
-  if (App.type === "ERRADAS") {
-    const wrongIds = getWrongIdsSet();
-    const wrongQs = bank.filter(q => wrongIds.has(q.id));
-
-    if (wrongQs.length === 0) {
-      App.exam = [];
-    } else {
-      const target = Math.min(currentContest().formatos.ERRADAS.limite, wrongQs.length);
-      App.exam = shuffle(wrongQs).slice(0, target);
-    }
-
-    App.totalQuestions = App.exam.length;
-    App.answers.clear();
-    App.marked.clear();
-    App.currentIndex = 0;
-    setTopPills();
-    return; // IMPORTANTE: não continua
-  }
-
-  const format = currentContest().formatos[App.type];
-  if (!format?.quantidades) throw new Error("Tipo de simulado inválido.");
-  const selections = Object.entries(format.quantidades).map(([area, n]) => [area, pick(area, n)]);
-  if (App.type === "ESP") {
-    App.exam = selections[0][1];
-  } else {
-    const blocks = selections.flatMap(([area, questions]) =>
-      area === "PORT" ? groupToBlocks(questions) : wrapSingles(questions));
-    App.exam = shuffle(blocks).flat();
-  }
-
-  App.totalQuestions = App.exam.length;
-  App.answers.clear();
-  App.marked.clear();
-  App.currentIndex = 0;
+  // Limpa a tentativa anterior inclusive se este sorteio falhar.
+  App.exam = []; App.totalQuestions = 0; App.answers.clear(); App.marked.clear(); App.currentIndex = 0;
   setTopPills();
+  let blocks = [];
+  const cycle = getCycleIds();
+  if (App.type === "ERRADAS") {
+    blocks = wrongExamBlocks(bank);
+  } else {
+    const format = currentContest().formatos[App.type];
+    if (!format?.quantidades) throw new Error("Tipo de simulado inválido.");
+    const shortages = Object.entries(format.quantidades).filter(([area, n]) => bank.filter(q => q.area === area).length < n);
+    if (shortages.length) {
+      const errors = shortages.map(([area, n]) => insufficientBank(area, bank.filter(q => q.area === area).length, n));
+      throw new Error([errors[0].message, ...errors.slice(1).map(error => error.deficit)].join("\n"));
+    }
+    for (const [area, n] of Object.entries(format.quantidades)) {
+      const pool = bank.filter(q => q.area === area);
+      const applicable = groupToBlocks(pool).filter(block => block.length <= n).flat();
+      // Renovação só da área esgotada; histórico e vistas acumuladas não são apagados.
+      if (applicable.length && applicable.every(q => cycle.has(q.id))) pool.forEach(q => cycle.delete(q.id));
+      blocks.push(...pickAreaBlocks(pool, n, cycle));
+    }
+    blocks = shuffle(blocks);
+  }
+  const exam = blocks.flat();
+  if (!exam.length) return;
+  // Confirma o ciclo somente após conseguir gerar a prova inteira.
+  // Erradas são uma revisão deliberada e não avançam nem reiniciam o ciclo.
+  if (App.type !== "ERRADAS") {
+    exam.forEach(q => cycle.add(q.id));
+    writeJSON(App.cycleKey, Array.from(cycle));
+  } else if (localStorage.getItem(App.cycleKey) === null) {
+    writeJSON(App.cycleKey, Array.from(cycle));
+  }
+  writeJSON(App.seenKey, mergeUnique(readJSON(App.seenKey, []), exam.map(q => q.id)));
+  App.exam = exam; App.totalQuestions = exam.length;
+  setTopPills();
+}
+
+function fillGroupContext(container, q) {
+  container.replaceChildren();
+  const base = q.groupId ? groupToBlocks(App.questionsBank.filter(x => x.area === q.area && x.groupId === q.groupId))[0]?.[0] : null;
+  container.classList.toggle("hidden", !base || base.id === q.id);
+  if (!base || base.id === q.id) return;
+  const title = document.createElement("strong"); title.textContent = "Contexto da questão-base";
+  const text = document.createElement("p"); text.textContent = base.statement;
+  container.append(title, text);
+  if (base.image) {
+    const wrap = document.createElement("div"); wrap.className = "q-image";
+    const img = document.createElement("img"); img.src = `assets/${base.image}`.replace("assets/assets/", "assets/");
+    img.alt = "Imagem da questão-base"; wrap.appendChild(img); container.appendChild(wrap);
+  }
 }
 
 // ---------- UI: renderizar questão ----------
@@ -495,7 +622,8 @@ function renderQuestion() {
 
   $("examMeta").textContent = `Questão ${App.currentIndex + 1}/${App.totalQuestions}`;
   $("qTag").textContent = q.area || "—";
-  $("qTopic").textContent = q.topic || "—";
+  $("qTopic").textContent = subjectName(subjectOf(q));
+  fillGroupContext($("qContext"), q);
   $("qDiff").textContent = `Nível ${q.difficulty ?? "—"}`;
   $("qStatement").textContent = q.statement || "";
 
@@ -544,7 +672,10 @@ function renderQuestion() {
   });
 
   // feedback (reset)
-  if (App.mode === "PROVA") $("instantFeedback").classList.add("hidden");
+  $("instantFeedback").classList.add("hidden");
+  if (App.mode === "TREINO" && App.answers.has(q.id)) {
+    wrap.children[App.answers.get(q.id)].dispatchEvent(new Event("change"));
+  }
 }
 
 // ---------- Mapa ----------
@@ -620,6 +751,29 @@ function renderModulesSummary(score) {
   return wrap;
 }
 
+function renderTranspetroSummary(score) {
+  const wrap = document.createElement("div"); wrap.className = "kpis";
+  for (const [label, value] of [
+    ["Língua Portuguesa", score.module.port], ["Língua Inglesa", score.module.ing],
+    ["Conhecimentos Gerais (Português + Inglês)", score.module.general],
+    ["Conhecimentos Específicos", score.module.esp], ["Pontuação total", score.module.total]
+  ]) {
+    const kpi = document.createElement("div"); kpi.className = "kpi";
+    const title = document.createElement("div"); title.className = "t"; title.textContent = label;
+    const number = document.createElement("div"); number.className = "v";
+    number.textContent = `${value.correct}/${value.total} (${pct(value.correct, value.total)}%)`;
+    kpi.append(title, number); wrap.appendChild(kpi);
+  }
+  for (const reason of score.module.reasons) {
+    const text = document.createElement("p"); text.textContent = reason; wrap.appendChild(text);
+  }
+  if (!score.module.applicable) {
+    const text = document.createElement("p"); text.textContent = "Critérios oficiais de aprovação aplicáveis apenas à prova completa.";
+    wrap.appendChild(text);
+  }
+  return wrap;
+}
+
 function renderWrongOptionsBlock(w) {
   const letters = ["A","B","C","D","E"];
   const box = document.createElement("div");
@@ -649,6 +803,7 @@ function aggregateHistory() {
   const hist = readJSON(App.historyKey, []);
   const aggArea = {};
   const aggTopic = {};
+  const aggSubject = {};
 
   hist.forEach(h => {
     // por matéria
@@ -656,6 +811,15 @@ function aggregateHistory() {
       if (!aggArea[area]) aggArea[area] = { correct: 0, total: 0 };
       aggArea[area].correct += h.byArea[area].correct;
       aggArea[area].total += h.byArea[area].total;
+    }
+
+    for (const [area, subjects] of Object.entries(h.bySubject || {})) {
+      if (!aggSubject[area]) aggSubject[area] = {};
+      for (const [subject, counts] of Object.entries(subjects)) {
+        if (!aggSubject[area][subject]) aggSubject[area][subject] = { correct: 0, total: 0 };
+        aggSubject[area][subject].correct += counts.correct;
+        aggSubject[area][subject].total += counts.total;
+      }
     }
 
     // por tópico do específico
@@ -666,7 +830,7 @@ function aggregateHistory() {
     }
   });
 
-  return { aggArea, aggTopic };
+  return { aggArea, aggTopic, aggSubject };
 }
 
 function worstAndBestFromAgg(obj) {
@@ -694,16 +858,13 @@ function renderResult() {
   // topo
   $("resultMeta").textContent = `${selectionLabel()} • ${new Date().toLocaleString()}`;
   $("scoreLine").textContent = `Acertos: ${score.correct} / ${score.total} (${score.percent}%)`;
+  $("errorsLine").textContent = `Erros: ${score.errors} • Pontuação: ${score.points}/${score.total}`;
   $("timeLine").textContent = `Tempo: ${fmtTime(App.timer.elapsedMs)}`;
 
-  const m1 = score.module.general;
-  const m2 = score.module.esp;
-  const mt = score.module.total;
-
   const statusOk = score.module.passedAll;
-  $("statusLine").textContent = statusOk ? "Status: OK ✅" : "Status: ELIMINADO ❌";
+  $("statusLine").textContent = currentContest().situacao(score.module);
   $("statusLine").className = "pill";
-  $("statusLine").classList.add(statusOk ? "good" : "bad");
+  if (statusOk !== null) $("statusLine").classList.add(statusOk ? "good" : "bad");
 
   // inserir resumo por módulos logo abaixo do topo (no mesmo card do resultado)
   // (a forma mais simples: anexar no card do status)
@@ -711,7 +872,7 @@ function renderResult() {
   // remove resumo anterior (se existir)
   const old = statusCard.querySelector(".kpis");
   if (old) old.remove();
-  statusCard.appendChild(renderModulesSummary(score));
+  statusCard.appendChild(currentContest().resumo(score));
 
   // "piores/melhores" (por matéria e por tópico)
   const worstAreas = topNFromObject(score.byArea, 3, true);
@@ -741,7 +902,7 @@ function renderResult() {
     const p = pct(row.correct, row.total);
     const div = document.createElement("div");
     div.className = "row";
-    div.innerHTML = `<strong>${area}</strong><span>${row.correct}/${row.total} (${p}%)</span>`;
+    div.innerHTML = `<strong>${areaName(area)}</strong><span>${row.correct}/${row.total} (${p}%)</span>`;
     byAreaWrap.appendChild(div);
   });
 
@@ -784,6 +945,13 @@ function renderResult() {
         </div>
         <div class="exp">${w.explanation}</div>
       `;
+      const context = document.createElement("div"); context.className = "feedback";
+      fillGroupContext(context, w); div.prepend(context);
+      if (w.image) {
+        const imageWrap = document.createElement("div"); imageWrap.className = "q-image";
+        const image = document.createElement("img"); image.src = `assets/${w.image}`.replace("assets/assets/", "assets/");
+        image.alt = "Imagem da questão"; imageWrap.appendChild(image); div.appendChild(imageWrap);
+      }
       div.appendChild(renderWrongOptionsBlock(w));
       wrongWrap.appendChild(div);
     });
@@ -800,7 +968,7 @@ function renderResult() {
       const dt = new Date(h.date);
       const div = document.createElement("div");
       div.className = "row";
-      div.textContent = `${currentContest().nome} • ${currentRole().nome} • ${dt.toLocaleString()} • ${h.correct}/${h.total} (${h.percent}%) • Tempo: ${fmtTime(h.timeMs || 0)}`;
+      div.textContent = `${currentContest().nome} • ${currentRole().nome} • ${dt.toLocaleString()} • ${h.correct}/${h.total} (${h.percent}%) • Tempo: ${fmtTime(h.timeMs || 0)}${h.mode ? ` • ${h.mode} • ${h.type} • ${h.status}` : ""}`;
       historyWrap.appendChild(div);
     });
   }
@@ -839,6 +1007,7 @@ function setRoleStorageKeys() {
   App.historyKey = `${prefix}_history`;
   App.wrongKey = `${prefix}_wrong`;
   App.seenKey = `${prefix}_seen`;
+  App.cycleKey = `${prefix}_cycle`;
   migrateLegacyStorage();
 }
 
@@ -890,7 +1059,7 @@ function selectRole(role) {
   setRoleStorageKeys();
   $("selectionMeta").textContent = selectionLabel();
   document.title = `Simulados - ${selectionLabel()}`;
-  const ready = Boolean(currentRole().banco && currentContest().avaliar && currentContest().tempo);
+  const ready = Boolean(bankSources().length && currentContest().avaliar && currentContest().tempo);
   $("examSettings").classList.toggle("hidden", !ready);
   $("btnStart").disabled = !ready;
   $("bankNotice").textContent = ready ? "" : currentContest().mensagem;
@@ -915,7 +1084,7 @@ function changeContest() {
   App.contest = null; App.role = null;
   App.questionsBank = []; App.exam = []; App.answers.clear(); App.marked.clear();
   App.totalQuestions = 0; App.currentIndex = 0; App._lastScore = null;
-  App.historyKey = null; App.wrongKey = null; App.seenKey = null;
+  App.historyKey = null; App.wrongKey = null; App.seenKey = null; App.cycleKey = null;
   $("selectionMeta").textContent = "Escolha seu concurso";
   document.title = "Simulados";
   $("btnChangeContest").classList.add("hidden");
@@ -933,7 +1102,8 @@ function readConfig() {
 $("btnStart").addEventListener("click", async () => {
   try {
     readConfig();
-    if (!currentRole().banco) { alert(currentContest().mensagem); return; }
+    $("bankNotice").classList.add("hidden");
+
     $("btnStart").disabled = true;
     $("btnChangeRole").disabled = true;
     $("btnResetStorage").disabled = true;
@@ -942,7 +1112,7 @@ $("btnStart").addEventListener("click", async () => {
     generateExam();
 
     if (App.exam.length === 0) {
-      alert("Não há questões suficientes no banco para gerar este tipo de simulado.\nAdicione mais questões ou escolha outro modo.");
+      alert("Não há questões erradas disponíveis para este concurso e cargo. Disponíveis: 0.");
       return;
     }
 
@@ -952,9 +1122,10 @@ $("btnStart").addEventListener("click", async () => {
     buildMap();
     renderQuestion();
   } catch (err) {
-    alert(`Erro: ${err.message}`);
+    $("bankNotice").innerText = err.message;
+    $("bankNotice").classList.remove("hidden");
   } finally {
-    $("btnStart").disabled = !currentRole()?.banco;
+    $("btnStart").disabled = false;
     $("btnChangeRole").disabled = false;
     $("btnResetStorage").disabled = false;
     $("btnChangeContest").disabled = false;
