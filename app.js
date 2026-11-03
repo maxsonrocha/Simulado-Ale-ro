@@ -1,3 +1,47 @@
+// Configuração de cada concurso: bancos, formatos, avaliação e cronômetro.
+const CONCURSOS = {
+  ALERO: {
+    nome: "ALERO", banca: "FGV",
+    cargos: {
+      DES: { nome: "Desenhista", banco: "data/esp_desenhista.json", legado: ["DES", "DESENHISTA"] },
+      ARQ: { nome: "Arquiteto", banco: "data/esp_arquiteto.json", legado: ["ARQ", "ARQUITETO"] }
+    },
+    bancosComuns: ["data/hgr.json", "data/info.json", "data/leg.json", "data/port.json", "data/rlm.json"],
+    areas: ["ESP", "PORT", "RLM", "INFO", "LEG", "HGR"],
+    formatos: {
+      FULL: { nome: "Completo (80)", quantidades: { PORT: 12, RLM: 6, INFO: 6, LEG: 8, HGR: 8, ESP: 40 } },
+      ESP: { nome: "Específico (40)", quantidades: { ESP: 40 } },
+      ERRADAS: { nome: "Só erradas", limite: 80 }
+    },
+    regras: { general: 0.30, esp: 0.40, total: 0.40 },
+    avaliar: evaluateAlero,
+    tempo: { limiteMs: 4 * 60 * 60 * 1000, avisoMs: 15 * 60 * 1000 },
+    regrasTexto: ["Módulo I (gerais): mínimo 12/40", "Módulo II (específico): mínimo 16/40", "Total: mínimo 32/80"]
+  },
+  TRANSPETRO: {
+    nome: "Transpetro 2026", banca: "Cesgranrio",
+    cargos: { ENG_SEG: { nome: "Engenharia de Segurança do Trabalho", banco: null } },
+    bancosComuns: [], areas: [], formatos: {}, regras: null, avaliar: null, tempo: null,
+    regrasTexto: [], mensagem: "Banco de questões da Transpetro em preparação."
+  }
+};
+
+function currentContest() { return CONCURSOS[App.contest]; }
+function currentRole() { return currentContest()?.cargos[App.role]; }
+function selectionLabel() {
+  return `${currentContest().nome} • ${currentRole().nome} • ${currentContest().banca}`;
+}
+function evaluateAlero(general, esp, total) {
+  const rules = CONCURSOS.ALERO.regras;
+  const module = {};
+  for (const [key, value] of Object.entries({ general, esp, total })) {
+    const required = Math.ceil(value.total * rules[key]);
+    module[key] = { ...value, required, passed: value.correct >= required };
+  }
+  module.passedAll = module.general.passed && module.esp.passed && module.total.passed;
+  return module;
+}
+
 // ===========================
 //  LOGICA FINAL
 //  ATUALIZAR CONFORME MINHA NECESSIDADE
@@ -7,7 +51,8 @@
 const App = {
   mode: "PROVA",          // PROVA | TREINO
   type: "FULL",           // FULL(80) | ESP(40) | ERRADAS
-  role: "DES",            // DES | ARQ
+  contest: null,
+  role: null,
   totalQuestions: 0,
 
   questionsBank: [],      // vindo do questions.json
@@ -22,18 +67,13 @@ const App = {
     elapsedMs: 0,
     intervalId: null
   },
-
-  role: "DESENHISTA",          // ou "ARQUITETO" (valor padrão)
-  baseHistoryKey: "simulado_history_v1",
-  baseWrongKey: "simulado_wrong_ids_v1",
-  baseSeenKey: "simulado_seen_ids_v1",
 };
 
 // ---------- Helpers ----------
 const $ = (id) => document.getElementById(id);
 
 function showView(name) {
-  ["config", "exam", "result"].forEach(v => $(`view-${v}`).classList.add("hidden"));
+  ["contest", "role", "config", "exam", "result"].forEach(v => $(`view-${v}`).classList.add("hidden"));
   $(`view-${name}`).classList.remove("hidden");
 }
 
@@ -117,17 +157,11 @@ function computeScore() {
     }
   }
 
-  // ---- mínimos proporcionais (se banco ainda é pequeno) ----
-  // Base do edital: 12/40, 16/40, 32/80
-  // Se o simulado tiver menos questões, ajusta proporcionalmente.
-  const reqGeneral = Math.ceil(modIGeneralTotal * 0.30); // 30% do Módulo I
-  const reqEsp = Math.ceil(modIIEspTotal * 0.40);        // 40% do Módulo II
-  const reqTotal = Math.ceil(total * 0.40);              // 40% do total
-
-  const passedGeneral = modIGeneralCorrect >= reqGeneral;
-  const passedEsp = modIIEspCorrect >= reqEsp;
-  const passedTotal = correct >= reqTotal;
-  const passedAll = passedGeneral && passedEsp && passedTotal;
+  const module = currentContest().avaliar(
+    { correct: modIGeneralCorrect, total: modIGeneralTotal },
+    { correct: modIIEspCorrect, total: modIIEspTotal },
+    { correct, total }
+  );
 
   return {
     total,
@@ -137,12 +171,7 @@ function computeScore() {
     byArea,
     byTopicEsp,
 
-    module: {
-      general: { correct: modIGeneralCorrect, total: modIGeneralTotal, required: reqGeneral, passed: passedGeneral },
-      esp: { correct: modIIEspCorrect, total: modIIEspTotal, required: reqEsp, passed: passedEsp },
-      total: { correct, total, required: reqTotal, passed: passedTotal },
-      passedAll
-    },
+    module,
 
     wrongDetails,
     wrongIds
@@ -180,6 +209,8 @@ function saveResults(scoreObj) {
   const history = readJSON(App.historyKey, []);
 
   const entry = {
+    contest: App.contest,
+    role: App.role,
     date: new Date().toISOString(),
     total: scoreObj.total,
     correct: scoreObj.correct,
@@ -225,8 +256,7 @@ function removeFromWrongIds(idsToRemove) {
 
 // ---------- Timer ----------
 function timerStart() {
-  const MAX_TIME_MS = 4 * 60 * 60 * 1000;   // 4 horas
-  const WARN_REMAIN_MS = 15 * 60 * 1000;   // aviso faltando 15 minutos
+  const { limiteMs: MAX_TIME_MS, avisoMs: WARN_REMAIN_MS } = currentContest().tempo;
 
   App.timer.running = true;
   App.timer.startAt = Date.now();
@@ -240,7 +270,7 @@ function timerStart() {
     // aviso quando faltar 15 minutos
     if (remaining <= WARN_REMAIN_MS && remaining > 0 && !App.timer.warned) {
       App.timer.warned = true;
-      alert("⚠️ Atenção: faltam 15 minutos para o fim da prova. Revise suas respostas!");
+      alert(`⚠️ Atenção: faltam ${WARN_REMAIN_MS / 60000} minutos para o fim da prova. Revise suas respostas!`);
     }
 
     // (opcional) quando estourar o tempo máximo
@@ -266,6 +296,7 @@ function timerStop() {
 function timerReset() {
   timerStop();
   App.timer.elapsedMs = 0;
+  App.timer.warned = false;
   $("timer").textContent = `?? 00:00:00`;
 }
 
@@ -282,16 +313,11 @@ async function loadOne(path) {
   return arr;
 }
   
-  const espPath = (App.role === "ARQ") ? "data/esp_arquiteto.json" : "data/esp_desenhista.json";
-  const esp  = await loadOne(espPath);
-  const hgr  = await loadOne("data/hgr.json");
-  const info = await loadOne("data/info.json");
-  const leg  = await loadOne("data/leg.json");
-  const port = await loadOne("data/port.json");
-  const rlm  = await loadOne("data/rlm.json");
-
-  // junta tudo
-  App.questionsBank = [...esp, ...hgr, ...info, ...leg, ...port, ...rlm];
+  if (!currentRole()?.banco || !currentContest().avaliar || !currentContest().tempo) {
+    throw new Error(currentContest().mensagem || "Configuração do concurso em preparação.");
+  }
+  const banks = await Promise.all([currentRole().banco, ...currentContest().bancosComuns].map(loadOne));
+  App.questionsBank = banks.flat();
 
   // validação mínima
   if (App.questionsBank.length === 0) {
@@ -311,7 +337,7 @@ function validateQuestion(q, idx) {
   const errors = [];
 
   if (!q.id) errors.push("sem id");
-  if (!["ESP","PORT","RLM","INFO","LEG","HGR"].includes(q.area)) errors.push("area inválida");
+  if (!currentContest().areas.includes(q.area)) errors.push("area inválida");
   if (!q.statement) errors.push("sem statement");
   if (!Array.isArray(q.options) || q.options.length !== 5) errors.push("options deve ter 5 itens");
   if (typeof q.answer !== "number" || q.answer < 0 || q.answer > 4) errors.push("answer fora de 0–4");
@@ -432,7 +458,7 @@ function generateExam() {
     if (wrongQs.length === 0) {
       App.exam = [];
     } else {
-      const target = Math.min(80, wrongQs.length);
+      const target = Math.min(currentContest().formatos.ERRADAS.limite, wrongQs.length);
       App.exam = shuffle(wrongQs).slice(0, target);
     }
 
@@ -444,36 +470,15 @@ function generateExam() {
     return; // IMPORTANTE: não continua
   }
 
-  // 2) Modo específico (40 de ESP)
+  const format = currentContest().formatos[App.type];
+  if (!format?.quantidades) throw new Error("Tipo de simulado inválido.");
+  const selections = Object.entries(format.quantidades).map(([area, n]) => [area, pick(area, n)]);
   if (App.type === "ESP") {
-    App.exam = pick("ESP", 40);
-  }
-
-  // 3) Prova completa (80)
-  else if (App.type === "FULL") {
-    const portSel = pick("PORT", 12);
-    const rlmSel  = pick("RLM", 6);
-    const infoSel = pick("INFO", 6);
-    const legSel  = pick("LEG", 8);
-    const hgrSel  = pick("HGR", 8);
-    const espSel  = pick("ESP", 40);
-
-    const blocks = [
-      ...groupToBlocks(portSel),   
-      ...wrapSingles(rlmSel),
-      ...wrapSingles(infoSel),
-      ...wrapSingles(legSel),
-      ...wrapSingles(hgrSel),
-      ...wrapSingles(espSel),
-    ];
-
-    App.exam = shuffle(blocks).flat(); 
-  }
-
-  // 4) Fallback (caso App.type venha errado)
-  else {
-    const target = Math.min(40, bank.length);
-    App.exam = shuffle([...bank]).slice(0, target);
+    App.exam = selections[0][1];
+  } else {
+    const blocks = selections.flatMap(([area, questions]) =>
+      area === "PORT" ? groupToBlocks(questions) : wrapSingles(questions));
+    App.exam = shuffle(blocks).flat();
   }
 
   App.totalQuestions = App.exam.length;
@@ -595,19 +600,19 @@ function renderModulesSummary(score) {
   k1.className = "kpi";
   k1.innerHTML = `<div class="t">Módulo I (Gerais)</div>
                   <div class="v">${m1.correct}/${m1.total} (${pct(m1.correct,m1.total)}%)</div>
-                  <div class="muted small">Mínimo: ${m1.required} (30%)</div>`;
+                  <div class="muted small">Mínimo: ${m1.required} (${currentContest().regras.general * 100}%)</div>`;
 
   const k2 = document.createElement("div");
   k2.className = "kpi";
   k2.innerHTML = `<div class="t">Módulo II (Específico)</div>
                   <div class="v">${m2.correct}/${m2.total} (${pct(m2.correct,m2.total)}%)</div>
-                  <div class="muted small">Mínimo: ${m2.required} (40%)</div>`;
+                  <div class="muted small">Mínimo: ${m2.required} (${currentContest().regras.esp * 100}%)</div>`;
 
   const k3 = document.createElement("div");
   k3.className = "kpi";
   k3.innerHTML = `<div class="t">Total</div>
                   <div class="v">${mt.correct}/${mt.total} (${pct(mt.correct,mt.total)}%)</div>
-                  <div class="muted small">Mínimo: ${mt.required} (40%)</div>`;
+                  <div class="muted small">Mínimo: ${mt.required} (${currentContest().regras.total * 100}%)</div>`;
 
   wrap.appendChild(k1);
   wrap.appendChild(k2);
@@ -687,6 +692,7 @@ function renderResult() {
   saveResults(score);
 
   // topo
+  $("resultMeta").textContent = `${selectionLabel()} • ${new Date().toLocaleString()}`;
   $("scoreLine").textContent = `Acertos: ${score.correct} / ${score.total} (${score.percent}%)`;
   $("timeLine").textContent = `Tempo: ${fmtTime(App.timer.elapsedMs)}`;
 
@@ -726,7 +732,7 @@ function renderResult() {
   statusCard.appendChild(pills);
 
   // por matéria (ordem fixa e mostrando mesmo se não apareceu)
-  const areaOrder = ["ESP", "PORT", "RLM", "INFO", "LEG", "HGR"];
+  const areaOrder = currentContest().areas;
   const byAreaWrap = $("byArea");
   byAreaWrap.innerHTML = "";
 
@@ -794,7 +800,7 @@ function renderResult() {
       const dt = new Date(h.date);
       const div = document.createElement("div");
       div.className = "row";
-      div.innerHTML = `<strong>${dt.toLocaleString()}</strong><span>${h.correct}/${h.total} (${h.percent}%)</span>`;
+      div.textContent = `${currentContest().nome} • ${currentRole().nome} • ${dt.toLocaleString()} • ${h.correct}/${h.total} (${h.percent}%) • Tempo: ${fmtTime(h.timeMs || 0)}`;
       historyWrap.appendChild(div);
     });
   }
@@ -828,24 +834,110 @@ function renderResult() {
   App._lastScore = score;
 }
 
-function setRoleStorageKeys(role) {
-  const r = String(role || "DESENHISTA").toUpperCase();
-  App.historyKey = `${App.baseHistoryKey}__${r}`;
-  App.wrongKey   = `${App.baseWrongKey}__${r}`;
-  App.seenKey    = `${App.baseSeenKey}__${r}`;
+function setRoleStorageKeys() {
+  const prefix = `simulado_${App.contest}_${App.role}`;
+  App.historyKey = `${prefix}_history`;
+  App.wrongKey = `${prefix}_wrong`;
+  App.seenKey = `${prefix}_seen`;
+  migrateLegacyStorage();
+}
+
+function migrateLegacyStorage() {
+  // Só migra dados que identificam o cargo. A chave "undefined" permanece intacta.
+  if (App.contest !== "ALERO") return;
+  for (const [kind, base] of Object.entries({ history: "simulado_history_v1", wrong: "simulado_wrong_ids_v1", seen: "simulado_seen_ids_v1" })) {
+    const target = App[`${kind}Key`];
+    const marker = `${target}_migrated_v1`;
+    if (localStorage.getItem(marker)) continue;
+    let data = readJSON(target, []);
+    for (const alias of currentRole().legado) {
+      const legacy = readJSON(`${base}__${alias}`, []);
+      if (!Array.isArray(legacy)) continue;
+      if (kind === "history") {
+        const entries = [...data, ...legacy].map(h => ({ ...h, contest: "ALERO", role: App.role }));
+        data = Array.from(new Map(entries.map(h => [JSON.stringify(h), h])).values())
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
+      } else data = mergeUnique(data, legacy);
+    }
+    if (data.length) writeJSON(target, data);
+    localStorage.setItem(marker, "1");
+  }
+}
+
+function renderChoices(container, entries, select) {
+  $(container).replaceChildren();
+  for (const [id, config] of Object.entries(entries)) {
+    const button = document.createElement("button");
+    button.className = "card choice";
+    button.textContent = config.nome;
+    button.addEventListener("click", () => select(id));
+    $(container).appendChild(button);
+  }
+}
+
+function selectContest(contest) {
+  App.contest = contest;
+  App.role = null;
+  $("selectionMeta").textContent = currentContest().nome;
+  document.title = `Simulados - ${currentContest().nome}`;
+  $("btnChangeContest").classList.remove("hidden");
+  renderChoices("roleChoices", currentContest().cargos, selectRole);
+  showView("role");
+}
+
+function selectRole(role) {
+  App.role = role;
+  setRoleStorageKeys();
+  $("selectionMeta").textContent = selectionLabel();
+  document.title = `Simulados - ${selectionLabel()}`;
+  const ready = Boolean(currentRole().banco && currentContest().avaliar && currentContest().tempo);
+  $("examSettings").classList.toggle("hidden", !ready);
+  $("btnStart").disabled = !ready;
+  $("bankNotice").textContent = ready ? "" : currentContest().mensagem;
+  $("bankNotice").classList.toggle("hidden", ready);
+  $("rulesList").replaceChildren();
+  for (const text of currentContest().regrasTexto) {
+    const li = document.createElement("li"); li.textContent = text; $("rulesList").appendChild(li);
+  }
+  $("typeChoices").replaceChildren();
+  for (const [value, format] of Object.entries(currentContest().formatos)) {
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "radio"; input.name = "type"; input.value = value; input.checked = value === "FULL";
+    label.append(input, ` ${format.nome}`); $("typeChoices").appendChild(label);
+  }
+  showView("config");
+}
+
+function changeContest() {
+  if (!$("view-exam").classList.contains("hidden") && !confirm("Trocar de concurso encerra o simulado atual sem salvar o resultado. Continuar?")) return;
+  timerReset();
+  App.contest = null; App.role = null;
+  App.questionsBank = []; App.exam = []; App.answers.clear(); App.marked.clear();
+  App.totalQuestions = 0; App.currentIndex = 0; App._lastScore = null;
+  App.historyKey = null; App.wrongKey = null; App.seenKey = null;
+  $("selectionMeta").textContent = "Escolha seu concurso";
+  document.title = "Simulados";
+  $("btnChangeContest").classList.add("hidden");
+  setTopPills(); showView("contest");
 }
 
 // ---------- Eventos ----------
 function readConfig() {
   App.mode = document.querySelector('input[name="mode"]:checked')?.value || "PROVA";
   App.type = document.querySelector('input[name="type"]:checked')?.value || "FULL";
-  App.role = document.querySelector('input[name="role"]:checked')?.value || "DES";
+  setRoleStorageKeys();
   setTopPills();
 }
 
 $("btnStart").addEventListener("click", async () => {
   try {
     readConfig();
+    if (!currentRole().banco) { alert(currentContest().mensagem); return; }
+    $("btnStart").disabled = true;
+    $("btnChangeRole").disabled = true;
+    $("btnResetStorage").disabled = true;
+    $("btnChangeContest").disabled = true;
     await loadQuestionsBank();
     generateExam();
 
@@ -861,12 +953,17 @@ $("btnStart").addEventListener("click", async () => {
     renderQuestion();
   } catch (err) {
     alert(`Erro: ${err.message}`);
+  } finally {
+    $("btnStart").disabled = !currentRole()?.banco;
+    $("btnChangeRole").disabled = false;
+    $("btnResetStorage").disabled = false;
+    $("btnChangeContest").disabled = false;
   }
 });
 
 $("btnResetStorage").addEventListener("click", () => {
   clearStorage();
-  alert("Histórico local apagado.");
+  alert(`Histórico, erradas e vistas de ${currentContest().nome} • ${currentRole().nome} apagados.`);
 });
 
 $("btnPrev").addEventListener("click", () => {
@@ -912,6 +1009,8 @@ $("btnNew").addEventListener("click", () => {
 
 $("btnRetryWrong").addEventListener("click", async () => {
   try {
+    $("btnRetryWrong").disabled = true;
+    $("btnChangeContest").disabled = true;
     App.mode = "PROVA"; // refazer erradas normalmente é melhor em PROVA; se quiser, trocamos
     App.type = "ERRADAS";
     setTopPills();
@@ -934,11 +1033,17 @@ $("btnRetryWrong").addEventListener("click", async () => {
     renderQuestion();
   } catch (err) {
     alert(`Erro: ${err.message}`);
+  } finally {
+    $("btnRetryWrong").disabled = false;
+    $("btnChangeContest").disabled = false;
   }
 });
 
 // Inicial
-showView("config");
+$("btnChangeContest").addEventListener("click", changeContest);
+$("btnChangeRole").addEventListener("click", () => selectContest(App.contest));
+renderChoices("contestChoices", CONCURSOS, selectContest);
+showView("contest");
 setTopPills();
 $("timer").textContent = `?? 00:00:00`;
 
