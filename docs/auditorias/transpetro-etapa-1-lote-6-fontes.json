@@ -1,0 +1,287 @@
+{
+  "fallback": "Corpus auditado local, sem completar lacunas. Dados internos e modelos não são limites normativos. Não houve acesso novo ao texto oficial nem acesso licenciado ISO.",
+  "consultas": [
+    {
+      "id": "MTE_NR_VIGENTES",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_ARQUIVOS_NR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "MTE_NR1_GRO_PGR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/manual_gro_pgr_da_nr_1.pdf/view",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "INDICE_ALTERNATIVO",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0323",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-09",
+            "Fundacentro"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0324",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0325",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0326",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "eSocial — documentação 2026"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        },
+        {
+          "arquivo": "references/transpetro/edital_004_2026.json",
+          "fichas": [],
+          "sha256Fonte": "70563f30839a10ac1a1ada631068fdca86772b2700d83e63b643407f3d006b6b"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0327",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0328",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0329",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-10"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0330",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-12"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0331",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-13"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0332",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-15"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0333",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-17"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0334",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-18"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0335",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-20"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0336",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0337",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01",
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0338",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0339",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "eSocial"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        },
+        {
+          "arquivo": "references/transpetro/edital_004_2026.json",
+          "fichas": [],
+          "sha256Fonte": "70563f30839a10ac1a1ada631068fdca86772b2700d83e63b643407f3d006b6b"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0340",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-12"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        },
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-18",
+            "NR-33"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0341",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0342",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    }
+  ]
+}

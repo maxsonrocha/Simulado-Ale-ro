@@ -393,5 +393,89 @@
     "explanation": "A∪C={1,2,3,4,5,6}. AB não cobre5/6; AD não cobre4; BC não cobre1/2; BD não cobre2. Cobertura de zonas, não só quantidade de bases, decide o resultado.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0388",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "cancelamento_e_estado_compartilhado",
+    "difficulty": "media",
+    "statement": "Duas equipes receberam uma missão. Depois ela foi cancelada, mas só uma recebeu a atualização; a outra continua avançando. Qual falha de coordenação está evidenciada?",
+    "options": [
+      "Inexistência de falha porque uma equipe já recebeu a mensagem.",
+      "Excesso de recursos, que dispensa comunicação do cancelamento.",
+      "Estado de missão divergente entre equipes por atualização não confirmada em todas as destinatárias.",
+      "Execução necessariamente correta porque a ordem original era válida quando emitida.",
+      "Obrigação de repetir a missão para que o cancelamento tenha efeito."
+    ],
+    "answer": 2,
+    "explanation": "O problema não é só emitir o cancelamento, mas manter conhecimento operacional coerente entre destinatários. A validade inicial não garante validade após mudança de estado.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0389",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "autonomia_de_comunicacao_em_ciclo",
+    "difficulty": "alta",
+    "statement": "Um equipamento de comunicação tem bateria utilizável de 120 Wh. No ciclo de missão, transmite 20% do tempo a 30 W e recebe/aguarda 80% a 5 W. Admita potências e percentuais constantes, sem outras perdas. Qual autonomia estimada?",
+    "options": [
+      "4 horas.",
+      "3,43 horas.",
+      "12 horas.",
+      "6,86 horas.",
+      "24 horas."
+    ],
+    "answer": 2,
+    "explanation": "Potência média0,2×30+0,8×5=10 W. Autonomia120Wh/10W=12h. Não se usa potência máxima contínua nem média simples dos dois estados.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0390",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "reserva_de_rota_e_falha_comum",
+    "difficulty": "alta",
+    "statement": "O plano prevê duas rotas de saída que usam portas diferentes, mas ambas atravessam a mesma passarela. Um cenário pode interditar toda a passarela. Qual conclusão sobre a redundância?",
+    "options": [
+      "As duas rotas são independentes porque têm nomes e portas diferentes.",
+      "A probabilidade de bloquear ambas é sempre o quadrado da probabilidade de bloquear a passarela.",
+      "A duplicação de portas não fornece alternativa para esse cenário comum de bloqueio da passarela.",
+      "Duas portas garantem saída mesmo com toda a passarela interditada.",
+      "O cenário deve ser excluído do planejamento porque atinge duas rotas."
+    ],
+    "answer": 2,
+    "explanation": "Há um segmento físico compartilhado. Para sua interdição total, ambas as rotas ficam indisponíveis no mesmo cenário; nomes e portas distintas não removem o ponto comum.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0391",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "ordem_de_resgate_e_prazos_de_missao",
+    "difficulty": "muito_alta",
+    "statement": "Uma equipe deve concluir duas missões sem preempção. A dura4 min e deve terminar até6; B dura2 e deve terminar até3. Ambas estão disponíveis no instante0 e deslocamentos já estão incluídos. Só uma pode ocorrer por vez. Qual sequência cumpre os dois prazos e qual é a folga final de cada missão nela?",
+    "options": [
+      "B→A; B termina em2 com folga1, A em6 com folga0.",
+      "B→A; B termina em2 e A em4, pois a duração de B não afeta A.",
+      "A→B; a folga de B é3 porque seu prazo deve ser somado ao início.",
+      "A→B; A termina em4 e B em6, ambos dentro dos prazos.",
+      "Nenhuma, pois toda soma de durações igual a6 viola o prazo de A."
+    ],
+    "answer": 0,
+    "explanation": "B primeiro termina2≤3; A termina2+4=6≤6. Folgas1 e0. Na ordem inversa, B termina6>3. Os prazos são absolutos a partir de0, não durações após início.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

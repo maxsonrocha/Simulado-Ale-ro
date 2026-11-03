@@ -269,5 +269,68 @@
     "explanation": "Com duas posições fixas, duas formas dão4 códigos, insuficientes. Três formas×duas posições dão6, com forma para prioridade e posição para equipamento. A solução é do modelo informacional, não avaliação completa da interface.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0395",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "dimensoes_de_ajuste_e_intersecao",
+    "difficulty": "alta",
+    "statement": "Para uma tarefa, o trabalhador precisa de altura entre70 e75cm e distância de alcance entre30 e40cm, simultaneamente. Posto X permite altura65–80 e alcance45–55; Y permite altura72–78 e alcance35–45; Z altura76–85 e alcance30–38. Qual posto admite ao menos um ajuste compatível nas duas dimensões?",
+    "options": [
+      "Somente X.",
+      "Somente Y.",
+      "Somente Z.",
+      "Todos, porque cada um atende ao menos uma dimensão.",
+      "X e Z."
+    ],
+    "answer": 1,
+    "explanation": "Y tem interseção de altura72–75 e alcance35–40. X falha no alcance; Z falha na altura. A adequação é conjunta, não atendida por uma dimensão isolada.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0396",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "memoria_prospectiva_e_interrupcao",
+    "difficulty": "alta",
+    "statement": "Uma tarefa é interrompida após a etapa4 de8. A tela conserva valores, mas não registra qual etapa foi concluída. Após retorno, operadores repetem a etapa4 ou pulam a5. Qual alteração ataca diretamente esse mecanismo, sem presumir que basta ampliar treinamento?",
+    "options": [
+      "Ocultar todos os valores para obrigar memorização antes da interrupção.",
+      "Aumentar apenas o tamanho dos números, preservando a ausência do estado da tarefa.",
+      "Classificar toda repetição como desatenção, sem analisar a informação disponível.",
+      "Tornar explícito o estado confirmado de execução e o próximo passo, com validação na retomada.",
+      "Retirar o registro de confirmação para reduzir o número de campos."
+    ],
+    "answer": 3,
+    "explanation": "A interrupção exige reconstruir o ponto de retomada. Valores preservados não indicam necessariamente etapas já executadas; estado e próximo passo reduzem dependência de memória retrospectiva/prospectiva.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0397",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "velocidade_e_precisao_no_apontamento",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo de tempo de apontamento é T=a+b log2(1+D/W), com a=0,2s e b=0,1s. O alvo atual está a D=30cm e tem largura W=2cm; proposta P reduz D à metade, sem mudar W, e proposta Q duplica W sem mudar D. Use log2(16)=4 e log2(8,5)=3,087. Que comparação é correta, sem concluir adequação ergonômica completa só pelo modelo?",
+    "options": [
+      "Ambas dão0,509s, o que prova aceitabilidade completa para qualquer usuário.",
+      "P e Q dão o mesmo tempo previsto, cerca de0,509s, contra0,600s atual.",
+      "P dá0,309s e Q dá0,509s, porque o termo fixo vale só em Q.",
+      "P dá metade do tempo atual e Q mantém o tempo, pois só distância importa.",
+      "Q dá metade do tempo e P mantém o tempo, pois só largura importa."
+    ],
+    "answer": 1,
+    "explanation": "Atual:0,2+0,1×4=0,6. P e Q reduzem D/W de15 para7,5:0,2+0,1×3,087=0,5087. O modelo compara apontamento; não esgota visão, erros, postura ou diferenças entre usuários.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

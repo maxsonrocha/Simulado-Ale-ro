@@ -7,15 +7,15 @@ const { validate, loadRows, read } = require('../scripts/validate-transpetro.cjs
 const { createRuntime, select, root } = require('../scripts/lib/runtime.cjs');
 const clone = x => JSON.parse(JSON.stringify(x));
 
-test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 500 itens', () => {
+test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 600 itens', () => {
   const result = validate({ partial: true });
-  assert.deepEqual(result.errors, []); assert.equal(result.total, 500);
-  assert.deepEqual(result.areas, { PORT: 100, ING: 100, ESP: 300 });
-  assert.equal(result.groups, 100); assert.equal(result.independentQuestions, 300);
+  assert.deepEqual(result.errors, []); assert.equal(result.total, 600);
+  assert.deepEqual(result.areas, { PORT: 100, ING: 100, ESP: 400 });
+  assert.equal(result.groups, 102); assert.equal(result.independentQuestions, 396);
   assert.equal(result.warnings.length, 1);
 });
-test('liberação da Etapa 1 FALHA enquanto faltarem 200 questões', () => {
-  const result = validate(); assert(result.errors.includes('total: 500; necessário 700'));
+test('liberação da Etapa 1 FALHA enquanto faltarem 100 questões', () => {
+  const result = validate(); assert(result.errors.includes('total: 600; necessário 700'));
   const command = spawnSync(process.execPath, ['scripts/validate-transpetro.cjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(command.status, 1); assert(command.stdout.includes('necessário 700'));
 });
@@ -55,7 +55,7 @@ test('as 30 resoluções quantitativas recalculadas encontram exatamente uma alt
 });
 test('triagem lexical global não encontra pares acima do limiar', () => {
   const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-similarity.cjs'], { cwd: root, encoding: 'utf8' }));
-  assert.equal(output.comparedPairs, 124750); assert.deepEqual(output.flagged, []);
+  assert.equal(output.comparedPairs, 179700); assert.deepEqual(output.flagged, []);
 });
 test('motor real em dez provas: evita repetição quando há inéditas suficientes e preserva todo grupo', async () => {
   const r = createRuntime(); select(r); await r.loadQuestionsBank();
@@ -83,8 +83,10 @@ test('motor real em dez provas: evita repetição quando há inéditas suficient
   assert.equal(reports[3].fresh.ESP, 50);
   assert.equal(reports[4].fresh.ESP, 50);
   assert.equal(reports[5].fresh.ESP, 50);
-  assert.equal(reports[6].fresh.ESP, 0);
-  // Na sétima, getCycleIds anterior ainda continha a área esgotada: o motor a renova.
+  assert.equal(reports[6].fresh.ESP, 50);
+  assert.equal(reports[7].fresh.ESP, 50);
+  assert.equal(reports[8].fresh.ESP, 0);
+  // Na nona, getCycleIds anterior ainda continha a área esgotada: o motor a renova.
 });
 test('bancos ALERO não sofreram alteração de conteúdo nesta branch', () => {
   for (const name of ['port', 'rlm', 'info', 'leg', 'hgr', 'esp_arquiteto', 'esp_desenhista']) {

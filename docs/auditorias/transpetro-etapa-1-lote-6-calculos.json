@@ -1,0 +1,998 @@
+{
+  "checked": 65,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0302",
+      "segundaResolucao": {
+        "out": [
+          240,
+          200
+        ],
+        "method": "Testar demanda abaixo da capacidade, sem confundir atrito efetivo com máximo."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0304",
+      "segundaResolucao": {
+        "reach": 1.2,
+        "hazard": 1,
+        "reachable": true
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0305",
+      "segundaResolucao": {
+        "polygon": 1.2,
+        "outside": true
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0306",
+      "segundaResolucao": {
+        "out": [
+          400
+        ],
+        "method": "Diferença de momentos lineares com sinal e divisão pelo intervalo."
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0307",
+      "segundaResolucao": {
+        "compressive": 30,
+        "tensile": 10
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0312",
+      "segundaResolucao": {
+        "aligned": 62.5,
+        "transverse": 50
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0313",
+      "segundaResolucao": {
+        "out": [
+          5.33
+        ],
+        "method": "Somar perdas de cada ano calendário, em vez de usar anos operacionais como anos civis."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0314",
+      "segundaResolucao": {
+        "states": [
+          false,
+          true,
+          true,
+          false,
+          false,
+          true
+        ]
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0315",
+      "segundaResolucao": {
+        "out": [
+          4,
+          3
+        ],
+        "method": "Converter dilatação livre de metros para milímetros e descontar a folga uma única vez."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0316",
+      "segundaResolucao": {
+        "strain": 0.0015,
+        "stressMPa": 150,
+        "forceKN": 30,
+        "over": true
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0317",
+      "segundaResolucao": {
+        "rpm": 400,
+        "torque": 27
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0318",
+      "segundaResolucao": {
+        "massflow": 10,
+        "speed": 10,
+        "force": 200
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0319",
+      "segundaResolucao": {
+        "out": [
+          800,
+          60
+        ],
+        "method": "Balanço de energia acumulada e potência líquida, com kJ e kW coerentes."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0320",
+      "segundaResolucao": {
+        "travel": 0.000002,
+        "thicknessMM": 2.5
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0321",
+      "segundaResolucao": {
+        "resistance": [
+          3.1847133757961785,
+          2.7388535031847128,
+          3.003184713375796
+        ],
+        "heatFluxRelative": [
+          0.314,
+          0.3651162790697675,
+          0.33297985153764587
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0322",
+      "segundaResolucao": {
+        "currents": [
+          65.71428571428571,
+          143.75
+        ],
+        "caseVolts": [
+          131.42857142857142,
+          14.375
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0336",
+      "segundaResolucao": {
+        "allocations": 1,
+        "authorization": "P6/B"
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0338",
+      "segundaResolucao": {
+        "mandatoryDays": [
+          1,
+          2,
+          3
+        ],
+        "groups": [
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6
+          ]
+        ],
+        "hoursPerPerson": 8
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0340",
+      "segundaResolucao": {
+        "paths": [
+          9,
+          7
+        ],
+        "finish": 9,
+        "slack": 1
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0341",
+      "segundaResolucao": {
+        "providers": [
+          {
+            "id": "X",
+            "capacity": 100,
+            "cost": 18
+          },
+          {
+            "id": "Y",
+            "capacity": 200,
+            "cost": 19.5
+          },
+          {
+            "id": "Z",
+            "capacity": 200,
+            "cost": 18.5
+          }
+        ],
+        "winner": {
+          "id": "Z",
+          "capacity": 200,
+          "cost": 18.5
+        },
+        "gap": 0.5
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0333",
+      "segundaResolucao": {
+        "cost": 4,
+        "residual": [
+          2,
+          3
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0344",
+      "segundaResolucao": {
+        "out": [
+          2,
+          4
+        ],
+        "method": "Aplicar a mesma fração às duas pressões, mantendo unidade de pressão."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0345",
+      "segundaResolucao": {
+        "detectionCapability": 5,
+        "decision": 2,
+        "unresolvedInterval": [
+          2,
+          5
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0346",
+      "segundaResolucao": {
+        "out": [
+          19.999999999999996
+        ],
+        "method": "Retornar pelo balanço inverso das duas recuperações sucessivas."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0347",
+      "segundaResolucao": {
+        "intensityRatio": 0.25,
+        "deltaDB": -6.02
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0348",
+      "segundaResolucao": {
+        "out": [
+          2.98
+        ],
+        "method": "Somar massas de saída dos caminhos filtrado e não filtrado."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0349",
+      "segundaResolucao": {
+        "out": [
+          16.38
+        ],
+        "method": "Conservar a quantidade por PV/T e converter a vazão à referência padrão."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0350",
+      "segundaResolucao": {
+        "out": [
+          0.736
+        ],
+        "method": "Calcular massa remanescente após um tempo de renovação e dividir pelo volume."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0351",
+      "segundaResolucao": {
+        "taskIntegrals": [
+          40,
+          14
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0352",
+      "segundaResolucao": {
+        "repeatability": 1,
+        "resolution": 0.5773502691896258,
+        "combined": 1.1547005383792517
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0353",
+      "segundaResolucao": {
+        "out": [
+          25
+        ],
+        "method": "Integrar o pulso de um segundo sobre quatro segundos de janela."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0354",
+      "segundaResolucao": {
+        "out": [
+          0.465
+        ],
+        "method": "Resolver dois intervalos físicos distintos: fonte ligada e desligada."
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0355",
+      "segundaResolucao": {
+        "out": [
+          70
+        ],
+        "method": "Reconstituir primeiro o sinal equivalente na amostra original; depois retirar contribuição interferente."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0356",
+      "segundaResolucao": {
+        "populationMean": 3.8,
+        "sampleMean": 11
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0357",
+      "segundaResolucao": {
+        "out": [
+          3.8
+        ],
+        "method": "Somar duas rotas completas de transporte: .2*.9*.1 e .2*.1."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0358",
+      "segundaResolucao": {
+        "t": 6.929999999999999,
+        "asymptote": 2
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0359",
+      "segundaResolucao": {
+        "variance": 3.5,
+        "uncertainty": 1.8708286933869707,
+        "independent": 1.4142135623730951
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0362",
+      "segundaResolucao": {
+        "listedProbability": 0.8,
+        "missingProbability": 0.19999999999999996
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0364",
+      "segundaResolucao": {
+        "out": [
+          0.028000000000000004
+        ],
+        "method": "Somar contribuição de cada parcela de tempo com sua própria taxa."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0365",
+      "segundaResolucao": {
+        "eligible": [
+          "A",
+          "B",
+          "D"
+        ],
+        "worstMin": 100,
+        "costTie": 5,
+        "hourMin": 2,
+        "winner": "B"
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0366",
+      "segundaResolucao": {
+        "probability": 0.39999999999999997
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0367",
+      "segundaResolucao": {
+        "out": [
+          0.181
+        ],
+        "method": "Complemento de sobrevivência às duas horas de missão."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0368",
+      "segundaResolucao": {
+        "out": [
+          0.9,
+          0.8
+        ],
+        "method": "Separar sucesso em até 3s e recuperação posterior em 5s."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0369",
+      "segundaResolucao": {
+        "out": [
+          5.3
+        ],
+        "method": "Árvore de quatro resultados do teste com custo e dano em cada terminal."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0370",
+      "segundaResolucao": {
+        "out": [
+          0.074
+        ],
+        "method": "Enumerar os oito estados elementares, evitando dupla contagem de cortes."
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0371",
+      "segundaResolucao": {
+        "statesHistory": [
+          [
+            0.8,
+            0.2,
+            0
+          ],
+          [
+            0.7400000000000001,
+            0.24000000000000005,
+            0.020000000000000004
+          ],
+          [
+            0.7120000000000001,
+            0.24400000000000005,
+            0.04400000000000001
+          ]
+        ]
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0372",
+      "segundaResolucao": {
+        "out": [
+          0.004090000000000001
+        ],
+        "method": "Somar conjuntamente os dois estados ambientais completos."
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0373",
+      "segundaResolucao": {
+        "eligible": [
+          {
+            "name": "Y",
+            "tail": 0.01,
+            "expected": 10.9
+          },
+          {
+            "name": "Z",
+            "tail": 0.02,
+            "expected": 6.9
+          }
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0374",
+      "segundaResolucao": {
+        "root": 0.3,
+        "endpoints": [
+          [
+            3.6,
+            4.6
+          ],
+          [
+            5.2,
+            4.2
+          ]
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0375",
+      "segundaResolucao": {
+        "out": [
+          20
+        ],
+        "method": "Saldo para novos compromissos: pagamentos já pertencem aos compromissos existentes."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0376",
+      "segundaResolucao": {
+        "end": 35
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0380",
+      "segundaResolucao": {
+        "out": [
+          10,
+          2
+        ],
+        "method": "Calcular chegada a cada nó:2; B7/C5; D9; E10."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0381",
+      "segundaResolucao": {
+        "deficits": [
+          0,
+          1,
+          2
+        ],
+        "hours": 4
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0382",
+      "segundaResolucao": {
+        "events": 1,
+        "episodes": 3
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0383",
+      "segundaResolucao": {
+        "fall": 35980,
+        "command": 35990,
+        "difference": 10
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0385",
+      "segundaResolucao": {
+        "out": [
+          40,
+          50
+        ],
+        "method": "Considerar as duas classificações extremas: nenhuma ou ambas confirmadas."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0386",
+      "segundaResolucao": {
+        "rates": [
+          10,
+          6,
+          8,
+          6.999999999999999
+        ],
+        "difference": -2.9999999999999982
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0389",
+      "segundaResolucao": {
+        "out": [
+          12
+        ],
+        "method": "Balanço energético por hora em cada estado, não soma de potências simultâneas."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0391",
+      "segundaResolucao": {
+        "orders": [
+          {
+            "order": [
+              "A",
+              "B"
+            ],
+            "finish": [
+              4,
+              6
+            ],
+            "ok": false
+          },
+          {
+            "order": [
+              "B",
+              "A"
+            ],
+            "finish": [
+              2,
+              6
+            ],
+            "ok": true
+          }
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0393",
+      "segundaResolucao": {
+        "confirmation": 35
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0394",
+      "segundaResolucao": {
+        "out": [
+          3,
+          1
+        ],
+        "method": "Enumeração de concentrações que satisfazem simultaneamente os dois balanços."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0395",
+      "segundaResolucao": {
+        "fit": [
+          "Y"
+        ]
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0397",
+      "segundaResolucao": {
+        "current": 0.6000000000000001,
+        "P": 0.5087,
+        "Q": 0.5087
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0399",
+      "segundaResolucao": {
+        "A": 10,
+        "B": 12,
+        "offset": 2,
+        "adjustedB": 10
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0400",
+      "segundaResolucao": {
+        "collected": 80,
+        "returned": 60,
+        "virgin": 40
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    }
+  ],
+  "limites": "Resolução independente do rascunho por balanços, estados enumerados e reconstrução de unidades. Modelos dados, não valores legais ou avaliação completa de segurança real."
+}

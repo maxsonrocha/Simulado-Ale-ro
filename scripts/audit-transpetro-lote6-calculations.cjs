@@ -1,0 +1,84 @@
+// Segunda resolução, separada dos rascunhos de autoria. Só lê o banco real.
+const {loadRows}=require('./validate-transpetro.cjs');
+const qs=new Map(loadRows().map(x=>[x.q.id,x.q]));const results=[];
+const nums=s=>(s.match(/\d+(?:[.,]\d+)*/g)||[]).map(v=>Number(v.includes(',')?v.replace(/\./g,'').replace(',','.'):/^[1-9]\d{0,2}(?:\.\d{3})+$/.test(v)?v.replace(/\./g,''):v));
+const eq=(a,b,t=1e-6)=>a.length===b.length&&a.every((x,i)=>Math.abs(x-b[i])<t);
+function check(n,calculation,accept){const q=qs.get(`TP26-ENGSEG-ESP-${String(n).padStart(4,'0')}`);const matches=q.options.flatMap((s,i)=>accept(s)?[i]:[]);results.push({id:q.id,segundaResolucao:calculation,matches,answer:q.answer,passed:matches.length===1&&matches[0]===q.answer});}
+function values(n,out,method){check(n,{out,method},s=>eq(nums(s),out));}
+values(302,[.3*800,200],'Testar demanda abaixo da capacidade, sem confundir atrito efetivo com máximo.');
+check(304,{reach:1.2,hazard:1,reachable:1<=1.2},s=>s.startsWith('A barreira não impede'));
+const polygon=1.2/2+.6;check(305,{polygon,outside:polygon>1},s=>s.startsWith('A projeção sai'));
+values(306,[Math.abs(10*(-3)-10*5)/.2],'Diferença de momentos lineares com sinal e divisão pelo intervalo.');
+const axial=10000/1000,bend=100000/5000;check(307,{compressive:axial+bend,tensile:bend-axial},s=>eq(nums(s),[axial+bend,bend-axial])&&s.includes('tração10'));
+check(312,{aligned:50+50*.1/.4,transverse:50},s=>s.startsWith('62,5 N·m alinhado'));
+values(313,[+(2/(.5*.75)).toFixed(2)],'Somar perdas de cada ano calendário, em vez de usar anos operacionais como anos civis.');
+let on=false;const states=[9,11,9,7,9,11].map(x=>{if(x>=10)on=true;else if(x<=8)on=false;return on;});
+check(314,{states},s=>eq(s.toLowerCase().replace(/\.$/,'').split(', ').map(v=>v==='ligado'?1:0),states.map(Number)));
+const free=20e-6*100*2*1000,restraint=free-1;values(315,[free,restraint],'Converter dilatação livre de metros para milímetros e descontar a folga uma única vez.');
+const strain=restraint/2000,stress=100000*strain,force=stress*200/1000;check(316,{strain,stressMPa:stress,forceKN:force,over:force>20},s=>eq(nums(s),[150,30])&&s.includes('não é atendido'));
+check(317,{rpm:1200/3,torque:10*3*.9},s=>eq(nums(s),[400,27])&&s.includes('excede torque'));
+const massflow=1000*.01,speed=.01/.001;check(318,{massflow,speed,force:massflow*(speed-(-speed))},s=>eq(nums(s),[200])&&s.includes('não atende'));
+values(319,[1000*4*(70-30)/(300-100),30+(300-100)*600/(1000*4)],'Balanço de energia acumulada e potência líquida, com kJ e kW coerentes.');
+check(320,{travel:2.4e-6-.4e-6,thicknessMM:5000*(2e-6)/2*.5*1000},s=>eq(nums(s),[2.5])&&s.includes('não atende'));
+const resistance=[1/(6.28*10*.005),.470/(6.28*.1)+1/(6.28*10*.008),1.386/(6.28*.1)+1/(6.28*10*.020)];
+check(321,{resistance,heatFluxRelative:resistance.map(r=>1/r)},s=>s.startsWith('Maior em 8mm, intermediária em20mm e menor sem isolamento')&&resistance[1]<resistance[2]&&resistance[2]<resistance[0]);
+const currents=[2,.1].map(pe=>230/(1+.5+pe));check(322,{currents,caseVolts:currents.map((i,k)=>i*[2,.1][k])},s=>eq(nums(s),[65.71,143.75,131.43,14.38]));
+// Enumeração de alocações: cada pessoa ocupa só uma frente e precisa estar autorizada nela.
+const allowed=[['A'],['A','B'],['B','C'],['C'],['A'],['B']];let allocations=0;
+for(let mask=0;mask<3**6;mask++){let x=mask;const assignment=allowed.map(()=>{const v='ABC'[x%3];x=Math.floor(x/3);return v;});if('ABC'.split('').every(z=>assignment.filter(a=>a===z).length===2)&&assignment.every((z,i)=>allowed[i].includes(z)))allocations++;}
+check(336,{allocations,authorization:'P6/B'},s=>s.startsWith('Autorizar P6 para B: A recebe P1/P5, B recebe P2/P6, C recebe P3/P4.')&&allocations>0);
+check(338,{mandatoryDays:[1,2,3],groups:[[1,2,5],[3,4],[6]],hoursPerPerson:8},s=>s.startsWith('Três jornadas: dia1 P1/P2/P5'));
+check(340,{paths:[4+5,7],finish:Math.max(4+5,7),slack:10-Math.max(4+5,7)},s=>s.startsWith('A e B iniciam em0; C segue A de4 a9; término9, folga1'));
+const providers=[{id:'X',capacity:100,cost:6+150*.08},{id:'Y',capacity:200,cost:3+150*.11},{id:'Z',capacity:200,cost:5+150*.09}],eligible=providers.filter(p=>p.capacity>=150).sort((a,b)=>a.cost-b.cost);
+check(341,{providers,winner:eligible[0],gap:eligible[0].cost-18},s=>s.startsWith('Z por R$18,5mil; recompor R$0,5mil pela organização'));
+check(333,{cost:2+2,residual:[8*.25*1,6*1*.5]},s=>s.startsWith('X+Y, com custo4 e índices finais2 e3.'));
+values(344,[.02*100,.02*200],'Aplicar a mesma fração às duas pressões, mantendo unidade de pressão.');
+check(345,{detectionCapability:5,decision:2,unresolvedInterval:[2,5]},s=>s.startsWith('O método não resolve sozinho a decisão em 2 unidades.'));
+values(346,[12/(.8*.75)],'Retornar pelo balanço inverso das duas recuperações sucessivas.');
+check(347,{intensityRatio:1/4,deltaDB:10*(-.602)},s=>s.startsWith('Redução de 6,02'));
+values(348,[100*(.98*.01+.02)],'Somar massas de saída dos caminhos filtrado e não filtrado.');
+values(349,[20*90*273/(100*300)],'Conservar a quantidade por PV/T e converter a vazão à referência padrão.');
+values(350,[200/100*.368],'Calcular massa remanescente após um tempo de renovação e dividir pelo volume.');
+check(351,{taskIntegrals:[40*1,2*7]},s=>s.startsWith('A primeira, com 40 mg·h/m³'));
+check(352,{repeatability:2/Math.sqrt(4),resolution:2/Math.sqrt(12),combined:Math.hypot(2/Math.sqrt(4),2/Math.sqrt(12))},s=>eq(nums(s),[1.155]));
+const windows=[0,0,0,100,0,0,0].slice(0,4).reduce((a,b)=>a+b,0)/4;values(353,[windows],'Integrar o pulso de um segundo sobre quatro segundos de janela.');
+values(354,[+((40/20)*(1-.368)*.368).toFixed(3)],'Resolver dois intervalos físicos distintos: fonte ligada e desligada.');
+values(355,[18*5-.5*40],'Reconstituir primeiro o sinal equivalente na amostra original; depois retirar contribuição interferente.');
+check(356,{populationMean:(90*2+10*20)/100,sampleMean:(2+20)/2},s=>s.startsWith('3,8 unidades; a média simples super-representa'));
+values(357,[100*.2*(.9*.1+.1)],'Somar duas rotas completas de transporte: .2*.9*.1 e .2*.1.');
+check(358,{t:1.386/.2,asymptote:2},s=>eq(nums(s),[6.93,2]));
+check(359,{variance:(4+4+2*3)/4,uncertainty:Math.sqrt(3.5),independent:Math.sqrt(2)},s=>s.startsWith('√3,5≈1,87; maior que √2≈1,41'));
+check(362,{listedProbability:.8,missingProbability:1-.8},s=>s.startsWith('Investigar a lacuna ou a inconsistência'));
+values(364,[.2*.1+.8*.01],'Somar contribuição de cada parcela de tempo com sua própria taxa.');
+check(365,{eligible:['A','B','D'],worstMin:100,costTie:5,hourMin:2,winner:'B'},s=>s.startsWith('B, após excluir C'));
+check(366,{probability:.02/(.02+.03)},s=>s.startsWith('40%; 0,02 h⁻¹ é taxa'));
+values(367,[+(1-.819).toFixed(3)],'Complemento de sobrevivência às duas horas de missão.');
+values(368,[.8+.2*.5,.8],'Separar sucesso em até 3s e recuperação posterior em 5s.');
+const lossNoTest=Math.min(10,.1*100),tested=1+(.1*.8+.9*.1)*10+.1*.2*100;values(369,[+(lossNoTest-tested).toFixed(1)],'Árvore de quatro resultados do teste com custo e dano em cada terminal.');
+let pt=0;for(let m=0;m<8;m++){let prob=1;const b=[.1,.2,.3].map((p,k)=>{const yes=!!(m&(1<<k));prob*=yes?p:1-p;return yes;});if((b[0]&&b[1])||(b[1]&&b[2]))pt+=prob;}
+values(370,[+pt.toFixed(3)],'Enumerar os oito estados elementares, evitando dupla contagem de cortes.');
+let distribution=[1,0,0];const transition=[[.8,.2,0],[.5,.4,.1],[0,0,1]],statesHistory=[];for(let k=0;k<3;k++){distribution=transition[0].map((_,j)=>distribution.reduce((sum,p,i)=>sum+p*transition[i][j],0));statesHistory.push(distribution);}check(371,{statesHistory},s=>s.startsWith('0,020 e0,044; atende')&&Math.abs(statesHistory[2][2]-.044)<1e-10);
+values(372,[.1*.2*.2+.9*.01*.01],'Somar conjuntamente os dois estados ambientais completos.');
+check(373,{eligible:[{name:'Y',tail:.01,expected:.99*10+.01*100},{name:'Z',tail:.02,expected:.98*5+.02*100}]},s=>s.startsWith('Z, pois atende à restrição e tem esperança 6,9'));
+check(374,{root:(5-2)/(8+2),endpoints:[[2+8*.2,5-2*.2],[2+8*.4,5-2*.4]]},s=>s.startsWith('Não há opção dominante no intervalo; a preferência muda em p=0,3'));
+values(375,[100-80],'Saldo para novos compromissos: pagamentos já pertencem aos compromissos existentes.');
+check(376,{end:40+15-20},s=>s.startsWith('35 abertas;'));
+values(380,[2+Math.max(5,3)+2+1,12-(2+Math.max(5,3)+2+1)],'Calcular chegada a cada nó:2; B7/C5; D9; E10.');
+check(381,{deficits:[Math.ceil(.9*10)-9,Math.ceil(.9*20)-17,Math.ceil(.9*30)-25],hours:1*2+2*1},s=>s.startsWith('Uma em B e duas em C, consumindo4h.'));
+check(382,{events:1,episodes:3},s=>s.startsWith('Um evento e três episódios.'));
+const fall=10*3600+10-30,command=9*3600+59*60+30+20;check(383,{fall,command,difference:command-fall},s=>s.startsWith('A queda precede o comando em 10 segundos.'));
+values(385,[8/200000*1e6,10/200000*1e6],'Considerar as duas classificações extremas: nenhuma ou ambas confirmadas.');
+check(386,{rates:[20/200000,18/300000,8/100000,14/200000].map(x=>x*100000),difference:(18/300000-20/200000-14/200000+8/100000)*100000},s=>s.startsWith('−3 por100milh, sob as hipóteses'));
+values(389,[120/(.2*30+.8*5)],'Balanço energético por hora em cada estado, não soma de potências simultâneas.');
+const orders=[['A','B'],['B','A']].map(order=>{let t=0;const finish=order.map(n=>(t+=n==='A'?4:2));return{order,finish,ok:finish.every((v,k)=>v<=(order[k]==='A'?6:3))};});
+check(391,{orders},s=>s.startsWith('B→A; B termina em2 com folga1, A em6 com folga0.'));
+const events=[[0,'D1'],[10,'D1'],[35,'D2'],[50,'D3']];const confirmation=events.find(([t])=>new Set(events.filter(([x])=>x<=t&&t-x<=30).map(x=>x[1])).size>=2)?.[0];
+check(393,{confirmation},s=>s.startsWith('Em35s, combinando D1 em10s'));
+// Busca de solução nos dois balanços, não reaproveita solução algébrica da autoria.
+const solutions=[];for(let a=0;a<=10;a++)for(let b=0;b<=10;b++)if(60+30*b-30*a===0&&30*a-90*b===0)solutions.push([a,b]);values(394,solutions[0],'Enumeração de concentrações que satisfazem simultaneamente os dois balanços.');
+const overlap=(a,b)=>Math.max(a[0],b[0])<=Math.min(a[1],b[1]);const desks={X:[[65,80],[45,55]],Y:[[72,78],[35,45]],Z:[[76,85],[30,38]]};const fit=Object.entries(desks).filter(([,ranges])=>overlap(ranges[0],[70,75])&&overlap(ranges[1],[30,40])).map(x=>x[0]);
+check(395,{fit},s=>s==='Somente Y.'&&fit.join('')==='Y');
+check(397,{current:.2+.1*4,P:.2+.1*3.087,Q:.2+.1*3.087},s=>s.startsWith('P e Q dão o mesmo tempo previsto, cerca de0,509s, contra0,600s atual.'));
+check(399,{A:10,B:12,offset:2,adjustedB:12-2},s=>s.startsWith('A diferença observada é compatível'));
+check(400,{collected:100*.8,returned:100*.8*.75,virgin:100-100*.8*.75},s=>s.startsWith('40t; 20t considera só a coleta'));
+const passed=results.every(x=>x.passed);console.log(JSON.stringify({checked:results.length,passed,results,limites:'Resolução independente do rascunho por balanços, estados enumerados e reconstrução de unidades. Modelos dados, não valores legais ou avaliação completa de segurança real.'},null,2));process.exitCode=passed?0:1;

@@ -951,5 +951,362 @@
     "explanation": "A amostra sempre fase0, fora de[10,20). Como17 e60 são coprimos, 17k mod60 percorre as60 fases uma vez: dez fases10,...,19 caem na emissão. O modelo ilustra sincronização amostral, não um método normativo universal.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0343",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "compartimentos_e_exposicao_acumulada",
+    "difficulty": "media",
+    "statement": "Uma cabine reduz a concentração no interior durante a operação, mas trabalhadores saem dela para abrir recipientes em uma área mais contaminada. O relatório atribui a cada trabalhador a leitura fixa da cabine por toda a jornada. Qual problema precisa ser corrigido?",
+    "options": [
+      "A correspondência entre trajetória real de permanência e ambiente representado pela leitura.",
+      "A necessidade de atribuir sempre a maior leitura a todo o tempo, independentemente da trajetória.",
+      "A adoção do valor da cabine como zero porque existe separação física.",
+      "O uso de qualquer amostragem fixa, que nunca fornece informação útil.",
+      "A equivalência automática entre concentração de área e dose de todos os presentes."
+    ],
+    "answer": 0,
+    "explanation": "O ponto fixo descreve aquele ambiente, mas não todos os locais e tempos ocupados. Para inferir exposição, é necessário representar a trajetória pertinente, sem presumir que toda medição fixa seja inútil ou que o máximo dure toda a jornada.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0344",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fracao_molar_e_pressao_parcial",
+    "difficulty": "media",
+    "statement": "Em uma mistura ideal de gases, a fração molar de um componente é 0,02. A pressão total passa de 100 para 200 kPa sem mudar a composição. Pelo modelo p_i=y_i P, qual mudança ocorre na pressão parcial?",
+    "options": [
+      "Permanece em 2 kPa porque a composição não mudou.",
+      "De 2 para 1 kPa porque a pressão total dobrou.",
+      "De 20 para 40 kPa pela conversão da fração em porcentagem.",
+      "De 0,02 para 0,04 kPa, sem multiplicar pela pressão total.",
+      "De 2 para 4 kPa, embora a fração molar permaneça igual."
+    ],
+    "answer": 4,
+    "explanation": "p_i=0,02×100=2 e0,02×200=4 kPa. Igual composição não significa igual pressão parcial quando a pressão total muda.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0345",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "limite_inferior_de_deteccao_e_decisao",
+    "difficulty": "media",
+    "statement": "Um procedimento só identifica de modo confiável concentrações acima de 5 unidades. A decisão interna requer saber se a concentração é inferior a 2. O resultado veio como não detectado. Qual conclusão é sustentada?",
+    "options": [
+      "O método não resolve sozinho a decisão em 2 unidades.",
+      "A concentração vale exatamente 5.",
+      "A concentração vale sempre metade de 5.",
+      "A concentração está comprovadamente abaixo de 2.",
+      "A concentração é obrigatoriamente zero."
+    ],
+    "answer": 0,
+    "explanation": "Não detectar no procedimento com capacidade declarada de5 não exclui valores entre2 e5. O resultado não dá zero, valor exato ou metade do limite.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0346",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "recuperacao_analitica_e_massa",
+    "difficulty": "alta",
+    "statement": "Um coletor retém 80% da massa que o atravessa e a extração recupera 75% da massa retida. São obtidos 12 μg no extrato; para o exercício, ambas as eficiências são constantes e conhecidas. Qual massa atravessou o coletor?",
+    "options": [
+      "7,2 μg.",
+      "16 μg.",
+      "24 μg.",
+      "15 μg.",
+      "20 μg."
+    ],
+    "answer": 4,
+    "explanation": "12=m×0,80×0,75=0,60m, logo m=20 μg. É necessário desfazer duas perdas sucessivas, não somar percentuais.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0347",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "potencia_sonora_e_area",
+    "difficulty": "alta",
+    "statement": "Uma fonte em campo livre ideal distribui potência uniformemente por uma esfera. Ao duplicar a distância, a área aumenta quatro vezes. Adote L2−L1=10log10(I2/I1) e log10(4)=0,602. Sem reflexões, qual variação é prevista?",
+    "options": [
+      "Ausência de mudança, porque a potência total se conserva.",
+      "Redução de 12,04 dB.",
+      "Aumento de 6,02 dB.",
+      "Redução de 3,01 dB.",
+      "Redução de 6,02 dB."
+    ],
+    "answer": 4,
+    "explanation": "A potência se conserva, mas a intensidade cai a1/4;10log10(1/4)=−6,02 dB. O modelo explicita campo livre, sem extrapolar para ambientes refletivos.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0348",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "troca_de_filtros_e_vazamento",
+    "difficulty": "alta",
+    "statement": "Um ensaio de bancada usa dois caminhos paralelos: 98% do ar passa por filtro de penetração 1%, e 2% desvia sem filtrar. Para mistura final homogênea, qual fração do contaminante de entrada chega à saída?",
+    "options": [
+      "3,96%.",
+      "0,02%.",
+      "1,00%.",
+      "2,00%.",
+      "2,98%."
+    ],
+    "answer": 4,
+    "explanation": "A fração total é0,98×0,01+0,02×1=0,0298=2,98%. A eficiência do material não descreve o conjunto com desvio.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0349",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "vazao_real_e_vazao_padrao",
+    "difficulty": "alta",
+    "statement": "A vazão de gás é 20 L/min nas condições reais de 300 K e 90 kPa. Pelo modelo Qp=Qr(Pr/Pp)(Tp/Tr), com padrão 100 kPa e 273 K, qual vazão padronizada deve acompanhar uma massa expressa por volume padrão?",
+    "options": [
+      "16,38 L/min.",
+      "18,00 L/min.",
+      "20,00 L/min.",
+      "24,42 L/min.",
+      "21,98 L/min."
+    ],
+    "answer": 0,
+    "explanation": "Qp=20×90/100×273/300=16,38 L/min. A base de volume deve ser coerente com a usada na concentração, sem confundir vazões real e padrão.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0350",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "mistura_bem_agitada_e_pulso",
+    "difficulty": "alta",
+    "statement": "Em uma câmara ideal de 100 m³, um pulso instantâneo libera 200 mg e logo cessa. O ar de reposição não contém o agente; Q=10 m³/min. O modelo é C(t)=C0 exp(−Qt/V). Adote exp(−1)=0,368. Qual concentração após 10 min?",
+    "options": [
+      "7,360 mg/m³.",
+      "2,000 mg/m³.",
+      "0,368 mg/m³.",
+      "1,000 mg/m³.",
+      "0,736 mg/m³."
+    ],
+    "answer": 4,
+    "explanation": "C0=200/100=2 mg/m³ eQt/V=1. Assim C=2×0,368=0,736. Não há geração contínua após o pulso.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0351",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostragem_por_tarefa_e_contribuicao",
+    "difficulty": "alta",
+    "statement": "Em uma operação há duas tarefas. A primeira dura 1 h a 40 mg/m³ e a segunda 7 h a 2 mg/m³. Sem discutir limites legais, a equipe quer priorizar redução da contribuição integrada C×t. Qual tarefa tem maior contribuição e qual seu valor?",
+    "options": [
+      "A segunda, com 280 mg·h/m³, usando a concentração da primeira.",
+      "Ambas, com 21 mg·h/m³ cada, pela média das concentrações.",
+      "A primeira, com 40 mg·h/m³.",
+      "A primeira, com 5 mg·h/m³, dividindo por oito horas.",
+      "A segunda, com 14 mg·h/m³, porque dura mais."
+    ],
+    "answer": 2,
+    "explanation": "As contribuições são40×1=40 e2×7=14. A primeira domina a integral, embora seja mais curta. O valor não é uma média em oito horas.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0352",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "resolucao_e_repetibilidade_de_medicao",
+    "difficulty": "alta",
+    "statement": "Uma estimativa é a média de quatro leituras independentes, com desvio-padrão de repetibilidade2 unidades. O modelo atribui à resolução de passo2 uma incerteza-padrão separada r/√12, não reduzida pelas repetições; fontes independentes combinam-se quadraticamente. Use √12=3,464. Qual incerteza-padrão combinada aproximada?",
+    "options": [
+      "2,082 unidades.",
+      "0,577 unidade.",
+      "1,000 unidade.",
+      "1,155 unidade.",
+      "1,577 unidade."
+    ],
+    "answer": 3,
+    "explanation": "A contribuição de repetibilidade da média é2/√4=1. A de resolução é2/√12≈0,577. Combinada√(1²+0,577²)≈1,155, sem reduzir novamente a resolução. O modelo define expressamente as hipóteses.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0353",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "resposta_media_movel",
+    "difficulty": "alta",
+    "statement": "Um registro mostra médias móveis dos últimos quatro segundos. Houve um pulso de 100 unidades por um segundo, precedido e seguido de zeros; cada segundo tem o mesmo peso. Qual é o máximo registrado pelo filtro, desconsiderando outros efeitos?",
+    "options": [
+      "25 unidades.",
+      "50 unidades.",
+      "Zero unidade.",
+      "400 unidades.",
+      "100 unidades."
+    ],
+    "answer": 0,
+    "explanation": "Cada janela que contém todo o pulso inclui1 segundo a100 e3 a0; a média é100/4=25. O processamento pode reduzir a amplitude exibida sem reduzir o pulso físico.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0354",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "emissao_variavel_e_balanco_transiente",
+    "difficulty": "muito_alta",
+    "statement": "Um recinto bem misturado tem V=200 m³ e Q=20 m³/min de ar limpo. Inicialmente C=0. Há geração constante G=40 mg/min por dez minutos, então a fonte para. Use Cdurante=(G/Q)[1−exp(−Qt/V)] e, depois, C=Cfim exp(−QΔt/V), com exp(−1)=0,368. Qual concentração aos vinte minutos desde o início?",
+    "options": [
+      "Aproximadamente 0,736 mg/m³.",
+      "Aproximadamente 0,465 mg/m³.",
+      "Aproximadamente 1,729 mg/m³.",
+      "Aproximadamente 1,264 mg/m³.",
+      "2,000 mg/m³."
+    ],
+    "answer": 1,
+    "explanation": "Aos10min C=2(1−0,368)=1,264. Nos10min seguintes decai:1,264×0,368=0,465152. Não se mantém a emissão na segunda etapa.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0355",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "diluir_para_escala_e_corrigir_interferente",
+    "difficulty": "muito_alta",
+    "statement": "Um analisador dá R=Cx+0,5Cy, mas só responde linearmente até R=30. A amostra é diluída uma parte em quatro partes de gás limpo; a mistura diluída dá R=18. Um método seletivo informa Cy=40 na amostra original. Qual Cx original é consistente?",
+    "options": [
+      "52 unidades.",
+      "−2 unidades.",
+      "90 unidades.",
+      "50 unidades.",
+      "70 unidades."
+    ],
+    "answer": 4,
+    "explanation": "A diluição é cinco vezes: Roriginal equivalente=18×5=90. A contribuição do interferente original é0,5×40=20. Cx=90−20=70. A linearidade foi usada no gás diluído, não no sinal saturado original.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0356",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "media_ponderada_por_inclusao",
+    "difficulty": "muito_alta",
+    "statement": "Uma amostra por desenho estratificado inclui cinco leituras de um setor com 90 trabalhadores, média 2 unidades, e cinco de outro com 10, média 20. Admita representatividade dentro de cada setor e interesse na média por trabalhador, não por leitura coletada. Qual estimativa e qual erro ocorre na média simples das dez leituras?",
+    "options": [
+      "20 unidades; a maior concentração define a média populacional.",
+      "18,2 unidades; os pesos devem ser inversos às populações dos setores.",
+      "2 unidades; o setor maior permite excluir o menor.",
+      "3,8 unidades; a média simples super-representa o setor pequeno.",
+      "11 unidades; o número igual de leituras implica número igual de trabalhadores."
+    ],
+    "answer": 3,
+    "explanation": "Pesos populacionais0,9 e0,1 dão0,9×2+0,1×20=3,8. A média simples11 dá metade do peso a um setor com só10% da população.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0357",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "filtro_em_serie_com_fuga_local",
+    "difficulty": "muito_alta",
+    "statement": "No modelo de tratamento, todo o fluxo passa primeiro por estágio com penetração 20%. No segundo, 90% desse fluxo atravessa material de penetração 10%, e 10% desvia esse material sem tratamento adicional. Sem novas emissões, qual penetração total?",
+    "options": [
+      "0,2%.",
+      "19,0%.",
+      "2,0%.",
+      "3,8%.",
+      "12,0%."
+    ],
+    "answer": 3,
+    "explanation": "O segundo estágio deixa passar0,9×0,1+0,1=0,19 do que recebe. A série dá0,2×0,19=0,038. A fuga não contorna o primeiro estágio.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0358",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "tempo_de_purga_com_fundo_na_reposicao",
+    "difficulty": "muito_alta",
+    "statement": "Uma câmara ideal parte de 10 mg/m³. O ar de reposição contém 2 mg/m³ e Q/V=0,2 min⁻¹. Para C(t)=Cin+(C0−Cin)exp(−Qt/V), deseja-se C≤4. Use ln(4)=1,386. Qual tempo mínimo no modelo e qual limite assintótico?",
+    "options": [
+      "Tempo finito para atingir zero; 2 mg/m³.",
+      "6,93 min; 2 mg/m³.",
+      "4,58 min; zero.",
+      "6,93 min; zero.",
+      "3,47 min; 2 mg/m³."
+    ],
+    "answer": 1,
+    "explanation": "4=2+8exp(−0,2t) exige exp=1/4, t=ln4/0,2=6,93. O limite é Cin=2, não zero. O valor é resultado do modelo, não prazo legal de entrada.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0359",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "incerteza_correlacionada_de_dois_canais",
+    "difficulty": "muito_alta",
+    "statement": "Dois canais medem a mesma concentração: ambos indicam 10, com variância individual 4 e covariância 3. Estima-se pela média dos dois; use Var[(X+Y)/2]=(VarX+VarY+2Cov)/4. Qual incerteza-padrão da média e comparação com canais independentes de mesma variância?",
+    "options": [
+      "√3,5≈1,87; maior que √2≈1,41.",
+      "Zero; leituras iguais anulam toda incerteza.",
+      "√7≈2,65; não se divide a variância por quatro.",
+      "√2≈1,41; a covariância não altera a média.",
+      "1,00; todo par reduz a incerteza à metade."
+    ],
+    "answer": 0,
+    "explanation": "A variância é(4+4+6)/4=3,5. Sem covariância seria8/4=2. Igualdade das leituras não elimina fontes comuns de erro.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

@@ -564,5 +564,152 @@
     "explanation": "Os valores são0,5;0;1,5;2,0;3,5. O máximo com zero reinicia após o segundo escore, e a regra acumula desvios posteriores. Sinal estatístico pede investigação, não prova automática de causa.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0375",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "segregacao_de_orcamentos_e_compromissos",
+    "difficulty": "media",
+    "statement": "Um sistema de SMS mostra R$ 100 mil aprovados para ações, dos quais R$ 80 mil já comprometidos em contratos e R$ 30 mil pagos desses mesmos contratos. Sem outros movimentos, qual saldo ainda pode ser comprometido sem exceder a aprovação?",
+    "options": [
+      "R$ 10 mil negativos.",
+      "R$ 50 mil.",
+      "R$ 70 mil.",
+      "R$ 20 mil.",
+      "R$ 100 mil."
+    ],
+    "answer": 3,
+    "explanation": "Compromissos consomem80 dos100 aprovados; disponível para novos compromissos20. Os30 pagos pertencem aos80, não são compromisso adicional nem liberam os50 ainda a pagar.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0376",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "indicador_de_estoque_e_fluxo",
+    "difficulty": "media",
+    "statement": "No início do mês havia 40 ações abertas. Entraram 15 e foram encerradas 20, sem cancelamentos ou reaberturas. O relatório informa estoque final de 20 por subtrair encerramentos e ignorar entradas. Qual reconciliação é correta?",
+    "options": [
+      "75 abertas; encerramentos devem ser somados como estoque.",
+      "20 abertas; só as saídas alteram o estoque.",
+      "35 abertas; estoque inicial mais entradas menos saídas.",
+      "55 abertas; só as entradas alteram o estoque.",
+      "5 abertas; o estoque inicial não integra a conta."
+    ],
+    "answer": 2,
+    "explanation": "O balanço é40+15−20=35. Estoque e fluxos são grandezas diferentes, e a consistência exige registrar ambos os fluxos.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0377",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "metrica_de_prazo_e_censura",
+    "difficulty": "alta",
+    "statement": "Um painel calcula duração média só de ações já encerradas. As ações antigas ainda abertas foram excluídas; o gestor afirma que toda a carteira ficou mais rápida. Qual limitação atinge essa conclusão?",
+    "options": [
+      "Ações abertas têm duração nula até o fechamento.",
+      "A exclusão sempre superestima a duração, sem depender dos dados.",
+      "Uma média de encerradas descreve necessariamente a carteira completa.",
+      "Basta trocar média por mediana nas encerradas para recuperar a informação excluída.",
+      "A seleção por encerramento omite tempos ainda em curso e pode favorecer artificialmente ações rápidas."
+    ],
+    "answer": 4,
+    "explanation": "A data de encerramento seleciona quem entra no cálculo. Ações persistentes abertas não têm tempo final observado; a métrica das concluídas não representa automaticamente toda a carteira.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0378",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "reversibilidade_e_mudanca_de_versao",
+    "difficulty": "alta",
+    "statement": "Uma mudança de software de manutenção altera o formato dos registros. O plano de retorno restaura o executável antigo, mas essa versão não lê o novo formato. Qual lacuna impede considerar o retorno operacionalmente demonstrado?",
+    "options": [
+      "A quantidade de usuários, que torna compatibilidade de dados irrelevante.",
+      "A simples existência de duas cópias de instalação, que prova retorno integral.",
+      "A necessidade de apagar todos os registros para que a versão volte a abrir.",
+      "A compatibilidade ou migração dos dados no caminho de retorno.",
+      "A ausência de novo nome comercial para o executável anterior."
+    ],
+    "answer": 3,
+    "explanation": "Retornar o programa não basta quando o estado persistido mudou de modo incompatível. O teste deve considerar código e dados sem pressupor apagamento como solução aceitável.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0379",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "indicador_de_disponibilidade_e_demanda",
+    "difficulty": "alta",
+    "statement": "Uma proteção ficou indisponível por 1% das horas anuais, todas durante as poucas partidas. O gestor usa disponibilidade anual de 99% como prova de proteção nas partidas, onde ocorrem as demandas. Qual informação é decisiva?",
+    "options": [
+      "A indisponibilidade média como prova de que 1% de todas as demandas falha.",
+      "A média anual como substituta suficiente de qualquer perfil de demanda.",
+      "Disponibilidade condicionada às partidas e sua relação temporal com as demandas.",
+      "A quantidade total de horas, sem localizar nenhuma demanda.",
+      "A ausência de acidentes como demonstração de disponibilidade em todas as partidas."
+    ],
+    "answer": 2,
+    "explanation": "A indisponibilidade concentrada no período de demanda invalida a transferência direta da média temporal anual para probabilidade de proteção na demanda. É necessário o alinhamento dos perfis.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0380",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "janela_de_intervencao_e_caminho_critico",
+    "difficulty": "muito_alta",
+    "statement": "Uma parada tem limite interno de 12 h. A isolações dura 2 h. Depois, B troca mecânica dura 5 h e C atualização de lógica dura 3 h, podendo correr em paralelo com equipes distintas. D teste integrado dura 2 h e só começa após B e C. E liberação documental dura 1 h após D. Qual duração mínima e folga da janela?",
+    "options": [
+      "10 h e 2 h.",
+      "7 h e 5 h.",
+      "13 h e −1 h.",
+      "8 h e 4 h.",
+      "11 h e 1 h."
+    ],
+    "answer": 0,
+    "explanation": "O caminho crítico éA+B+D+E=2+5+2+1=10. C termina antes de B e não acrescenta duração, pois dispõe de equipe própria. Folga12−10=2.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0381",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "meta_local_e_alocacao_de_horas",
+    "difficulty": "muito_alta",
+    "statement": "Um painel interno exige verificações concluídas≥90% em cada unidade. A tem9/10, B17/20 e C25/30. Cada nova conclusão em A consome4h, em B2h e em C1h; não há novas entradas. Há4h para alocar e é permitido deixar horas sem uso. Qual plano atende simultaneamente às três unidades?",
+    "options": [
+      "Uma em A, nenhuma em B e C.",
+      "Quatro em C e nenhuma em B.",
+      "Uma em B e uma em C, reservando a hora restante.",
+      "Duas em B e nenhuma em C.",
+      "Uma em B e duas em C, consumindo4h."
+    ],
+    "answer": 4,
+    "explanation": "A já atinge90%. B precisa de18/20, mais1 conclusão(2h). C precisa27/30, mais2(2h). O plano soma4h e atende ambos. Melhorar só uma unidade ou parar C em26/30 não satisfaz a restrição local.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

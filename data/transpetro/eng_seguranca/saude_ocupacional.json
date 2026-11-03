@@ -275,5 +275,47 @@
     "explanation": "A combinação e o cruzamento com outra fonte podem identificar a pessoa. A avaliação depende dos dados e do contexto; não se inventa obrigação legal específica.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0398",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "sobrediagnostico_e_falso_positivo",
+    "difficulty": "media",
+    "statement": "Em um cenário hipotético de rastreamento, uma alteração está realmente presente e é confirmada por referência válida. O próprio modelo do exercício informa que ela jamais produziria sintomas ou prejuízo clínico durante a vida da pessoa. Qual distinção conceitual é correta, sem extrapolar esse cenário para pacientes reais?",
+    "options": [
+      "O caso é obrigatoriamente falso positivo porque não haverá sintomas.",
+      "O caso ilustra sobrediagnóstico, que não exige resultado falso positivo.",
+      "Ausência de progressão transforma a alteração confirmada em erro analítico.",
+      "Sobrediagnóstico significa somente repetir o mesmo exame em dois dias.",
+      "A confirmação prova necessidade de qualquer tratamento, independentemente de benefício e dano."
+    ],
+    "answer": 1,
+    "explanation": "Sobrediagnóstico pode envolver condição verdadeira detectada que não causaria prejuízo clínico no horizonte de vida. Falso positivo é positividade sem a condição-alvo, excluída aqui pela confirmação. Não se recomenda conduta individual sem avaliação médica.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0399",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "comparacao_de_exames_com_mudanca_de_metodo",
+    "difficulty": "alta",
+    "statement": "Um grupo tinha média de um marcador igual a10 pelo método A e passou a12 pelo método B, após mudança simultânea do processo. Em amostras pareadas estáveis, B dá2 unidades a mais que A. Qual interpretação é sustentada pelos dados disponíveis?",
+    "options": [
+      "O aumento biológico de20% está provado porque12 é maior que10.",
+      "A diferença de2 entre métodos deve ser adicionada novamente a12 para comparação.",
+      "O valor12 deve ser dividido por2 para voltar à escala anterior.",
+      "A diferença observada é compatível com o deslocamento entre métodos e não demonstra, sozinha, aumento biológico.",
+      "A mudança de método prova ausência de qualquer alteração em cada trabalhador."
+    ],
+    "answer": 3,
+    "explanation": "O deslocamento conhecido B−A=2 explica a diferença agregada10→12 sem exigir aumento biológico. Isso não prova ausência individual de mudança; a comparação requer compatibilização validada e avaliação pertinente.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

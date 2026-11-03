@@ -55,5 +55,5 @@ test('caderno real recupera contexto e ordem dos dois novos grupos sem avançar 
 });
 test('motor real confirma quatro provas inéditas em dez sementes e o gate integral continua reprovando',()=>{
  const r=run('scripts/audit-transpetro-lote4-engine.cjs');assert(r.passed);assert.equal(r.completeFreshExams,4);assert.equal(r.runs.length,10);
- const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,1);assert(gate.stdout.includes('total: 500; necessário 700'));
+ const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,1);assert(gate.stdout.includes('total: 600; necessário 700'));
 });

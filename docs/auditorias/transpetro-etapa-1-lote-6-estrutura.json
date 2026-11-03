@@ -1,0 +1,70 @@
+{
+  "mode": "lote_parcial",
+  "total": 600,
+  "areas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 400
+  },
+  "subjects": {
+    "prevencao_riscos": 70,
+    "gerenciamento_riscos": 50,
+    "legislacao_nr": 74,
+    "gestao_sms": 34,
+    "emergencias": 23,
+    "incendio": 18,
+    "acidentes": 29,
+    "higiene_ocupacional": 63,
+    "saude_ocupacional": 15,
+    "ergonomia": 16,
+    "desenvolvimento_sustentavel": 8
+  },
+  "difficulties": {
+    "PORT": {
+      "media": 20,
+      "alta": 45,
+      "muito_alta": 35
+    },
+    "ING": {
+      "media": 20,
+      "alta": 45,
+      "muito_alta": 35
+    },
+    "ESP": {
+      "media": 80,
+      "alta": 180,
+      "muito_alta": 140
+    }
+  },
+  "answers": {
+    "PORT": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "ING": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "ESP": [
+      80,
+      80,
+      80,
+      80,
+      80
+    ]
+  },
+  "groups": 102,
+  "linkedQuestions": 204,
+  "independentQuestions": 396,
+  "errors": [],
+  "warnings": [
+    "LOTE PARCIAL: 600/700; faltam 100. Não libera a Etapa 1."
+  ],
+  "semanticLimit": "Estrutura e índice único não provam unicidade semântica: ela exige a auditoria de conteúdo e revisão humana."
+}

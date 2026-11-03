@@ -1,0 +1,1405 @@
+{
+  "metodo": "Revisão editorial individual das 100 questões e cinco alternativas por item; justificativas em ordem das alternativas finais. A revisão por autor não equivale à auditoria humana independente solicitada antes do merge.",
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0301",
+      "alternativas": [
+        "Resfriar desigualmente pode gerar tensões.",
+        "Média não representa toda distribuição.",
+        "Regiões resfriadas de modo diferente tendem a contrair diferentemente; restrições internas podem produzir tensões. Temperatura média não descreve esse gradiente.",
+        "A condução não torna o sólido instantaneamente isotérmico.",
+        "O mecanismo indicado é termomecânico, não exige perda de massa."
+      ],
+      "correctOption": 2,
+      "operacao": "Relacionar distribuição térmica e solicitação interna",
+      "dificuldade": "media: Relacionar distribuição térmica e solicitação interna. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "87a8e473cb4ef9acf8bb50b6eed2d08a1fbbf10d2c9b739ba555246283ca34a3"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0302",
+      "alternativas": [
+        "Usa a carga tangencial em vez da normal.",
+        "Confunde máximo disponível e força mobilizada.",
+        "μN=240 N é capacidade máxima, não valor obrigatório do atrito. A força efetiva pode ser200 N para equilíbrio.",
+        "Confunde demanda e capacidade.",
+        "Exclui indevidamente μ."
+      ],
+      "correctOption": 2,
+      "operacao": "Distinguir atrito mobilizado e limite disponível",
+      "dificuldade": "media: Distinguir atrito mobilizado e limite disponível. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "406b7fe09210a07dd7addd3c37ea2fdfa26c7bf00d9e19a6c526da5dabc6e97a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0303",
+      "alternativas": [
+        "Energia disponível não é determinada só por pressão; volume, compressibilidade e deformações importam. Não se conclui valor sem modelo e dados adicionais.",
+        "Pressão não basta para determinar energia.",
+        "Resolução não determina energia armazenada.",
+        "Pressão nominal não informa volume expansível.",
+        "Média de pressão sem quantidade e comportamento não resolve a energia."
+      ],
+      "correctOption": 0,
+      "operacao": "Identificar variáveis necessárias além de uma leitura escalar",
+      "dificuldade": "media: Identificar variáveis necessárias além de uma leitura escalar. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b612560b05b3f76e60df807e21ffc9ce19d068e48e4c45b7554da1c2a9fde2cc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0304",
+      "alternativas": [
+        "Existência não demonstra a função de impedir acesso.",
+        "A abertura integra o trajeto descrito.",
+        "A diferença indica alcance além da zona, não proteção adicional.",
+        "A zona a1,00 m está dentro do alcance1,20 m informado. A presença física da barreira não prova que bloqueie o trajeto.",
+        "O ponto está dentro do envelope ensaiado."
+      ],
+      "correctOption": 3,
+      "operacao": "Confrontar função esperada e alcance demonstrado",
+      "dificuldade": "media: Confrontar função esperada e alcance demonstrado. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "4dac237602e0c0038c48c5fe7913336a7c898124127d4aef46dffaa8a9960955"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0305",
+      "alternativas": [
+        "Massa igual não preserva a base de apoio.",
+        "Omite a contribuição de y.",
+        "Antes a projeção estava no retângulo; depois a condição triangular falha. O efeito decorre da mudança de base, não de aumento de massa.",
+        "O critério contém as duas coordenadas.",
+        "Não há esse aumento necessário."
+      ],
+      "correctOption": 2,
+      "operacao": "Atualizar geometria de apoio e testar a projeção do centro de massa",
+      "dificuldade": "alta: Atualizar geometria de apoio e testar a projeção do centro de massa. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "19c0ac164c15855ef3cda6d7e12bce72fe8579fb165dc5f6fd55807d0c51b4a6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0306",
+      "alternativas": [
+        "Usa apenas parada até zero.",
+        "Δv=−3−5=−8 m/s; impulso−80 kg·m/s; Fm=−400 N, módulo400. O rebote não equivale a parar em zero.",
+        "Erra a duração ou duplica o impulso.",
+        "Subtrai módulos sem respeitar os sentidos.",
+        "Usa apenas velocidade final."
+      ],
+      "correctOption": 1,
+      "operacao": "Usar velocidades com sinal e converter impulso em força média",
+      "dificuldade": "alta: Usar velocidades com sinal e converter impulso em força média. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "eeadd0f7a401e62b60364c2b86ff066ec3a4a04fa5b32420da35090f8676a60d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0307",
+      "alternativas": [
+        "Usa parcela de flexão incorreta.",
+        "Converte M incorretamente.",
+        "Perde o sinal da face tracionada.",
+        "Ignora a flexão.",
+        "N/A=10 N/mm²; M=100.000 N·mm e M/W=20 N/mm². Assim10±20 dá30 e−10: há tração numa face apesar da compressão resultante."
+      ],
+      "correctOption": 4,
+      "operacao": "Combinar esforço normal e flexão com unidades e sinais coerentes",
+      "dificuldade": "alta: Combinar esforço normal e flexão com unidades e sinais coerentes. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "0de9630a6c9baf1a6d50e3769d740a77e4eabace927e853ead642c028cf9d1fb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0308",
+      "alternativas": [
+        "Texto não modifica energia cinética.",
+        "Comando e estado físico não são equivalentes. O acesso não pode ser creditado como protegido só porque a ordem de parar foi enviada; a solução real depende da análise do sistema.",
+        "Ausência de comando não mede velocidade.",
+        "Indicação visual não resolve a relação acesso/perigo.",
+        "O cenário informa movimento residual."
+      ],
+      "correctOption": 1,
+      "operacao": "Distinguir ação de controle e confirmação física de sua função",
+      "dificuldade": "alta: Distinguir ação de controle e confirmação física de sua função. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "02b6c2c476e4e699fe946be99912eac80a481f0373982ae717c41fb29950ffd2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0309",
+      "alternativas": [
+        "Corrente e temperatura são grandezas distintas.",
+        "A fonte térmica descrita pode persistir internamente. Desconexão trata a alimentação externa, não prova término da reação nem impede transferência de calor.",
+        "Renomear não muda o mecanismo.",
+        "Transferência térmica não exige alimentação elétrica do receptor.",
+        "Contraria a reação informada."
+      ],
+      "correctOption": 1,
+      "operacao": "Separar fonte elétrica externa, reação interna e propagação térmica",
+      "dificuldade": "alta: Separar fonte elétrica externa, reação interna e propagação térmica. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "2a5bd7e5f96a5065e430a29c80c6ef487b88cd55e2b81778f24c134ab91611e6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0310",
+      "alternativas": [
+        "Um valor retido numa tomada isolada pode não representar o processo atual. É preciso testar o caminho de medição e a resposta, não escolher a leitura mais conveniente.",
+        "Escala não desobstrui o caminho.",
+        "Variabilidade não é, por si, defeito de medição.",
+        "A outra evidência contradiz essa conclusão automática.",
+        "Data não demonstra comunicação hidráulica."
+      ],
+      "correctOption": 0,
+      "operacao": "Investigar um caminho de sinal físico antes de interpretar uma leitura retida",
+      "dificuldade": "alta: Investigar um caminho de sinal físico antes de interpretar uma leitura retida. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "64ef853efa8df9c43280a805cca263388e3f1a75422c599eeb494ef2e87707fb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0311",
+      "alternativas": [
+        "Não se demonstrou equivalência.",
+        "Esse ensaio não representa a sobrecarga.",
+        "Localização e resposta temporal podem impedir que o sensor represente a variável crítica a tempo. O critério precisa ser avaliado no estado relevante do motor.",
+        "Média não substitui o local definido no projeto.",
+        "Atraso pode ocultar o crescimento rápido da temperatura."
+      ],
+      "correctOption": 2,
+      "operacao": "Relacionar variável protegida, posição do sensor e resposta transitória",
+      "dificuldade": "alta: Relacionar variável protegida, posição do sensor e resposta transitória. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3e454aee81f93eb76d6bdf42c7c658b19a81071c83433d67350c3d0ec231a925"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0312",
+      "alternativas": [
+        "Alinhado50×0,50/0,40=62,5; a90° a efetivo0 dá50. O exercício usa o modelo fornecido, sem substituir instruções verificadas do equipamento real.",
+        "Ignora o braço adicional alinhado.",
+        "Não decorre das expressões.",
+        "Inverte os efeitos geométricos.",
+        "Confunde acréscimo com total e ausência de acréscimo com zero."
+      ],
+      "correctOption": 0,
+      "operacao": "Comparar leitura ajustada e torque aplicado sob duas geometrias",
+      "dificuldade": "alta: Comparar leitura ajustada e torque aplicado sob duas geometrias. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "317dc748e440a10fd8cf72915566c75626f9e0b17bc77d31361523655660f9ec"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0313",
+      "alternativas": [
+        "Usa anos de operação como calendário.",
+        "Multiplica a vida operacional pela fração em vez de converter.",
+        "Não resulta da margem e da taxa dadas.",
+        "A perda anual calendário é0,50×0,75=0,375 mm. A margem2 mm dura2/0,375≈5,33 anos no modelo, sem definir intervalo legal de inspeção ou garantir vida real.",
+        "Usa margem ou taxa incorreta."
+      ],
+      "correctOption": 3,
+      "operacao": "Distinguir base temporal da taxa e tempo calendário de consumo",
+      "dificuldade": "alta: Distinguir base temporal da taxa e tempo calendário de consumo. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "8837b4f246ca2a9f3aee380a3e0b0d146204ced35218e5dfda4545589476137f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0314",
+      "alternativas": [
+        "Liga em9 sem atingir10.",
+        "Não aplica os limiares nas leituras.",
+        "Alternância não é a regra de histerese.",
+        "Entre8 e10 o estado anterior é mantido. A primeira leitura9 mantém desligado; após11 ligar,9 mantém ligado;7 desliga e o próximo9 mantém desligado.",
+        "Ignora a manutenção do estado em9 após ligar."
+      ],
+      "correctOption": 3,
+      "operacao": "Executar transições condicionadas ao estado anterior, não só à leitura atual",
+      "dificuldade": "alta: Executar transições condicionadas ao estado anterior, não só à leitura atual. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "a13ff8dd4e49839765063ee0f5a57643c958a16c9cd123cb36fa5a98b4cd33c5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0315",
+      "alternativas": [
+        "Erra a conversão e conclui ausência de contato.",
+        "Troca total e parcela.",
+        "αLΔT=20×10⁻⁶×2×100=0,004 m=4 mm. A folga acomoda1 mm; a expansão restante impedida é3 mm.",
+        "Usa a folga como parcela impedida.",
+        "Calcula incorretamente a expansão livre."
+      ],
+      "correctOption": 2,
+      "operacao": "Calcular expansão, converter unidade e separar trecho livre e restringido",
+      "dificuldade": "muito_alta: Calcular expansão, converter unidade e separar trecho livre e restringido. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "50fd46c9a68a530b507292e328c97fb9c8f31b291ada4be3c40752dd2f4efe75"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0316",
+      "alternativas": [
+        "Erra a escala entre GPa e MPa.",
+        "Usa somente1 mm para a deformação impedida.",
+        "Usa área efetiva incorreta.",
+        "ε=0,003/2=0,0015; σ=100.000 MPa×0,0015=150 MPa. Força150 N/mm²×200 mm²=30 kN>20. São hipóteses internas do modelo, não limite normativo.",
+        "Ignora a folga já acomodada."
+      ],
+      "correctOption": 3,
+      "operacao": "Integrar restrição parcial, constitutiva elástica e reação no suporte",
+      "dificuldade": "muito_alta: Integrar restrição parcial, constitutiva elástica e reação no suporte. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7d99bc9bb4e73b71533a03017aaeff94245ed612a96a6a310fc448afc7648687"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0317",
+      "alternativas": [
+        "Inverte a relação e ainda aceita rotação excessiva.",
+        "Inverte a transformação do torque.",
+        "A relação reduz n por3 e multiplica torque ideal por3; com eficiência0,9, torque27. Rotação400≤450, torque27>25.",
+        "Ignora a mudança da transmissão e aceita rotação excessiva.",
+        "Omite eficiência."
+      ],
+      "correctOption": 2,
+      "operacao": "Converter transmissão em dois efeitos e verificar critérios independentes",
+      "dificuldade": "muito_alta: Converter transmissão em dois efeitos e verificar critérios independentes. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "58fd9483b2d9f3266d0e3f15821c615713528c2e2282e4ffd7473c33a088f1bb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0318",
+      "alternativas": [
+        "Cancela módulos em vez de subtrair vetores.",
+        "v=10 m/s; vazão mássica10 kg/s; variação vetorial de velocidade20 m/s. Reação200 N>150. Igual módulo não significa igual vetor.",
+        "Erra a conversão de área/vazão.",
+        "Representa parada sem reversão, não o cenário.",
+        "Erra a escala do fluxo ou velocidade."
+      ],
+      "correctOption": 1,
+      "operacao": "Combinar continuidade, sentido da velocidade e balanço de quantidade de movimento",
+      "dificuldade": "muito_alta: Combinar continuidade, sentido da velocidade e balanço de quantidade de movimento. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b77cfbe53900facbe7b93e3859f8414c7003c658c0ce83c9ce377ca92aa1a432"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0319",
+      "alternativas": [
+        "Usa capacidade ou saldo térmico incorreto.",
+        "Não resulta do balanço dado.",
+        "Reduz indevidamente a taxa líquida.",
+        "Capacidade4.000 kJ/K e saldo200 kJ/s. Para subir40 K:160.000/200=800 s. Em600 s sobe30 K, chegando a60 °C. O modelo constante não caracteriza uma cinética real de fuga térmica.",
+        "Confunde s com min e ignora o saldo."
+      ],
+      "correctOption": 3,
+      "operacao": "Integrar potência líquida, capacidade térmica, tempo e estado final",
+      "dificuldade": "muito_alta: Integrar potência líquida, capacidade térmica, tempo e estado final. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ec7d5e1577f0643a5a2175716f1c003b90dfa2cce48d09e916007761ce510e93"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0320",
+      "alternativas": [
+        "Omite projeção e percurso duplo.",
+        "Não projeta o caminho pela inclinação.",
+        "Divide por dois uma vez a mais.",
+        "Não remove o atraso.",
+        "Tempo na parede2 μs. v·t=0,010 m; projetar por0,5 e dividir pelo percurso duplo dá0,0025 m=2,5 mm<3. Não se trata de critério normativo de inspeção."
+      ],
+      "correctOption": 4,
+      "operacao": "Corrigir atraso, converter tempo e projetar um percurso de ida e volta",
+      "dificuldade": "muito_alta: Corrigir atraso, converter tempo e projetar um percurso de ida e volta. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7db497dce3a36e437fb38ff5bb59e8e2ed910fb3cacc1c01ac4f0d1e24d06ee6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0321",
+      "alternativas": [
+        "As resistências não são iguais.",
+        "Inverte a relação calculada em parte.",
+        "Rnu≈3,185 K/W; R8≈2,739; R20≈3,003. Como ΔT é fixa, Q é inverso de R. O exemplo mostra que acrescentar isolamento não implica automaticamente menor perda que a base em todo raio.",
+        "Presume monotonicidade sem calcular a convecção externa.",
+        "Troca os dois menores valores de R."
+      ],
+      "correctOption": 2,
+      "operacao": "Comparar duas parcelas de resistência e a referência nua sem usar regra monotônica indevida",
+      "dificuldade": "muito_alta: Comparar duas parcelas de resistência e a referência nua sem usar regra monotônica indevida. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3fbec9713b1e4f90c63800af315eaee0b1b73ede406943fd8d075802eb4ca0ae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0322",
+      "alternativas": [
+        "O restante da resistência em série impede essa proporcionalidade.",
+        "Há divisão de tensão entre as resistências.",
+        "I1=230/3,5≈65,71; Vmassa1≈131,43. I2=230/1,6=143,75; Vmassa2≈14,38. Menor resistência no retorno aumenta a corrente e reduz essa parcela de queda. O cálculo não demonstra proteção real contra choque ou conformidade normativa.",
+        "Troca grandezas e efeitos.",
+        "Mudar resistência total muda a corrente."
+      ],
+      "correctOption": 2,
+      "operacao": "Recalcular malha e divisão de tensão sem presumir corrente constante",
+      "dificuldade": "muito_alta: Recalcular malha e divisão de tensão sem presumir corrente constante. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "eaea46a8fe58822ca57ed5d0bbd9f7a05078437d8270dcae96fb78ecb603ea1e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0323",
+      "alternativas": [
+        "Documento e intervenção não são atos equivalentes.",
+        "Validação da medida não prova implementação preventiva.",
+        "Diagnóstico não encerra por si a gestão.",
+        "Medição não é mudança necessária da fonte.",
+        "A NR-09 reúne avaliação e controle; instrumentos técnicos auxiliam a caracterização, mas produzir informação não é executar uma intervenção."
+      ],
+      "correctOption": 4,
+      "operacao": "Separar produção de evidência e execução de prevenção",
+      "dificuldade": "media: Separar produção de evidência e execução de prevenção. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "14e240b5c26f4ac087790877b574b56431d6617ddfa8abecec8c5620abe4cca7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0324",
+      "alternativas": [
+        "A regra registrada inclui EPI nacional e importado.",
+        "Aparência não demonstra vínculo documental.",
+        "Renomear não resolve a correspondência.",
+        "O CA qualifica determinado produto. O cenário aponta lacuna de correspondência, não prova que todo produto semelhante esteja coberto. É necessário verificar o vínculo, sem inventar regra de famílias/modelos.",
+        "Generaliza a cobertura sem evidência."
+      ],
+      "correctOption": 3,
+      "operacao": "Conferir identidade entre evidência apresentada e objeto fornecido",
+      "dificuldade": "media: Conferir identidade entre evidência apresentada e objeto fornecido. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3ca75ad860c10a0aca6d4a07fc20a41d5981e11e692918e7ca1e3e2b4b31fe4c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0325",
+      "alternativas": [
+        "Tempo de serviço não substitui os elementos registrados.",
+        "A formalização é da organização.",
+        "Apaga o recorte de atividades.",
+        "Não se demonstrou essa equivalência.",
+        "A autorização registrada considera atividades, capacitação e aptidão. A existência do documento para A não demonstra seu alcance sobre B, sem examinar as condições pertinentes."
+      ],
+      "correctOption": 4,
+      "operacao": "Verificar alcance de uma autorização existente sem confundir existência e abrangência",
+      "dificuldade": "media: Verificar alcance de uma autorização existente sem confundir existência e abrangência. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7b23746f99401873f49cb0c7a971126411c2b64038bd7b72bf6d07497d9760e9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0326",
+      "alternativas": [
+        "O recorte de um módulo não altera o universo explicitamente cobrado. S-2230 permanece com finalidade própria; não precisa ser confundido com CAT, saúde ou exposição para constar do estudo.",
+        "Altera a finalidade do evento.",
+        "Inverte a precedência do programa.",
+        "Não decorre de nenhuma fonte.",
+        "Os eventos têm objetos diferentes."
+      ],
+      "correctOption": 0,
+      "operacao": "Compatibilizar dois universos classificatórios sem excluir conteúdo expresso do edital",
+      "dificuldade": "media: Compatibilizar dois universos classificatórios sem excluir conteúdo expresso do edital. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "f37a35c92645f88573e26049aa3b6971ec15acdc44331b99db572f90213ed8e0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0327",
+      "alternativas": [
+        "Forma documental não altera o fato registrado.",
+        "A ficha exige condições cumulativas, incluindo a ausência indicada no levantamento e informações digitais. Um registro contraditório não é suprido pelo outro.",
+        "Não se elimina evidência para ajustar conclusão.",
+        "Quantidade de documentos não prova coerência.",
+        "Grau não é condição suficiente sozinho."
+      ],
+      "correctOption": 1,
+      "operacao": "Resolver conflito entre declaração e evidência de uma condição necessária",
+      "dificuldade": "alta: Resolver conflito entre declaração e evidência de uma condição necessária. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b95ca0aefc1f4e583c39dfbe216c1788e308f9a35d6d7fd0ab05d2d166f92feb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0328",
+      "alternativas": [
+        "A ficha prevê ouvir usuários, não excluí-los.",
+        "A seleção cabe à organização com a participação registrada. Ouvir não equivale a delegar a decisão por votação nem a alterar a capacidade técnica do produto.",
+        "Preferência não modifica desempenho físico.",
+        "Consulta não redefine finalidade ou certificação.",
+        "Participação e avaliação são complementares."
+      ],
+      "correctOption": 1,
+      "operacao": "Integrar participação e restrição técnica sem confundir consulta com delegação",
+      "dificuldade": "alta: Integrar participação e restrição técnica sem confundir consulta com delegação. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "cf06d65d05aa0e1d6839f165dddf5f6f58faf27dac702178eb423c0668eb3ffd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0329",
+      "alternativas": [
+        "Confunde evento técnico com operação de banco de dados.",
+        "Ignora a segunda janela.",
+        "Muda retroativamente a base declarada.",
+        "A regra temporal fornece duas janelas de aplicação. Migrar não muda a base da avaliação histórica. Uma avaliação posterior pode ter nova data/base sem falsear a anterior; isso distingue vigência normativa, data da avaliação e data da migração.",
+        "Perde o vínculo temporal essencial."
+      ],
+      "correctOption": 3,
+      "operacao": "Modelar três tempos distintos e preservar trilha de avaliação",
+      "dificuldade": "alta: Modelar três tempos distintos e preservar trilha de avaliação. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "751c341baa2d12cd79c032ac23d35758d9f58c1b91716d8fd3b045e76a3ed263"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0330",
+      "alternativas": [
+        "O requisito de cobertura é interno e explícito; o corpus confirma alcance ao longo do ciclo. Quantidade, data ou palavra-chave não tornam documentos provas intercambiáveis. D1,D2,D3 fornecem proposições diferentes nas hipóteses dadas.",
+        "Palavra não demonstra conteúdo.",
+        "As atividades foram distinguidas no enunciado.",
+        "Duplicação não amplia escopo.",
+        "Recência não prova fases anteriores."
+      ],
+      "correctOption": 0,
+      "operacao": "Verificar cobertura tipada de três etapas em vez de contar documentos",
+      "dificuldade": "alta: Verificar cobertura tipada de três etapas em vez de contar documentos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "2563ad96a0cd76178f0769c45aa9b1c352df1f34ef67f2471bb07662ec1218ee"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0331",
+      "alternativas": [
+        "A ficha não fornece regras documentais finas; o problema é rastreabilidade de identidade na análise técnica. Apelidos reutilizados não provam mesmo objeto, e mudança de setor não apaga identidade física ou histórico.",
+        "Recência não resolve identidade.",
+        "Nome reutilizado não prova continuidade.",
+        "Transferência não cria outro objeto.",
+        "Código não muda natureza física."
+      ],
+      "correctOption": 0,
+      "operacao": "Resolver colisão de identidade e alias temporal sem inventar cláusula documental",
+      "dificuldade": "alta: Resolver colisão de identidade e alias temporal sem inventar cláusula documental. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "0961190ce457797e138e0b8bb0a45a05d7da1480e59c2a7eeb380e0af6c06436"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0332",
+      "alternativas": [
+        "Decisão preventiva pode ter base técnica própria.",
+        "Conclusão legal e risco não são sinônimos.",
+        "Prevenção não depende dessa equivalência.",
+        "A empresa não altera norma por nomear uma coluna.",
+        "O corpus distingue o critério legal da NR-15 de avaliações técnicas auxiliares. Um limiar interno pode motivar prevenção sem provar enquadramento legal; ausência desse enquadramento tampouco prova ausência de risco. Não se fornece limite legal não registrado."
+      ],
+      "correctOption": 4,
+      "operacao": "Separar decisões preventivas e enquadramento jurídico sem bloquear uma pela outra",
+      "dificuldade": "alta: Separar decisões preventivas e enquadramento jurídico sem bloquear uma pela outra. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "19d96ac14418354e9a4ef847ad5ecb38b8b5c17d6f200402dfc045a0cdb7c337"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0333",
+      "alternativas": [
+        "O desempenho atende, mas o custo viola a restrição.",
+        "Y não reduz a estática.",
+        "A NR-17 admite medidas técnicas, organizacionais e/ou administrativas baseadas na avaliação. Neste modelo interno, X+Y custa4 e produz8×0,25×1=2 e6×1×0,5=3. Z e medidas isoladas falham em um índice; X+Z ultrapassa o orçamento. Não são limites legais.",
+        "Z excede o alvo estático.",
+        "X não reduz a carga dinâmica."
+      ],
+      "correctOption": 2,
+      "operacao": "Combinar efeitos em dois índices e verificar custo sem confundir critério interno e norma",
+      "dificuldade": "alta: Combinar efeitos em dois índices e verificar custo sem confundir critério interno e norma. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fc5f9b1ee65a07e328d0483c6d2201e95f680488ac88630b580466a267348744"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0334",
+      "alternativas": [
+        "Repete exclusão indevida por nome.",
+        "Rótulo não muda realidade.",
+        "Pertinência não demonstra conformidade.",
+        "O problema é uma falha de classificação por metadado genérico. O campo da NR-18 exige examinar a atividade real; isso torna a análise pertinente, não prova atendimento a todos os requisitos. A ficha de escopo não autoriza detalhar obrigações ausentes.",
+        "Correção cadastral não é análise completa."
+      ],
+      "correctOption": 3,
+      "operacao": "Detectar falso negativo de triagem por metadado contratual",
+      "dificuldade": "alta: Detectar falso negativo de triagem por metadado contratual. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fcce6240402e21113cc47447fa056ca99dce32ee755940893fa42190f639d96c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0335",
+      "alternativas": [
+        "Não há essa transformação documental.",
+        "Título comum não prova equivalência.",
+        "A previsão condicionada de modalidade não torna o comprovante de acesso prova de conteúdo, conclusão ou adequação. O foco é validade da agregação de evidências heterogêneas, não inventar duração ou requisito curricular.",
+        "Confunde entrada na plataforma e conclusão.",
+        "A ficha admite modalidades sob condições."
+      ],
+      "correctOption": 2,
+      "operacao": "Distinguir evidência de acesso, conteúdo e conclusão na agregação de registros",
+      "dificuldade": "alta: Distinguir evidência de acesso, conteúdo e conclusão na agregação de registros. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "63e93ad9be44f65cdb177e566aefe6b9f340d70c348f11f2f7d3831be2ec3bf4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0336",
+      "alternativas": [
+        "P5 não está autorizado para C.",
+        "P6 é acumulado em B e C e não recebe autorização para C.",
+        "A proposta com P6 em B fornece duas pessoas autorizadas por frente e usa cada uma uma só vez. As demais usam pessoa sem autorização para a frente ou acumulam uma pessoa. Capacitação e aptidão não substituem o registro formal considerado na NR-35.",
+        "P3 é acumulado em frentes simultâneas.",
+        "P1 não está autorizado para B."
+      ],
+      "correctOption": 2,
+      "operacao": "Verificar autorização por atividade, alocação exclusiva e suficiência de uma regularização",
+      "dificuldade": "muito_alta: Verificar autorização por atividade, alocação exclusiva e suficiência de uma regularização. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ef456382ccfa703c1afa448981d3b4070b0070217ac6920287051a21c11aa281"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0337",
+      "alternativas": [
+        "Reexame pode confirmar adequação.",
+        "Ignora dependências expressas.",
+        "Resultado igual não comprova processo executado.",
+        "Pelo fluxo interno, ambos os dependentes devem ser reexaminados. Z registra esse exame e pode manter o resultado com fundamento; revisão não implica mudança obrigatória. A base normativa fornece a vinculação de riscos, não esse algoritmo interno.",
+        "Confunde resultado estável com procedimento dispensável."
+      ],
+      "correctOption": 3,
+      "operacao": "Propagar mudança documental e distinguir revisão de alteração compulsória",
+      "dificuldade": "muito_alta: Propagar mudança documental e distinguir revisão de alteração compulsória. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "9768bc9f3732631d36948fc70ad2f4b04190c9c6dcf4ea7cd5288414a3530a19"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0338",
+      "alternativas": [
+        "P3/P4 não estão disponíveis no dia3 e a turma excede capacidade.",
+        "Viola disponibilidades, capacidade e recurso instrutor.",
+        "As restrições exclusivas de P1/P2, P3/P4 e P6 obrigam sessões nos três dias. P5 cabe com os dois do dia1, sem exceder três. Cada participante conclui oito horas antes do próprio serviço. Capacidade de turma e disponibilidades são dados internos, não números atribuídos à NR.",
+        "P6 não está disponível no dia2.",
+        "Horas de pessoas ou dias não se agregam como carga individual inexistente."
+      ],
+      "correctOption": 2,
+      "operacao": "Resolver programação de formação com janelas individuais e início de atividade",
+      "dificuldade": "muito_alta: Resolver programação de formação com janelas individuais e início de atividade. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "80d4109e176c52f722ccb122fc4be8b8bdb07ea71295afd3a6de5ad768ddf4bc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0339",
+      "alternativas": [
+        "Mudança posterior não apaga ocorrência.",
+        "Os eventos têm finalidades distintas. Deduplicar por pessoa/mês pode apagar fatos não duplicados. Afastamento posterior não apaga o acidente, saúde não se confunde com exposição e S-2230 permanece no universo do edital. Não são especificadas chaves reais do leiaute.",
+        "Recência não prova cobertura de fatos distintos.",
+        "Finalidades médicas e ambientais diferem.",
+        "Confunde organização do módulo com escopo do edital."
+      ],
+      "correctOption": 1,
+      "operacao": "Distinguir duplicidade de registro e coexistência de fatos em modelo informacional",
+      "dificuldade": "muito_alta: Distinguir duplicidade de registro e coexistência de fatos em modelo informacional. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "6b829c64e071267c029732bd7b4bf96154155c86a106a8fa04e0cb7da1d106fd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0340",
+      "alternativas": [
+        "Escopo setorial não substitui máquina e espaço.",
+        "C depende de A e faltaria terceiro analista.",
+        "Não exige serializar A e B.",
+        "Viola a precedência e a duração de A posterior.",
+        "A cadeia A→C dura9 e fornece limite inferior. A e B paralelas ocupam os dois analistas; após4, o de A executa C até9, enquanto B termina7. Portanto9 é alcançável e mínimo; folga10−9=1. As dependências e recursos são internos, com campos normativos confirmados nas fichas."
+      ],
+      "correctOption": 4,
+      "operacao": "Combinar precedência, recurso limitado e coexistência de campos normativos",
+      "dificuldade": "muito_alta: Combinar precedência, recurso limitado e coexistência de campos normativos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "cbbf400e8af6a6ae000096d4751b0f2ed756ed9ea1d975305ea301fa59590406"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0341",
+      "alternativas": [
+        "Viola a regra interna de um prestador.",
+        "Transfere indevidamente ônus.",
+        "X daria6+150×0,080=18mil, mas viola capacidade100. Y custa3+16,5=19,5; Z5+13,5=18,5, menor admissível. Déficit0,5mil cabe à organização; a NR-07 atribui o custeio sem ônus ao empregado. Não se presume equivalência clínica além da hipótese expressa.",
+        "Não minimiza entre elegíveis.",
+        "Desconsidera capacidade."
+      ],
+      "correctOption": 2,
+      "operacao": "Filtrar capacidade, comparar custo fixo/variável e identificar responsável pelo déficit",
+      "dificuldade": "muito_alta: Filtrar capacidade, comparar custo fixo/variável e identificar responsável pelo déficit. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "a22dde1a2b7342e9b8e7dc7c31e373fbabe790a25f3af95c2c768b66ab8829a8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0342",
+      "alternativas": [
+        "Ignora a interação desfavorável comprovada.",
+        "A seleção participativa não elimina os requisitos de proteção. A soma de desempenhos isolados falha para A porque há incompatibilidade demonstrada; C não cobre Y. B permite investigar ajuste e adequação final, sem presumir aprovação automática.",
+        "Não se demonstrou impossibilidade de ajuste.",
+        "Aprovação de uma peça não satisfaz o conjunto requerido.",
+        "Não cobre todos os perigos."
+      ],
+      "correctOption": 1,
+      "operacao": "Comparar cobertura, interação entre peças e ajustabilidade sem delegar responsabilidade",
+      "dificuldade": "muito_alta: Comparar cobertura, interação entre peças e ajustabilidade sem delegar responsabilidade. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "01f9a89305429b62e34e432cd34c26c969827e334e7e01b851226befc9376d18"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0343",
+      "alternativas": [
+        "O ponto fixo descreve aquele ambiente, mas não todos os locais e tempos ocupados. Para inferir exposição, é necessário representar a trajetória pertinente, sem presumir que toda medição fixa seja inútil ou que o máximo dure toda a jornada.",
+        "Introduz permanência fictícia no pior ponto.",
+        "Cabine não implica concentração nula.",
+        "Generaliza a limitação para inutilidade.",
+        "Não incorpora deslocamentos e tempos."
+      ],
+      "correctOption": 0,
+      "operacao": "Relacionar representatividade espacial de leitura e mobilidade do trabalhador",
+      "dificuldade": "media: Relacionar representatividade espacial de leitura e mobilidade do trabalhador. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7c3931963325643f44373907af7ff75e7e42e761596983cd56bbe73a4d883ef5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0344",
+      "alternativas": [
+        "Desconsidera a pressão total.",
+        "Inverte a proporcionalidade.",
+        "Desloca uma casa decimal.",
+        "Confunde fração adimensional e pressão.",
+        "p_i=0,02×100=2 e0,02×200=4 kPa. Igual composição não significa igual pressão parcial quando a pressão total muda."
+      ],
+      "correctOption": 4,
+      "operacao": "Relacionar composição e pressão parcial sem confundir unidades",
+      "dificuldade": "media: Relacionar composição e pressão parcial sem confundir unidades. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "aa4f7dac5b16fcd715c6da08e62110358ee1509bf8f82f8d9d2e73da3fd40cf4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0345",
+      "alternativas": [
+        "Não detectar no procedimento com capacidade declarada de5 não exclui valores entre2 e5. O resultado não dá zero, valor exato ou metade do limite.",
+        "Limite não é leitura pontual.",
+        "Metade não foi estimada pelo procedimento.",
+        "Existe faixa não resolvida relevante.",
+        "Ausência de detecção não é ausência absoluta."
+      ],
+      "correctOption": 0,
+      "operacao": "Comparar capacidade analítica e limiar decisório",
+      "dificuldade": "media: Comparar capacidade analítica e limiar decisório. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ebd0b2cc48b591bc0469b4ad716e34b74c2979286f2bea97c6e6f3ef451f17ae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0346",
+      "alternativas": [
+        "Aplica perdas novamente em vez de corrigi-las.",
+        "Corrige só a extração.",
+        "Soma de perdas não representa o produto das eficiências.",
+        "Corrige só a coleta.",
+        "12=m×0,80×0,75=0,60m, logo m=20 μg. É necessário desfazer duas perdas sucessivas, não somar percentuais."
+      ],
+      "correctOption": 4,
+      "operacao": "Reconstituir massa após perdas sequenciais independentes do modelo",
+      "dificuldade": "alta: Reconstituir massa após perdas sequenciais independentes do modelo. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fc206d6767d24863a262f9a3192058d2f264846708961271b5af6131fbe67719"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0347",
+      "alternativas": [
+        "Potência total não é intensidade local.",
+        "Aplica fator20 à razão de intensidades.",
+        "Inverte o sentido.",
+        "Usa metade em vez de um quarto da intensidade.",
+        "A potência se conserva, mas a intensidade cai a1/4;10log10(1/4)=−6,02 dB. O modelo explicita campo livre, sem extrapolar para ambientes refletivos."
+      ],
+      "correctOption": 4,
+      "operacao": "Aplicar conservação de potência e escala logarítmica de intensidade",
+      "dificuldade": "alta: Aplicar conservação de potência e escala logarítmica de intensidade. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ff284edc5199e7e6cf11eb8d0275f84d07760dc892a0ed2c7f7fc6d98d79671e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0348",
+      "alternativas": [
+        "Não corresponde à ponderação das vazões.",
+        "Multiplica caminhos paralelos como se fossem série.",
+        "Ignora o desvio.",
+        "Ignora a penetração pelo filtro.",
+        "A fração total é0,98×0,01+0,02×1=0,0298=2,98%. A eficiência do material não descreve o conjunto com desvio."
+      ],
+      "correctOption": 4,
+      "operacao": "Combinar penetração filtrada e fuga paralela por balanço de massa",
+      "dificuldade": "alta: Combinar penetração filtrada e fuga paralela por balanço de massa. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "c1182478ed453084902d35756d4bc62922ee9b88f19d389df754d37d0d80b3c6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0349",
+      "alternativas": [
+        "Qp=20×90/100×273/300=16,38 L/min. A base de volume deve ser coerente com a usada na concentração, sem confundir vazões real e padrão.",
+        "Corrige pressão, mas não temperatura.",
+        "Ignora ambas as correções.",
+        "Inverte os dois fatores.",
+        "Corrige temperatura no sentido contrário e omite pressão."
+      ],
+      "correctOption": 0,
+      "operacao": "Compatibilizar pressão, temperatura e base volumétrica",
+      "dificuldade": "alta: Compatibilizar pressão, temperatura e base volumétrica. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "c743d2b2ede53c4888cc7019a777e695e92070366fb2841df2318aa6629c1f4f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0350",
+      "alternativas": [
+        "Erra o volume ou uma casa decimal.",
+        "Mantém o valor inicial sem renovação.",
+        "Esquece multiplicar pela concentração inicial.",
+        "Supõe queda linear não dada.",
+        "C0=200/100=2 mg/m³ eQt/V=1. Assim C=2×0,368=0,736. Não há geração contínua após o pulso."
+      ],
+      "correctOption": 4,
+      "operacao": "Separar concentração inicial e decaimento exponencial após emissão finita",
+      "dificuldade": "alta: Separar concentração inicial e decaimento exponencial após emissão finita. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7d55742ec5bb0bb801c2bd3ebc704c7dbb57a4072ad70904b5a58d438fd4e662"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0351",
+      "alternativas": [
+        "Combina dados de tarefas diferentes.",
+        "Média de concentrações não atribui contribuições.",
+        "As contribuições são40×1=40 e2×7=14. A primeira domina a integral, embora seja mais curta. O valor não é uma média em oito horas.",
+        "Confunde contribuição integrada com parcela da média.",
+        "Compara duração em vez do produto."
+      ],
+      "correctOption": 2,
+      "operacao": "Comparar contribuição integrada e duração sem supor que a tarefa longa domina",
+      "dificuldade": "alta: Comparar contribuição integrada e duração sem supor que a tarefa longa domina. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "4f702fa42864cc69fd10768e4c4d3a6da448d5ed87889aa3d0bdc1b61a1875cd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0352",
+      "alternativas": [
+        "Não reduz repetibilidade pela média.",
+        "Omite repetibilidade.",
+        "Omite resolução.",
+        "A contribuição de repetibilidade da média é2/√4=1. A de resolução é2/√12≈0,577. Combinada√(1²+0,577²)≈1,155, sem reduzir novamente a resolução. O modelo define expressamente as hipóteses.",
+        "Soma desvios aritmeticamente em vez de variâncias."
+      ],
+      "correctOption": 3,
+      "operacao": "Separar média de repetições e contribuição de resolução não reduzível no modelo",
+      "dificuldade": "alta: Separar média de repetições e contribuição de resolução não reduzível no modelo. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "9853a8bf3ca319a7d5a756848a6df59f5fdb8a87f85a12ae2e87d9a98ccaa25d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0353",
+      "alternativas": [
+        "Cada janela que contém todo o pulso inclui1 segundo a100 e3 a0; a média é100/4=25. O processamento pode reduzir a amplitude exibida sem reduzir o pulso físico.",
+        "Usa janela de dois segundos.",
+        "O pulso participa das janelas.",
+        "Soma em vez de calcular média.",
+        "Confunde sinal original e filtrado."
+      ],
+      "correctOption": 0,
+      "operacao": "Interpretar processamento temporal e pico físico",
+      "dificuldade": "alta: Interpretar processamento temporal e pico físico. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "50bef8dfecd34843724d9d8ec2ad45362cb20b71d25cd01c12c6199f215983a5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0354",
+      "alternativas": [
+        "Supõe concentração inicial da segunda etapa igual ao equilíbrio2.",
+        "Aos10min C=2(1−0,368)=1,264. Nos10min seguintes decai:1,264×0,368=0,465152. Não se mantém a emissão na segunda etapa.",
+        "Mantém a fonte por vinte minutos.",
+        "Interrompe o cálculo no fim da emissão.",
+        "Confunde equilíbrio com estado transitório."
+      ],
+      "correctOption": 1,
+      "operacao": "Encadear acumulação com geração e posterior remoção sem geração",
+      "dificuldade": "muito_alta: Encadear acumulação com geração e posterior remoção sem geração. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3a03628d0b935c323ccca348c2cb7c1f570b43a615f1fadc58c773b438096ad0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0355",
+      "alternativas": [
+        "Usa diluição por quatro em vez de cinco e retira20.",
+        "Combina leitura diluída com interferente não diluído.",
+        "Não retira a interferência.",
+        "Subtrai Cy inteira, não sua sensibilidade.",
+        "A diluição é cinco vezes: Roriginal equivalente=18×5=90. A contribuição do interferente original é0,5×40=20. Cx=90−20=70. A linearidade foi usada no gás diluído, não no sinal saturado original."
+      ],
+      "correctOption": 4,
+      "operacao": "Desfazer diluição definida por partes e separar interferência com bases coerentes",
+      "dificuldade": "muito_alta: Desfazer diluição definida por partes e separar interferência com bases coerentes. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "df006d152209e7801fe904eaeb5ca9cbb808dbfaaed78fcc6f8eb8ea6f2374cc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0356",
+      "alternativas": [
+        "Confunde máximo de setor e média por pessoa.",
+        "Inverte os pesos populacionais.",
+        "Exclui grupo pertencente à população.",
+        "Pesos populacionais0,9 e0,1 dão0,9×2+0,1×20=3,8. A média simples11 dá metade do peso a um setor com só10% da população.",
+        "O desenho não é autoponderado por trabalhador."
+      ],
+      "correctOption": 3,
+      "operacao": "Reconhecer amostragem desproporcional e reconstruir o estimando populacional",
+      "dificuldade": "muito_alta: Reconhecer amostragem desproporcional e reconstruir o estimando populacional. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "f3ed04fb13d1c340fb4140b382f1af6961a2ac0e45928e98a215abd8bce48230"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0357",
+      "alternativas": [
+        "Multiplica a fuga como se fosse remoção adicional.",
+        "Esquece o primeiro estágio.",
+        "Desconsidera fuga no segundo estágio.",
+        "O segundo estágio deixa passar0,9×0,1+0,1=0,19 do que recebe. A série dá0,2×0,19=0,038. A fuga não contorna o primeiro estágio.",
+        "Soma fração de fuga original com série filtrada, embora a fuga já passe pelo primeiro."
+      ],
+      "correctOption": 3,
+      "operacao": "Combinar estrutura série-paralelo e posição física de uma fuga",
+      "dificuldade": "muito_alta: Combinar estrutura série-paralelo e posição física de uma fuga. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "5b58febc958b903e10e8168d9de0a7ebd4c78aa8d23f83cd77490cbaff64cab7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0358",
+      "alternativas": [
+        "Zero está abaixo do fundo e não é atingível por essa purga.",
+        "4=2+8exp(−0,2t) exige exp=1/4, t=ln4/0,2=6,93. O limite é Cin=2, não zero. O valor é resultado do modelo, não prazo legal de entrada.",
+        "Usa reposição limpa indevidamente.",
+        "Acerta tempo mas ignora fundo.",
+        "Divide ln4 por0,4 em vez de0,2."
+      ],
+      "correctOption": 1,
+      "operacao": "Resolver limiar transitório e avaliar o limite físico da renovação",
+      "dificuldade": "muito_alta: Resolver limiar transitório e avaliar o limite físico da renovação. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "be31c8db3f5a2db20de430b8efb724659be7694d575c994fcd3c7e3cc79ea06e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0359",
+      "alternativas": [
+        "A variância é(4+4+6)/4=3,5. Sem covariância seria8/4=2. Igualdade das leituras não elimina fontes comuns de erro.",
+        "Concordância não prova ausência de incerteza.",
+        "Não aplica o divisor da média corretamente.",
+        "Omite termo de covariância.",
+        "Confunde redução da variância e do desvio-padrão e supõe independência."
+      ],
+      "correctOption": 0,
+      "operacao": "Propagar correlação e distinguir concordância de precisão independente",
+      "dificuldade": "muito_alta: Propagar correlação e distinguir concordância de precisão independente. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3fd15775bb7e936aef1c4bffa21be1461f751ce79ffc19082d33894f3cf1a01c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0360",
+      "alternativas": [
+        "Condicionais não são necessariamente nulas.",
+        "As representações são equivalentes.",
+        "A condicional informa resposta da barreira quando já há incêndio; não fornece frequência ou probabilidade do evento condicionante. A marginal precisa de informação própria.",
+        "O dado diz10%, não certeza.",
+        "A soma proposta ultrapassa a definição de probabilidade."
+      ],
+      "correctOption": 2,
+      "operacao": "Distinguir evento condicionante e desempenho condicionado",
+      "dificuldade": "media: Distinguir evento condicionante e desempenho condicionado. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "9634c2f28ee59bf6349711a3c3f5c8dc803bd515d690a771440d4f4854e9940d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0361",
+      "alternativas": [
+        "Condicionar um colisor pode induzir associação.",
+        "Selecionar um efeito comum pode induzir dependência entre suas causas no subconjunto. O mecanismo de seleção precisa entrar na interpretação; associação selecionada não estabelece direção causal.",
+        "Excluir a informação oculta o viés.",
+        "Independência prévia não justifica causalidade inversa.",
+        "Associação não determina direção."
+      ],
+      "correctOption": 1,
+      "operacao": "Reconhecer viés de seleção por um efeito comum",
+      "dificuldade": "media: Reconhecer viés de seleção por um efeito comum. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "863872b050fd10f6fd3208e1ce1cc53f0cb6725deb657abedd893ab1daf9671e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0362",
+      "alternativas": [
+        "Normalização não identifica o que faltou.",
+        "Exclusividade não implica equiprobabilidade.",
+        "Não há base para atribuir a lacuna.",
+        "Uma partição probabilística completa soma1. O valor0,80 exige investigar cenários omitidos, bases ou estimativas; normalizar altera o modelo e não prova completude.",
+        "Quantidade de cenários não muda a soma."
+      ],
+      "correctOption": 3,
+      "operacao": "Verificar coerência entre hipóteses de partição e probabilidades",
+      "dificuldade": "media: Verificar coerência entre hipóteses de partição e probabilidades. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "d8ea16bcdbd4a30ca5739bd621b9ebbe6ae000237f5e7729df21a61e6e7641d2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0363",
+      "alternativas": [
+        "A função define o desempenho requerido.",
+        "Documento não altera condições físicas.",
+        "Extrapola sem avaliar variável relevante.",
+        "Não há monotonicidade universal favorável.",
+        "A pressão influencia fisicamente a força de atuação. A validade externa do ensaio depende de representar ou justificar a condição de demanda, não de sua aprovação formal isolada."
+      ],
+      "correctOption": 4,
+      "operacao": "Julgar representatividade de teste por mecanismo físico de demanda",
+      "dificuldade": "alta: Julgar representatividade de teste por mecanismo físico de demanda. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "321cf8f9378169bde6b5550f9770666c0e86f9ac5aaad123bb70f25615e91a1b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0364",
+      "alternativas": [
+        "0,20×0,10+0,80×0,01=0,028 por ano. As taxas se referem a tempo de permanência em cada modo, e não a dois anos completos sobrepostos.",
+        "Multiplica taxas em vez de ponderar tempos.",
+        "Soma taxas como se cada modo ocupasse o ano inteiro.",
+        "Inverte os pesos dos modos.",
+        "Usa pesos iguais."
+      ],
+      "correctOption": 0,
+      "operacao": "Compatibilizar taxas condicionais por modo e exposição temporal",
+      "dificuldade": "alta: Compatibilizar taxas condicionais por modo e exposição temporal. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "0ea72877cd48ce90a5887f2bf106624aaec030a3301a6dc240f647300b152d56"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0365",
+      "alternativas": [
+        "Inverte ordem de objetivos.",
+        "C é inadmissível. Entre A,B,D, a menor pior perda100 restringe a A/B; custos5 empatam e as horas2 de B vencem4 de A. Não há soma ponderada nem prioridade implícita.",
+        "Ignora admissibilidade.",
+        "O terceiro critério foi explicitamente previsto.",
+        "Não existe desempate por ordem de apresentação."
+      ],
+      "correctOption": 1,
+      "operacao": "Filtrar admissibilidade e percorrer três critérios lexicográficos",
+      "dificuldade": "alta: Filtrar admissibilidade e percorrer três critérios lexicográficos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fb8be41ad8d63c414ff89bfea4528c89a600814abac39e1ee3a54b49fe55ff26"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0366",
+      "alternativas": [
+        "Confunde taxa e probabilidade.",
+        "Troca mecanismo.",
+        "Quantidade de causas não implica simetria.",
+        "Soma é taxa total, não probabilidade da causa A.",
+        "A fração é0,02/0,05=0,4. Taxa tem dimensão inversa de tempo; a probabilidade de qual mecanismo vence a competição não é obtida chamando a taxa de porcentagem."
+      ],
+      "correctOption": 4,
+      "operacao": "Distinguir taxa, competição e probabilidade de primeira causa",
+      "dificuldade": "alta: Distinguir taxa, competição e probabilidade de primeira causa. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "6f5b5ecd5fc13f656f7999d6872e02f8b2ee699b1f9641c8a07f9e276f44779b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0367",
+      "alternativas": [
+        "Usa aproximação como igualdade.",
+        "Informa sobrevivência em vez de falha.",
+        "Trata taxa como probabilidade.",
+        "Não corresponde ao complemento.",
+        "A probabilidade de não sobreviver às duas horas é1−0,819=0,181. A taxa por hora não é diretamente probabilidade e a aproximação λt não é o valor exato do modelo."
+      ],
+      "correctOption": 4,
+      "operacao": "Relacionar duração de missão, sobrevivência e complemento",
+      "dificuldade": "alta: Relacionar duração de missão, sobrevivência e complemento. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "0f1ef74bda22a7a0f39d048f4dcbaebc369e92ab65fd9143de782a80ffd90ccc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0368",
+      "alternativas": [
+        "Multiplica tentativas como se ambas precisassem funcionar.",
+        "Conta sucesso tardio como oportuno.",
+        "A probabilidade no prazo não pode superar a eventual.",
+        "Sucesso eventual=0,8+0,2×0,5=0,9. O segundo sucesso chega após3s, logo só a primeira tentativa evita o dano:0,8. Sucesso funcional tardio não equivale à proteção no prazo.",
+        "Ignora o sucesso inicial na eventual."
+      ],
+      "correctOption": 3,
+      "operacao": "Separar recuperação funcional eventual e resposta antes do tempo-limite",
+      "dificuldade": "alta: Separar recuperação funcional eventual e resposta antes do tempo-limite. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "2ce4c9f780ded93bb8c1f2219e8111debc478e499d6d3ca552357cb3e8c1fade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0369",
+      "alternativas": [
+        "Omite exame e dano residual.",
+        "Não resulta da soma de custos e perdas dada.",
+        "A informação permite política de custo menor neste modelo.",
+        "Omite dano residual.",
+        "Sem exame, intervir custa10 e não intervir perde0,1×100=10. Com exame, positivos0,1×0,8+0,9×0,1=0,17 custam1,7; falsos negativos0,1×0,2 geram2 de perda; exame1. Total4,7 e economia5,3."
+      ],
+      "correctOption": 4,
+      "operacao": "Comparar políticas com teste imperfeito, custo de ação e falsos negativos",
+      "dificuldade": "muito_alta: Comparar políticas com teste imperfeito, custo de ação e falsos negativos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "e0f0da8ba2995f9b6807a713e0820b6fb3d5a298fadf2bb1dd9b3732a3126e44"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0370",
+      "alternativas": [
+        "Não desconta a interseção tripla.",
+        "Fatora-se B∩(A∪C):0,2×(0,1+0,3−0,1×0,3)=0,074. Somar os dois cortes sem descontar ABC produz0,08 e dupla contagem.",
+        "Conta apenas BC.",
+        "Trata cortes dependentes como independentes.",
+        "Calcula só ABC."
+      ],
+      "correctOption": 1,
+      "operacao": "Reduzir expressão booleana e calcular união com componente compartilhado",
+      "dificuldade": "muito_alta: Reduzir expressão booleana e calcular união com componente compartilhado. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b2190b50b561d3405affcf53d071ae592e313e8efb36be05a969760289ee9603"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0371",
+      "alternativas": [
+        "Calcula incorretamente a ocupação de D no segundo ciclo.",
+        "Após1:(G,D,F)=(0,8;0,2;0). Após2:(0,74;0,24;0,02). Após3, F=0,02+0,24×0,1=0,044. O estado falho conserva a massa acumulada; a comparação0,044≤0,05 atende apenas ao modelo e horizonte internos.",
+        "Ignora a evolução da distribuição entre os estados.",
+        "Não conserva falha absorvente.",
+        "Usa transição de D como probabilidade desde G."
+      ],
+      "correctOption": 1,
+      "operacao": "Propagar estados de degradação e acumular primeira falha em horizonte finito",
+      "dificuldade": "muito_alta: Propagar estados de degradação e acumular primeira falha em horizonte finito. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "28e46c6c597a24871bbaf8d5fbcb59ceac02d728ad9e1738fb0443257a1049c7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0372",
+      "alternativas": [
+        "Há contribuição0,00009 nos demais dias.",
+        "P(dupla)=0,1×0,2²+0,9×0,01²=0,00409. Cada marginal é0,029, cujo produto0,000841 ignora a dependência induzida pela condição compartilhada.",
+        "Confunde conjunta e marginal.",
+        "Omite pesos dos estados.",
+        "Independência condicional não garante marginal."
+      ],
+      "correctOption": 1,
+      "operacao": "Distinguir independência condicional e dependência induzida por ambiente comum",
+      "dificuldade": "muito_alta: Distinguir independência condicional e dependência induzida por ambiente comum. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "6a15695be1ded4444efd15c287ae8c61d7b8664e3a260a7b05abb583b3876af0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0373",
+      "alternativas": [
+        "X viola0,02. Y eZ são admissíveis; E(Y)=0,99×10+0,01×100=10,9 e E(Z)=0,98×5+0,02×100=6,9. A regra admite igualdade ao limite.",
+        "Y também atende; igualdade não reprova.",
+        "As probabilidades diferem e X viola o critério.",
+        "Descarta a restrição obrigatória.",
+        "Troca minimização da esperança pela da cauda."
+      ],
+      "correctOption": 0,
+      "operacao": "Aplicar primeiro admissibilidade por cauda e depois otimização da esperança",
+      "dificuldade": "muito_alta: Aplicar primeiro admissibilidade por cauda e depois otimização da esperança. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fd78ac51912aeb33769ed249130191560e3d6792e99c2f2dc499914e4c2c5af5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0374",
+      "alternativas": [
+        "2+8p=5−2p dá10p=3, p=0,3. Em0,2:RX3,6<RY4,6; em0,4:RX5,2>RY4,2. A incerteza cruza a mudança de preferência.",
+        "Extrapola do extremo1.",
+        "O empate ocorre só em um ponto.",
+        "Extrapola a partir de ponto fora do intervalo.",
+        "Resolve incorretamente a igualdade."
+      ],
+      "correctOption": 0,
+      "operacao": "Encontrar ponto de troca e testar robustez sob intervalo de parâmetro",
+      "dificuldade": "muito_alta: Encontrar ponto de troca e testar robustez sob intervalo de parâmetro. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "35c4d7b097355bec8212040ae49bf19f9b9f3648ba79bfeed0ab36e257e6e379"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0375",
+      "alternativas": [
+        "Soma pagamentos novamente aos contratos que já os incluem.",
+        "Confunde saldo contratual a pagar com saldo orçamentário.",
+        "Considera apenas pagamentos e ignora compromissos.",
+        "Compromissos consomem80 dos100 aprovados; disponível para novos compromissos20. Os30 pagos pertencem aos80, não são compromisso adicional nem liberam os50 ainda a pagar.",
+        "Ignora compromissos existentes."
+      ],
+      "correctOption": 3,
+      "operacao": "Separar aprovação, comprometimento e pagamento sem dupla contagem",
+      "dificuldade": "media: Separar aprovação, comprometimento e pagamento sem dupla contagem. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fc53dcb40c591f1e37c576d477f0029f1eee5be319b79c5ffdc61bd7a9aa6285"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0376",
+      "alternativas": [
+        "Inverte o sinal das saídas.",
+        "Exclui as entradas.",
+        "O balanço é40+15−20=35. Estoque e fluxos são grandezas diferentes, e a consistência exige registrar ambos os fluxos.",
+        "Exclui as saídas.",
+        "Perde estoque inicial."
+      ],
+      "correctOption": 2,
+      "operacao": "Reconciliar estoque de ações com fluxos de abertura e encerramento",
+      "dificuldade": "media: Reconciliar estoque de ações com fluxos de abertura e encerramento. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "30a8e1f2fb1ec6ae919ae35afb3fb8c52b7d9830996d1fa1a8e7d6d78e02ac48"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0377",
+      "alternativas": [
+        "Tempo já decorrido não é zero.",
+        "Não há direção universal em qualquer conjunto.",
+        "Confunde subconjunto concluído e carteira.",
+        "Trocar medida-resumo não recupera registros omitidos.",
+        "A data de encerramento seleciona quem entra no cálculo. Ações persistentes abertas não têm tempo final observado; a métrica das concluídas não representa automaticamente toda a carteira."
+      ],
+      "correctOption": 4,
+      "operacao": "Identificar viés de seleção e censura em indicador de duração",
+      "dificuldade": "alta: Identificar viés de seleção e censura em indicador de duração. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ef4263893de584bb34dcd26199b46586f9e15f8ecf6b6954be6f789fd33a337a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0378",
+      "alternativas": [
+        "Compatibilidade continua relevante.",
+        "Cópias não demonstram leitura dos dados atuais.",
+        "Apagar dados não demonstra restauração do serviço e do histórico.",
+        "Retornar o programa não basta quando o estado persistido mudou de modo incompatível. O teste deve considerar código e dados sem pressupor apagamento como solução aceitável.",
+        "Nome não resolve formato."
+      ],
+      "correctOption": 3,
+      "operacao": "Analisar reversibilidade conjunta de software e estado persistente",
+      "dificuldade": "alta: Analisar reversibilidade conjunta de software e estado persistente. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "607d8810a7d522aac5f3fbcfbc9b7b8b1d883084a9c35e05ce4ac54e5ea9e221"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0379",
+      "alternativas": [
+        "As demandas não são uniformes no tempo informado.",
+        "Média temporal não representa condicionamento por demanda.",
+        "A indisponibilidade concentrada no período de demanda invalida a transferência direta da média temporal anual para probabilidade de proteção na demanda. É necessário o alinhamento dos perfis.",
+        "Não resolve a coincidência temporal.",
+        "Não ocorrência de dano não mede disponibilidade em cada demanda."
+      ],
+      "correctOption": 2,
+      "operacao": "Distinguir disponibilidade temporal e disponibilidade no momento da demanda",
+      "dificuldade": "alta: Distinguir disponibilidade temporal e disponibilidade no momento da demanda. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "20104b126a752285cc5805534ba0cdb246575126a7dd4ffcd534189454a7c382"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0380",
+      "alternativas": [
+        "O caminho crítico éA+B+D+E=2+5+2+1=10. C termina antes de B e não acrescenta duração, pois dispõe de equipe própria. Folga12−10=2.",
+        "Omite teste ou liberação e parte da preparação.",
+        "Soma B e C apesar do paralelismo autorizado.",
+        "Omite uma etapa de duas horas.",
+        "Não corresponde ao maior caminho completo."
+      ],
+      "correctOption": 0,
+      "operacao": "Construir precedências e diferenciar paralelismo de soma de durações",
+      "dificuldade": "muito_alta: Construir precedências e diferenciar paralelismo de soma de durações. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ad6fe65e58935782b680a3cb7f975fb3944a17a4488a91b3c5083cfa6a5984d7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0381",
+      "alternativas": [
+        "A já atende e as outras seguem abaixo.",
+        "B continua17/20.",
+        "C fica26/30, abaixo de27/30.",
+        "C continua25/30.",
+        "A já atinge90%. B precisa de18/20, mais1 conclusão(2h). C precisa27/30, mais2(2h). O plano soma4h e atende ambos. Melhorar só uma unidade ou parar C em26/30 não satisfaz a restrição local."
+      ],
+      "correctOption": 4,
+      "operacao": "Calcular mínimos inteiros por unidade e alocar recurso com custos distintos",
+      "dificuldade": "muito_alta: Calcular mínimos inteiros por unidade e alocar recurso com custos distintos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3ef79811a1349b5f68374694d3f7ff3e114eec94f59594ce5c6a59c72230fcb2"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0382",
+      "alternativas": [
+        "Elimina episódios explicitamente contados.",
+        "Inverte unidades.",
+        "Multiplica pessoas sem base.",
+        "Soma categorias distintas como novos acidentes.",
+        "O evento originário é único, enquanto a definição dada admite três episódios de afastamento. Pessoas, eventos e episódios não são unidades intercambiáveis; não se trata de regra de lançamento previdenciário."
+      ],
+      "correctOption": 4,
+      "operacao": "Distinguir evento, pessoa e episódio em duas métricas definidas",
+      "dificuldade": "media: Distinguir evento, pessoa e episódio em duas métricas definidas. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b793e413a3c4e1fb4a12e3401847e0d6946d0dfbe7aca87e2b7c44563d3cd7c1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0383",
+      "alternativas": [
+        "Compara leituras brutas de relógios diferentes.",
+        "Queda padrão=10:00:10−30s=09:59:40. Comando padrão=09:59:30+20s=09:59:50. A queda ocorre10s antes do comando.",
+        "Inverte a ordem após corrigir.",
+        "As correções deixam dez segundos de diferença.",
+        "Soma deslocamentos sem reconstruir instantes."
+      ],
+      "correctOption": 1,
+      "operacao": "Reconstruir cronologia com relógios deslocados em sentidos opostos",
+      "dificuldade": "alta: Reconstruir cronologia com relógios deslocados em sentidos opostos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7ba4e431be5f27efb4729ffd8561d9822ea156feb4758428aaae61780d2d5dc6"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0384",
+      "alternativas": [
+        "Uma causa iniciadora não pode ocorrer depois do efeito neste enunciado.",
+        "Eliminar uma hipótese não identifica outra.",
+        "Amplia a conclusão para fatos não observados.",
+        "O comando registrado vem depois do efeito alegado. Isso contraria essa hipótese específica; não prova uma causa alternativa nem ausência universal de registros desconhecidos.",
+        "Ordem de escrita não invalida calibração temporal."
+      ],
+      "correctOption": 3,
+      "operacao": "Usar cronologia corrigida para refutar hipótese sem exceder a evidência",
+      "dificuldade": "alta: Usar cronologia corrigida para refutar hipótese sem exceder a evidência. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "addb5db75b352afd09b97f82affe823581a1e4178fdfa1ba62c98629bd96f541"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0385",
+      "alternativas": [
+        "Admite apenas uma das duas possíveis confirmações.",
+        "Ignora oito confirmações firmes.",
+        "Não aplica denominador e escala.",
+        "O mínimo é8/200000×10⁶=40; se as duas forem confirmadas,10/200000×10⁶=50. As oito já confirmadas não podem desaparecer pela incerteza restante.",
+        "Desloca indevidamente o mínimo."
+      ],
+      "correctOption": 3,
+      "operacao": "Propagar classificação pendente para limites de indicador sem estimar probabilidade",
+      "dificuldade": "alta: Propagar classificação pendente para limites de indicador sem estimar probabilidade. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "db0895663442418d75ba9474c4d3cca31d9cc47a67f2e76b3d9c883345b67244"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0386",
+      "alternativas": [
+        "Tratada10→6: mudança−4. Comparadora8→7: mudança−1. Diferença=−4−(−1)=−3 por100milh. O cálculo usa denominadores distintos; a interpretação causal é condicionada às hipóteses, que os números sozinhos não demonstram.",
+        "Erra o sinal ao descontar a tendência comparadora.",
+        "É a mudança bruta da tratada.",
+        "Compara contagens sem horas e sem antes/depois.",
+        "É a mudança da comparadora, não o contraste."
+      ],
+      "correctOption": 0,
+      "operacao": "Converter quatro taxas e construir contraste causal condicionado ao modelo",
+      "dificuldade": "muito_alta: Converter quatro taxas e construir contraste causal condicionado ao modelo. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "5215c6ab5a7b757d298990e6e51086afd9b5cf99ee0aeafcc8f95b2c002dd6f1"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0387",
+      "alternativas": [
+        "O relato ordena som e percepção visual, não necessariamente início físico da abertura. O registro informa o evento em14:03; falta datar o alarme com fonte adequada ou reconhecer a incerteza. Não há base para descartar honestidade ou inventar latência.",
+        "Não foi medida a latência.",
+        "A limitação não demonstra falsidade.",
+        "Confunde evento e percepção.",
+        "Extrapola ordem percebida para início não observado."
+      ],
+      "correctOption": 0,
+      "operacao": "Conciliar fontes distinguindo início físico, detecção e percepção humana",
+      "dificuldade": "muito_alta: Conciliar fontes distinguindo início físico, detecção e percepção humana. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "a15c21870e86e10adcf06b205877613427e04fa38d9a663ccd24b43333ace33a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0388",
+      "alternativas": [
+        "Atualização parcial deixa risco de execução indevida.",
+        "Quantidade de recursos não resolve divergência.",
+        "O problema não é só emitir o cancelamento, mas manter conhecimento operacional coerente entre destinatários. A validade inicial não garante validade após mudança de estado.",
+        "Mudança posterior altera a missão.",
+        "Repetição não é condição dada para cancelar."
+      ],
+      "correctOption": 2,
+      "operacao": "Identificar divergência de estado operacional após cancelamento parcial",
+      "dificuldade": "media: Identificar divergência de estado operacional após cancelamento parcial. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "169517c078a9cea5c81b2af2de6820bb2361a4904e5fcc4fefbdd89d5d3b8fd0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0389",
+      "alternativas": [
+        "Usa transmissão contínua.",
+        "Soma potências de estados mutuamente exclusivos.",
+        "Potência média0,2×30+0,8×5=10 W. Autonomia120Wh/10W=12h. Não se usa potência máxima contínua nem média simples dos dois estados.",
+        "Usa pesos iguais,17,5W.",
+        "Usa espera contínua."
+      ],
+      "correctOption": 2,
+      "operacao": "Calcular autonomia com perfil de uso e compatibilizar energia e potência",
+      "dificuldade": "alta: Calcular autonomia com perfil de uso e compatibilizar energia e potência. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fb7fa45aaabe7a1895a081ab4e1c886ff4e471a2f4e5edd10e6c06ab082faf6b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0390",
+      "alternativas": [
+        "Distinção nominal não é independência física.",
+        "O mesmo evento não deve ser contado como duas falhas independentes.",
+        "Há um segmento físico compartilhado. Para sua interdição total, ambas as rotas ficam indisponíveis no mesmo cenário; nomes e portas distintas não removem o ponto comum.",
+        "Ambas dependem do segmento bloqueado.",
+        "Justamente a falha comum deve ser considerada."
+      ],
+      "correctOption": 2,
+      "operacao": "Avaliar redundância pelo trajeto completo e falha de segmento compartilhado",
+      "dificuldade": "alta: Avaliar redundância pelo trajeto completo e falha de segmento compartilhado. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "536076af85fc9ceac27a25eef4aec42c6b184f94be446e33e5751defd46e2712"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0391",
+      "alternativas": [
+        "B primeiro termina2≤3; A termina2+4=6≤6. Folgas1 e0. Na ordem inversa, B termina6>3. Os prazos são absolutos a partir de0, não durações após início.",
+        "Desconsidera passagem de tempo durante B.",
+        "Reinterpreta indevidamente prazo absoluto.",
+        "B perde o prazo3.",
+        "Igualdade é permitida pelo enunciado."
+      ],
+      "correctOption": 0,
+      "operacao": "Programar missões indivisíveis com prazos absolutos distintos",
+      "dificuldade": "muito_alta: Programar missões indivisíveis com prazos absolutos distintos. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "fe14d8b74bbde929c4f9566d4a85745cc68686c1b9299e3f342fdefd1e4a378e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0392",
+      "alternativas": [
+        "Pressão e vazamento não cessam por definição.",
+        "Ainda há combustível e ignição possível.",
+        "Extinção não altera substância dessa forma.",
+        "A fonte permanece explicitamente ativa.",
+        "Extinguir a chama não equivale a interromper vazamento. Sem controle da fonte, pode persistir liberação com formação de mistura e reignição; a decisão tática depende do cenário completo."
+      ],
+      "correctOption": 4,
+      "operacao": "Distinguir controle da combustão e controle da liberação",
+      "dificuldade": "media: Distinguir controle da combustão e controle da liberação. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "3edfd2f82dee7cf140c10f133e4c3cbd55948960c1bdade16f4b533a642f88c7"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0393",
+      "alternativas": [
+        "Viola distinção de detectores.",
+        "Em10s só D1; até30s não há outro. Aos35s existem D1 em10s e D2 em35s separados25s. A janela é móvel e exige dois diferentes, não os três simultâneos.",
+        "Não exige três nem simultaneidade exata.",
+        "O algoritmo não fixa origem da janela.",
+        "Não surge segundo detector em30s."
+      ],
+      "correctOption": 1,
+      "operacao": "Aplicar janela temporal móvel e distinção entre fonte e repetição",
+      "dificuldade": "alta: Aplicar janela temporal móvel e distinção entre fonte e repetição. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "f3355423cfcf8c4e21264b2b5d31aaffc755dca245415dc388e166edfd12e1d0"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0394",
+      "alternativas": [
+        "Em A:60+30CB−30CA=0, CA−CB=2. Em B:30CA−(30+60)CB=0, CA=3CB. Logo CB1 eCA3. A troca recircula contaminante; não se supõe B limpo só porque recebe ar limpo.",
+        "Não satisfaz o balanço de B.",
+        "Usa G/30 como CA sem retorno contaminado.",
+        "Ignora transporte para B e recirculação.",
+        "Inverte níveis apesar da fonte em A."
+      ],
+      "correctOption": 0,
+      "operacao": "Resolver balanços acoplados com troca e renovação externa",
+      "dificuldade": "muito_alta: Resolver balanços acoplados com troca e renovação externa. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "2a08936bcf31855f8c2a8258ea0a5949b4aaae2162e849096dbf2c01f406a5c8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0395",
+      "alternativas": [
+        "X não alcança faixa de distância requerida.",
+        "Y tem interseção de altura72–75 e alcance35–40. X falha no alcance; Z falha na altura. A adequação é conjunta, não atendida por uma dimensão isolada.",
+        "Z não atinge altura requerida.",
+        "União de requisitos não substitui conjunção.",
+        "Cada um falha em uma dimensão obrigatória."
+      ],
+      "correctOption": 1,
+      "operacao": "Verificar interseções simultâneas em espaço de ajuste bidimensional",
+      "dificuldade": "alta: Verificar interseções simultâneas em espaço de ajuste bidimensional. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "411deb5b7697a54ec22fae420f0e31e441b52c4fdfc39bae45df10e63125d46b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0396",
+      "alternativas": [
+        "Amplia carga de memória.",
+        "Legibilidade não repõe informação ausente.",
+        "Atribuição individual não explica a lacuna da interface.",
+        "A interrupção exige reconstruir o ponto de retomada. Valores preservados não indicam necessariamente etapas já executadas; estado e próximo passo reduzem dependência de memória retrospectiva/prospectiva.",
+        "Remove informação necessária à reconstrução."
+      ],
+      "correctOption": 3,
+      "operacao": "Relacionar interrupção, estado da tarefa e erro de retomada",
+      "dificuldade": "alta: Relacionar interrupção, estado da tarefa e erro de retomada. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "b1afb61c15da92387ad5dcff53e7c2beede2adc860742f70c107f50df67b6cdd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0397",
+      "alternativas": [
+        "Resultado de um modelo não é avaliação ergonômica integral.",
+        "Atual:0,2+0,1×4=0,6. P e Q reduzem D/W de15 para7,5:0,2+0,1×3,087=0,5087. O modelo compara apontamento; não esgota visão, erros, postura ou diferenças entre usuários.",
+        "Remove indevidamente o termo fixo em P.",
+        "A relação é logarítmica e contém termo fixo.",
+        "Distância e largura entram na mesma razão."
+      ],
+      "correctOption": 1,
+      "operacao": "Comparar intervenções equivalentes na razão distância/largura e limitar inferência",
+      "dificuldade": "muito_alta: Comparar intervenções equivalentes na razão distância/largura e limitar inferência. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "7fde8374f8f76f2961d690bb5e171c8544386e21f49a64dd08beb1cda0170744"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0398",
+      "alternativas": [
+        "Ausência de consequência não equivale à ausência da condição.",
+        "Sobrediagnóstico pode envolver condição verdadeira detectada que não causaria prejuízo clínico no horizonte de vida. Falso positivo é positividade sem a condição-alvo, excluída aqui pela confirmação. Não se recomenda conduta individual sem avaliação médica.",
+        "O cenário declara condição verdadeira.",
+        "O conceito não é repetição temporal do exame.",
+        "Verdade diagnóstica não prova benefício líquido de tratar."
+      ],
+      "correctOption": 1,
+      "operacao": "Distinguir verdade diagnóstica e relevância clínica no horizonte de vida",
+      "dificuldade": "media: Distinguir verdade diagnóstica e relevância clínica no horizonte de vida. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "843dcf70614dbc2c66f31b4788edd31feb806b0bd7833da502865137faddd77d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0399",
+      "alternativas": [
+        "Ignora viés de método simultâneo.",
+        "A correção de B para A subtrai, não soma.",
+        "O deslocamento é aditivo, não fator.",
+        "O deslocamento conhecido B−A=2 explica a diferença agregada10→12 sem exigir aumento biológico. Isso não prova ausência individual de mudança; a comparação requer compatibilização validada e avaliação pertinente.",
+        "Compatibilidade não é prova de estabilidade de cada pessoa."
+      ],
+      "correctOption": 3,
+      "operacao": "Separar mudança de escala analítica e mudança biológica sem concluir além dos dados",
+      "dificuldade": "alta: Separar mudança de escala analítica e mudança biológica sem concluir além dos dados. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "65842e5aac2e3973fa123632f9dcf627b1c007b77cbd9c0e716bddf64628f1f3"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0400",
+      "alternativas": [
+        "Retorno=100×0,80×0,75=60t; complemento virgem40t. As perdas são20t não recuperadas e20t no processamento das80t coletadas. Coleta e reciclagem são etapas distintas de um circuito, sem afirmar benefício ambiental universal.",
+        "Subtrai taxas em vez de aplicar rendimentos sequenciais.",
+        "Confunde retorno e complemento.",
+        "Aplica perda da segunda etapa à base errada e ignora coleta.",
+        "Ignora rendimento da reciclagem."
+      ],
+      "correctOption": 0,
+      "operacao": "Fechar balanço de massa em circuito e distinguir coleta de recuperação efetiva",
+      "dificuldade": "muito_alta: Fechar balanço de massa em circuito e distinguir coleta de recuperação efetiva. Classificação editorial baseada nas operações, não no comprimento.",
+      "sha256": "ba166c069d9fc7546ed5ea58cf0551110060eedad9ad67b1015bf90e298edf0d"
+    }
+  ]
+}

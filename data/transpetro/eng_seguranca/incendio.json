@@ -311,5 +311,68 @@
     "explanation": "−5 Pa é maior que−15 Pa. A diferença tende a transportar ar de A para B pela abertura nas hipóteses dadas. Não se define valor normativo de pressurização.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0392",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "chama_e_fonte_de_combustivel",
+    "difficulty": "media",
+    "statement": "Uma chama em vazamento pressurizado é apagada, mas o combustível continua escapando para ambiente com fontes de ignição possíveis. Sem recomendar uma tática universal, qual risco permanece e deve entrar na análise?",
+    "options": [
+      "Redução obrigatória da pressão a zero porque a chama foi retirada.",
+      "Impossibilidade física de reignição depois da primeira extinção.",
+      "Transformação automática de todo combustível em gás inerte.",
+      "Eliminação definitiva da fonte de combustível pelo simples desaparecimento da chama.",
+      "Acumulação/dispersão de combustível não queimado e possível reignição."
+    ],
+    "answer": 4,
+    "explanation": "Extinguir a chama não equivale a interromper vazamento. Sem controle da fonte, pode persistir liberação com formação de mistura e reignição; a decisão tática depende do cenário completo.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0393",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "detectores_e_zonas_de_confirmacao",
+    "difficulty": "alta",
+    "statement": "Um algoritmo interno dispara alarme confirmado se ao menos dois detectores diferentes atuarem em qualquer janela móvel de30s. D1 atua em0s, repete em10s; D2 atua em35s, D3 em50s. Repetições do mesmo detector não contam como dois. Quando ocorre a primeira confirmação?",
+    "options": [
+      "Em10s, usando duas atuações de D1.",
+      "Em35s, combinando D1 em10s e D2 em35s.",
+      "Nunca, pois os três não atuaram simultaneamente.",
+      "Em50s, pois a janela deve começar sempre no instante0.",
+      "Em30s, quando encerra a primeira janela sem outro detector."
+    ],
+    "answer": 1,
+    "explanation": "Em10s só D1; até30s não há outro. Aos35s existem D1 em10s e D2 em35s separados25s. A janela é móvel e exige dois diferentes, não os três simultâneos.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0394",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "balanco_de_fumaca_em_dois_ambientes",
+    "difficulty": "muito_alta",
+    "statement": "No modelo estacionário, uma sala A recebe geração de contaminante G=60 mg/min e troca30 m³/min para B, recebendo30 m³/min de B. B recebe ainda60 m³/min de ar limpo e exaure60 para fora, além da troca com A. Ambas são bem misturadas, sem outras fontes ou perdas. Quais concentrações CA e CB?",
+    "options": [
+      "3 e 1 mg/m³.",
+      "3 e 2 mg/m³.",
+      "2 e 1 mg/m³.",
+      "2 e zero mg/m³.",
+      "1 e 3 mg/m³."
+    ],
+    "answer": 0,
+    "explanation": "Em A:60+30CB−30CA=0, CA−CB=2. Em B:30CA−(30+60)CB=0, CA=3CB. Logo CB1 eCA3. A troca recircula contaminante; não se supõe B limpo só porque recebe ar limpo.",
+    "etapa": 1,
+    "lote": 6
   }
 ]

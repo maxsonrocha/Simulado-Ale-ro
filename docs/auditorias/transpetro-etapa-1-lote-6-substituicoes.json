@@ -1,0 +1,140 @@
+[
+  {
+    "id": "TP26-ENGSEG-ESP-0329",
+    "anterior": "obrigacao_contratual_e_vigencia_nr10",
+    "novo": "rastreabilidade_bitemporal_de_avaliacoes",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0330",
+    "anterior": "maquinas_e_validade_de_evidencia_de_projeto",
+    "novo": "tipagem_de_evidencias_no_ciclo_de_maquinas",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0331",
+    "anterior": "nr13_classificacao_da_norma_e_enquadramento",
+    "novo": "equipamento_e_identidade_no_prontuario",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0332",
+    "anterior": "nr15_criterio_legal_e_resultado_de_ensaio",
+    "novo": "matriz_de_criterios_e_compatibilidade_de_fontes",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0334",
+    "anterior": "nr18_e_regra_interna_documentada",
+    "novo": "fronteira_entre_obras_e_manutencao_no_cadastro",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0335",
+    "anterior": "nr20_condicoes_de_capacitacao",
+    "novo": "capacitacao_e_identificacao_da_modalidade",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0343",
+    "anterior": "sinal_positivo_e_interferencia",
+    "novo": "compartimentos_e_exposicao_acumulada",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0366",
+    "anterior": "atualizacao_de_probabilidade_por_teste",
+    "novo": "riscos_competitivos_e_primeiro_evento",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0339",
+    "anterior": "roteamento_documental_sem_sinonimos",
+    "novo": "coexistencia_de_fatos_e_eventos",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0342",
+    "anterior": "auditoria_de_fontes_e_conclusoes",
+    "novo": "selecoes_de_epi_com_restricoes_conjuntas",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0397",
+    "anterior": "coordenacao_de_dupla_e_transferencia_de_carga",
+    "novo": "velocidade_e_precisao_no_apontamento",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0336",
+    "anterior": "autorizacao_e_cobertura_de_equipes",
+    "novo": "autorizacao_e_designacao_com_restricoes",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0338",
+    "anterior": "planejamento_de_capacitacao_inicial",
+    "novo": "capacitacao_inicial_e_disponibilidade",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0340",
+    "anterior": "criterios_legais_e_criterios_do_projeto",
+    "novo": "interfaces_normativas_e_precedencias",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0341",
+    "anterior": "custeio_pcmso_e_alocacao",
+    "novo": "custeio_pcmso_e_proposta_elegivel",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0333",
+    "anterior": "avaliacao_ergonomica_e_pacote_de_medidas",
+    "novo": "medidas_ergonomicas_e_restricao_conjunta",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0352",
+    "anterior": "incerteza_de_branco_e_amostra",
+    "novo": "resolucao_e_repetibilidade_de_medicao",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0365",
+    "anterior": "objetivo_robusto_e_custo",
+    "novo": "decisao_lexicografica_com_admissibilidade",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0368",
+    "anterior": "eficacia_de_deteccao_e_acao",
+    "novo": "tentativas_de_acao_e_prazo_de_protecao",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0371",
+    "anterior": "alocacao_de_inspecoes_em_rede",
+    "novo": "evolucao_de_degradacao_e_primeira_falha",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0381",
+    "anterior": "meta_agregada_com_escopos_desiguais",
+    "novo": "meta_local_e_alocacao_de_horas",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0386",
+    "anterior": "padronizacao_de_taxas_por_exposicao",
+    "novo": "diferencas_em_diferencas_com_denominadores",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0398",
+    "anterior": "teste_de_rastreamento_e_diagnostico",
+    "novo": "sobrediagnostico_e_falso_positivo",
+    "motivo": "Substituição integral do rascunho por operação/cenário diferente, antes da gravação do banco."
+  }
+]

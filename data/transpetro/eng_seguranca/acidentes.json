@@ -477,5 +477,133 @@
     "explanation": "No piso,0=20−5t²; t²=4, t=2 s. Alcance3×2=6 m. O modelo testa compatibilidade geométrica, não identifica sozinho o mecanismo de lançamento.",
     "etapa": 1,
     "lote": 5
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0382",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "numerador_e_unidade_de_analise",
+    "difficulty": "media",
+    "statement": "Um mesmo acidente gera três afastamentos sucessivos da mesma pessoa, ligados à mesma lesão. Um indicador interno conta eventos acidentários, outro conta episódios de afastamento. Não há outros fatos no período. Qual registro respeita as definições?",
+    "options": [
+      "Um evento e um episódio, descartando os retornos.",
+      "Três eventos e um episódio.",
+      "Três eventos e três pessoas.",
+      "Quatro eventos, somando acidente e afastamentos.",
+      "Um evento e três episódios."
+    ],
+    "answer": 4,
+    "explanation": "O evento originário é único, enquanto a definição dada admite três episódios de afastamento. Pessoas, eventos e episódios não são unidades intercambiáveis; não se trata de regra de lançamento previdenciário.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0383",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "sincronizacao_de_evidencias_temporais",
+    "difficulty": "alta",
+    "statement": "Em uma investigação de queda de objeto, o relógio da câmera está adiantado 30 segundos em relação ao relógio padrão. O sistema de comando está atrasado 20 segundos. A queda aparece na câmera às 10:00:10; o comando aparece no seu sistema às 09:59:30. As diferenças dos relógios são constantes e foram verificadas independentemente. Nenhum outro evento foi identificado nesses registros.\n\nQual ordem e intervalo são obtidos após converter os dois registros para o relógio padrão?",
+    "options": [
+      "O comando precede a queda em 40 segundos.",
+      "A queda precede o comando em 10 segundos.",
+      "O comando precede a queda em 10 segundos.",
+      "Os registros representam eventos simultâneos.",
+      "A queda precede o comando em 50 segundos."
+    ],
+    "answer": 1,
+    "explanation": "Queda padrão=10:00:10−30s=09:59:40. Comando padrão=09:59:30+20s=09:59:50. A queda ocorre10s antes do comando.",
+    "etapa": 1,
+    "lote": 6,
+    "groupId": "TP26-ESP-002"
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0384",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "cronologia_e_hipotese_causal",
+    "difficulty": "alta",
+    "statement": "A hipótese diz que o comando registrado iniciou a queda observada. À luz dos horários corrigidos do cenário, qual avaliação é sustentada, sem presumir eventos não registrados?",
+    "options": [
+      "A proximidade temporal confirma o comando como iniciador, mesmo posterior à queda.",
+      "A correção dos relógios identifica automaticamente o defeito mecânico causador.",
+      "A precedência da queda prova que nunca houve qualquer comando anterior em nenhum sistema.",
+      "A sequência registrada contradiz o comando como iniciador daquela queda, embora não identifique a causa efetiva.",
+      "A ordem bruta deve prevalecer sobre a correção porque foi escrita primeiro."
+    ],
+    "answer": 3,
+    "explanation": "O comando registrado vem depois do efeito alegado. Isso contraria essa hipótese específica; não prova uma causa alternativa nem ausência universal de registros desconhecidos.",
+    "etapa": 1,
+    "lote": 6,
+    "groupId": "TP26-ESP-002"
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0385",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "perda_de_dados_e_intervalo_de_taxa",
+    "difficulty": "alta",
+    "statement": "Um controle interno possui 8 acidentes confirmados e 2 ocorrências ainda em classificação, todas distintas, em 200 mil horas. A taxa é eventos confirmáveis por milhão de horas. Considerando apenas a incerteza das duas classificações, qual intervalo possível?",
+    "options": [
+      "40 a 45 por milhão de horas.",
+      "0 a 50 por milhão de horas.",
+      "8 a 10 por milhão de horas.",
+      "40 a 50 por milhão de horas.",
+      "50 a 60 por milhão de horas."
+    ],
+    "answer": 3,
+    "explanation": "O mínimo é8/200000×10⁶=40; se as duas forem confirmadas,10/200000×10⁶=50. As oito já confirmadas não podem desaparecer pela incerteza restante.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0386",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "diferencas_em_diferencas_com_denominadores",
+    "difficulty": "muito_alta",
+    "statement": "Um estudo calcula taxas por100mil horas. Unidade com intervenção: antes20 acidentes/200milh; depois18/300milh. Comparadora sem intervenção: antes8/100milh; depois14/200milh. O modelo aditivo de diferenças em diferenças subtrai da mudança da unidade tratada a mudança da comparadora. Admitindo tendências contrafactuais paralelas e ausência de outros efeitos diferenciais, qual estimativa e limite interpretativo?",
+    "options": [
+      "−3 por100milh, sob as hipóteses causais do modelo.",
+      "−5 por100milh; deve-se somar a queda da comparadora à da tratada.",
+      "−4 por100milh; a mudança da comparadora deve ser ignorada.",
+      "+4 acidentes; basta comparar as contagens finais18 e14.",
+      "−1 por100milh; só a mudança da comparadora entra no efeito."
+    ],
+    "answer": 0,
+    "explanation": "Tratada10→6: mudança−4. Comparadora8→7: mudança−1. Diferença=−4−(−1)=−3 por100milh. O cálculo usa denominadores distintos; a interpretação causal é condicionada às hipóteses, que os números sozinhos não demonstram.",
+    "etapa": 1,
+    "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0387",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "investigacao_com_informacao_conflitante",
+    "difficulty": "muito_alta",
+    "statement": "Um registro automático validado mostra abertura da proteção às 14:03. Uma testemunha relata ter ouvido alarme antes de ver a abertura, mas só olhou o equipamento após o som. A análise quer decidir se o alarme precedeu a abertura física. Qual encaminhamento preserva a diferença entre evento e momento da percepção?",
+    "options": [
+      "Buscar registro temporal do alarme e considerar que ver a abertura depois não data necessariamente seu início.",
+      "Somar uma demora visual arbitrária de um segundo ao registro e encerrar a hipótese.",
+      "Declarar falso o depoimento, pois percepção posterior impede qualquer lembrança correta.",
+      "Fixar a abertura no instante em que a testemunha olhou, anulando o registro validado.",
+      "Declarar provada a precedência do alarme sobre a abertura física pelo relato de percepção."
+    ],
+    "answer": 0,
+    "explanation": "O relato ordena som e percepção visual, não necessariamente início físico da abertura. O registro informa o evento em14:03; falta datar o alarme com fonte adequada ou reconhecer a incerteza. Não há base para descartar honestidade ou inventar latência.",
+    "etapa": 1,
+    "lote": 6
   }
 ]
