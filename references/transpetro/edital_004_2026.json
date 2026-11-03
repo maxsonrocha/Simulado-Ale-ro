@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "concurso": "Transpetro PSP Terra Nivel Superior 2026",
+  "edital": "004/2026",
+  "enfase": "21 - Engenharia de Seguranca do Trabalho",
+  "precedencia": "Este arquivo define as edicoes expressamente cobradas pelo edital e prevalece sobre edicoes posteriores cadastradas apenas para controle de atualizacao.",
+  "normasTecnicasComEdicaoExpressa": [
+    {
+      "norma": "ISO 45001",
+      "edicaoCobrada": "2018",
+      "uso": "gestao_sms"
+    },
+    {
+      "norma": "ABNT NBR ISO 14001",
+      "edicaoCobrada": "2015",
+      "uso": "gestao_sms"
+    },
+    {
+      "norma": "ABNT NBR ISO 19011",
+      "edicaoCobrada": "2018",
+      "uso": "gestao_sms"
+    }
+  ],
+  "esocialEventosExpressamenteCitados": [
+    "S-2210",
+    "S-2220",
+    "S-2230",
+    "S-2240"
+  ],
+  "regras": [
+    "Nao substituir automaticamente uma edicao expressamente cobrada por edicao posterior.",
+    "Edicoes posteriores podem ser usadas para controle de atualizacao e contexto, nao para redefinir o programa da prova.",
+    "Clausula ou redacao exata de ISO/ABNT exige acesso verificavel/licenciado a edicao cobrada.",
+    "Todos os quatro eventos eSocial citados pertencem ao universo de cobranca, respeitando a finalidade propria de cada evento."
+  ]
+}
