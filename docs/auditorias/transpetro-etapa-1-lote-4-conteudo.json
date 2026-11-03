@@ -1,0 +1,1406 @@
+{
+  "lote": 4,
+  "metodo": "Revisão individual do assistente em rodada editorial separada da autoria; não equivale a parecer humano independente.",
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-PORT-0061",
+      "alternativas": [
+        "A narração em terceira pessoa incorpora a inquietação da personagem: discurso indireto livre, sem fala formalmente introduzida.",
+        "Não surge narrador em primeira pessoa.",
+        "A carta não foi aberta e não se apresenta resposta.",
+        "A pergunta pertence à inquietação da personagem.",
+        "Não há fala atribuída ao maquinista."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Reconhecer a sobreposição entre voz narrativa e consciência da personagem. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Reconhecer a sobreposição entre voz narrativa e consciência da personagem",
+      "sha256": "b0700505cc52d82079df450433d66e0c237f26a3df41b84c2d1f87833082bfe6"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0062",
+      "alternativas": [
+        "A grafia não fornece data.",
+        "A parada não demonstra conhecimento do conteúdo.",
+        "A familiaridade da letra e a expectativa de Clara permitem inferir sua preocupação, não o assunto ou a data da carta.",
+        "Não se estabelece causa entre apito e escrita.",
+        "O motivo da carta não é revelado."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Separar focalização, expectativa e informação não disponibilizada. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Separar focalização, expectativa e informação não disponibilizada",
+      "sha256": "17d62f8800543529bdff87b77be9bb1b686bf07a9a0ef60b5e05e1343ac6213c"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0063",
+      "alternativas": [
+        "Não é evento pontual posterior.",
+        "A locução apresenta desenvolvimento continuado no passado, tomado em relação à pane que o interrompe.",
+        "O crescimento antecede a interrupção.",
+        "Não se trata de ordem.",
+        "O processo integra a sequência narrada."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Identificar aspecto progressivo em relação a um marco passado. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar aspecto progressivo em relação a um marco passado",
+      "sha256": "33b190e0584a3b0a621565d9066d11252e7fef162af9505178ce66fba4f637a1"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0064",
+      "alternativas": [
+        "Inverte a sequência relatada.",
+        "Contraria a suspensão deliberada após a recuperação.",
+        "Coloca a conferência depois do reinício.",
+        "Introduz perda e reinício anteriores não informados.",
+        "Recuperação, conferência e reinício aparecem nessa ordem. O texto distingue solução técnica e revisão do trabalho."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Preservar anterioridade e posterioridade numa oração reduzida. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Preservar anterioridade e posterioridade numa oração reduzida",
+      "sha256": "4774168e7ce35f7f744946eb1ecc6e4cd97e933a340fd3770e5eddc47b07b61b"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0065",
+      "alternativas": [
+        "Não é fala literal de edificações.",
+        "A distinção permanece relevante.",
+        "O lugar designa um conjunto de pessoas. A metonímia sintetiza, mas não prova que as vozes recolhidas representam todos.",
+        "Figura de linguagem não comprova unanimidade.",
+        "Não foi realizado censo universal."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Interpretar metonímia e seu possível efeito sobre a extensão de uma conclusão. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpretar metonímia e seu possível efeito sobre a extensão de uma conclusão",
+      "sha256": "ab756cb57b35b89837a7b87e1b13d55e98c8dc236a765d54425ce2a4dbf35e54"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0066",
+      "alternativas": [
+        "Concordância não é condição mencionada.",
+        "A restrição impede essa universalização.",
+        "Não se limita aos redatores.",
+        "Participantes são aqueles envolvidos nas formas de escuta relatadas; participação não implica concordância nem totalidade.",
+        "Vozes designam pessoas e posições."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Resolver referência coletiva sem transformar participação em unanimidade. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Resolver referência coletiva sem transformar participação em unanimidade",
+      "sha256": "583339e3400825bd2757ff741052412d83f6a61df7bdf5afae8b70c5868b4bba"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0067",
+      "alternativas": [
+        "A precisão é reconhecida.",
+        "A solenidade é justamente o excesso rejeitado.",
+        "Brevidade não é o critério declarado.",
+        "O termo raro era preciso, mas destoava do registro da personagem; a escolha combina conteúdo e adequação.",
+        "A transação deve ser preservada."
+      ],
+      "correctOption": 3,
+      "dificuldade": "media: Identificar critério de escolha lexical contextual. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar critério de escolha lexical contextual",
+      "sha256": "b120ad0ab65bcb46c70952533b80abeae31c5d13ddd14460b5568a7b7ecdb80d"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0068",
+      "alternativas": [
+        "Inverte a avaliação da solenidade.",
+        "A negação não se estende à segunda oração.",
+        "A negativa preserva a precisão; o segundo segmento desloca o problema para o registro excessivamente solene no contexto.",
+        "Não se afirma incompatibilidade universal.",
+        "Não se aponta falta de domínio."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Integrar paralelismo, negação e pertinência contextual sem universalizar o juízo. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar paralelismo, negação e pertinência contextual sem universalizar o juízo",
+      "sha256": "0dcd08e8d36494ee6f47a922818a8d10b1d0af8e1cd6939e5dada531dad3352a"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0069",
+      "alternativas": [
+        "A vírgula marca a omissão do predicado já expresso: a outra se destinava à comissão.",
+        "Comissão aparece explicitamente.",
+        "Não há verbo expresso depois do sujeito nesse segmento.",
+        "O destinatário está expresso.",
+        "Não se introduz fala."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Recuperar predicado elíptico por paralelismo sintático. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Recuperar predicado elíptico por paralelismo sintático",
+      "sha256": "13952a30bb6e9c3969ae014560176d241d00d21e0e45ededb45b4ca2898d13eb"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0070",
+      "alternativas": [
+        "Artigo depois de cujo é inadequado nessa construção.",
+        "Transforma métodos em agente e comissão em objeto do exame.",
+        "Muda a relação de posse e atribui aos métodos a função de agente.",
+        "Cujo concorda com métodos, que pertencem ao estudo, e não recebe artigo depois de si. A passiva mantém a comissão como agente do exame.",
+        "Acumula artigo indevido e preposição sem preservar a relação."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Integrar relativo possessivo, concordância e manutenção de agente na passiva. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Integrar relativo possessivo, concordância e manutenção de agente na passiva",
+      "sha256": "a346996a8a9196611de1d7cb75d1fcb91b5e2e531b1ba45e6724001c939753dd"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0071",
+      "alternativas": [
+        "Confunde objeto analisado com conclusão adotada.",
+        "Aspas não garantem concordância.",
+        "A autoria da promessa continua atribuída ao inventor.",
+        "A exaustão contraria a promessa universal.",
+        "Citar não significa aderir. A historiadora distingue promessa e efeito e usa a frase para analisar a promoção do equipamento."
+      ],
+      "correctOption": 4,
+      "dificuldade": "muito_alta: Distinguir voz citada, posição da analista e função argumentativa da evidência. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Distinguir voz citada, posição da analista e função argumentativa da evidência",
+      "sha256": "28da52645b97b5e95543c88b77d4c1f5dce87cbe166f49ce821c566768bd1e15"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0072",
+      "alternativas": [
+        "A fala é promessa, não resultado clínico.",
+        "Os dois-pontos anunciam o teor da fala prometida; não a transformam em conclusão factual da historiadora.",
+        "A fala é atribuída ao inventor.",
+        "Não há enumeração de peças.",
+        "O segmento não demonstra causalidade."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Identificar a função de introduzir conteúdo de uma fala. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Identificar a função de introduzir conteúdo de uma fala",
+      "sha256": "3f5168502315518492b89440a4c29bf639da530bd5d74fab0dce045c477c95b9"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0073",
+      "alternativas": [
+        "A multidão não anula a ausência significativa.",
+        "O texto distingue quantidade de pessoas e significado da falta para quem a percebe. Não universaliza a percepção.",
+        "Não se afirma impedimento perceptivo.",
+        "O texto mantém a multidão.",
+        "A restrição para quem a percebia impede universalizar."
+      ],
+      "correctOption": 1,
+      "dificuldade": "muito_alta: Integrar antítese, restrição do observador e diferença entre quantidade e significado. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar antítese, restrição do observador e diferença entre quantidade e significado",
+      "sha256": "dd6a676b0225f543cf8bd85194ae1bb9bb8532df677d966865387ae1e5398f57"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0074",
+      "alternativas": [
+        "Existir exige plural e elimina a falta descrita.",
+        "Haver existencial fica no singular; faltar concorda com o sujeito plural encontros. Preserva-se a oposição presença/ausência.",
+        "Haver existencial não flexiona no plural.",
+        "Troca falta por existência e usa haver pessoalmente.",
+        "Haver existencial é impessoal e faltar exige plural."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Distinguir impessoalidade, sujeito plural e conservação da relação semântica. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir impessoalidade, sujeito plural e conservação da relação semântica",
+      "sha256": "686e9866ea32e3f5f293a75360ac2db439e6e735ad418d73716685762d1f300f"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0075",
+      "alternativas": [
+        "Adiar é distinguido de desistir.",
+        "Confunde reavaliação com autorização incondicional.",
+        "A verificação é anterior à decisão de partir.",
+        "A equipe não promete reabrir a ponte.",
+        "A promessa é de verificar viabilidade, não de executar a partida ou reabrir a ponte."
+      ],
+      "correctOption": 4,
+      "dificuldade": "muito_alta: Distinguir compromisso com procedimento e compromisso com resultado sob condição. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir compromisso com procedimento e compromisso com resultado sob condição",
+      "sha256": "2d492a04590ab75614a6c65c423905d5728c2d1adec8972037dafb246eabbe9b"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0076",
+      "alternativas": [
+        "Não se afirma fim definitivo da expedição.",
+        "A possibilidade é justamente objeto da pergunta.",
+        "Não se comparam pontes.",
+        "A oração não é ordem nem finalidade.",
+        "Verificar se equivale a verificar a resposta a seria possível partir?; não é garantia nem condição já satisfeita."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Identificar interrogativa indireta sem confundi-la com condição. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar interrogativa indireta sem confundi-la com condição",
+      "sha256": "ca15da951c6d3829558b84cf89783639c7dfe89a80f68c084b7cc1ef2fd9fbdb"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0077",
+      "alternativas": [
+        "A obra permite escolher a ordem entre capítulos, mas mantém a sequência dos acontecimentos dentro de cada unidade. Abertura não significa reescrita irrestrita.",
+        "A liberdade descrita não é de reescrita.",
+        "A sequência interna é mantida.",
+        "O texto preserva as datas narradas.",
+        "Não há ordem externa obrigatória."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Localizar o nível estrutural em que uma liberdade de leitura é concedida. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Localizar o nível estrutural em que uma liberdade de leitura é concedida",
+      "sha256": "985071b597c0ba3d659b7a82ec5d4d9dac9ac75cfba7668f94e74de686151b94"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0078",
+      "alternativas": [
+        "Sequência interna não fixa a ordem externa.",
+        "Liberdade num nível não elimina restrição em outro.",
+        "O texto distingue organização entre unidades e sequência dentro delas. Receber informações em outra ordem não equivale a reescrever a cronologia interna ou tornar toda frase permutável.",
+        "O texto rejeita a permutação irrestrita.",
+        "Confunde escolha de percurso com reescrita."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Integrar dois níveis de organização e distinguir ordem de conhecimento e ordem dos acontecimentos. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Integrar dois níveis de organização e distinguir ordem de conhecimento e ordem dos acontecimentos",
+      "sha256": "580708680a84d4e60ff979cc227925ed90c3820ba3dffb3cfd782f0e3891524f"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0079",
+      "alternativas": [
+        "O ganho é reconhecido.",
+        "A travessia continua faltando.",
+        "Não estabelece causa da obra.",
+        "A concessão admite coexistência entre avanço e pendência; ela impede concluir que a agenda terminou.",
+        "A reivindicação é mantida."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Interpretar concessão como limite à conclusão e não negação do fato. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpretar concessão como limite à conclusão e não negação do fato",
+      "sha256": "3bfb79c9363d5ff4f373e87025dd759e68ad0ffbfcab7e3df88b78d482ffe91a"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0080",
+      "alternativas": [
+        "A primeira pessoa plural incorpora a associação à posição defendida no ofício. Não altera a negação da obrigação de encerrar a pauta.",
+        "A voz é a da associação no ofício.",
+        "O sentido é manter a cobrança.",
+        "Primeira pessoa marca participação enunciativa.",
+        "Nos não é sujeito nem retoma problema."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Relacionar pessoa gramatical à posição institucional do enunciador. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar pessoa gramatical à posição institucional do enunciador",
+      "sha256": "fd8ed355a8e7dbedb1f025a17598570bd4a17d02bac188214880bd91bc6a5df5"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0061",
+      "alternativas": [
+        "The warehouse may become congested.",
+        "Faster unloading can shift accumulation into the warehouse if collection does not change; the passage examines the wider chain.",
+        "Collection is the question raised.",
+        "The text distinguishes vessel and goods occupancy.",
+        "Water depth is not discussed."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Infer a transferred bottleneck from interacting stages. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Infer a transferred bottleneck from interacting stages",
+      "sha256": "3edc15dce76a454b32f56927970887a1d46a4b91195b3efe5e0d26cc4715dbcd"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0062",
+      "alternativas": [
+        "Berth occupancy may decrease while congestion increases.",
+        "No necessary change in collection speed is claimed.",
+        "Could and if qualify the consequence; the passage does not assert a universal or already observed result.",
+        "That reverses the concern raised.",
+        "It reports a possibility, not universal observation."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Preserve both modal possibility and its conditional restriction. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Preserve both modal possibility and its conditional restriction",
+      "sha256": "1fb9d352701e43b421dc61e17dba0d6fce2fe4bf4656e2cdd692d9f587407619"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0063",
+      "alternativas": [
+        "The output is not specified as inadequate.",
+        "The definition includes mechanical, communication and output conditions; size alone does not establish all of them.",
+        "The suppliers may use different protocols.",
+        "Several conditions remain to be assessed.",
+        "Matching dimensions does not prove unsuitable mounting."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Apply a multi-part definition without inferring unstated properties. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Apply a multi-part definition without inferring unstated properties",
+      "sha256": "a31b9d6f4c990126e9b70b77df8b802294f7ba15936331311e63f9a02c6e8ef6"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0064",
+      "alternativas": [
+        "The text explicitly denies sufficiency of dimensions alone.",
+        "Replaces conjunction with a single sufficient condition.",
+        "Reverses the implication.",
+        "Only when introduces necessary conditions in this definition, not a choice of any single one.",
+        "No failure prerequisite is given."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Translate a restrictive connective into a necessary-condition relation. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Translate a restrictive connective into a necessary-condition relation",
+      "sha256": "6b9e24ea1efa0485eb69c2eb28435d853fc2179db55e5e6d316169d2482ab132"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0065",
+      "alternativas": [
+        "The documents have different users and tasks. Deliberate omission for visitors does not delete or discredit specialist information elsewhere.",
+        "Completeness depends on the stated task.",
+        "Teams still have information needs not met by the visitor map.",
+        "The symbols remain in the operational drawing.",
+        "The map is explicitly not rescue instruction."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Integrate audience, task and limits of completeness across two documents. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrate audience, task and limits of completeness across two documents",
+      "sha256": "a16c0224d4cd14a094872ad6f01cf7ca9404ee1d3d58fcc2a2a7ecc779084aa1"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0066",
+      "alternativas": [
+        "No technical error is reported.",
+        "Symbols does not refer to people.",
+        "Teams are users, not symbols.",
+        "Those points back to the technical symbols and links omission in one document to retention in the other.",
+        "No new invention is mentioned."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Resolve a demonstrative across contrastive document functions. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Resolve a demonstrative across contrastive document functions",
+      "sha256": "301424c8965c805bd5393a2ca4cb7eb85b3bb8587784c4e9ba9e512cbd191c64"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0067",
+      "alternativas": [
+        "Unlikely expresses low likelihood, not impossibility or certainty.",
+        "A report does not itself exclude failure.",
+        "It is not an absolute exclusion.",
+        "It does not assert independence from circumstances.",
+        "It does not express certainty."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Distinguish low likelihood from impossibility. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguish low likelihood from impossibility",
+      "sha256": "a3675386cdbadc63ef39cacf54c4e6e282f170e44255c352884117a0b6968072"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0068",
+      "alternativas": [
+        "The first argument strengthens unlikely into impossible and uses the stronger claim to remove preparedness. The passage rejects that inference.",
+        "The text explicitly calls for another argument.",
+        "Low likelihood and a plan can coexist.",
+        "The event remains possible.",
+        "This is the distinction the team uses."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Identify illicit strengthening and its unsupported decision consequence. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identify illicit strengthening and its unsupported decision consequence",
+      "sha256": "32f7344c05660d466f4bb7db02ac0802c5a78a090142d665de9bd3a691682b75"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0069",
+      "alternativas": [
+        "Completion is prior, and no inspector agent is specified.",
+        "The text denies that assignment.",
+        "The reference point is future inspection.",
+        "Future perfect sets completion before a future reference point; passive voice does not name the agent.",
+        "It specifies preparation, not a permanent ban."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Combine future completion and passive-agent interpretation. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Combine future completion and passive-agent interpretation",
+      "sha256": "1f4dfad1669abb637db6548f35e5f26b163ab7f0763888ffc47d6fb7499c8b4e"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0070",
+      "alternativas": [
+        "Future removal does not erase the current covering instruction.",
+        "Removal must be complete by that point.",
+        "The opening remains covered in the preceding interval, and removal must be complete before the inspection. The text does not demand uncovering it now.",
+        "Until then marks an endpoint, not permanence.",
+        "The text excludes inspection through the cover."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Preserve a maintained state followed by completed preparation. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Preserve a maintained state followed by completed preparation",
+      "sha256": "67e5ac95ea7be58d938b07433040bf563a31e1a756679e5d3d9d6d4a4a9e2687"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0071",
+      "alternativas": [
+        "Unless introduces a condition not given.",
+        "The next sentence explicitly selects a causal reading of as, rather than merely temporal coincidence.",
+        "Comparison does not capture the reason.",
+        "Purpose would reverse the relation between closure and rising water.",
+        "Despite expresses concession, not the stated cause."
+      ],
+      "correctOption": 1,
+      "dificuldade": "muito_alta: Disambiguate a polyfunctional connector using a subsequent metalinguistic clarification. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Disambiguate a polyfunctional connector using a subsequent metalinguistic clarification",
+      "sha256": "3fd6c844b62f9203104bac0d34be08302fe58997fc5bde918642a34c2afb87b5"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0072",
+      "alternativas": [
+        "The main clause says it remained available.",
+        "No hydrological effect is asserted.",
+        "Longer is not shorter.",
+        "Closure is attributed to pressure from rising water.",
+        "Though concedes a disadvantage without negating the availability asserted in the main clause."
+      ],
+      "correctOption": 4,
+      "dificuldade": "media: Interpret a concession without reversing the main assertion. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpret a concession without reversing the main assertion",
+      "sha256": "4bfe6a687cd27338fc6e02e83eb4cdc8d4389fd518d35053860327a67e9d9303"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0073",
+      "alternativas": [
+        "Plant identity does not guarantee identical state.",
+        "No universal accuracy ranking is given.",
+        "Earlier material does not universally represent future conditions.",
+        "The represented state is central.",
+        "The issue is the target state represented, not a universal ranking of fresh and retained samples."
+      ],
+      "correctOption": 4,
+      "dificuldade": "muito_alta: Separate measurement quality from relevance to a historical target. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Separate measurement quality from relevance to a historical target",
+      "sha256": "d20f26d0201eab272e30f663108644b51c5cc92c6ff40fd69d675e959f574594"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0074",
+      "alternativas": [
+        "Analysis is not said to restart the process.",
+        "It does not require both or guarantee agreement.",
+        "A retained sample is one permitted option.",
+        "The construction offers alternatives; the passage then explains the purpose-dependent choice.",
+        "No universal preference is stated."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Interpret a correlative construction in a decision context. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpret a correlative construction in a decision context",
+      "sha256": "91cc476a7e44f5b8017a19096afc3a1f393de295f305c81e1fb26874aea4b39b"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0075",
+      "alternativas": [
+        "Removing a stage changes the process rather than clarifying status.",
+        "Frequency does not resolve conflicting meanings.",
+        "A common word referred to different stages. Explicit stage labels address that mismatch while preserving checks.",
+        "That is the conflation exposed.",
+        "The physical work was not disputed."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Diagnose a semantic interface failure and choose a stage-preserving remedy. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Diagnose a semantic interface failure and choose a stage-preserving remedy",
+      "sha256": "76b81dbc238eb96c73b61eab5d26092210a4753f06d6eed2ef1ee5da3cf6efe5"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0076",
+      "alternativas": [
+        "No test completion dates are given.",
+        "Costs and replacement are not discussed.",
+        "The final clause identifies the type of problem: words marking different stages, not denial of the work.",
+        "The work is acknowledged, not disproved.",
+        "No prohibition is stated."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Identify the categories contrasted by the corrective construction. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identify the categories contrasted by the corrective construction",
+      "sha256": "16eabcd34e8a3fd075443147be8c1c9875d9d906598473ecdca4e9af18f4669b"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0077",
+      "alternativas": [
+        "Universal compatibility is denied.",
+        "The team performs the check.",
+        "Composition is not encoded by that label.",
+        "No durability guarantee is given.",
+        "The passage explicitly separates allocation from compatibility and material properties."
+      ],
+      "correctOption": 4,
+      "dificuldade": "media: Distinguish administrative designation from a technical property. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguish administrative designation from a technical property",
+      "sha256": "5f700fcc62b139321d093689d6eeeca464cde74224acfa460bbbb92a485b9165"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0078",
+      "alternativas": [
+        "The task becomes urgent while physical compatibility still needs checking; priority does not change the spare’s properties.",
+        "The label does not alter dimensions.",
+        "An event does not change all pumps into the same specification.",
+        "Allocation does not establish material equivalence.",
+        "Checking is part of carrying out the repair."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Integrate priority, allocation and invariant technical constraints. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrate priority, allocation and invariant technical constraints",
+      "sha256": "44b7c3c49b9707831f3deb5847a5f7d641c6a25801371221a81c180d5af41a58"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0079",
+      "alternativas": [
+        "Separate categories are explicitly preserved.",
+        "Whereas contrasts what the grant and company covered; it does not imply duplication or contradiction.",
+        "No failure mechanism is discussed.",
+        "No prohibition is stated.",
+        "Both are presented as contributions, not an unfulfilled promise."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Interpret a contrast without inferring duplication. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpret a contrast without inferring duplication",
+      "sha256": "836553ff79359f110d4bff7cbab27d1f4eb88fc359569c2beaede290bbf2921e"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0080",
+      "alternativas": [
+        "The text allows both to matter.",
+        "That is compatible with the account.",
+        "That is the purpose of listing them separately.",
+        "Those are the stated contributions.",
+        "Equal importance and a shared heading do not entail identical form or double payment. The other statements are compatible with the passage."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Resolve two parallel negations and the distinct inferences they block. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Resolve two parallel negations and the distinct inferences they block",
+      "sha256": "98fbfc04469be06a80390e1653fca07ccf63dbf4d0dfab9b5efc4ba0e998647a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0181",
+      "alternativas": [
+        "NR-34 tem recorte de construção/reparação/desmonte naval.",
+        "NR-37 é plataformas de petróleo.",
+        "NR-30 é trabalho aquaviário.",
+        "A NR-18 é a referência setorial da indústria da construção. As demais opções pertencem a campos naval, portuário, aquaviário ou plataformas, sem que o nome construção as torne intercambiáveis.",
+        "NR-29 corresponde ao trabalho portuário."
+      ],
+      "correctOption": 3,
+      "dificuldade": "media: Distinguir construção civil de outros recortes setoriais com operações próximas. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir construção civil de outros recortes setoriais com operações próximas",
+      "sha256": "46e5baab68d6e8f19787cd66cb9ba5aaa892e8a5b119c4be3e624066637fde36"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0182",
+      "alternativas": [
+        "Risco biológico não abrange sozinho esse tema.",
+        "Campo da construção não torna a NR-33 dispensável.",
+        "Espaço confinado não implica trabalho aquaviário.",
+        "Altura não substitui o campo de espaços confinados.",
+        "O corpus identifica NR-33 e Guia Técnico como referências para trabalhos em espaços confinados. A ficha não fornece definições completas ou requisitos finos de entrada."
+      ],
+      "correctOption": 4,
+      "dificuldade": "media: Localizar referência e guia sem confundir campo com um risco específico. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Localizar referência e guia sem confundir campo com um risco específico",
+      "sha256": "1137301e65ffa34d7e349ac65e7ba2696f6a73549dc7074544e5a260f7a91278"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0183",
+      "alternativas": [
+        "Sinalização não define autenticação digital universal.",
+        "O corpus registra esse objeto na Lei 14.063/2020. A classe e os requisitos de assinatura dependem de conferência específica do texto legal.",
+        "Lei 8.213 tem objeto previdenciário distinto.",
+        "Regulamento previdenciário não substitui a pesquisa específica.",
+        "PCMSO não substitui a lei de assinaturas."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Associar objeto legal sem inventar classificação de assinatura. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Associar objeto legal sem inventar classificação de assinatura",
+      "sha256": "d6f52af216bfa0ba774e82cf293bacea21fb92878912a5c13de83d9194c9afca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0184",
+      "alternativas": [
+        "Sinalização não esgota os dois campos.",
+        "O cruzamento não exclui a análise dos inflamáveis.",
+        "A ficha da NR-23 a inclui no bloco de incêndio e recomenda cruzamento com NR-20 em cenários de inflamáveis. Não fornece distâncias ou dimensionamentos.",
+        "Não é esse o campo da NR-23.",
+        "Não há base para inventar um valor."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Identificar complementaridade entre tema de incêndio e atividade com inflamáveis. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar complementaridade entre tema de incêndio e atividade com inflamáveis",
+      "sha256": "e3891afd8156da9b8acdde4e5fe304250ca38a65b660211d00d9c5da42b47498"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0185",
+      "alternativas": [
+        "Declaração não autoriza presumir o levantamento ausente.",
+        "A dispensa de ME/EPP dos graus 1/2 é condicionada cumulativamente, incluindo levantamento e declaração. Ausência de exame não prova atendimento.",
+        "Porte não é condição suficiente isolada.",
+        "Ausência de levantamento é lacuna de informação.",
+        "Grau isolado não constitui dispensa universal."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Aplicar uma hipótese condicionada sem transformar porte ou risco em critério suficiente. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Aplicar uma hipótese condicionada sem transformar porte ou risco em critério suficiente",
+      "sha256": "d6828984fff82ee0114afbe34eb013c998ca0aa6ebe8a76a76b4f5ba2df64290"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0186",
+      "alternativas": [
+        "A carga de 8 h também aparece no inicial.",
+        "O treinamento inicial registrado é de no mínimo 8 h antes do início da atividade. A soma posterior não satisfaz o requisito temporal. Não se afirma que carga, sozinha, autoriza o trabalhador.",
+        "Não é a carga nem condição registrada.",
+        "Não há equivalência automática com experiência.",
+        "Ignora o momento anterior ao início."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Verificar simultaneamente carga mínima e momento de conclusão. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Verificar simultaneamente carga mínima e momento de conclusão",
+      "sha256": "ad7ab6deb366629193e4b0afe472a563dd9347f4df23db96ca11eddedefa5978"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0187",
+      "alternativas": [
+        "Movimentação não elimina a referência específica registrada.",
+        "O anexo da NR-15 não corresponde ao objeto.",
+        "Identificação não substitui segurança do equipamento.",
+        "Não há fundamento para exclusividade aquaviária.",
+        "A ficha da NR-12 registra o Anexo XII e inclui cesto suspenso. A indicação não inventa especificações dimensionais nem exclui outras normas pertinentes."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Reconhecer a finalidade de elevar pessoas e localizar a referência específica. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Reconhecer a finalidade de elevar pessoas e localizar a referência específica",
+      "sha256": "a43dc79930e629c28b9f0364184a2f2b0c3022d5d5a55876d1f22035ad9a176e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0188",
+      "alternativas": [
+        "O corpus distingue CLT trabalhista, Lei 8.213 previdenciária/acidentes/benefícios e Decreto 3.048 Regulamento da Previdência. Detalhes dependem dos textos.",
+        "O decreto deve ser usado com a legislação aplicável.",
+        "Assinaturas e normas operacionais não correspondem aos objetos.",
+        "CIPA, máquinas e assinaturas não são esse mapa de fontes.",
+        "Insalubridade não substitui o conjunto jurídico."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Organizar pesquisa por natureza da fonte sem presumir conteúdo fino. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Organizar pesquisa por natureza da fonte sem presumir conteúdo fino",
+      "sha256": "8eff776a765ff25b1804a45d80e59f2c7668dbd45f5f0e70adf6a917df47e5de"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0189",
+      "alternativas": [
+        "Marca não comprova adequação universal.",
+        "Usuário não emite CA.",
+        "Guarda e finalidade são deveres distintos.",
+        "Urgência não redefine finalidade.",
+        "A ficha atribui ao trabalhador uso apenas para a finalidade prevista. CA qualifica produto como EPI, não converte qualquer proteção em universal."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Distinguir conservação, certificação e finalidade efetiva de uso. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir conservação, certificação e finalidade efetiva de uso",
+      "sha256": "a5c701e1016c0c44fd8908d3ed9a804a92ef2e2c95a1670a5ebbe22bb2fa0bae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0190",
+      "alternativas": [
+        "Os campos se cruzam: construção, espaço confinado e incêndio/inflamáveis exigem pesquisa pertinente a cada frente. Não há autorização para uma norma absorver indiscriminadamente as outras.",
+        "Uma frente não redefine toda a obra.",
+        "Setor não torna atividades distintas irrelevantes.",
+        "Incêndio não esgota os outros objetos.",
+        "Movimentação de materiais não define trabalho portuário."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Integrar campos setorial e por atividade em três frentes simultâneas. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar campos setorial e por atividade em três frentes simultâneas",
+      "sha256": "103bde9af49c24b67f596d2d5ed3157c48476b17fbb5f9805a53e9fb524f632c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0191",
+      "alternativas": [
+        "As duas falham em critérios distintos.",
+        "R ultrapassa a data de dois anos.",
+        "Q tem carga inferior ao mínimo.",
+        "Não há atendimento simultâneo nas três.",
+        "A ficha exige treinamento periódico a cada 2 anos, mínimo de 8 h. P termina antes de 10/03/2027 e tem 8 h; Q falha na carga; R ultrapassa o intervalo. Autorização depende de outros requisitos."
+      ],
+      "correctOption": 4,
+      "dificuldade": "muito_alta: Cruzar intervalo de calendário, mínimo de horas e limite da conclusão sobre autorização. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Cruzar intervalo de calendário, mínimo de horas e limite da conclusão sobre autorização",
+      "sha256": "aa4130554fe3ad9153b8196ed2917dfb9ab53e0fc081cda43687f21599d5c6a9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0192",
+      "alternativas": [
+        "A equivalência ignora a condição e aptidão não é dispensada.",
+        "Documentar proposta não demonstra atendimento.",
+        "Evitar a atividade não é omitir proteção em atividade mantida. Quando ela permanece, SPC é obrigatório segundo a ficha, mas sua mera previsão não comprova adequação ou demais requisitos.",
+        "Confunde ausência da atividade com omissão e dispensa a avaliação de Z.",
+        "Não há dispensa por curta duração ou por projeto."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Distinguir eliminação da situação, obrigação condicionada e insuficiência da mera previsão. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir eliminação da situação, obrigação condicionada e insuficiência da mera previsão",
+      "sha256": "241a7c1eea0dd015f6c6376354725329cbd391931d3e455ac49c0cfdf437c2ab"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0193",
+      "alternativas": [
+        "Exclui organização, contemplada na ficha.",
+        "A ficha admite medidas técnicas de engenharia, organizacionais e/ou administrativas apoiadas na avaliação. Ritmo e tarefa importam; a existência de uma proposta não demonstra sua suficiência.",
+        "Não existe essa incompatibilidade na proposição.",
+        "Alternativas propostas não são prova de eficácia.",
+        "Exame não substitui a avaliação da tarefa."
+      ],
+      "correctOption": 1,
+      "dificuldade": "muito_alta: Integrar diagnóstico da sobrecarga, base de avaliação e classes de intervenção. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar diagnóstico da sobrecarga, base de avaliação e classes de intervenção",
+      "sha256": "59db7d244d708e60b05901c23b6121c85d660bbbe868802e6ca00d0a3bdc3d1d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0194",
+      "alternativas": [
+        "As referências podem ser complementares.",
+        "Temporariedade não prova exclusão do campo.",
+        "O corpus distingue norma setorial de referências a atividades/equipamentos. NR-12 trata de máquinas; NR-13 é especial e não limitada a setor. Triagem não equivale a enquadrar qualquer caldeira sem dados.",
+        "Não há revogação setorial automática.",
+        "O campo não se reduz ao setor fabricante."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Cruzar setor da obra, objetos de duas normas e diferença entre triagem e enquadramento. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Cruzar setor da obra, objetos de duas normas e diferença entre triagem e enquadramento",
+      "sha256": "8c81a952113a211ed4c488e54f982f42cfa9adbc8fe521648b09980475f4054a"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0195",
+      "alternativas": [
+        "A respiração depende da disponibilidade de oxigênio.",
+        "Inertização de processo e condição respirável são objetivos diferentes. Reduzir oxigênio pode produzir asfixia; não se declara condição de entrada ou limite legal.",
+        "Cheiro não mede oxigênio.",
+        "Controle da reação não caracteriza risco humano.",
+        "Nitrogênio não se transforma em fonte de oxigênio nesse contexto."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Separar segurança de processo e compatibilidade da atmosfera com presença humana. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Separar segurança de processo e compatibilidade da atmosfera com presença humana",
+      "sha256": "9f2566bd4eca3580985f90283258baa36f46bc8a3c4969fc9f63db92e828f79e"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0196",
+      "alternativas": [
+        "Retirar o elemento que mantém a imobilidade altera a condição de equilíbrio. A componente do peso pode mover o carro sem comando ou energia elétrica.",
+        "Comando não substitui a retenção frente à gravidade.",
+        "Gravidade não depende da alimentação elétrica.",
+        "O estado atual depende do freio que será retirado.",
+        "Número de rodas não demonstra contenção."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Identificar a perda de uma condição de retenção durante a intervenção. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar a perda de uma condição de retenção durante a intervenção",
+      "sha256": "b2e6aabb7b098df8217083e4ca41d74ee5f27fe8c06541888a36b8d2666ac2be"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0197",
+      "alternativas": [
+        "Silêncio sobre acidentes não atesta condição de intervenção.",
+        "A função precisa corresponder ao requisito. O enunciado distingue retenção e isolamento; pertencer à mesma categoria de componente não garante funções iguais.",
+        "Categoria não prova função.",
+        "O catálogo explicitamente não oferece a equivalência.",
+        "Não se garante bloqueio em todo sentido."
+      ],
+      "correctOption": 1,
+      "dificuldade": "media: Comparar requisito funcional e capacidade declarada sem inferir por categoria. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Comparar requisito funcional e capacidade declarada sem inferir por categoria",
+      "sha256": "236498d15b7dd6261a91c0de7987f18a69a7ffa30e9928c5d5ade1622000e444"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0198",
+      "alternativas": [
+        "Indução não exige contato condutivo.",
+        "Acoplamento eletromagnético permite essa transferência.",
+        "Ignora a fonte externa identificada.",
+        "Campo variável pode induzir tensão por acoplamento sem conexão condutiva direta. O circuito próprio desligado não resolve sozinho esse mecanismo.",
+        "Isolação do fio não elimina o acoplamento indicado."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Relacionar fonte externa, campo variável e limite de uma verificação local. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar fonte externa, campo variável e limite de uma verificação local",
+      "sha256": "569d7d43317849aae4aa032e275dcb3deb5ee127606109005c5f0a800da0ff09"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0199",
+      "alternativas": [
+        "Massa confinada pode variar temperatura.",
+        "Não há vazão útil para garantir essa remoção.",
+        "Fechar descarga não elimina a potência recebida.",
+        "Sem vazão útil, energia pode continuar entrando e ser dissipada. Balanço de massa não substitui balanço de energia.",
+        "O motor continua recebendo potência."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Cruzar balanços de massa e energia numa condição operacional anormal. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Cruzar balanços de massa e energia numa condição operacional anormal",
+      "sha256": "54923715297c3e6c915af6dd89bc31f8e5c6b28bf99d63335a1db315845c9ddb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0200",
+      "alternativas": [
+        "Temperatura igual não implica coeficiente de dilatação igual.",
+        "Uma intervenção sem verificar esforços pode não resolver e pode criar falha.",
+        "Expansões diferentes podem modificar a pré-carga e a vedação. O estado a frio não caracteriza automaticamente o regime térmico.",
+        "Ignora a dependência térmica dos esforços relativos.",
+        "Extrapola um estado para outro não caracterizado."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Relacionar estado de ensaio, dilatação diferencial e integridade da vedação. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar estado de ensaio, dilatação diferencial e integridade da vedação",
+      "sha256": "7d684b17ec96589789fb035978e4b4db51d8f7e7bb4349c83e87ac7b8ace22fb"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0201",
+      "alternativas": [
+        "Área mínima=240/150=1,6 m²; atual p=240/1,2=200 kPa>150. Hipóteses são carga uniforme e placa ideal; não é avaliação geotécnica completa.",
+        "Confunde carga/pressão e não calcula a área mínima.",
+        "A pressão atual não é 150.",
+        "Inverte força/capacidade e aceita excesso de pressão.",
+        "125 não é a pressão da placa atual."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Dimensionar área por um critério e verificar separadamente o estado atual. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Dimensionar área por um critério e verificar separadamente o estado atual",
+      "sha256": "f1da7a03f5654d3f7b7a9fe6aec1bd451182f51f8e8a4a884a4ed214a47e2a55"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0202",
+      "alternativas": [
+        "Não há resistência prevista para essa ação.",
+        "Projéteis líquidos e movimento de mangueira são mecanismos diferentes. Uma tela dimensionada só para respingos não demonstra contenção mecânica do chicoteamento.",
+        "Comprimento e trajetória podem ser relevantes.",
+        "Retenção de fluido não elimina reação mecânica.",
+        "A tela não comprova integridade da conexão."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Distinguir mecanismos de projeção e adequação mecânica da barreira. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir mecanismos de projeção e adequação mecânica da barreira",
+      "sha256": "77efebdc80a6165feda5e756e023b93bd7381009243f56bb902dc1f025f82630"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0203",
+      "alternativas": [
+        "Não há base para neutralização por maior temperatura.",
+        "A origem do agente está em outra parte da peça.",
+        "A fonte potencial inclui o revestimento aquecido. A composição do substrato não caracteriza toda emissão do conjunto.",
+        "Ignora a camada que será aquecida.",
+        "A ficha registra decomposição perigosa."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Definir corretamente o sistema material submetido à transformação térmica. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Definir corretamente o sistema material submetido à transformação térmica",
+      "sha256": "d6941884e173ad0e616bf47a7403682c0f62a676b47abfc5a714cf2155ca8a7c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0204",
+      "alternativas": [
+        "Soma ou calcula os termos incorretamente.",
+        "Considera só o atraso.",
+        "Durante o atraso percorre 4×0,5=2 m; na frenagem,16/(2×2)=4 m; total6 m. Disponíveis5, falta1. Hipóteses ideais não incluem outras incertezas reais.",
+        "Considera só a frenagem.",
+        "Não resulta da soma dos dois movimentos."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Integrar duas fases cinemáticas e comparar com o espaço disponível. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar duas fases cinemáticas e comparar com o espaço disponível",
+      "sha256": "abd385eeec247efb95f2087625e93b01765bf8ee25ce680e27242e2683c84957"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0205",
+      "alternativas": [
+        "Equilíbrio vertical:2Tcosθ=20. Resulta10 kN na vertical e20 kN a60°; limite15 só comporta a primeira nesse modelo. Não se define capacidade normativa universal.",
+        "Ignora a componente vertical.",
+        "Inverte o efeito do ângulo.",
+        "Na vertical cada perna recebe10.",
+        "O valor a60° é20, não15."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Aplicar equilíbrio vetorial e verificar capacidade em duas geometrias. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Aplicar equilíbrio vetorial e verificar capacidade em duas geometrias",
+      "sha256": "782b32cf299b3a60801fc1fcc919a24902fd36663aef39f838102f73cb6ce802"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0206",
+      "alternativas": [
+        "Omite a margem expressamente exigida.",
+        "Contraria o aumento de folga informado.",
+        "Omite dois termos do caminho.",
+        "A soma não é6,5 e a folga muda.",
+        "Somam-se1,8+1,2+1,5+1=5,5 m. Antes5−5,5=−0,5; depois6−5,5=0,5. São dados do modelo, não valores legais ou liberação real do sistema."
+      ],
+      "correctOption": 4,
+      "dificuldade": "muito_alta: Somar parcelas de deslocamento e margem e avaliar uma mudança geométrica. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Somar parcelas de deslocamento e margem e avaliar uma mudança geométrica",
+      "sha256": "4cda7737d132aed7872c371f781f296bfd83355cf7d2e975f1edc97dcd021315"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0207",
+      "alternativas": [
+        "Divide ln10 por5 em vez de multiplicar.",
+        "Erra a escala do produto RC.",
+        "RC=5 s. De0,1=exp(−t/5), t=5ln10=11,515 s. C deve ser convertido para farads; um tempo de disparo não demonstra estado seguro de todo o equipamento.",
+        "Cinco é uma constante de tempo, não o ponto de10 V.",
+        "Omite a constante de tempo5."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Converter capacitância, isolar variável exponencial e limitar a interpretação física. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Converter capacitância, isolar variável exponencial e limitar a interpretação física",
+      "sha256": "f401872875d7c00ac1ce969c74b8a0efbd339a4c30f3dfdc81ceb32bbac7736f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0208",
+      "alternativas": [
+        "A-C e B-D não pertencem aos pares proibidos e cada tarefa ocorre uma vez. Os outros planos incluem par proibido ou repetem/omitem tarefa. As restrições são dados do exercício, não regra legal universal.",
+        "Ambas as janelas contêm pares proibidos.",
+        "B-C é proibido.",
+        "A-B é proibido e A se repete, D falta.",
+        "B-C é proibido."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Combinar cobertura de tarefas e compatibilidade por pares em um plano de duas janelas. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Combinar cobertura de tarefas e compatibilidade por pares em um plano de duas janelas",
+      "sha256": "179974cf62d1730ad1dcf22b96adeadc282a154dd7e57c2d416967db73fec138"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0209",
+      "alternativas": [
+        "Não quantificável não significa zero.",
+        "Há detecção informada.",
+        "Não se forneceu regra de imputação validada.",
+        "Não se infere valor superior à curva.",
+        "Detecção e quantificação não são equivalentes. Não se pode converter um sinal abaixo da faixa validada em zero ou número arbitrário exato."
+      ],
+      "correctOption": 4,
+      "dificuldade": "media: Distinguir presença e valor quantitativo com desempenho demonstrado. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir presença e valor quantitativo com desempenho demonstrado",
+      "sha256": "c626967979d4d3a5590ca1566817e4a77390380d16da5917c1fe8bbfac9a8546"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0210",
+      "alternativas": [
+        "O branco não amostrou ar, mas pode revelar contaminação em etapas compartilhadas. Não mede exposição pessoal nem permite localizar sozinho sua origem exata.",
+        "Não houve coleta de ar no branco.",
+        "Sinal no branco não equivale a concentração no posto.",
+        "Não é medida de dose absorvida.",
+        "O branco fechado não amostrou a respiração."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Interpretar o percurso de uma amostra-controle sem extrapolar sua informação. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Interpretar o percurso de uma amostra-controle sem extrapolar sua informação",
+      "sha256": "372a6b0985a7f5914e25afc16616c1642a943c484b161cbde8c475c2c585e2be"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0211",
+      "alternativas": [
+        "Padrão rastreável não valida automaticamente uma alteração posterior.",
+        "A comparação documenta relações com o padrão; uma intervenção pode mudar o estado do instrumento. O resultado posterior precisa ser demonstrado, não presumido a partir da intenção do ajuste.",
+        "Não há relação exata fornecida entre os dois estados.",
+        "Ajuste não elimina toda incerteza.",
+        "Os atos descritos têm funções diferentes."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Separar caracterização metrológica, intervenção e evidência posterior. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Separar caracterização metrológica, intervenção e evidência posterior",
+      "sha256": "54ccc06f71b47374f73ffab66342a1f1962e5498a1b88eea6d19d3c6769e4b91"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0212",
+      "alternativas": [
+        "Não há correção universal fixa informada.",
+        "Geometria externa não garante eficiência de transmissão.",
+        "A deposição indica transporte/perda, não ausência ambiental.",
+        "O sistema de transporte pode reter parte do material antes da análise. A relação entre aspirado e recuperado depende da caracterização do conjunto, não apenas do coletor final.",
+        "As paredes não serão analisadas."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Identificar perda de recuperação fora do elemento analisado. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Identificar perda de recuperação fora do elemento analisado",
+      "sha256": "b048350628c3a380c4db2640a8251068e7c23460c47ed3a414c5245ccd3f44ca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0213",
+      "alternativas": [
+        "Vazão nominal não determina massa nem desempenho do conjunto.",
+        "Volume depende de vazão e tempo.",
+        "A capacidade de manter vazão depende da contrapressão. Ensaio em saída livre não caracteriza todo regime de filtro e compensação.",
+        "Não é a relação física garantida.",
+        "Extrapola a condição de ensaio."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Cruzar evolução do elemento amostrador e faixa de controle da bomba. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Cruzar evolução do elemento amostrador e faixa de controle da bomba",
+      "sha256": "d1e4fc66897ecea7882b2bd8e529a9632594db84c7419160d7ededd0d9692dae"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0214",
+      "alternativas": [
+        "Não resulta de nenhuma das configurações.",
+        "Inverte o efeito de retirar resistência.",
+        "Depois deve usar a camada remanescente0,20.",
+        "Antes40/(0,20+0,30)=80 W; depois40/0,20=200 W. As resistências são totais em K/W, não por área; não há limite legal atribuído.",
+        "Multiplica onde o modelo divide."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Combinar resistências em série e recalcular a configuração modificada. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Combinar resistências em série e recalcular a configuração modificada",
+      "sha256": "914514fae602debe7fbbab8a467d37cb89ab6cabf4c7f4e1840bc97fa7557740"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0215",
+      "alternativas": [
+        "Não se informou essa transformação.",
+        "O controle atua em um perigo e pode deixar outro. O resultado microbiológico não caracteriza composição, contato ou efeito do resíduo químico.",
+        "Não se pode universalizar inocuidade residual.",
+        "Finalidade de uso não determina o único mecanismo de dano.",
+        "Contagem microbiana não mede irritação química."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Distinguir mecanismo controlado e perigo residual de natureza diferente. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir mecanismo controlado e perigo residual de natureza diferente",
+      "sha256": "32b0b873689463e3751a198624af6a01e1f87b6d679a46edb975648a718aaa00"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0216",
+      "alternativas": [
+        "Dois é a variância, não o desvio.",
+        "Esse é o resultado sem o termo de covariância.",
+        "Var(D)=5+5−8=2; desvio-padrão√2. A covariância positiva reduz a variância da diferença, mas as componentes próprias mantêm incerteza não nula.",
+        "Soma o termo que deve ser subtraído.",
+        "Sobra variância2, não zero."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Propagar incerteza com correlação e interpretar cancelamento sem zerar componentes próprias. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Propagar incerteza com correlação e interpretar cancelamento sem zerar componentes próprias",
+      "sha256": "e481caa6657fe06f3ee510137572c8a2a83d1cb991406199b084f04ddfb7d38b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0217",
+      "alternativas": [
+        "Percentil90 não é mediana.",
+        "Troca indevida do critério altera a decisão.",
+        "Limite decisório não é estatística medida.",
+        "Teto(8,1)=9; o nono valor é20>12. A mediana é o quinto,4, mas descreve outra posição. Não se exclui valor válido por conveniência nem se atribui regra legal ao critério.",
+        "O posto definido é9, sem descarte automático."
+      ],
+      "correctOption": 3,
+      "dificuldade": "muito_alta: Calcular posto e mediana e distinguir estatística descritiva de regra decisória. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Calcular posto e mediana e distinguir estatística descritiva de regra decisória",
+      "sha256": "9b6bc080e6b92807eb6e772c9d3394c149dc3068952effb7e400ac38db6a34f9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0218",
+      "alternativas": [
+        "Omite a sensibilidade2 na conversão da resposta.",
+        "É a concentração após diluir.",
+        "Inverte a recomposição da diluição.",
+        "Na diluída,C=60/2=30; original4×30=120. R100 não distingue50 de concentrações maiores. A diluição linear remove a indeterminação nas hipóteses dadas.",
+        "Saturação não fixa valor exato."
+      ],
+      "correctOption": 3,
+      "dificuldade": "muito_alta: Inverter resposta linear, recompor diluição e interpretar censura por saturação. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Inverter resposta linear, recompor diluição e interpretar censura por saturação",
+      "sha256": "5a2d363937e4048cd744cfc857516021a5e5f1cf333894e41a3072d8d08ca682"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0219",
+      "alternativas": [
+        "A segunda semana é exposta a B e pode receber resíduo de A.",
+        "Persistência não prova equivalência.",
+        "Pareamento não elimina carryover.",
+        "Comparação nos mesmos postos controla algumas diferenças, mas não remove efeitos de período ou resíduo. A reação e a ordem precisam ser tratadas no desenho e na interpretação.",
+        "Renomear não muda o desenho."
+      ],
+      "correctOption": 3,
+      "dificuldade": "muito_alta: Integrar comparabilidade por posto, sequência temporal e efeito residual químico. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar comparabilidade por posto, sequência temporal e efeito residual químico",
+      "sha256": "dca240f2331c722307b2932c0bc61cdce0c0c461e52707fa7d8150c276995636"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0220",
+      "alternativas": [
+        "A taxa não determina cada semestre.",
+        "Evento repetível pode ocorrer várias vezes.",
+        "Média não é garantia da contagem anual.",
+        "Probabilidade não pode ser200%.",
+        "Uma taxa média de contagem pode superar1 por unidade de tempo; probabilidades não podem superar1. A média não fixa a realização de cada período."
+      ],
+      "correctOption": 4,
+      "dificuldade": "media: Distinguir unidade de frequência, probabilidade e realização observada. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir unidade de frequência, probabilidade e realização observada",
+      "sha256": "9b6b16c9c66a5763e5eca80e73de22b4375c97c480dc48fb8f7adfd1622f319f"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0221",
+      "alternativas": [
+        "Não corresponde à representação pedida.",
+        "Apaga a estrutura que distingue as técnicas.",
+        "Inverte os sentidos típicos das duas representações.",
+        "Reduz combinações e sequências à análise individual.",
+        "As técnicas organizam sentidos distintos: combinação que produz um evento e evolução condicionada a um iniciador. Podem ser complementares."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Relacionar duas perguntas analíticas aos sentidos das árvores. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar duas perguntas analíticas aos sentidos das árvores",
+      "sha256": "5c25c27d223144a1ce69a6ac4ace79c582a6525605a9768304daeda069646e01"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0222",
+      "alternativas": [
+        "Categorias não implicam mesma frequência.",
+        "Representação numérica não define estrutura de medida.",
+        "A ordenação foi explicitamente definida.",
+        "Maior não demonstra duas vezes a grandeza.",
+        "A escala descrita é ordinal: permite ordenar, mas não quantificar proporções de risco sem definição adicional."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Distinguir ordem, distância e razão numa matriz de decisão. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir ordem, distância e razão numa matriz de decisão",
+      "sha256": "34108a4f6cb107f56f04402eb26dd5683160799011770333fa44068c21b7a6ff"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0223",
+      "alternativas": [
+        "É outra descrição da omissão já coberta.",
+        "Reescrita não acrescenta modo funcional.",
+        "Custo não é atuação funcional indevida.",
+        "Falha por omissão e atuação espúria são desvios distintos da função. Uma análise que registra só ausência de resposta pode omitir abertura indevida.",
+        "Renomeia o mesmo modo."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Derivar modo de falha a partir de condição de atuação e não apenas do comando. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Derivar modo de falha a partir de condição de atuação e não apenas do comando",
+      "sha256": "5e00d94b6edd4fd4712797aff8b13900b7e0736a2b4a72a9556c894ed1ce7f85"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0224",
+      "alternativas": [
+        "A aceitação é condicionada à ocupação considerada. Mudá-la requer reavaliação; não permite conservar nem inverter automaticamente a conclusão.",
+        "Publicação não torna a conclusão incondicional.",
+        "Equipamentos iguais não preservam ocupação.",
+        "Título não refaz a análise.",
+        "Revisar não significa reprovar automaticamente."
+      ],
+      "correctOption": 0,
+      "dificuldade": "alta: Rastrear a dependência entre premissa alterada e conclusão decisória. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Rastrear a dependência entre premissa alterada e conclusão decisória",
+      "sha256": "ae538ba8ec101234714799bf53fe8690f103cc80e535b3f150f2d7f75c1cc44d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0225",
+      "alternativas": [
+        "É viável, porém inferior.",
+        "Ultrapassa o orçamento.",
+        "B+C resulta16 por custo9. A+D cabe mas dá15; A+C e A+B excedem; B+D dá13. Nenhum trio cabe e os demais pares ou individuais não superam16. Critério é interno, não regra legal.",
+        "Ultrapassa o orçamento.",
+        "É viável, porém inferior."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Enumerar carteiras e distinguir melhor razão isolada de ótimo global com orçamento. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Enumerar carteiras e distinguir melhor razão isolada de ótimo global com orçamento",
+      "sha256": "2a38faf84f9d8adbbab9297d6d0683d8992483c39a7d6e0f94fb3a16add43145"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0226",
+      "alternativas": [
+        "Aplica L a todas as falhas.",
+        "q=0,0002(0,8×50+0,2×500)=0,0002×140=0,028. Ignorar os modos não cobertos dá0,010, não o resultado do modelo completo.",
+        "Omite o divisor2 de ambos os intervalos.",
+        "Pressupõe cobertura total inexistente.",
+        "Conta apenas a parcela coberta."
+      ],
+      "correctOption": 1,
+      "dificuldade": "muito_alta: Cruzar cobertura parcial, dois tempos de detecção e contribuição de falhas ocultas. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Cruzar cobertura parcial, dois tempos de detecção e contribuição de falhas ocultas",
+      "sha256": "9a66003c855b552ecd49509ed7884de1fa5cdef0c89693fd2bda7f31cf0386a4"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0227",
+      "alternativas": [
+        "A subtração não expressa a definição.",
+        "Confunde frequência exata e cumulativa.",
+        "Pelo menos3 inclui os cenários de3 e10:0,005+0,001=0,006>0,005. Não é frequência de exatamente3 nem número esperado de pessoas. O critério é dado do exercício.",
+        "Omite o cenário de3.",
+        "Inclui ocorrência com somente1 pessoa."
+      ],
+      "correctOption": 2,
+      "dificuldade": "muito_alta: Construir uma cauda cumulativa e aplicar critério sem confundir frequência e consequência. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Construir uma cauda cumulativa e aplicar critério sem confundir frequência e consequência",
+      "sha256": "dbd0930e430ae87f51a146350a33252820c0a9f2ed903d64d6b614c99e279ca8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0228",
+      "alternativas": [
+        "A ação descreve uma intervenção executável; objetivo e meta descrevem direção ou resultado a alcançar. Não se atribui esse vocabulário a uma cláusula ISO.",
+        "É resultado desejado em prazo.",
+        "É orientação ampla.",
+        "É objetivo geral.",
+        "É resultado comparativo sem intervenção definida."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Distinguir intervenção, direção estratégica e resultado-meta. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir intervenção, direção estratégica e resultado-meta",
+      "sha256": "29e8794910697a1f8c3d65c351d37e218639541ba9fd60c01e1886952530871c"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0229",
+      "alternativas": [
+        "Conta apenas concluintes de B.",
+        "Usa a união, que inclui quem fez só um.",
+        "Conta apenas concluintes de A.",
+        "Soma participações, não concluintes de ambos.",
+        "O requisito é a interseção das listas:30 completaram A e B. Cobertura30/70×100=42,86%. A união60 completou pelo menos um;90 soma conclusões, não pessoas aptas segundo o requisito interno."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Distinguir interseção, união e soma de conclusões para medir um requisito por pessoa. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Distinguir interseção, união e soma de conclusões para medir um requisito por pessoa",
+      "sha256": "1214106506ea8bbf2c0f339fa642380c28acdc4df8fb6414395d985269835ebd"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0230",
+      "alternativas": [
+        "O indicador pode refletir comportamento de relato alterado pelo incentivo, não melhora das condições. É preciso revisar o mecanismo e triangulá-lo com evidências independentes.",
+        "Definição prévia não impede distorção de incentivo.",
+        "Reforça a fonte de subnotificação.",
+        "Relato e ocorrência não são idênticos.",
+        "Ignora evidência sobre o processo gerador do indicador."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Analisar um indicador endógeno ao incentivo e evitar confundir ausência de registro com ausência de problema. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Analisar um indicador endógeno ao incentivo e evitar confundir ausência de registro com ausência de problema",
+      "sha256": "4e45b51f8723e20656b72a4dea150cfd9177767ae5362ba6174e8f0a288539e3"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0231",
+      "alternativas": [
+        "Incerteza causal não elimina o valor do registro.",
+        "Antes não significa causa demonstrada.",
+        "Não se pode converter todo antecedente em causa.",
+        "Ordem temporal é informação relevante, mas não identifica sozinha um mecanismo causal. Preservar a evidência não exige antecipar a conclusão.",
+        "Não se excluem fatores técnicos."
+      ],
+      "correctOption": 3,
+      "dificuldade": "media: Distinguir antecedência cronológica e inferência causal. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir antecedência cronológica e inferência causal",
+      "sha256": "5b5946b2206a2945b8a888d4669b5d7b15b70889da633c97462dd6bea794264d"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0232",
+      "alternativas": [
+        "A evidência posterior continua útil ao mecanismo.",
+        "Resultado não descreve por si o que era cognoscível.",
+        "Documento atual não prova existência anterior.",
+        "A investigação usa evidências posteriores, mas deve distingui-las da informação disponível ao decidir. Isso evita atribuir previsão retrospectiva indevida.",
+        "Resultado realizado não prova unicidade das trajetórias."
+      ],
+      "correctOption": 3,
+      "dificuldade": "alta: Separar reconstrução causal atual e conjunto informacional da decisão passada. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Separar reconstrução causal atual e conjunto informacional da decisão passada",
+      "sha256": "deb05bc327fbc149ac34978bbb6762318f917596a13b01b2245040df6a1f401b"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0233",
+      "alternativas": [
+        "Fatos não devem ser moldados ao total desejado.",
+        "Maior total não resolve o significado.",
+        "Semelhança verbal não garante equivalência conceitual.",
+        "Mudança de critério pode mudar contagens sem mudar eventos.",
+        "Mecanismo de lesão e fatores organizacionais são níveis analíticos distintos. Definição e rastreabilidade permitem melhorar comparabilidade preservando os fatos."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Distinguir níveis causais e efeito de uma regra de classificação sobre os dados. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Distinguir níveis causais e efeito de uma regra de classificação sobre os dados",
+      "sha256": "2b870a86e4bd00109ae19c3bea09c0101e0a31a58b356361b619309ecbd973e8"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0234",
+      "alternativas": [
+        "Limitação de identificação não prova ineficácia.",
+        "Seleção por um extremo recente pode produzir regressão à média. Isso não prova ausência de efeito, mas impede atribuição integral automática sem desenho e informação adicional.",
+        "Depois não identifica sozinho o efeito causal.",
+        "A escolha do extremo torna essa possibilidade relevante.",
+        "Não se infere ausência histórica de risco."
+      ],
+      "correctOption": 1,
+      "dificuldade": "muito_alta: Integrar seleção por extremo, variabilidade temporal e identificação do efeito da intervenção. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar seleção por extremo, variabilidade temporal e identificação do efeito da intervenção",
+      "sha256": "3d775b75a115991df448bf7fe42e429d31c89bd0e0cd167ef3b588836820baf5"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0235",
+      "alternativas": [
+        "Chegada não caracteriza segurança da missão.",
+        "Identificação não substitui avaliação do cenário.",
+        "Urgência orienta prioridade, mas não demonstra que uma entrada pode ser executada sob as condições existentes. O exercício pede avaliar exposição e capacidade, sem inventar autorização normativa.",
+        "Urgência não mede nem remove perigo.",
+        "Plano documental não garante capacidade em toda condição."
+      ],
+      "correctOption": 2,
+      "dificuldade": "alta: Relacionar prioridade de resposta, exposição da equipe e viabilidade da missão. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar prioridade de resposta, exposição da equipe e viabilidade da missão",
+      "sha256": "b36f6c242dcceedd58023ca4d0635a036a63e1f5be1a6720787a4eb60bc98c39"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0236",
+      "alternativas": [
+        "Contagem não verifica transferência.",
+        "Nomear não modifica o fluxo físico.",
+        "Mantém caminhos de transferência relevantes.",
+        "Percursos e superfícies/materiais podem levar contaminação à área limpa. A solução precisa abordar trânsito e transferência indireta, não só uma posição final das macas.",
+        "Não existe neutralização automática por reunião de vítimas."
+      ],
+      "correctOption": 3,
+      "dificuldade": "muito_alta: Integrar zoneamento funcional, trajetos e vetores indiretos de contaminação. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar zoneamento funcional, trajetos e vetores indiretos de contaminação",
+      "sha256": "4523cc869210cf79ef7392fc8779d2af19c5aa3071a4c26832b6364a3bdc0f55"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0237",
+      "alternativas": [
+        "Os conceitos se referem a condições distintas de ignição; o ponto de fulgor não deve ser convertido em temperatura universal de autoignição. O enunciado fornece as definições e não atribui valores normativos.",
+        "Não é a temperatura da chama.",
+        "Não se trata de solidificação.",
+        "Fulgor em ensaio com fonte externa não garante autoignição.",
+        "Não são conceitos ou valores necessariamente iguais."
+      ],
+      "correctOption": 0,
+      "dificuldade": "media: Distinguir propriedades de inflamabilidade pelas condições definidas de ensaio. Classificação editorial, sem calibração psicométrica.",
+      "operacao": "Distinguir propriedades de inflamabilidade pelas condições definidas de ensaio",
+      "sha256": "d038ad6f0d8961ffbc1a5e17f1853508028b779d8594af96c3fc65b63ab7d844"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0238",
+      "alternativas": [
+        "Chama não prova integridade de cobertura.",
+        "O enunciado define o mecanismo superficial do agente; aplicação que rompe a camada pode comprometer sua função. Não se inventam taxa normativa, compatibilidade universal ou tática real de ataque.",
+        "Embalagem não determina aplicação adequada.",
+        "Agitar contraria a condição informada.",
+        "Volume não garante continuidade da camada."
+      ],
+      "correctOption": 1,
+      "dificuldade": "alta: Relacionar mecanismo de supressão informado e efeito mecânico da aplicação. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Relacionar mecanismo de supressão informado e efeito mecânico da aplicação",
+      "sha256": "d6e77b1c25d63a08e13ec27ecd8bf0c3675fa949bb6a177bddb3fa4cd1c235b9"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0239",
+      "alternativas": [
+        "Inicial40×0,5/0,04=500 N; depois40×0,3/0,04=300 N. Redução200/500=40%. O modelo limita-se ao momento externo e não conclui aceitabilidade da tarefa.",
+        "Ignora os braços de alavanca.",
+        "Os números20/12 são momentos em N·m.",
+        "Inverte os resultados e o efeito.",
+        "Duzentos é a diferença, não a força final."
+      ],
+      "correctOption": 0,
+      "dificuldade": "muito_alta: Integrar momentos, alavanca muscular e variação percentual sem generalizar aceitabilidade. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Integrar momentos, alavanca muscular e variação percentual sem generalizar aceitabilidade",
+      "sha256": "8527f8a6f114940d6e20e033125d80174b1bcc035a6aefc6cd3dbc53613faa08"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0240",
+      "alternativas": [
+        "A alternativa registrada permite responsável, não programa sem responsável.",
+        "Consulta eventual não substitui a indicação do responsável.",
+        "Agenda não substitui responsabilidade médica.",
+        "O empregador deve custear os procedimentos sem ônus ao empregado.",
+        "A ficha admite contratação de médico de outra especialidade nessa hipótese. Não autoriza abandonar o programa ou substituir a responsabilidade médica por comissão ou fornecedor."
+      ],
+      "correctOption": 4,
+      "dificuldade": "alta: Aplicar exceção expressa sem transformá-la em dispensa do programa. Classificação editorial baseada no raciocínio exigido.",
+      "operacao": "Aplicar exceção expressa sem transformá-la em dispensa do programa",
+      "sha256": "7629c72b571664f2c5b978083788ab0b18c723bbbe86f01e7b1e0b8434b2870c"
+    }
+  ]
+}

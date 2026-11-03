@@ -7,15 +7,15 @@ const { validate, loadRows, read } = require('../scripts/validate-transpetro.cjs
 const { createRuntime, select, root } = require('../scripts/lib/runtime.cjs');
 const clone = x => JSON.parse(JSON.stringify(x));
 
-test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 300 itens', () => {
+test('lote parcial é declarado, íntegro, carregável e vinculado à auditoria dos 400 itens', () => {
   const result = validate({ partial: true });
-  assert.deepEqual(result.errors, []); assert.equal(result.total, 300);
-  assert.deepEqual(result.areas, { PORT: 60, ING: 60, ESP: 180 });
-  assert.equal(result.groups, 60); assert.equal(result.independentQuestions, 180);
+  assert.deepEqual(result.errors, []); assert.equal(result.total, 400);
+  assert.deepEqual(result.areas, { PORT: 80, ING: 80, ESP: 240 });
+  assert.equal(result.groups, 80); assert.equal(result.independentQuestions, 240);
   assert.equal(result.warnings.length, 1);
 });
-test('liberação da Etapa 1 FALHA enquanto faltarem 400 questões', () => {
-  const result = validate(); assert(result.errors.includes('total: 300; necessário 700'));
+test('liberação da Etapa 1 FALHA enquanto faltarem 300 questões', () => {
+  const result = validate(); assert(result.errors.includes('total: 400; necessário 700'));
   const command = spawnSync(process.execPath, ['scripts/validate-transpetro.cjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(command.status, 1); assert(command.stdout.includes('necessário 700'));
 });
@@ -55,7 +55,7 @@ test('as 30 resoluções quantitativas recalculadas encontram exatamente uma alt
 });
 test('triagem lexical global não encontra pares acima do limiar', () => {
   const output = JSON.parse(execFileSync(process.execPath, ['scripts/audit-transpetro-similarity.cjs'], { cwd: root, encoding: 'utf8' }));
-  assert.equal(output.comparedPairs, 44850); assert.deepEqual(output.flagged, []);
+  assert.equal(output.comparedPairs, 79800); assert.deepEqual(output.flagged, []);
 });
 test('motor real em dez provas: evita repetição quando há inéditas suficientes e preserva todo grupo', async () => {
   const r = createRuntime(); select(r); await r.loadQuestionsBank();
@@ -80,8 +80,9 @@ test('motor real em dez provas: evita repetição quando há inéditas suficient
   assert.equal(reports[0].fresh.ESP, 50);
   assert.equal(reports[1].fresh.PORT, 10); assert.equal(reports[1].fresh.ING, 10); assert.equal(reports[1].fresh.ESP, 50);
   assert.equal(reports[2].fresh.ESP, 50);
-  assert.equal(reports[3].fresh.ESP, 30);
-  // Três completas inéditas: a quarta usa as 30 ESP ainda inéditas e 20 vistas.
+  assert.equal(reports[3].fresh.ESP, 50);
+  assert.equal(reports[4].fresh.ESP, 40);
+  // Quatro completas inéditas; a quinta usa as 40 ESP ainda inéditas.
 });
 test('bancos ALERO não sofreram alteração de conteúdo nesta branch', () => {
   for (const name of ['port', 'rlm', 'info', 'leg', 'hgr', 'esp_arquiteto', 'esp_desenhista']) {
@@ -154,7 +155,7 @@ test('lote 3 preserva os 200 objetos, sua ordem e as auditorias históricas da m
  for(const file of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
   const relative=`data/transpetro/eng_seguranca/${file}`;
   const baseline=JSON.parse(execFileSync('git',['show',`ddb8e7a:${relative}`],{cwd:root,encoding:'utf8'}));
-  const current=read(relative);assert.deepEqual(current.slice(0,baseline.length),baseline);old+=baseline.length;
+  const current=read(relative).filter(q=>(q.lote||1)<=3);assert.deepEqual(current.slice(0,baseline.length),baseline);old+=baseline.length;
   const delta=current.slice(baseline.length);assert(delta.every(q=>q.lote===3));added+=delta.length;
  }
  assert.equal(old,200);assert.equal(added,100);
@@ -176,7 +177,7 @@ test('oito segundas resoluções do lote 3 selecionam uma única alternativa',()
  const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-lote3-calculations.cjs'],{cwd:root,encoding:'utf8'}));assert.equal(r.checked,8);assert(r.passed);assert(r.results.every(x=>x.matches.length===1));
 });
 test('similaridade do lote 3 cobre 4950 pares novos e 20000 confrontos com os anteriores',()=>{
- const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs'],{cwd:root,encoding:'utf8'}));
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs','--lote','3'],{cwd:root,encoding:'utf8'}));
  assert.equal(r.lote,3);assert.deepEqual(r.scopes,{novas_novas:4950,novas_antigas:20000,antigas_antigas:19900});assert.deepEqual(r.flagged,[]);
 });
 test('caderno real do lote 3 mantém o contexto, os companheiros e o ciclo normal',async()=>{

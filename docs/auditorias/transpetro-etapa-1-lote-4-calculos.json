@@ -1,0 +1,317 @@
+{
+  "checked": 17,
+  "passed": true,
+  "results": [
+    {
+      "id": "TP26-ENGSEG-ESP-0186",
+      "segundaResolucao": {
+        "hoursBefore": 6,
+        "requiredBefore": 8,
+        "missing": 2,
+        "afterCannotSupplyBefore": true
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0191",
+      "segundaResolucao": {
+        "due": "2027-03-10T00:00:00.000Z",
+        "eligible": [
+          "P"
+        ]
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0201",
+      "segundaResolucao": {
+        "expected": [
+          1.6,
+          200
+        ],
+        "method": "Área pelo teto de pressão e teste independente da placa atual."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0204",
+      "segundaResolucao": {
+        "expected": [
+          6,
+          1
+        ],
+        "method": "Área sob velocidade versus tempo, duas fases."
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0205",
+      "segundaResolucao": {
+        "expected": [
+          10,
+          20
+        ],
+        "method": "Equilíbrio pela soma das componentes verticais das duas trações."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0206",
+      "segundaResolucao": {
+        "totalFall": 5.5,
+        "before": -0.5,
+        "after": 0.5
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0207",
+      "segundaResolucao": {
+        "rcTime": 11.512925464970227,
+        "roundedInputLn": 2.303,
+        "toleranceSeconds": 0.003
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0208",
+      "segundaResolucao": {
+        "valid": [
+          [
+            "AC",
+            "BD"
+          ]
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0214",
+      "segundaResolucao": {
+        "expected": [
+          80,
+          200
+        ],
+        "method": "Balanço de quedas de temperatura: mesma taxa nas resistências em série."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0216",
+      "segundaResolucao": {
+        "variance": 2,
+        "sd": 1.4142135623730951
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0217",
+      "segundaResolucao": {
+        "rank": 9,
+        "p90": 20,
+        "median": 4,
+        "criterion": false
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0218",
+      "segundaResolucao": {
+        "expected": [
+          120,
+          50
+        ],
+        "method": "Inverte a sensibilidade da leitura não saturada e desfaz diluição; original leitura só dá limite inferior."
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0225",
+      "segundaResolucao": {
+        "feasiblePortfolios": [
+          {
+            "names": [
+              "A"
+            ],
+            "cost": 6,
+            "benefit": 11
+          },
+          {
+            "names": [
+              "B"
+            ],
+            "cost": 5,
+            "benefit": 9
+          },
+          {
+            "names": [
+              "C"
+            ],
+            "cost": 4,
+            "benefit": 7
+          },
+          {
+            "names": [
+              "B",
+              "C"
+            ],
+            "cost": 9,
+            "benefit": 16
+          },
+          {
+            "names": [
+              "D"
+            ],
+            "cost": 3,
+            "benefit": 4
+          },
+          {
+            "names": [
+              "A",
+              "D"
+            ],
+            "cost": 9,
+            "benefit": 15
+          },
+          {
+            "names": [
+              "B",
+              "D"
+            ],
+            "cost": 8,
+            "benefit": 13
+          },
+          {
+            "names": [
+              "C",
+              "D"
+            ],
+            "cost": 7,
+            "benefit": 11
+          }
+        ],
+        "best": [
+          {
+            "names": [
+              "B",
+              "C"
+            ],
+            "cost": 9,
+            "benefit": 16
+          }
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0226",
+      "segundaResolucao": {
+        "covered": 0.008,
+        "uncovered": 0.02,
+        "total": 0.028
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0227",
+      "segundaResolucao": {
+        "tail": 0.006,
+        "accepted": false
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0229",
+      "segundaResolucao": {
+        "expected": [
+          30,
+          70,
+          42.86
+        ],
+        "method": "Contagem por pessoa e interseção, não soma de participações."
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "passed": true
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0239",
+      "segundaResolucao": {
+        "expected": [
+          500,
+          300,
+          40
+        ],
+        "method": "Equilíbrio de momento em duas geometrias e redução relativa à força inicial."
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "passed": true
+    }
+  ],
+  "limites": "14 recálculos numéricos e três verificações discretas/temporais. Parâmetros físicos são os modelos dos enunciados; horas e intervalo da NR-35 são do corpus. Não atestam condições reais de projeto."
+}

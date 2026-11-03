@@ -364,5 +364,173 @@
     "explanation": "A partição por porte já inclui ocorrências com e sem ignição. A quarta categoria é sobreposta; é preciso cruzá-la ou subdividir, não adicioná-la ao total novamente.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0220",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "frequencia_e_probabilidade",
+    "difficulty": "media",
+    "statement": "Um modelo prevê frequência média de 2 ocorrências por ano para um evento repetível. Sem outras informações sobre a distribuição, qual interpretação é válida?",
+    "options": [
+      "Todo intervalo de seis meses terá exatamente uma ocorrência.",
+      "O evento só pode ocorrer uma vez porque frequência e probabilidade são sinônimos.",
+      "Devem ocorrer exatamente duas ocorrências em cada ano.",
+      "A probabilidade de ocorrer pelo menos uma vez é necessariamente 200%.",
+      "Trata-se de contagem média por tempo, não de probabilidade igual a 2."
+    ],
+    "answer": 4,
+    "explanation": "Uma taxa média de contagem pode superar1 por unidade de tempo; probabilidades não podem superar1. A média não fixa a realização de cada período.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0221",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arvores_causas_e_desfechos",
+    "difficulty": "alta",
+    "statement": "O estudo tem duas perguntas: quais combinações de falhas podem provocar o iniciador e quais desfechos podem seguir sua ocorrência conforme a resposta das proteções. Qual pareamento de técnicas responde diretamente a essa divisão?",
+    "options": [
+      "Somente APR, sem possibilidade de representar combinações lógicas ou sequências.",
+      "Usar as duas árvores como nomes intercambiáveis de uma lista sem relações lógicas.",
+      "Árvore de Eventos para as combinações causais; Árvore de Falhas para todos os ramos posteriores.",
+      "Somente FMEA, tratando todos os desfechos como um único modo de falha individual.",
+      "Árvore de Falhas para causas; de Eventos para desfechos."
+    ],
+    "answer": 4,
+    "explanation": "As técnicas organizam sentidos distintos: combinação que produz um evento e evolução condicionada a um iniciador. Podem ser complementares.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0222",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "escala_ordinal_e_interpretacao",
+    "difficulty": "alta",
+    "statement": "Uma matriz interna rotula riscos como níveis 1, 2, 3 e 4 em ordem de prioridade, sem definir distâncias ou razões entre níveis. O relatório afirma que nível 4 tem exatamente o dobro de risco de nível 2. Qual crítica é correta?",
+    "options": [
+      "Os níveis devem ter frequências anuais idênticas porque são categorias.",
+      "Usar números transforma qualquer classificação em medida proporcional.",
+      "A ausência de razão impede qualquer ordenação por prioridade.",
+      "Afirmar o dobro exige apenas que o número 4 seja maior que 2.",
+      "Ordem não demonstra proporção: falta uma escala de razão."
+    ],
+    "answer": 4,
+    "explanation": "A escala descrita é ordinal: permite ordenar, mas não quantificar proporções de risco sem definição adicional.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0223",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fmea_falha_espuria_e_omissao",
+    "difficulty": "alta",
+    "statement": "Uma válvula deve abrir somente após um comando de emergência. A FMEA registra apenas “não abre quando comandada”. Qual modo distinto precisa ser considerado para cobrir também atuação indevida?",
+    "options": [
+      "Mesma omissão descrita novamente como atraso infinito.",
+      "A falha já registrada com a ordem das palavras invertida.",
+      "Somente o custo de aquisição, sem mudança da função analisada.",
+      "Abre sem o comando que deveria autorizar sua abertura.",
+      "Não abre quando comandada, renomeado como indisponibilidade."
+    ],
+    "answer": 3,
+    "explanation": "Falha por omissão e atuação espúria são desvios distintos da função. Uma análise que registra só ausência de resposta pode omitir abertura indevida.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0224",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "criterio_de_aceitacao_e_premissas",
+    "difficulty": "alta",
+    "statement": "Uma conclusão de risco aceitável depende explicitamente de no máximo uma equipe exposta por vez. A nova escala prevê duas equipes simultâneas no cenário, sem atualizar o estudo. Qual decisão preserva a validade do argumento?",
+    "options": [
+      "Reexaminar a consequência e a conclusão, pois a premissa de ocupação mudou.",
+      "Considerar que uma conclusão publicada deixa de depender das premissas.",
+      "Manter a aceitação porque o número de equipamentos permaneceu igual.",
+      "Duplicar apenas o título do relatório para representar duas equipes.",
+      "Concluir automaticamente risco inaceitável sem avaliar a nova consequência."
+    ],
+    "answer": 0,
+    "explanation": "A aceitação é condicionada à ocupação considerada. Mudá-la requer reavaliação; não permite conservar nem inverter automaticamente a conclusão.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0225",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "otimizacao_de_portfolio",
+    "difficulty": "muito_alta",
+    "statement": "Quatro projetos excludentes apenas por orçamento têm custos/benefícios: A=(6,11), B=(5,9), C=(4,7), D=(3,4). O orçamento é 9; projetos escolhidos podem ser combinados, e benefícios são aditivos, sem interação. Qual carteira maximiza o benefício dentro do orçamento?",
+    "options": [
+      "A+D, custo 9 e benefício 15.",
+      "A+C, custo 10 e benefício 18.",
+      "B+C, custo 9 e benefício 16.",
+      "A+B, custo 11 e benefício 20.",
+      "B+D, custo 8 e benefício 13."
+    ],
+    "answer": 2,
+    "explanation": "B+C resulta16 por custo9. A+D cabe mas dá15; A+C e A+B excedem; B+D dá13. Nenhum trio cabe e os demais pares ou individuais não superam16. Critério é interno, não regra legal.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0226",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "falhas_ocultas_e_cobertura_de_teste",
+    "difficulty": "muito_alta",
+    "statement": "Num modelo de triagem, a indisponibilidade média é q=λ[c·T/2+(1−c)·L/2]. A fração c das falhas é revelada em testes de intervalo T; o restante só em revisão de intervalo L. Dados: λ=0,0002/h, c=0,80, T=100 h, L=1.000 h. Qual valor e interpretação seguem desse modelo?",
+    "options": [
+      "0,100; todas as falhas usam apenas o intervalo L.",
+      "0,028; o teste frequente não revela todos os modos.",
+      "0,056; as metades dos intervalos não entram na expressão.",
+      "0,010; todo modo é revelado no intervalo T independentemente de c.",
+      "0,008; a fração não coberta pode ser excluída do cálculo."
+    ],
+    "answer": 1,
+    "explanation": "q=0,0002(0,8×50+0,2×500)=0,0002×140=0,028. Ignorar os modos não cobertos dá0,010, não o resultado do modelo completo.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0227",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "frequencia_cumulativa_f_n",
+    "difficulty": "muito_alta",
+    "statement": "Um estudo possui cenários exclusivos por ocorrência: 1 pessoa atingida, frequência 0,030/ano; 3 pessoas, 0,005/ano; 10 pessoas, 0,001/ano. Define F(N) como frequência de ocorrências com pelo menos N pessoas. O critério interno exige F(3)≤0,005/ano. Qual resultado é correto?",
+    "options": [
+      "F(3)=0,025/ano; subtrai a frequência de 3 da frequência de 1.",
+      "F(3)=0,005/ano; o cenário de 10 pessoas não entra na frequência cumulativa.",
+      "F(3)=0,006/ano; o critério não é atendido.",
+      "F(3)=0,001/ano; conta apenas o maior número de pessoas.",
+      "F(3)=0,036/ano; inclui também os cenários abaixo de 3 pessoas."
+    ],
+    "answer": 2,
+    "explanation": "Pelo menos3 inclui os cenários de3 e10:0,005+0,001=0,006>0,005. Não é frequência de exatamente3 nem número esperado de pessoas. O critério é dado do exercício.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

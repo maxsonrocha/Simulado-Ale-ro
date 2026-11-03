@@ -309,5 +309,47 @@
     "explanation": "A ação pode retirar a única saída; sob o protocolo dado, a divergência deve ser resolvida antes do bloqueio. Informação ausente ou incompatível não comprova área desocupada.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0235",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "conflito_de_objetivos_em_resgate",
+    "difficulty": "alta",
+    "statement": "Num exercício, retirar uma pessoa e conter um vazamento competem pela mesma equipe especializada. O plano prevê que a coordenação avalie a possibilidade de expor essa equipe a uma atmosfera ainda não caracterizada. Qual informação é decisiva antes de converter a urgência em autorização de entrada?",
+    "options": [
+      "Apenas o fato de a equipe ter chegado primeiro ao local.",
+      "Somente o nome da pessoa a retirar, independentemente do cenário.",
+      "Condições de exposição e capacidade real de intervenção/resgate para a missão proposta.",
+      "A urgência, usada como substituta da caracterização do perigo.",
+      "A existência de um plano como prova de que qualquer missão nele citada já é executável."
+    ],
+    "answer": 2,
+    "explanation": "Urgência orienta prioridade, mas não demonstra que uma entrada pode ser executada sob as condições existentes. O exercício pede avaliar exposição e capacidade, sem inventar autorização normativa.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0236",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "transicao_entre_zonas_e_contaminacao",
+    "difficulty": "muito_alta",
+    "statement": "O exercício atende vítimas contaminadas e vítimas sem contaminação. A área de triagem limpa recebe ambas pelo mesmo percurso, sem separação, e a equipe muda de grupo com os mesmos materiais de contato. Qual revisão trata simultaneamente circulação e transferência indireta?",
+    "options": [
+      "Registrar apenas o número de atendidos, porque volume de atendimento demonstra ausência de contaminação cruzada.",
+      "Trocar apenas o nome da triagem para área limpa, mantendo os percursos existentes.",
+      "Separar só as macas na chegada e manter cruzamentos e materiais compartilhados sem controle.",
+      "Controlar fluxos, transições e materiais que possam transferir contaminação à área limpa.",
+      "Considerar que vítimas sem contaminação neutralizam a contaminação das demais quando reunidas."
+    ],
+    "answer": 3,
+    "explanation": "Percursos e superfícies/materiais podem levar contaminação à área limpa. A solução precisa abordar trânsito e transferência indireta, não só uma posição final das macas.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

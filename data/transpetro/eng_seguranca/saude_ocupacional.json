@@ -230,5 +230,29 @@
     "fontes": [
       "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0240",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "responsavel_pcmso_localidade",
+    "difficulty": "alta",
+    "statement": "Uma organização não encontra médico do trabalho na localidade e propõe deixar o PCMSO sem responsável. Considerando a alternativa expressamente registrada na ficha NR-07, qual encaminhamento deve ser examinado?",
+    "options": [
+      "Usar médico de outra especialidade apenas como consultor, deixando o programa sem responsável.",
+      "Manter apenas consulta médica eventual sem indicar responsável pelo programa.",
+      "Suspender a responsabilidade médica, conservando somente a agenda de exames.",
+      "Cobrar dos empregados a contratação do responsável como condição para manter o programa.",
+      "Contratar médico de outra especialidade como responsável na hipótese registrada."
+    ],
+    "answer": 4,
+    "explanation": "A ficha admite contratação de médico de outra especialidade nessa hipótese. Não autoriza abandonar o programa ou substituir a responsabilidade médica por comissão ou fornecedor.",
+    "etapa": 1,
+    "lote": 4,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
   }
 ]

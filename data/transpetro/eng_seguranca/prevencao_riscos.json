@@ -406,5 +406,299 @@
     "explanation": "Peso e reação axial são ações diferentes, com caminhos de carga e contenções distintos. O reforço vertical proposto não demonstra retenção axial da tampa ou da ligação durante o teste.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0195",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "inertizacao_e_risco_humano",
+    "difficulty": "media",
+    "statement": "A introdução de nitrogênio reduz oxigênio num recipiente para controlar uma reação do processo. Um gestor conclui que essa redução também torna a atmosfera mais segura para pessoas. Qual distinção técnica é necessária?",
+    "options": [
+      "Menor oxigênio impede qualquer efeito sobre a respiração humana.",
+      "O benefício ao processo pode criar deficiência de oxigênio para pessoas.",
+      "Ausência de cheiro comprova concentração respirável de oxigênio.",
+      "Controlar uma reação demonstra que todo acesso humano é seguro.",
+      "Nitrogênio passa a fornecer oxigênio quando ocorre esforço físico."
+    ],
+    "answer": 1,
+    "explanation": "Inertização de processo e condição respirável são objetivos diferentes. Reduzir oxigênio pode produzir asfixia; não se declara condição de entrada ou limite legal.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0196",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "gravidade_e_imobilizacao",
+    "difficulty": "media",
+    "statement": "Um carro sobre trilhos permanece parado numa rampa apenas pelo freio de serviço. Será feita intervenção que remove esse freio. Qual condição deve ser tratada antes da remoção?",
+    "options": [
+      "Possibilidade de deslocamento por gravidade e contenção independente adequada.",
+      "A posição do comando de partida como substituta da retenção física.",
+      "Apenas o desligamento elétrico, pois gravidade depende da alimentação.",
+      "A ausência de movimento atual como garantia após retirar o freio.",
+      "Somente a contagem de rodas, sem avaliar a trajetória possível."
+    ],
+    "answer": 0,
+    "explanation": "Retirar o elemento que mantém a imobilidade altera a condição de equilíbrio. A componente do peso pode mover o carro sem comando ou energia elétrica.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0197",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "retencao_e_isolamento",
+    "difficulty": "media",
+    "statement": "O catálogo de uma válvula afirma que ela impede fluxo reverso, mas não oferece função de isolamento positivo para manutenção. Um plano passa a chamá-la de bloqueio de manutenção apenas porque é uma válvula. Qual leitura do catálogo é correta?",
+    "options": [
+      "O catálogo garante manutenção segura por não mencionar acidentes.",
+      "A função de retenção descrita não demonstra a função de isolamento requerida.",
+      "O nome válvula assegura qualquer função de bloqueio em qualquer sentido.",
+      "Retenção e isolamento são equivalentes independentemente do projeto.",
+      "Impedir retorno significa bloquear igualmente toda pressão a montante."
+    ],
+    "answer": 1,
+    "explanation": "A função precisa corresponder ao requisito. O enunciado distingue retenção e isolamento; pertencer à mesma categoria de componente não garante funções iguais.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0198",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "inducao_eletrica",
+    "difficulty": "alta",
+    "statement": "Uma bobina está sem alimentação própria, mas próxima de um circuito percorrido por corrente variável. O estudo identifica acoplamento eletromagnético entre eles. Qual risco precisa integrar a análise da bobina antes da intervenção?",
+    "options": [
+      "Tensão induzida somente se os condutores dos dois circuitos se tocarem.",
+      "Impossibilidade de transferência de energia sem uma conexão elétrica direta.",
+      "Ausência necessária de qualquer tensão porque a chave própria foi aberta.",
+      "Tensão induzida por circuito externo, apesar da ausência de alimentação própria.",
+      "Proteção automática contra indução pela existência de isolamento no fio."
+    ],
+    "answer": 3,
+    "explanation": "Campo variável pode induzir tensão por acoplamento sem conexão condutiva direta. O circuito próprio desligado não resolve sozinho esse mecanismo.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0199",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "bomba_e_aquecimento_sem_vazao",
+    "difficulty": "alta",
+    "statement": "Uma bomba continua recebendo potência, mas a descarga está fechada e a vazão útil cai a zero. O fabricante informa que essa condição pode aquecer o fluido. Qual interpretação evita usar vazão zero como prova de ausência de risco térmico?",
+    "options": [
+      "Sem saída de massa, a temperatura do fluido é fisicamente invariável.",
+      "A existência do motor demonstra que o calor sempre sai com a vazão.",
+      "A condição de descarga fechada elimina toda transformação de energia.",
+      "A energia recebida pode ser dissipada internamente mesmo sem transporte útil de fluido.",
+      "Vazão zero implica potência elétrica necessariamente zero."
+    ],
+    "answer": 3,
+    "explanation": "Sem vazão útil, energia pode continuar entrando e ser dissipada. Balanço de massa não substitui balanço de energia.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0200",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "junta_aparafusada_e_temperatura",
+    "difficulty": "alta",
+    "statement": "Uma junta não apresenta vazamento a frio, mas perde vedação quando aquecida. Os materiais do parafuso e das partes comprimidas têm expansões térmicas diferentes. Qual investigação trata o comportamento observado?",
+    "options": [
+      "Presumir mesma dilatação de materiais distintos por terem a mesma temperatura.",
+      "Aumentar apenas o aperto a frio sem verificar os esforços admissíveis no regime quente.",
+      "Examinar como a dilatação diferencial altera a compressão da junta no ciclo térmico.",
+      "Manter apenas o ensaio frio, tratando-o como representação de todas as pré-cargas em serviço.",
+      "Usar a vedação a frio como comprovação de vedação em toda temperatura."
+    ],
+    "answer": 2,
+    "explanation": "Expansões diferentes podem modificar a pré-carga e a vedação. O estado a frio não caracteriza automaticamente o regime térmico.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0201",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "pressao_sobre_solo",
+    "difficulty": "alta",
+    "statement": "Uma base distribui carga vertical de 240 kN uniformemente em placa ideal de 1,2 m². O projeto adota capacidade admissível do solo de 150 kPa, já verificada para o exercício. Use p=F/A e 1 kPa=1 kN/m². Qual área mínima atende ao critério e como fica a placa atual?",
+    "options": [
+      "1,6 m²; a placa atual produz 200 kPa e não atende.",
+      "2,0 m²; a placa atual produz 120 kPa e não atende.",
+      "1,2 m²; a placa atual produz 150 kPa e atende.",
+      "0,625 m²; a placa atual produz 200 kPa e atende.",
+      "1,6 m²; a placa atual produz 125 kPa e atende."
+    ],
+    "answer": 0,
+    "explanation": "Área mínima=240/150=1,6 m²; atual p=240/1,2=200 kPa>150. Hipóteses são carga uniforme e placa ideal; não é avaliação geotécnica completa.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0202",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "mangueira_pressurizada_e_trajetoria",
+    "difficulty": "alta",
+    "statement": "Uma conexão de mangueira pode se soltar e o jato faz a extremidade livre chicotear. A proposta instala apenas uma tela que retém respingos, sem resistência prevista para a mangueira. Qual lacuna permanece?",
+    "options": [
+      "A tela passa a suportar automaticamente a reação dinâmica da mangueira.",
+      "Retenção do movimento e da energia da extremidade, além do controle do fluido projetado.",
+      "O comprimento da mangueira torna irrelevante a trajetória de sua extremidade.",
+      "O chicoteamento deixa de existir porque respingos são retidos.",
+      "A retenção dos respingos comprova que a conexão não pode mais se soltar."
+    ],
+    "answer": 1,
+    "explanation": "Projéteis líquidos e movimento de mangueira são mecanismos diferentes. Uma tela dimensionada só para respingos não demonstra contenção mecânica do chicoteamento.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0203",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "revestimento_e_trabalho_a_quente",
+    "difficulty": "alta",
+    "statement": "Uma peça metálica será aquecida em serviço a quente. A ficha do revestimento informa que sua decomposição térmica libera agente perigoso, mesmo quando o metal-base não o contém. A avaliação considerou apenas o metal-base. Qual ajuste é necessário?",
+    "options": [
+      "Aumentar a temperatura para garantir que os produtos de decomposição desapareçam.",
+      "Usar a ausência do agente no metal para excluir a informação do revestimento.",
+      "Incluir o revestimento e seus produtos de decomposição na análise do serviço.",
+      "Presumir que composição do metal-base descreve todas as emissões.",
+      "Tratar o revestimento apenas como acabamento estético, sem influência na exposição."
+    ],
+    "answer": 2,
+    "explanation": "A fonte potencial inclui o revestimento aquecido. A composição do substrato não caracteriza toda emissão do conjunto.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0204",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "distancia_de_parada_ideal",
+    "difficulty": "muito_alta",
+    "statement": "Um carrinho move-se a 4 m/s. No modelo ideal, mantém velocidade por 0,50 s após o comando e depois desacelera uniformemente a 2 m/s². Use distância de reação v·t e frenagem v²/(2a). Há 5 m disponíveis até o obstáculo. Qual avaliação é correta?",
+    "options": [
+      "São necessários 8 m; a insuficiência é 3 m.",
+      "São necessários 2 m; há margem de 3 m.",
+      "São necessários 6 m; falta 1 m.",
+      "São necessários 4 m; há margem de 1 m.",
+      "São necessários 5 m; o limite é atendido exatamente."
+    ],
+    "answer": 2,
+    "explanation": "Durante o atraso percorre 4×0,5=2 m; na frenagem,16/(2×2)=4 m; total6 m. Disponíveis5, falta1. Hipóteses ideais não incluem outras incertezas reais.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0205",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "eslingas_angulo_e_tracao",
+    "difficulty": "muito_alta",
+    "statement": "No içamento ideal simétrico de peso 20 kN, duas pernas de eslinga fazem ângulo θ com a vertical e T=20/(2cosθ). A capacidade adotada no exercício é 15 kN por perna. Compare θ=0°, com cos=1, e θ=60°, com cos=0,5, desconsiderando dinâmica. Qual análise é correta?",
+    "options": [
+      "A tração vai de 10 para 20 kN; só a vertical atende.",
+      "A tração fica em 10 kN em ambas porque o peso se divide por duas pernas.",
+      "A tração passa de 20 para 10 kN; só a inclinada atende.",
+      "A tração fica em 20 kN em ambas porque cada perna recebe todo o peso.",
+      "A tração passa de 10 para 15 kN; ambas atendem no limite."
+    ],
+    "answer": 0,
+    "explanation": "Equilíbrio vertical:2Tcosθ=20. Resulta10 kN na vertical e20 kN a60°; limite15 só comporta a primeira nesse modelo. Não se define capacidade normativa universal.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0206",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "folga_para_retencao_de_queda",
+    "difficulty": "muito_alta",
+    "statement": "Para um modelo fornecido de retenção de queda, a folga abaixo da ancoragem deve cobrir sucessivamente: extensão inicial de 1,8 m, abertura do absorvedor de 1,2 m, distância final do ponto de conexão aos pés de 1,5 m e margem de 1,0 m. Há 5,0 m livres. Elevar a ancoragem 1,0 m aumenta a folga livre na mesma medida, sem mudar os demais termos. Qual conclusão segue do modelo?",
+    "options": [
+      "A necessidade é 4,5 m; sobra 0,5 m inicialmente e a margem prescrita pode ser omitida.",
+      "A necessidade é 5,5 m; elevar a ancoragem reduz a folga livre a 4,0 m.",
+      "A necessidade é 3,0 m; os pés e a margem não integram a soma.",
+      "A necessidade é 6,5 m; elevar a ancoragem mantém a insuficiência em 1,5 m.",
+      "A necessidade é 5,5 m; falta 0,5 m inicialmente e sobra 0,5 m após elevar a ancoragem."
+    ],
+    "answer": 4,
+    "explanation": "Somam-se1,8+1,2+1,5+1=5,5 m. Antes5−5,5=−0,5; depois6−5,5=0,5. São dados do modelo, não valores legais ou liberação real do sistema.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0207",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "decaimento_rc_e_tempo",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo de bancada descreve V(t)=100·exp(−t/(RC)), com R=50.000 Ω e C=100 μF=0,0001 F. Um registro é disparado quando V cai a 10 V. Com ln10=2,303, em quanto tempo o modelo alcança esse valor? O critério não é declaração de condição segura para intervenção.",
+    "options": [
+      "0,4606 s.",
+      "115,15 s.",
+      "11,515 s.",
+      "5,000 s.",
+      "2,303 s."
+    ],
+    "answer": 2,
+    "explanation": "RC=5 s. De0,1=exp(−t/5), t=5ln10=11,515 s. C deve ser convertido para farads; um tempo de disparo não demonstra estado seguro de todo o equipamento.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0208",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "compatibilidade_de_frentes_simultaneas",
+    "difficulty": "muito_alta",
+    "statement": "Quatro tarefas de mesma duração precisam caber em duas janelas, duas por janela. A avaliação interna proíbe simultaneidade dos pares A-B, B-C e C-D por interferências identificadas; os demais pares são compatíveis e não há precedência. Qual plano atende a todas as restrições?",
+    "options": [
+      "A com C; depois B com D.",
+      "A com B; depois C com D.",
+      "A com D; depois B com C.",
+      "A com B; depois C com A.",
+      "B com C; depois A com D."
+    ],
+    "answer": 0,
+    "explanation": "A-C e B-D não pertencem aos pares proibidos e cada tarefa ocorre uma vez. Os outros planos incluem par proibido ou repetem/omitem tarefa. As restrições são dados do exercício, não regra legal universal.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

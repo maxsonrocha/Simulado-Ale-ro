@@ -489,5 +489,236 @@
     "explanation": "Detectar material genético não prova viabilidade neste método; sintomas inespecíficos sem nexo demonstrado não estabelecem etiologia. São lacunas distintas a investigar, sem negar a detecção.",
     "etapa": 1,
     "lote": 3
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0209",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "deteccao_e_quantificacao",
+    "difficulty": "media",
+    "statement": "Um método distingue detectar a presença de um agente de quantificar sua concentração com desempenho validado. Uma amostra tem sinal detectável, mas abaixo da faixa validada de quantificação. Qual registro respeita essa distinção?",
+    "options": [
+      "Concentração igual a zero porque não é quantificável com o desempenho requerido.",
+      "Ausência comprovada do agente, apesar do sinal detectado.",
+      "Concentração exata igual à metade do primeiro ponto da curva, sem regra para isso.",
+      "Concentração necessariamente superior a qualquer ponto da curva.",
+      "Presença detectada, sem atribuir concentração exata fora da faixa validada."
+    ],
+    "answer": 4,
+    "explanation": "Detecção e quantificação não são equivalentes. Não se pode converter um sinal abaixo da faixa validada em zero ou número arbitrário exato.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0210",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "branco_de_transporte",
+    "difficulty": "media",
+    "statement": "Um branco permaneceu fechado e acompanhou os recipientes no transporte, sem amostrar ar. Ele apresentou o agente investigado. Qual etapa precisa ser examinada antes de atribuir todo sinal das amostras à exposição no posto?",
+    "options": [
+      "Possível contaminação do sistema de recipientes, transporte ou manuseio.",
+      "Vazão de ar no branco fechado durante a tarefa.",
+      "Concentração exata do agente no posto, igual ao sinal do branco.",
+      "Quantidade absorvida pelo trabalhador durante o transporte.",
+      "Exposição respiratória do trabalhador medida diretamente pelo branco."
+    ],
+    "answer": 0,
+    "explanation": "O branco não amostrou ar, mas pode revelar contaminação em etapas compartilhadas. Não mede exposição pessoal nem permite localizar sozinho sua origem exata.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0211",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "calibracao_ajuste_e_rastreabilidade",
+    "difficulty": "alta",
+    "statement": "Dois instrumentos são comparados a um padrão e seus desvios são documentados. Um deles é depois ajustado, mas não passa por nova verificação. A equipe declara que o ajuste prova o desempenho final. Qual análise diferencia os atos?",
+    "options": [
+      "A rastreabilidade do padrão garante que uma intervenção posterior não altere o resultado.",
+      "Verificar o desempenho posterior: comparação e ajuste têm funções distintas.",
+      "Conhecer o desvio anterior determina exatamente o desvio após qualquer ajuste.",
+      "Qualquer ajuste elimina por definição toda incerteza do instrumento.",
+      "Comparar e ajustar são o mesmo ato, de modo que não há estado posterior a verificar."
+    ],
+    "answer": 1,
+    "explanation": "A comparação documenta relações com o padrão; uma intervenção pode mudar o estado do instrumento. O resultado posterior precisa ser demonstrado, não presumido a partir da intenção do ajuste.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0212",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "perda_em_paredes_do_sistema",
+    "difficulty": "alta",
+    "statement": "Um aerossol atravessa uma mangueira antes de chegar ao coletor. O ensaio mostra deposição relevante nas paredes, que não serão analisadas. A equipe usa somente a massa no coletor como se toda partícula aspirada tivesse chegado a ele. Qual problema deve ser tratado?",
+    "options": [
+      "A perda pode ser corrigida sempre somando um valor fixo, sem medir sua magnitude.",
+      "O mesmo diâmetro externo da mangueira garante transporte integral de qualquer partícula.",
+      "Deposição antes do coletor demonstra ausência de partículas na atmosfera aspirada.",
+      "A transmissão entre entrada e coletor pode reduzir a recuperação e precisa ser caracterizada no método.",
+      "A massa depositada nas paredes já está necessariamente incluída na análise do coletor."
+    ],
+    "answer": 3,
+    "explanation": "O sistema de transporte pode reter parte do material antes da análise. A relação entre aspirado e recuperado depende da caracterização do conjunto, não apenas do coletor final.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0213",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostragem_bomba_e_contrapressao",
+    "difficulty": "alta",
+    "statement": "Uma bomba mantém vazão em bancada com saída livre, mas a amostragem usa filtro que aumenta a resistência com a carga de poeira. A especificação da bomba só garante compensação até uma resistência máxima. Qual verificação integra sistema de coleta e desempenho?",
+    "options": [
+      "Converter a vazão nominal em massa capturada sem avaliar o conjunto.",
+      "Medir apenas a duração, porque o tempo torna irrelevante a vazão real.",
+      "Verificar vazão e resistência do conjunto na faixa de compensação.",
+      "Presumir que aumentar a resistência aumenta a vazão em toda bomba.",
+      "Usar a vazão livre como garantia de vazão constante sob qualquer filtro carregado."
+    ],
+    "answer": 2,
+    "explanation": "A capacidade de manter vazão depende da contrapressão. Ensaio em saída livre não caracteriza todo regime de filtro e compensação.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0214",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "resistencia_termica_em_serie",
+    "difficulty": "alta",
+    "statement": "Num modelo unidimensional, duas camadas têm resistências térmicas totais de 0,20 e 0,30 K/W. A diferença de temperatura é 40 K e Q=ΔT/(R1+R2). Se a segunda camada for removida e a diferença mantida, quais taxas de transferência de calor resultam antes e depois?",
+    "options": [
+      "100 W e 100 W.",
+      "200 W e 80 W.",
+      "80 W e 133,3 W.",
+      "80 W e 200 W.",
+      "20 W e 8 W."
+    ],
+    "answer": 3,
+    "explanation": "Antes40/(0,20+0,30)=80 W; depois40/0,20=200 W. As resistências são totais em K/W, não por área; não há limite legal atribuído.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0215",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "desinfeccao_e_residuo_quimico",
+    "difficulty": "alta",
+    "statement": "Um procedimento reduz microrganismos numa bancada usando desinfetante. Após aplicação, permanece resíduo químico capaz de irritar a pele segundo informação do produto. O setor declara ausência de qualquer exposição porque a ação antimicrobiana foi eficaz. Qual distinção é necessária?",
+    "options": [
+      "Redução microbiana transforma automaticamente todo resíduo em água.",
+      "Eficácia antimicrobiana não demonstra remoção ou inocuidade do resíduo químico.",
+      "Se o produto é desinfetante, sua concentração remanescente é irrelevante em todo uso.",
+      "O resíduo só pode ter efeito biológico, pois foi usado em desinfecção.",
+      "O ensaio microbiológico quantifica diretamente a irritação química na pele."
+    ],
+    "answer": 1,
+    "explanation": "O controle atua em um perigo e pode deixar outro. O resultado microbiológico não caracteriza composição, contato ou efeito do resíduo químico.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0216",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "covariancia_em_diferenca",
+    "difficulty": "muito_alta",
+    "statement": "Duas leituras A e B têm variâncias de 5 unidades² cada e covariância 4 unidades² por uma componente comum. Para a diferença D=A−B, use Var(D)=Var(A)+Var(B)−2Cov(A,B). Qual desvio-padrão de D e qual efeito do termo comum resultam?",
+    "options": [
+      "2 unidades; variância e desvio-padrão são numericamente idênticos.",
+      "√10 unidades; a covariância deve ser ignorada porque são duas leituras.",
+      "√2 unidades; a componente comum se cancela parcialmente na diferença.",
+      "√18 unidades; a covariância positiva sempre amplia a incerteza de uma diferença.",
+      "0 unidades; toda a incerteza é comum, sem componente própria."
+    ],
+    "answer": 2,
+    "explanation": "Var(D)=5+5−8=2; desvio-padrão√2. A covariância positiva reduz a variância da diferença, mas as componentes próprias mantêm incerteza não nula.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0217",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "percentil_e_criterio_interno",
+    "difficulty": "muito_alta",
+    "statement": "Nove resultados, em unidades de um indicador interno, são 1, 2, 2, 3, 4, 5, 6, 8 e 20. O procedimento define P90 pelo posto teto(0,90·n), na lista ordenada, e aceita o conjunto somente se P90≤12. Um analista troca P90 pela mediana porque a maior leitura parece discrepante, sem evidência de erro. Qual avaliação segue o procedimento dado?",
+    "options": [
+      "P90=4 e o critério é atendido, pois todo percentil coincide com a mediana.",
+      "P90=20, mas a mediana 4 autoriza aprovação sem mudar o procedimento.",
+      "P90=12 e o critério é atendido, pois o limite interno define o valor medido.",
+      "P90=20 e o critério não é atendido; a mediana 4 não pode substituí-lo nessa decisão.",
+      "P90=8 e o critério é atendido, pois o maior resultado é sempre descartado."
+    ],
+    "answer": 3,
+    "explanation": "Teto(8,1)=9; o nono valor é20>12. A mediana é o quinto,4, mas descreve outra posição. Não se exclui valor válido por conveniência nem se atribui regra legal ao critério.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0218",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "saturacao_e_diluicao_instrumental",
+    "difficulty": "muito_alta",
+    "statement": "Um sensor responde R=2C até C=50, saturando em R=100 acima disso. Uma amostra produz R=100; após diluição que divide a concentração por 4, produz R=60, já na faixa linear. Supondo diluição ideal e ausência de interferência, qual concentração original pode ser inferida e por que não usar apenas a primeira leitura?",
+    "options": [
+      "240; deve-se multiplicar diretamente a resposta pelo fator 4.",
+      "30; a leitura diluída dispensa recompor o fator de diluição.",
+      "15; a diluição exige dividir novamente o valor da resposta.",
+      "120; a primeira leitura saturada só indicava pelo menos 50.",
+      "50; a saturação garante valor exatamente no fim da faixa."
+    ],
+    "answer": 3,
+    "explanation": "Na diluída,C=60/2=30; original4×30=120. R100 não distingue50 de concentrações maiores. A diluição linear remove a indeterminação nas hipóteses dadas.",
+    "etapa": 1,
+    "lote": 4
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0219",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ensaio_cruzado_e_carryover",
+    "difficulty": "muito_alta",
+    "statement": "Para comparar dois procedimentos de limpeza A e B, os mesmos postos recebem A na primeira semana e B na segunda. Resíduos de A persistem por vários dias e podem reagir com B. A equipe atribui toda diferença ao produto B. Que revisão integra ordem e persistência?",
+    "options": [
+      "Usar a segunda semana como controle não exposto, embora nela seja aplicado B.",
+      "Tratar persistência como prova de que os produtos têm efeitos idênticos.",
+      "Considerar o uso dos mesmos postos como eliminação automática de qualquer efeito residual.",
+      "Avaliar e controlar resíduo e ordem de aplicação no desenho comparativo.",
+      "Trocar apenas os nomes A e B no relatório, mantendo sequência e resíduos."
+    ],
+    "answer": 3,
+    "explanation": "Comparação nos mesmos postos controla algumas diferenças, mas não remove efeitos de período ou resíduo. A reação e a ordem precisam ser tratadas no desenho e na interpretação.",
+    "etapa": 1,
+    "lote": 4
   }
 ]

@@ -1,0 +1,145 @@
+{
+  "branch": "feature/transpetro-banco-questoes-etapa-1-lote-4",
+  "baseCommit": "5b51b64",
+  "antes": 300,
+  "novas": 100,
+  "acumulado": 400,
+  "arquivos": [
+    {
+      "arquivo": "data/transpetro/eng_seguranca/acidentes.json",
+      "antes": 16,
+      "novas": 4,
+      "acumulado": 20
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/desenvolvimento_sustentavel.json",
+      "antes": 6,
+      "novas": 0,
+      "acumulado": 6
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/emergencias.json",
+      "antes": 15,
+      "novas": 2,
+      "acumulado": 17
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ergonomia.json",
+      "antes": 11,
+      "novas": 1,
+      "acumulado": 12
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gerenciamento_riscos.json",
+      "antes": 18,
+      "novas": 8,
+      "acumulado": 26
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gestao_sms.json",
+      "antes": 18,
+      "novas": 3,
+      "acumulado": 21
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/higiene_ocupacional.json",
+      "antes": 24,
+      "novas": 11,
+      "acumulado": 35
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/incendio.json",
+      "antes": 11,
+      "novas": 2,
+      "acumulado": 13
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ingles.json",
+      "antes": 60,
+      "novas": 20,
+      "acumulado": 80
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/legislacao_nr.json",
+      "antes": 30,
+      "novas": 14,
+      "acumulado": 44
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/portugues.json",
+      "antes": 60,
+      "novas": 20,
+      "acumulado": 80
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/prevencao_riscos.json",
+      "antes": 20,
+      "novas": 14,
+      "acumulado": 34
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/saude_ocupacional.json",
+      "antes": 11,
+      "novas": 1,
+      "acumulado": 12
+    }
+  ],
+  "areasNovas": {
+    "ESP": 60,
+    "ING": 20,
+    "PORT": 20
+  },
+  "dificuldadeNova": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "dificuldadeAcumulada": {
+    "media": 80,
+    "alta": 180,
+    "muito_alta": 140
+  },
+  "gabaritosNovos": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20
+  },
+  "gruposNovos": 20,
+  "vinculadasNovas": 40,
+  "independentesNovas": 60,
+  "gruposAcumulados": 80,
+  "vinculadasAcumuladas": 160,
+  "independentesAcumuladas": 240,
+  "ids": {
+    "PORT": "0061..0080",
+    "ING": "0061..0080",
+    "ESP": "0181..0240"
+  },
+  "auditoria1": "APROVADA",
+  "auditoria2": "APROVADA EDITORIALMENTE",
+  "auditoria3": "APROVADA EDITORIALMENTE COM LIMITES",
+  "corretaMaiorQueMedianaDistratores": {
+    "PORT": 9,
+    "ING": 9,
+    "ESP": 26
+  },
+  "testesNode": 79,
+  "suitesBrowser": 3,
+  "segundasResolucoesNovas": 17,
+  "recalculosAntigos": 64,
+  "paresNovosNovos": 4950,
+  "paresNovosAntigos": 30000,
+  "paresAntigosAntigos": 44850,
+  "paresTotal": 79800,
+  "substituicoesDeRascunho": 7,
+  "duplicatasCanonicasFinais": 0,
+  "capacidadeRealInedita": 4,
+  "limites": [
+    "Sem calibração psicométrica ou avaliação humana independente; aguardar auditoria do usuário antes de integrar.",
+    "Sem embeddings independentes; semântica editorial, triagem lexical não prova ausência absoluta de paráfrases.",
+    "Fontes externas recusadas pelo proxy com 403; corpus local autorizado limita afirmações normativas.",
+    "Etapa 1 permanece parcial: faltam 300 itens. Lote 5 não iniciado."
+  ]
+}

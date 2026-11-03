@@ -1,0 +1,236 @@
+{
+  "fallback": "Corpus local auditado autorizado, limitado às proposições registradas; não é reprodução integral das normas.",
+  "consultas": [
+    {
+      "id": "NR-18",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-18-nr-18",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "NR-23",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-23-nr-23",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "NR-33",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-33-nr-33",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "INDICE_ALTERNATIVO",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0181",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-18",
+            "Relações entre NRs"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "A NR-18 é a referência setorial da indústria da construção. As demais opções pertencem a campos naval, portuário, aquaviário ou plataformas, sem que o nome construção as torne intercambiáveis."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0182",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-33"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "O corpus identifica NR-33 e Guia Técnico como referências para trabalhos em espaços confinados. A ficha não fornece definições completas ou requisitos finos de entrada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0183",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "Lei 14.063/2020"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "O corpus registra esse objeto na Lei 14.063/2020. A classe e os requisitos de assinatura dependem de conferência específica do texto legal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0184",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-23"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "A ficha da NR-23 a inclui no bloco de incêndio e recomenda cruzamento com NR-20 em cenários de inflamáveis. Não fornece distâncias ou dimensionamentos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0185",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A dispensa de ME/EPP dos graus 1/2 é condicionada cumulativamente, incluindo levantamento e declaração. Ausência de exame não prova atendimento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0186",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "O treinamento inicial registrado é de no mínimo 8 h antes do início da atividade. A soma posterior não satisfaz o requisito temporal. Não se afirma que carga, sozinha, autoriza o trabalhador."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0187",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-12"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha da NR-12 registra o Anexo XII e inclui cesto suspenso. A indicação não inventa especificações dimensionais nem exclui outras normas pertinentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0188",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "Lei 8.213/1991, Decreto 3.048/1999, CLT e PPP"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "O corpus distingue CLT trabalhista, Lei 8.213 previdenciária/acidentes/benefícios e Decreto 3.048 Regulamento da Previdência. Detalhes dependem dos textos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0189",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha atribui ao trabalhador uso apenas para a finalidade prevista. CA qualifica produto como EPI, não converte qualquer proteção em universal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0190",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-18",
+            "NR-33",
+            "NR-23",
+            "Relações entre NRs"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ],
+      "fundamentoConferido": "Os campos se cruzam: construção, espaço confinado e incêndio/inflamáveis exigem pesquisa pertinente a cada frente. Não há autorização para uma norma absorver indiscriminadamente as outras."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0191",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha exige treinamento periódico a cada 2 anos, mínimo de 8 h. P termina antes de 10/03/2027 e tem 8 h; Q falha na carga; R ultrapassa o intervalo. Autorização depende de outros requisitos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0192",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "Evitar a atividade não é omitir proteção em atividade mantida. Quando ela permanece, SPC é obrigatório segundo a ficha, mas sua mera previsão não comprova adequação ou demais requisitos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0193",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-17"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha admite medidas técnicas de engenharia, organizacionais e/ou administrativas apoiadas na avaliação. Ritmo e tarefa importam; a existência de uma proposta não demonstra sua suficiência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0194",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-18",
+            "Relações entre NRs"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        },
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-12",
+            "FICHA NR-13"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "O corpus distingue norma setorial de referências a atividades/equipamentos. NR-12 trata de máquinas; NR-13 é especial e não limitada a setor. Triagem não equivale a enquadrar qualquer caldeira sem dados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0240",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ],
+      "fundamentoConferido": "A ficha admite contratação de médico de outra especialidade nessa hipótese. Não autoriza abandonar o programa ou substituir a responsabilidade médica por comissão ou fornecedor."
+    }
+  ],
+  "limites": "Sem acesso externo bem-sucedido alegado. NR-18/23/33 usadas em nível de escopo e interfaces, sem inventar PET, funções, resgate, dimensionamentos ou periodicidades ausentes. Cláusulas ISO/ABNT não foram usadas."
+}
