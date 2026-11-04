@@ -374,5 +374,131 @@
     "explanation": "Em A:60+30CB−30CA=0, CA−CB=2. Em B:30CA−(30+60)CB=0, CA=3CB. Logo CB1 eCA3. A troca recircula contaminante; não se supõe B limpo só porque recebe ar limpo.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0488",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "termografia_e_emissividade_superficial",
+    "difficulty": "media",
+    "statement": "Dois objetos estão à mesma temperatura real no ensaio, mas um tem superfície polida de baixa emissividade e o outro revestimento de maior emissividade. A câmera mostra temperaturas aparentes diferentes sob ajuste único. Qual conclusão é adequada antes de declarar o polido mais frio?",
+    "options": [
+      "O revestimento cria por definição uma fonte de calor inexistente no objeto.",
+      "A diferença da imagem prova erro na premissa de temperatura real, sem avaliar a resposta radiométrica.",
+      "A mesma temperatura real exige qualquer superfície produzir igual indicação sob qualquer ajuste.",
+      "Baixa emissividade significa necessariamente temperatura real menor.",
+      "Examinar emissividade e radiação refletida; a indicação aparente não demonstra sozinha diferença de temperatura real."
+    ],
+    "answer": 4,
+    "explanation": "A resposta radiométrica depende da emissão e da reflexão da superfície, além da temperatura. O ensaio fixa temperatura igual; o ajuste único pode não representar superfícies diferentes. Não se define um procedimento normativo de termografia.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0489",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "potencia_termica_e_taxa_de_queima",
+    "difficulty": "alta",
+    "statement": "Um combustível tem poder calorífico de20MJ/kg. O modelo considera taxa de consumo0,05kg/s e eficiência de liberação térmica0,8. Qual potência liberada?",
+    "options": [
+      "0,8MW.",
+      "0,08MW.",
+      "8MW.",
+      "20MW.",
+      "1,0MW."
+    ],
+    "answer": 0,
+    "explanation": "20×0,05×0,8=0,8MJ/s=0,8MW. A taxa converte energia específica em potência, e a eficiência reduz o resultado ideal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0490",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "propagacao_de_chama_e_escoamento",
+    "difficulty": "alta",
+    "statement": "No modelo unidimensional, o gás escoa para a direita a1m/s e a frente de chama avança no gás para a esquerda a2m/s. A velocidade da chama em relação ao solo é a soma algébrica. Qual resultado e implicação no modelo?",
+    "options": [
+      "1m/s para a direita; basta subtrair módulos e conservar o sentido do gás.",
+      "2m/s para a esquerda; o escoamento não participa da transformação de referência.",
+      "1m/s para a esquerda; o escoamento não impede avanço contra o sentido da linha.",
+      "3m/s para a direita; ambas as velocidades têm o mesmo sinal.",
+      "Zero; velocidades opostas sempre se anulam exatamente."
+    ],
+    "answer": 2,
+    "explanation": "Adotando direita positiva, vsolo=+1−2=−1m/s. A chama pode avançar para montante neste modelo; não se especifica capacidade de dispositivo real de proteção.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0491",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "crescimento_de_incendio_e_tempo_de_resposta",
+    "difficulty": "alta",
+    "statement": "Um modelo didático fornece potência Q=αt², comα=0,01kW/s². O tempo de ação cai de60 para30s após revisão do processo de resposta. Quais potências nos dois instantes e redução relativa?",
+    "options": [
+      "36kW e18kW;50%.",
+      "60kW e30kW;50%.",
+      "9kW e36kW;75% de queda.",
+      "36kW e9kW;75%.",
+      "36kW e9kW;25% de queda."
+    ],
+    "answer": 3,
+    "explanation": "Q60=0,01×3600=36; Q30=0,01×900=9. A nova potência é25% da anterior, redução75%. É comparação no modelo, não previsão universal de incêndio real.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0492",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "balanco_de_oxigenio_em_combustao",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo fechado contém4mol de combustívelF e10mol deO2, além de20mol de gás inerte. A reação fornecida é F+3O2→2P, comP gasoso; reage até esgotar o limitante. Sem outro processo, qual O2 residual e total de mols gasosos finais, e o que isso não demonstra sobre segurança?",
+    "options": [
+      "O2 zero;34mol totais; toda reação conserva necessariamente número total de moléculas.",
+      "O2 zero;20mol totais; os produtos não ocupam volume gasoso.",
+      "O2 2mol;30mol totais; combustível é sempre limitante.",
+      "O2 zero;82/3≈27,33mol totais; o balanço não demonstra atmosfera respirável ou ausência de perigo.",
+      "O2 zero;82/3≈27,33mol totais; ausência de oxigênio prova segurança para entrada humana."
+    ],
+    "answer": 3,
+    "explanation": "O2 limita: reagem10/3mol deF, sobra2/3mol deF e formam20/3mol deP. Total20+2/3+20/3=82/3≈27,33mol. O balanço por si não valida atmosfera de trabalho.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0493",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "rede_de_agua_com_dois_ramais",
+    "difficulty": "muito_alta",
+    "statement": "Uma bomba no modelo fornece H=100−(qA+qB)². Os ramais em paralelo obedecem H=qA² eH=4qB², em unidades internas coerentes. Ambos estão abertos e as vazões são positivas. Quais vazões aproximadas e por que não resolver cada ramal como bomba isolada?",
+    "options": [
+      "qA≈7,07 e qB≈4,47; cada ramal pode usar a curva inteira independentemente.",
+      "qA≈5 e qB≈5; pressão igual implica vazão igual em resistências distintas.",
+      "qA≈5,55 e qB≈2,77; ambos compartilham a mesma bomba e sua vazão total.",
+      "qA≈2,77 e qB≈5,55; o ramal mais resistente recebe o dobro.",
+      "qA≈10 e qB≈5; a pressão da bomba não varia com a vazão."
+    ],
+    "answer": 2,
+    "explanation": "H comum implica qA=2qB. Assim100−9qB²=4qB², qB=√(100/13)≈2,77 e qA≈5,55. A curva depende da soma das vazões; duas soluções isoladas não satisfazem simultaneamente essa condição.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

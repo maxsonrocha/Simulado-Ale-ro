@@ -164,5 +164,47 @@
     "explanation": "Retorno=100×0,80×0,75=60t; complemento virgem40t. As perdas são20t não recuperadas e20t no processamento das80t coletadas. Coleta e reciclagem são etapas distintas de um circuito, sem afirmar benefício ambiental universal.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0499",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "terceirizacao_e_fronteira_de_contabilizacao",
+    "difficulty": "media",
+    "statement": "Uma fábrica deixa de produzir internamente uma peça e passa a comprá-la. Suas emissões diretas caem, mas o relatório não inclui as emissões da produção contratada. Qual conclusão é sustentada?",
+    "options": [
+      "A redução dentro da fronteira demonstra redução igual fora dela.",
+      "A queda direta não prova, sozinha, redução do impacto da cadeia para a mesma peça entregue.",
+      "As emissões do fornecedor não podem pertencer a nenhuma análise de ciclo de vida.",
+      "Toda terceirização elimina fisicamente as emissões da produção deslocada.",
+      "Atribuir ao fornecedor impacto nulo apenas por estar fora das emissões diretas da compradora."
+    ],
+    "answer": 1,
+    "explanation": "Mudar a fronteira organizacional pode deslocar emissões sem eliminar a atividade. Comparar a cadeia exige uma unidade funcional e escopo coerentes; não se afirma que terceirizar sempre piora ou melhora.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0500",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "recirculacao_de_agua_e_purga_de_sais",
+    "difficulty": "muito_alta",
+    "statement": "Um circuito evapora4m³/h de água sem sais e opera em regime estacionário. Reposição contém10 unidades de sal por m³; a purga bem misturada deve manter concentração50. Não há outras entradas/saídas de água ou sal. Qual purga e reposição resultam, e por que reutilizar não elimina toda captação?",
+    "options": [
+      "Purga4 e reposição8; toda evaporação precisa ser duplicada como purga.",
+      "Purga0,8 e reposição4; basta dividir40 por50 e ignorar água da purga.",
+      "Purga1m³/h e reposição5m³/h; é preciso repor evaporação e purga para fechar ambos os balanços.",
+      "Purga0 e reposição4; evaporação remove todos os sais que entram.",
+      "Purga1 e reposição1; circulação interna repõe a água evaporada."
+    ],
+    "answer": 2,
+    "explanation": "Água: M=4+B. Sal:10M=50B. Logo40+10B=50B, B=1 eM=5. Evaporação retira água, não sais, no modelo; recircular fluxo interno não cria reposição. O limite50 é condição interna dada, não valor legal.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

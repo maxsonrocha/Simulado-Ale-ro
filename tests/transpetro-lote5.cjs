@@ -39,8 +39,8 @@ test('caderno recupera o novo grupo em cada língua, sem mudar ciclo ou IDs erra
   r.App.type='ERRADAS';const wrong=`TP26-ENGSEG-${area}-0082`;r.writeJSON(r.App.wrongKey,[wrong]);const cycle=Array.from(r.getCycleIds());r.generateExam();assert.deepEqual(Array.from(r.App.exam,q=>q.id),[`TP26-ENGSEG-${area}-0081`,wrong]);assert(r.App.exam[0].statement.includes('\n\n'));assert.deepEqual(Array.from(r.getCycleIds()),cycle);assert.deepEqual(Array.from(r.readJSON(r.App.wrongKey,[])),[wrong]);
  }
 });
-test('motor confirma seis completas inéditas em dez sementes e meta integral continua exigindo 700',()=>{
+test('motor confirma seis completas inéditas em dez sementes e meta integral aprova700',()=>{
  const r=run('scripts/audit-transpetro-lote5-engine.cjs');assert(r.passed);assert.equal(r.completeFreshExams,6);assert.equal(r.runs.length,10);
- const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,1);assert(gate.stdout.includes('total: 600; necessário 700'));
+ const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,0);assert.equal(JSON.parse(gate.stdout).total,700);
  const plan=read('docs/transpetro-etapa-1-plano.json');assert.deepEqual(plan.metaAreas,{PORT:100,ING:100,ESP:500});
 });

@@ -711,5 +711,131 @@
     "explanation": "A já atinge90%. B precisa de18/20, mais1 conclusão(2h). C precisa27/30, mais2(2h). O plano soma4h e atende ambos. Melhorar só uma unidade ou parar C em26/30 não satisfaz a restrição local.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0464",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "indicador_de_eficacia_e_satisfacao",
+    "difficulty": "media",
+    "statement": "Uma ação de SMS procura reduzir falhas de um controle. O acompanhamento mede apenas satisfação com o treinamento associado e declara eficácia técnica demonstrada. Qual vínculo falta?",
+    "options": [
+      "Substituir resultados por presença em aula, sem medir efeito na função do controle.",
+      "Evidência pertinente ao funcionamento do controle e ao objetivo da ação, além da satisfação.",
+      "A conclusão de que treinamento nunca pode contribuir para controles.",
+      "A substituição do objetivo por qualquer métrica mais fácil de obter.",
+      "A certeza de que satisfação alta implica ausência de falhas físicas."
+    ],
+    "answer": 1,
+    "explanation": "Satisfação pode ser informação útil sobre a experiência, mas não mede diretamente o resultado técnico definido. A avaliação deve corresponder ao objetivo, sem descartar treinamento ou toda evidência subjetiva.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0465",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "transferencia_de_aprendizado_entre_unidades",
+    "difficulty": "alta",
+    "statement": "Uma unidade solucionou falha de vedação ligada a solventeX. Outra usa solventeY e geometria de montagem diferente. A gestão quer copiar a solução sem examinar essas condições. Qual etapa preserva o aprendizado sem presumir universalidade?",
+    "options": [
+      "Verificar quais premissas do mecanismo e da solução se mantêm no contexto receptor antes de transferir.",
+      "Declarar o resultado da primeira unidade como ensaio já realizado na segunda.",
+      "Usar o menor custo como única prova de compatibilidade comY.",
+      "Proibir todo compartilhamento de experiência porque contextos nunca são idênticos.",
+      "Copiar integralmente porque a semelhança do nome vedação prova equivalência técnica."
+    ],
+    "answer": 0,
+    "explanation": "Aprendizado pode orientar hipóteses, mas aplicabilidade depende de solvente, geometria e demais premissas relevantes. Compartilhar não equivale a afirmar que o ensaio foi repetido.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0466",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "controle_de_documento_e_permissao_de_edicao",
+    "difficulty": "alta",
+    "statement": "Uma instrução aprovada só pode ser alterada após nova aprovação. O sistema bloqueia editar o arquivo, mas mantém campo externo modificável que muda automaticamente seu conteúdo exibido ao operador. Qual conclusão sobre o controle é sustentada?",
+    "options": [
+      "A proteção do arquivo prova integridade de toda informação que será exibida.",
+      "A única solução conceitual é eliminar todo dado variável de qualquer sistema.",
+      "Bloquear o arquivo não controla a instrução efetiva se outra entrada modifica o conteúdo sem o mesmo fluxo.",
+      "A aprovação inicial autoriza automaticamente qualquer conteúdo futuro do campo.",
+      "Campo externo não participa da instrução mesmo quando muda o que é apresentado."
+    ],
+    "answer": 2,
+    "explanation": "O objeto a controlar é o conteúdo efetivo e suas dependências. Uma via externa pode contornar o fluxo sem editar o arquivo protegido; a avaliação precisa considerar essa composição, sem proibir universalmente dados variáveis.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0467",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "contratos_e_responsabilidade_compartilhada_sem_dono",
+    "difficulty": "alta",
+    "statement": "Duas contratadas têm obrigações sobre a mesma interface operacional. Cada contrato diz apenas verificar com a outra; nenhum define quem consolida a decisão de liberação ou resolve divergência. Qual problema de governança é evidenciado?",
+    "options": [
+      "A repetição da frase nos dois contratos prova decisão consolidada.",
+      "As duas empresas assumem automaticamente que a outra já liberou sem precisar de evidência.",
+      "Há uma dependência circular sem responsável e regra decisória claros para fechar a interface.",
+      "A existência de dois contratos substitui qualquer análise da operação conjunta.",
+      "A ausência de responsável elimina fisicamente os riscos da interface."
+    ],
+    "answer": 2,
+    "explanation": "Citar o outro ator não define quem decide, com que evidência e como tratar conflito. A interface precisa de atribuição operacional clara; não se inventa regra legal de responsabilidade contratual.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0468",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "sistema_de_gestao_e_capacidade_de_atendimento",
+    "difficulty": "muito_alta",
+    "statement": "Entram12 solicitações de verificação por dia. Uma equipe conclui10/dia em dias úteis, sem variação, e o estoque inicial é30. A meta interna é estoque≤20 ao fim de cinco dias. Uma contratação fornece capacidade extra constante nos cinco dias, somada à equipe atual. Qual capacidade extra diária mínima inteira?",
+    "options": [
+      "6 por dia.",
+      "10 por dia.",
+      "3 por dia.",
+      "2 por dia.",
+      "4 por dia."
+    ],
+    "answer": 4,
+    "explanation": "Sem reforço, estoque final30+5×12−5×10=40. É preciso reduzir20 adicionais em cinco dias:4/dia. Esse reforço permite conclusões14/dia e estoque final20, enquanto só equilibrar entradas em12/dia manteria30.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0469",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "auditoria_de_cobertura_por_amostragem",
+    "difficulty": "muito_alta",
+    "statement": "Uma regra interna exige entrevistar ao menos uma pessoa de cada uma de três funções e de cada um de dois turnos. Disponíveis: P funçãoA/turno1, Q B/1, R C/2, S A/2 eT B/2. Todos custam uma entrevista. Qual plano mínimo satisfaz as duas coberturas e por que não exige entrevistar as seis combinações possíveis?",
+    "options": [
+      "P,S: duas; ambos os turnos tornam dispensáveis funçõesB/C.",
+      "Cinco obrigatoriamente; cobertura dos marginais exige todos os disponíveis.",
+      "R,S,T: três; todas as funções tornam dispensável turno1.",
+      "P,Q,R: três; cobrem funções e turnos sem exigir todas as células.",
+      "P,Q: duas; representar turno1 já representa ambos os turnos."
+    ],
+    "answer": 3,
+    "explanation": "São necessárias pelo menos três pessoas para três funções. P,Q,R cobreA/B/C e turnos1/2, atingindo o limite. Cobertura marginal não equivale à exigência de cada célula de cruzamento, que não consta da regra.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

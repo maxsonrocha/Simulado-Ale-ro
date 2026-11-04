@@ -1,0 +1,148 @@
+{
+  "lote": 7,
+  "scopes": {
+    "novas_novas": 4950,
+    "novas_antigas": 60000,
+    "antigas_antigas": 179700
+  },
+  "comparedPairs": 244650,
+  "flagged": [],
+  "topPairs": [
+    {
+      "a": "TP26-ENGSEG-ESP-0348",
+      "b": "TP26-ENGSEG-ESP-0357",
+      "stem": 0.0615,
+      "options": 1,
+      "score": 0.4369,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0016",
+      "b": "TP26-ENGSEG-ESP-0025",
+      "stem": 0.0482,
+      "options": 1,
+      "score": 0.4289,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0033",
+      "b": "TP26-ENGSEG-ESP-0040",
+      "stem": 0.0337,
+      "options": 1,
+      "score": 0.4202,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0014",
+      "b": "TP26-ENGSEG-ESP-0024",
+      "stem": 0.0241,
+      "options": 1,
+      "score": 0.4145,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0015",
+      "b": "TP26-ENGSEG-ESP-0024",
+      "stem": 0.0241,
+      "options": 1,
+      "score": 0.4145,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0274",
+      "b": "TP26-ENGSEG-ESP-0350",
+      "stem": 0.0241,
+      "options": 1,
+      "score": 0.4145,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0033",
+      "b": "TP26-ENGSEG-ESP-0348",
+      "stem": 0.0137,
+      "options": 1,
+      "score": 0.4082,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0033",
+      "b": "TP26-ENGSEG-ESP-0357",
+      "stem": 0.0132,
+      "options": 1,
+      "score": 0.4079,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0015",
+      "b": "TP26-ENGSEG-ESP-0274",
+      "stem": 0.0127,
+      "options": 1,
+      "score": 0.4076,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0014",
+      "b": "TP26-ENGSEG-ESP-0350",
+      "stem": 0.0119,
+      "options": 1,
+      "score": 0.4071,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0024",
+      "b": "TP26-ENGSEG-ESP-0274",
+      "stem": 0.0119,
+      "options": 1,
+      "score": 0.4071,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0024",
+      "b": "TP26-ENGSEG-ESP-0350",
+      "stem": 0.0112,
+      "options": 1,
+      "score": 0.4067,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0040",
+      "b": "TP26-ENGSEG-ESP-0460",
+      "stem": 0.0106,
+      "options": 1,
+      "score": 0.4064,
+      "scope": "novas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0033",
+      "b": "TP26-ENGSEG-ESP-0370",
+      "stem": 0,
+      "options": 1,
+      "score": 0.4,
+      "scope": "antigas_antigas"
+    },
+    {
+      "a": "TP26-ENGSEG-ESP-0033",
+      "b": "TP26-ENGSEG-ESP-0460",
+      "stem": 0,
+      "options": 1,
+      "score": 0.4,
+      "scope": "novas_antigas"
+    }
+  ],
+  "lengths": {
+    "PORT": {
+      "total": 100,
+      "correctLongerThanDistractorMedian": 56
+    },
+    "ING": {
+      "total": 100,
+      "correctLongerThanDistractorMedian": 53
+    },
+    "ESP": {
+      "total": 500,
+      "correctLongerThanDistractorMedian": 271
+    }
+  },
+  "maxSameAnswerRun": 4,
+  "limitation": "Triagem lexical com números neutralizados e contexto compartilhado excluído. Não detecta toda paráfrase semântica; exige revisão editorial de cenários/raciocínios."
+}

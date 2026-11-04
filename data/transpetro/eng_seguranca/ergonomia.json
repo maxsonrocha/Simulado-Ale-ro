@@ -332,5 +332,89 @@
     "explanation": "Atual:0,2+0,1×4=0,6. P e Q reduzem D/W de15 para7,5:0,2+0,1×3,087=0,5087. O modelo compara apontamento; não esgota visão, erros, postura ou diferenças entre usuários.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0494",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "contraste_visual_e_luminancia",
+    "difficulty": "media",
+    "statement": "O modelo interno de contraste é C=(Lmax−Lmin)/(Lmax+Lmin), com luminâncias positivas. Para80 e20 unidades, qual contraste, sem tratá-lo como requisito legal de interface?",
+    "options": [
+      "0,75.",
+      "3,00.",
+      "1,00.",
+      "0,20.",
+      "0,60."
+    ],
+    "answer": 4,
+    "explanation": "(80−20)/(80+20)=60/100=0,60. O modelo é adimensional e não corresponde automaticamente a qualquer critério normativo de legibilidade.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0495",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "luva_e_destreza_na_tarefa",
+    "difficulty": "alta",
+    "statement": "Uma luva protege contra o agente identificado, mas um teste da tarefa mostra que ela impede acionar o comando de parada no tempo necessário. A equipe considera a proteção química suficiente para liberar o conjunto. Qual avaliação integra as duas funções?",
+    "options": [
+      "Contar apenas o número de luvas fornecidas como prova de compatibilidade operacional.",
+      "Verificar uma solução que preserve a proteção necessária e a capacidade de executar com segurança a tarefa, inclusive o comando.",
+      "Ignorar a perda de destreza porque proteger contra um agente resolve toda a tarefa.",
+      "Retirar a proteção química e declarar o problema resolvido só porque o comando fica acessível.",
+      "Reclassificar a falha de acionamento como irrelevante sem reexaminar o tempo necessário."
+    ],
+    "answer": 1,
+    "explanation": "A proteção contra um agente não elimina exigência de ação crítica. É preciso examinar compatibilidade do conjunto pessoa/EPI/comando/tarefa, sem aceitar nem exposição desprotegida nem desempenho crítico perdido.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0496",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "camada_de_automacao_e_retorno_de_modo",
+    "difficulty": "alta",
+    "statement": "Um comando tem efeito diferente nos modos manual e automático. Após transferência de controle, o sistema mantém a tela com aparência idêntica e não informa o modo atual. Operadores executam a mesma ação esperando o efeito anterior. Qual mecanismo deve ser tratado?",
+    "options": [
+      "Prova de que todos os operadores esqueceram o treinamento, sem relação com a interface.",
+      "Manter a aparência igual e exigir dedução do modo apenas pelo resultado depois da ação.",
+      "Inexistência de problema porque o mesmo botão recebe o mesmo movimento físico.",
+      "Falha de força muscular causada necessariamente pelo peso do botão.",
+      "Erro de modo favorecido por falta de indicação do estado que altera o significado da ação."
+    ],
+    "answer": 4,
+    "explanation": "O significado depende de estado não visível. A interface deve permitir perceber o modo e as consequências relevantes; igualdade do gesto físico não garante igualdade funcional.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0497",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "pico_de_carga_e_recuperacao_discreta",
+    "difficulty": "muito_alta",
+    "statement": "Um modelo interno usa cargaR inicialmente1. Cada intervalo de trabalhoW muda R para0,5R+2; cada repousoP muda para0,5R. Devem ocorrer exatamente doisW e doisP em quatro intervalos. O objetivo é minimizar o maiorR observado, incluindo o inicial. Qual sequência e pico são ótimos entre as opções?",
+    "options": [
+      "WWPP;3,25.",
+      "WPWP;2,625.",
+      "PPWW;3,0625.",
+      "PWPW;2,5625.",
+      "WPPW;2,5."
+    ],
+    "answer": 4,
+    "explanation": "WPPW produz2,5;1,25;0,625;2,3125, pico2,5. As outras opções têm os picos informados maiores. A sexta ordemPWWP, não listada, dá pico3,125, não melhora. O modelo não prescreve pausas legais ou regime real de recuperação fisiológica.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

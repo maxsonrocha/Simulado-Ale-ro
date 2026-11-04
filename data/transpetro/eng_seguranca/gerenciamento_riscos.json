@@ -1036,5 +1036,215 @@
     "explanation": "2+8p=5−2p dá10p=3, p=0,3. Em0,2:RX3,6<RY4,6; em0,4:RX5,2>RY4,2. A incerteza cruza a mudança de preferência.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0454",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "risco_por_operacao_e_carga_de_uso",
+    "difficulty": "media",
+    "statement": "Um modelo fornece probabilidade de falha por partida, não por hora. Dois equipamentos têm a mesma probabilidade por partida, mas um parte uma vez ao mês e outro cem vezes. Qual conclusão não é sustentada só pela igualdade do parâmetro?",
+    "options": [
+      "Que o número de demandas pode alterar a exposição ao mecanismo de falha.",
+      "Que terão a mesma frequência esperada de falhas no mês, ignorando o número de partidas.",
+      "Que probabilidade por demanda e taxa por tempo são parâmetros distintos.",
+      "Que a frequência de partidas deve ser considerada na interpretação operacional.",
+      "Que as unidades do parâmetro precisam ser coerentes com o uso no cálculo."
+    ],
+    "answer": 1,
+    "explanation": "O mecanismo é modelado por partida. Igual probabilidade unitária não implica igual quantidade esperada em números diferentes de partidas; as demais opções são distinções pertinentes.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0455",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "hazop_e_razao_de_alimentacoes",
+    "difficulty": "media",
+    "statement": "Uma reação usa dois reagentes em razão especificada A/B. Os medidores individuais mantêm cada vazão em sua faixa permitida, mas a combinação pode sair da faixa de razão do processo. Qual análise falta no estudo do desvio?",
+    "options": [
+      "Concluir que duas vazões individualmente permitidas garantem qualquer razão segura.",
+      "Examinar a variável relacional A/B e suas consequências, não só cada faixa isolada.",
+      "Tratar os nomes dos dois reagentes como prova de proporção constante.",
+      "Usar só a maior vazão como substituta de toda relação entre reagentes.",
+      "Eliminar do estudo a razão porque ela não possui unidade de vazão."
+    ],
+    "answer": 1,
+    "explanation": "Uma restrição conjunta não é satisfeita necessariamente por restrições marginais. A razão pode ser variável de processo relevante para o cenário reativo, sem inventar uma proporção técnica universal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0456",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "retorno_ao_servico_apos_teste_de_barreira",
+    "difficulty": "alta",
+    "statement": "Um teste funcional foi aprovado com a lógica em modo de ensaio, que inibe a ação física sobre o processo. O registro encerra o teste antes de verificar a saída desse modo. Qual conclusão deve ser limitada?",
+    "options": [
+      "Disponibilidade após o teste é igual à presença de uma versão impressa do procedimento.",
+      "A inibição de ensaio prova que a barreira funciona fisicamente em operação.",
+      "A assinatura do executor substitui verificação do estado deixado no sistema.",
+      "O sucesso do teste não demonstra que a função está disponível no estado operacional após o ensaio.",
+      "Qualquer teste aprovado altera automaticamente a lógica para operação normal."
+    ],
+    "answer": 3,
+    "explanation": "É preciso distinguir o que foi ensaiado do estado final. Um modo que inibe atuação pode persistir, e aprovação do estímulo/resposta no ensaio não prova retorno ao serviço.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0457",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "consequencias_com_funcao_de_perda_nao_linear",
+    "difficulty": "alta",
+    "statement": "O critério interno compara E(L²). OpçãoX perde0 com probabilidade0,9 e10 com0,1; Y perde2 com certeza. Qual opção minimiza esse critério, mesmo que a esperança simples possa favorecer outra?",
+    "options": [
+      "X: E(L²)=0,1, omitindo a magnitude da perda.",
+      "X: E(L)=1, portanto também minimiza necessariamente E(L²).",
+      "Y: porque qualquer certeza deve ser chamada de perda nula.",
+      "Empate: quadrado da esperança deX é1 e deY é4, logo ambos valem4.",
+      "Y: E(L²)=4, contra10 deX."
+    ],
+    "answer": 4,
+    "explanation": "E(X²)=0,9×0+0,1×100=10; E(Y²)=4. E(X)=1<2, mas função não linear altera a preferência; E(L²) não é [E(L)]².",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0458",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "modelos_com_retroalimentacao",
+    "difficulty": "alta",
+    "statement": "Uma árvore estática de eventos pressupõe que a respostaB não altera a ocorrência posterior deA. No processo observado, B muda pressão e pode disparar A novamente, criando ciclos. Qual uso do modelo precisa ser revisto?",
+    "options": [
+      "A necessidade de desenhar a árvore em papel colorido antes de qualquer cálculo.",
+      "A substituição de todos os ciclos por probabilidade zero, sem justificativa.",
+      "A possibilidade de usar o modelo estático sem registrar que exclui a realimentação conhecida.",
+      "A hipótese de representação acíclica, para não omitir retornos que alteram as sequências possíveis.",
+      "A conclusão de que um ciclo torna fisicamente impossível qualquer sequência de falha."
+    ],
+    "answer": 3,
+    "explanation": "Realimentação muda o espaço de trajetórias. O modelo pode precisar de outra representação ou delimitação explícita do que exclui, sem tratar ciclo conhecido como impossível só para caber na árvore.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0459",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "fmea_e_nivel_de_agregacao",
+    "difficulty": "alta",
+    "statement": "Uma FMEA descreve como único modo de falha do sistema a expressão parada, embora a decisão dependa de distinguir parada protetora, perda de alimentação e travamento perigoso. Os efeitos e controles são diferentes nos três casos. Qual revisão aumenta a utilidade da análise?",
+    "options": [
+      "Trocar a palavra parada por falha sem alterar a estrutura da análise.",
+      "Manter um único rótulo porque resultados com a mesma palavra sempre têm a mesma severidade.",
+      "Dar o mesmo controle aos três sem examinar seu mecanismo.",
+      "Usar só a frequência global de parada e omitir consequências.",
+      "Desagregar por função, efeito e controle relevantes à decisão."
+    ],
+    "answer": 4,
+    "explanation": "A agregação apaga distinções relevantes à decisão. O nível deve permitir vincular função perdida/desviada, efeitos e controles; não se exige uma tabela normativa ou escala numérica não dada.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0460",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "standby_e_cobertura_de_transferencia",
+    "difficulty": "muito_alta",
+    "statement": "Durante uma missão, o canal ativo falha com probabilidade0,1. Se falha, a transferência ao reserva funciona com probabilidade0,9; dado que transferiu, o reserva cumpre a missão com0,95. Não há outra recuperação, e o ativo bem-sucedido já cumpre a missão. Qual probabilidade total de sucesso?",
+    "options": [
+      "0,8550.",
+      "0,9950.",
+      "0,9050.",
+      "0,9855.",
+      "0,9000."
+    ],
+    "answer": 3,
+    "explanation": "Sucesso direto0,9 mais recuperação0,1×0,9×0,95=0,0855, total0,9855. Reserva não age como paralelo sem custo de transferência; as condicionais já descrevem as etapas.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0461",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "valor_de_uma_barreira_em_caminhos_exclusivos",
+    "difficulty": "muito_alta",
+    "statement": "Um cenário ocorre por duas rotas exclusivas com frequências0,02/ano e0,08/ano. Uma barreira age só na primeira, reduzindo-a em90%; outra age só na segunda, reduzindo-a em50%. Custos são iguais e só uma pode ser instalada. Qual maior redução absoluta e frequência residual total?",
+    "options": [
+      "Primeira: redução0,018/ano e residual0,002/ano, ignorando a segunda rota.",
+      "Primeira: redução0,09/ano e residual0,01/ano.",
+      "Segunda: redução0,04/ano e residual0,06/ano.",
+      "Segunda: redução0,05/ano e residual0,05/ano.",
+      "Empate: percentuais de redução não dependem da rota alcançada."
+    ],
+    "answer": 2,
+    "explanation": "Inicial0,10. Primeira evita0,02×0,9=0,018, total residual0,082. Segunda evita0,08×0,5=0,04, residual0,06. Maior eficiência percentual não significa maior efeito no risco agregado se coberturas diferem.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0462",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "intervalos_de_falha_em_missao_por_union_bound",
+    "difficulty": "muito_alta",
+    "statement": "Para três eventos, conhecem-se apenas as probabilidades marginais0,1,0,2 e0,3; não há informação de dependência. O evento indesejado é ao menos um deles. Pelos limites max(pi)≤P(união)≤min(1,Σpi), qual intervalo e que valor não pode ser apresentado como exato sem outra hipótese?",
+    "options": [
+      "0,0 a0,6; nenhum limite inferior positivo é possível.",
+      "0,3 a0,3; a maior marginal é sempre a união exata.",
+      "0,006 a0,006; multiplicar marginais calcula ao menos um.",
+      "0,6 a0,6; probabilidades marginais sempre se somam sem sobreposição.",
+      "0,3 a0,6;0,496 pressupõe independência não informada."
+    ],
+    "answer": 4,
+    "explanation": "A união contém o evento de maior probabilidade0,3 e não supera a soma0,6. Independência daria1−0,9×0,8×0,7=0,496, mas não foi fornecida. Os limites não substituem a dependência desconhecida por uma estimativa pontual.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0463",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arvore_de_falhas_com_inibicao_mutua",
+    "difficulty": "muito_alta",
+    "statement": "Dois comandosA eB são mutuamente exclusivos pelo modelo e há falhaC independente do comando ativo, com probabilidade0,1. P(A)=0,4 eP(B)=0,6, cobrindo todos os modos. A árvore define T=(A∩C)∪(B∩C). Qual probabilidade deT e qual erro seria tratar os dois ramos como independentes?",
+    "options": [
+      "0,1; os ramos são exclusivos e particionamC.",
+      "0,0976; aplicar OR independente aos ramos0,04 e0,06 é exato.",
+      "0,0024; multiplicar ramos calcula a união.",
+      "0,04; o ramoA torna o ramoB irrelevante.",
+      "0,16; somar marginais dos comandos ao riscoC forneceT."
+    ],
+    "answer": 0,
+    "explanation": "Como A∪B é certo e A∩B vazio, T=C eP(T)=0,1. Os ramos0,04 e0,06 são exclusivos, não independentes; descontar seu produto produziria0,0976 indevidamente.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

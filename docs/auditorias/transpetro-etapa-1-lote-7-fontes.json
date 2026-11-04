@@ -1,0 +1,224 @@
+{
+  "metodo": "Somente proposições explícitas dos dois corpus auditados e edital; sem completar requisitos finos de memória.",
+  "consultas": [
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-33-atualizada-2022.pdf",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+      "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "itens": [
+    {
+      "id": "TP26-ENGSEG-ESP-0421",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-04"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0422",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0423",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-04"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0424",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "ISO/ABNT"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        },
+        {
+          "arquivo": "references/transpetro/edital_004_2026.json",
+          "fichas": [],
+          "sha256Fonte": "70563f30839a10ac1a1ada631068fdca86772b2700d83e63b643407f3d006b6b"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0425",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0426",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0427",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0428",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0429",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-09"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0430",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-35"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0431",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-07"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0432",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "NR-04"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        },
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-05"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0433",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-01"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0434",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "eSocial",
+            "Lei 8.213/1991"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0435",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+          "fichas": [
+            "FICHA NR-06"
+          ],
+          "sha256Fonte": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+        }
+      ]
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0436",
+      "fontes": [
+        {
+          "arquivo": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+          "fichas": [
+            "Lei 14.063/2020"
+          ],
+          "sha256Fonte": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+        }
+      ]
+    }
+  ]
+}

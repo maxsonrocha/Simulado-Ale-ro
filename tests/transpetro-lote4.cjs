@@ -53,7 +53,7 @@ test('caderno real recupera contexto e ordem dos dois novos grupos sem avançar 
   assert.deepEqual(Array.from(r.App.exam,q=>q.id),[`TP26-ENGSEG-${area}-0061`,wrong]);assert(r.App.exam[0].statement.includes('\n\n'));assert.deepEqual(Array.from(r.getCycleIds()),cycle);assert.deepEqual(Array.from(r.readJSON(r.App.wrongKey,[])),[wrong]);
  }
 });
-test('motor real confirma quatro provas inéditas em dez sementes e o gate integral continua reprovando',()=>{
+test('motor real confirma quatro provas inéditas em dez sementes e o gate integral aprova as700 atuais',()=>{
  const r=run('scripts/audit-transpetro-lote4-engine.cjs');assert(r.passed);assert.equal(r.completeFreshExams,4);assert.equal(r.runs.length,10);
- const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,1);assert(gate.stdout.includes('total: 600; necessário 700'));
+ const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,0);assert.equal(JSON.parse(gate.stdout).total,700);
 });

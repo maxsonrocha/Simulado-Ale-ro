@@ -14,7 +14,7 @@ const assert = require('node:assert/strict');
   await page.locator('#btnStart').click(); await page.locator('#view-exam').waitFor({ state: 'visible' });
   const before = await page.evaluate(() => ({ size: App.exam.length, bank: App.questionsBank.length,
    counts: App.exam.reduce((a, q) => (a[q.area] = (a[q.area] || 0) + 1, a), {}), ids: App.exam.map(q => q.id) }));
-  assert.equal(before.size, 70); assert.equal(before.bank, 600); assert.equal(new Set(before.ids).size, 70);
+  assert.equal(before.size, 70); assert.equal(before.bank, 700); assert.equal(new Set(before.ids).size, 70);
   assert.deepEqual(before.counts, { ...before.counts, PORT: 10, ING: 10, ESP: 50 });
   assert(await page.locator('#qDiff').innerText().then(x => /Média|Alta|Muito alta/.test(x)));
   await page.locator('#chkMark').check(); assert(await page.locator('#examMap .dot').first().evaluate(e => e.classList.contains('marked')));
@@ -38,7 +38,7 @@ const assert = require('node:assert/strict');
   assert.equal(saved.contest, 'TRANSPETRO'); assert.equal(saved.role, 'ENG_SEG'); assert.equal(saved.points, 70); assert.equal(saved.errors, 0);
   assert(saved.bySubject.ESP); assert(saved.timeMs >= 270 * 60000);
   // Regressão de contexto tanto no grupo antigo quanto no grupo novo.
-  for(const [area,pair] of [['PORT',['0001','0002']],['PORT',['0021','0022']],['PORT',['0041','0042']],['PORT',['0061','0062']],['PORT',['0081','0082']],['ESP',['0315','0316']],['ESP',['0383','0384']]]){
+  for(const [area,pair] of [['PORT',['0001','0002']],['PORT',['0021','0022']],['PORT',['0041','0042']],['PORT',['0061','0062']],['PORT',['0081','0082']],['ESP',['0315','0316']],['ESP',['0383','0384']],['ESP',['0419','0420']]]){
    await page.evaluate(id => writeJSON(App.wrongKey, [id]), `TP26-ENGSEG-${area}-${pair[1]}`);
    await page.locator('#btnRetryWrong').click(); await page.locator('#view-exam').waitFor({ state: 'visible' });
    assert.deepEqual(await page.evaluate(() => App.exam.map(q => q.id)), pair.map(n=>`TP26-ENGSEG-${area}-${n}`));
@@ -59,6 +59,6 @@ const assert = require('node:assert/strict');
   await page.setViewportSize({ width: 390, height: 844 });
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
   assert.deepEqual(errors, []); assert.deepEqual(failed, []);
-  console.log('PASS: 600 itens reais; 70=10/10/50, específico 50, PROVA/TREINO, mapa, marcação, timer 4h30, resultado, histórico, erradas e contexto.');
+  console.log('PASS: 700 itens reais; 70=10/10/50, específico 50, PROVA/TREINO, mapa, marcação, timer 4h30, resultado, histórico, erradas e contexto.');
  } finally { await browser.close(); }
 })().catch(e => { console.error(e); process.exit(1); });

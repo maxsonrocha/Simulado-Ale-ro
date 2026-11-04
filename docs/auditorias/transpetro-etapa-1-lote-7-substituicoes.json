@@ -1,0 +1,114 @@
+{
+  "substituicoes": [
+    {
+      "id": "TP26-ENGSEG-ESP-0434",
+      "anterior": "treinamento_e_servico_no_limite_temporal",
+      "novo": "comunicacoes_ocorrencias_e_decisoes_previdenciarias",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0451",
+      "anterior": "fontes_intermitentes_e_amostra_composta",
+      "novo": "amostra_integrada_e_troca_de_recipiente",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0475",
+      "anterior": "investigacao_e_hipotese_nao_falsificavel",
+      "novo": "paradoxo_da_prevencao_na_avaliacao_de_modelo",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0487",
+      "anterior": "decisao_de_emergencia_com_regra_robusta",
+      "novo": "ordem_de_ocorrencia_e_ordem_de_recepcao",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0488",
+      "anterior": "agente_extintor_e_efeito_sobre_o_processo",
+      "novo": "termografia_e_emissividade_superficial",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0425",
+      "anterior": "gro_e_selecao_de_perigos_por_disponibilidade",
+      "novo": "dispensa_e_cobertura_do_levantamento",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0432",
+      "anterior": "rastreabilidade_de_campos_de_aplicacao",
+      "novo": "mesmo_objetivo_e_estruturas_distintas",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0436",
+      "anterior": "precedencia_de_fontes_e_conclusao_restrita",
+      "novo": "assinatura_e_representacao_binaria",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0474",
+      "anterior": "codificacao_de_severidade_e_escala_ordinal",
+      "novo": "investigacao_e_hipotese_nao_falsificavel",
+      "motivo": "Regra ordinal já cobrada; substituída por testabilidade da hipótese de investigação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0481",
+      "anterior": "comando_e_encerramento_de_recurso",
+      "novo": "abrigo_e_trajeto_de_entrada_do_agente",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0472",
+      "anterior": "lesao_e_dano_material_como_dimensoes",
+      "novo": "mediana_de_custos_e_evento_extremo",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0477",
+      "anterior": "serie_interrompida_e_mudanca_de_definicao",
+      "novo": "atraso_de_notificacao_e_maturacao_da_coorte",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0423",
+      "anterior": "nr17_e_acessibilidade_da_tarefa",
+      "novo": "empregados_e_equivalentes_de_jornada",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0431",
+      "anterior": "norma_e_cadeia_de_delegacao",
+      "novo": "custeio_pcmso_e_tarifa_marginal",
+      "motivo": "Rascunho substituído integralmente após confronto editorial com o banco anterior."
+    }
+  ],
+  "correcoesObjetivas": [
+    {
+      "id": "ESP-0471",
+      "problema": "Mortes e acidentes são unidades distintas: explicitada razão mortes/acidente em vez de proporção ou letalidade clínica."
+    },
+    {
+      "id": "ESP-0449",
+      "problema": "Comparação de quantidade em temperaturas diferentes sem base definida; pergunta alterada para redução de pressão parcial, determinada pelos dados."
+    },
+    {
+      "id": "ESP-0482",
+      "problema": "Volume útil poderia sugerir obstáculos já descontados; explicitado volume geométrico antes das ocupações."
+    },
+    {
+      "id": "ESP-0415",
+      "problema": "Afirmação inicial de vaporização contradizia a consistência do modelo; reescrita como tentativa de modelagem a testar."
+    },
+    {
+      "id": "ESP-0416",
+      "problema": "Um distrator dizia incorretamente160 excede170; retirado erro grosseiro de comparação."
+    },
+    {
+      "id": "ESP-0492",
+      "problema": "Rascunho indicava30mol na opção correta, embora a resolução fornecesse82/3; gabarito textual corrigido para27,33mol."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "baseCommit": "673ebc6",
+  "mergeLote6": "PR #9",
+  "branch": "feature/transpetro-banco-questoes-etapa-1-lote-7",
+  "inicial": 600,
+  "adicionadas": 100,
+  "final": 700,
+  "areas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 500
+  },
+  "assuntosESP": {
+    "prevencao_riscos": 90,
+    "gerenciamento_riscos": 60,
+    "legislacao_nr": 90,
+    "gestao_sms": 40,
+    "emergencias": 30,
+    "incendio": 24,
+    "acidentes": 40,
+    "higiene_ocupacional": 80,
+    "saude_ocupacional": 16,
+    "ergonomia": 20,
+    "desenvolvimento_sustentavel": 10
+  },
+  "dificuldadesLote": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "dificuldadesGlobais": {
+    "media": 140,
+    "alta": 315,
+    "muito_alta": 245
+  },
+  "gabaritosLote": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20
+  },
+  "gabaritosGlobais": {
+    "A": 140,
+    "B": 140,
+    "C": 140,
+    "D": 140,
+    "E": 140
+  },
+  "gruposNovos": 1,
+  "vinculadasNovas": 2,
+  "independentesNovas": 98,
+  "gruposGlobais": 103,
+  "vinculadasGlobais": 206,
+  "independentesGlobais": 494,
+  "auditorias": {
+    "estrutura": "APROVADA INTEGRAL700",
+    "conteudo": "APROVADA NA REVISAO AUTORAL, COM LIMITES NORMATIVOS EXPLICITOS",
+    "global": "APROVADA NA REVISAO EDITORIAL DIRIGIDA E TESTES; NAO PROVA ABSOLUTA DE ORIGINALIDADE"
+  },
+  "revisoesIndividuais": 100,
+  "alternativasRevisadas": 500,
+  "substituicoesDeRascunho": 14,
+  "correcoesObjetivas": [
+    {
+      "id": "ESP-0471",
+      "problema": "Mortes e acidentes são unidades distintas: explicitada razão mortes/acidente em vez de proporção ou letalidade clínica."
+    },
+    {
+      "id": "ESP-0449",
+      "problema": "Comparação de quantidade em temperaturas diferentes sem base definida; pergunta alterada para redução de pressão parcial, determinada pelos dados."
+    },
+    {
+      "id": "ESP-0482",
+      "problema": "Volume útil poderia sugerir obstáculos já descontados; explicitado volume geométrico antes das ocupações."
+    },
+    {
+      "id": "ESP-0415",
+      "problema": "Afirmação inicial de vaporização contradizia a consistência do modelo; reescrita como tentativa de modelagem a testar."
+    },
+    {
+      "id": "ESP-0416",
+      "problema": "Um distrator dizia incorretamente160 excede170; retirado erro grosseiro de comparação."
+    },
+    {
+      "id": "ESP-0492",
+      "problema": "Rascunho indicava30mol na opção correta, embora a resolução fornecesse82/3; gabarito textual corrigido para27,33mol."
+    }
+  ],
+  "novasResolucoes": 51,
+  "resolucoesHistoricas": 169,
+  "pares": 244650,
+  "escopos": {
+    "novas_novas": 4950,
+    "novas_antigas": 60000,
+    "antigas_antigas": 179700
+  },
+  "alertasLexicais": [],
+  "heuristicaExtensao": {
+    "criterio": "Correta mais longa que1,6vez a mediana dos quatro distratores; triagem editorial, não teste psicométrico.",
+    "itensSinalizadosFinais": 0
+  },
+  "testesNode": {
+    "pass": 100,
+    "fail": 0,
+    "skip": 0
+  },
+  "navegador": {
+    "transpetroBancoReal": "PASS700",
+    "transpetroFixtures": "PASS",
+    "alero": "PASS8combinacoes"
+  },
+  "capacidadeCompletaInedita": 10,
+  "sementes": 10,
+  "perfilDeTeste": "Armazenamento isolado inicialmente vazio; primeira sequência de completas, com grupos íntegros.",
+  "gateIntegral": "PASS700 sem alterar o validador; snapshot600 continua FAIL",
+  "parecer": "Prontidão estrutural/funcional confirmada e autoria encerrada para revisão independente; não é homologação humana nem autorização de merge.",
+  "limites": [
+    "Consultas oficiais bloqueadas403; apenas proposições explícitas do corpus local auditado e edição do edital.",
+    "Sem acesso licenciado novo ISO/ABNT; sem inventar requisitos finos.",
+    "Revisão semântica autoral dirigida, sem embeddings ou64.950pareceres humanos independentes.",
+    "Dificuldade é atribuição editorial, não calibração psicométrica.",
+    "Etapa2 não iniciada; nenhum merge autorizado nesta tarefa."
+  ],
+  "entrega": {
+    "commitConteudo": "274715f",
+    "branchPublicada": true,
+    "prCriada": false,
+    "tentativas": [
+      {
+        "api": "GraphQL",
+        "erro": "Post https://api.github.com/graphql: Forbidden"
+      },
+      {
+        "api": "REST",
+        "erro": "Post https://api.github.com/repos/maxsonrocha/Simulado-Ale-ro/pulls: Forbidden"
+      }
+    ],
+    "aberturaManual": "https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-banco-questoes-etapa-1-lote-7",
+    "mergeExecutado": false,
+    "etapa2Iniciada": false
+  }
+}

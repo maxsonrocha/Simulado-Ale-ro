@@ -317,5 +317,26 @@
     "explanation": "O deslocamento conhecido B−A=2 explica a diferença agregada10→12 sem exigir aumento biológico. Isso não prova ausência individual de mudança; a comparação requer compatibilização validada e avaliação pertinente.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0498",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "latencia_e_reconstrucao_de_exposicao",
+    "difficulty": "alta",
+    "statement": "A investigação de uma doença de longa latência dispõe só da medição ambiental atual, após grandes mudanças no processo. O relatório usa essa medição como reprodução direta de toda a exposição passada. Qual revisão é necessária?",
+    "options": [
+      "Ignorar a história ocupacional porque o processo já foi modificado.",
+      "Reconstruir exposição histórica pertinente, sem igualá-la automaticamente à condição atual.",
+      "Considerar que a latência transforma a medição atual em registro retrospectivo perfeito.",
+      "Afirmar que uma medição atual baixa exclui qualquer exposição anterior.",
+      "Concluir nexo certo só por haver doença e vínculo empregatício atual."
+    ],
+    "answer": 1,
+    "explanation": "A janela relevante pode anteceder mudanças. Medição presente informa o presente sob suas condições, não reconstrói sozinha exposição histórica ou causalidade individual; são necessárias informações adequadas e avaliação clínica.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

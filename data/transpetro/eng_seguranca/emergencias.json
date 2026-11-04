@@ -477,5 +477,152 @@
     "explanation": "B primeiro termina2≤3; A termina2+4=6≤6. Folgas1 e0. Na ordem inversa, B termina6>3. Os prazos são absolutos a partir de0, não durações após início.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0481",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "abrigo_e_trajeto_de_entrada_do_agente",
+    "difficulty": "media",
+    "statement": "Um abrigo mantém portas fechadas, mas recebe continuamente ar externo por ventilação mecânica. No cenário de emergência, uma nuvem contaminante envolve a tomada desse ar; não há tratamento validado para o agente. O plano presume proteção apenas por fechar portas. Qual verificação é necessária?",
+    "options": [
+      "Tratar portas fechadas como eliminação automática de qualquer entrada de contaminante.",
+      "Afirmar que ventilação mecânica filtra necessariamente qualquer agente externo.",
+      "Usar o conforto térmico como prova de qualidade química do ar admitido.",
+      "Excluir a tomada de ar da análise porque ela faz parte de instalação permanente.",
+      "Considerar também o caminho de entrada pelo sistema de ventilação e sua condição real, não só as aberturas de passagem."
+    ],
+    "answer": 4,
+    "explanation": "A ventilação conecta exterior e abrigo no cenário dado. Fechar portas não trata esse caminho, e não há tratamento eficaz demonstrado. A decisão operacional exige plano e avaliação pertinentes; não se prescreve uma configuração universal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0482",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "derramamento_e_volume_livre_de_contencao",
+    "difficulty": "alta",
+    "statement": "Uma bacia tem volume geométrico interno de20m³ até o nível considerado e já contém3m³ de chuva. Um recipiente dentro dela ocupa2m³ do volume informado quando considerado o nível de contenção. Um cenário libera12m³; pode chover mais4m³ antes da remoção. Sem perdas ou bombeamento, qual margem final?",
+    "options": [
+      "Déficit de3m³.",
+      "Margem de1m³.",
+      "Déficit de1m³.",
+      "Margem de5m³.",
+      "Margem de3m³."
+    ],
+    "answer": 2,
+    "explanation": "Capacidade livre20−3−2=15. Entradas12+4=16, déficit1. A ocupação interna e chuva existente não devem ser contadas como capacidade adicional; são dados do exercício, sem regra legal de dimensionamento.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0483",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "chegada_de_frente_e_tempo_de_saida",
+    "difficulty": "alta",
+    "statement": "No modelo de exercício, uma frente perigosa está a600m do ponto de acesso e avança a5m/s. Uma equipe precisa de30s para iniciar saída e90s para concluir travessia antes da chegada; igualdade não é aceita como margem. Qual avaliação?",
+    "options": [
+      "A saída é automaticamente segura porque dura menos de600s.",
+      "Há30s de margem porque o preparo não deve contar no tempo de saída.",
+      "Há90s de margem porque se considera só o preparo.",
+      "A frente chega em120s e a saída também termina em120s; não há margem positiva.",
+      "A frente leva300s para chegar, garantindo180s de margem."
+    ],
+    "answer": 3,
+    "explanation": "600/5=120s. Preparação e travessia somam30+90=120, coincidindo com chegada. Como a regra interna exige margem positiva, a programação não atende. Não se representa propagação real universal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0484",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "resgate_e_bloqueio_de_comunicacao",
+    "difficulty": "alta",
+    "statement": "Uma operação planejada depende de receber confirmação antes de atravessar um ponto sem retorno. Durante a resposta, a mensagem enviada não recebe confirmação; não há evidência de recepção e o plano não autoriza presumir silêncio como anuência. Qual decisão segue a condição do exercício?",
+    "options": [
+      "Repetir o envio e declarar automaticamente que o destinatário recebeu ao menos uma cópia.",
+      "Apagar a condição do plano porque a comunicação está indisponível.",
+      "Tratar a confirmação como pendente e resolver a comunicação/condição antes do ponto sem retorno, segundo o plano.",
+      "Declarar que a falta de resposta prova necessariamente recusa do destinatário.",
+      "Interpretar silêncio como confirmação só porque a mensagem foi enviada."
+    ],
+    "answer": 2,
+    "explanation": "Envio não demonstra recepção, e falta de resposta não distingue aprovação, recusa ou falha de comunicação. O plano exige confirmação, não uma interpretação inventada do silêncio.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0485",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "rota_com_janela_de_travessia",
+    "difficulty": "muito_alta",
+    "statement": "Duas rotas levam ao abrigo. R1 exige3min até uma passagem e2min para atravessá-la; a passagem fica interditada no minuto4, devendo a travessia terminar antes. R2 exige7min e permanece disponível. A equipe está pronta no minuto0 e não pode voltar após iniciar a passagem. Qual rota é factível e qual erro há em escolher apenas menor tempo nominal?",
+    "options": [
+      "R1; chegar à passagem no minuto3 basta, mesmo terminando após4.",
+      "R2; porque R1 termina exatamente no minuto4.",
+      "Nenhuma; qualquer rota maior que4min está interdita no cenário.",
+      "R2; R1 termina a passagem no minuto5, após a interdição.",
+      "R1; seu tempo5 é menor que7, dispensando a janela."
+    ],
+    "answer": 3,
+    "explanation": "R1 chega3 e termina5; a restrição se refere ao fim da travessia antes de4. R2 não possui essa interdição e termina7. Menor duração nominal não implica factibilidade em rede com janela temporal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0486",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "recurso_emergencial_e_sequencia_de_conexoes",
+    "difficulty": "muito_alta",
+    "statement": "Uma resposta precisa aplicar agente por duas linhas em sequência. O único módulo tem conexãoP. LinhaA aceitaP e deve operar4min; linhaB aceitaQ e deve operar3min. Há adaptadorP→Q, cuja instalação e retirada exigem1min cada, e o plano exige terminar com módulo emP pronto para outra missão. Sem deslocamentos adicionais, qual menor tempo para completar as duas e restaurar a configuração?",
+    "options": [
+      "6min.",
+      "9min.",
+      "7min.",
+      "8min.",
+      "10min."
+    ],
+    "answer": 1,
+    "explanation": "Aplicações somam7min e a mudança paraQ exige1min, com mais1 para voltar aP, total9. A ordem não elimina instalar e retirar o adaptador, dado o estado final exigido.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0487",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "ordem_de_ocorrencia_e_ordem_de_recepcao",
+    "difficulty": "muito_alta",
+    "statement": "No exercício, todos os relógios usam a mesma referência. Uma mensagem capturada às12:03 informa acesso aberto, mas só chega às12:06. Outra, capturada às12:04, informa fechamento e chega às12:05. O painel aplica a última recebida e mostra aberto às12:06. Não há informação posterior a12:04 sobre o acesso. Qual interpretação e correção conceitual são adequadas?",
+    "options": [
+      "O fechamento às12:04 prova que o acesso ficará fechado indefinidamente, sem necessidade de atualização.",
+      "O acesso está comprovadamente aberto às12:06 porque a última mensagem chegou nesse instante.",
+      "O último fato conhecido é fechamento às12:04; recepção tardia não atualiza a condição para12:06.",
+      "A primeira chegada deve prevalecer sempre, independentemente de qualquer horário de captura.",
+      "A ordem de chegada prova que os relógios estão dessincronizados, apesar da premissa."
+    ],
+    "answer": 2,
+    "explanation": "O horário de ocorrência12:04 supera12:03, embora a mensagem chegue antes. Recepção tardia de dado antigo não deve ser tratada como fato novo. O último estado conhecido não prova ausência de mudança posterior.",
+    "etapa": 1,
+    "lote": 7
   }
 ]
