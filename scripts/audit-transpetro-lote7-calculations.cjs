@@ -1,0 +1,65 @@
+// Resolução separada da autoria: lê os itens reais, não importa rascunhos ou gabaritos esperados.
+const {loadRows}=require('./validate-transpetro.cjs');const qs=new Map(loadRows().map(x=>[x.q.id,x.q]));const results=[];
+const nums=s=>(s.match(/\d+(?:[.,]\d+)*/g)||[]).map(v=>Number(v.includes(',')?v.replace(/\./g,'').replace(',','.'):/^[1-9]\d{0,2}(?:\.\d{3})+$/.test(v)?v.replace(/\./g,''):v));
+const eq=(a,b,t=1e-6)=>a.length===b.length&&a.every((x,i)=>Math.abs(x-b[i])<t);
+function check(n,calculation,accept){const q=qs.get(`TP26-ENGSEG-ESP-${String(n).padStart(4,'0')}`);const matches=q.options.flatMap((s,i)=>accept(s)?[i]:[]);results.push({id:q.id,segundaResolucao:calculation,matches,answer:q.answer,passed:matches.length===1&&matches[0]===q.answer});}
+function values(n,out,method){check(n,{out,method},s=>eq(nums(s),out));}
+values(402,[.2*(10/.01)],'Reconstruir taxa de variação de corrente em A/s e usar H×A/s=V.');
+check(405,{dynamicPressure:1.2*20**2/2,force:1.2*20**2/2*4,capacity:700},s=>s.startsWith('960 N; excede'));
+values(406,[1000*10*2*1.5**2/2/1000],'Área triangular de pressão: altura×pressão de fundo/2, vezes largura.');
+check(409,{powers:[50**2*.002,50**2*.01],ratio:.01/.002},s=>s.startsWith('5 W e25 W; cinco vezes.'));
+check(414,{resistances:[24,12],current:24/(24+12),threshold:.2,passes:24/36<.2},s=>s.startsWith('Não: a corrente pela bobina é24/(24+12)'));
+const phases=[0,1,20,200,2000].map(m=>({vaporMass:m,volume:(2000-m)*.001+m*.1}));check(415,{phases,onlyConsistent:phases.filter(x=>Math.abs(x.volume-2)<1e-10)},s=>s.startsWith('Zero; com os valores dados'));
+const waves=[];for(let t=2;t<=4.0001;t+=.01)waves.push(100-20*Math.abs(t-2)+80-20*Math.abs(t-4));
+check(416,{min:Math.min(...waves),max:Math.max(...waves),capacity:170},s=>s.startsWith('140kPa em todo esse intervalo')&&waves.every(p=>Math.abs(p-140)<1e-8));
+values(417,[4,3,1.33],'Empuxo50kN menos peso30kN; lastro submerso fornece15kN/m³; volume20/15=4/3≈1,33.');
+check(418,{volumeFactor:3**3,areaFactor:3**2,ratio:3**3/3**2},s=>s.startsWith('Triplica;'));
+check(419,{pAbsolute:300/2,pGauge:300/2-100,displaced:2-1},s=>s.startsWith('50kPa e1L.'));
+values(420,[300*.693-100*(2-1)],'Integral isotérmica em kPa·L, menos deslocamento contra o entorno de100kPa.');
+check(423,{people:[100,200],weeklyHours:[100*40,200*20]},s=>s.startsWith('Ambas somam4.000h/semana, mas têm números de empregados distintos;'));
+let procedureCost=2020;const tiers=[0,0,0];for(let i=1;i<=243;i++){const tier=i<=80?0:i<=180?1:2;tiers[tier]++;procedureCost+=[90,70,60][tier];}check(431,{tiers,procedureCost,employerPays:procedureCost},s=>s.startsWith('R$20.000, integralmente por conta da organização;'));
+check(434,{documents:3,events:new Set(['C1','C1','C2']).size,benefitLink:'não identificado'},s=>s.startsWith('Há duas ocorrências comunicadas;'));
+check(440,{surfaceRatio:20/5},s=>s==='Quatro vezes.');
+check(441,{squares:[3,-3,4,-4].map(v=>v*v),rms:Math.sqrt((9+9+16+16)/4)},s=>s.startsWith('√12,5≈3,54Pa.'));
+values(442,[1600/(2**(12/4)),1,8],'Iterar três reduções sucessivas pela metade; proporção final é1/8.');
+values(443,[3/2],'Taxa total proporcional a área/espessura no modelo dado.');
+check(447,{A:10+20*.2,B:10+20*.8},s=>s.startsWith('14μg e26μg;'));
+check(448,{means:[10*Math.exp(0),10*Math.exp((2*Math.log(2))/2)]},s=>s.startsWith('10 e20;'));
+check(449,{initial:3.6,final:2,removed:(3.6-2)/3.6*100},s=>s.startsWith('2,0kPa; redução de44,44%.'));
+check(450,{extent:Math.min(10,6),A:10-6,B:6-6,P:6},s=>s.startsWith('A4mol, B0 eP6mol; falta avaliar'));
+check(451,{representedMinutes:[8,10],remainingVolumeL:(10-8)*1,nominalVolumeL:10},s=>s.startsWith('Identificar a janela real da amostra restante;'));
+values(452,[30/(12/10)],'Usar a razão da referência para estimar ganho; verificar30=1,2×25.');
+check(453,{before:100*1+20*4,after:100*1+30*2,reduction:(180-160)/180*100},s=>s.startsWith('De180 para160, redução de11,11%; isso não demonstra'));
+check(457,{EX2:.9*0+.1*100,EY2:2**2,EX:1,EY:2},s=>s.startsWith('Y: E(L²)=4, contra10 deX.'));
+values(460,[1-.1+.1*.9*.95],'Somar eventos disjuntos: ativo cumpre ou falha e transferência+reserva cumprem.');
+check(461,{initial:.02+.08,reductions:[.02*.9,.08*.5],residuals:[.02*.1+.08,.02+.08*.5]},s=>s.startsWith('Segunda: redução0,04/ano e residual0,06/ano.'));
+check(462,{bounds:[Math.max(.1,.2,.3),.1+.2+.3],independent:1-.9*.8*.7},s=>s.startsWith('0,3 a0,6;0,496 pressupõe'));
+check(463,{branches:[.4*.1,.6*.1],exclusiveUnion:.4*.1+.6*.1,falseIndependentOr:1-(1-.04)*(1-.06)},s=>s.startsWith('0,1; os ramos são exclusivos e particionamC.'));
+const capacities=[];for(let extra=0;extra<=10;extra++)capacities.push({extra,final:30+5*(12-10-extra)});const minimum=capacities.find(x=>x.final<=20);values(468,[minimum.extra],'Enumerar reforços inteiros e reconstruir estoque ao fim dos cinco dias.');
+const persons={P:['A',1],Q:['B',1],R:['C',2],S:['A',2],T:['B',2]},covers=[];const names=Object.keys(persons);
+for(let mask=0;mask<32;mask++){const chosen=names.filter((_,k)=>mask&(1<<k)),functions=new Set(chosen.map(n=>persons[n][0])),shifts=new Set(chosen.map(n=>persons[n][1]));if(functions.size===3&&shifts.size===2)covers.push({chosen,size:chosen.length});}
+check(469,{minimum:Math.min(...covers.map(x=>x.size)),covers},s=>s.startsWith('P,Q,R: três;'));
+check(471,{deaths:5,accidentSet:100,deathsPerAccident:5/100,workerDenominator:'não fornecido'},s=>s.startsWith('Razão de mortes por acidente no conjunto observado,'));
+check(472,{sorted:[1,1,2,2,100],median:2,mean:106/5},s=>s.startsWith('Mediana2 e média21,2; a robustez'));
+check(476,{commonSunk:30,incremental:[20,25],difference:25-20},s=>s.startsWith('Comparar20mil e25mil futuros;'));
+check(478,{rates:[6/120000*1e6,8/200000*1e6],diluted:6/160000*1e6},s=>s.startsWith('50 e40; a primeira é maior'));
+check(479,{events:10*1+10*3,affected:10+10,proportion:(10+10)/100},s=>s.startsWith('40 eventos;20%;'));
+check(480,{table:[[30,20],[10,40]],agreement:(30+40)/100,reference:'não fornecida'},s=>s.startsWith('70%; sem referência, desacordo'));
+check(482,{free:20-3-2,inflow:12+4,margin:20-3-2-12-4},s=>s==='Déficit de1m³.');
+check(483,{arrival:600/5,exit:30+90,strictMargin:600/5-(30+90)},s=>s.startsWith('A frente chega em120s e a saída também termina em120s;'));
+check(485,{R1finish:3+2,closure:4,R2finish:7},s=>s.startsWith('R2; R1 termina a passagem no minuto5'));
+values(486,[4+3+1+1],'Trabalho em duas linhas mais transições até a configuração finalP.');
+check(487,{eventTimes:[12*60+3,12*60+4],arrivalTimes:[12*60+6,12*60+5],latestEvent:'fechamento12:04'},s=>s.startsWith('O último fato conhecido é fechamento às12:04;'));
+values(489,[20*.05*.8],'Produto MJ/kg por kg/s e eficiência, dando MJ/s=MW.');
+check(490,{gas:1,flameRelative:-2,ground:1-2},s=>s.startsWith('1m/s para a esquerda;'));
+check(491,{powers:[.01*60**2,.01*30**2],reduction:1-30**2/60**2},s=>s.startsWith('36kW e9kW;75%.'));
+const extent=Math.min(4,10/3),F=4-extent,O2=10-3*extent,P=2*extent,total=F+O2+P+20;
+check(492,{extent,F,O2,P,inert:20,total,numerator:82,denominator:3},s=>s.startsWith('O2 zero;82/3≈27,33mol totais; o balanço')&&Math.abs(total-82/3)<1e-10);
+// Busca numérica no balanço da bomba, com qA=2qB, não copia uma raiz da autoria.
+let lo=0,hi=10;for(let k=0;k<80;k++){const b=(lo+hi)/2,a=2*b;if(100-(a+b)**2>4*b*b)lo=b;else hi=b;}const b=(lo+hi)/2,a=2*b;
+check(493,{qA:a,qB:b,pump:100-(a+b)**2,branchA:a*a,branchB:4*b*b},s=>s.startsWith('qA≈5,55 e qB≈2,77;'));
+values(494,[(80-20)/(80+20)],'Diferença de luminâncias dividida pela soma, com resultado adimensional.');
+const paths=[];for(let mask=0;mask<16;mask++){const sequence=Array.from({length:4},(_,k)=>(mask&(1<<k))?'W':'P').join('');if(sequence.split('W').length-1!==2)continue;let R=1;const states=sequence.split('').map(x=>(R=.5*R+(x==='W'?2:0)));paths.push({sequence,states,peak:Math.max(1,...states)});}const best=paths.reduce((x,y)=>x.peak<y.peak?x:y);
+check(497,{paths,best},s=>s.startsWith('WPPW;2,5.')&&best.sequence==='WPPW');
+const purge=10*4/(50-10),makeup=4+purge;check(500,{purge,makeup,saltIn:10*makeup,saltOut:50*purge},s=>s.startsWith('Purga1m³/h e reposição5m³/h;'));
+const passed=results.every(x=>x.passed);console.log(JSON.stringify({checked:results.length,passed,results,limites:'Modelos e dados expressos dos enunciados; verificações numéricas/discretas não equivalem a laudos nem a limites normativos.'},null,2));process.exitCode=passed?0:1;

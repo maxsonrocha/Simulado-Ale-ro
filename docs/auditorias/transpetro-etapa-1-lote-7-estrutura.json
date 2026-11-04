@@ -1,0 +1,68 @@
+{
+  "mode": "etapa_completa",
+  "total": 700,
+  "areas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 500
+  },
+  "subjects": {
+    "prevencao_riscos": 90,
+    "gerenciamento_riscos": 60,
+    "legislacao_nr": 90,
+    "gestao_sms": 40,
+    "emergencias": 30,
+    "incendio": 24,
+    "acidentes": 40,
+    "higiene_ocupacional": 80,
+    "saude_ocupacional": 16,
+    "ergonomia": 20,
+    "desenvolvimento_sustentavel": 10
+  },
+  "difficulties": {
+    "PORT": {
+      "media": 20,
+      "alta": 45,
+      "muito_alta": 35
+    },
+    "ING": {
+      "media": 20,
+      "alta": 45,
+      "muito_alta": 35
+    },
+    "ESP": {
+      "media": 100,
+      "alta": 225,
+      "muito_alta": 175
+    }
+  },
+  "answers": {
+    "PORT": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "ING": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "ESP": [
+      100,
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  "groups": 103,
+  "linkedQuestions": 206,
+  "independentQuestions": 494,
+  "errors": [],
+  "warnings": [],
+  "semanticLimit": "Estrutura e índice único não provam unicidade semântica: ela exige a auditoria de conteúdo e revisão humana."
+}

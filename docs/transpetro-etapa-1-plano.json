@@ -1,7 +1,7 @@
 {
   "etapa": 1,
-  "status": "parcial",
-  "baseCommit": "538307c",
+  "status": "completa_em_revisao",
+  "baseCommit": "673ebc6",
   "metaTotal": 700,
   "metaAreas": {
     "PORT": 100,
@@ -21,24 +21,24 @@
     "saude_ocupacional": 16,
     "desenvolvimento_sustentavel": 10
   },
-  "loteTotal": 600,
+  "loteTotal": 700,
   "loteAreas": {
     "PORT": 100,
     "ING": 100,
-    "ESP": 400
+    "ESP": 500
   },
   "loteAssuntosESP": {
-    "acidentes": 29,
-    "desenvolvimento_sustentavel": 8,
-    "emergencias": 23,
-    "ergonomia": 16,
-    "gerenciamento_riscos": 50,
-    "gestao_sms": 34,
-    "higiene_ocupacional": 63,
-    "incendio": 18,
-    "legislacao_nr": 74,
-    "prevencao_riscos": 70,
-    "saude_ocupacional": 15
+    "prevencao_riscos": 90,
+    "legislacao_nr": 90,
+    "higiene_ocupacional": 80,
+    "gerenciamento_riscos": 60,
+    "gestao_sms": 40,
+    "acidentes": 40,
+    "emergencias": 30,
+    "incendio": 24,
+    "ergonomia": 20,
+    "saude_ocupacional": 16,
+    "desenvolvimento_sustentavel": 10
   },
   "proporcoesDificuldade": {
     "media": 20,
@@ -53,14 +53,15 @@
       "leitura_interpretacao"
     ]
   },
-  "limites": "Acumulado parcial 600/700. PORT e ING completos (100 cada); faltam exclusivamente 100 ESP. Lote 6 concluído para auditoria independente; não iniciar lote 7 nesta tarefa. Normativa limitada às proposições do corpus verificado.",
+  "limites": "Etapa1:700 itens para revisão independente, sem merge. PORT100/ING100/ESP500 e matriz fechada. Não iniciar Etapa2 nesta tarefa. A contagem não substitui auditoria editorial/normativa independente.",
   "auditoriasConteudo": [
     "docs/auditorias/transpetro-etapa-1-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-2-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-3-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-4-conteudo.json",
     "docs/auditorias/transpetro-etapa-1-lote-5-conteudo.json",
-    "docs/auditorias/transpetro-etapa-1-lote-6-conteudo.json"
+    "docs/auditorias/transpetro-etapa-1-lote-6-conteudo.json",
+    "docs/auditorias/transpetro-etapa-1-lote-7-conteudo.json"
   ],
   "lotes": [
     {
@@ -182,6 +183,29 @@
         "desenvolvimento_sustentavel": 1
       },
       "baseCommit": "538307c"
+    },
+    {
+      "numero": 7,
+      "total": 100,
+      "areas": {
+        "PORT": 0,
+        "ING": 0,
+        "ESP": 100
+      },
+      "assuntosESP": {
+        "prevencao_riscos": 20,
+        "legislacao_nr": 16,
+        "higiene_ocupacional": 17,
+        "gerenciamento_riscos": 10,
+        "gestao_sms": 6,
+        "acidentes": 11,
+        "emergencias": 7,
+        "incendio": 6,
+        "ergonomia": 4,
+        "saude_ocupacional": 1,
+        "desenvolvimento_sustentavel": 2
+      },
+      "baseCommit": "673ebc6"
     }
   ]
 }

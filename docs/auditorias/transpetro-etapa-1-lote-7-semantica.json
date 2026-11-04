@@ -1,0 +1,4607 @@
+{
+  "metodo": "Revisão editorial autoral dirigida por cenários, operações, condições e distratores; inventário600 e100 pareceres de contraste. Triagem lexical de todos os pares em arquivo separado. Não são64.950 revisões humanas independentes ou embeddings; temas podem reaparecer e originalidade absoluta não é provada pelo escore lexical.",
+  "inventarioAnterior": [
+    {
+      "id": "TP26-ENGSEG-ESP-0059",
+      "sha256": "2bdbc9f4bdadd42b10a14e077c9ea59a4a1b4510e48bba67a40853cf2e2e4eb5",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "ciclo_vida_fronteiras"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0060",
+      "sha256": "fcc52e46a0f258fa6b2c8b48dcbb178540c26091573686e53efd83d178576879",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "intensidade_volume_multicriterio"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0117",
+      "sha256": "c073c7c36824ba969e687af77fa37ef262843fcf3df97d2ac2ba238cf008cdd0",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "projeto_desmontagem_reparabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0118",
+      "sha256": "08add89859d4ac6dd9c6266285735c5e1a15cd5a74fc3bbaa5440b18e9c0df1e",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "carbono_estequiometria_captura"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0119",
+      "sha256": "ed9f5b119c8805c9ff8109af04ba4ba5d01b87e8cd9c50be1b78b6be77e9e09b",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "conectividade_habitat_traçado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0120",
+      "sha256": "50e9865c437bb3de0f6e8ecfbf055b1dd88bb51697749f4d36d8593f0d67b7e6",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "armazenamento_eletrico_emissoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0300",
+      "sha256": "1925d7a87be040ea4e2bd4ea566a26426ddc5cc7f29e7fa56d82a696b5c4aa79",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "renovacao_e_dinamica_de_estoque"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0400",
+      "sha256": "ba166c069d9fc7546ed5ea58cf0551110060eedad9ad67b1015bf90e298edf0d",
+      "assunto": "desenvolvimento_sustentavel",
+      "subassunto": "reciclagem_em_circuito_e_massa_virgem"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0001",
+      "sha256": "113218a816c673b8e935549b587a1f8c33902a12ed23d41bef61c321a4c62714",
+      "assunto": "compreensao_textual",
+      "subassunto": "tese_evidencia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0002",
+      "sha256": "f78fbbfa4880805b08d8fb0aa89bf454050dc9ed0a9986d79949a1f83c8b21dc",
+      "assunto": "compreensao_textual",
+      "subassunto": "pressuposicao_argumentativa"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0003",
+      "sha256": "d16427c9e01f01f028bf76a763fd3f53aac92cf9b46c5e7fd6456248f8226b25",
+      "assunto": "compreensao_textual",
+      "subassunto": "causalidade_textual"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0004",
+      "sha256": "a21339fdb4cc10838bfb6f6927caf77d95d74f48d1ff90088d40aadc8aed7e20",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_controle_contrafactual"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0005",
+      "sha256": "e2e6aa9e89f670545e7b128111dbb8724858e07de7f26814fc1bb30fad517a1e",
+      "assunto": "compreensao_textual",
+      "subassunto": "modalizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0006",
+      "sha256": "50e6782245c8e62430f03209b25fea53373fc7ecb2cc7952377db3241cbfc183",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_escopo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0007",
+      "sha256": "93e043aa3f94b4e0cbdeecd14adf383a1216d1093bf4f88258dd7481bf50a09e",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_sujeito_oculto"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0008",
+      "sha256": "8b7724d6ea9f59c043ccd4dbb0ac558df1b937ff51a822ceb9fe80e062d3c317",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_agencia_regencia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0009",
+      "sha256": "8fa926095d330068e98e699805066fd61225f5481e54b27703fae0c3773cbc55",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_contextual_precisao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0010",
+      "sha256": "0b977499f10eda26846b8a409b41f0f845794e3f074af55ffdd81957a4902326",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_quantitativa_argumento"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0011",
+      "sha256": "10d455c9197f6648b0668c994828d49656500185f7bf7acb35d783c9b4d549fa",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_demonstrativo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0012",
+      "sha256": "3a87e7d7257f74e768e69533ee1ca6ecffb4aafeacc38312bb16e8182f7e7e1a",
+      "assunto": "compreensao_textual",
+      "subassunto": "tempo_modo_finalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0013",
+      "sha256": "4c289919f07915fa08a7ac61fd4c3e663804c96c9f6241e6ce7e8a22a98f5b4f",
+      "assunto": "compreensao_textual",
+      "subassunto": "concessao_coerencia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0014",
+      "sha256": "a8fb472fdf2ed2dedc86c3e8ad306a9f47aaf5c170452441cb284a7335cc8e76",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_concessao_escopo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0015",
+      "sha256": "9f6f19b690c4d8cf17ee8509f8d7e82b071eec03f635faf674ca4129eb24295c",
+      "assunto": "compreensao_textual",
+      "subassunto": "pontuacao_restritiva"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0016",
+      "sha256": "a777bbea8f977f2e3fc215b5368c825cbb970ad9341decaaa7f713c6d7fd7786",
+      "assunto": "compreensao_textual",
+      "subassunto": "crase_concordancia_contextual"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0017",
+      "sha256": "565bccba6a62c1c9f325960c5894693586593415815b8a576d92653ae67b2eeb",
+      "assunto": "compreensao_textual",
+      "subassunto": "condicao_possibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0018",
+      "sha256": "513893b3157492b847d468a9f258b95c436732062dd8ef53ec5b3165dc4579d4",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_condicoes_modalizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0019",
+      "sha256": "0bb47b162a5df2ad20b4eed48461c35670f5187ad6b83ee41915382013242a6a",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_multiplas_explicacoes"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0020",
+      "sha256": "648ba69df23bd074ce2e6bad4a8133b6b5afe1ba3873ffefbf7cfe49e7a80161",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_relacoes_logicas"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0021",
+      "sha256": "315617c5735d7e56a99b9318bd70db4457eb9ba9573884e71d26ace58908b596",
+      "assunto": "compreensao_textual",
+      "subassunto": "metafora_alisar_experiencias"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0022",
+      "sha256": "b05969e234d8ab58a2e11dc112c61223d9b7a15757613f66859b7a7b2222c205",
+      "assunto": "compreensao_textual",
+      "subassunto": "genero_ata_relato_oral"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0023",
+      "sha256": "249c32c767ed0c61666f4c2f9e3570d5c2b26ab245db1d801859749dd9b14e9f",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_figurado_personificacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0024",
+      "sha256": "22cf7c90e8c7eda55f0093233ee4ec2a9e4212baddfea9c1db21b0e8fd9ad01b",
+      "assunto": "compreensao_textual",
+      "subassunto": "perspectiva_memoria_espaco"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0025",
+      "sha256": "14e4645e112b1048ffd01295eb0152f2fc7963e343f6336923a2daf05d6471d6",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_acessibilidade_textual"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0026",
+      "sha256": "d9e14b06e61a8022d526f9a8b07423cffca8485953f70c829976422cdcb55220",
+      "assunto": "compreensao_textual",
+      "subassunto": "correlacao_aditiva_focalizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0027",
+      "sha256": "70aeb5b8adb71027fe8607e3d47955eb9f20edb412ec078e0ffe23a51afbcb2e",
+      "assunto": "compreensao_textual",
+      "subassunto": "verbos_impessoais_tempo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0028",
+      "sha256": "9bfbcc657329afa324eb6ef0a6884b68de0430bceac348cf40829bc07b8d5e2d",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_haver_existir_modal"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0029",
+      "sha256": "7a9f577034abbeae31502e0d237f5a3b612263fdcada22cc436cb2d341848496",
+      "assunto": "compreensao_textual",
+      "subassunto": "coerencia_polifonia_editorial"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0030",
+      "sha256": "0bc45259ebafbd20dbf0784d8ec0df9af52b49a32cf0189c8cb5cdaf93b23b67",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_atribuicao_vozes"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0031",
+      "sha256": "3365416fa905c6a72972aa12545eb6d0900fc9003f3598657631b4b0c56adca6",
+      "assunto": "compreensao_textual",
+      "subassunto": "discurso_direto_delimitacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0032",
+      "sha256": "e62e8346b6dea73dd127c10fa879f976491b82cd1aaf347c85670c6f9264767d",
+      "assunto": "compreensao_textual",
+      "subassunto": "paralelismo_concordancia_pronomes"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0033",
+      "sha256": "dd16f9b42f67c92e0883a0d66b59a7517655a9e6f999e86a2e21162ae7c0f3ec",
+      "assunto": "compreensao_textual",
+      "subassunto": "metonimia_personificacao_agencia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0034",
+      "sha256": "6d7b4b6353cbb4eb6e53810500323e2b767aee6463c589a6e3ac94903fb4f297",
+      "assunto": "compreensao_textual",
+      "subassunto": "integracao_figura_e_progressao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0035",
+      "sha256": "d8d3193ece6e9ef60346d276488f4bcc2c2c2a897226ed072a274ab9402741c8",
+      "assunto": "compreensao_textual",
+      "subassunto": "oracao_final_destinatario"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0036",
+      "sha256": "0efbbf6fe7bce1c6566b0d02f37dd0aaf30abcd160c6763dd807003e3a27bf78",
+      "assunto": "compreensao_textual",
+      "subassunto": "reducao_oracional_controle_sujeito"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0037",
+      "sha256": "e76a63830524de2d3d505e0a274a50a867f6b21cddbc0ebd94713e9b685d6cf8",
+      "assunto": "compreensao_textual",
+      "subassunto": "ortografia_porques_funcao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0038",
+      "sha256": "e6cfd31dd085c987045ffd230cc9cbfcf6a7bc550b1c73247216e0e0cae611c5",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_interrogacao_causalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0039",
+      "sha256": "8afa2065ad14c51df1a0f3233c229b8800f5b7a9f27657db73d023a707bd5916",
+      "assunto": "compreensao_textual",
+      "subassunto": "anterioridade_focalizador_ate"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0040",
+      "sha256": "7ff7b1b60a1077f0393abd96475877f1d9b90af933d27cb4edab13c7b56f1097",
+      "assunto": "compreensao_textual",
+      "subassunto": "inferencia_negacao_e_foco"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0041",
+      "sha256": "d0ba8fae0fa3ff7db5eebc1bd68a52ce3eeb2918c7363df5112600ac63f28fdf",
+      "assunto": "compreensao_textual",
+      "subassunto": "limites_de_uma_descricao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0042",
+      "sha256": "c9394ae4266a4b86e6b30dff14171e4aa6739f613a403fc530053ad6b4473113",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_preservacao_argumento"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0043",
+      "sha256": "6b3b50cc66964292a9e4c0094669cc7160d15c666b534106e3cfda426c450d45",
+      "assunto": "compreensao_textual",
+      "subassunto": "tempos_e_perspectiva"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0044",
+      "sha256": "e4b4f08edb65a0fd5aae0d3ec995a8fd2456a1a4086a5247ec4bdb7f1a94f91e",
+      "assunto": "compreensao_textual",
+      "subassunto": "modalizacao_e_finalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0045",
+      "sha256": "f96b0c8a5a9e403a75c971cd735f7c86d16166fce8a46e88c3925e7d09de3d21",
+      "assunto": "compreensao_textual",
+      "subassunto": "condicao_e_concessao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0046",
+      "sha256": "9223cfbbf40d8ee8f4a54cf9186bc39766c3862b27f4c0ca03dd0977bd251845",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_argumentativo_de_definicao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0047",
+      "sha256": "89c248b8b6189501bb6e9c7d6762faf3bef6fadf0a43618e0209cfea6ad3af6e",
+      "assunto": "compreensao_textual",
+      "subassunto": "retomada_e_ironia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0048",
+      "sha256": "0568a65410bcbbb0ff517adae075f04dba346076384e7e68f06d1539cf1f223e",
+      "assunto": "compreensao_textual",
+      "subassunto": "ironia_e_responsabilidade_enunciativa"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0049",
+      "sha256": "ca298be1291f8be31c83475b7d2450f084826d012bfdb714127b670a4487b2c5",
+      "assunto": "compreensao_textual",
+      "subassunto": "regencia_e_retomada"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0050",
+      "sha256": "9c2311cd0b98ff5d2334c93d42a46de3c1e206c95a1e0e4c45c7a907c9afa04e",
+      "assunto": "compreensao_textual",
+      "subassunto": "reformulacao_com_pronomes"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0051",
+      "sha256": "239fc23f5fe93a4f9d910baea3b14dfc039d0437c09f4295bf498840e71df665",
+      "assunto": "compreensao_textual",
+      "subassunto": "modalidade_epistemica"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0052",
+      "sha256": "02b66e87eccbe231016689acaf964d465794a8537a5bc13c239a8efc43ee659f",
+      "assunto": "compreensao_textual",
+      "subassunto": "discurso_indireto_e_tempo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0053",
+      "sha256": "4dee8b9b02396e9e5b73b0d0b79733b60fdbfee8d1d56f04b3609bc6a293bdfb",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_de_metafora"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0054",
+      "sha256": "180c79de9ae8a5b00f59b1b0ab3a21c80c04a16f96a97c8fe87c67d1eaba19dc",
+      "assunto": "compreensao_textual",
+      "subassunto": "crase_e_valor_de_locucao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0055",
+      "sha256": "480c07539e7555340e7eafe36850d42da52501da54712545e8dc3c16726736f0",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_e_contraste"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0056",
+      "sha256": "5660b2c22171aff22eb24f4fcf58f9258e0ff339ec728c784ff5ff4cfb5fa0b2",
+      "assunto": "compreensao_textual",
+      "subassunto": "alcance_da_negacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0057",
+      "sha256": "fa9d3927625fb01b2051a9d288e4cf33b0711fdbc8418f68c845adede59dc3cf",
+      "assunto": "compreensao_textual",
+      "subassunto": "pontuacao_e_condicao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0058",
+      "sha256": "a15a0a1cae0ead63c1ec8cb70768514d944cf4bc14c1a0daac4ec1bdaed6c81a",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_condicional"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0059",
+      "sha256": "8f8eea8c316acf87c4061f469a07653a7ce6242958ded4d3367be3287f274d75",
+      "assunto": "compreensao_textual",
+      "subassunto": "pressupostos_e_distincoes"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0060",
+      "sha256": "5d67db73e91962cc8274c1ff92f6ca05d158ece55e138ee32dbccbb3852ac06d",
+      "assunto": "compreensao_textual",
+      "subassunto": "concordancia_e_voz"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0061",
+      "sha256": "b0700505cc52d82079df450433d66e0c237f26a3df41b84c2d1f87833082bfe6",
+      "assunto": "compreensao_textual",
+      "subassunto": "discurso_indireto_livre"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0062",
+      "sha256": "17d62f8800543529bdff87b77be9bb1b686bf07a9a0ef60b5e05e1343ac6213c",
+      "assunto": "compreensao_textual",
+      "subassunto": "perspectiva_e_inferencia"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0063",
+      "sha256": "33b190e0584a3b0a621565d9066d11252e7fef162af9505178ce66fba4f637a1",
+      "assunto": "compreensao_textual",
+      "subassunto": "aspecto_verbal"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0064",
+      "sha256": "4774168e7ce35f7f744946eb1ecc6e4cd97e933a340fd3770e5eddc47b07b61b",
+      "assunto": "compreensao_textual",
+      "subassunto": "conectores_temporais"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0065",
+      "sha256": "ab756cb57b35b89837a7b87e1b13d55e98c8dc236a765d54425ce2a4dbf35e54",
+      "assunto": "compreensao_textual",
+      "subassunto": "metonimia_e_representacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0066",
+      "sha256": "583339e3400825bd2757ff741052412d83f6a61df7bdf5afae8b70c5868b4bba",
+      "assunto": "compreensao_textual",
+      "subassunto": "retomada_e_restricao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0067",
+      "sha256": "b120ad0ab65bcb46c70952533b80abeae31c5d13ddd14460b5568a7b7ecdb80d",
+      "assunto": "compreensao_textual",
+      "subassunto": "adequacao_de_registro"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0068",
+      "sha256": "0dcd08e8d36494ee6f47a922818a8d10b1d0af8e1cd6939e5dada531dad3352a",
+      "assunto": "compreensao_textual",
+      "subassunto": "paralelismo_e_escopo_de_negacao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0069",
+      "sha256": "13952a30bb6e9c3969ae014560176d241d00d21e0e45ededb45b4ca2898d13eb",
+      "assunto": "compreensao_textual",
+      "subassunto": "elipse_e_paralelismo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0070",
+      "sha256": "a346996a8a9196611de1d7cb75d1fcb91b5e2e531b1ba45e6724001c939753dd",
+      "assunto": "compreensao_textual",
+      "subassunto": "relativo_possessivo_e_voz"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0071",
+      "sha256": "28da52645b97b5e95543c88b77d4c1f5dce87cbe166f49ce821c566768bd1e15",
+      "assunto": "compreensao_textual",
+      "subassunto": "citacao_e_distanciamento"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0072",
+      "sha256": "3f5168502315518492b89440a4c29bf639da530bd5d74fab0dce045c477c95b9",
+      "assunto": "compreensao_textual",
+      "subassunto": "dois_pontos_e_fala_citada"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0073",
+      "sha256": "dd6a676b0225f543cf8bd85194ae1bb9bb8532df677d966865387ae1e5398f57",
+      "assunto": "compreensao_textual",
+      "subassunto": "antitese_e_ponto_de_vista"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0074",
+      "sha256": "686e9866ea32e3f5f293a75360ac2db439e6e735ad418d73716685762d1f300f",
+      "assunto": "compreensao_textual",
+      "subassunto": "concordancia_haver_faltar"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0075",
+      "sha256": "2d492a04590ab75614a6c65c423905d5728c2d1adec8972037dafb246eabbe9b",
+      "assunto": "compreensao_textual",
+      "subassunto": "parafrase_de_compromisso"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0076",
+      "sha256": "ca15da951c6d3829558b84cf89783639c7dfe89a80f68c084b7cc1ef2fd9fbdb",
+      "assunto": "compreensao_textual",
+      "subassunto": "subordinacao_e_modo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0077",
+      "sha256": "985071b597c0ba3d659b7a82ec5d4d9dac9ac75cfba7668f94e74de686151b94",
+      "assunto": "compreensao_textual",
+      "subassunto": "composicao_e_ordem_de_leitura"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0078",
+      "sha256": "580708680a84d4e60ff979cc227925ed90c3820ba3dffb3cfd782f0e3891524f",
+      "assunto": "compreensao_textual",
+      "subassunto": "restricao_e_niveis_estruturais"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0079",
+      "sha256": "3bfb79c9363d5ff4f373e87025dd759e68ad0ffbfcab7e3df88b78d482ffe91a",
+      "assunto": "compreensao_textual",
+      "subassunto": "concessao_e_conclusao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0080",
+      "sha256": "fd8ed355a8e7dbedb1f025a17598570bd4a17d02bac188214880bd91bc6a5df5",
+      "assunto": "compreensao_textual",
+      "subassunto": "pronomes_e_responsabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0081",
+      "sha256": "610ab4ebf2738d5b6b7374252d2a426f98d4a78ce02e4cb4a0194931930dfed1",
+      "assunto": "compreensao_textual",
+      "subassunto": "sentido_contextual_de_espontaneo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0082",
+      "sha256": "09501370891b5c0fe3e0085b2e61235498e7016d2c711e7d0be4bcf5486371cc",
+      "assunto": "compreensao_textual",
+      "subassunto": "coesao_proposicional"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0083",
+      "sha256": "4b6db83b7c2aa471cccf9d3a7b508cb7d4accf982a781ff71eeb2431f3400232",
+      "assunto": "compreensao_textual",
+      "subassunto": "interpretacao_pragmatica"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0084",
+      "sha256": "73c458f1fb829468098bcfb9aa09a9bed4e8d605a15e105845f15913fc94b128",
+      "assunto": "compreensao_textual",
+      "subassunto": "funcao_sintatica_do_relativo"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0085",
+      "sha256": "de2694923eae1252476bcba12b4c684028492ce39fa0543afe5303cd872900d0",
+      "assunto": "compreensao_textual",
+      "subassunto": "atenuacao_e_conclusao"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0086",
+      "sha256": "886b7aa811a692a43feb1e7480e6782a1c5dcb203a79b214a78454f710edbeb2",
+      "assunto": "compreensao_textual",
+      "subassunto": "reformulacao_condicional"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0087",
+      "sha256": "05c173c944bc89ebd4ff42d3f2577996d80ee7db5cbdb86314765cb4690688af",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_e_predicado"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0088",
+      "sha256": "2a9bef085d0f6341852809c850601fcc7098bbcaffe5dbc3ccefc699ee0f6b35",
+      "assunto": "compreensao_textual",
+      "subassunto": "subjuntivo_em_relacao_temporal"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0089",
+      "sha256": "29067478bf3aa01ce8bc9a54e7b788a5fec184543fdae310e6777b2fa0264730",
+      "assunto": "compreensao_textual",
+      "subassunto": "criterios_cumulativos_e_lexico"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0090",
+      "sha256": "9a2d25daaf352276fb77208d0f71b9662461fc71d69ed325c7b51725892bdfc1",
+      "assunto": "compreensao_textual",
+      "subassunto": "valor_de_outro"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0091",
+      "sha256": "2372f25ccd61f1a681a4e6ff77a4d84d69b66b6d9529e512ea6c285d28d24bb8",
+      "assunto": "compreensao_textual",
+      "subassunto": "metafora_e_estrutura_argumentativa"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0092",
+      "sha256": "0c8a58f4e05450298428afb909f048c63ecbe00b35304a5a64d9d1d9f30ee2f6",
+      "assunto": "compreensao_textual",
+      "subassunto": "valor_do_futuro"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0093",
+      "sha256": "d955faa48c5eafe89dfa175e2f4550f443bf1cb5fda988e57f490b24db1915e6",
+      "assunto": "compreensao_textual",
+      "subassunto": "progressao_e_desdobramento"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0094",
+      "sha256": "541775efd221d53aff1b5c84567716e0b2f01ae58d725f4b8be6046161001448",
+      "assunto": "compreensao_textual",
+      "subassunto": "pronome_se_e_reescrita"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0095",
+      "sha256": "1c4d7a2cdc5d1e3f4cedd65f2ccab250d0aa5314a23aef426569b993a7df7027",
+      "assunto": "compreensao_textual",
+      "subassunto": "referencia_e_funcoes_de_cliticos"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0096",
+      "sha256": "31f1853de1da9b501646eb5da4b6704f302298860018f7320c7f013683cad2d4",
+      "assunto": "compreensao_textual",
+      "subassunto": "escopo_da_recusa"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0097",
+      "sha256": "53d77695e72a91f17a4034ea73d2bee81908d018c6df1a59f9c5d516706b0bc5",
+      "assunto": "compreensao_textual",
+      "subassunto": "polissemia_de_conector"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0098",
+      "sha256": "83209dccc75de5d1550181c2806937e1376d8d22a0a2e2173aac62aabea2ed74",
+      "assunto": "compreensao_textual",
+      "subassunto": "retomada_de_casos"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0099",
+      "sha256": "9fd449750339a5d036ce59971b9459d93355a84438d07ff73d036c0c64d92db8",
+      "assunto": "compreensao_textual",
+      "subassunto": "coerencia_e_terceira_possibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-PORT-0100",
+      "sha256": "9ed521d3027da4b26a7a03ee6634793cb40dd7c3b4328b531c5916e26fe21098",
+      "assunto": "compreensao_textual",
+      "subassunto": "reescrita_modal_e_concessiva"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0045",
+      "sha256": "599bf76c300fc27db4d185c6e1f68605dc32257b4a7a4a4a6270f126eb951f1d",
+      "assunto": "acidentes",
+      "subassunto": "evidencia_causa_investigacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0046",
+      "sha256": "ffb90ca224b09fe3073615c6b3d859831f5bc1667a05df430572a6c757397e18",
+      "assunto": "acidentes",
+      "subassunto": "taxa_frequencia_denominador"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0047",
+      "sha256": "98e2e14416e23ce4a4849fce5e620bb3a05e46de254264ab8b93c050d5d0c9a9",
+      "assunto": "acidentes",
+      "subassunto": "causa_imediata_sistemica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0048",
+      "sha256": "6e8bc51e016b30ee7d5b618f1420a2dba324ebb7ee4da7eb424bbd783c1bbf77",
+      "assunto": "acidentes",
+      "subassunto": "composicao_taxas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0073",
+      "sha256": "d3837263e6b30d02e30e92bf7bdb78e303a288ebd9a687d4de4a482cb2df45f8",
+      "assunto": "acidentes",
+      "subassunto": "classificacao_tecnica_evento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0074",
+      "sha256": "38e30abdac2d441776bb6c6cfc1a0919b4b71884253bcb87c3fa44f0b9532ca5",
+      "assunto": "acidentes",
+      "subassunto": "unidade_registro_evento_pessoa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0075",
+      "sha256": "3b79ba8f2e4d56eae02fdea16a410118c645ec00e1facc001c3e49e587190275",
+      "assunto": "acidentes",
+      "subassunto": "custos_contabeis_recuperacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0076",
+      "sha256": "bb52f0d83148577e3c056eb22b65f7f2386634bebe92fa7ee486e0086bfd72fb",
+      "assunto": "acidentes",
+      "subassunto": "entrevista_nao_indutiva"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0077",
+      "sha256": "51222811dd0538c106c21ea2a2860a2b09a9d3ddd459ae51bbc14b81f8f2e2f6",
+      "assunto": "acidentes",
+      "subassunto": "preservacao_evidencia_original_copia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0078",
+      "sha256": "56e711c7026b14a5c5b0ff57dc7feeca33c673f529c9025fb7e63ef413424daf",
+      "assunto": "acidentes",
+      "subassunto": "arvore_causas_condicoes_minimas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0079",
+      "sha256": "ab1891bbf6a555ecaf0e69cb2aa7fb1e62f4e0e7c7bd1272c48e1c27b7c8a62b",
+      "assunto": "acidentes",
+      "subassunto": "dias_pessoa_sobreposicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0080",
+      "sha256": "6a7328026fc499788b63e45e7accc377f45ad74581db9c6de7fbe3c5ef2da941",
+      "assunto": "acidentes",
+      "subassunto": "estimativa_registros_duas_fontes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0081",
+      "sha256": "1965178d07d4764fb7860c2ca223efb2b91b5808be04d74bf26513e1184c0039",
+      "assunto": "acidentes",
+      "subassunto": "limite_frequencia_zero_eventos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0082",
+      "sha256": "6f7fe10268a3b35675a53d9b6be2da682e6c004013c7ed3ab23b5801afc98cbc",
+      "assunto": "acidentes",
+      "subassunto": "teste_discriminante_hipoteses"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0175",
+      "sha256": "cb0a51ba8ccc8db43ae869706560a8f21879caaebaa368deff9e62d588d4a9bd",
+      "assunto": "acidentes",
+      "subassunto": "independencia_de_relatos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0176",
+      "sha256": "e8b4e91f44ae99c4a9bcbbcd2c65d0740696f9d1801640c4152d17724a798613",
+      "assunto": "acidentes",
+      "subassunto": "tempo_em_risco_e_imortalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0231",
+      "sha256": "5b5946b2206a2945b8a888d4669b5d7b15b70889da633c97462dd6bea794264d",
+      "assunto": "acidentes",
+      "subassunto": "sequencia_temporal_e_causa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0232",
+      "sha256": "deb05bc327fbc149ac34978bbb6762318f917596a13b01b2245040df6a1f401b",
+      "assunto": "acidentes",
+      "subassunto": "classificacao_retrospectiva_de_cenarios"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0233",
+      "sha256": "2b870a86e4bd00109ae19c3bea09c0101e0a31a58b356361b619309ecbd973e8",
+      "assunto": "acidentes",
+      "subassunto": "codificacao_de_causas_e_consistencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0234",
+      "sha256": "3d775b75a115991df448bf7fe42e429d31c89bd0e0cd167ef3b588836820baf5",
+      "assunto": "acidentes",
+      "subassunto": "inferencia_sobre_intervencao_e_selecao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0291",
+      "sha256": "7d946726078ab263218adc27371110c3674090899e4b70694ba7095ffb34f838",
+      "assunto": "acidentes",
+      "subassunto": "efeito_domino_em_sequencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0292",
+      "sha256": "d01aecb2b6014951e235122fe2c21d3029d650b2773ef4dd9d1e60c9adcab79d",
+      "assunto": "acidentes",
+      "subassunto": "ensaio_destrutivo_e_evidencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0293",
+      "sha256": "bd6876dc43abbea2a975cc74367bcde6b28e03f01c50f9fa691c0c423da67c48",
+      "assunto": "acidentes",
+      "subassunto": "reconstrucao_de_trajetoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0382",
+      "sha256": "b793e413a3c4e1fb4a12e3401847e0d6946d0dfbe7aca87e2b7c44563d3cd7c1",
+      "assunto": "acidentes",
+      "subassunto": "numerador_e_unidade_de_analise"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0383",
+      "sha256": "7ba4e431be5f27efb4729ffd8561d9822ea156feb4758428aaae61780d2d5dc6",
+      "assunto": "acidentes",
+      "subassunto": "sincronizacao_de_evidencias_temporais"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0384",
+      "sha256": "addb5db75b352afd09b97f82affe823581a1e4178fdfa1ba62c98629bd96f541",
+      "assunto": "acidentes",
+      "subassunto": "cronologia_e_hipotese_causal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0385",
+      "sha256": "db0895663442418d75ba9474c4d3cca31d9cc47a67f2e76b3d9c883345b67244",
+      "assunto": "acidentes",
+      "subassunto": "perda_de_dados_e_intervalo_de_taxa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0386",
+      "sha256": "5215c6ab5a7b757d298990e6e51086afd9b5cf99ee0aeafcc8f95b2c002dd6f1",
+      "assunto": "acidentes",
+      "subassunto": "diferencas_em_diferencas_com_denominadores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0387",
+      "sha256": "a15c21870e86e10adcf06b205877613427e04fa38d9a663ccd24b43333ace33a",
+      "assunto": "acidentes",
+      "subassunto": "investigacao_com_informacao_conflitante"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0055",
+      "sha256": "d3fef262737e146c0b3891da58c87848ffea1ffe95e32791f402a7592143b08a",
+      "assunto": "ergonomia",
+      "subassunto": "trabalho_real_variabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0056",
+      "sha256": "3c826c55c3a8f41e693c501165a58a24517c7668c2e2774b89a105dcf2328b5d",
+      "assunto": "ergonomia",
+      "subassunto": "carga_cognitiva_interface"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0101",
+      "sha256": "0e52eca49df7af91ecefdee956da1e9e99fb648b54e646442dbbc1baecb97619",
+      "assunto": "ergonomia",
+      "subassunto": "esforco_estatico_dinamico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0102",
+      "sha256": "5c26465e27e9bf619f02db40e16894257197d74c7aa65b26a4e62de5d5a16ed5",
+      "assunto": "ergonomia",
+      "subassunto": "ajuste_antropometrico_intervalos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0103",
+      "sha256": "5ae64b4e57e7f47117a6b1f4dbb124186b5cbec96da221e6e6dace468ca44346",
+      "assunto": "ergonomia",
+      "subassunto": "compatibilidade_controle_mostrador"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0104",
+      "sha256": "dc44418db3a2060983ea817e23793f2c3b7105a18aa133fde87168fb2276209d",
+      "assunto": "ergonomia",
+      "subassunto": "movimentacao_dupla_sincronizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0105",
+      "sha256": "4eeeb4e33f522093c7bfd0ee12f746644b3f68626378fdcbfc35e384c539290f",
+      "assunto": "ergonomia",
+      "subassunto": "rodizio_exigencias_semelhantes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0106",
+      "sha256": "0cf45b671a11e3a7e01f44200d8d55a944f4e5ca56d23dbe179f3e86c3aece3a",
+      "assunto": "ergonomia",
+      "subassunto": "tempo_escolha_navegacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0107",
+      "sha256": "baaca1e630346688d30f1f2c0b5950e7ece2b0fbda623528a093350d83c079db",
+      "assunto": "ergonomia",
+      "subassunto": "legibilidade_angulo_visual"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0108",
+      "sha256": "823c80befca756933136d64cd914d5f1f2606009927a72101e85207c7035327e",
+      "assunto": "ergonomia",
+      "subassunto": "revezamento_janelas_recuperacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0179",
+      "sha256": "45633aebc8c8dff22b36b5d73a84198fae77b4b267bc8671d8e0f4712af52f0c",
+      "assunto": "ergonomia",
+      "subassunto": "compatibilidade_entre_tarefa_e_informacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0239",
+      "sha256": "8527f8a6f114940d6e20e033125d80174b1bcc035a6aefc6cd3dbc53613faa08",
+      "assunto": "ergonomia",
+      "subassunto": "momento_no_ombro_e_alcance"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0298",
+      "sha256": "273f3adbbed2bc7889663619d4dbc2486cb7c08f3c6f8a501234b82b52f29b0a",
+      "assunto": "ergonomia",
+      "subassunto": "capacidade_de_codigo_sem_cor"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0395",
+      "sha256": "411deb5b7697a54ec22fae420f0e31e441b52c4fdfc39bae45df10e63125d46b",
+      "assunto": "ergonomia",
+      "subassunto": "dimensoes_de_ajuste_e_intersecao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0396",
+      "sha256": "b1afb61c15da92387ad5dcff53e7c2beede2adc860742f70c107f50df67b6cdd",
+      "assunto": "ergonomia",
+      "subassunto": "memoria_prospectiva_e_interrupcao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0397",
+      "sha256": "7fde8374f8f76f2961d690bb5e171c8544386e21f49a64dd08beb1cda0170744",
+      "assunto": "ergonomia",
+      "subassunto": "velocidade_e_precisao_no_apontamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0041",
+      "sha256": "41d2280f9c1f28ce0ebf37f68c4d229d361e1ce45558804c8e0f64123bd4b72f",
+      "assunto": "gestao_sms",
+      "subassunto": "evidencia_auditoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0042",
+      "sha256": "be62ffc93450e2f999e4ff9c5297008fe616fdbaf9a4130767eaf7d1bf268b31",
+      "assunto": "gestao_sms",
+      "subassunto": "indicadores_proativos_reativos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0043",
+      "sha256": "409ab3b3acfcdcb78ce4903bbfa254bad77fc00646328ed198a0743eb83df29d",
+      "assunto": "gestao_sms",
+      "subassunto": "eficacia_acao_corretiva"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0044",
+      "sha256": "aad91a1674f0f7b172d47cac3f39677d5671acfb93225124d8bf974b8cbfc401",
+      "assunto": "gestao_sms",
+      "subassunto": "comparabilidade_indicadores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0063",
+      "sha256": "837da276ceac4bdf500425bd21ab658928d0e1de858e1cb2e8050d05f76d6e0a",
+      "assunto": "gestao_sms",
+      "subassunto": "escopo_terceirizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0064",
+      "sha256": "4acbaebf5cd2ef490097c8c566505e9a396325c21b7e24ce43d362c802603cdb",
+      "assunto": "gestao_sms",
+      "subassunto": "consulta_trabalhadores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0065",
+      "sha256": "241e43ab3d2f211082a667c2297f9e1fa20b93d9ef468e0311255ba1cb5882a1",
+      "assunto": "gestao_sms",
+      "subassunto": "revisao_documental_pontos_uso"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0066",
+      "sha256": "f038bea1421290d333cafe6131cb2bffaf4ba82021d69abe9cb4878d31eb3921",
+      "assunto": "gestao_sms",
+      "subassunto": "imparcialidade_designacao_auditor"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0067",
+      "sha256": "8e552826c36d3c0a749df445ca0faef884fa38ee8a3f8efcca31e03c9384cb98",
+      "assunto": "gestao_sms",
+      "subassunto": "responsabilidade_interface_contrato"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0068",
+      "sha256": "1402b12f0023327c93cc544f426d88107a7f1158c09ca67790b1998a1bac1753",
+      "assunto": "gestao_sms",
+      "subassunto": "auditoria_trilha_transversal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0069",
+      "sha256": "a745b614c40bfacca40b8ce46e0068249d8408f4ac4aca21413469917ca6bdd7",
+      "assunto": "gestao_sms",
+      "subassunto": "confidencialidade_divulgacao_operacional"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0070",
+      "sha256": "d6a3ceed748215b346803dd50d422d9eabb50f7676d47c9508bb2c0d28c2c687",
+      "assunto": "gestao_sms",
+      "subassunto": "amostragem_sem_reposicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0071",
+      "sha256": "d24f19c4f1c1270572b9c679b85c41849604f362584e4535ee9ec7c642ae4955",
+      "assunto": "gestao_sms",
+      "subassunto": "compatibilidade_versoes_requisitos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0072",
+      "sha256": "4cf4232cc1723e1d198e5db6caff017ad73c2b92414f385c9a8d1ae59784084f",
+      "assunto": "gestao_sms",
+      "subassunto": "designacao_segregacao_disponibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0171",
+      "sha256": "eb8d67e683d4c711eebc7cb48148902e92cf89b3229f8e269b8377dfc87260e8",
+      "assunto": "gestao_sms",
+      "subassunto": "edicoes_iso_do_edital"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0172",
+      "sha256": "fe42b6d4d77bfa6d19690600a68d017621560d35802768f3c205c4f0ffe0f743",
+      "assunto": "gestao_sms",
+      "subassunto": "responsabilidade_e_assessoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0173",
+      "sha256": "ffc1519e390517ae62f54f9d7b727f0d1f314b9c99cf6882905554c923deaf09",
+      "assunto": "gestao_sms",
+      "subassunto": "agregacao_de_requisitos_integrados"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0174",
+      "sha256": "6e62703240d940c88705abf8a58c987ae57b9baee4b07029ca7d2c07252eecc4",
+      "assunto": "gestao_sms",
+      "subassunto": "amostragem_por_risco_e_conclusao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0228",
+      "sha256": "29e8794910697a1f8c3d65c351d37e218639541ba9fd60c01e1886952530871c",
+      "assunto": "gestao_sms",
+      "subassunto": "objetivo_meta_e_acao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0229",
+      "sha256": "1214106506ea8bbf2c0f339fa642380c28acdc4df8fb6414395d985269835ebd",
+      "assunto": "gestao_sms",
+      "subassunto": "cobertura_de_capacitacao_por_pessoa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0230",
+      "sha256": "4e45b51f8723e20656b72a4dea150cfd9177767ae5362ba6174e8f0a288539e3",
+      "assunto": "gestao_sms",
+      "subassunto": "incentivos_e_reporte_de_desvios"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0285",
+      "sha256": "363aa88e02510aafc501ed161c38d9923fd1f406b4babf8084bc16339763f2c7",
+      "assunto": "gestao_sms",
+      "subassunto": "seguranca_de_processos_e_lesoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0286",
+      "sha256": "6d11b04c6f55cf2ad0226e3c0a1ebfbdeebbf94025521a4af0e57ebaccf58d4b",
+      "assunto": "gestao_sms",
+      "subassunto": "mudancas_cumulativas_e_linha_de_base"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0287",
+      "sha256": "4caa27aea67712a6f0f39be261862c685332320a39f2e0f8c55de1b937595fb7",
+      "assunto": "gestao_sms",
+      "subassunto": "concordancia_entre_avaliadores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0288",
+      "sha256": "f41e853340fbe7216d6a409afe88e54896156f340426c150da80ae487aa6be42",
+      "assunto": "gestao_sms",
+      "subassunto": "excecao_temporaria_e_renovacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0289",
+      "sha256": "c273bf3c6f5fb7ac2a6a8a2d5e1713a087b59020c5f9ff89145b7b28acb6162e",
+      "assunto": "gestao_sms",
+      "subassunto": "selecao_multicriterio_com_porta_obrigatoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0290",
+      "sha256": "fd95f67381671847193323831e2fcfe5e222142abb5dcf0f994719067fddb1de",
+      "assunto": "gestao_sms",
+      "subassunto": "acumulacao_sequencial_de_desvios"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0375",
+      "sha256": "fc53dcb40c591f1e37c576d477f0029f1eee5be319b79c5ffdc61bd7a9aa6285",
+      "assunto": "gestao_sms",
+      "subassunto": "segregacao_de_orcamentos_e_compromissos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0376",
+      "sha256": "30a8e1f2fb1ec6ae919ae35afb3fb8c52b7d9830996d1fa1a8e7d6d78e02ac48",
+      "assunto": "gestao_sms",
+      "subassunto": "indicador_de_estoque_e_fluxo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0377",
+      "sha256": "ef4263893de584bb34dcd26199b46586f9e15f8ecf6b6954be6f789fd33a337a",
+      "assunto": "gestao_sms",
+      "subassunto": "metrica_de_prazo_e_censura"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0378",
+      "sha256": "607d8810a7d522aac5f3fbcfbc9b7b8b1d883084a9c35e05ce4ac54e5ea9e221",
+      "assunto": "gestao_sms",
+      "subassunto": "reversibilidade_e_mudanca_de_versao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0379",
+      "sha256": "20104b126a752285cc5805534ba0cdb246575126a7dd4ffcd534189454a7c382",
+      "assunto": "gestao_sms",
+      "subassunto": "indicador_de_disponibilidade_e_demanda"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0380",
+      "sha256": "ad6fe65e58935782b680a3cb7f975fb3944a17a4488a91b3c5083cfa6a5984d7",
+      "assunto": "gestao_sms",
+      "subassunto": "janela_de_intervencao_e_caminho_critico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0381",
+      "sha256": "3ef79811a1349b5f68374694d3f7ff3e114eec94f59594ce5c6a59c72230fcb2",
+      "assunto": "gestao_sms",
+      "subassunto": "meta_local_e_alocacao_de_horas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0121",
+      "sha256": "c503c2d980700377855b00136f0af3f7e270087a65ecc0d33d9ab7042ef63c2e",
+      "assunto": "legislacao_nr",
+      "subassunto": "pgr_documentos_minimos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0122",
+      "sha256": "ab18443a6a36fe28eac36e0b2d900effb9105ed1dbf5a364a8feee9810ec1034",
+      "assunto": "legislacao_nr",
+      "subassunto": "cipa_escopo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0123",
+      "sha256": "b31e9f50a9afdda6f6df1f5444337fbc4ff38daec3c6ab9081ee49d54751593f",
+      "assunto": "legislacao_nr",
+      "subassunto": "sesmt_criterios_de_dimensionamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0124",
+      "sha256": "308e2a1e866163dc55f08b97d4d11e47124ebb3535ec75c62147b2ca8a58ccf5",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr09_objeto_atual"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0125",
+      "sha256": "67270988c3af7f557f6b3dba6e4a8fff39ec5557c9eaa4313f0d713038501019",
+      "assunto": "legislacao_nr",
+      "subassunto": "epi_responsabilidades_do_usuario"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0126",
+      "sha256": "891e4ff435a17b1f04bdd31f9f30e3f1942895bb43593a441be2b7945d24ef0d",
+      "assunto": "legislacao_nr",
+      "subassunto": "pcmso_finalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0127",
+      "sha256": "94da386e03cf9f6dfed60e1697b8b28e109dfb5cfc7025e12478514d27e7673a",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr10_vigencia_e_publicacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0128",
+      "sha256": "f4b87aa051e98612afabd232ff710905a42ec6d2548d6e2acb925f658e0d0295",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr12_ciclo_de_vida"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0129",
+      "sha256": "3c8c80cde93769dfaf703a260c153b08831e46e86f219069494f4faae98c122d",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr13_escopo_equipamentos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0130",
+      "sha256": "cd8c399d7549e4c2e64cdd594d0104489b57f259d8858b76a7d46d840dcb3096",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr20_transversalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0131",
+      "sha256": "c74adcfc5e5c1b8719d2ab0d5fe8ca2f920bc74d2a4f8527fbecd22e7377c6e6",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr35_autorizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0132",
+      "sha256": "f8882681249b518023e60ccd6670b02e737df836e93850d114259e92623cf736",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr35_atividade_nao_rotineira"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0133",
+      "sha256": "3fb55b4c34f5d4cea3bbea80dafbfdf55623bf1fae38759404344492ef702d07",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr17_organizacao_e_cognicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0134",
+      "sha256": "41ca08b78a0f7cd67c1a90da4e7527cc7fed447e535261d3819ccd78229d8128",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr26_e_controles"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0135",
+      "sha256": "2d17c86d6cff73e9dfbf0b4297f88bb32be8371ec2f6fec2faa8d26239aab819",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr11_operacao_de_materiais"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0136",
+      "sha256": "0ffcff67520b80297d1df4c309b72cef88ebda1906855dc88adef860e69d5b57",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr32_delimitacao_de_campo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0137",
+      "sha256": "44cc04f8f215529b94d12b3445c6c2760be879a38c2f167dab835804926fba15",
+      "assunto": "legislacao_nr",
+      "subassunto": "insalubridade_e_periculosidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0138",
+      "sha256": "cf2f55add712218f5e02451f705e37dd25b84e2bfe6f4913d23be696cf7e4529",
+      "assunto": "legislacao_nr",
+      "subassunto": "interfaces_portuaria_aquaviaria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0139",
+      "sha256": "2709896a9f8d670d517aebcabfb90e1840c3cddac14c44fa32b70a918f83b956",
+      "assunto": "legislacao_nr",
+      "subassunto": "construcao_naval_e_plataformas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0140",
+      "sha256": "7f6043a39bdef94dc97a0ab62850ba4f8aadd9079c13aecb4769a80179ba8cf5",
+      "assunto": "legislacao_nr",
+      "subassunto": "revogacao_e_atualizacao_documental"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0141",
+      "sha256": "9d6742ecdf9069773a2abf9bf8e87c756db3536a5b681adf8f1201ecddfa5dba",
+      "assunto": "legislacao_nr",
+      "subassunto": "integracao_pgr_pcmso_e_acoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0142",
+      "sha256": "a8c18490751ef03cb1f2c9a80ee973e03967522f0f6cb4f826407fbee664732e",
+      "assunto": "legislacao_nr",
+      "subassunto": "dispensa_pgr_e_registro_epi"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0143",
+      "sha256": "f11bbc91d8b3350f4a62f5af83cfd8bc7695cec1a4096787e0033f863f20bac2",
+      "assunto": "legislacao_nr",
+      "subassunto": "selecao_epi_e_participacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0144",
+      "sha256": "1809ee6dc76562faa2f5e187a0703e44470891ae50474c3d2f168e992b8f59e8",
+      "assunto": "legislacao_nr",
+      "subassunto": "pt_revalidacao_e_mudancas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0145",
+      "sha256": "56508fa4e63617b8502711c8ac175c1dcbf2bb46b29789d49028a9f060e5bbd4",
+      "assunto": "legislacao_nr",
+      "subassunto": "vigencias_simultaneas_nr01_nr10"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0146",
+      "sha256": "77c42efd78885ff04295b6b4f0c6e1ed2d66fc0d479286929a929ac5538f03f3",
+      "assunto": "legislacao_nr",
+      "subassunto": "esocial_finalidades_e_ausencia_de_afastamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0147",
+      "sha256": "16ea384f4e8adbc552c264ace5a2cb395facc041e6542de126cb79832d760455",
+      "assunto": "legislacao_nr",
+      "subassunto": "esocial_prazo_e_documentacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0148",
+      "sha256": "01ce15c5458c0f25076f70d7aebb8c3ceebc951f6bad5ac6ddad0914898192be",
+      "assunto": "legislacao_nr",
+      "subassunto": "iluminamento_vibracoes_e_saude"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0149",
+      "sha256": "264ac447c89fdf9c4ded1189120c4527cef50668c89082bf06b45e9a3d6d2f32",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr20_ead_limites_da_inferencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0150",
+      "sha256": "9f0319c36c9d472e40fa91ab33b39b55aa77dc266b17a27b50c3a0010107e58e",
+      "assunto": "legislacao_nr",
+      "subassunto": "metodo_tecnico_e_enquadramento_legal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0181",
+      "sha256": "46e5baab68d6e8f19787cd66cb9ba5aaa892e8a5b119c4be3e624066637fde36",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr18_recorte_setorial"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0182",
+      "sha256": "1137301e65ffa34d7e349ac65e7ba2696f6a73549dc7074544e5a260f7a91278",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr33_fonte_do_estudo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0183",
+      "sha256": "d6f52af216bfa0ba774e82cf293bacea21fb92878912a5c13de83d9194c9afca",
+      "assunto": "legislacao_nr",
+      "subassunto": "lei14063_objeto_geral"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0184",
+      "sha256": "e3891afd8156da9b8acdde4e5fe304250ca38a65b660211d00d9c5da42b47498",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr23_e_inflamaveis"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0185",
+      "sha256": "d6828984fff82ee0114afbe34eb013c998ca0aa6ebe8a76a76b4f5ba2df64290",
+      "assunto": "legislacao_nr",
+      "subassunto": "dispensa_me_epp_condicoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0186",
+      "sha256": "ad7ab6deb366629193e4b0afe472a563dd9347f4df23db96ca11eddedefa5978",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr35_treinamento_inicial"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0187",
+      "sha256": "a43dc79930e629c28b9f0364184a2f2b0c3022d5d5a55876d1f22035ad9a176e",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr12_anexo_xii"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0188",
+      "sha256": "8eff776a765ff25b1804a45d80e59f2c7668dbd45f5f0e70adf6a917df47e5de",
+      "assunto": "legislacao_nr",
+      "subassunto": "fontes_trabalhistas_e_previdenciarias"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0189",
+      "sha256": "a5c701e1016c0c44fd8908d3ed9a804a92ef2e2c95a1670a5ebbe22bb2fa0bae",
+      "assunto": "legislacao_nr",
+      "subassunto": "finalidade_de_uso_epi"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0190",
+      "sha256": "103bde9af49c24b67f596d2d5ed3157c48476b17fbb5f9805a53e9fb524f632c",
+      "assunto": "legislacao_nr",
+      "subassunto": "interfaces_obra_espaco_e_incendio"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0191",
+      "sha256": "aa4130554fe3ad9153b8196ed2917dfb9ab53e0fc081cda43687f21599d5c6a9",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr35_periodico_intervalo_e_carga"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0192",
+      "sha256": "241a7c1eea0dd015f6c6376354725329cbd391931d3e455ac49c0cfdf437c2ab",
+      "assunto": "legislacao_nr",
+      "subassunto": "evitar_altura_e_condicao_de_spc"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0193",
+      "sha256": "59db7d244d708e60b05901c23b6121c85d660bbbe868802e6ca00d0a3bdc3d1d",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr17_sobrecarga_e_medidas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0194",
+      "sha256": "8c81a952113a211ed4c488e54f982f42cfa9adbc8fe521648b09980475f4054a",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr18_e_equipamentos_especiais"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0255",
+      "sha256": "ed1bc10bfbeace7f8c5f9e23e01cbbb921aaf12db1c86c7caff3cbc5a43b2cd3",
+      "assunto": "legislacao_nr",
+      "subassunto": "plano_de_acao_e_manutencao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0256",
+      "sha256": "3ca2d5b84d20da7789c6dd4b8cc839dd8327c1e4a6b3eb479944eaba92ab7e36",
+      "assunto": "legislacao_nr",
+      "subassunto": "epi_importado_e_ca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0257",
+      "sha256": "e491fb617cc23eb394050700c8816236694a51f80d679970955ea7373388ff49",
+      "assunto": "legislacao_nr",
+      "subassunto": "cipa_prevencao_de_doencas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0258",
+      "sha256": "b6274d2cbde54e7514b937d01881ca1fee7f2879e1af1020efaab1449a309a9f",
+      "assunto": "legislacao_nr",
+      "subassunto": "deveres_distintos_no_uso_epi"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0259",
+      "sha256": "8e7c7b4e8ed4f393a9e8c20904e97f3794c7479f90bd7e783854494e80db837f",
+      "assunto": "legislacao_nr",
+      "subassunto": "exames_obrigatorios_e_sintomas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0260",
+      "sha256": "627caaf290ab07b29970fd76cc7df353b4980ff363734a2e3be7b53378447a73",
+      "assunto": "legislacao_nr",
+      "subassunto": "analise_rotineira_e_autorizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0261",
+      "sha256": "7c7f3a1d29714a5def6146b486c10d400d70e0b0d05d995367c1e2624ca6b292",
+      "assunto": "legislacao_nr",
+      "subassunto": "nr17_direcao_da_adaptacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0262",
+      "sha256": "efe37dfdee9b69bbbb98a18ddb2766d7f91db76e303c2387ee8fc37c3dd89bb0",
+      "assunto": "legislacao_nr",
+      "subassunto": "gro_e_recorte_da_higiene"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0263",
+      "sha256": "a2e9f060f85a8cc23b10d76a99cf5b9fee189ca512894c2f9440b3f566ea28eb",
+      "assunto": "legislacao_nr",
+      "subassunto": "responsabilidades_e_autorizacao_em_altura"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0264",
+      "sha256": "9a28575595be8800ea1a3d49dbd341d2a7d251616962d9e1d6dbe496e72bcc52",
+      "assunto": "legislacao_nr",
+      "subassunto": "precedencia_edicao_vigencia_e_politica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0323",
+      "sha256": "14e240b5c26f4ac087790877b574b56431d6617ddfa8abecec8c5620abe4cca7",
+      "assunto": "legislacao_nr",
+      "subassunto": "avaliar_exposicao_e_controlar"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0324",
+      "sha256": "3ca75ad860c10a0aca6d4a07fc20a41d5981e11e692918e7ca1e3e2b4b31fe4c",
+      "assunto": "legislacao_nr",
+      "subassunto": "vinculo_entre_produto_e_documento_ca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0325",
+      "sha256": "7b23746f99401873f49cb0c7a971126411c2b64038bd7b72bf6d07497d9760e9",
+      "assunto": "legislacao_nr",
+      "subassunto": "escopo_da_autorizacao_funcional"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0326",
+      "sha256": "f37a35c92645f88573e26049aa3b6971ec15acdc44331b99db572f90213ed8e0",
+      "assunto": "legislacao_nr",
+      "subassunto": "escopo_do_edital_e_modulo_esocial"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0327",
+      "sha256": "b95ca0aefc1f4e583c39dfbe216c1788e308f9a35d6d7fd0ab05d2d166f92feb",
+      "assunto": "legislacao_nr",
+      "subassunto": "declaracao_e_evidencia_de_dispensa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0328",
+      "sha256": "cf06d65d05aa0e1d6839f165dddf5f6f58faf27dac702178eb423c0668eb3ffd",
+      "assunto": "legislacao_nr",
+      "subassunto": "participacao_na_selecao_nao_e_votacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0329",
+      "sha256": "751c341baa2d12cd79c032ac23d35758d9f58c1b91716d8fd3b045e76a3ed263",
+      "assunto": "legislacao_nr",
+      "subassunto": "rastreabilidade_bitemporal_de_avaliacoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0330",
+      "sha256": "2563ad96a0cd76178f0769c45aa9b1c352df1f34ef67f2471bb07662ec1218ee",
+      "assunto": "legislacao_nr",
+      "subassunto": "tipagem_de_evidencias_no_ciclo_de_maquinas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0331",
+      "sha256": "0961190ce457797e138e0b8bb0a45a05d7da1480e59c2a7eeb380e0af6c06436",
+      "assunto": "legislacao_nr",
+      "subassunto": "equipamento_e_identidade_no_prontuario"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0332",
+      "sha256": "19d96ac14418354e9a4ef847ad5ecb38b8b5c17d6f200402dfc045a0cdb7c337",
+      "assunto": "legislacao_nr",
+      "subassunto": "matriz_de_criterios_e_compatibilidade_de_fontes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0333",
+      "sha256": "fc5f9b1ee65a07e328d0483c6d2201e95f680488ac88630b580466a267348744",
+      "assunto": "legislacao_nr",
+      "subassunto": "medidas_ergonomicas_e_restricao_conjunta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0334",
+      "sha256": "fcce6240402e21113cc47447fa056ca99dce32ee755940893fa42190f639d96c",
+      "assunto": "legislacao_nr",
+      "subassunto": "fronteira_entre_obras_e_manutencao_no_cadastro"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0335",
+      "sha256": "63e93ad9be44f65cdb177e566aefe6b9f340d70c348f11f2f7d3831be2ec3bf4",
+      "assunto": "legislacao_nr",
+      "subassunto": "capacitacao_e_identificacao_da_modalidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0336",
+      "sha256": "ef456382ccfa703c1afa448981d3b4070b0070217ac6920287051a21c11aa281",
+      "assunto": "legislacao_nr",
+      "subassunto": "autorizacao_e_designacao_com_restricoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0337",
+      "sha256": "9768bc9f3732631d36948fc70ad2f4b04190c9c6dcf4ea7cd5288414a3530a19",
+      "assunto": "legislacao_nr",
+      "subassunto": "dependencias_documentais_de_riscos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0338",
+      "sha256": "80d4109e176c52f722ccb122fc4be8b8bdb07ea71295afd3a6de5ad768ddf4bc",
+      "assunto": "legislacao_nr",
+      "subassunto": "capacitacao_inicial_e_disponibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0339",
+      "sha256": "6b829c64e071267c029732bd7b4bf96154155c86a106a8fa04e0cb7da1d106fd",
+      "assunto": "legislacao_nr",
+      "subassunto": "coexistencia_de_fatos_e_eventos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0340",
+      "sha256": "cbbf400e8af6a6ae000096d4751b0f2ed756ed9ea1d975305ea301fa59590406",
+      "assunto": "legislacao_nr",
+      "subassunto": "interfaces_normativas_e_precedencias"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0341",
+      "sha256": "a22dde1a2b7342e9b8e7dc7c31e373fbabe790a25f3af95c2c768b66ab8829a8",
+      "assunto": "legislacao_nr",
+      "subassunto": "custeio_pcmso_e_proposta_elegivel"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0342",
+      "sha256": "01f9a89305429b62e34e432cd34c26c969827e334e7e01b851226befc9376d18",
+      "assunto": "legislacao_nr",
+      "subassunto": "selecoes_de_epi_com_restricoes_conjuntas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0013",
+      "sha256": "104fa7e1b26ce762de1ceee7899a44c67b6a548a4252147cf88c632056923387",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_volume"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0014",
+      "sha256": "5c221564baa62d62a103d90efa96db817d4dc4b8e40ba8779cffe41bafea717c",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "branco_analitico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0015",
+      "sha256": "11a85a98c713495086d934215aacbd3c32ed2fd3a3d4a202171472b5a96174fa",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "media_temporal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0016",
+      "sha256": "9821d9c9c8307653a460ddcc898bb440fcb6cc5e0bc870ce39e890445e67dab9",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_soma_energetica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0017",
+      "sha256": "87ad04c7bd5ca5b5697f876779a48a4d90db98b0bdfea9b7c2affc8ae2ca0721",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ventilacao_balanco_massa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0018",
+      "sha256": "fcc37e58c4a0b3211d5cffcd539eea5c12c0c525c5314336d085a965abf799cc",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "fracionamento_aerodispersoides"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0019",
+      "sha256": "5513b152f58f0d03c72744a361f886b3ceda1b68430682f5484074ee2d0158d0",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "picos_exposicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0020",
+      "sha256": "3e017cbb6f90c6ef8de4a2e3199926bee2dce7a24238fd72dece3a5253609222",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "incerteza_medicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0021",
+      "sha256": "d9dc45f7e848ef5d9692a836d530d325391faf3d7f195b86851358f23ed641a8",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "protecao_respiratoria_diagnostico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0022",
+      "sha256": "6c40b1049d1efceb05e63c7262662e3c4c52ee1aae6c65d6abfc033ce00e0ce7",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "estrategia_amostragem"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0023",
+      "sha256": "9255d3ab869a528d2a2cfc05d38610fd2c938c3e2c73fcedc4937c9f4180f0c5",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calibracao_deriva_vazao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0024",
+      "sha256": "1a5256c9c805162e382f8531347b31078282d5bed44501fb11c9a67753bdc3e1",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "mistura_concentracoes_fluxos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0025",
+      "sha256": "3a5ae7baf77578422cc601468fd10cbefddbf4d2ffb816e8d10d35e515c07c43",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ruido_reducao_energia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0026",
+      "sha256": "845ad3de35ff468e32e01bbc9e60932f90f758406939068e05852e1ed73b6606",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "valores_abaixo_quantificacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0027",
+      "sha256": "87f45c834ab7e0506d5f6b2450170bb0fa946f01dcc0e6b5c0ef2968726c18f7",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calor_balanco_termico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0028",
+      "sha256": "5942aa5d7cf17c3785d8730e60f809e3d03cdf3870d8abc83e6a167f3827ac01",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "radiacao_distancia_tempo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0151",
+      "sha256": "75c8b3958732d2e2f7f479ae1856462928518e4175e238353831c289d1af3921",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "seletividade_de_sensores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0152",
+      "sha256": "b15e73d5fe4e4b8f0084b73b575afb6731dd3d691a9d8e8407e2638a97d5ac99",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "metodo_vibracao_corpo_inteiro"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0153",
+      "sha256": "f3dbf628beb9af2da5526c293e95afceeffcd3241da97f756b61187a79d156c6",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "interferencia_cruzada"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0154",
+      "sha256": "10730efe9e3a4fd61ff6c00b79fc2b48e9b34e1ae0170fbf850113457abe8f86",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "vias_de_absorcao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0155",
+      "sha256": "8831cfa2d2912ba00d94af42bb3ddf13a2a32a2c30e90e9d0f0406ec36f4dc89",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_e_breakthrough"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0156",
+      "sha256": "364fd9343e0b075615accf23379cc75754b05096518a61858af826fcf2f812ae",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "conversao_ppm_massa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0157",
+      "sha256": "46dfe81d5b4b923190a023527ab90ec1bdabd6c98a2a5ee0025b3ffec0d139a6",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "espectro_sonoro_e_controle"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0158",
+      "sha256": "74fd7abdc6e88c0f40e48ed70b5a7caabee88f815b3bc5780c63c9de256cb00e",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "deteccao_biologica_e_viabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0209",
+      "sha256": "c626967979d4d3a5590ca1566817e4a77390380d16da5917c1fe8bbfac9a8546",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "deteccao_e_quantificacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0210",
+      "sha256": "372a6b0985a7f5914e25afc16616c1642a943c484b161cbde8c475c2c585e2be",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "branco_de_transporte"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0211",
+      "sha256": "54ccc06f71b47374f73ffab66342a1f1962e5498a1b88eea6d19d3c6769e4b91",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calibracao_ajuste_e_rastreabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0212",
+      "sha256": "b048350628c3a380c4db2640a8251068e7c23460c47ed3a414c5245ccd3f44ca",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "perda_em_paredes_do_sistema"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0213",
+      "sha256": "d1e4fc66897ecea7882b2bd8e529a9632594db84c7419160d7ededd0d9692dae",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_bomba_e_contrapressao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0214",
+      "sha256": "914514fae602debe7fbbab8a467d37cb89ab6cabf4c7f4e1840bc97fa7557740",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "resistencia_termica_em_serie"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0215",
+      "sha256": "32b0b873689463e3751a198624af6a01e1f87b6d679a46edb975648a718aaa00",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "desinfeccao_e_residuo_quimico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0216",
+      "sha256": "e481caa6657fe06f3ee510137572c8a2a83d1cb991406199b084f04ddfb7d38b",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "covariancia_em_diferenca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0217",
+      "sha256": "9b6bc080e6b92807eb6e772c9d3394c149dc3068952effb7e400ac38db6a34f9",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "percentil_e_criterio_interno"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0218",
+      "sha256": "5a2d363937e4048cd744cfc857516021a5e5f1cf333894e41a3072d8d08ca682",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "saturacao_e_diluicao_instrumental"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0219",
+      "sha256": "dca240f2331c722307b2932c0bc61cdce0c0c461e52707fa7d8150c276995636",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "ensaio_cruzado_e_carryover"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0265",
+      "sha256": "aa108f1b18ecfa6a45505e54d9a95aad4d1c645622fda1169f0cd3b7d6299a31",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "contagem_e_massa_de_particulas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0266",
+      "sha256": "a7b01c2c5be5f386b85b7cabf108241b8fb887697aecf2a615b909d1ffdd17e6",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "dose_e_taxa_de_dose"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0267",
+      "sha256": "3a59015f88763c618b27fa3c2b2249ebf9d19b70a6daf0d96073c10b4d2e3524",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "temperatura_do_ar_e_radiacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0268",
+      "sha256": "dcd9c3f5fe760f537f8f857a12c224012f909bddf240cc45c4067e7b60925f0f",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "matriz_superficial_e_aerea"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0269",
+      "sha256": "98f150969da42c3e124ede13d3e86bf46fc40a670332ced78b9034beb5dfd1f9",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "condicionamento_gravimetrico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0270",
+      "sha256": "39ad0bc67d82603048607194f99f284c8a0ce251eceba626503fe2ad63d75c05",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "indice_vetorial_ponderado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0271",
+      "sha256": "f7fec16d8b80eae60cee12e690520c9251dda901f5f9cf84f4cf66f21362d752",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "trajeto_de_pluma_e_zona_respiratoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0272",
+      "sha256": "4418b70e92df033ab1c985b6a9b293f5a4d766f8169a4134972b13a03dac5b86",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "replicacao_agrupada_e_informacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0273",
+      "sha256": "8e7b440ef5dbe0b7dc7ba6a403699c2b06f508e1eb6cab3036a7b6ef89d76e3a",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "resposta_cruzada_de_dois_agentes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0274",
+      "sha256": "4313488521eef737493bf8b0f50fea0f616f8d7d773779682f5f17b69e9e6d1b",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "calibracao_logaritmica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0275",
+      "sha256": "cb9b1d2562740ba282a89e7e8bffc13fa2d1adb8d3449d4a14375fa1c87854c6",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "alias_temporal_em_amostragem"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0343",
+      "sha256": "7c3931963325643f44373907af7ff75e7e42e761596983cd56bbe73a4d883ef5",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "compartimentos_e_exposicao_acumulada"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0344",
+      "sha256": "aa4f7dac5b16fcd715c6da08e62110358ee1509bf8f82f8d9d2e73da3fd40cf4",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "fracao_molar_e_pressao_parcial"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0345",
+      "sha256": "ebd0b2cc48b591bc0469b4ad716e34b74c2979286f2bea97c6e6f3ef451f17ae",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "limite_inferior_de_deteccao_e_decisao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0346",
+      "sha256": "fc206d6767d24863a262f9a3192058d2f264846708961271b5af6131fbe67719",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "recuperacao_analitica_e_massa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0347",
+      "sha256": "ff284edc5199e7e6cf11eb8d0275f84d07760dc892a0ed2c7f7fc6d98d79671e",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "potencia_sonora_e_area"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0348",
+      "sha256": "c1182478ed453084902d35756d4bc62922ee9b88f19d389df754d37d0d80b3c6",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "troca_de_filtros_e_vazamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0349",
+      "sha256": "c743d2b2ede53c4888cc7019a777e695e92070366fb2841df2318aa6629c1f4f",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "vazao_real_e_vazao_padrao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0350",
+      "sha256": "7d55742ec5bb0bb801c2bd3ebc704c7dbb57a4072ad70904b5a58d438fd4e662",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "mistura_bem_agitada_e_pulso"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0351",
+      "sha256": "4f702fa42864cc69fd10768e4c4d3a6da448d5ed87889aa3d0bdc1b61a1875cd",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "amostragem_por_tarefa_e_contribuicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0352",
+      "sha256": "9853a8bf3ca319a7d5a756848a6df59f5fdb8a87f85a12ae2e87d9a98ccaa25d",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "resolucao_e_repetibilidade_de_medicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0353",
+      "sha256": "50bef8dfecd34843724d9d8ec2ad45362cb20b71d25cd01c12c6199f215983a5",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "resposta_media_movel"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0354",
+      "sha256": "3a03628d0b935c323ccca348c2cb7c1f570b43a615f1fadc58c773b438096ad0",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "emissao_variavel_e_balanco_transiente"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0355",
+      "sha256": "df006d152209e7801fe904eaeb5ca9cbb808dbfaaed78fcc6f8eb8ea6f2374cc",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "diluir_para_escala_e_corrigir_interferente"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0356",
+      "sha256": "f3ed04fb13d1c340fb4140b382f1af6961a2ac0e45928e98a215abd8bce48230",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "media_ponderada_por_inclusao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0357",
+      "sha256": "5b58febc958b903e10e8168d9de0a7ebd4c78aa8d23f83cd77490cbaff64cab7",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "filtro_em_serie_com_fuga_local"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0358",
+      "sha256": "be31c8db3f5a2db20de430b8efb724659be7694d575c994fcd3c7e3cc79ea06e",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "tempo_de_purga_com_fundo_na_reposicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0359",
+      "sha256": "3fd15775bb7e936aef1c4bffa21be1461f751ce79ffc19082d33894f3cf1a01c",
+      "assunto": "higiene_ocupacional",
+      "subassunto": "incerteza_correlacionada_de_dois_canais"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0001",
+      "sha256": "1a7d7c6a70a55b5dd9354265fea72b7885b8ecb82bb43d43068712621e74bab1",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_armazenada"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0002",
+      "sha256": "f6648689322d21ca0a8d0f61b5f5faac798baf35c8dbe906b70f0699b8fecf64",
+      "assunto": "prevencao_riscos",
+      "subassunto": "hierarquia_controles"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0003",
+      "sha256": "bf8beb96803bae7f157ca096c2fb9df5e7ffe6353fd6dab2283ad0a44d3664ae",
+      "assunto": "prevencao_riscos",
+      "subassunto": "movimentacao_cargas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0004",
+      "sha256": "0305561fc5a80698bd3d26c023f78ed8e0dfc69e60e497c65a827e399dd056e5",
+      "assunto": "prevencao_riscos",
+      "subassunto": "energia_mecanica_bloqueio"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0005",
+      "sha256": "d87ad62abea49f48fcd4dfc86818d57812e8fa120480ba4a607ba1e8dcaae86f",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ventilacao_espaco_confinado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0006",
+      "sha256": "4e99dea99312f5f4630746e12b8f4d06a8f459e5b765888e087d02b37e49fcbb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "intertravamento_maquinas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0007",
+      "sha256": "c0b9a94f7bee920312734b4174c6ad747257d9424094e425f6f0a60f68a9376c",
+      "assunto": "prevencao_riscos",
+      "subassunto": "produtos_perigosos_compatibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0008",
+      "sha256": "523ba6ed6a0ba51224c501f6693f537c2f0ebe8d384da0eee392643685df2734",
+      "assunto": "prevencao_riscos",
+      "subassunto": "trabalhos_a_quente_fontes_ignicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0009",
+      "sha256": "f42cc5dfd93bd46d6cb460fe9a6cfbc6ed2047307e2d75078ef5267efc96f083",
+      "assunto": "prevencao_riscos",
+      "subassunto": "pressao_forca_geometria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0010",
+      "sha256": "2476c2156368963c414114fded3b41f8bf6acd6818f27182ebf873b016a4254e",
+      "assunto": "prevencao_riscos",
+      "subassunto": "estabilidade_tombamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0011",
+      "sha256": "b6c5ab0358844e2ff50f30b97746415389459c290770d2ffe9f31f662cac1f06",
+      "assunto": "prevencao_riscos",
+      "subassunto": "falha_causa_comum_barreiras"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0012",
+      "sha256": "ad9411ef95d17a9439354732882ea283d19c532dfd692df006e86552f5d68d62",
+      "assunto": "prevencao_riscos",
+      "subassunto": "mudanca_operacional_multiplos_riscos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0061",
+      "sha256": "0ffd3db2d80f661e1b028fe0e9a1e2de6203949512a839c106ea977cbbff334f",
+      "assunto": "prevencao_riscos",
+      "subassunto": "equipotencializacao_cargas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0062",
+      "sha256": "fd3d1aafbb5035033620062df890cd54159daca6a511cf56775b778b83bdf582",
+      "assunto": "prevencao_riscos",
+      "subassunto": "escavacao_sobrecarga_entorno"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0159",
+      "sha256": "3ab30c1aaca00d665afd9aec426e458707b5059710b69a79167315e88d989e88",
+      "assunto": "prevencao_riscos",
+      "subassunto": "expansao_termica_bloqueada"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0160",
+      "sha256": "7d811ffd71832f227d5959f96286f5f36a32c309755997fbbeea2a5fadf402d9",
+      "assunto": "prevencao_riscos",
+      "subassunto": "jato_sob_pressao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0161",
+      "sha256": "e291e9c097f32aa2fb8544f98ff19336559069b3c178b721f6fbee456d6817ed",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ferramenta_e_velocidade_admissivel"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0162",
+      "sha256": "cbec4a76b24695acf396d4288c3d7d5c2f44af71b7743b7c1ef8f522865c0d58",
+      "assunto": "prevencao_riscos",
+      "subassunto": "trabalho_simultaneo_e_admissao_de_ar"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0163",
+      "sha256": "16671f385f26c9b6ed172503c64e0cdd8ed4ba1bc9467c8eab430f96409184d2",
+      "assunto": "prevencao_riscos",
+      "subassunto": "transiente_e_celeridade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0164",
+      "sha256": "01642588d28dbd44a20cdb323c04b6c162d33106e304b49f0e1dd8b4b586a2f1",
+      "assunto": "prevencao_riscos",
+      "subassunto": "caminhos_de_reacao_em_teste"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0195",
+      "sha256": "9f2566bd4eca3580985f90283258baa36f46bc8a3c4969fc9f63db92e828f79e",
+      "assunto": "prevencao_riscos",
+      "subassunto": "inertizacao_e_risco_humano"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0196",
+      "sha256": "b2e6aabb7b098df8217083e4ca41d74ee5f27fe8c06541888a36b8d2666ac2be",
+      "assunto": "prevencao_riscos",
+      "subassunto": "gravidade_e_imobilizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0197",
+      "sha256": "236498d15b7dd6261a91c0de7987f18a69a7ffa30e9928c5d5ade1622000e444",
+      "assunto": "prevencao_riscos",
+      "subassunto": "retencao_e_isolamento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0198",
+      "sha256": "569d7d43317849aae4aa032e275dcb3deb5ee127606109005c5f0a800da0ff09",
+      "assunto": "prevencao_riscos",
+      "subassunto": "inducao_eletrica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0199",
+      "sha256": "54923715297c3e6c915af6dd89bc31f8e5c6b28bf99d63335a1db315845c9ddb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "bomba_e_aquecimento_sem_vazao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0200",
+      "sha256": "7d684b17ec96589789fb035978e4b4db51d8f7e7bb4349c83e87ac7b8ace22fb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "junta_aparafusada_e_temperatura"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0201",
+      "sha256": "f1da7a03f5654d3f7b7a9fe6aec1bd451182f51f8e8a4a884a4ed214a47e2a55",
+      "assunto": "prevencao_riscos",
+      "subassunto": "pressao_sobre_solo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0202",
+      "sha256": "77efebdc80a6165feda5e756e023b93bd7381009243f56bb902dc1f025f82630",
+      "assunto": "prevencao_riscos",
+      "subassunto": "mangueira_pressurizada_e_trajetoria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0203",
+      "sha256": "d6941884e173ad0e616bf47a7403682c0f62a676b47abfc5a714cf2155ca8a7c",
+      "assunto": "prevencao_riscos",
+      "subassunto": "revestimento_e_trabalho_a_quente"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0204",
+      "sha256": "abd385eeec247efb95f2087625e93b01765bf8ee25ce680e27242e2683c84957",
+      "assunto": "prevencao_riscos",
+      "subassunto": "distancia_de_parada_ideal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0205",
+      "sha256": "782b32cf299b3a60801fc1fcc919a24902fd36663aef39f838102f73cb6ce802",
+      "assunto": "prevencao_riscos",
+      "subassunto": "eslingas_angulo_e_tracao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0206",
+      "sha256": "4cda7737d132aed7872c371f781f296bfd83355cf7d2e975f1edc97dcd021315",
+      "assunto": "prevencao_riscos",
+      "subassunto": "folga_para_retencao_de_queda"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0207",
+      "sha256": "f401872875d7c00ac1ce969c74b8a0efbd339a4c30f3dfdc81ceb32bbac7736f",
+      "assunto": "prevencao_riscos",
+      "subassunto": "decaimento_rc_e_tempo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0208",
+      "sha256": "179974cf62d1730ad1dcf22b96adeadc282a154dd7e57c2d416967db73fec138",
+      "assunto": "prevencao_riscos",
+      "subassunto": "compatibilidade_de_frentes_simultaneas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0241",
+      "sha256": "e15e308377dc433b08314546a802ccd17aab0eb15cd6ed8461ae431aeb3c3ce8",
+      "assunto": "prevencao_riscos",
+      "subassunto": "corrosao_galvanica_e_circuito"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0242",
+      "sha256": "aa45aaed288afb1793d8dc2a76244d2053b089b73879aca4b51026dc5ff80aea",
+      "assunto": "prevencao_riscos",
+      "subassunto": "instabilidade_e_resistencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0243",
+      "sha256": "e80fb60332788812b615d398d42d09c79f31f603b6669d0ce68a01cfcf5012a1",
+      "assunto": "prevencao_riscos",
+      "subassunto": "condensacao_e_vacuo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0244",
+      "sha256": "33907fa622b15014b29e554a6946ffa365d51bed9eb555307280562ad01bfd51",
+      "assunto": "prevencao_riscos",
+      "subassunto": "reflexao_especular_em_laser"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0245",
+      "sha256": "0e573376e74e4abfe883570bbe2950463640d25d9d88090cdd59880cc58f6791",
+      "assunto": "prevencao_riscos",
+      "subassunto": "baixa_temperatura_e_tenacidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0246",
+      "sha256": "531b9a004ad57ac4cb9f131188c3a2cac3ad6dae025cec2e20af768fd361925c",
+      "assunto": "prevencao_riscos",
+      "subassunto": "carga_eletrostatica_em_fluido"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0247",
+      "sha256": "b2c29f84e931ccd9e692a97255ca7f171d2bb19e918c0cb1ee6ac52e216c55b8",
+      "assunto": "prevencao_riscos",
+      "subassunto": "retorno_de_energia_e_repartida"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0248",
+      "sha256": "ff247e120bde3b68445230b29d19abe144e1c6c30d21a6973694e401ee6a04e0",
+      "assunto": "prevencao_riscos",
+      "subassunto": "compatibilidade_quimica_de_vedacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0249",
+      "sha256": "59456ce5d4ab21e8e5c5d4bd1ed5aaa4c05bac7a25bdf723df02fd12e47c6a6a",
+      "assunto": "prevencao_riscos",
+      "subassunto": "gas_ideal_pressao_absoluta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0250",
+      "sha256": "c7d43ed29b1a6ef7540483ddc5693f1c7e7549180472fe2eaa4676f34146f0e3",
+      "assunto": "prevencao_riscos",
+      "subassunto": "cavitacao_e_npsh"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0251",
+      "sha256": "4abd357f6b457285d7e3796bc6d9c120707f9014e7488443480a23a2aa88d4c9",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ressonancia_e_mudanca_conjunta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0252",
+      "sha256": "446c30321efdf52bff3033652fd46a7b228e2536c8dda13351d0dbd7fbb84825",
+      "assunto": "prevencao_riscos",
+      "subassunto": "localizacao_acustica_por_diferenca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0253",
+      "sha256": "6457c71245135bea42ba9fb8ecde131cebbd777518d4ba13e5e5a3b97c98e6e1",
+      "assunto": "prevencao_riscos",
+      "subassunto": "tensoes_em_parede_fina"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0254",
+      "sha256": "2030bfa5ee0ad81b1151f446da22f1bce4b1975056075d63a85abdc51983aa51",
+      "assunto": "prevencao_riscos",
+      "subassunto": "dano_acumulado_de_fadiga"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0301",
+      "sha256": "87a8e473cb4ef9acf8bb50b6eed2d08a1fbbf10d2c9b739ba555246283ca34a3",
+      "assunto": "prevencao_riscos",
+      "subassunto": "choque_termico_e_gradiente"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0302",
+      "sha256": "406b7fe09210a07dd7addd3c37ea2fdfa26c7bf00d9e19a6c526da5dabc6e97a",
+      "assunto": "prevencao_riscos",
+      "subassunto": "atrito_estatico_e_limite"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0303",
+      "sha256": "b612560b05b3f76e60df807e21ffc9ce19d068e48e4c45b7554da1c2a9fde2cc",
+      "assunto": "prevencao_riscos",
+      "subassunto": "compressibilidade_e_energia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0304",
+      "sha256": "4dac237602e0c0038c48c5fe7913336a7c898124127d4aef46dffaa8a9960955",
+      "assunto": "prevencao_riscos",
+      "subassunto": "alcance_real_e_protecao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0305",
+      "sha256": "19c0ac164c15855ef3cda6d7e12bce72fe8579fb165dc5f6fd55807d0c51b4a6",
+      "assunto": "prevencao_riscos",
+      "subassunto": "poligono_de_apoio"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0306",
+      "sha256": "eeadd0f7a401e62b60364c2b86ff066ec3a4a04fa5b32420da35090f8676a60d",
+      "assunto": "prevencao_riscos",
+      "subassunto": "impulso_com_rebote"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0307",
+      "sha256": "0de9630a6c9baf1a6d50e3769d740a77e4eabace927e853ead642c028cf9d1fb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "compressao_excentrica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0308",
+      "sha256": "02b6c2c476e4e699fe946be99912eac80a481f0373982ae717c41fb29950ffd2",
+      "assunto": "prevencao_riscos",
+      "subassunto": "liberacao_de_acesso_e_movimento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0309",
+      "sha256": "2a5bd7e5f96a5065e430a29c80c6ef487b88cd55e2b81778f24c134ab91611e6",
+      "assunto": "prevencao_riscos",
+      "subassunto": "reacao_interna_em_bateria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0310",
+      "sha256": "64ef853efa8df9c43280a805cca263388e3f1a75422c599eeb494ef2e87707fb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "tomada_de_pressao_obstruida"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0311",
+      "sha256": "3e454aee81f93eb76d6bdf42c7c658b19a81071c83433d67350c3d0ec231a925",
+      "assunto": "prevencao_riscos",
+      "subassunto": "ponto_quente_e_protecao_termica"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0312",
+      "sha256": "317dc748e440a10fd8cf72915566c75626f9e0b17bc77d31361523655660f9ec",
+      "assunto": "prevencao_riscos",
+      "subassunto": "extensor_de_torquimetro"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0313",
+      "sha256": "8837b4f246ca2a9f3aee380a3e0b0d146204ced35218e5dfda4545589476137f",
+      "assunto": "prevencao_riscos",
+      "subassunto": "taxa_de_corrosao_e_tempo_calendario"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0314",
+      "sha256": "a13ff8dd4e49839765063ee0f5a57643c958a16c9cd123cb36fa5a98b4cd33c5",
+      "assunto": "prevencao_riscos",
+      "subassunto": "histerese_e_memoria_de_estado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0315",
+      "sha256": "50fd46c9a68a530b507292e328c97fb9c8f31b291ada4be3c40752dd2f4efe75",
+      "assunto": "prevencao_riscos",
+      "subassunto": "expansao_e_folga_axial"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0316",
+      "sha256": "7d99bc9bb4e73b71533a03017aaeff94245ed612a96a6a310fc448afc7648687",
+      "assunto": "prevencao_riscos",
+      "subassunto": "tensao_e_reacao_apos_folga"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0317",
+      "sha256": "58fd9483b2d9f3266d0e3f15821c615713528c2e2282e4ffd7473c33a088f1bb",
+      "assunto": "prevencao_riscos",
+      "subassunto": "transmissao_rotacao_torque"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0318",
+      "sha256": "b77cfbe53900facbe7b93e3859f8414c7003c658c0ce83c9ce377ca92aa1a432",
+      "assunto": "prevencao_riscos",
+      "subassunto": "reacao_de_jato_reverso"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0319",
+      "sha256": "ec7d5e1577f0643a5a2175716f1c003b90dfa2cce48d09e916007761ce510e93",
+      "assunto": "prevencao_riscos",
+      "subassunto": "balanco_termico_transiente_de_processo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0320",
+      "sha256": "7db497dce3a36e437fb38ff5bb59e8e2ed910fb3cacc1c01ac4f0d1e24d06ee6",
+      "assunto": "prevencao_riscos",
+      "subassunto": "espessura_ultrassom_com_atraso_e_angulo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0321",
+      "sha256": "3fbec9713b1e4f90c63800af315eaee0b1b73ede406943fd8d075802eb4ca0ae",
+      "assunto": "prevencao_riscos",
+      "subassunto": "isolamento_e_raio_critico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0322",
+      "sha256": "eaea46a8fe58822ca57ed5d0bbd9f7a05078437d8270dcae96fb78ecb603ea1e",
+      "assunto": "prevencao_riscos",
+      "subassunto": "circuito_de_falta_e_tensao_de_massa"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0053",
+      "sha256": "a2fbb667700fa469dfa31f06670c297123276a4f76078e494581762246871abd",
+      "assunto": "incendio",
+      "subassunto": "mecanismos_extincao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0054",
+      "sha256": "6bda8db98fd81cdb79db604db0c389923b7b5cf969d090f755a789e31b84d61a",
+      "assunto": "incendio",
+      "subassunto": "selecao_agente_compatibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0093",
+      "sha256": "98214d338cb259eb08d05ad33e003c07c06a3ed357afd5c92dd4e0b62a098b75",
+      "assunto": "incendio",
+      "subassunto": "transferencia_calor_radiacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0094",
+      "sha256": "e25f5bc424fe987863ffcd5e66fe2a653148affe682bd8d0e69fd479f8e1d42c",
+      "assunto": "incendio",
+      "subassunto": "mistura_rica_diluicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0095",
+      "sha256": "3bcae9438e44701c692373f28d8981dd473deaf1f1a3a974bf199a10c0b419b6",
+      "assunto": "incendio",
+      "subassunto": "pressao_residual_perdas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0096",
+      "sha256": "f241a723eb582b1aaaf9ab1fd2b050c7cb039f0672c96d58165d43aede1d2ea1",
+      "assunto": "incendio",
+      "subassunto": "flashover_backdraft_distincao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0097",
+      "sha256": "df0a3de2b6233031d18a26c6ea7df17b6756c720d599b2d61c5c51bd11d6307c",
+      "assunto": "incendio",
+      "subassunto": "deteccao_optica_obstrucao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0098",
+      "sha256": "3bc6bd7da0b5b313fdedb4ad94a8a015618b47c8224d99d82e9ec8e48a4d6aaa",
+      "assunto": "incendio",
+      "subassunto": "ponto_operacao_curvas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0099",
+      "sha256": "9baed7eb4a06ca378676249e96303bc037e0d29287860fbedfc8ff8d9c8d66da",
+      "assunto": "incendio",
+      "subassunto": "balanco_agua_janelas_demanda"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0100",
+      "sha256": "9bca091dcf798617527b62cdfc4ece7cc2fada79b0e830a63f475063b4ca482f",
+      "assunto": "incendio",
+      "subassunto": "logica_supervisao_alarme"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0178",
+      "sha256": "4bc8a79f0595dace08ab102fa5509c668c710e2e226011e9d04aa8e3241fb1ad",
+      "assunto": "incendio",
+      "subassunto": "continuidade_de_barreiras_passivas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0237",
+      "sha256": "d038ad6f0d8961ffbc1a5e17f1853508028b779d8594af96c3fc65b63ab7d844",
+      "assunto": "incendio",
+      "subassunto": "fulgor_e_autoignicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0238",
+      "sha256": "d6e77b1c25d63a08e13ec27ecd8bf0c3675fa949bb6a177bddb3fa4cd1c235b9",
+      "assunto": "incendio",
+      "subassunto": "superficie_de_liquido_e_espuma"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0296",
+      "sha256": "d5003142d0702e26ad8198693ad4a40a610197c3441e7ee61344af234637e70d",
+      "assunto": "incendio",
+      "subassunto": "poeira_depositada_e_explosao_secundaria"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0297",
+      "sha256": "6f30ba16fe50ec703ef2ade5c151da81765d71cef3e78b80c69ac49868b3d11b",
+      "assunto": "incendio",
+      "subassunto": "pressao_e_transporte_de_fumaca"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0392",
+      "sha256": "3edfd2f82dee7cf140c10f133e4c3cbd55948960c1bdade16f4b533a642f88c7",
+      "assunto": "incendio",
+      "subassunto": "chama_e_fonte_de_combustivel"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0393",
+      "sha256": "f3355423cfcf8c4e21264b2b5d31aaffc755dca245415dc388e166edfd12e1d0",
+      "assunto": "incendio",
+      "subassunto": "detectores_e_zonas_de_confirmacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0394",
+      "sha256": "2a08936bcf31855f8c2a8258ea0a5949b4aaae2162e849096dbf2c01f406a5c8",
+      "assunto": "incendio",
+      "subassunto": "balanco_de_fumaca_em_dois_ambientes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0029",
+      "sha256": "a7f3b94a4a6c49d35c29e3f29c7bfb92ad20c1c2836c63ddd62a6cb76da8312b",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_consequencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0030",
+      "sha256": "aca7e8b9ebc27497019d42cd8937bd2779c89965171f20f660033288de8c43c7",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "apr_escopo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0031",
+      "sha256": "9bf8949dd0bacd5319b97eeebee32aa60af6dc0ddfb1f3537535b1c4cc7e50e2",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "hazop_desvio_causas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0032",
+      "sha256": "1b5b72f3267c15c814fffc3800bf3de8081009d9b9c4bf8ce26f597ac1883b04",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fmea_criterios_decisao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0033",
+      "sha256": "02308fccf6e50103267e31e695ab03e046f6e6f1ad665fb7e10718313082dad9",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_falhas_ou"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0034",
+      "sha256": "3e848f7e1b81e0557f173baa64bbbcbae837747fa772b05fc9c0f7b5a120b154",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "risco_individual_social"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0035",
+      "sha256": "161611c71acc2e549646d7684e96e286f7319f63bb452d74a0abf84106f2c6b8",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "analise_sensibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0036",
+      "sha256": "1bb6685cf847bd224275b49f905ef5fece64a3d2913f6deb3e71610fda5c350f",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "bow_tie_posicao_barreira"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0037",
+      "sha256": "8331584e0c1ed66fb4a704aaafb8098eb512c908b7f71a71b374a185e5c026e4",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_eventos_terminais"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0038",
+      "sha256": "7805f6914e91cf36246a2e876fd7d52e9018f364d928eb1164bf024df2d419cb",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "dependencia_condicional"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0039",
+      "sha256": "cb7a7ae6220269423537e8ef52ec7a260aff2d685614661e20a53027fea2c267",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "alocacao_reducao_risco"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0040",
+      "sha256": "d0574f6ae753adece3b0f4849865e32d1f47210ec4b6761af18aff925c6f6b85",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "causa_comum_quantificacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0165",
+      "sha256": "b90592448b78e30dd9df787a4f05b58880016f54e3ed290d0faa5dd184ef26c7",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "incerteza_epistemica_e_variabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0166",
+      "sha256": "5c9f62aa71e24d54b03d508e31107477d5ad1645dffeb27137b8a40a87d7efda",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fmea_deteccao_e_prevencao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0167",
+      "sha256": "947a6a208772e3564912c528aae0b26cf3899316114936ccbdf9a995df6e7202",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "hazop_modos_de_operacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0168",
+      "sha256": "ac508adf2d5644f18f7fdff574b1c1305c031e1984ed4a9be8922a89fa9d2824",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "conjuntos_minimos_de_corte"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0169",
+      "sha256": "a7fecac34f9e8437dd9e9fd4245e58616de1c36a6ed67303a0ca93e4e73cd4f7",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fronteira_de_pareto"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0170",
+      "sha256": "a8c22f4115db6a655506589fa75396f2bdd20251502239f8f80bc92f1648506d",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "resolucao_de_cenarios_e_dupla_contagem"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0220",
+      "sha256": "9b6b16c9c66a5763e5eca80e73de22b4375c97c480dc48fb8f7adfd1622f319f",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_e_probabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0221",
+      "sha256": "5c25c27d223144a1ce69a6ac4ace79c582a6525605a9768304daeda069646e01",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvores_causas_e_desfechos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0222",
+      "sha256": "34108a4f6cb107f56f04402eb26dd5683160799011770333fa44068c21b7a6ff",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "escala_ordinal_e_interpretacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0223",
+      "sha256": "5e00d94b6edd4fd4712797aff8b13900b7e0736a2b4a72a9556c894ed1ce7f85",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fmea_falha_espuria_e_omissao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0224",
+      "sha256": "ae538ba8ec101234714799bf53fe8690f103cc80e535b3f150f2d7f75c1cc44d",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "criterio_de_aceitacao_e_premissas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0225",
+      "sha256": "2a38faf84f9d8adbbab9297d6d0683d8992483c39a7d6e0f94fb3a16add43145",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "otimizacao_de_portfolio"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0226",
+      "sha256": "9a66003c855b552ecd49509ed7884de1fa5cdef0c89693fd2bda7f31cf0386a4",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "falhas_ocultas_e_cobertura_de_teste"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0227",
+      "sha256": "dbd0930e430ae87f51a146350a33252820c0a9f2ed903d64d6b614c99e279ca8",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_cumulativa_f_n"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0276",
+      "sha256": "a0e61ec664e2c82fa12cd6b3475c467060b6e1b877b7d1a277707c615168631e",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "perigo_cenario_e_consequencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0277",
+      "sha256": "086f75f080df2a394be4352d21ed9dc7b38a53e29ea10cc555608358a7266065",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "disponibilidade_e_reparo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0278",
+      "sha256": "191162e8b5aaaf2e9c727060318cf7e8e333e0ff6e0da8aee07af58a334b19cf",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "modos_exclusivos_em_arvore"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0279",
+      "sha256": "57cb848763d79db3a3b2bbc67b41ea2513c9b8c6d34defdb462a68cc15c137d8",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fator_de_escalada_de_barreira"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0280",
+      "sha256": "5e58b5513e063a784ddbb3a28e7167aaa992a8f8539912a1344963543fdc5742",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "ciclo_de_preferencias"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0281",
+      "sha256": "36edb7521f47d556ae5b42bfce59d7ef4ad9a980fc4e83da0abb2b7beab7da7b",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "fronteira_de_consequencias"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0282",
+      "sha256": "f54fe37a929be09014535fbe79354f9a27bc916980f7d992521fb20a50398524",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "sequencia_otima_de_diagnostico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0283",
+      "sha256": "4dcd6b5ef103052b38d05eaa3f57401dc4ac7b309eac72d1e670dfbfce85b53e",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "votacao_dois_de_tres"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0284",
+      "sha256": "d0d1a2b18a500d496fce064d0354b14a89855ade1e97c5c357e64bb53f777af2",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "valor_de_informacao_perfeita"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0360",
+      "sha256": "9634c2f28ee59bf6349711a3c3f5c8dc803bd515d690a771440d4f4854e9940d",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "probabilidade_condicional_e_marginal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0361",
+      "sha256": "863872b050fd10f6fd3208e1ce1cc53f0cb6725deb657abedd893ab1daf9671e",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "grafo_causal_e_colisor"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0362",
+      "sha256": "d8ea16bcdbd4a30ca5739bd621b9ebbe6ae000237f5e7729df21a61e6e7641d2",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "conjunto_de_cenarios_e_completude"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0363",
+      "sha256": "321cf8f9378169bde6b5550f9770666c0e86f9ac5aaad123bb70f25615e91a1b",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "teste_de_barreira_com_condicoes_diferentes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0364",
+      "sha256": "0ea72877cd48ce90a5887f2bf106624aaec030a3301a6dc240f647300b152d56",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "frequencia_em_dois_modos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0365",
+      "sha256": "fb8be41ad8d63c414ff89bfea4528c89a600814abac39e1ee3a54b49fe55ff26",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "decisao_lexicografica_com_admissibilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0366",
+      "sha256": "6f5b5ecd5fc13f656f7999d6872e02f8b2ee699b1f9641c8a07f9e276f44779b",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "riscos_competitivos_e_primeiro_evento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0367",
+      "sha256": "0f1ef74bda22a7a0f39d048f4dcbaebc369e92ab65fd9143de782a80ffd90ccc",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "arvore_de_eventos_com_tempo_de_missao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0368",
+      "sha256": "2ce4c9f780ded93bb8c1f2219e8111debc478e499d6d3ca552357cb3e8c1fade",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "tentativas_de_acao_e_prazo_de_protecao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0369",
+      "sha256": "e0f0da8ba2995f9b6807a713e0820b6fb3d5a298fadf2bb1dd9b3732a3126e44",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "decisao_com_informacao_imperfeita"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0370",
+      "sha256": "b2190b50b561d3405affcf53d071ae592e313e8efb36be05a969760289ee9603",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "corte_minimo_com_causa_compartilhada"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0371",
+      "sha256": "28e46c6c597a24871bbaf8d5fbcb59ceac02d728ad9e1738fb0443257a1049c7",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "evolucao_de_degradacao_e_primeira_falha"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0372",
+      "sha256": "6a15695be1ded4444efd15c287ae8c61d7b8664e3a260a7b05abb583b3876af0",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "risco_com_condicionante_ambiental"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0373",
+      "sha256": "fd78ac51912aeb33769ed249130191560e3d6792e99c2f2dc499914e4c2c5af5",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "decisao_por_restricao_de_cauda"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0374",
+      "sha256": "35c4d7b097355bec8212040ae49bf19f9b9f3648ba79bfeed0ab36e257e6e379",
+      "assunto": "gerenciamento_riscos",
+      "subassunto": "sensibilidade_e_inversao_de_preferencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0057",
+      "sha256": "672fa551b3ec3e362f3c2ef7bdd904024c27f1a90c46b2001e6a004a220c875d",
+      "assunto": "saude_ocupacional",
+      "subassunto": "vigilancia_dados_coletivos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0058",
+      "sha256": "4b5307565df6a07a1cfda45e0fa9e9dea56cf38e57f38f5b724ff13534980392",
+      "assunto": "saude_ocupacional",
+      "subassunto": "comparacao_prevalencias_composicao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0109",
+      "sha256": "bd3f75677ac69c4cacb35ccba390be8926c81ac8a642972f2d4b77497dd33695",
+      "assunto": "saude_ocupacional",
+      "subassunto": "incidencia_coorte_sob_risco"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0110",
+      "sha256": "18f96489cbc220b147762fe26e93361e9a3fa58a5f6e730eda34f89be61d9489",
+      "assunto": "saude_ocupacional",
+      "subassunto": "especificidade_tabela_teste"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0111",
+      "sha256": "029ec50673da20cbd78fa39c0b7f131212d1fde17a18b00dbe0d205ff47c4ede",
+      "assunto": "saude_ocupacional",
+      "subassunto": "biomarcador_janela_temporal"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0112",
+      "sha256": "bab4be2c6073979856ffe8290a1344efa3f6f52a9f3e30cfa846198797da3981",
+      "assunto": "saude_ocupacional",
+      "subassunto": "qualidade_cadeia_conservacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0113",
+      "sha256": "4260eef0fe335450f190698a11ebf191921835021bf0cee345a06e081522a64b",
+      "assunto": "saude_ocupacional",
+      "subassunto": "acompanhamento_pareado_baseline"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0114",
+      "sha256": "9402e14f3341a325d92b15fb59be4be16dec8a3715905dd6ec30907bc04e8a3c",
+      "assunto": "saude_ocupacional",
+      "subassunto": "valor_preditivo_bayes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0115",
+      "sha256": "7fab20c2a0e63940bc0e2551779ab09436fcc01cb8f280a6400e8bfee3a333e2",
+      "assunto": "saude_ocupacional",
+      "subassunto": "densidade_incidencia_pessoa_tempo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0116",
+      "sha256": "71c312ced976b9ccb4224472408c23311f435a2a84258e44fca9740cfc9c0c09",
+      "assunto": "saude_ocupacional",
+      "subassunto": "perdas_seguimento_selecao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0180",
+      "sha256": "f604f2e1ef73fa0b1003c19a993f53e49f9664d5ee0a8177cb288322c4b55fec",
+      "assunto": "saude_ocupacional",
+      "subassunto": "seguimento_medico_e_responsabilidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0240",
+      "sha256": "7629c72b571664f2c5b978083788ab0b18c723bbbe86f01e7b1e0b8434b2870c",
+      "assunto": "saude_ocupacional",
+      "subassunto": "responsavel_pcmso_localidade"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0299",
+      "sha256": "d7bc2199e57049e3dd2ea8df7353611833b4b360fbedbcc3d2cb8f3aca13f4d9",
+      "assunto": "saude_ocupacional",
+      "subassunto": "reidentificacao_por_quase_identificadores"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0398",
+      "sha256": "843dcf70614dbc2c66f31b4788edd31feb806b0bd7833da502865137faddd77d",
+      "assunto": "saude_ocupacional",
+      "subassunto": "sobrediagnostico_e_falso_positivo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0399",
+      "sha256": "65842e5aac2e3973fa123632f9dcf627b1c007b77cbd9c0e716bddf64628f1f3",
+      "assunto": "saude_ocupacional",
+      "subassunto": "comparacao_de_exames_com_mudanca_de_metodo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0049",
+      "sha256": "4aeff3c8797bcbad2ce03dc79193719f6fb581f9017c8845abf7ff8d40011f6c",
+      "assunto": "emergencias",
+      "subassunto": "reconhecimento_recursos"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0050",
+      "sha256": "15ac63ecbe9f6c9969d9b57e7cbef4fdd9daf7eebf8d1e307448937f8f3b1894",
+      "assunto": "emergencias",
+      "subassunto": "comando_coordenacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0051",
+      "sha256": "14dcd218c025bb459cf15a90ab2486dc410892d97d8782e4dc37b2b06aac3160",
+      "assunto": "emergencias",
+      "subassunto": "rotas_evolucao_cenario"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0052",
+      "sha256": "fc13df41ef28b50c31373cca343457cdd6a1dd02da506696400a552f85339230",
+      "assunto": "emergencias",
+      "subassunto": "mobilizacao_caminho_critico"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0083",
+      "sha256": "e60b10a177fa4f080d1b4345ef7873721560266c99094bb35f7dd186243e4a55",
+      "assunto": "emergencias",
+      "subassunto": "comunicacao_retorno_fechado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0084",
+      "sha256": "b073eea6b630a972e41968839c5819c0e5d567dbb002ee1e0c0fb8201d61ceb7",
+      "assunto": "emergencias",
+      "subassunto": "conferencia_presencas_manifesto"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0085",
+      "sha256": "8e90ae8df72498a5a261d87e0ee21ccf72e4b5c5b5a45f42e2f257f67811c244",
+      "assunto": "emergencias",
+      "subassunto": "compatibilidade_recursos_conexoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0086",
+      "sha256": "a550f56449d973181f691bf7d6d67848fb7b2d9a3676a4bbb41f7abdc1f64aec",
+      "assunto": "emergencias",
+      "subassunto": "comunicacao_publica_status"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0087",
+      "sha256": "f8389f96440a854929d11c73c7d84c089aca692f29677fe4169fa2eeba4232fc",
+      "assunto": "emergencias",
+      "subassunto": "plano_pessoas_necessidade_assistencia"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0088",
+      "sha256": "19607fe3a76a52a52deb245d40591754a84a2c1c6ed528366814660afce63f9e",
+      "assunto": "emergencias",
+      "subassunto": "transferencia_comando_estado_resposta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0089",
+      "sha256": "fff5c36414aac5e004f5ee8861c8947c24f702e3da2cff7a103da8d39ef6d6c2",
+      "assunto": "emergencias",
+      "subassunto": "escoamento_rede_gargalo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0090",
+      "sha256": "5514199a16dcc827ec964769d47c640518221d5bce0b0b9cb1d83ab1ebbb49bc",
+      "assunto": "emergencias",
+      "subassunto": "estoque_retorno_requisicoes"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0091",
+      "sha256": "b9ca82eabb5a1df1ee6ab716cc31291f29a9f2b5e916ee95983063e52344f170",
+      "assunto": "emergencias",
+      "subassunto": "propagacao_informacao_atualizacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0092",
+      "sha256": "12e1e32291976be9aded29d244ef5fa13e53ec971412d309e59494ebc57bfea7",
+      "assunto": "emergencias",
+      "subassunto": "decisao_minimax_perdas"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0177",
+      "sha256": "88c102e5e359f5bea8b432fb81c91938f138082bee942f74fe571eb00d3921ce",
+      "assunto": "emergencias",
+      "subassunto": "acao_irreversivel_e_informacao_incompleta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0235",
+      "sha256": "b36f6c242dcceedd58023ca4d0635a036a63e1f5be1a6720787a4eb60bc98c39",
+      "assunto": "emergencias",
+      "subassunto": "conflito_de_objetivos_em_resgate"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0236",
+      "sha256": "4523cc869210cf79ef7392fc8779d2af19c5aa3071a4c26832b6364a3bdc0f55",
+      "assunto": "emergencias",
+      "subassunto": "transicao_entre_zonas_e_contaminacao"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0294",
+      "sha256": "4867f9741383d25a7a1dc8beb783bb8326013e98c4d6057d7d9a391c94f093b8",
+      "assunto": "emergencias",
+      "subassunto": "percepcao_e_monitoramento"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0295",
+      "sha256": "716185e1b748edd8620859acd9a4c2142f7258f5e0106b316acd57d9af8b6fe0",
+      "assunto": "emergencias",
+      "subassunto": "cobertura_de_bases_de_resposta"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0388",
+      "sha256": "169517c078a9cea5c81b2af2de6820bb2361a4904e5fcc4fefbdd89d5d3b8fd0",
+      "assunto": "emergencias",
+      "subassunto": "cancelamento_e_estado_compartilhado"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0389",
+      "sha256": "fb7fa45aaabe7a1895a081ab4e1c886ff4e471a2f4e5edd10e6c06ab082faf6b",
+      "assunto": "emergencias",
+      "subassunto": "autonomia_de_comunicacao_em_ciclo"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0390",
+      "sha256": "536076af85fc9ceac27a25eef4aec42c6b184f94be446e33e5751defd46e2712",
+      "assunto": "emergencias",
+      "subassunto": "reserva_de_rota_e_falha_comum"
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0391",
+      "sha256": "fe14d8b74bbde929c4f9566d4a85745cc68686c1b9299e3f342fdefd1e4a378e",
+      "assunto": "emergencias",
+      "subassunto": "ordem_de_resgate_e_prazos_de_missao"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0001",
+      "sha256": "63717680ebbe007aa4df7098f165aef5dfce3b3347bea9078bd9a76bc59db080",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "main_idea_time_reference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0002",
+      "sha256": "61e6535ba0f1e3761a5f6d6d32c4f2fcce4de92cb5486b728457d06fabff4729",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_and_traceability"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0003",
+      "sha256": "6227ae91a25b179c7256ed6aef07afaa770c34128ce34b3189eacc547d55f43d",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_receipt_performance"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0004",
+      "sha256": "35d20700e0a1f5b97015ea9421154250aee907bae46aa2bf92ea7a369a240359",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "transfer_after_procedural_change"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0005",
+      "sha256": "6e39681a197e1a8a92607e02e138b687a081fefbab5147a98cec3f6a87609442",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "vocabulary_in_context"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0006",
+      "sha256": "2e438349a5b67c04015ad834c01752d3300a3bb6ac2b0d920e67241930165625",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "cohesion_contrast"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0007",
+      "sha256": "dd92da670c1288519af05f86080772d1b3e459f26558642a8f8d504a3e60cf7c",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "scope_of_evidence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0008",
+      "sha256": "fcd406e5c0d68895770e3803de6a74a255e6f070d23254d37cf55f7ca35abf02",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integrating_two_limitations"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0009",
+      "sha256": "24f69652903428ffb84a10dabbfea9cab32f9577fb3e075e126d1c7ca934eaea",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "purpose_and_qualification"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0010",
+      "sha256": "8a80fd7a9326d6f2a8054ebd1d83b1886987dda68508347b017a5fe2843d1a1f",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_inference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0011",
+      "sha256": "aee6dcd37b4a1479d40ad114c52cade3fe93be34ef3ebd8748b696df4df44b27",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "pronoun_reference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0012",
+      "sha256": "781e519480130870787db08c0357a4846e55455fcab15e1543056addec9315c1",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "semantic_distinction"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0013",
+      "sha256": "130342cb1c8833969a545baf7c998e23853f23ce033e799e7a48e583800cc1fb",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "comparison_criteria"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0014",
+      "sha256": "7b417b3b5f7c2902471703cd2086050103c115a891785b370b7e849b78e14387",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "joint_constraints"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0015",
+      "sha256": "54916fe3ae358d4aa4c782a29e83d529e7e96056889f4e81f4122803e0c8be7a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "grammar_meaning"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0016",
+      "sha256": "a341acca3b1bec096ef6e51e77714653bab8cd6f635bc7d4dee95ce526daf88a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "evidence_and_observation"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0017",
+      "sha256": "ffe748d5feefd6be49a347d655441b47001ede2f16b58b975bb8414aa4075b2d",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_proposed_actual"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0018",
+      "sha256": "dea1fe36069759f18bc2cade79335a8ea5b9c39a885332b77d7771e723fb359f",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_limits_usefulness"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0019",
+      "sha256": "bc7176d5c7b45c2618d3d4f6c6d6313ea4b5e30b29946086579938ab6674af91",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "aggregation_and_relevance"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0020",
+      "sha256": "cf5c9e7ff6cfdc8da8b55acfb1e2e863dd451789a91c3db56c300cc039c1caf8",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "decision_under_evidence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0021",
+      "sha256": "9e7f77025f23f055cc3da885df70d4ea2abde95aa963d772d17f3e92e36ef258",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "genre_and_purpose_catalogue"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0022",
+      "sha256": "fa8acd68ef7e141fd15405eef65cb0d70fd14814c8c777df6ed20dd90af3d254",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "lexical_collocation_wear_missing"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0023",
+      "sha256": "359a468c498934a4e32da5ff81ad6e7f3024293b2fdd3791051535a344aee85d",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "backlog_context_process_stage"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0024",
+      "sha256": "4c5d3eae5448917e01d6bfcdb36574cd2d08bb918fc6f055015f58ca9b2e7564",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "temporal_dependencies_handover"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0025",
+      "sha256": "66d309b38f8ea79a250b35a465a6c5139c1d7cefff6a1e640879f1cc049074a2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "idiom_off_the_shelf"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0026",
+      "sha256": "0f6856157295f57c9a433c5e42fecb016f01d0c70f89ad1c7492f9ddb116e2db",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_procurement_information"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0027",
+      "sha256": "5163cd569962258d75453944b823f9b566d871965412e6cb982a35bf92e3164a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "fallback_role_not_obsolescence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0028",
+      "sha256": "942484a84dd07f8ad9a8576dcbb7489c312542b4b9b1413725a534e9aafe0ddc",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_function_precondition"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0029",
+      "sha256": "a84bc83f2e0b0f19efee997fbb3fb5cc5df530fa2b96db5444593664325f7387",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "explicit_unknown_vs_absent_entity"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0030",
+      "sha256": "61f93f4a7ab798314e0b5b26ae65c7aad483bffc9ab3cefee59b94d4bf1fbae2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "revision_epistemic_status_and_reference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0031",
+      "sha256": "aee42f6021a45f0bfb830d3ee1162b21158557eb72176a66389e2d5f57dd38f8",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "phrasal_verb_set_aside"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0032",
+      "sha256": "00ba17686bb6e82fadc03edb3a7178d06ef8f6860ca8405196dce77a848e4c09",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_retention_authority"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0033",
+      "sha256": "a18779090e23ddec0f562ef962c8686aea5ab4767f5f8195e6be260ec13d13ad",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "few_a_few_perspective"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0034",
+      "sha256": "b0dc232de82e8ef491f704dd452d7ed91bf70474f0d38a1d3b759e86831fca69",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "quantifier_rewrite_communicative_intent"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0035",
+      "sha256": "e3142d9b0e324c3485356c99d22e729c866e273dfccc247098715f02295a262a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "figurative_technical_vocabulary_sandbox"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0036",
+      "sha256": "bc38f1bcdc6a0f8c9bef0dca0b4f977b50360c8dbf9a002f87e0a3d279b49f65",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "passive_and_scope_release"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0037",
+      "sha256": "fe780a846ea93526803bcc6c448ad8d726a7b6be4d2900d2f5d3b6e1d5d6f987",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inversion_after_fronted_only"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0038",
+      "sha256": "9a0c5e4ee8e4c076fbb969e4b06484ec84417c12499e2342486d195ae0ac7289",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "tense_sequence_without_immediacy"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0039",
+      "sha256": "52f196585b3288c9a1a4f6edb2b67adc8ed45f232119a0cfb529990b38400b49",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integrated_attribution_conditions"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0040",
+      "sha256": "024e4f5e74530d054ae8ebdad4ef56af51d35a7345b817960143cc7560bca242",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "local_definition_avoids_overgeneralization"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0041",
+      "sha256": "99fad7456e361cfe121e3cced3aaa08ae31fe23f30061178cbaf51d64161d10c",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "scope_of_experimental_evidence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0042",
+      "sha256": "89eb05f8e49a4d5d7e3433cdddeefb36b75060122314965079739323f810cfd2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "negative_scope_and_reference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0043",
+      "sha256": "b5cbaca15a393ead2921f7be873bd982848c57b9d6b6b1e5c897b12d1896bc81",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "unless_and_condition"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0044",
+      "sha256": "1225f5b14013328a96074fbb25014d672d3e4e33a974c7d6036817720b41a80b",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "integration_of_independent_conditions"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0045",
+      "sha256": "c8e9084a2f75081ab454b7a86973738e5e7116f639761400e99e8a1f00c4b512",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "penalty_versus_constraint"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0046",
+      "sha256": "e1917151b790dc27381732ff6dd486c9aa706873b36f4c5986b6c908e364fe82",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "lexical_reference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0047",
+      "sha256": "ececb1be97feda1ed5046e77a8a697c95659a177334d16e1604b94612d85ac02",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "coverage_versus_precision"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0048",
+      "sha256": "dc027dce642707a19cea81bae05fcbfc34647021159fb7b890f71787a799947e",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_of_there"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0049",
+      "sha256": "eab0a51a8d9696fcfffb7f8d68c45b7fccabf6e70aa3866168db36cd7e796f80",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "modals_obligation_and_prohibition"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0050",
+      "sha256": "e2bdc7f5cbd62bee0b1e006e7c5cdc6438f6ceee985a82c1021b124211bd6581",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "rewriting_two_modal_rules"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0051",
+      "sha256": "6f07aa062b035f282c8d113e249e7d740193fbf42016f7e73ef4cb0b797ae4d4",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "concession_and_scope"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0052",
+      "sha256": "f4dd3f663cf3c18a95d25d8edd40edd1fdcf8871d15d9f1cbc5f8ae12a5bf063",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "meaning_of_qualified"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0053",
+      "sha256": "50e958c3b2ec77999d8e77c53780841eddfe7e790e3a399eb220bd2109ab5d2c",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "validation_and_generalization"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0054",
+      "sha256": "8535a7377cee4e2c85cbaad8557ea4edfa463edb8df0990af546a9b65d50045f",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "phrasal_verb_in_context"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0055",
+      "sha256": "39c25a78db46ea5068483d144db7b412d8f05641c5536224b31d861867401162",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "experimental_design_limits"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0056",
+      "sha256": "59ac4680a668d43089fb4127209593f89a96156b5790f976c04257e0ea4f802b",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_of_this_arrangement"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0057",
+      "sha256": "177e346d2a6b685921d7f192b03bfc9d3c6a5e041e6ebdde0c7c6ad736555bbb",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "relative_clause_and_quantification"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0058",
+      "sha256": "aa2d5dc9d35a2be1445e5598e274dca053286607df75f777cc6383709e5a18e1",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrastive_parallelism"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0059",
+      "sha256": "606b944b06e5aa3e0e8369d01789c95db81188b2c17f8e02df1c3b60e6d519a7",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "sequence_and_epistemic_status"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0060",
+      "sha256": "4cbaa1f80d396fb3e3cda6fee35870f3004424228cff3492293d29f1cef8a9f2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "past_perfect_passive_and_until"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0061",
+      "sha256": "3edc15dce76a454b32f56927970887a1d46a4b91195b3efe5e0d26cc4715dbcd",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "system_boundary_and_transfer"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0062",
+      "sha256": "1fb9d352701e43b421dc61e17dba0d6fce2fe4bf4656e2cdd692d9f587407619",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_counterfactual_scope"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0063",
+      "sha256": "a31b9d6f4c990126e9b70b77df8b802294f7ba15936331311e63f9a02c6e8ef6",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "necessary_conditions"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0064",
+      "sha256": "6b9e24ea1efa0485eb69c2eb28435d853fc2179db55e5e6d316169d2482ab132",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "logical_rewriting"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0065",
+      "sha256": "a16c0224d4cd14a094872ad6f01cf7ca9404ee1d3d58fcc2a2a7ecc779084aa1",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "audience_and_document_function"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0066",
+      "sha256": "301424c8965c805bd5393a2ca4cb7eb85b3bb8587784c4e9ba9e512cbd191c64",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "reference_of_those"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0067",
+      "sha256": "a3675386cdbadc63ef39cacf54c4e6e282f170e44255c352884117a0b6968072",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "probability_language"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0068",
+      "sha256": "32f7344c05660d466f4bb7db02ac0802c5a78a090142d665de9bd3a691682b75",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "argument_and_risk_consequence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0069",
+      "sha256": "1f4dfad1669abb637db6548f35e5f26b163ab7f0763888ffc47d6fb7499c8b4e",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "future_perfect_passive"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0070",
+      "sha256": "67e5ac95ea7be58d938b07433040bf563a31e1a756679e5d3d9d6d4a4a9e2687",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "temporal_interval_and_task"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0071",
+      "sha256": "3fd6c844b62f9203104bac0d34be08302fe58997fc5bde918642a34c2afb87b5",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "causal_as_in_context"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0072",
+      "sha256": "4bfe6a687cd27338fc6e02e83eb4cdc8d4389fd518d35053860327a67e9d9303",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "concession_and_availability"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0073",
+      "sha256": "d20f26d0201eab272e30f663108644b51c5cc92c6ff40fd69d675e959f574594",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "question_and_represented_population"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0074",
+      "sha256": "91cc476a7e44f5b8017a19096afc3a1f393de295f305c81e1fb26874aea4b39b",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "either_or_scope"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0075",
+      "sha256": "76b81dbc238eb96c73b61eab5d26092210a4753f06d6eed2ef1ee5da3cf6efe5",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "operational_meaning_of_completion"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0076",
+      "sha256": "16eabcd34e8a3fd075443147be8c1c9875d9d906598473ecdca4e9af18f4669b",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "rather_than_contrast"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0077",
+      "sha256": "5f700fcc62b139321d093689d6eeeca464cde74224acfa460bbbb92a485b9165",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "allocation_and_suitability"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0078",
+      "sha256": "44b7c3c49b9707831f3deb5847a5f7d641c6a25801371221a81c180d5af41a58",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "inference_under_urgency"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0079",
+      "sha256": "836553ff79359f110d4bff7cbab27d1f4eb88fc359569c2beaede290bbf2921e",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrast_between_contributions"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0080",
+      "sha256": "98fbfc04469be06a80390e1653fca07ccf63dbf4d0dfab9b5efc4ba0e998647a",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "parallel_negation"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0081",
+      "sha256": "3424bf503b86b615a36feb5056ca9c3161abf81f587b28b4030640a9741848ac",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "permission_scope"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0082",
+      "sha256": "dfe9695c087293a9c37e28a8d3f2057c90ce0bc4b0cb2da1c22c69c09462ac60",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "means_and_legitimate_aim"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0083",
+      "sha256": "0ddab8afa479b555b6ad559311a530adf64731650c2cddae978a04f45d126b36",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "quantity_and_coverage"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0084",
+      "sha256": "e8c2045045d89175d099dc052becf62d994574b1c599cf77ca02b3a4f5bb00bf",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "at_least_vs_exactly"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0085",
+      "sha256": "9ba52ab96e3eed0ac82ec87060bc2c92a8fd50489a970bdcf3f62b65c2b509fa",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "acknowledgement_and_authorization"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0086",
+      "sha256": "462b034dedb350d5dfb81fc113877f33b9bde75fdc2f68d270135ca7be753da2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "local_definition_of_a_verb"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0087",
+      "sha256": "75bdc8a2119ef49cc42b864d79620907ee1ecc10e2a63ad70e9038fb8498f1ab",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "resolution_vs_enlargement"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0088",
+      "sha256": "724200dadcc806dea30665f46a19c3196e3e7ea330873e6577e2528caeeacb27",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "contrastive_yet"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0089",
+      "sha256": "b48d92593aa99d1e83aa2fd42e18272faa4838e6e12d2541fe36bce5795835cf",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "counterfactual_and_alternative_route"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0090",
+      "sha256": "c71f3dd7f5d3912449fbb3f0755b1a1546efadf2e40f0d5bef6fe0887c83c991",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_inversion"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0091",
+      "sha256": "b7ef779356574321261c54ad36746950f55160dfa5e5e457b30f5845d26372c6",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "exploratory_vs_prior_prediction"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0092",
+      "sha256": "3938266a35d48ab7ef83c0bb59bc9e394b4912be1b518a0c42c0ce093b4d0972",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "passive_voice_and_sequence"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0093",
+      "sha256": "772621fa69fd2cc473b0be8d1fe7f55278cf7cd2399ab77182114a7076ba7297",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "retry_and_command_identity"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0094",
+      "sha256": "6d5c89693afdbc65c0edffd2ee6ee19320ad48b60604a6171220de034213479c",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "absence_of_reply_and_uncertainty"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0095",
+      "sha256": "30d693d55eddef59ebf1fad3717a71b2048268b914438f4187aa7bb57b80a9af",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "conditional_preference"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0096",
+      "sha256": "c3703662e4ce54e79d67ed8ec44ed0951ded7c5e8fe5d61a1cc29088b8860e74",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "rewriting_preference_and_condition"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0097",
+      "sha256": "10e1146bdf1d8b6137b31e5cd3ed0794d4a9a428b1bfbed820db747c1399b655",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "eventually_in_context"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0098",
+      "sha256": "d58c97042ee80aead8d9b8b7adccc623777366a01b084692ee3e807cf3b6ceee",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "while_and_parallel_actions"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0099",
+      "sha256": "121da8588d133eba6b1b7a8047228c1d34cc9b490ff0688a24ec16cf2656c8a2",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "frequency_vs_demand"
+    },
+    {
+      "id": "TP26-ENGSEG-ING-0100",
+      "sha256": "38ed7efed8352b8fe6cded41c9825f4f75ae5b6b01771b68271d15a75374b603",
+      "assunto": "leitura_interpretacao",
+      "subassunto": "scope_of_rather_than"
+    }
+  ],
+  "revisoes": [
+    {
+      "id": "TP26-ENGSEG-ESP-0401",
+      "sha256": "7d3a4f9e1cd01c7297f60bbd122ae30c439e60e4eb74d76ad864c1d5eac90189",
+      "operacao": "Distinguir resistência estrutural e manutenção da posição funcional",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0302",
+        "TP26-ENGSEG-ESP-0305"
+      ],
+      "parecer": "Posição funcional da cunha sob vibração, não atrito estático ou polígono de apoio."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0402",
+      "sha256": "15eb22b363d3733d95946cc2ca44a7bcaaa22698cd7d9b487cdb585965b72b59",
+      "operacao": "Relacionar variação rápida de corrente e tensão transitória",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0001",
+        "TP26-ENGSEG-ESP-0322"
+      ],
+      "parecer": "Tensão transitória por derivada de corrente, não energia capacitiva ou circuito resistivo estacionário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0403",
+      "sha256": "5c73b850d634602df4670463cfade8f2be19b7d66c210be46f08e0564a3bf68c",
+      "operacao": "Avaliar simultaneamente contato e limites mecânicos de regulagem",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0201",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "parecer": "Contato restabelecido fora do curso mecânico, não pressão de solo ou tombamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0404",
+      "sha256": "9eadd95262b0e3553d33fe2130f5e2432c12db3692adc48d4a3adb30b9ba063f",
+      "operacao": "Identificar solicitação não coberta pelo ensaio disponível",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0200",
+        "TP26-ENGSEG-ESP-0159"
+      ],
+      "parecer": "Solicitação lateral imposta em junta qualificada à pressão, não dilatação diferencial de fixação ou líquido preso."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0405",
+      "sha256": "2480c6ef1a1078803071b3dd6bb1058c275d3344a23f99a1eb770474bad22b23",
+      "operacao": "Calcular esforço aerodinâmico e comparar capacidade em modelo explícito",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0318",
+        "TP26-ENGSEG-ESP-0010"
+      ],
+      "parecer": "Força aerodinâmica com área e velocidade quadrática, não fluxo de momento de jato ou tombamento de corpo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0406",
+      "sha256": "c912b59cee9585af071a022a88d3790f760edd83e26396f147802d4df5b4fe51",
+      "operacao": "Integrar distribuição hidrostática e converter força",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0164",
+        "TP26-ENGSEG-ESP-0253"
+      ],
+      "parecer": "Integrar distribuição triangular hidrostática, não pressão uniforme em tampa ou tensão de membrana."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0407",
+      "sha256": "7a846b67eadcc4782244150b33d4706531ea6bda1183989492a91b43ad87b93c",
+      "operacao": "Relacionar caminho estrutural e validade de divisão uniforme",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0003",
+        "TP26-ENGSEG-ESP-0104"
+      ],
+      "parecer": "Caminho excêntrico de conexão não garante divisão em fixadores iguais; diferente de equilíbrio de viga ou duas pessoas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0408",
+      "sha256": "fa8f53aeac8865a193b03e5ff3ce1d1b3fd6e6ad6e8073a51cfd03d6325b835e",
+      "operacao": "Distinguir energia, pico e dependência constitutiva com taxa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0306",
+        "TP26-ENGSEG-ESP-0254"
+      ],
+      "parecer": "Representatividade entre carregamento lento e impacto, não impulso ou dano de fadiga calculado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0409",
+      "sha256": "2349ea83ee0e22a651df9cd0c65fba450f1e72f030c6a855f77378cbc114c93d",
+      "operacao": "Quantificar aquecimento localizado sem inferir temperatura ou capacidade não dadas",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0322",
+        "TP26-ENGSEG-ESP-0207"
+      ],
+      "parecer": "Potência de aquecimento local com corrente fixa e resistência variável, não falta à massa ou descargaRC."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0410",
+      "sha256": "eac39257ecdda96984b925e47e55938757b38545348c2417275e0bf171406186",
+      "operacao": "Distinguir verificação estática e durabilidade sob curvatura repetida",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0254",
+        "TP26-ENGSEG-ESP-0012"
+      ],
+      "parecer": "Durabilidade por curvatura repetida abaixo do raio especificado, não Miner ou mudança de solvente/pressão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0411",
+      "sha256": "875fe2d58b9494025e4c45771637e8a5e8288a592d5fd01c261ff7e7f0c0a93c",
+      "operacao": "Examinar estado de parada e direção do caminho de contaminação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0031",
+        "TP26-ENGSEG-ESP-0197"
+      ],
+      "parecer": "Contaminação entre redes em estado de parada e diferencial invertido, não aplicar palavra-guia ou isolar por válvula."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0412",
+      "sha256": "d91c37957be9e4fe45d867632981fc1c89f5f4b8764c00eda97c8333f75c38ad",
+      "operacao": "Reconhecer mudança de função de autoaperto após reversão cinemática",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0161",
+        "TP26-ENGSEG-ESP-0317"
+      ],
+      "parecer": "Reversão de sentido altera autoaperto de rosca, não rotação máxima de acessório ou relação de engrenagens."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0413",
+      "sha256": "25915233699ef8b1a2000d8e1d25b8e09a4977975eac0aab6a6242f46f8dc1bd",
+      "operacao": "Avaliar conectividade estrutural após abertura e evitar métrica geométrica insuficiente",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0242",
+        "TP26-ENGSEG-ESP-0201"
+      ],
+      "parecer": "Conectividade resistente após recorte, não flambagem ou área de apoio no solo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0414",
+      "sha256": "68c3959806bf7b715d019467d375bc4f70a5098400a8113a074bba99121e2f8f",
+      "operacao": "Reconstruir topologia após falha e verificar critério de desligamento",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0322",
+        "TP26-ENGSEG-ESP-0004"
+      ],
+      "parecer": "Retorno alternativo após comando de abertura mantém bobina, não comparar dois valores dePE ou listar energias."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0415",
+      "sha256": "1e48af52f389295a2e99c1c339babf96edf7b78a96c24e8dd0550d8e920ca306",
+      "operacao": "Testar consistência de massa, volume e propriedades de fases antes de aceitar resultado",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0159",
+        "TP26-ENGSEG-ESP-0315"
+      ],
+      "parecer": "Inconsistência de fase por balanço de massa/volume com propriedades fixas, não sobrepressão líquida ou folga térmica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0416",
+      "sha256": "0cb4dc0b4949758fda5dd9f90a31833bc3ff3dea10c29397d50403e2bb94e8ab",
+      "operacao": "Alinhar transientes no tempo e distinguir soma de máximos de máximo da soma",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0353",
+        "TP26-ENGSEG-ESP-0319"
+      ],
+      "parecer": "Máximo de soma de ondas temporalmente desencontradas, não média móvel ou aquecimento acumulado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0417",
+      "sha256": "2139056ccc315dfeaee6412e929d4210384255c0e586a98fbf82761a3b93450c",
+      "operacao": "Combinar empuxos de dois corpos e capacidade aparente do lastro",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0305",
+        "TP26-ENGSEG-ESP-0003"
+      ],
+      "parecer": "Empuxos de caixa e lastro submerso com pesos aparentes, não apoio convexo ou viga."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0418",
+      "sha256": "9237bf59d7cd07768120abc9540e8caa4f81c89ea9a80bdfaf513b7efb4a898e",
+      "operacao": "Cruzar leis de escala e avaliar transferência de condição térmica",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0319",
+        "TP26-ENGSEG-ESP-0321"
+      ],
+      "parecer": "Escalas geométricas cúbica/quadrática e geração/remoção, não transiente de massa fixa ou raio crítico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0419",
+      "sha256": "5834d62b504eb1430ec1049e568bcc3f68b0519ee1007155e69ce1c399146530",
+      "operacao": "Conservar pV absoluto e distinguir volume final de volume deslocado",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0303",
+        "TP26-ENGSEG-ESP-0249"
+      ],
+      "parecer": "Trajetória isotérmica de acumulador e volume efetivamente deslocado, não reserva só por pressão ou reservatório aquecido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0420",
+      "sha256": "ba4964e538b0ffd0b74d3bf60111d97f04856ed3353ae5d626514af39d468847",
+      "operacao": "Integrar expansão e descontar trabalho do entorno com unidades coerentes",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0419",
+        "TP26-ENGSEG-ESP-0001"
+      ],
+      "parecer": "Integral de expansão menos trabalho do entorno, não pressão final ou energia de capacitor."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0421",
+      "sha256": "be6d986991c3d5b6a0f686de31634f30f504c6b74692e0ee7d4f1f13a5fc18c7",
+      "operacao": "Verificar consistência de origem dos dados de dimensionamento",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0123",
+        "TP26-ENGSEG-ESP-0331"
+      ],
+      "parecer": "Coerência de origem de dois dados de dimensionamento, não só listar determinantes ou colisão de apelidos de vaso."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0422",
+      "sha256": "71a530508f82394a8c04214410d53a72bacfbb140b4395c4bab3a693667fd45d",
+      "operacao": "Distinguir dispensa de documento e cobertura do trabalho efetivamente exercido",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0142",
+        "TP26-ENGSEG-ESP-0189"
+      ],
+      "parecer": "Cobertura de atividade eventual no registro de dispensada, não regra geral da dispensa ou finalidade genérica do produto."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0423",
+      "sha256": "1a07d4be1fe8854b54806e44073a2b4cb751a7fdc69f069ac356d05ebe8b8dbc",
+      "operacao": "Distinguir contagem de pessoas e carga horária equivalente na entrada de uma análise normativa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0123",
+        "TP26-ENGSEG-ESP-0421"
+      ],
+      "parecer": "Contagem de empregados não é equivalente de jornada, substituindo rascunho cognitivo duplicado de133;421 trata origem das entradas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0424",
+      "sha256": "0f69ef7099caaefbc2f91426e11fded01236e5539961a0aa2ed74096d02c8b75",
+      "operacao": "Separar edição de prova, evidência de certificação e acesso ao requisito",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0264",
+        "TP26-ENGSEG-ESP-0329"
+      ],
+      "parecer": "Certificado não fornece texto integral nem equivalência de cláusulas; diferente de escolher edição ou migrar avaliações históricas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0425",
+      "sha256": "dccfd6d13917aafa834363f30aaf1ae10bbed52aec9947a81fe5541f88e8d54d",
+      "operacao": "Cruzar cobertura de investigação e condições cumulativas sem presumir presença ou ausência",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0185",
+        "TP26-ENGSEG-ESP-0327"
+      ],
+      "parecer": "Negativo com cobertura de um grupo não prova ausência nos outros, não ausência total de levantamento ou positivo incompatível."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0426",
+      "sha256": "c025ffdb8b1916fa37d001a06ea6dcc66e9e2eec42177b67bec1c6605b67f8c2",
+      "operacao": "Conectar restrição do produto e orientação efetivamente usada",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0189",
+        "TP26-ENGSEG-ESP-0324"
+      ],
+      "parecer": "Restrição do produto não chega ao procedimento real, não produto errado noCA ou só finalidade declarada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0427",
+      "sha256": "ff2b958752bf3f6669cc3fa171fadebc7bc7f4ab75a2a0c6ea4ee537bf5e5bc8",
+      "operacao": "Cruzar finalidade do programa e viés de composição do indicador",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0126",
+        "TP26-ENGSEG-ESP-0176"
+      ],
+      "parecer": "Finalidade seletiva muda composição do indicador de saúde, não apenas nomear PCMSO ou tempo imortal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0428",
+      "sha256": "a4038c7e39d8d2483130b195a93dd9add589696b32f04709938809386aa1b53c",
+      "operacao": "Aplicar simultaneamente duração de atividade e limite de jornada",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0132",
+        "TP26-ENGSEG-ESP-0144"
+      ],
+      "parecer": "Duração não concluída não estende automaticamente PT além da jornada, não só rotina/não rotina ou equipe alterada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0429",
+      "sha256": "40150ad37c26bd23f0e092cfd1fd87d6781ea661e0a6491f099491e149f27db2",
+      "operacao": "Distinguir evidência de base e verificação após mudança",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0323",
+        "TP26-ENGSEG-ESP-0044"
+      ],
+      "parecer": "Laudo anterior é linha de base, não leitura posterior à intervenção; diferente de medir versus implantar ou ação eficaz."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0430",
+      "sha256": "5ae1a5bda7b41cfb9d96a81383d13bfb21cac49ef6bc80d47f57349c395429bf",
+      "operacao": "Separar elegibilidade pessoal e autorização de uma tarefa específica",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0131",
+        "TP26-ENGSEG-ESP-0132"
+      ],
+      "parecer": "Objetos distintos da autorização individual ePT da tarefa, não verificar só formação ou tipo de atividade."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0431",
+      "sha256": "c4fd44f0890787740c30b4ccbfb4446f8bff6652148dbf619944a9ca58560a2d",
+      "operacao": "Aplicar três faixas marginais, custo fixo e responsável pelo pagamento sem confundir tarifa interna e obrigação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0341",
+        "TP26-ENGSEG-ESP-0180"
+      ],
+      "parecer": "Tarifa marginal em três faixas mais custo fixo e custeio integral, não escolha de prestador linear ou delegação contratual; rascunho de delegação substituído."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0432",
+      "sha256": "2167d136aab919f9977ca7518ccb79371c29fd18bb81faa9f3d33d4db63108fa",
+      "operacao": "Distinguir finalidade compartilhada e evidências de duas estruturas aplicáveis",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0123",
+        "TP26-ENGSEG-ESP-0122"
+      ],
+      "parecer": "Finalidade comum não torna estruturas/evidências intercambiáveis; não recitar sigla ou determinantes de dimensionamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0433",
+      "sha256": "36bb673b4c4a09153dcf9d07cb3b1b58f08a4c676efc70146fd8d5cdd01789aa",
+      "operacao": "Reconstruir causalidade entre risco e medida apesar de uma associação documental invertida",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0141",
+        "TP26-ENGSEG-ESP-0337"
+      ],
+      "parecer": "Vínculos risco/medida invertidos no cadastro, não propagar atualização ou manter resultado após revisão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0434",
+      "sha256": "5b440ff98b00b911b19a346ed718f56709dc4abe837fd78f467a7e1aed5bf26d",
+      "operacao": "Conciliar versões de comunicação, fatos e decisão de outra natureza sem criar junção inexistente",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0146",
+        "TP26-ENGSEG-ESP-0339"
+      ],
+      "parecer": "Retificação versus fato e decisão de benefício não vinculada, não só coexistência dos quatro eventos ou deduplicação por pessoa/mês."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0435",
+      "sha256": "dede45652bae278e452c7a11bad994fa6c1d8bea8aa392315a33de4d3ad35cb3",
+      "operacao": "Distinguir encerramento informacional e restabelecimento da função protetora",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0125",
+        "TP26-ENGSEG-ESP-0388"
+      ],
+      "parecer": "Comunicação de dano cumprida não repara proteção física; não só dever do usuário ou cancelamento de missão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0436",
+      "sha256": "5fadc5e7bedf084782c8a89886efc7aba9f4daa72f5e5873f0c80ce50ac7fa8f",
+      "operacao": "Separar identidade binária, apresentação e inferência de autoria/intenção",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0077",
+        "TP26-ENGSEG-ESP-0378"
+      ],
+      "parecer": "Representação binária e apresentação visual na assinatura, sem inferir fraude; não editar vídeo ou reverter software/dados."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0437",
+      "sha256": "19dd42e8629be55c036017f9f756217979124af4aa405ef2d99df190a7923838",
+      "operacao": "Distinguir atividade da fonte e energia absorvida por massa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0266",
+        "TP26-ENGSEG-ESP-0028"
+      ],
+      "parecer": "Atividade nuclear e dose absorvida possuem dimensões diferentes, não dose versus taxa ou distância/tempo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0438",
+      "sha256": "4157421db3746aed809f574a8b3226ea6754a16330e1fc8d1ee1bc9d524111b8",
+      "operacao": "Relacionar transformação da amostra e representatividade da medição",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0212",
+        "TP26-ENGSEG-ESP-0349"
+      ],
+      "parecer": "Mudança de fase na linha altera amostra original, não deposição de aerossol ou conversão de vazão padrão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0439",
+      "sha256": "b4cb729fd891f1136e1ee9da5cd863b54c44778c761ed0d67334a54e4e171bbc",
+      "operacao": "Identificar caminho de transmissão que contorna a intervenção",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0157",
+        "TP26-ENGSEG-ESP-0267"
+      ],
+      "parecer": "Percurso estrutural contorna vedação de fresta, não atenuação por faixa ou aquecimento radiante."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0440",
+      "sha256": "7859bc989489d9beeb8867be8f88df89e6d4564a3f0f5555ad123661061e9d91",
+      "operacao": "Cruzar tamanho e área por massa sem converter mecanismo em conclusão toxicológica",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0265",
+        "TP26-ENGSEG-ESP-0156"
+      ],
+      "parecer": "Área superficial por massa em função de diâmetro, não massa por contagem ou conversão de gás."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0441",
+      "sha256": "7ce1444b0c7d39218a3bb8f55e5005b4dcef21a4364a2d331c4146363f5963ae",
+      "operacao": "Distinguir oscilação de pressão e grandeza eficaz energética",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0016",
+        "TP26-ENGSEG-ESP-0347"
+      ],
+      "parecer": "RMS de oscilação com média algébrica nula, não soma de fontes ou propagação geométrica em dB."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0442",
+      "sha256": "99fedd928dfc0d754ef76d6a247a792cf169242e305c9c5fc155943104ca0722",
+      "operacao": "Contar intervalos e conservar proporcionalidade entre atividade e quantidade",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0367",
+        "TP26-ENGSEG-ESP-0028"
+      ],
+      "parecer": "Três meias-vidas e quantidade residual radioativa, não sobrevivência de barreira ou dose por distância."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0443",
+      "sha256": "5f3faf27e76a72154467b9ff39cec646027b97b7ef10baccf055322ec4736e65",
+      "operacao": "Combinar mudança de fluxo por área e área efetivamente exposta",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0214",
+        "TP26-ENGSEG-ESP-0346"
+      ],
+      "parecer": "Fluxo por área e taxa total mudam em sentidos opostos, não resistência térmica em série ou recuperar massa analítica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0444",
+      "sha256": "6c37262658da8b09ca61b040b84fc5ee224539777c00ada5e5cafd3f6c9cfc9a",
+      "operacao": "Distinguir unidade analítica e população biológica após mudança de agregação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0158",
+        "TP26-ENGSEG-ESP-0110"
+      ],
+      "parecer": "Agregação muda unidades formadoras de colônia sem mudar células viáveis, nãoDNA ou especificidade clínica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0445",
+      "sha256": "8c3bbbab980e9a08f74aa1e00c73557c9205bafd94e7df8b2722fc3754134ead",
+      "operacao": "Relacionar espectro e função de transferência sem inventar ponderação legal",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0251",
+        "TP26-ENGSEG-ESP-0270"
+      ],
+      "parecer": "Resumo global igual oculta distribuição espectral e resposta, não calcular ressonância ou índice ponderado de acelerações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0446",
+      "sha256": "3963ffbe39daa63ae7be4475674545911c3e76b3766b3dc39cb838af3e026b82",
+      "operacao": "Verificar se a medida atua em todas as condições limitantes do cenário",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0151",
+        "TP26-ENGSEG-ESP-0195"
+      ],
+      "parecer": "Filtro remove agente mas não fornece oxigênio, não medir sóO2 para excluir tóxicos ou inertizar processo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0447",
+      "sha256": "62079c4d2b0f3f9a3a4c03054369f51508cbdeb437f7c72c247c22a914897e53",
+      "operacao": "Reconstruir resposta por fração de tamanho e separar método de mudança ambiental",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0265",
+        "TP26-ENGSEG-ESP-0348"
+      ],
+      "parecer": "Eficiências diferentes por tamanho geram duas massas na mesma mistura, não massa por contagem ou fuga paralela."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0448",
+      "sha256": "dfc214de32a4a65ce51057da2d6f1140163b5025d64d821690412d028d89a15e",
+      "operacao": "Integrar parâmetros logarítmicos e diferenciar medidas centrais",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0274",
+        "TP26-ENGSEG-ESP-0356"
+      ],
+      "parecer": "Dispersão logarítmica altera média para mediana fixa, não reta de calibração log ou estratos populacionais."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0449",
+      "sha256": "e4e8f9b46c1e504b65b23b9be25a73392dedc39bb2d865638b2a3e8930f04016",
+      "operacao": "Aplicar mudança de fase e distinguir remanescente de remoção relativa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0344",
+        "TP26-ENGSEG-ESP-0358"
+      ],
+      "parecer": "Resfriar cruza saturação e condensa com teto de vapor, não fração molar a pressão variável ou purga com fundo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0450",
+      "sha256": "0b3a89194cf29d19138a636ce70e598201ba0cac47f6e6f9b4ca5befced798ab",
+      "operacao": "Fechar estequiometria e rejeitar indicador de risco baseado em uma única espécie",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0154",
+        "TP26-ENGSEG-ESP-0355"
+      ],
+      "parecer": "Reação cria espécieP não avaliada pelo reagente residual, não via cutânea ou interferência no analisador."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0451",
+      "sha256": "1980a9a0ade91c9bd466a6c6fc5e77bccfd49397ccfabaf523c8b68a4cb76ba7",
+      "operacao": "Compatibilizar janela da massa e do volume sem inventar dados faltantes",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0015",
+        "TP26-ENGSEG-ESP-0350"
+      ],
+      "parecer": "Massa e volume pertencem a janelas incompatíveis após perder amostra; não reponderar média ou calcular decaimento físico conhecido."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0452",
+      "sha256": "d53d66695c0d5f47df5fd61ec04be44eaf2bf92868570bb009f8c15a5c82bc53",
+      "operacao": "Identificar erro de ganho e inverter calibração de um ponto com origem conhecida",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0399",
+        "TP26-ENGSEG-ESP-0274"
+      ],
+      "parecer": "Ganho multiplicativo com origem conhecida, não viés aditivo de método ou calibração logarítmica."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0453",
+      "sha256": "b926643d3cf12912dd4ab435756c6a13293b8b7e92840b17c5f9a4622819d2f0",
+      "operacao": "Combinar frequência de eventos e intensidade energética antes/depois",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0025",
+        "TP26-ENGSEG-ESP-0351"
+      ],
+      "parecer": "Frequência de eventos muda junto da energia por evento, não atenuar só um período ou apontar tarefa dominante."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0454",
+      "sha256": "43a0de5de7e5adbdb9aff3862c288b027bbbf7bede3fe907046158588dd2fdb1",
+      "operacao": "Relacionar parâmetro por demanda e intensidade de utilização",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0220",
+        "TP26-ENGSEG-ESP-0364"
+      ],
+      "parecer": "Base por demanda com intensidade de partidas, não probabilidade anual ou ponderação por tempo em modo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0455",
+      "sha256": "85fdbc232e1cb187182927ba7dd1610ba7519abc1a5624cab98e33ca23149a60",
+      "operacao": "Identificar desvio relacional não coberto por faixas individuais",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0031",
+        "TP26-ENGSEG-ESP-0167"
+      ],
+      "parecer": "Restrição de razão entre duas alimentações, não fluxo reverso ou nó de partida não estudado."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0456",
+      "sha256": "c217916e0ebb2355f7f462cdd83d1dc008238fb792e8e1011fa03e7bbce3eeb0",
+      "operacao": "Separar prova funcional e restabelecimento de configuração operacional",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0363",
+        "TP26-ENGSEG-ESP-0247"
+      ],
+      "parecer": "Estado de inibição pode persistir após teste aprovado, não representatividade de pressão ou retorno após falta de alimentação."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0457",
+      "sha256": "f01d06226ce96169155aad4562e3c2f2d80a11a93446cc0d74cc4e14cc2ca16c",
+      "operacao": "Aplicar função de perda antes de tirar esperança e comparar com critério linear",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0373",
+        "TP26-ENGSEG-ESP-0365"
+      ],
+      "parecer": "Esperança da perda ao quadrado muda ordenação, não restrição de cauda ou desempates lexicográficos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0458",
+      "sha256": "b318efab6adc57598e2f053a55f2b9e53009f166d3d94f90221bf9f7817c3374",
+      "operacao": "Identificar incompatibilidade entre dinâmica real e hipótese acíclica de modelo",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0221",
+        "TP26-ENGSEG-ESP-0371"
+      ],
+      "parecer": "Realimentação viola modelo acíclico, não compararFTA/ETA ou propagar cadeia de estados já fornecida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0459",
+      "sha256": "135296b5e0c5b009cc9095de7052f41c81096641a0d9e4ad202d4acec903776f",
+      "operacao": "Escolher granularidade funcional adequada à decisão de controle",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0223",
+        "TP26-ENGSEG-ESP-0276"
+      ],
+      "parecer": "Agregação parada apaga funções e efeitos opostos, não escolher entre abrir/fechar ou classificar fonte/cenário."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0460",
+      "sha256": "ae4148bc4a380de284f4864419e05554bf5a75db39d95aa40cb261943cf1567a",
+      "operacao": "Construir ramos de sucesso com reserva e cobertura de transferência",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0283",
+        "TP26-ENGSEG-ESP-0368"
+      ],
+      "parecer": "Reserva com transferência condicionada e sucesso direto disjunto, não votação majoritária ou segunda tentativa tardia."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0461",
+      "sha256": "b4202afb9b2a810a2ce0ffc5c6e1e00c030300379d282b37cb5a5bb93f387f7f",
+      "operacao": "Cruzar cobertura de caminhos e eficácia condicional antes de comparar benefício",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0039",
+        "TP26-ENGSEG-ESP-0369"
+      ],
+      "parecer": "Cobertura de rotas exclusivas e eficácia percentual, não redução/custo genérica ou informação imperfeita."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0462",
+      "sha256": "2bf342c2cc8e8edae268ea27045f19a00d25e2847bc69538d6ab0013a838653b",
+      "operacao": "Produzir limites robustos à dependência e distinguir ponto condicionado de intervalo admissível",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0038",
+        "TP26-ENGSEG-ESP-0372"
+      ],
+      "parecer": "Limites da união sem hipótese de dependência, não conjunta conhecida ou mistura ambiental com probabilidades completas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0463",
+      "sha256": "43f6df61488c58a398ceedc9b574abed380f73a517e37c5b258f550aac0e96e1",
+      "operacao": "Simplificar expressão por partição de modos e preservar exclusividade dos ramos",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0370",
+        "TP26-ENGSEG-ESP-0278"
+      ],
+      "parecer": "Dois ramos exclusivos particionam falha comum, não cortes com interseção real ou simultaneidade impossível doAND."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0464",
+      "sha256": "ea4173e18979e00fe4463e00e4679df402cc5c62a274095adfefd2068a6631d1",
+      "operacao": "Relacionar objetivo e validade de um indicador de eficácia",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0043",
+        "TP26-ENGSEG-ESP-0377"
+      ],
+      "parecer": "Satisfação não mede desempenho do controle definido, não campo preenchido ou censura de duração de ações."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0465",
+      "sha256": "2d1f419e059c5f39941b562c679385e7dc0cd3e82a63e2ed7590a3a1e0a912d9",
+      "operacao": "Avaliar condições de transferência de uma solução técnica",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0012",
+        "TP26-ENGSEG-ESP-0363"
+      ],
+      "parecer": "Transferir solução entre solventes/geometrias requer premissas, não avaliar uma mudança interna ou ensaio sob pressão diferente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0466",
+      "sha256": "86c4828a1847f83612338ef7d1091f15fabc24b885ad88dba1e5d97b5d27f55b",
+      "operacao": "Identificar fronteira incompleta de integridade documental",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0065",
+        "TP26-ENGSEG-ESP-0378"
+      ],
+      "parecer": "Campo externo altera instrução apesar de arquivo bloqueado, não revisão retida ou retorno de versão incompatível."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0467",
+      "sha256": "abd2f09f4c42533cd759c9a3c37f2527fbb978f48c2fc467d7b9f7c08155b3f7",
+      "operacao": "Detectar ciclo de delegação sem encerramento decisório",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0172",
+        "TP26-ENGSEG-ESP-0072"
+      ],
+      "parecer": "Delegação circular entre contratadas não fecha decisão da interface, não atribuir recomendação/aceitação ou matrizRACI dada."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0468",
+      "sha256": "a613772589b3ad7c4afcddae1a1c4502db404df07d1ff41b70067b9a7e5fabec",
+      "operacao": "Combinar balanço de fila, horizonte e meta de redução com capacidade adicional",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0376",
+        "TP26-ENGSEG-ESP-0381"
+      ],
+      "parecer": "Capacidade necessária para reduzir fila em horizonte, não saldo pontual ou metas locais com horas distintas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0469",
+      "sha256": "99d68b60b6a026b17216def586ec8a42ff4f78bc870b2aeecedfb7995761df12",
+      "operacao": "Distinguir cobertura marginal e cruzada e demonstrar mínimo por limite inferior",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0229",
+        "TP26-ENGSEG-ESP-0289"
+      ],
+      "parecer": "Cobertura marginal de funções e turnos, não interseção de cursos ou nota de fornecedor."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0470",
+      "sha256": "a223c033b99c8fa0f08ad7c0edbfb6edeb2983b7015b05b019c5c516f34f81cc",
+      "operacao": "Condicionar inferência negativa à capacidade de observação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0175",
+        "TP26-ENGSEG-ESP-0153"
+      ],
+      "parecer": "Não registro fora do campo de câmera não exclui evento, não relatos dependentes ou resposta cruzada de sensor."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0471",
+      "sha256": "c0086c92f2235c68add272cb518cdddca408e111a9aa5cc409368d38e9e48caa",
+      "operacao": "Identificar população e unidade do denominador antes de nomear indicador",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0046",
+        "TP26-ENGSEG-ESP-0382"
+      ],
+      "parecer": "Razão mortes/acidente não é incidência por pessoa nem proporção de acidentes fatais; diferente de taxa por horas ou episódios sucessivos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0472",
+      "sha256": "c88725a1c2a7b60c6c654d603b59ce91819a99f21f84f9674f042460c11f8fe1",
+      "operacao": "Calcular duas medidas centrais e distinguir robustez estatística de relevância do cenário",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0217",
+        "TP26-ENGSEG-ESP-0032"
+      ],
+      "parecer": "Mediana robusta e média de custos com extremo relevante, substituindo rascunho de dano material próximo de73; nãoP90 ouNPR ordinal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0473",
+      "sha256": "f6f8251ee0be307b67469c6445a14b1223d155e99a7d3023ab1e387166cec29e",
+      "operacao": "Separar preservação da evidência e reconstrução após intervenção de socorro",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0292",
+        "TP26-ENGSEG-ESP-0077"
+      ],
+      "parecer": "Socorro já alterou o estado e exige reconstrução honesta, não planejar exame destrutivo ou conservar vídeo digital."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0474",
+      "sha256": "8a61fee8d569631a61addd7a23a57066e3f19fbea60adecdc65ab054d62bbf1a",
+      "operacao": "Avaliar testabilidade e evitar explicação circular centrada em rótulo",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0232",
+        "TP26-ENGSEG-ESP-0078"
+      ],
+      "parecer": "Hipótese que acomoda qualquer evidência não discrimina mecanismo, não viés retrospectivo ou condição necessária/suficiente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0475",
+      "sha256": "aad027cbd2f74cf5355238045e6c5ded478dd425fc1944c8bd335771eecf67f4",
+      "operacao": "Distinguir efeito de prevenção e avaliação de previsão sob regime diferente",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0234",
+        "TP26-ENGSEG-ESP-0176"
+      ],
+      "parecer": "A prevenção muda o desfecho usado para avaliar o alerta, não regressão à média ou seleção por permanência."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0476",
+      "sha256": "c193e2c9ba5688250181be6cc012fcbdef51aef5d46d73a4cb04d9823d787fac",
+      "operacao": "Separar custo afundado e diferencial relevante entre alternativas",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0075",
+        "TP26-ENGSEG-ESP-0375"
+      ],
+      "parecer": "Custo afundado comum não deve ser imputado só a uma alternativa, não custo recuperado ou compromisso versus pagamento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0477",
+      "sha256": "b2df4f88622177ab7ed5c23d1fadc0fce184475d297c6f09d55562bb472f1ad9",
+      "operacao": "Distinguir data do fato, atraso de informação e comparabilidade de coortes",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0176",
+        "TP26-ENGSEG-ESP-0377"
+      ],
+      "parecer": "Maturação de notificações por coorte de ocorrência, não tempo imortal ou seleção apenas de ações encerradas; substitui rascunho próximo de399."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0478",
+      "sha256": "c9f665c774f7de710358bf8354226970c71758379395db439fbe95c04e8113c3",
+      "operacao": "Construir denominador específico e testar inversão por diluição com tempo não exposto",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0046",
+        "TP26-ENGSEG-ESP-0048"
+      ],
+      "parecer": "Horas sem o mecanismo diluem denominador específico e invertem ordenação, não taxa simples ou mistura de atividades de riscos diferentes."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0479",
+      "sha256": "f86035361eff8b9650a0b2880d031a26e660cd34182d0ae8ea76f87fd81ff0db",
+      "operacao": "Combinar multiplicidade de eventos e população sem confundir incidência acumulada e contagem",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0074",
+        "TP26-ENGSEG-ESP-0382"
+      ],
+      "parecer": "Contar recorrências por pessoa versus probabilidade de pelo menos um, não número de vítimas ou episódios de uma lesão."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0480",
+      "sha256": "dd130478efe1dd9df425fd351fdeab75c7aef687844c95e145cf84dc5dc85967",
+      "operacao": "Distinguir concordância e validade contra referência em tabela completa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0287",
+        "TP26-ENGSEG-ESP-0114"
+      ],
+      "parecer": "Concordância sem padrão não identifica quem errou, não calcularkappa ou valor preditivo contra verdade conhecida."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0481",
+      "sha256": "6aca6fd8b5f30a4181fe6ab4fae0cfdc5e4ef94e0cf21ea716952790c2898f4c",
+      "operacao": "Verificar fronteira física do abrigo e caminho ativo de admissão",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0162",
+        "TP26-ENGSEG-ESP-0390"
+      ],
+      "parecer": "Tomada mecânica de ar contorna portas fechadas no abrigo, não trabalho a quente junto à pintura ou duas rotas com passarela comum."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0482",
+      "sha256": "82cd7893bf4fe70dfa073d052541ea4b0bb10c7eaffa5ab53e290b1ec47a4e6e",
+      "operacao": "Fechar balanço de contenção com ocupação e entradas antes da remoção",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0099",
+        "TP26-ENGSEG-ESP-0090"
+      ],
+      "parecer": "Capacidade de contenção considera chuva e volume ocupado, não reservatório com saída/reposição ou módulos devolvidos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0483",
+      "sha256": "6ac89c7b6dbf6c5097c88c39aa0606277d3ded5bea463ad4d52bcfc01f5da9cf",
+      "operacao": "Comparar dois cronogramas a partir de mesma referência e verificar margem estrita",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0319",
+        "TP26-ENGSEG-ESP-0391"
+      ],
+      "parecer": "Chegada de frente e fim de saída coincidem sem margem estrita, não aquecer massa ou ordenar missões por prazo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0484",
+      "sha256": "5533d2ac4ed1c7e5220a5710c71f76cd5ba39b7a43ce2cbbb0ca2886b1db9d26",
+      "operacao": "Preservar condição de confirmação diante de incerteza de comunicação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0083",
+        "TP26-ENGSEG-ESP-0388"
+      ],
+      "parecer": "Envio sem confirmação não distingue anuência, recusa ou falha, não sóreadback ou cancelamento parcial."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0485",
+      "sha256": "e9077b7c8fb08ca0ab44c583b3a8d26f4498ca73a4c50bc87ef56062f334e56a",
+      "operacao": "Aplicar restrição temporal ao segmento completo antes de otimizar duração",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0051",
+        "TP26-ENGSEG-ESP-0391"
+      ],
+      "parecer": "A janela exige terminar a travessia antes de fechar, não apenas mudar rota por pluma ou ordenar duas tarefas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0486",
+      "sha256": "ca464071a016ec8e357902e9c684637bf18e03a002d55e1b689c126bb849d026",
+      "operacao": "Contabilizar trabalho e transições necessárias até o estado final da missão",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0085",
+        "TP26-ENGSEG-ESP-0380"
+      ],
+      "parecer": "Transições para adaptador e restauração de estado final contam, não só escolher conexão compatível ou caminho crítico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0487",
+      "sha256": "ae8af85ff71d7c90e75bda628d92f8f80a38e18fcf76bdfd7791afac7d17dc80",
+      "operacao": "Separar tempo do fato, transporte e validade atual de estado operacional",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0383",
+        "TP26-ENGSEG-ESP-0329"
+      ],
+      "parecer": "Fato e recepção fora de ordem sem relógios distintos, não corrigir offsets ou migrar histórico normativo."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0488",
+      "sha256": "ce978aa131c9d651aaea3ccb9110c4e687a09a9d76652f76d76f69decd83a7e4",
+      "operacao": "Distinguir temperatura real e resposta radiométrica de superfícies diferentes",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0267",
+        "TP26-ENGSEG-ESP-0211"
+      ],
+      "parecer": "Emissividade/reflexão altera temperatura aparente, não calor radiante sobre pessoa ou ajuste de instrumento."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0489",
+      "sha256": "961f729c00cc974ed70c424a19438abd5d9a50e853c261c958691a714a275622",
+      "operacao": "Compatibilizar energia específica, vazão mássica e eficiência",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0319",
+        "TP26-ENGSEG-ESP-0027"
+      ],
+      "parecer": "Poder calorífico e consumo dão potência de combustão, não acúmulo de temperatura ou balanço de calor corporal."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0490",
+      "sha256": "5e98ecf113d0e22cd2e2b9806b8468174c5b8efb3e9dc34579bc788db24e811f",
+      "operacao": "Transformar velocidades relativas e interpretar propagação a montante",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0318",
+        "TP26-ENGSEG-ESP-0163"
+      ],
+      "parecer": "Transformação de velocidade da chama entre referenciais, não impulso de jato ou golpe hidráulico."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0491",
+      "sha256": "be2f65dcd18d30d503f193da24b1ff522d30dc5384ffe26a83557a1b1fbe9940",
+      "operacao": "Aplicar crescimento quadrático e interpretar corretamente redução relativa",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0319",
+        "TP26-ENGSEG-ESP-0293"
+      ],
+      "parecer": "Crescimento quadrático de potência e efeito do tempo, não aquecimento linear ou tempo de queda."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0492",
+      "sha256": "c9f436a0a6c255e26cfb96eb0c7f9ea804014448979a3669705b1f5a5efb1b8e",
+      "operacao": "Fechar estequiometria e quantidade gasosa sem converter resultado em liberação segura",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0450",
+        "TP26-ENGSEG-ESP-0392"
+      ],
+      "parecer": "ReaçãoF+3O2 muda total molar e deixa combustível, não reação1:1 de agentes ou extinção sem isolar fonte."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0493",
+      "sha256": "71c0345cb1375a488b9bb94408c27fec4fd210742ccf388096f5cd29bfe7f4ad",
+      "operacao": "Resolver distribuição acoplada e curva comum da fonte",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0098",
+        "TP26-ENGSEG-ESP-0095"
+      ],
+      "parecer": "Dois ramais acoplados pela vazão total da bomba, não um ramal isolado ou perdas de pressão já dadas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0494",
+      "sha256": "f755e10e238cdd9aacae6bf040747843af6d77d29c93564cf3f7fe816154c5c1",
+      "operacao": "Aplicar definição explícita de contraste sem inventar limiar normativo",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0107",
+        "TP26-ENGSEG-ESP-0298"
+      ],
+      "parecer": "Definição de contraste por luminâncias, não ângulo visual ou contagem de códigos."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0495",
+      "sha256": "f4c029d2b123a79729108c2ee9a5378b58868bad5746c059792aad7de67ca949",
+      "operacao": "Integrar proteção individual, destreza e capacidade de ação crítica",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0342",
+        "TP26-ENGSEG-ESP-0104"
+      ],
+      "parecer": "Luva compromete comando crítico sem eliminar proteção química, não incompatibilidade entre peças ou divisão de carga."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0496",
+      "sha256": "92500e2bced1438ecbd9dd341d7dc4e99ba94305a2d7166b9fe0f3a9d00bfbfd",
+      "operacao": "Relacionar visibilidade do modo e previsibilidade do efeito de uma ação",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0396",
+        "TP26-ENGSEG-ESP-0103"
+      ],
+      "parecer": "Modo invisível muda significado de gesto, não etapa de retomada ou disposição espacial."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0497",
+      "sha256": "04bfc48fd4a02857342d7dd47cbd10b2af064bb852993a567ac526da9f79013c",
+      "operacao": "Enumerar trajetória dinâmica e otimizar pico em vez de só duração total",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0108",
+        "TP26-ENGSEG-ESP-0380"
+      ],
+      "parecer": "Estado de carga/recuperação permite otimizar pico, não só durações limites ou caminho crítico de tarefas."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0498",
+      "sha256": "82a7bb9c9c963f8ffde5b8700083cb28b77d64e74c6a1725a20c1d3ac313ec39",
+      "operacao": "Relacionar janela etiológica e validade temporal da evidência de exposição",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0111",
+        "TP26-ENGSEG-ESP-0399"
+      ],
+      "parecer": "Longa latência exige reconstrução histórica após mudança de processo, não janela curta de biomarcador ou ganho aditivo de método."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0499",
+      "sha256": "e64a9d89e0990e60121d2768689c2ae6cf3f6b0bd1ab49dc6e0c7aa556352f68",
+      "operacao": "Distinguir redução física e deslocamento de fronteira contábil",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0060",
+        "TP26-ENGSEG-ESP-0281"
+      ],
+      "parecer": "Terceirizar muda fronteira das emissões sem eliminar produção, não intensidade versus absoluto ou vizinhos fora de modelo de acidente."
+    },
+    {
+      "id": "TP26-ENGSEG-ESP-0500",
+      "sha256": "b32ba37c51276e41f6ce0dbc5238382e979ff92cee29d1724e16126a401b17a6",
+      "operacao": "Resolver balanços acoplados de água e sal e limitar conclusão de reúso",
+      "contrastes": [
+        "TP26-ENGSEG-ESP-0400",
+        "TP26-ENGSEG-ESP-0357"
+      ],
+      "parecer": "Balanço conjunto de água/sal com evaporação e purga, não reciclagem de massa ou filtração em série-paralelo."
+    }
+  ]
+}

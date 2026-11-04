@@ -605,5 +605,236 @@
     "explanation": "O relato ordena som e percepção visual, não necessariamente início físico da abertura. O registro informa o evento em14:03; falta datar o alarme com fonte adequada ou reconhecer a incerteza. Não há base para descartar honestidade ou inventar latência.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0470",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "evidencia_negativa_e_capacidade_do_registro",
+    "difficulty": "media",
+    "statement": "Uma câmera não mostra a queda, mas o ponto estava fora de seu campo visual. O relatório usa isso para afirmar que não houve queda. Qual interpretação é correta?",
+    "options": [
+      "Não aparecer em um registro equivale sempre a comprovar que o fato é falso.",
+      "Ausência na gravação não exclui evento fora da cobertura do registro.",
+      "A gravação prova inexistência de qualquer evento no local inteiro.",
+      "Qualquer câmera cobre automaticamente todos os pontos de uma instalação.",
+      "Campo visual não altera a capacidade de observar uma queda."
+    ],
+    "answer": 1,
+    "explanation": "Evidência negativa só exclui o que o sistema seria capaz de registrar nas condições pertinentes. O evento descrito pode não aparecer justamente pela falta de cobertura.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0471",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "razao_de_mortes_por_acidente_e_denominador",
+    "difficulty": "media",
+    "statement": "Em um conjunto de100 acidentes com pessoas atingidas, houve5 mortes. O relatório chama5/100 de taxa de acidentes por trabalhador, mas não informa o número de trabalhadores. Qual descrição respeita o denominador dado?",
+    "options": [
+      "Razão de mortes por acidente no conjunto observado, não incidência por trabalhador.",
+      "Frequência por milhão de horas, sem necessidade de horas trabalhadas.",
+      "Ausência de indicador possível, mesmo para o conjunto observado.",
+      "Probabilidade anual de morte para qualquer trabalhador da empresa.",
+      "Incidência populacional comprovada de5%, independentemente da população."
+    ],
+    "answer": 0,
+    "explanation": "5/100 é0,05 morte por acidente do conjunto, não uma incidência por trabalhador ou taxa por hora. Também não é necessariamente proporção de acidentes fatais: várias mortes podem pertencer ao mesmo acidente. O denominador e a unidade devem permanecer explícitos.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0472",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "mediana_de_custos_e_evento_extremo",
+    "difficulty": "media",
+    "statement": "Cinco ocorrências têm custos internos de1,1,2,2 e100 unidades monetárias. A equipe usa a mediana como descrição central e pretende excluir o último evento da análise de cenários só porque ele não altera muito essa medida. Qual cálculo e interpretação são corretos?",
+    "options": [
+      "Mediana100 e média21,2; o máximo sempre define a posição central.",
+      "Mediana21,2 e média2; a maior ocorrência deve ser excluída automaticamente.",
+      "Mediana2 e média21,2; uma mediana baixa prova que nenhum cenário de custo alto merece análise.",
+      "Mediana2 e média21,2; a robustez da mediana não torna irrelevante o evento extremo para analisar consequências.",
+      "Mediana1 e média20; só os dois menores valores integram medidas centrais."
+    ],
+    "answer": 3,
+    "explanation": "A posição central ordenada é o terceiro valor2. A soma106 dividida por5 dá21,2. A mediana é menos sensível à magnitude do extremo, mas isso não é critério de irrelevância do cenário de alta consequência.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0473",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "investigacao_e_alteracao_por_socorro",
+    "difficulty": "alta",
+    "statement": "Para socorrer uma pessoa, uma peça foi movida antes de documentar sua posição original. A investigação recebe fotos só do estado após o socorro. Qual tratamento preserva a honestidade da reconstrução?",
+    "options": [
+      "Excluir do relatório o socorro para que as imagens pareçam consistentes.",
+      "Apresentar as fotos posteriores como registro direto da posição antes do socorro.",
+      "Declarar impossível qualquer investigação porque houve alteração necessária.",
+      "Recolocar a peça por memória e chamar a nova foto de original.",
+      "Identificar a alteração e sua origem, distinguindo estado observado nas fotos e estado anterior ainda a reconstruir."
+    ],
+    "answer": 4,
+    "explanation": "O estado posterior continua sendo evidência, mas seu contexto inclui alteração. A reconstrução pode usar outras fontes e incerteza explícita; não se fabricam imagens originais nem se ignora a mudança.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0474",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "investigacao_e_hipotese_nao_falsificavel",
+    "difficulty": "alta",
+    "statement": "Após uma falha, a equipe formula a hipótese de que ocorreu por desatenção, e declara qualquer evidência compatível: se houve alarme, foi ignorado; se não houve, deveria ter sido imaginado. Qual problema metodológico aparece?",
+    "options": [
+      "Relatos discordantes devem ser apagados para preservar a explicação inicial.",
+      "A ausência de previsão testável elimina a necessidade de analisar barreiras e informação disponível.",
+      "A hipótese foi protegida de qualquer teste discriminante e não orienta verificação de mecanismo específico.",
+      "O uso de uma palavra sobre comportamento prova que o mecanismo causal já foi demonstrado.",
+      "Uma hipótese que aceita todo resultado é automaticamente a mais bem confirmada."
+    ],
+    "answer": 2,
+    "explanation": "Uma explicação que acomoda indistintamente todo resultado sem teste não discrimina causas. É necessário formular relações e evidências que possam apoiar ou contrariar mecanismos específicos, sem pressupor culpa.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0475",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "paradoxo_da_prevencao_na_avaliacao_de_modelo",
+    "difficulty": "alta",
+    "statement": "Um modelo sinalizou alto risco e motivou intervenção que impediu o mecanismo físico previsto. A avaliação compara a previsão com o dano posterior já sob intervenção e chama todo caso sem dano de erro do modelo. Qual problema precisa ser considerado?",
+    "options": [
+      "Um caso prevenido prova que nunca existiu perigo antes da ação.",
+      "A intervenção modifica retroativamente o que o modelo observava antes dela.",
+      "É possível medir diretamente o desfecho contrafactual do mesmo caso só olhando o resultado prevenido.",
+      "Separar o risco previsto sem intervenção do desfecho observado após a prevenção.",
+      "Todo alerta seguido de ausência de dano é necessariamente falso, mesmo com mecanismo controlado."
+    ],
+    "answer": 3,
+    "explanation": "A previsão pode ter sido sobre estado sem a medida que depois alterou o mecanismo. O resultado observado sob ação não identifica automaticamente o que ocorreria sem ela; não se prova acerto de todo alerta, mas tampouco erro por esse critério isolado.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0476",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "custos_incrementais_e_custo_afundado",
+    "difficulty": "alta",
+    "statement": "Após um acidente, foram gastosR$30mil irrecuperáveis em estudo. Agora se escolhe reparar porR$20mil ou substituir porR$25mil, com mesmos benefícios futuros assumidos. O gestor soma os30mil só ao reparo para preferir substituição. Qual comparação é consistente para esta decisão incremental?",
+    "options": [
+      "Comparar50mil de reparo com25mil de substituição, atribuindo só ao reparo o passado comum.",
+      "Ignorar todo custo futuro e decidir apenas pelo estudo já pago.",
+      "Comparar20mil e25mil futuros; os30mil já incorridos são comuns e irrecuperáveis.",
+      "Recuperar automaticamente os30mil ao escolher substituição.",
+      "Preferir sempre substituição porque custo maior demonstra desempenho maior, apesar da hipótese."
+    ],
+    "answer": 2,
+    "explanation": "O gasto passado não muda entre alternativas e não é recuperável. Sob benefícios futuros iguais, reparo tem menor desembolso incremental20 versus25; não se conclui segurança real fora das hipóteses.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0477",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "atraso_de_notificacao_e_maturacao_da_coorte",
+    "difficulty": "alta",
+    "statement": "Um registro interno agrupa ocorrências pelo mês do fato e recebe notificações com atraso. Uma análise do próprio banco informa que90% chegam até30dias após o fato, sem informar a distribuição antes disso. No painel, um mês já tem60dias de acompanhamento e outro só5dias. Qual comparação evita interpretar automaticamente menos notificações recentes como menos acidentes?",
+    "options": [
+      "Aplicar90% como completude aos cinco dias, embora esse percentual se refira a trinta.",
+      "Comparar coortes com maturação compatível ou tratar explicitamente o atraso, sem assumir completa a coorte de cinco dias.",
+      "Concluir que todo mês com menos notificações recebidas teve necessariamente menos ocorrências.",
+      "Tratar fatos ainda não notificados como ocorrências comprovadamente inexistentes.",
+      "Multiplicar o número recente porseis porque30/5=6, supondo linearidade dos atrasos não informada."
+    ],
+    "answer": 1,
+    "explanation": "O tempo para observar notificações é diferente. A informação90%até30dias não define a completude aos5dias nem autoriza regra de três. É um estudo do registro interno, não prazo legal deCAT ou estimativa causal de frequência.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0478",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "taxa_padronizada_com_tempo_inativo",
+    "difficulty": "muito_alta",
+    "statement": "Uma operação registra6 eventos em120mil horas efetivamente expostas e40mil horas sem aquela operação. Outra registra8 eventos em200mil horas expostas e nenhum tempo sem operação. O indicador específico deve usar só horas expostas ao mecanismo. Quais taxas por milhão e qual ordenação resultam?",
+    "options": [
+      "50 e40; a diferença prova que o controle da segunda causou menor taxa.",
+      "37,5 e40; a primeira é menor, incluindo todo tempo indiscriminadamente.",
+      "37,5 e50; trocar os tempos entre operações mantém o indicador.",
+      "6 e8; basta comparar contagens para concluir menor taxa da primeira.",
+      "50 e40; a primeira é maior, embora usar160mil indevidamente a fizesse parecer menor."
+    ],
+    "answer": 4,
+    "explanation": "6/120000×10⁶=50 e8/200000×10⁶=40. Incluir40mil horas sem o mecanismo diluiria a primeira para37,5. Ordenar taxas não estabelece causa de sua diferença.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0479",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "eventos_recorrentes_e_probabilidade_de_pessoa",
+    "difficulty": "muito_alta",
+    "statement": "Em100 pessoas observadas por igual período,20 sofreram pelo menos um evento: dez tiveram um e dez tiveram três. Qual número de eventos, proporção de pessoas atingidas e limite de usar eventos/100 como probabilidade individual?",
+    "options": [
+      "40 eventos;20%; eventos/100 conta recorrência e não é a proporção de pessoas com evento.",
+      "20 eventos;20%; múltiplos eventos da mesma pessoa devem desaparecer de qualquer indicador.",
+      "100 eventos;100%; toda pessoa observada foi atingida.",
+      "40 eventos;40%; cada evento representa obrigatoriamente uma pessoa diferente.",
+      "30 eventos;30%; deve-se usar apenas o maior número por grupo."
+    ],
+    "answer": 0,
+    "explanation": "Eventos=10×1+10×3=40. Pessoas atingidas20/100=20%. A razão40/100 é contagem por pessoa no período, não proporção com pelo menos um; é preciso distinguir recorrência e risco de pessoa.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0480",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "sensibilidade_de_classificacao_em_investigacao",
+    "difficulty": "muito_alta",
+    "statement": "Dois investigadores classificaram100 registros: ambos acidentário em30; sóA em20; sóB em10; ambos não em40. Não há referência-padrão. Qual concordância bruta e qual conclusão não pode ser extraída só dessa tabela?",
+    "options": [
+      "40%; somente concordâncias negativas contam como acordo.",
+      "70%; os20 marcados só porA são falsos positivos comprovados.",
+      "70%; sem referência, desacordo não identifica qual investigador errou.",
+      "60%; basta somar as marginais positivas dos dois investigadores.",
+      "90%; o investigador que marca mais acidentários é necessariamente correto."
+    ],
+    "answer": 2,
+    "explanation": "Acordos30+40=70/100. Sem verdade de referência, os desacordos não identificam qual avaliador errou. A tabela permite acordo, não sensibilidade/especificidade deA contra padrão inexistente.",
+    "etapa": 1,
+    "lote": 7
   }
 ]

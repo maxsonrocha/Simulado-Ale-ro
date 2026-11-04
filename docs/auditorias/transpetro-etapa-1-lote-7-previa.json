@@ -1,0 +1,112 @@
+{
+  "baseCommit": "673ebc6",
+  "merge": "PR #9",
+  "totalAnterior": 600,
+  "arquivos": [
+    {
+      "arquivo": "data/transpetro/eng_seguranca/acidentes.json",
+      "antes": 29,
+      "novas": 11,
+      "depois": 40,
+      "sha256Anterior": "c2fe077a062b67c0dbb0823312d3308c9c616992ce4c14274d94ece3b34e3035"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/desenvolvimento_sustentavel.json",
+      "antes": 8,
+      "novas": 2,
+      "depois": 10,
+      "sha256Anterior": "1bda6038e6ad91219f5b319b4f850a63cd81cf59b007a9d6516cd70001fb9e35"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/emergencias.json",
+      "antes": 23,
+      "novas": 7,
+      "depois": 30,
+      "sha256Anterior": "fca2b908ad7383f2b1c0e61b3dd448f562f7b59085d5de66581bd87393a521ab"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ergonomia.json",
+      "antes": 16,
+      "novas": 4,
+      "depois": 20,
+      "sha256Anterior": "8031dda3b0a18d047b977c0f1e9277c899452bc0885dbbb456bfd7986acb57de"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gerenciamento_riscos.json",
+      "antes": 50,
+      "novas": 10,
+      "depois": 60,
+      "sha256Anterior": "401b54ebb62bf9e6317fc173f0628737efb582b80173133bb0f3f7bbb31357ac"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/gestao_sms.json",
+      "antes": 34,
+      "novas": 6,
+      "depois": 40,
+      "sha256Anterior": "97eb621a987a56a24c30e81044cf408cea6d26bbc44131d93d904e37301f947d"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/higiene_ocupacional.json",
+      "antes": 63,
+      "novas": 17,
+      "depois": 80,
+      "sha256Anterior": "dae740b321551e8533615cbfe76d04edcfed3419b80d59c91ec150705daca7f9"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/incendio.json",
+      "antes": 18,
+      "novas": 6,
+      "depois": 24,
+      "sha256Anterior": "eed07c6dac52f025340721a6501d9008a09edecdc547550242ed2d3b8106b114"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/ingles.json",
+      "antes": 100,
+      "novas": 0,
+      "depois": 100,
+      "sha256Anterior": "4917e669531036e1edb3e95822841e12ff5b875058775316107b35442d126868"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/legislacao_nr.json",
+      "antes": 74,
+      "novas": 16,
+      "depois": 90,
+      "sha256Anterior": "17d72edd2ae48645ed6cb78efcb4c2511d96e6383c456851564fab374f7a5fc9"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/portugues.json",
+      "antes": 100,
+      "novas": 0,
+      "depois": 100,
+      "sha256Anterior": "b65f64c1ef5ebef750d0baba7d68c5e58e870f2192862bf7f55c1742f57e219e"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/prevencao_riscos.json",
+      "antes": 70,
+      "novas": 20,
+      "depois": 90,
+      "sha256Anterior": "8102be74068be9de137c5645ffcf05019b2a0f99777ee1a984617c9d3fa4ca79"
+    },
+    {
+      "arquivo": "data/transpetro/eng_seguranca/saude_ocupacional.json",
+      "antes": 15,
+      "novas": 1,
+      "depois": 16,
+      "sha256Anterior": "fcfa40ddd02f46c0acade6ba9f75e6d352a411ed8a8a97335a5c4177e7ee0942"
+    }
+  ],
+  "deficitsCalculados": {
+    "prevencao_riscos": 20,
+    "legislacao_nr": 16,
+    "higiene_ocupacional": 17,
+    "gerenciamento_riscos": 10,
+    "gestao_sms": 6,
+    "acidentes": 11,
+    "emergencias": 7,
+    "incendio": 6,
+    "ergonomia": 4,
+    "saude_ocupacional": 1,
+    "desenvolvimento_sustentavel": 2
+  },
+  "somaDeficits": 100
+}

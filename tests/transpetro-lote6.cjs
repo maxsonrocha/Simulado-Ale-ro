@@ -4,7 +4,7 @@ const run=file=>JSON.parse(execFileSync(process.execPath,[file],{cwd:root,encodi
 test('lote6 preserva os500 anteriores, a ordem, ALERO, aplicação, línguas e auditorias',()=>{
  let preserved=0,added=0;
  for(const name of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
-  const file=`data/transpetro/eng_seguranca/${name}`,raw=execFileSync('git',['show',`538307c:${file}`],{cwd:root}),before=JSON.parse(raw),now=read(file);
+  const file=`data/transpetro/eng_seguranca/${name}`,raw=execFileSync('git',['show',`538307c:${file}`],{cwd:root}),before=JSON.parse(raw),now=read(file).filter(q=>(q.lote||1)<=6);
   assert.deepEqual(now.slice(0,before.length),before);preserved+=before.length;const delta=now.slice(before.length);assert(delta.every(q=>q.lote===6&&q.area==='ESP'));added+=delta.length;
   if(['portugues.json','ingles.json'].includes(name))assert.deepEqual(fs.readFileSync(path.join(root,file)),raw);
  }
@@ -13,7 +13,7 @@ test('lote6 preserva os500 anteriores, a ordem, ALERO, aplicação, línguas e a
  for(const file of files)assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`538307c:${file}`],{cwd:root}));
 });
 test('600 acumuladas, +100ESP 0301..0400, dificuldade20/45/35 e20gabaritos por letra',()=>{
- const r=validate({partial:true});assert.deepEqual(r.errors,[]);assert.equal(r.total,600);assert.deepEqual(r.areas,{PORT:100,ING:100,ESP:400});assert.equal(r.groups,102);assert.equal(r.linkedQuestions,204);assert.equal(r.independentQuestions,396);
+ const snapshotPlan=JSON.parse(execFileSync('git',['show','673ebc6:docs/transpetro-etapa-1-plano.json'],{cwd:root,encoding:'utf8'}));const r=validate({partial:true,rows:loadRows().filter(x=>(x.q.lote||1)<=6),plan:snapshotPlan});assert.deepEqual(r.errors,[]);assert.equal(r.total,600);assert.deepEqual(r.areas,{PORT:100,ING:100,ESP:400});assert.equal(r.groups,102);assert.equal(r.linkedQuestions,204);assert.equal(r.independentQuestions,396);
  const qs=Array.from(loadRows(),x=>x.q).filter(q=>q.lote===6);assert.equal(qs.length,100);assert(qs.every(q=>q.area==='ESP'));
  assert.deepEqual(qs.map(q=>+q.id.slice(-4)).sort((a,b)=>a-b),Array.from({length:100},(_,i)=>301+i));
  assert.deepEqual(['media','alta','muito_alta'].map(l=>qs.filter(q=>q.difficulty===l).length),[20,45,35]);assert.deepEqual([0,1,2,3,4].map(a=>qs.filter(q=>q.answer===a).length),[20,20,20,20,20]);
@@ -21,7 +21,7 @@ test('600 acumuladas, +100ESP 0301..0400, dificuldade20/45/35 e20gabaritos por l
 });
 test('65 segundas resoluções verificam resposta única nos dados reais',()=>{const r=run('scripts/audit-transpetro-lote6-calculations.cjs');assert.equal(r.checked,65);assert(r.passed);assert(r.results.every(x=>x.matches.length===1));});
 test('179700 pares incluem4950 novos/novos e50000 novos/antigos sem alerta lexical',()=>{
- const r=run('scripts/audit-transpetro-similarity.cjs');assert.equal(r.lote,6);assert.equal(r.comparedPairs,179700);assert.deepEqual(r.scopes,{novas_novas:4950,novas_antigas:50000,antigas_antigas:124750});assert.deepEqual(r.flagged,[]);
+ const r=JSON.parse(execFileSync(process.execPath,['scripts/audit-transpetro-similarity.cjs','--lote','6'],{cwd:root,encoding:'utf8'}));assert.equal(r.lote,6);assert.equal(r.comparedPairs,179700);assert.deepEqual(r.scopes,{novas_novas:4950,novas_antigas:50000,antigas_antigas:124750});assert.deepEqual(r.flagged,[]);
 });
 test('100 pareceres e500 alternativas têm hashes atuais;20normativas possuem fonte rastreável',()=>{
  const s=read('docs/auditorias/transpetro-etapa-1-lote-6-semantica.json'),review=read('docs/auditorias/transpetro-etapa-1-lote-6-conteudo.json'),sources=read('docs/auditorias/transpetro-etapa-1-lote-6-fontes.json'),all=loadRows();assert.equal(s.inventarioAnterior.length,500);assert.equal(s.revisoes.length,100);assert.equal(review.itens.reduce((n,x)=>n+x.alternativas.length,0),500);
@@ -39,5 +39,5 @@ test('caderno restaura os dois grupos ESP novos sem mudar ciclo ou IDs errados',
 });
 test('oito provas completas inéditas em dez sementes; meta integral segue exigindo700',()=>{
  const r=run('scripts/audit-transpetro-lote6-engine.cjs');assert(r.passed);assert.equal(r.completeFreshExams,8);assert.equal(r.runs.length,10);
- const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,1);assert(gate.stdout.includes('total: 600; necessário 700'));assert.deepEqual(read('docs/transpetro-etapa-1-plano.json').metaAreas,{PORT:100,ING:100,ESP:500});
+ const gate=spawnSync(process.execPath,['scripts/validate-transpetro.cjs'],{cwd:root,encoding:'utf8'});assert.equal(gate.status,0);assert.equal(JSON.parse(gate.stdout).total,700);assert.deepEqual(read('docs/transpetro-etapa-1-plano.json').metaAreas,{PORT:100,ING:100,ESP:500});
 });

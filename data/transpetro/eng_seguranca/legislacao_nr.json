@@ -1780,5 +1780,391 @@
     "fontes": [
       "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
     ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0421",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "sesmt_e_dados_nao_permutaveis",
+    "difficulty": "media",
+    "statement": "Um cadastro informa número de empregados de uma unidade e natureza do risco de outra, combinando ambos para fundamentar a análise do SESMT da primeira. Sem consultar tabela de dimensionamento, qual falha é demonstrável pela NR-04 e pelos dados descritos?",
+    "options": [
+      "O valor calculado pode ser validado sem conhecer a origem dos dados de entrada.",
+      "Os dois dados determinantes devem corresponder à unidade/contexto efetivamente analisado, não a registros de origens diferentes.",
+      "A combinação de duas unidades comprova automaticamente um dimensionamento mais conservador.",
+      "O risco da segunda pode representar a primeira apenas porque os nomes empresariais são parecidos.",
+      "O número de empregados da primeira torna irrelevante qualquer informação de risco."
+    ],
+    "answer": 1,
+    "explanation": "A ficha vincula SESMT ao número de empregados e natureza do risco. Misturar origens sem equivalência demonstrada invalida o suporte da análise; não se inventa quantitativo de profissionais.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0422",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_e_registro_de_atividade_eventual",
+    "difficulty": "media",
+    "statement": "Uma organização dispensada de PGR mantém registro de atividades e EPI, mas o cadastro cobre só tarefas diárias. Há tarefa eventual conhecida que exige proteção distinta, conforme a avaliação técnica já disponível. Qual conclusão decorre da regra registrada na NR-06?",
+    "options": [
+      "A existência de qualquer linha no cadastro prova cobertura de todas as atividades reais.",
+      "O EPI da tarefa diária deve ser declarado suficiente para a eventual, sem análise técnica.",
+      "A dispensa de PGR elimina o registro de atividades e EPI, inclusive o que já existe.",
+      "A dispensa de PGR não justifica omitir do registro a atividade eventual exercida e seu EPI correspondente.",
+      "A atividade eventual fica automaticamente fora do registro porque não ocorre todos os dias."
+    ],
+    "answer": 3,
+    "explanation": "A ficha exige registro que especifique atividades exercidas e respectivos EPI nas organizações dispensadas de PGR. A proposição não se limita às atividades frequentes; o cenário informa uma eventual efetivamente exercida.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0423",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "empregados_e_equivalentes_de_jornada",
+    "difficulty": "media",
+    "statement": "Para analisar o SESMT, um cadastro usa equivalentes de jornada integral no lugar do número de empregados sem distinguir as grandezas. UnidadeA tem100 empregados de40h/semana; B tem200 de20h/semana. Adote apenas os dados do exercício, sem tabela de dimensionamento. Qual conclusão preserva o determinante registrado na ficha NR-04?",
+    "options": [
+      "Ambas somam4.000h/semana, mas têm números de empregados distintos; horas iguais não demonstram igual dimensionamento.",
+      "A possui4.000 empregados eB também, confundindo horas com pessoas.",
+      "B necessariamente exige o dobro de profissionais do SESMT, sem consultar risco ou tabela.",
+      "B tem o mesmo número de empregados deA porque cada jornada é metade da referência.",
+      "Ambas têm100 empregados porque o total de horas é o mesmo."
+    ],
+    "answer": 0,
+    "explanation": "A soma semanal é100×40=200×20=4.000h. Pessoas são100 e200, não equivalentes de jornada. A ficha usa número de empregados e natureza do risco; os dados não permitem concluir quantitativo exato de profissionais nem razão entre dimensionamentos.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0424",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "edicao_cobrada_e_alegacao_de_certificacao",
+    "difficulty": "alta",
+    "statement": "Um fornecedor apresenta certificado relacionado à edição atual de uma norma de gestão ambiental. A questão de concurso, porém, deve cobrar a edição explicitamente fixada no edital. O elaborador propõe usar o certificado como acesso ao texto integral e como prova de equivalência de todas as cláusulas. Qual decisão é fundamentada?",
+    "options": [
+      "Manter a edição do edital; certificado não fornece cláusulas nem equivalência integral.",
+      "Tratar certificação de uma organização como autorização de redistribuição de todo texto protegido.",
+      "Adotar a edição mais recente e afirmar que o certificado reproduz todas as cláusulas.",
+      "Usar a edição do edital, mas completar cláusulas ausentes por analogia com o título.",
+      "Considerar todas as edições idênticas sempre que a numeração principal é a mesma."
+    ],
+    "answer": 0,
+    "explanation": "O edital fixa14001:2015. O corpus exige acesso verificável/licenciado para redação exata e não estabelece equivalência integral com edição posterior. Certificado e fonte de cláusula têm papéis distintos.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "references/transpetro/edital_004_2026.json"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0425",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "dispensa_e_cobertura_do_levantamento",
+    "difficulty": "alta",
+    "statement": "Uma EPP de grau2 pretende usar hipótese de dispensa de PGR que exige ausência de exposições físicas, químicas e biológicas no levantamento preliminar e declaração digital. O relatório anexado pesquisou apenas ruído, com resultado negativo; reconhece não ter examinado químicos ou biológicos. A declaração diz ausência dos três grupos. Qual avaliação distingue resultado negativo e cobertura da evidência?",
+    "options": [
+      "O resultado sobre ruído não demonstra a ausência dos grupos não examinados; a declaração não amplia a cobertura do levantamento.",
+      "O negativo de ruído demonstra ausência química e biológica porque os três grupos pertencem à mesma hipótese de dispensa.",
+      "A declaração digital substitui a pesquisa de qualquer grupo omitido por definição.",
+      "Ausência de dado sobre agentes químicos é equivalente a dado negativo de exposição química.",
+      "Grau2 transforma o levantamento parcial em verificação completa das demais condições."
+    ],
+    "answer": 0,
+    "explanation": "A ficha registra condições cumulativas e ausência de exposições dos três grupos. O método descrito não cobre dois deles; negativo no que foi pesquisado não é negativo no que não foi examinado. Não se conclui exposição positiva nem se inventa protocolo de levantamento.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0426",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "documentacao_de_uso_e_destinatario_da_ficha",
+    "difficulty": "alta",
+    "statement": "Um EPI está corretamente identificado e sua documentação restringe uma utilização. O sistema de compras envia a restrição apenas à área financeira, e o procedimento operacional continua orientando o uso restrito como se fosse permitido. Qual interface precisa ser tratada, respeitando a finalidade de uso registrada na NR-06?",
+    "options": [
+      "Considerar que o envio ao financeiro altera automaticamente a orientação em campo.",
+      "Usar a existência de CA como anulação das condições de uso do produto.",
+      "Alinhar informação do produto, seleção e procedimento de uso, para não orientar finalidade excluída pela documentação.",
+      "Trocar somente o fornecedor, sem avaliar se a mesma restrição continua no novo produto.",
+      "Manter o procedimento porque a identificação correta do produto permite qualquer utilização."
+    ],
+    "answer": 2,
+    "explanation": "Identificar corretamente não basta se a aplicação contraria a finalidade. A ficha prevê seleção pela organização e uso para a finalidade; a interface documental precisa representar a restrição conhecida.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0427",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pcmso_e_reducao_artificial_de_prevalencia",
+    "difficulty": "alta",
+    "statement": "Uma empresa pretende apresentar melhora de saúde eliminando da amostra e da contratação todos os candidatos com marcador alterado, em vez de investigar/controlar a exposição. O plano apresenta essa exclusão como finalidade do PCMSO. Qual crítica integra a regra do programa e a validade do indicador?",
+    "options": [
+      "A queda da prevalência após excluir positivos prova controle da exposição original.",
+      "Um indicador menor dispensa analisar o método de seleção das pessoas.",
+      "Separar seleção de pessoas e melhora do ambiente: o PCMSO não é programa de seleção.",
+      "O PCMSO passa a ter finalidade seletiva sempre que existe indicador de saúde.",
+      "A exclusão da população modifica retroativamente a exposição que ela sofreu."
+    ],
+    "answer": 2,
+    "explanation": "A ficha veda caráter de seleção de pessoal. Além disso, retirar positivos altera o denominador/composição sem provar intervenção na causa da exposição; não se transforma indicador em evidência de controle.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0428",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pt_e_execucao_fora_da_jornada",
+    "difficulty": "alta",
+    "statement": "Uma atividade não rotineira em altura foi autorizada por PT para determinada jornada e interrompida antes de terminar. No dia seguinte, a equipe quer continuar usando a assinatura anterior apenas porque a duração total ainda não terminou. Qual condição registrada na NR-35 impede essa inferência automática?",
+    "options": [
+      "A assinatura inicial converte qualquer continuação em atividade rotineira.",
+      "A existência de capacitação permite ignorar a validade da PT.",
+      "A validade também é restrita ao turno ou jornada; a duração da atividade, sozinha, não amplia a PT indefinidamente.",
+      "A duração prevista sempre prevalece sobre qualquer limite de turno ou jornada.",
+      "Uma interrupção elimina para sempre a possibilidade de avaliar nova autorização."
+    ],
+    "answer": 2,
+    "explanation": "A ficha limita a PT à duração da atividade e ao turno/jornada, com revalidação condicionada por responsável. Não basta dizer que a atividade não acabou para presumir autorização atual.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0429",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr09_e_plano_de_verificacao_de_controle",
+    "difficulty": "alta",
+    "statement": "Após instalar controle de agente químico, a empresa conserva o laudo anterior como única evidência de eficácia posterior. O documento descreve corretamente a exposição antes da intervenção. Qual análise é necessária no âmbito de avaliação e controle da NR-09?",
+    "options": [
+      "Desconsiderar todo dado anterior porque ele nunca pode apoiar comparação.",
+      "Declarar o controle eficaz apenas porque a compra foi concluída e há laudo com data anterior.",
+      "Examinar o desempenho na condição após a intervenção; o laudo anterior não mede sozinho o resultado posterior.",
+      "Transportar automaticamente a concentração antiga para a nova condição como leitura efetiva.",
+      "Usar somente o nome do equipamento instalado como medida de exposição."
+    ],
+    "answer": 2,
+    "explanation": "O laudo anterior é linha de base útil, mas não prova o estado modificado. A finalidade de avaliar/controlar requer evidência pertinente à condição cuja eficácia se afirma; não se inventa periodicidade de avaliação.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0430",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr35_e_autorizacoes_nao_substituiveis",
+    "difficulty": "alta",
+    "statement": "Um trabalhador está formalmente autorizado para a atividade em altura. Uma tarefa não rotineira foi programada, mas ainda não recebeu PT. O supervisor afirma que o registro funcional substitui essa autorização da tarefa. Qual distinção é necessária?",
+    "options": [
+      "Autorização do trabalhador e PT da atividade não rotineira tratam objetos distintos; uma não demonstra a outra.",
+      "Somente a assinatura do trabalhador, sem análise da tarefa, converte a tarefa em rotineira.",
+      "Todo registro tem exatamente a mesma finalidade por conter o nome da pessoa.",
+      "A PT elimina a necessidade de considerar capacitação e aptidão do trabalhador.",
+      "O registro funcional autoriza automaticamente toda tarefa não rotineira futura."
+    ],
+    "answer": 0,
+    "explanation": "A ficha trata autorização formal pessoal e autorização prévia por PT para atividade não rotineira. A pertinência de uma não supre automaticamente a outra, sem criar nova função ou procedimento fino.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0431",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "custeio_pcmso_e_tarifa_marginal",
+    "difficulty": "muito_alta",
+    "statement": "Um contrato interno para243 procedimentos necessários do PCMSO cobraR$2.020 de implantação e tarifa marginal por procedimento: os primeiros80 aR$90 cada; do81º ao180º aR$70; os seguintes aR$60. Não há outras despesas. Uma proposta aplicaR$60 a todos e transfere10% do total aos empregados. Qual custo correto e atribuição coerente com a NR-07?",
+    "options": [
+      "R$17.980, integralmente da organização; a implantação já estaria embutida sem previsão contratual.",
+      "R$23.890, integralmente da organização; a primeira tarifa vale para todos os procedimentos.",
+      "R$16.600, com10% dos empregados; basta aplicar a última tarifa a todos.",
+      "R$20.000, dos quaisR$2.000 dos empregados; custo correto permite qualquer rateio.",
+      "R$20.000, integralmente por conta da organização; tarifa marginal não é preço único para todo o volume."
+    ],
+    "answer": 4,
+    "explanation": "As faixas têm80,100 e63 procedimentos:80×90+100×70+63×60=17.980. Somando2.020, total20.000. A ficha NR-07 atribui custeio sem ônus ao empregado; o contrato é dado interno e não limite ou tarifa legal.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0432",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "mesmo_objetivo_e_estruturas_distintas",
+    "difficulty": "muito_alta",
+    "statement": "Considere o cenário em que os requisitos de SESMT e CIPA são aplicáveis. Um sistema interno agrupa registros por objetivo e, porque ambos falam em prevenção, apaga a identificação de cada estrutura e trata uma ata da CIPA como prova automática da contratação/dimensionamento do SESMT. Qual reconstrução respeita os papéis descritos nas fichas?",
+    "options": [
+      "Manter identificação e evidência pertinente a cada estrutura: objetivo comum não demonstra composição, dimensionamento ou atuação equivalentes.",
+      "Afirmar que as fichas proíbem cooperação entre as duas estruturas por terem referências distintas.",
+      "Apagar a CIPA porque profissionais especializados tornam qualquer participação coletiva inexistente.",
+      "Substituir a participação da CIPA pelo número de empregados usado no dimensionamento, sem outro registro.",
+      "Aceitar a ata como prova de qualquer composição do SESMT porque prevenção é palavra comum."
+    ],
+    "answer": 0,
+    "explanation": "A NR-04 envolve profissionais e dimensionamento relacionado a empregados/risco; a CIPA tem objetivo e estrutura próprios conforme a ficha NR-05. A hipótese informa aplicabilidade de ambas. Compartilhar objetivo não prova equivalência dos objetos, e distinção não implica proibir cooperação.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0433",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "contradicao_entre_inventario_e_plano",
+    "difficulty": "muito_alta",
+    "statement": "Um inventário classifica dois riscos A/B e o plano correspondente contém ações com vínculos invertidos por erro de cadastro. Há evidência de que a açãoX controla somente A e a Y somente B; no sistema X consta vinculada a B e Y a A. O painel declara cada risco controlado ao encerrar sua ação cadastrada. X foi concluída; Y não. Qual reconstrução é consistente com os vínculos técnicos e a estrutura do PGR?",
+    "options": [
+      "A e B estão controlados porque uma das duas ações foi concluída.",
+      "O inventário deve trocar os nomes dos perigos para que o painel não precise de correção.",
+      "B está controlado porque o cadastro vincula X aB, mesmo sem efeito técnico sobreB.",
+      "Nenhum controle foi implementado, pois um erro de cadastro anula fisicamente a açãoX.",
+      "A possui a medidaX concluída; B ainda depende deY; o cadastro invertido não deve decidir sozinho a condição física de controle."
+    ],
+    "answer": 4,
+    "explanation": "A ficha NR-01 liga identificação/avaliação e medidas do plano. A evidência técnica fornecida define qual risco é afetado; erro de relação documental pode distorcer o painel, mas não muda o efeito físico da medida.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0434",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "comunicacoes_ocorrencias_e_decisoes_previdenciarias",
+    "difficulty": "muito_alta",
+    "statement": "Uma base tem três documentos de comunicação: C1 e sua retificação referem-se à mesma ocorrência, sem afastamento; C2 refere-se a outra ocorrência. Em base distinta há uma decisão de benefício, sem vínculo identificado com essas ocorrências. O analista chama os três documentos de três acidentes com benefício e excluiC1 por não haver afastamento. Qual leitura integra unidade de contagem, alcance da comunicação e limite da ligação documental?",
+    "options": [
+      "A retificação deC1 apaga necessariamente a ocorrência histórica e transformaC2 em sua substituta.",
+      "Há duas ocorrências comunicadas; a ausência de afastamento não exclui a comunicação, e não se demonstrou vínculo com a decisão de benefício.",
+      "Há uma ocorrência válida, pois acidente sem afastamento não deve ser comunicado.",
+      "Há duas ocorrências e ambas receberam benefício, pois existe uma decisão em outra base.",
+      "Há três ocorrências com benefício porque cada documento representa necessariamente fato novo."
+    ],
+    "answer": 1,
+    "explanation": "C1 e sua retificação são versões da mesma ocorrência; C2 é outra. O corpus registraS-2210 mesmo sem afastamento. Lei8.213/1991 pertence ao campo de benefícios, mas a existência de decisão sem vínculo não prova concessão para esses fatos; não se inventa regra de elegibilidade.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0435",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "comunicacao_de_dano_e_fluxo_de_selecao",
+    "difficulty": "muito_alta",
+    "statement": "Um trabalhador comunica que o EPI sofreu alteração que o torna impróprio. A área de seleção recebe o registro, mas o indicador interno classifica como solução a simples ciência da mensagem e mantém a orientação de uso. A gerência alega que o trabalhador já cumpriu seu papel e, por isso, a condição está resolvida. Qual análise separa responsabilidade cumprida e risco residual?",
+    "options": [
+      "O cumprimento do dever de comunicar prova que a alteração não afetava o produto.",
+      "A ciência da mensagem restaura automaticamente a propriedade protetora do EPI.",
+      "Somente o trabalhador pode alterar a seleção formal, sem participação da organização.",
+      "Distinguir comunicação cumprida e proteção restabelecida; ciência não comprova adequação.",
+      "A conclusão do indicador elimina a necessidade de considerar a finalidade do EPI na tarefa."
+    ],
+    "answer": 3,
+    "explanation": "A NR-06 prevê comunicar dano/alteração imprópria e atribui seleção à organização. Cumprir a comunicação não corrige fisicamente o produto nem comprova proteção. A questão não inventa prazo ou rito específico de substituição.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ]
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0436",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "assinatura_e_representacao_binaria",
+    "difficulty": "muito_alta",
+    "statement": "Um relatório eletrônico foi assinado sobre os bytes do arquivoO. A verificação técnica do exercício usa o resumoH(O); o sistema gera uma versãoN visualmente igual, mas com outra codificação, e confirma H(N) diferente deH(O). A assinatura continua associada apenas aH(O). Sem discutir classe legal de assinatura ou presumir intenção de fraude, qual cadeia de verificação e conclusão são corretas?",
+    "options": [
+      "VerificarO preservado; igualdade visual deN não prova os mesmos bytes nem fraude pela diferença.",
+      "Reassociar automaticamente a assinatura antiga ao novo resumo sem novo ato verificável.",
+      "Concluir que toda diferença de resumo comprova fraude intencional, mesmo com transformação conhecida.",
+      "VerificarN como se tivesse o mesmo resumo deO porque o texto aparece igual na tela.",
+      "ApagarO e afirmar queN é o original assinado, pois só mudou a codificação."
+    ],
+    "answer": 0,
+    "explanation": "O exercício define o objeto e resumo abrangidos. A versão derivada não se torna o original por parecer igual; a verificação deve usar o objeto correspondente. A causa conhecida pode explicar bytes diferentes sem inferir intenção. A Lei14.063/2020 é referência de escopo, sem invocar classe/requisito específico não registrado.",
+    "etapa": 1,
+    "lote": 7,
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ]
   }
 ]

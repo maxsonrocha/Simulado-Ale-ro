@@ -1308,5 +1308,362 @@
     "explanation": "A variância é(4+4+6)/4=3,5. Sem covariância seria8/4=2. Igualdade das leituras não elimina fontes comuns de erro.",
     "etapa": 1,
     "lote": 6
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0437",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "atividade_radioativa_e_dose",
+    "difficulty": "media",
+    "statement": "Uma etiqueta informa atividade em Bq, definida no exercício como desintegrações por segundo. Um relatório chama esse valor diretamente de dose absorvida em joules por quilograma. Qual distinção é necessária?",
+    "options": [
+      "Bq e joule por quilograma são unidades da mesma grandeza.",
+      "A atividade, sem energia por desintegração ou absorção, como substituta direta deJ/kg.",
+      "Atividade idêntica como garantia de dose idêntica em massas e geometrias diferentes.",
+      "Atividade descreve taxa de desintegração; dose absorvida exige energia depositada por massa, além de outras informações do cenário.",
+      "A atividade informa sozinha a massa do corpo irradiado e toda energia nele depositada."
+    ],
+    "answer": 3,
+    "explanation": "Taxa de eventos nucleares não informa por si energia de cada evento, transporte/absorção e massa exposta. As unidades explicitadas não são intercambiáveis.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0438",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "condensacao_na_linha_de_coleta",
+    "difficulty": "media",
+    "statement": "Uma corrente quente contém vapor do agente. A linha de transporte da amostra passa por superfície mais fria, onde esse agente condensa antes do ponto analisado. O objetivo é representar sua concentração na corrente original. Qual efeito precisa ser considerado?",
+    "options": [
+      "Retirada do agente da fase gasosa antes da leitura, podendo tornar a amostra não representativa da origem.",
+      "A conservação de fase gasosa garantida pela existência de uma tubulação.",
+      "A prova de que condensação elimina o agente também da corrente original.",
+      "A equivalência automática entre concentração após condensação e antes dela.",
+      "A necessidade de tratar toda massa condensada como ar limpo adicional."
+    ],
+    "answer": 0,
+    "explanation": "A mudança de fase na linha pode alterar a composição entregue ao analisador. A leitura final não representa automaticamente a fase e condição de origem, sem avaliação do transporte.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0439",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "transmissao_estrutural_de_ruido",
+    "difficulty": "media",
+    "statement": "Depois de vedar uma fresta de parede, o ruído no posto pouco mudou. A investigação identifica vibração transmitida por uma tubulação rigidamente ligada aos dois lados. Qual hipótese deve ser considerada antes de concluir que vedação nunca funciona?",
+    "options": [
+      "A pequena mudança prova que nenhum som atravessava a fresta.",
+      "A existência de parede torna impossível transmissão por conexões.",
+      "Um caminho estrutural alternativo pode dominar a transmissão no cenário.",
+      "A tubulação transmite somente fluido e não pode transmitir vibração.",
+      "A vedação precisa eliminar igualmente qualquer trajetória estrutural, sem depender da montagem."
+    ],
+    "answer": 2,
+    "explanation": "Há caminhos diferentes: vedação atua no vazamento aéreo, enquanto a conexão pode transmitir vibração e radiar som no destino. Resultado pequeno não identifica sozinho contribuição nula da fresta.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0440",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "razao_superficie_massa_de_particulas",
+    "difficulty": "alta",
+    "statement": "Partículas esféricas da mesma densidade têm S/m=6/(ρd). Mantendo a massa total e reduzindo o diâmetro de20 para5μm, qual fator de área superficial total, sem inferir toxicidade só por esse fator?",
+    "options": [
+      "Um quarto.",
+      "Dezesseis vezes.",
+      "Sessenta e quatro vezes.",
+      "Quatro vezes.",
+      "Permanece igual."
+    ],
+    "answer": 3,
+    "explanation": "Para massa e densidade fixas, superfície por massa varia com1/d. A razão é20/5=4. Contagem e superfície não têm a mesma lei de escala; não se conclui efeito biológico completo desse único atributo.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0441",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "rms_de_pressao_sonora",
+    "difficulty": "alta",
+    "statement": "Em quatro intervalos iguais, as pressões acústicas relativas são +3,−3,+4,−4Pa. O modelo usa pressão eficaz √(média dos quadrados), não média algébrica. Qual pressão eficaz?",
+    "options": [
+      "12,5Pa.",
+      "3,50Pa exatamente.",
+      "7Pa.",
+      "Zero, pois as leituras somam zero.",
+      "√12,5≈3,54Pa."
+    ],
+    "answer": 4,
+    "explanation": "Média dos quadrados=(9+9+16+16)/4=12,5Pa²; raiz≈3,54Pa. Oscilação em torno de zero não significa energia sonora nula.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0442",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "decaimento_radioativo_em_quatro_meias_vidas",
+    "difficulty": "alta",
+    "statement": "Uma fonte ideal tem atividade inicial1.600 unidades e meia-vida de4h. Não há reposição. Qual atividade após12h e qual fração do material radioativo inicial permanece, sob o modelo N/N0=A/A0?",
+    "options": [
+      "1.200 unidades;3/4.",
+      "400 unidades;1/4.",
+      "533,33 unidades;1/3.",
+      "200 unidades;1/8.",
+      "100 unidades;1/16."
+    ],
+    "answer": 3,
+    "explanation": "Doze horas contêm três meias-vidas:1600/2³=200 e fração1/8. Decaimento sucessivo não é redução linear de uma metade do valor inicial a cada etapa.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0443",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "massa_de_contaminante_e_permeabilidade",
+    "difficulty": "alta",
+    "statement": "Uma membrana tem fluxo de massa estacionário J=PΔC/δ no modelo fornecido. Sem mudar material ou diferença de concentração, dobra-se a espessura e triplica-se a área exposta. Qual razão da taxa total de massa em relação à original?",
+    "options": [
+      "0,5.",
+      "1,5.",
+      "3.",
+      "6.",
+      "2/3."
+    ],
+    "answer": 1,
+    "explanation": "A taxa total éJA. Dobrarδ reduzJ à metade e triplicarA multiplica por3; razão3/2=1,5. Fluxo por área e taxa total não são a mesma grandeza.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0444",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "unidade_formadora_de_colonia_e_agregados",
+    "difficulty": "alta",
+    "statement": "No modelo de cultivo, cada agregado viável origina uma colônia, mesmo contendo várias células. Uma intervenção dispersa agregados sem alterar o número de células viáveis. O número de colônias sobe. Qual conclusão é sustentada?",
+    "options": [
+      "Uma colônia representa sempre exatamente uma célula em qualquer estado de agregação.",
+      "A dispersão transforma obrigatoriamente células viáveis em não viáveis.",
+      "O aumento pode resultar da dispersão; colônias e células não são contagens equivalentes sob esse modelo.",
+      "Contagem de colônias não depende de agregação pela definição dada.",
+      "Toda elevação de colônias prova multiplicação de células antes do cultivo."
+    ],
+    "answer": 2,
+    "explanation": "Dividir agregados pode aumentar unidades capazes de gerar colônias mantendo a quantidade de células. O exercício não permite concluir crescimento ou perda de viabilidade só da mudança na contagem.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0445",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "variavel_instrumental_e_faixa_de_frequencia",
+    "difficulty": "alta",
+    "statement": "Um ensaio de vibração conserva o mesmo valor eficaz global antes/depois, mas a energia migra para faixa de frequência em que o sistema de interesse responde mais intensamente. O relatório afirma equivalência de efeito só pelo valor global. Qual informação falta?",
+    "options": [
+      "A certeza de que frequência é irrelevante sempre que a unidade é a mesma.",
+      "Composição espectral e resposta dependente de frequência do sistema considerado.",
+      "A soma simples das frequências como substituta universal do espectro.",
+      "A prova de que qualquer valor global igual garante resposta igual em todo sistema.",
+      "Somente a duração total da aquisição, mantendo descartada a distribuição por frequências."
+    ],
+    "answer": 1,
+    "explanation": "Um resumo global pode ocultar distribuição entre frequências. Se o acoplamento depende dela, a resposta pode mudar sem mudar a grandeza global; não se atribui ponderação normativa não verificada.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0446",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "filtracao_que_nao_repoe_oxigenio",
+    "difficulty": "alta",
+    "statement": "O cenário informa atmosfera com oxigênio insuficiente e um filtro cuja função física é reter um contaminante químico, sem fornecer gás respirável. A equipe considera que eliminar esse contaminante resolve automaticamente toda a atmosfera. Qual distinção é necessária?",
+    "options": [
+      "Qualquer filtro transforma a composição de entrada na composição de ar respirável.",
+      "Remover o contaminante não repõe o oxigênio ausente; são condições distintas a tratar.",
+      "A ausência de odor demonstra oxigênio adequado mesmo no cenário informado.",
+      "Oxigênio insuficiente deixa de importar se outro agente já foi removido.",
+      "Reter moléculas do contaminante gera necessariamente oxigênio em quantidade suficiente."
+    ],
+    "answer": 1,
+    "explanation": "A função declarada do filtro não inclui fornecimento de oxigênio. Corrigir um componente não demonstra que toda a atmosfera se tornou adequada; não se cria um limite numérico nem se especifica equipamento operacional universal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0447",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fracao_inspiravel_e_comparacao_de_metodos",
+    "difficulty": "alta",
+    "statement": "Dois coletores foram ensaiados com partículas grandes e pequenas. O cenário fornece eficiências: A retém100% das pequenas e20% das grandes; B100% e80%. As massas reais são10μg de pequenas e20μg de grandes. Quais massas são coletadas e por que a diferença não prova mudança da fonte?",
+    "options": [
+      "14μg e26μg; as respostas por tamanho diferem na mesma mistura.",
+      "26μg e14μg; a maior eficiência em grandes diminui a coleta.",
+      "12μg e18μg; as duas eficiências devem ser aplicadas também às pequenas.",
+      "30μg e30μg; todo coletor retém a massa total.",
+      "4μg e16μg; a fração pequena deve ser excluída."
+    ],
+    "answer": 0,
+    "explanation": "A=10×1+20×0,2=14; B=10+20×0,8=26. Os dois respondem diferentemente à mesma distribuição de tamanhos; não se presume equivalência de frações/metodologias.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0448",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "lognormal_e_excesso_sobre_mediana",
+    "difficulty": "muito_alta",
+    "statement": "O modelo informa concentração lognormal com lnC~Normal(μ;σ²), mediana=expμ e média=exp(μ+σ²/2). Dois grupos têm mesma mediana10, mas σ²=0 e2ln2, respectivamente. Qual média de cada grupo e conclusão?",
+    "options": [
+      "Zero e20; variância logarítmica nula implica concentração nula.",
+      "20 e10; maior dispersão reduz necessariamente a média.",
+      "10 e10; toda lognormal tem média igual à mediana.",
+      "10 e40; deve-se usar exp(σ²) sem dividir por dois.",
+      "10 e20; mediana igual não garante igual média quando a dispersão logarítmica muda."
+    ],
+    "answer": 4,
+    "explanation": "No primeiro, média=expμ=10. No segundo, exp(μ+ln2)=10×2=20. A escala e a dispersão atuam conjuntamente sobre a média aritmética, sem definir limite legal.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0449",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "pressao_de_vapor_e_condensacao_controlada",
+    "difficulty": "muito_alta",
+    "statement": "Uma mistura a pressão total constante tem vapor com pressão parcial3,6kPa. Ao resfriar, a pressão de saturação passa de4,0 para2,0kPa. O modelo mantém fase gasosa saturada após condensação e despreza variação dos demais componentes. Que pressão parcial final e redução relativa da pressão parcial do vapor o modelo prevê?",
+    "options": [
+      "1,6kPa; a diferença vira a pressão final.",
+      "2,0kPa; redução de55,56%.",
+      "2,0kPa; redução de44,44%.",
+      "4,0kPa; a pressão inicial de saturação permanece como pressão parcial.",
+      "3,6kPa; não pode haver condensação porque a condição inicial não era saturada."
+    ],
+    "answer": 2,
+    "explanation": "No final, o máximo do vapor é2,0 e a hipótese de saturação o fixa ali. Queda1,6/3,6=44,44%. O percentual remanescente55,56 não é o removido; as conclusões são do modelo simplificado dado.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0450",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "reacao_entre_agentes_e_produto_novo",
+    "difficulty": "muito_alta",
+    "statement": "No modelo,10mol deA e6mol deB reagem segundo A+B→P até esgotar um reagente. Todo P permanece no ar; o volume de referência é constante. O controle analisa apenas A residual e conclui que a redução deA significa redução de todas as substâncias perigosas. Quais quantidades finais e qual limite da conclusão?",
+    "options": [
+      "A4mol, B6mol eP6mol; B não é consumido ao gerarP.",
+      "A0, B0 eP10mol; todo reagente se converte na quantidade maior.",
+      "A4mol, B0 eP6mol; isso prova que todo risco caiu, independentemente das propriedades deP.",
+      "A10mol, B0 eP6mol; formarP não consomeA.",
+      "A4mol, B0 eP6mol; falta avaliar o produto, não basta acompanhar sóA."
+    ],
+    "answer": 4,
+    "explanation": "B é limitante:6mol de cada reagente formam6mol deP; sobram4 deA. A redução do reagente não demonstra comportamento toxicológico ou exposição ao produto; isso exige avaliação própria.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0451",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostra_integrada_e_troca_de_recipiente",
+    "difficulty": "muito_alta",
+    "statement": "Um protocolo experimental exige integrar continuamente a massa coletada por dez minutos. Por erro, o recipiente é esvaziado no minuto8 e só o material dos dois minutos finais vai à análise. O laudo usa vazão constante1L/min e divide essa massa por10L. Sem supor emissão constante no período, qual problema e correção conceitual são adequados?",
+    "options": [
+      "Basta multiplicar a massa por cinco e declarar recuperação exata, sem informação de emissão anterior.",
+      "A perda de massa torna a concentração original necessariamente zero.",
+      "Identificar a janela real da amostra restante; os oito minutos perdidos não se reconstroem por regra de três.",
+      "O resultado representa os dez minutos porque o volume nominal foi calculado corretamente.",
+      "Usar2L como volume da amostra restante reconstrói automaticamente a média de todo o período."
+    ],
+    "answer": 2,
+    "explanation": "O material restante representa sóminutos8–10, e o volume correspondente é2L. Isso pode permitir resultado dessa janela, não da integração de dez minutos perdida; extrapolar exige hipóteses não fornecidas.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0452",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "deriva_multiplicativa_e_amostra_de_referencia",
+    "difficulty": "muito_alta",
+    "statement": "Um instrumento passou a multiplicar qualquer valor verdadeiro por fator desconhecido constantek. A referência de10 é lida como12 e a amostra como30. Sem erro aditivo ou outros efeitos no modelo, qual valor corrigido e por que não subtrair2 da amostra?",
+    "options": [
+      "2,5; é preciso dividir a leitura da amostra pela leitura da referência sem restaurar sua unidade.",
+      "20; basta retirar da amostra o valor da referência.",
+      "36; o fator deve ser aplicado de novo à amostra.",
+      "25; o desvio é proporcional, não um deslocamento fixo.",
+      "28; a diferença de2 na referência vale para qualquer concentração."
+    ],
+    "answer": 3,
+    "explanation": "k=12/10=1,2; C=30/1,2=25. A correção aditiva28 seria outro modelo e não satisfaz a proporcionalidade declarada.",
+    "etapa": 1,
+    "lote": 7
+  },
+  {
+    "id": "TP26-ENGSEG-ESP-0453",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ruido_impulsivo_e_energia_por_evento",
+    "difficulty": "muito_alta",
+    "statement": "O modelo interno compara energia acumulada: cada evento do tipoA fornece1unidade e cadaB4. Em um turno há100 eventosA e20B. Uma medida reduz pela metade a energia de cadaB, mas aumenta sua contagem para30, sem alterarA. Qual variação da energia total e limite interpretativo?",
+    "options": [
+      "De180 para160; a redução percentual prova automaticamente conformidade normativa.",
+      "De180 para160, redução de11,11%; isso não demonstra atendimento de qualquer critério legal de ruído.",
+      "De180 para130, redução de27,78%, pois a nova contagem deve ser ignorada.",
+      "De120 para115, somando só números de eventos.",
+      "De180 para220, pois metade da energia significa duplicá-la."
+    ],
+    "answer": 1,
+    "explanation": "Inicial100×1+20×4=180. Depois100+30×2=160. Queda20/180=11,11%. A mudança de contagem deve integrar a exposição energética; o modelo não fornece um critério normativo de avaliação.",
+    "etapa": 1,
+    "lote": 7
   }
 ]
