@@ -149,7 +149,7 @@ const App = {
 const $ = (id) => document.getElementById(id);
 
 function showView(name) {
-  ["contest", "role", "config", "exam", "result"].forEach(v => $(`view-${v}`).classList.add("hidden"));
+  ["contest", "role", "welcome", "config", "exam", "result"].forEach(v => $(`view-${v}`).classList.add("hidden"));
   $(`view-${name}`).classList.remove("hidden");
 }
 
@@ -1079,7 +1079,12 @@ function selectRole(role) {
     input.type = "radio"; input.name = "type"; input.value = value; input.checked = value === "FULL";
     label.append(input, ` ${format.nome}`); $("typeChoices").appendChild(label);
   }
-  showView("config");
+  const welcomeKey = "simulado_transpetro_eng_seg_welcome_seen_v1";
+  if (App.contest === "TRANSPETRO" && role === "ENG_SEG" && localStorage.getItem(welcomeKey) !== "1") {
+    showView("welcome");
+  } else {
+    showView("config");
+  }
 }
 
 function changeContest() {
@@ -1216,6 +1221,11 @@ $("btnRetryWrong").addEventListener("click", async () => {
 
 // Inicial
 $("btnChangeContest").addEventListener("click", changeContest);
+$("btnWelcomeContinue").addEventListener("click", () => {
+  if (App.contest !== "TRANSPETRO" || App.role !== "ENG_SEG") return;
+  localStorage.setItem("simulado_transpetro_eng_seg_welcome_seen_v1", "1");
+  showView("config");
+});
 $("btnChangeRole").addEventListener("click", () => selectContest(App.contest));
 renderChoices("contestChoices", CONCURSOS, selectContest);
 showView("contest");
