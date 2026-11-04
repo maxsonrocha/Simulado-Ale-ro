@@ -282,6 +282,25 @@ precisará versionar a validação por etapa, preservando o snapshot deste encer
 
 ## 8. Publicação
 
-Commit/push e abertura da PR serão tentados após esta revisão; o resultado efetivo
-será registrado na entrega. Nenhum merge será executado. Até integração autorizada,
-a main/site continua com a base anterior; os 700 pertencem a esta branch de revisão.
+Commit de conteúdo e auditorias: `274715f`, publicado na branch remota
+`feature/transpetro-banco-questoes-etapa-1-lote-7`.
+
+Foram tentadas as duas interfaces oficiais para criar a PR:
+
+- `gh pr create`: `Post https://api.github.com/graphql: Forbidden`.
+- REST `POST /repos/maxsonrocha/Simulado-Ale-ro/pulls`: `Forbidden`.
+
+**A PR não foi criada pelo ambiente**, por bloqueio de acesso às APIs. A branch
+permanece publicada com todos os relatórios. Abertura manual:
+https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-banco-questoes-etapa-1-lote-7
+
+Título proposto: **Transpetro 2026 — Lote 7 e fechamento da Etapa 1 (700 questões)**.
+Descrição técnica preparada: +100 ESP, matriz fechada, 600 anteriores preservadas;
+validador integral700/700, 100 testes, 51 conferências novas e220 no conjunto,
+três suítes de navegador e dez completas inéditas por sequência. Três auditorias
+autorais documentadas nas seções acima, com14 substituições, seis correções
+objetivas, fontes locais rastreáveis e limites de originalidade/calibração explícitos.
+O relatório e o resumo desta branch fornecem os links de revisão para essa descrição.
+
+Nenhum merge foi executado. Nenhuma Etapa 2 foi iniciada. Até integração autorizada,
+a main/site continua com a base anterior; os700 pertencem a esta branch de revisão.

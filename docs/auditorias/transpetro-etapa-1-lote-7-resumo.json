@@ -121,5 +121,23 @@
     "Revisão semântica autoral dirigida, sem embeddings ou64.950pareceres humanos independentes.",
     "Dificuldade é atribuição editorial, não calibração psicométrica.",
     "Etapa2 não iniciada; nenhum merge autorizado nesta tarefa."
-  ]
+  ],
+  "entrega": {
+    "commitConteudo": "274715f",
+    "branchPublicada": true,
+    "prCriada": false,
+    "tentativas": [
+      {
+        "api": "GraphQL",
+        "erro": "Post https://api.github.com/graphql: Forbidden"
+      },
+      {
+        "api": "REST",
+        "erro": "Post https://api.github.com/repos/maxsonrocha/Simulado-Ale-ro/pulls: Forbidden"
+      }
+    ],
+    "aberturaManual": "https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-banco-questoes-etapa-1-lote-7",
+    "mergeExecutado": false,
+    "etapa2Iniciada": false
+  }
 }
