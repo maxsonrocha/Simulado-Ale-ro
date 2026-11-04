@@ -1080,7 +1080,9 @@ function selectRole(role) {
     label.append(input, ` ${format.nome}`); $("typeChoices").appendChild(label);
   }
   const welcomeKey = "simulado_transpetro_eng_seg_welcome_seen_v1";
-  if (App.contest === "TRANSPETRO" && role === "ENG_SEG" && localStorage.getItem(welcomeKey) !== "1") {
+  // Temporariamente desativado; mantenha a carta e o estado salvos para reativação futura.
+  const welcomeEnabled = false;
+  if (welcomeEnabled && App.contest === "TRANSPETRO" && role === "ENG_SEG" && localStorage.getItem(welcomeKey) !== "1") {
     showView("welcome");
   } else {
     showView("config");
