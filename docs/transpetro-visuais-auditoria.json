@@ -1,0 +1,443 @@
+{
+  "passed": true,
+  "manifestSha256": "7f81efa8e80fbe960303bba6027d77ce956998952d4bf376abe7d9032ae663d5",
+  "total": 20,
+  "figuras": 20,
+  "resolucoes": [
+    {
+      "id": "TP26-VIS-ESP-0001",
+      "calculation": {
+        "total": 6,
+        "fraction": 0.16666666666666666
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "sha256": "71319b3d4f6ed2e0562e5f81f9ee6b7a321b6d2a1ca5bde9723257ff902a0255",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-01.svg",
+          "sha256": "8a627926c50b80a2ec502e2f2cfabb87d5f338d5467b9419fd40d28738a81325"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0002",
+      "calculation": {
+        "IQRs": [
+          10,
+          30
+        ],
+        "medians": [
+          20,
+          20
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "sha256": "b464b528aa1d33abd845eaefdd722fe24a0c7966761f334429c0107c0805d1c0",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-02.svg",
+          "sha256": "fdbcf57264f373131737928e1094a148b035220f11cb1407286c26a4a0ab1a9e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0003",
+      "calculation": {
+        "first": 7
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "sha256": "085a41ee0a6f865e618641ebc5d58b0eaaffca599999b8ef70f6d9bc0cd969d4",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-03.svg",
+          "sha256": "16928da2b7733cc6bc5de2efcaad9f979631ff0126996f0db1db6a701f7533af"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0004",
+      "calculation": {
+        "inside": [
+          "Q"
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "sha256": "54772cc8ef8d6870b4ed9e2d6886af987eaecdb941fb625e1974f2fd89ed6e84",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-04.svg",
+          "sha256": "29b9dd17b61f5eed2ad7edda7f2db2b2cd4372bb0975ccafbcee5ab424d106f3"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0005",
+      "calculation": {
+        "ratios": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "differences": [
+          5,
+          10,
+          15,
+          20
+        ]
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "sha256": "618b26f15e8f969a29eceec2fb1984f37a57430d2d1d2ce693938cb35b87e795",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-05.svg",
+          "sha256": "76fca39badb99178449650270aec2c81817724b89aa53e6cf021429ac782624e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0006",
+      "calculation": {
+        "outside": true
+      },
+      "matches": [
+        1
+      ],
+      "answer": 1,
+      "sha256": "578d2ac9099e218e2646176afcf8f7953aea642ef3c3bb60b3bf40bf08dbf0fa",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-06.svg",
+          "sha256": "0f59646e665e1a9ff495ba7b60ce530174405060b3e4fbf6a35883e211ecc6bd"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0007",
+      "calculation": {
+        "cuts": [
+          [
+            "C",
+            "T"
+          ]
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "sha256": "01f9b0b8c752ac8e3fa0806c2968ed591a9669f6bae02cd46dbc7bdf0e8d4c1c",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-07.svg",
+          "sha256": "22e7cd31a1cc44724a2052e1ac977fac429bb34904565982caf86dd5dbaf4680"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0008",
+      "calculation": {
+        "conditional": 0.6428571428571429
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "sha256": "9df042f8be3ae0b7d110e60358fbfbd78487f9220a92d2a6892172dc440007d2",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-08.svg",
+          "sha256": "7f3c3649a3dbf19f19f3de7c69d9a40d7c882b8fb8a2dab5c327e4524fdc766e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0009",
+      "calculation": {
+        "A": [
+          1,
+          2,
+          0
+        ]
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "sha256": "00473ba434e063a130d0276a1b318bd34bc0fddf48feec64fde3fd64d45f8322",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-09.svg",
+          "sha256": "d1e7e7500dcbaf853a984fb5593c9eade82692214cc443e50ffda96d87eb2bbb"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0010",
+      "calculation": {
+        "above": [
+          1
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "sha256": "77aab32d36a33dd3105ee803a80811adf697854631d242bdb159b0b65aaee7ac",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-10.svg",
+          "sha256": "aaf01346a64fb8f5b888bfcc2bfdd5b19a01165c6b190324aab23d37981a2d53"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0011",
+      "calculation": {
+        "b": 25,
+        "percent": 50
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "sha256": "f00154da6f6b9142bf7bcc4ca7cfe8d2242179760aab032858d05c01b80b05d4",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-11.svg",
+          "sha256": "2bfed68b85ad19444924669a8114aac1f877a4fb6f7c1080ee2d3e9d66fb430e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0012",
+      "calculation": {
+        "uncovered": [
+          "R"
+        ]
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "sha256": "a58ff2c548bb2c89944f34b0bc592baa90d7a405600319a168f91c794517d3ef",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-12.svg",
+          "sha256": "f10640b65688361e454bb31df4ce2fbbca39d769f16d82b331392f47a01bcfca"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0013",
+      "calculation": {
+        "effectiveLengths": [
+          3,
+          2
+        ],
+        "ratio": 2.25
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "sha256": "d900e12eacd799a206a0cdbd0b2ed8d41bbdc4c36bebfa6721554a57c3da3638",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-13.svg",
+          "sha256": "bcd9730891c3bf154a7fc1e98fdb0f5085d36027b9785e11d6abecac9b6d4859"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0014",
+      "calculation": {
+        "integral": 56,
+        "mean": 5.6
+      },
+      "matches": [
+        2
+      ],
+      "answer": 2,
+      "sha256": "ece1788bc93113f3f51627d6ecbcd2582890cc8a09dd59de9dd6e74eb963935c",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-14.svg",
+          "sha256": "e1baa1cb1e1dfd3e284fa4b2ef980805d80d5a74d3cfc3e7fbe41e5cc5d72982"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0015",
+      "calculation": {
+        "lengths": [
+          10,
+          8
+        ]
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "sha256": "2a04baceb0b69d7528287a9cd47844619c13503590814a0af039821ac695ebd7",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-15.svg",
+          "sha256": "69f8852c11fd65e198aa442461a3bd7320de4e52948e5bb3e80c83a8da3ac9e5"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0016",
+      "calculation": {
+        "energy": 2900,
+        "area": 30,
+        "density": 96.66666666666667
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "sha256": "8838b31e5bf190965f5318e99c9655a22da1e14abdee7d7df8fb70078e86459c",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-16.svg",
+          "sha256": "ae3101e6544180c312d4c162f5448b179b8c6d2c8a272152fb4449146da2a9d4"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0017",
+      "calculation": {
+        "N": 20,
+        "ranked": [
+          {
+            "bin": [
+              0,
+              5
+            ],
+            "from": 1,
+            "to": 9
+          },
+          {
+            "bin": [
+              5,
+              10
+            ],
+            "from": 10,
+            "to": 11
+          },
+          {
+            "bin": [
+              10,
+              20
+            ],
+            "from": 12,
+            "to": 19
+          },
+          {
+            "bin": [
+              20,
+              40
+            ],
+            "from": 20,
+            "to": 20
+          }
+        ],
+        "medianRanks": [
+          10,
+          11
+        ]
+      },
+      "matches": [
+        4
+      ],
+      "answer": 4,
+      "sha256": "d9f0302e2e2a00cbe5561cab6e6878dfc862c400f2c843d4da0f6f57a1c6e9c8",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-17.svg",
+          "sha256": "1d54579670dc2b34ea2d57d3ab29122624c925d057342bfdbeee22865d3a5422"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0018",
+      "calculation": {
+        "costs": [
+          16,
+          17,
+          26
+        ]
+      },
+      "matches": [
+        0
+      ],
+      "answer": 0,
+      "sha256": "af8320e86455fc7c46f908a65ff3a16a097a42b059d57d1ded4951932bd38ee3",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-18.svg",
+          "sha256": "a9fee197ee4cc1c3de873865e7bd829def91eb9ff22cdd38b6ade622b6c7f532"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0019",
+      "calculation": {
+        "balance": 0,
+        "intensity": 4
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "sha256": "47b15f3eefa35c3964426bdb6c396ac4218aae58d6723c2152cb95d8d3763160",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-19.svg",
+          "sha256": "9a3ea7cdfd56bf2546de61117125136d9c59e1d47c1ed9a26b67b18f23332057"
+        }
+      ]
+    },
+    {
+      "id": "TP26-VIS-ESP-0020",
+      "calculation": {
+        "amplitudes": [
+          10,
+          2,
+          5
+        ]
+      },
+      "matches": [
+        3
+      ],
+      "answer": 3,
+      "sha256": "2ca02b91ef8f9ce3b6ab8541eac662b8020c0911b8b531c1a70080c968446439",
+      "figuras": [
+        {
+          "src": "assets/transpetro/visuais/piloto-20.svg",
+          "sha256": "48f41b7865cbb5bbd9a1817d10f5450c778960c9977ed60c60dd4aa45fda676f"
+        }
+      ]
+    }
+  ],
+  "comparacoesLexicais": 14190,
+  "alertas": [],
+  "limitacao": "Revisão editorial dirigida, não garantia automática de originalidade semântica. Referências externas identificáveis; acesso externo403 registrado."
+}

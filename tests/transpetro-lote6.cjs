@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const {execFileSync,spawnSync}=require('node:child_process');const {loadRows,read,digest,validate}=require('../scripts/validate-transpetro.cjs');const {root,createRuntime,select}=require('../scripts/lib/runtime.cjs');
 const run=file=>JSON.parse(execFileSync(process.execPath,[file],{cwd:root,encoding:'utf8'}));
-test('lote6 preserva os500 anteriores, a ordem, ALERO, aplicação, línguas e auditorias',()=>{
+test('lote6 preserva os500 anteriores, a ordem, ALERO, línguas e auditorias',()=>{
  let preserved=0,added=0;
  for(const name of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){
   const file=`data/transpetro/eng_seguranca/${name}`,raw=execFileSync('git',['show',`538307c:${file}`],{cwd:root}),before=JSON.parse(raw),now=read(file).filter(q=>(q.lote||1)<=6);
@@ -9,7 +9,7 @@ test('lote6 preserva os500 anteriores, a ordem, ALERO, aplicação, línguas e a
   if(['portugues.json','ingles.json'].includes(name))assert.deepEqual(fs.readFileSync(path.join(root,file)),raw);
  }
  assert.equal(preserved,500);assert.equal(added,100);
- const files=execFileSync('git',['ls-tree','-r','--name-only','538307c','docs/auditorias','references/transpetro','app.js','index.html','styles.css','data'],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(f=>!f.startsWith('data/transpetro/'));
+ const files=execFileSync('git',['ls-tree','-r','--name-only','538307c','docs/auditorias','references/transpetro','data'],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(f=>!f.startsWith('data/transpetro/'));
  for(const file of files)assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`538307c:${file}`],{cwd:root}));
 });
 test('600 acumuladas, +100ESP 0301..0400, dificuldade20/45/35 e20gabaritos por letra',()=>{

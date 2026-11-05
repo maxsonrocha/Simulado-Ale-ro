@@ -2,11 +2,11 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const {execFileSync,spawnSync}=require('node:child_process');const {loadRows,read,digest,validate}=require('../scripts/validate-transpetro.cjs');const {root,createRuntime,select}=require('../scripts/lib/runtime.cjs');
 const base='673ebc6',run=file=>JSON.parse(execFileSync(process.execPath,[file],{cwd:root,encoding:'utf8'}));
 const matrix={prevencao_riscos:90,legislacao_nr:90,higiene_ocupacional:80,gerenciamento_riscos:60,gestao_sms:40,acidentes:40,emergencias:30,incendio:24,ergonomia:20,saude_ocupacional:16,desenvolvimento_sustentavel:10};
-test('lote7 preserva600 itens, ordem, línguas, ALERO, aplicação e evidências anteriores',()=>{
+test('lote7 preserva600 itens, ordem, línguas, ALERO e evidências anteriores',()=>{
  let preserved=0,added=0;
  for(const name of fs.readdirSync(path.join(root,'data/transpetro/eng_seguranca')).filter(f=>f.endsWith('.json'))){const file=`data/transpetro/eng_seguranca/${name}`,raw=execFileSync('git',['show',`${base}:${file}`],{cwd:root}),before=JSON.parse(raw),now=read(file);assert.deepEqual(now.slice(0,before.length),before);preserved+=before.length;const delta=now.slice(before.length);assert(delta.every(q=>q.lote===7&&q.area==='ESP'));added+=delta.length;if(['portugues.json','ingles.json'].includes(name))assert.deepEqual(fs.readFileSync(path.join(root,file)),raw);}
  assert.equal(preserved,600);assert.equal(added,100);
- const files=execFileSync('git',['ls-tree','-r','--name-only',base,'docs/auditorias','references/transpetro','app.js','index.html','styles.css','data'],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(f=>!f.startsWith('data/transpetro/'));
+ const files=execFileSync('git',['ls-tree','-r','--name-only',base,'docs/auditorias','references/transpetro','data'],{cwd:root,encoding:'utf8'}).trim().split('\n').filter(f=>!f.startsWith('data/transpetro/'));
  for(const file of files)assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`${base}:${file}`],{cwd:root}));
 });
 test('déficits reais fecham100 e700 finais têm matriz e dificuldade exatas',()=>{

@@ -203,3 +203,12 @@ prazos ou requisitos ausentes por memória. As edições ISO/ABNT seguem o edita
 PORT/ING atingiram suas metas de 100 itens no Lote 5; os Lotes 6 e 7 adicionaram
 somente ESP. A Etapa 1 não possui saldo pendente de questões. A revisão humana
 independente e o merge autorizado são etapas de integração. A Etapa 2 não foi iniciada.
+
+## Recursos visuais e piloto Transpetro
+
+O campo opcional `imagens` aceita múltiplas figuras locais com descrição, legenda
+e ampliação, mantendo o campo legado `image`. O contexto de grupos e o caderno
+de erradas levam também as figuras. O formato **Piloto visual (20)** utiliza um
+arquivo separado; os 700 itens e os formatos FULL/ESP permanecem intactos.
+Consulte [esquema e manutenção](docs/QUESTOES_VISUAIS.md) e o
+[relatório de testes e limitações](docs/transpetro-visuais-relatorio.md).
