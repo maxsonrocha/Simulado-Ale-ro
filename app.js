@@ -40,10 +40,11 @@ const CONCURSOS = {
       ENG_SEG: {
         nome: "Engenharia de Segurança do Trabalho",
         assuntos: ASSUNTOS_ENG_SEG,
-        pilotos: { path: "data/transpetro/pilotos_visuais.json", prefix: "TP26-VIS-" },
         bancos: [
           { path: "data/transpetro/eng_seguranca/portugues.json", area: "PORT" },
           { path: "data/transpetro/eng_seguranca/ingles.json", area: "ING" },
+          { path: "data/transpetro/pilotos_visuais.json", area: "ESP", etapa: 2 },
+          { path: "data/transpetro/etapa2/lote1.json", area: "ESP", etapa: 2 },
           ...Object.keys(ASSUNTOS_ENG_SEG).map(assunto => ({
             path: `data/transpetro/eng_seguranca/${assunto}.json`, area: "ESP", assunto
           }))
@@ -57,8 +58,7 @@ const CONCURSOS = {
     formatos: {
       FULL: { nome: "Prova completa (70)", quantidades: { PORT: 10, ING: 10, ESP: 50 } },
       ESP: { nome: "Conhecimentos Específicos (50)", quantidades: { ESP: 50 } },
-      ERRADAS: { nome: "Caderno de erradas" },
-      VISUAIS: { nome: "Piloto visual (20)", quantidades: { ESP: 20 } }
+      ERRADAS: { nome: "Caderno de erradas" }
     },
     regras: { esp: 25, general: 10, minPort: 1, minIng: 1 },
     avaliar: evaluateTranspetro,
@@ -116,16 +116,8 @@ function subjectOf(q) { return q.assunto || q.topic || "—"; }
 function subjectName(subject) { return currentRole()?.assuntos?.[subject] || subject; }
 function areaName(area) { return currentContest().nomesAreas?.[area] || area; }
 function bankSources() {
-  const role = currentRole();
-  const piloto = role.pilotos;
-  if (piloto && App.type === "VISUAIS") return [{ path: piloto.path, area: "ESP" }];
-  const sources = role.bancos || [role.banco, ...currentContest().bancosComuns]
+  return currentRole().bancos || [currentRole().banco, ...currentContest().bancosComuns]
     .filter(Boolean).map(path => ({ path }));
-  // Só buscar pilotos no caderno se houver um ID correspondente salvo.
-  if (piloto && App.type === "ERRADAS" && [...getWrongIdsSet()].some(id => typeof id === "string" && id.startsWith(piloto.prefix))) {
-    return [...sources, { path: piloto.path, area: "ESP" }];
-  }
-  return sources;
 }
 
 // ===========================

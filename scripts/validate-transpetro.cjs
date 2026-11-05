@@ -10,7 +10,7 @@ const digest = q => crypto.createHash('sha256').update(JSON.stringify(q)).digest
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8').replace(/^\uFEFF/, ''));
 function loadRows() {
   const r = createRuntime(); select(r);
-  const sources = r.CONCURSOS.TRANSPETRO.cargos.ENG_SEG.bancos;
+  const sources = r.CONCURSOS.TRANSPETRO.cargos.ENG_SEG.bancos.filter(source => source.etapa !== 2);
   const configured = new Set(sources.map(s => s.path));
   for (const name of fs.readdirSync(path.join(root, 'data/transpetro/eng_seguranca')).filter(n => n.endsWith('.json'))) {
     if (!configured.has(`data/transpetro/eng_seguranca/${name}`)) throw new Error(`JSON sem cadastro no carregador: ${name}`);

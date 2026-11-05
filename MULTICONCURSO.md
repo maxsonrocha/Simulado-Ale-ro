@@ -206,9 +206,14 @@ independente e o merge autorizado são etapas de integração. A Etapa 2 não fo
 
 ## Recursos visuais e piloto Transpetro
 
-O campo opcional `imagens` aceita múltiplas figuras locais com descrição, legenda
-e ampliação, mantendo o campo legado `image`. O contexto de grupos e o caderno
-de erradas levam também as figuras. O formato **Piloto visual (20)** utiliza um
-arquivo separado; os 700 itens e os formatos FULL/ESP permanecem intactos.
-Consulte [esquema e manutenção](docs/QUESTOES_VISUAIS.md) e o
-[relatório de testes e limitações](docs/transpetro-visuais-relatorio.md).
+O campo opcional `imagens` aceita múltiplas figuras locais com descrição,
+legenda e ampliação. Contexto de grupos e caderno de erradas levam as figuras.
+A Etapa 2/lote 1 incorporou os 20 pilotos ao carregamento regular, sem mudar seus
+IDs, e adicionou 100 ESP. A opção VISUAIS não existe mais na configuração;
+históricos antigos continuam legíveis. São 820 itens (100 PORT,100 ING,620 ESP),
+sem mudança da prova completa 10/10/50 ou das regras/4h30.
+
+`node scripts/validate-transpetro.cjs` continua validando a Etapa 1 de 700.
+`node scripts/audit-transpetro-etapa2-lote1.cjs` valida os 820 do banco atual.
+Consulte [esquema visual](docs/QUESTOES_VISUAIS.md) e
+[relatório Etapa 2/lote 1](docs/transpetro-etapa2-lote1-relatorio.md).

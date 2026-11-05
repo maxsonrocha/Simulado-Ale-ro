@@ -54,21 +54,25 @@ herdadas são preservadas no caderno de erradas e na revisão do resultado.
 IDs, ordem de grupos, sorteio, regras, timer e chaves de localStorage permanecem.
 Não há um segundo mecanismo de grupos ou um novo tipo de pontuação.
 
-## Piloto separado do banco regular
+## Integração dos 20 pilotos ao banco regular
 
-Transpetro → Engenharia de Segurança do Trabalho → **Piloto visual (20)**.
-São 20 ESP em `data/transpetro/pilotos_visuais.json`, com
-`piloto_visual: true` e IDs `TP26-VIS-ESP-0001` a `0020`.
+A opção independente VISUAIS foi retirada na Etapa 2/lote 1. O arquivo
+`data/transpetro/pilotos_visuais.json` permanece intacto, carregado uma única vez
+junto dos bancos regulares em FULL, ESP e ERRADAS. IDs `TP26-VIS-ESP-0001` a
+`0020`, figuras e metadados originais continuam válidos. O indicador de origem
+na questão continua disponível; não há formato separado para iniciá-las.
 
-- FULL/ESP continuam carregando somente os 700 itens anteriores.
-- VISUAIS carrega apenas os 20 pilotos. Não conta como expansão da Etapa 1/2.
-- ERRADAS busca também o arquivo piloto quando há um ID de piloto salvo.
-- Os IDs diferentes preservam ciclos de seleção independentes dentro do mesmo
-  concurso/cargo; renovar o conjunto visual não apaga IDs vistos do banco regular.
-- Histórico registra o formato `VISUAIS`; assim como outros parciais, participa
-  das estatísticas do cargo. Não recebe aprovação de prova completa.
-- O timer continua usando os 270 minutos já configurados para Transpetro,
-  inclusive nos parciais; não foi inventada duração oficial de uma prova de 20.
+O lote novo está em `data/transpetro/etapa2/lote1.json`: 100 ESP, das quais
+45 têm imagens. O banco total passa a 820: 100 PORT, 100 ING e 620 ESP.
+A completa continua 10/10/50 e o específico 50; duração continua 270 minutos.
+Os resultados antigos com `type: "VISUAIS"` não são reescritos. O caderno encontra
+os mesmos IDs antigos no carregamento regular. Não há migração destrutiva,
+renumeração ou cópia de questões entre arquivos.
+
+As fontes adicionais possuem `etapa: 2` na configuração do carregador. O validador
+histórico da Etapa 1 mantém seu snapshot estrito de 700; o auditor da Etapa 2
+valida o banco regular completo de 820. Não se alteraram quotas históricas para
+ocultar uma contagem incorreta. Ver o [relatório da integração](transpetro-etapa2-lote1-relatorio.md).
 
 ## Manutenção e verificações
 

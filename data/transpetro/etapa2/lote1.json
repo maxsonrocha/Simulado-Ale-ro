@@ -1,0 +1,3313 @@
+[
+  {
+    "id": "TP26-E2L1-ESP-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "desbalanceamento_rotor_velocidade",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um rotor tem massa excêntrica efetiva m=0,02 kg a e=0,01 m do eixo. Use força de excitação F=m e ω². A velocidade angular aumenta de 100 para 200 rad/s, sem alterar m ou e. Qual mudança e qual limitação para inferir vibração da estrutura?",
+    "options": [
+      "Força passa de 8 para 2 N; velocidade maior reduz a excitação.",
+      "Força passa de 2 para 8 N; isso sozinho prova amplitude quatro vezes maior em toda estrutura.",
+      "Força passa de 2 para 8 N; a amplitude estrutural também depende da resposta dinâmica.",
+      "Força fica em 2 N; só a massa determina a excitação.",
+      "Força passa de 2 para 4 N; qualquer estrutura duplica obrigatoriamente a amplitude."
+    ],
+    "answer": 2,
+    "explanation": "F1=0,02 ×0,01 ×100²=2 N e F2=8 N. A excitação quadruplica, mas a resposta depende de frequências naturais, amortecimento e condições de apoio; não se calcula amplitude apenas por essa razão.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "frenagem_regenerativa_fluxo_energia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Ao frear uma carga descendente, um acionamento funciona como gerador e envia 3 kW ao barramento. O consumidor ligado ao barramento absorve 1 kW e não há outra via de dissipação. O modelo possui capacitor com energia máxima admissível interna. Que balanço revela a necessidade de reexaminar o controle?",
+    "options": [
+      "Os 3 kW gerados são eliminados apenas pelo nome frenagem.",
+      "A energia do barramento fica necessariamente constante por a velocidade diminuir.",
+      "Há entrada líquida de 2 kW de energia no barramento, que pode elevar a energia armazenada.",
+      "Há retirada líquida de 4 kW porque frear sempre dissipa toda energia no motor.",
+      "A absorção de 1 kW garante equilíbrio com qualquer geração."
+    ],
+    "answer": 2,
+    "explanation": "Entrada3 menos consumo 1 deixa 2 kJ/s acumulando. O sentido gerador transfere energia da carga para o circuito; frenagem mecânica não garante ausência de energia elétrica armazenada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "umidade_relativa_aquecimento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Num modelo de ar aquecido sem entrada ou saída de vapor, a pressão parcial de vapor permanece 2 kPa. A pressão de saturação passa de 4 para 8 kPa. Defina umidade relativa como pressão parcial dividida pela de saturação. Qual interpretação é correta?",
+    "options": [
+      "Cai de 50% para 25%, sem demonstrar remoção de vapor.",
+      "Cai a zero porque aquecimento elimina todo vapor.",
+      "Sobe de 25% para 50% porque aumenta a saturação.",
+      "Cai de 50% para 25%, logo metade do vapor foi removida necessariamente.",
+      "Permanece 50% porque toda razão é conservada."
+    ],
+    "answer": 0,
+    "explanation": "As razões são 2/4 e2/8. A queda relativa decorre do denominador, não de remoção de massa. Pressão parcial constante é hipótese expressa do exercício, sem modelo completo de conforto térmico.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "tensao_termica_restricao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Uma barra ideal é impedida de se alongar ao aquecer. Use tensão térmica compressiva σ=EαΔT, E=200 GPa, α=10⁻⁵ K⁻¹, ΔT=100 K. O escoamento no modelo começa a 250 MPa. Qual tensão elástica e comparação, sem avaliar flambagem?",
+    "options": [
+      "200 MPa; a barra está em tração pela restrição ao aquecimento.",
+      "200 MPa; abaixo do escoamento dado, mas isso não avalia instabilidade.",
+      "250 MPa; toda restrição leva diretamente ao limite fornecido.",
+      "2.000 MPa; acima do escoamento porque GPa e MPa são iguais.",
+      "2 MPa; abaixo do escoamento e suficiente para aprovar toda a estrutura."
+    ],
+    "answer": 1,
+    "explanation": "200.000 MPa×10⁻⁵×100=200 MPa compressivos. Fica abaixo de 250 MPa no modelo elástico; flambagem é outro modo e não é excluída por essa comparação.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "amostragem_ciclica_pior_atraso",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Um sinal de perigo pode surgir em qualquer instante entre leituras periódicas de um controlador. Intervalo entre leituras 40 ms; processamento após a leitura 10 ms; atuação física depois 30 ms. Critério interno exige atuação em no máximo 70 ms desde o surgimento. Qual análise do pior caso?",
+    "options": [
+      "É no máximo 70 ms, pois o sinal pode surgir antes da leitura.",
+      "É sempre 40 ms; o intervalo entre leituras inclui todas as etapas.",
+      "É sempre 10 ms; processamento define todo o atraso.",
+      "É sempre 50 ms; a atuação física é instantânea.",
+      "Pode chegar a 80 ms; o critério não é garantido para surgimento logo após uma leitura."
+    ],
+    "answer": 4,
+    "explanation": "No pior alinhamento, espera quase 40 ms pela próxima leitura e depois 10+30 ms, aproximando 80 ms. Casos favoráveis não garantem o limite de 70 ms para todo instante de surgimento.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "estabilidade_flutuacao_parcial",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um corpo oco estanque desloca inicialmente 0,8 m³ de água de densidade 1.000 kg/m³. Use empuxo=ρgV e g=10 m/s². Seu peso total é 6.000 N e há amarra que impede subir. Qual esforço vertical da amarra em equilíbrio, desprezando outras forças?",
+    "options": [
+      "8.000 N para baixo, ignorando o peso.",
+      "14.000 N para baixo, somando peso ao empuxo.",
+      "2.000 N para baixo sobre o corpo.",
+      "6.000 N para cima, igual ao peso.",
+      "2.000 N para cima, no mesmo sentido do empuxo."
+    ],
+    "answer": 2,
+    "explanation": "Empuxo8.000 N; saldo sem amarra 2.000 N para cima. A amarra equilibra com 2.000 N para baixo. Não se avalia ruptura, estanqueidade real ou estabilidade rotacional.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "calor_reativo_pinch_trocador",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um trocador em contracorrente recebe corrente quente a 100°C e deve entregá-la a 60°C; a fria entra a 30°C e deve sair a 90°C. O modelo impõe diferença mínima interna de projeto de 15 K em cada extremidade. Qual verificação é correta?",
+    "options": [
+      "Uma extremidade tem 10 K e viola o critério, embora a outra tenha 30 K.",
+      "As duas têm 40 K, calculados pela queda da corrente quente.",
+      "A saída fria acima da saída quente torna todo contracorrente fisicamente impossível.",
+      "A diferença de entrada 70 K comprova atendimento nas duas extremidades.",
+      "As duas cumprem porque as temperaturas médias diferem 20 K."
+    ],
+    "answer": 0,
+    "explanation": "Em contracorrente, compare quente 100 com fria 90: 10 K; e quente 60 com fria 30: 30 K. O critério interno falha numa extremidade; médias ou só temperaturas de entrada não o verificam.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "selecao_metrica_experimento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Duas propostas de inspeção são avaliadas com a mesma lista de defeitos: X encontra 18 de 20 defeitos críticos e 2 de 80 leves; Y encontra 10 críticos e 70 leves. A política prioriza primeiro a fração de críticos encontrados, usando o total apenas para desempate. Qual decisão respeita a política?",
+    "options": [
+      "Y, pois o total encontrado deve substituir a prioridade definida.",
+      "X, embora seu total encontrado seja menor.",
+      "Y, porque encontrar defeitos leves prova maior detecção de críticos.",
+      "X, por ter encontrado mais defeitos no total.",
+      "Empate, porque os denominadores totais são iguais."
+    ],
+    "answer": 1,
+    "explanation": "X encontra 90% dos críticos e20 no total; Y50% dos críticos e80 no total. O critério lexicográfico prioriza críticos e não chega ao desempate; trocar a métrica muda a decisão.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ressonancia_tubo_quarto_onda",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um duto ideal fechado numa extremidade e aberto na outra tem frequências fn=(2 n−1)c/(4 L). Use c=340 m/s e L=0,85 m. Uma excitação tonal é de 300 Hz. Qual modo coincide e o que muda se L dobrar mantendo c?",
+    "options": [
+      "n=3 coincide; as frequências dobram com o comprimento.",
+      "n=1 coincide; a frequência não depende de L.",
+      "n=2 coincide; todas as frequências do modelo caem à metade.",
+      "Nenhum coincide porque o segundo modo tem sempre o dobro do primeiro.",
+      "n=2 coincide; só esse modo muda e os demais permanecem iguais."
+    ],
+    "answer": 2,
+    "explanation": "c/(4 L)=100 Hz; modos 100,300,500... correspondem a n1,2,3. DobrarL divide cada fn por 2. Trata-se de modelo acústico ideal, não limite de exposição ou previsão completa do duto real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fluido_nao_newtoniano_lei_potencia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Num ensaio didático de fluido, tensão de cisalhamento τ=kγⁿ, com n=0,5 e k constante. A taxa de cisalhamento passa de 4 para 16 s⁻¹. Como mudam tensão e viscosidade aparente η=τ/γ?",
+    "options": [
+      "A tensão cai à metade e a viscosidade dobra.",
+      "A tensão dobra e a viscosidade aparente cai à metade.",
+      "Ambas permanecem constantes por k não mudar.",
+      "Ambas quadruplicam porque a taxa quadruplicou.",
+      "A tensão quadruplica e a viscosidade fica constante."
+    ],
+    "answer": 1,
+    "explanation": "Razão de tensões=(16/4)^0,5=2. Razão de viscosidades=2/4=0,5. A relação não é newtoniana; viscosidade aparente varia com a taxa neste modelo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Bird, Stewart e Lightfoot — Transport Phenomena. Wiley."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "deslizamento_acoplamento_e_potencia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um dispositivo dissipativo sofre torque resistente de 20 N·m com deslizamento relativo de 30 rad/s. Use potência dissipada=P=torque×velocidade relativa. Durante 10 s constantes, quanta energia térmica é gerada e qual erro haveria em usar a velocidade absoluta de um eixo?",
+    "options": [
+      "6 kJ; qualquer velocidade absoluta dá necessariamente o mesmo resultado.",
+      "600 kJ; rad/s precisa ser multiplicado por mil.",
+      "200 J; o deslizamento não participa da potência.",
+      "6 kJ; a dissipação indicada depende do deslizamento entre as partes.",
+      "0,6 kJ; potência e energia têm a mesma unidade."
+    ],
+    "answer": 3,
+    "explanation": "P=20 ×30=600 W; em 10 s gera 6.000 J=6 kJ. A fórmula dada usa movimento relativo, que não é determinado pela velocidade absoluta de apenas uma parte.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "parafuso_reversibilidade_modelo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um mecanismo de parafuso sob carga usa modelo de autorretenção: só é irreversível quando tan(λ)<µ. Para λ dado, tan(λ)=0,12. O atrito é µ=0,15 seco e µ=0,08 lubrificado. Qual avaliação respeita o modelo?",
+    "options": [
+      "Vale só lubrificado porque menor µ impede todo movimento.",
+      "A condição de autorretenção vale a seco, mas deixa de valer após a redução do atrito.",
+      "A condição vale nos dois estados porque lubrificar sempre aumenta autorretenção.",
+      "O teste a seco prova irreversibilidade em qualquer estado superficial.",
+      "Não vale em nenhum porque λ independe do atrito."
+    ],
+    "answer": 1,
+    "explanation": "0,12<0,15 é verdadeiro, mas 0,12<0,08 é falso. A mudança de atrito altera a condição; não se deve creditar retenção sem verificar o estado previsto. O modelo não especifica equipamento real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "compartilhamento_carga_capacitores",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Dois capacitores ideais iguais C=2 mF estão inicialmente isolados: um a 100 V e o outro descarregado. São conectados em paralelo com mesma polaridade por uma resistência, sem fonte. Use conservação de carga e E=CV²/2. Qual tensão final e energia dissipada na conexão?",
+    "options": [
+      "50 V e zero joule, pois carga conservada implica energia conservada nos capacitores.",
+      "50 V e 5 J.",
+      "100 V e zero joule.",
+      "25 V e 7,5 J.",
+      "200 V e 10 J."
+    ],
+    "answer": 1,
+    "explanation": "Carga inicial 0,002 ×100=0,2 C; capacitância total 0,004 F, tensão 50 V. Energia inicial 10 J; final 0,004 ×50²/2=5 J. A diferença 5 J dissipa na resistência; conservação de carga não conserva energia apenas nos capacitores.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "secao_entalhe_tensao_local",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma peça suporta força de 10 kN. Seção líquida 100 mm² e fator de concentração elástico Kt=2,5, definido por tensão máxima local dividida pela nominal na seção líquida. O critério interno limita a tensão local a 200 MPa. Qual cálculo e conclusão?",
+    "options": [
+      "Nominal250 MPa e local 100 MPa; atende.",
+      "Nominal100 MPa e local 40 MPa; atende.",
+      "Nominal100 MPa e local 100 MPa; o entalhe é irrelevante.",
+      "Nominal100 MPa e local 250 MPa; não atende ao critério interno.",
+      "Nominal10 MPa e local 25 MPa; atende."
+    ],
+    "answer": 3,
+    "explanation": "10.000 N/100 mm²=100 N/mm²=100 MPa. Multiplicando por 2,5 resulta 250 MPa, acima de 200. O fator e o critério são hipóteses do exercício, não regra normativa de projeto.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "aceleracao_base_atrito_e_tombamento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Um bloco tem centro de massa a 1 m de altura, sem excentricidade, base com meia largura 0,4 m no sentido da aceleração e µ=0,6. Modelo quase estático: limiar de deslizar a=µg; limiar de tombar a=gb/h. Use g=10 m/s², piso horizontal e sem amarras. Qual mecanismo atinge o limiar primeiro ao elevar a aceleração?",
+    "options": [
+      "Ambos a 6 m/s² porque µ controla todos os modos.",
+      "Nenhum pode ocorrer antes de a atingir g.",
+      "Tombamento, a 4 m/s², antes do deslizamento a 6 m/s².",
+      "Deslizamento, a 4 m/s², antes do tombamento a 6 m/s².",
+      "Tombamento a 25 m/s² porque se usa h/b."
+    ],
+    "answer": 2,
+    "explanation": "Limiares: deslizar 0,6 ×10=6; tombar 10 ×0,4/1=4 m/s². O menor é4. Depois do primeiro limiar o modelo de equilíbrio perde validade; não é análise dinâmica completa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "relaxacao_vedacao_deformacao_constante",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um ensaio de material viscoelástico de junta mantém temperatura e deformação constantes. Sem giro do parafuso, a força compressiva diminui com o tempo. Qual descrição distingue o mecanismo observado da fluência sob tensão constante?",
+    "options": [
+      "Dilatação térmica diferencial causada por aumento de temperatura inexistente no ensaio.",
+      "Resposta de mola linear ideal sem dependência temporal, que explicaria o decaimento.",
+      "Fluência sob força constante, embora a força medida varie.",
+      "Relaxação de tensão sob deformação mantida.",
+      "Afrouxamento por rotação já demonstrada, apesar de não haver giro."
+    ],
+    "answer": 3,
+    "explanation": "A variável mantida é deformação; a tensão associada decai: relaxação. Na fluência sob tensão constante, o que cresce é deformação. A hipótese viscoelástica permite dependência temporal sem giro ou variação térmica.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "energia_de_rotacao_desacoplada",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Após desligar o motor, um volante desacoplado continua girando por inércia. A intervenção exige tocar seu aro. Qual condição física deve ser verificada antes do contato, sem presumir requisitos legais de um equipamento específico?",
+    "options": [
+      "A continuidade do giro, desde que o motor esteja eletricamente desligado.",
+      "Somente a ausência de ruído na sala de comando.",
+      "Somente a posição desligado do interruptor do motor.",
+      "Somente a temperatura da carcaça do motor.",
+      "Cessação do movimento e controle das fontes capazes de restabelecê-lo, não só ausência de alimentação do motor."
+    ],
+    "answer": 4,
+    "explanation": "A energia cinética pode permanecer no volante desacoplado. O estado do motor não demonstra o estado mecânico da parte acessada; reenergização também precisa ser considerada na avaliação.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "estabilidade_local_balanco_termico",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um modelo térmico usa temperatura T acima da referência, em unidades coerentes, potência gerada G=2 T+10 e removida R=3 T. A capacidade térmica C é positiva e C dT/dt=G−R. Qual equilíbrio e resposta a pequeno aumento de T nesse modelo?",
+    "options": [
+      "Não existe equilíbrio porque G e R têm inclinações diferentes.",
+      "T=−10; subtrai-se a geração da remoção com sinal invertido.",
+      "T=5; somam-se os coeficientes de geração e remoção.",
+      "T=10; qualquer geração positiva torna o equilíbrio instável.",
+      "T=10; há retorno ao equilíbrio porque a remoção cresce mais que a geração."
+    ],
+    "answer": 4,
+    "explanation": "2 T+10=3 T dáT10. Uma perturbação positiva δ muda G−R em−δ, logo resfria e tende a voltar. A estabilidade é local e do modelo reduzido, não avaliação completa de reação ou instalação.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "carga_excentrica_e_momento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Uma massa suspensa inicialmente centrada é deslocada lateralmente, mantendo peso e altura. No modelo estático, o ponto de apoio fica fixo. Qual grandeza passa a demandar reavaliação direta para a estabilidade?",
+    "options": [
+      "Apenas a aceleração gravitacional, que muda com a posição lateral.",
+      "Momento do peso em relação ao apoio, que depende da distância perpendicular à sua linha de ação.",
+      "Apenas a massa, que necessariamente aumentou com o deslocamento.",
+      "Apenas a energia térmica, sem efeito na estática.",
+      "O tempo de suspensão como substituto da geometria da carga."
+    ],
+    "answer": 1,
+    "explanation": "Momento é força vezes braço perpendicular. O peso pode permanecer igual e produzir outro momento; não se autoriza uma operação de içamento a partir deste modelo simples.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "retorno_sifao_e_cota",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Uma mangueira cheia liga um reservatório a uma saída abaixo da superfície do líquido. A bomba é desligada, mas o trajeto permanece contínuo e a saída aberta. Sob o modelo de sifão, por que desligar a bomba pode não cessar a transferência?",
+    "options": [
+      "A gravidade só atua enquanto houver alimentação elétrica.",
+      "Toda mangueira cheia interrompe automaticamente o fluxo quando a bomba para.",
+      "A diferença de cotas pode manter o escoamento sem trabalho contínuo da bomba.",
+      "O volume do reservatório aumenta obrigatoriamente após desligar a bomba.",
+      "A pressão atmosférica torna impossível qualquer sifão com saída mais baixa."
+    ],
+    "answer": 2,
+    "explanation": "No modelo indicado, a energia potencial associada à diferença de cotas pode sustentar a transferência. O comando da bomba não equivale a uma interrupção física do caminho.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0021",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "razao_verossimilhanca_evidencias",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Uma análise compara hipóteses H1 e H2 com chances iniciais iguais. Uma evidência E tem P(E|H1)=0,6 e P(E|H2)=0,2. Sem outras informações, qual probabilidade posterior de H1?",
+    "options": [
+      "0,40.",
+      "0,80.",
+      "0,60.",
+      "0,25.",
+      "0,75."
+    ],
+    "answer": 4,
+    "explanation": "As massas ponderadas são 0,5 ×0,6=0,3 e 0,5 ×0,2=0,1. Normalizando, P(H1|E)=0,3/0,4=0,75; a razão de verossimilhança é 3.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0022",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "intervencao_sobre_causa_versus_indicador",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "No modelo causal X aumenta Y e Y aciona o indicador Z. Cobrir fisicamente a lâmpada de Z não altera X nem Y. Qual conclusão decorre desse modelo?",
+    "options": [
+      "A ausência de indicação visível após cobrir a lâmpada não demonstra redução de Y.",
+      "Qualquer intervenção no indicador reduz automaticamente o perigo.",
+      "Cobrir Z elimina necessariamente X por causalidade reversa.",
+      "A única medida válida de Y é a visibilidade da lâmpada.",
+      "X e Y deixam de existir quando não são observados."
+    ],
+    "answer": 0,
+    "explanation": "O efeito da intervenção descrita está no canal de observação, não no mecanismo X→Y. Essa distinção impede confundir supressão de informação com controle do processo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0023",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "ordenacao_condicional_limites",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um critério interno exige minimizar a perda esperada, mas somente entre projetos cujo pior desfecho seja no máximo 40. A tem perda 0 com 0,9 e 80 com 0,1; B tem perda 20 com certeza. Qual decisão aplica integralmente o critério?",
+    "options": [
+      "Declarar empate porque ambos têm probabilidade de perda positiva.",
+      "Escolher B: A tem média menor, mas viola a restrição de pior desfecho.",
+      "Escolher A por ter maior perda máxima.",
+      "Escolher A porque média 8 torna irrelevante a restrição.",
+      "Escolher B porque sua média é menor que 8."
+    ],
+    "answer": 1,
+    "explanation": "A média de A é 8, mas seu pior desfecho 80 excede 40. B é admissível e tem média 20. Não se pode aplicar a otimização antes de respeitar a restrição.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0024",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "ambiguidade_numerador_demanda",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Uma barreira é demandada 200 vezes; em 180 demandas atua, mas em 30 dessas atua tarde demais para impedir o efeito. Qual estimativa de sucesso tempestivo por demanda é sustentada por esses dados?",
+    "options": [
+      "30/180 ≈ 0,167.",
+      "150/180 ≈ 0,833.",
+      "150/200 = 0,75.",
+      "180/200 = 0,90.",
+      "170/200 = 0,85."
+    ],
+    "answer": 2,
+    "explanation": "Sucesso para o objetivo exige atuação no prazo: 180−30=150, denominador 200 demandas. Contar apenas atuação mistura sucessos tempestivos e tardios.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0025",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostrador_passivo_gradiente",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um amostrador passivo ideal segue J=D(Cexterna−Cinterna)/L. Sua calibração assume Cinterna=0. Durante uso, o meio deixa de ser sorvedouro perfeito e Cinterna sobe para metade de Cexterna, que permanece constante; D e L não mudam. Que efeito tem sobre J e sobre estimar concentração usando a calibração original?",
+    "options": [
+      "J zera porque qualquer quantidade interna impede totalmente difusão.",
+      "J dobra; a acumulação interna aumenta o gradiente.",
+      "J cai à metade; aplicar a calibração de sorvedouro perfeito pode subestimar a concentração externa.",
+      "J cai à metade, provando que a concentração externa também caiu à metade.",
+      "J não muda; só a concentração externa participa da difusão."
+    ],
+    "answer": 2,
+    "explanation": "O gradiente passa deCexterna para 0,5 Cexterna, logoJ cai 50%. A resposta por unidade de concentração deixa de ser a da calibração; usar a sensibilidade anterior atribui à concentração uma queda que veio da condição interna do coletor.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0026",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "branco_procedimento_e_contaminacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Brancos de campo apresentam massa enquanto brancos de laboratório não. Os recipientes do mesmo lote ficam limpos até serem abertos e manipulados em campo. Qual etapa a investigação deve priorizar?",
+    "options": [
+      "Manuseio e transporte de campo, sem concluir automaticamente qual substância ou pessoa causou a contaminação.",
+      "Descartar todos os brancos e tratar a massa como exposição real.",
+      "Erro de digitação como única hipótese compatível.",
+      "Exposição do trabalhador como origem obrigatória de toda massa no branco.",
+      "Calibração do detector como causa já provada por qualquer branco positivo."
+    ],
+    "answer": 0,
+    "explanation": "A diferença localiza uma etapa associada ao sinal, mas não determina sozinha a causa específica. O branco não é uma amostra representativa da exposição pessoal.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0027",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "diluicao_analitica_fator",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Uma solução de extrato é diluída: 2 mL são completados até 10 mL. O instrumento mede 3 mg/L na solução diluída. Sem perdas e com resposta linear, qual concentração no extrato original?",
+    "options": [
+      "30 mg/L.",
+      "6 mg/L.",
+      "3 mg/L.",
+      "15 mg/L.",
+      "0,6 mg/L."
+    ],
+    "answer": 3,
+    "explanation": "O fator de diluição é 10/2=5. A concentração original é 3 ×5=15 mg/L; não se multiplica pela diferença de volumes.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0028",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "amostragem_ciclos_nao_sincronizados",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Amostras são coletadas sempre no início do turno. A emissão ocorre após aquecimento, em horários variáveis. Todas as amostras iniciais são baixas. Qual limitação compromete concluir sobre o período inteiro?",
+    "options": [
+      "O horário variável da emissão prova ausência de agente.",
+      "Aumentar casas decimais resolve a falta de cobertura temporal.",
+      "Medições iniciais substituem qualquer conhecimento das fases operacionais.",
+      "A concentração baixa no início demonstra necessariamente baixa concentração posterior.",
+      "O esquema temporal pode não cobrir o modo emissor relevante; é necessário relacionar amostragem e fases reais."
+    ],
+    "answer": 4,
+    "explanation": "Precisão de leitura não corrige viés de cobertura. A seleção dos períodos deve capturar os modos relevantes à finalidade da avaliação.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0029",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "limite_quantificacao_relato",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um laboratório informa resultado abaixo do limite de quantificação de 2 unidades. O relatório de exposição registra exatamente zero e calcula redução de 100% em relação a 5 unidades. Qual crítica é correta?",
+    "options": [
+      "A informação censurada não demonstra zero nem autoriza essa redução exata.",
+      "O limite de quantificação é automaticamente o limite legal de exposição.",
+      "O resultado prova que o agente não esteve presente em momento algum.",
+      "Todo resultado abaixo de 2 equivale necessariamente a 1.",
+      "A redução de 100% é garantida por qualquer ausência de número exato."
+    ],
+    "answer": 0,
+    "explanation": "A observação restringe o resultado a uma faixa, não a um ponto zero. Não se transforma limite analítico em parâmetro normativo ou ausência absoluta.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0030",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "teste_aceitacao_cobertura_requisitos",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um contrato exige registrar hora e responsável de cada verificação. O teste de aceitação verifica apenas se existe um registro, sem inspecionar seus campos. Qual lacuna permanece?",
+    "options": [
+      "O teste comprova cumprimento por não ter produzido falha.",
+      "A exigência de hora exclui a exigência de responsável.",
+      "A existência de qualquer registro garante por lógica todos os campos.",
+      "O teste de existência não demonstra atendimento aos dois atributos exigidos.",
+      "Verificar os campos dispensaria verificar a existência do registro."
+    ],
+    "answer": 3,
+    "explanation": "O critério possui mais de um predicado. Uma observação parcial não prova a conjunção; o teste deve cobrir os atributos do requisito interno.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0031",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "amostragem_sistemica_periodicidade",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um auditor seleciona uma ordem a cada dez em lista cronológica. Um processo de emissão gera falhas justamente em cada décima ordem, mas a amostra começa sempre na primeira. Qual risco do desenho amostral deve ser reconhecido?",
+    "options": [
+      "Garantia de representatividade por haver intervalo constante.",
+      "Impossibilidade de qualquer periodicidade afetar a seleção.",
+      "Sincronização com periodicidade da população, capaz de omitir sistematicamente as falhas.",
+      "Comprovação de ausência de falhas nas ordens não selecionadas.",
+      "Eliminação de viés por não usar sorteio."
+    ],
+    "answer": 2,
+    "explanation": "Amostragem sistemática pode se alinhar a padrões periódicos. O problema não é apenas tamanho, mas a relação entre fase do processo e regra de seleção.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0032",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "normalizacao_de_desvio_progressivo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma tolerância interna não mudou, mas desvios sucessivos foram aceitos por não produzir dano imediato. O relatório usa essa sequência como validação do novo padrão. Qual falha inferencial precisa ser corrigida?",
+    "options": [
+      "O requisito só poderia ser revisto após acidente grave.",
+      "Qualquer desvio observado altera automaticamente o requisito aprovado.",
+      "Aceitações informais equivalem a ensaio de todas as condições possíveis.",
+      "Ausência de dano nas poucas observações não demonstra que o critério original perdeu sua justificativa.",
+      "Se o dano não ocorreu ainda, sua probabilidade futura é obrigatoriamente nula."
+    ],
+    "answer": 3,
+    "explanation": "Repetição sem dano não substitui análise do mecanismo, das condições cobertas e da base do critério. A revisão pode ocorrer antes de dano, mas exige fundamento e decisão controlada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0033",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "erro_de_denominador_registros_duplicados",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um banco possui 50 linhas e 10 são duplicações de eventos já presentes. Há 40 eventos únicos em 100 mil horas. Qual indicador interno de eventos únicos por 100 mil horas?",
+    "options": [
+      "40.",
+      "0,4.",
+      "5.",
+      "60.",
+      "50."
+    ],
+    "answer": 0,
+    "explanation": "Deduplicar reduz o numerador a 40, mantendo 100 mil horas no denominador. O fator de escala 100 mil restitui 40, não a contagem bruta de linhas.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0034",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "pareamento_de_controles_turno",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um estudo compara casos do turno noturno somente com controles diurnos, embora o turno influencie exposição e oportunidade de registro. Qual risco analítico é imediato?",
+    "options": [
+      "Confundir a associação investigada com diferenças ligadas ao turno e à seleção de controles.",
+      "Garantir comparabilidade porque todos pertencem à mesma empresa.",
+      "Provar causalidade pela separação das jornadas.",
+      "Determinar que todos os acidentes ocorreram por fadiga.",
+      "Eliminar qualquer efeito do turno por chamar o grupo de controle."
+    ],
+    "answer": 0,
+    "explanation": "O desenho precisa considerar como controles representam a população que originou os casos. A informação dada não identifica mecanismo causal, mas revela possível falta de comparabilidade.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0035",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "ambiguidade_de_coordenadas",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Duas equipes recebem posição 120,80. Uma usa metros a partir do portão; outra usa quadrículas a partir da sala de controle. Ambas confirmam corretamente os números. O que falta para a confirmação estabelecer a mesma localização?",
+    "options": [
+      "Aceitar que a confirmação dos números prova identidade do ponto.",
+      "Substituir coordenadas por códigos sem definir seus significados.",
+      "Referencial e unidades comuns, além dos valores numéricos.",
+      "Somente repetir os números em voz mais alta.",
+      "Escolher a equipe que respondeu primeiro como referência física."
+    ],
+    "answer": 2,
+    "explanation": "Uma coordenada é definida em um sistema de referência com unidades. Um circuito de confirmação de números não corrige divergência semântica do referencial.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0036",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "resfriamento_versus_combustivel",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Num exercício, uma proteção remove calor de um recipiente externo, mas não corta o fluxo de combustível para o ponto de vazamento. Qual efeito não pode ser creditado apenas a essa função?",
+    "options": [
+      "Atuação sobre a condição térmica da superfície protegida.",
+      "Interrupção física do suprimento de combustível.",
+      "Redução de transferência de calor quando o sistema funciona como previsto.",
+      "Possível redução do aquecimento do recipiente no cenário descrito.",
+      "Modificação do balanço térmico no local resfriado."
+    ],
+    "answer": 1,
+    "explanation": "Resfriar atua no balanço de calor, não demonstra bloqueio do caminho de combustível. Cada barreira deve ser creditada por sua função efetivamente analisada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0037",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "comando_por_arrasto_confirmacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Numa tela, o mesmo arrasto permite deslocar um desenho e alterar um valor de processo, sem indicação do modo ativo. Após erro de valor, propõe-se apenas reduzir o tamanho do cursor. Qual intervenção enfrenta diretamente a ambiguidade funcional?",
+    "options": [
+      "Reduzir somente o cursor, mantendo comandos e aparência idênticos.",
+      "Retirar todos os valores da tela e manter a alteração invisível.",
+      "Aumentar a velocidade do arrasto independentemente da função.",
+      "Distinguir modos e oferecer indicação clara e confirmação proporcional ao efeito da ação.",
+      "Usar o resultado do processo como único retorno tardio ao operador."
+    ],
+    "answer": 3,
+    "explanation": "O mecanismo descrito é confusão sobre a função ativa, não mero tamanho do cursor. Tornar estado e consequência perceptíveis atua na demanda cognitiva relevante.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OIT — Encyclopaedia of Occupational Health and Safety, ergonomia e fatores humanos."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0038",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "triagem_teste_repetido_dependencia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Dois exames do mesmo material compartilham preparo e interferente conhecidos. O relatório multiplica probabilidades de falso positivo como se os testes fossem independentes. Qual informação falta para sustentar a multiplicação?",
+    "options": [
+      "Somente o número de casas decimais do laudo.",
+      "Dependência entre resultados, incluindo o efeito do preparo e do interferente comuns.",
+      "Prova de que o segundo exame foi feito no mesmo dia.",
+      "Garantia de independência por existirem dois resultados impressos.",
+      "Apenas a ordem alfabética dos exames."
+    ],
+    "answer": 1,
+    "explanation": "Resultados podem compartilhar mecanismo de erro. Ter duas medidas não estabelece independência; é necessário caracterizar sua distribuição conjunta ou condicional.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0039",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "coproduto_alocacao_comparabilidade",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Dois estudos do mesmo processo usam fronteira e inventário idênticos, mas alocam impactos entre dois coprodutos: um pela massa, outro pela receita. Os resultados por produto diferem. Qual comparação é defensável?",
+    "options": [
+      "Tratar massa e receita como grandezas automaticamente proporcionais.",
+      "Somar os dois resultados por produto como inventários independentes.",
+      "Escolher sempre o menor número sem informar a alocação.",
+      "Explicitar a regra de alocação e analisar sua influência antes de atribuir a diferença a desempenho físico.",
+      "Concluir que a fábrica necessariamente mudou suas emissões entre estudos."
+    ],
+    "answer": 3,
+    "explanation": "A diferença pode decorrer do critério de atribuição, não do inventário físico. Transparência e análise de sensibilidade evitam comparar resultados com convenções distintas como se fossem equivalentes.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Bird, Stewart e Lightfoot — Transport Phenomena. Wiley."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0040",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "fluxo_bifasico_leitura_de_pressao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma tomada de pressão mede adequadamente líquido monofásico. Durante formação de bolsões de gás, aparecem oscilações e atraso. Qual hipótese deve preceder o ajuste cego do controlador?",
+    "options": [
+      "Verificar se a condição bifásica altera a transmissão de pressão no sistema de medição.",
+      "Assumir que toda oscilação representa necessariamente oscilação real idêntica no processo.",
+      "Aumentar ganho sem examinar a medição e declarar resolvida a causa.",
+      "Usar a leitura atrasada como prova de ausência de transiente.",
+      "Excluir gás porque o instrumento foi aprovado em líquido estável."
+    ],
+    "answer": 0,
+    "explanation": "A cadeia de medição faz parte da dinâmica observada. Validar o regime de transmissão distingue dinâmica do processo e artefato instrumental; ajuste sem diagnóstico pode agravar a resposta.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0041",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "corrosao_sob_isolamento_amostragem",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma linha isolada parece íntegra externamente. A hipótese de corrosão é sob o isolamento, em locais de entrada e retenção de água. Qual plano fornece evidência mais diretamente ligada à hipótese?",
+    "options": [
+      "Inspecionar somente a cor externa do revestimento seco.",
+      "Considerar a ausência de ferrugem visível prova suficiente de espessura íntegra.",
+      "Inspecionar locais suscetíveis sob o isolamento com método adequado e critérios de cobertura explícitos.",
+      "Medir apenas o diâmetro nominal do desenho original.",
+      "Trocar a etiqueta e tratar a identificação nova como restauração de integridade."
+    ],
+    "answer": 2,
+    "explanation": "O dano hipotético está oculto e distribuído segundo condições locais. A evidência deve acessar o mecanismo e sua distribuição, sem presumir integridade a partir da superfície externa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0042",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "contrafactual_medida_e_tempo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma melhoria foi instalada junto com redução de produção. A contagem de falhas caiu, mas a análise não registra oportunidades de demanda. Qual dado é essencial para separar menor utilização de melhor desempenho por demanda?",
+    "options": [
+      "Somente a contagem pós-intervenção, já menor.",
+      "A convicção dos responsáveis sobre a eficácia da melhoria.",
+      "Quantidade e condições das demandas antes e depois, além das falhas.",
+      "A data do relatório como substituto da exposição operacional.",
+      "Somente o custo total de instalação."
+    ],
+    "answer": 2,
+    "explanation": "Uma redução de oportunidades pode reduzir contagens sem reduzir probabilidade por demanda. A comparação precisa do denominador operacional e de condições comparáveis.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0043",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "contaminante_reativo_atraso_transporte",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um composto se degrada no meio coletor durante transporte. Amostras de um local chegam sistematicamente mais tarde que as de outro. Sem correção validada, qual efeito pode comprometer a comparação entre locais?",
+    "options": [
+      "Equivalência dos resultados por haver igual volume nominal.",
+      "Diferença de conservação confundida com diferença real de concentração.",
+      "Impossibilidade de qualquer alteração após o término da coleta.",
+      "Eliminação de viés porque o laboratório usa o mesmo detector.",
+      "Garantia de concentração maior no local cujas amostras chegaram mais tarde."
+    ],
+    "answer": 1,
+    "explanation": "A perda após coleta pode ser diferencial entre grupos. Igual instrumento ou volume não elimina alterações na cadeia pré-analítica; faltam dados para quantificar a diferença real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0044",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "mudanca_teste_em_ambiente_representativo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Uma nova instrução é testada só com especialistas que a escreveram. O público de uso inclui pessoas que não participaram da redação. Qual limitação editorial-operacional do teste permanece?",
+    "options": [
+      "Uma assinatura adicional substitui a observação da tarefa.",
+      "O teste prova compreensão por qualquer usuário porque o texto é o mesmo.",
+      "O conhecimento prévio dos autores pode mascarar lacunas de compreensão dos usuários reais.",
+      "A autoria torna impossível identificar qualquer defeito no documento.",
+      "O número de páginas determina a compreensão de todo público."
+    ],
+    "answer": 2,
+    "explanation": "Autores podem completar mentalmente etapas ausentes. Testar com usuários representativos avalia compreensão e execução sem esse conhecimento implícito.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0045",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "evidencia_mecanismo_compativel",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma superfície apresenta marca compatível com contato, mas o mesmo padrão pode ser produzido por dois mecanismos distintos. Qual conclusão preserva a força real da evidência?",
+    "options": [
+      "A ausência de distinção torna a marca inexistente.",
+      "A compatibilidade com um mecanismo exclui logicamente todos os demais.",
+      "A marca prova qual pessoa executou o movimento.",
+      "A marca é compatível com ambos; são necessárias evidências discriminantes para atribuir um deles.",
+      "O mecanismo mais familiar ao investigador passa a ser o único possível."
+    ],
+    "answer": 3,
+    "explanation": "Compatibilidade é condição mais fraca que identificação exclusiva. A investigação precisa buscar previsão diferente entre as hipóteses, não escolher por familiaridade.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0046",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "aproximacao_relativa_recurso_frente",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Num modelo de exercício, uma frente é representada por um ponto F=(100−10 t,0) e um recurso móvel por R=(0,5 t), com posições em metros e t em segundos. O critério interno sinaliza quando a distância entre esses pontos atinge 50 m pela primeira vez após t=0. Em que instante isso ocorre?",
+    "options": [
+      "6 s.",
+      "10 s.",
+      "8 s.",
+      "5 s.",
+      "0 s."
+    ],
+    "answer": 0,
+    "explanation": "Distância²=(100−10 t)²+(5 t)². Igualando a2500: 125 t²−2000 t+7500=0, ou t²−16 t+60=0; raízes 6 e10. O primeiro encontro com a referência é6 s; 8 s é a aproximação máxima, não o primeiro cruzamento. Modelo geométrico interno, não pluma real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0047",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "detectabilidade_e_obstrucao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um detector depende de linha óptica até um alvo. Uma nova divisória opaca foi posta entre ambos, sem mudar a alimentação elétrica. Qual premissa do ensaio anterior deve ser reavaliada?",
+    "options": [
+      "A ausência de alarme como prova de que o alvo continua visível.",
+      "A cor da etiqueta como substituto do teste funcional.",
+      "Garantia de detecção pelo fato de a luz de ligado permanecer acesa.",
+      "Apenas a potência elétrica nominal do detector.",
+      "Disponibilidade do caminho óptico, não apenas continuidade da alimentação."
+    ],
+    "answer": 4,
+    "explanation": "Um equipamento energizado pode perder seu caminho de detecção. A mudança geométrica viola uma hipótese funcional do ensaio anterior.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0048",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "feedback_tatil_ruido",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um comando deve informar ao operador se foi efetivamente acionado. Em ambiente ruidoso, o único retorno sonoro é frequentemente mascarado. Qual proposta responde ao mecanismo, sem presumir que som mais alto seja sempre suficiente?",
+    "options": [
+      "Adicionar retorno perceptível por canal compatível com a tarefa, como indicação visual ou tátil validada.",
+      "Manter o som idêntico e atribuir toda falha à atenção.",
+      "Usar uma confirmação emitida antes do acionamento real como prova de execução.",
+      "Excluir todo retorno e exigir que o operador memorize a intenção.",
+      "Aumentar apenas o número de comandos iguais."
+    ],
+    "answer": 0,
+    "explanation": "O retorno deve comunicar o estado efetivo e ser perceptível nas condições de uso. Um canal alternativo validado enfrenta o mascaramento sem transferir toda a carga para memória.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OIT — Encyclopaedia of Occupational Health and Safety, ergonomia e fatores humanos."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0049",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "erro_ecologico_setor",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Setores com maior média de exposição têm maior média de um marcador. O estudo não vincula medidas e pessoas. Qual conclusão extrapola os dados?",
+    "options": [
+      "Afirmar que, dentro de cada setor, todo indivíduo mais exposto tem necessariamente marcador maior.",
+      "Solicitar dados individuais para examinar associação nesse nível.",
+      "Reconhecer associação no nível de setores.",
+      "Distinguir unidade de análise coletiva de unidade individual.",
+      "Considerar diferenças de composição dos grupos como hipótese."
+    ],
+    "answer": 0,
+    "explanation": "Associação agregada não determina a associação dentro dos grupos nem ordena todas as pessoas. Essa passagem é erro ecológico e exige dados em nível pertinente.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0050",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "separacao_sais_duas_correntes",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Uma separação estacionária recebe 100 kg/h de solução com 2% em massa de sal e fornece 80 kg/h de permeado sem sal. A outra corrente recebe todo o sal, sem reação ou acúmulo. Qual concentração mássica de sal nessa corrente e qual vazão ela tem?",
+    "options": [
+      "2% e 20 kg/h.",
+      "10% e 20 kg/h.",
+      "2,5% e 80 kg/h.",
+      "20% e 10 kg/h.",
+      "10% e 80 kg/h."
+    ],
+    "answer": 1,
+    "explanation": "Balanço total: concentrado 100−80=20 kg/h. Sal entra a2 kg/h e sai todo nessa corrente: 2/20=10%. Não se confunde fração da alimentação com concentração do rejeito.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Bird, Stewart e Lightfoot — Transport Phenomena. Wiley."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0051",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "falha_de_especificacao_comum",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Dois programas foram escritos por equipes diferentes, mas implementam a mesma especificação errada. Um estudo trata qualquer concordância entre suas saídas como validação da especificação. Qual lacuna permanece?",
+    "options": [
+      "Concordância de saídas comprova a verdade de todos os requisitos.",
+      "Equipes diferentes tornam impossível qualquer falha comum.",
+      "O erro do requisito só pode afetar um dos programas.",
+      "A diversificação da implementação não elimina o erro comum no requisito de entrada.",
+      "Aumentar o número de cópias do mesmo requisito elimina sua incorreção."
+    ],
+    "answer": 3,
+    "explanation": "Independência de implementação não implica independência da base de requisitos. Verificação contra necessidade e comportamento esperado é distinta de comparação entre implementações.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0052",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "adsorcao_competitiva",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um meio coletor tem capacidade de adsorção para o agente A medida na ausência de B. Em campo, B compete pelos mesmos sítios, conforme ensaio específico. Qual extrapolação não é sustentada?",
+    "options": [
+      "Garantir a mesma capacidade de A em presença de B usando apenas o ensaio sem competidor.",
+      "Verificar se a mistura real está coberta pela validação.",
+      "Investigar o efeito da composição sobre a recuperação de A.",
+      "Considerar possível perda de capacidade disponível para A.",
+      "Distinguir ensaio de agente isolado e amostra de mistura."
+    ],
+    "answer": 0,
+    "explanation": "Competição pelos mesmos sítios pode alterar a capacidade para cada agente. A validação em condição simples não comprova o mesmo desempenho na mistura.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0053",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "vaporizacao_balanco_energia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "alta",
+    "statement": "Um modelo de despressurização assume que o resfriamento de uma carga libera energia M c ΔT, integralmente consumida na vaporização de massa m com calor latente L. Use M=5 kg, c=4 kJ/(kg·K), ΔT=20 K e L=200 kJ/kg, constantes neste exercício. Qual massa vaporizada e que fração da carga representa?",
+    "options": [
+      "2 kg e 20%.",
+      "5 kg e 100%.",
+      "2 kg e 40%.",
+      "4 kg e 80%.",
+      "0,4 kg e 8%."
+    ],
+    "answer": 2,
+    "explanation": "Energia5 ×4 ×20=400 kJ; m=400/200=2 kg. Fração2/5=40%. Trata-se do balanço expressamente simplificado, não previsão de vazão, mistura bifásica ou capacidade de alívio real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0054",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "informacao_esperada_teste_diagnostico",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "muito_alta",
+    "statement": "Uma investigação tem quatro hipóteses equiprováveis. Um teste perfeito X separa as hipóteses em grupos de tamanhos 2 e 2; Y separa em grupos 1 e 3. A regra escolhe maior informação esperada: I=log2(4)−Σ(n/4)log2(n). Use log2(3)=1,585 e log2(1)=0. Qual teste e ganho aproximado?",
+    "options": [
+      "Y, com 1,585 bit, por usar o maior grupo.",
+      "X, com 2 bits, porque sempre identifica uma única hipótese.",
+      "Y, com 2 bits garantidos em qualquer resultado.",
+      "X, com 1 bit, contra 0,811 bit de Y.",
+      "Empate em 1 bit porque ambos têm duas saídas."
+    ],
+    "answer": 3,
+    "explanation": "X deixa incerteza 1 e ganho 2−1=1. Y deixa(1/4)×0+(3/4)×1,585=1,18875, ganho 0,81125. Ter duas saídas não garante resultados equiprováveis ou igual informação média.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Thomas M. Cover e Joy A. Thomas — Elements of Information Theory. Wiley."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0055",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "sinal_de_status_e_confiabilidade_temporal",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "textual",
+    "difficulty": "media",
+    "statement": "Um painel atualiza valores a cada minuto, mas não exibe o instante da última atualização. Em perda de comunicação mantém o último valor verde. Qual alteração enfrenta o risco de interpretar dado antigo como estado atual?",
+    "options": [
+      "Mostrar validade temporal e falha de atualização de forma distinguível do valor operacional.",
+      "Aumentar somente a saturação do verde mantido.",
+      "Ocultar a idade do dado para reduzir quantidade de informação.",
+      "Substituir falha de comunicação por valor zero sem indicação.",
+      "Manter aparência idêntica entre dado atual e congelado."
+    ],
+    "answer": 0,
+    "explanation": "Conteúdo e atualidade são dimensões distintas. O usuário precisa perceber quando o valor deixou de representar observação recente, em vez de inferir normalidade por sua persistência.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OIT — Encyclopaedia of Occupational Health and Safety, ergonomia e fatores humanos."
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0056",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "histerese_medidor",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "O modelo define histerese como a maior diferença absoluta entre subida e descida na mesma entrada. Qual valor e qual informação se perderia usando apenas a média dos sentidos?",
+    "options": [
+      "2,0; a identidade da unidade.",
+      "0,8; a média tornaria necessariamente o sensor exato.",
+      "0,2; a dependência da tensão de alimentação.",
+      "0,4; a diferença entre valores de entrada.",
+      "0,8; a dependência do sentido da variação."
+    ],
+    "answer": 4,
+    "explanation": "Diferenças 0,4; 0,8; 0,2. O máximo é 0,8 na entrada 4; médias escondem a diferença entre trajetórias. Não é limite normativo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0056.svg",
+        "alt": "Entrada 2: subida 2,1, descida 2,5; entrada 4: subida 4,0, descida 4,8; entrada 6: subida 6,2, descida 6,4. Unidades internas.",
+        "legenda": "Resposta na subida e na descida",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0057",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "tempo_cruzamento_interpolacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Entre os pontos, use interpolação linear. O alarme só atua 3 s após o primeiro cruzamento ascendente da referência interna 5. Em que instante atua?",
+    "options": [
+      "20,5 s.",
+      "30 s.",
+      "17,5 s.",
+      "23 s.",
+      "15,5 s."
+    ],
+    "answer": 0,
+    "explanation": "O cruzamento ocorre em 10+(5−2)/(6−2)×10=17,5 s. Com atraso 3 s, a atuação é em 20,5 s. Referência e atraso são hipóteses do modelo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0057.svg",
+        "alt": "Tempo em s: 0,10,20,30. Concentração em unidades: 0,2,6,8. Interpolação linear. Referência interna 5.",
+        "legenda": "Sinal de concentração no tempo",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0058",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fracao_respiravel_modelo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Pela função de seleção didática da figura, qual massa seletivamente coletada, distinguindo-a da massa total?",
+    "options": [
+      "30 µg.",
+      "20 µg.",
+      "60 µg.",
+      "23 µg.",
+      "6 µg."
+    ],
+    "answer": 3,
+    "explanation": "10 ×1+20 ×0,5+30 ×0,1=23 µg; a massa total é 60 µg. As eficiências são dadas para o exercício, não convenção normativa de fração respirável.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0058.svg",
+        "alt": "Classes P,Q,R: massa 10,20,30 µg; eficiência seletiva 1,0; 0,5; 0,1. Massa seletiva é soma massa vezes eficiência.",
+        "legenda": "Distribuição de massa e eficiência de coleta",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0059",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "efeito_interacao_fatores",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "muito_alta",
+    "statement": "O efeito de elevar A é comparado em cada nível de B. Quanto muda esse efeito e o que isso mostra sobre aditividade neste conjunto?",
+    "options": [
+      "Aumenta 2; os fatores são necessariamente independentes.",
+      "Diminui 4; o efeito de A é menor com B alto.",
+      "Aumenta 9; basta subtrair os extremos da tabela.",
+      "Aumenta 4 unidades; o efeito de A depende de B.",
+      "Permanece 2; não há interação."
+    ],
+    "answer": 3,
+    "explanation": "Efeito de A com B baixo=4−2=2; com B alto=11−5=6. Diferença 6−2=4 indica interação no modelo observado, não uma inferência probabilística de independência.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0059.svg",
+        "alt": "Resultado: A baixo/B baixo=2; A alto/B baixo=4; A baixo/B alto=5; A alto/B alto=11. Unidades internas.",
+        "legenda": "Experimento fatorial de um modelo de falha",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0060",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "vibracao_vetor_ponderado",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Use a regra vetorial expressamente indicada. Qual resultante, sem atribuí-la automaticamente a um método ou limite legal?",
+    "options": [
+      "1,4 m/s².",
+      "1,0 m/s².",
+      "0,48 m/s².",
+      "0,2 m/s².",
+      "0,7 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "Raiz de (0,36+0,64+0)=1. Somar componentes aritmeticamente não é a regra vetorial fornecida.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0060.svg",
+        "alt": "Componentes já ponderadas: x=0,6, y=0,8, z=0 m/s². Regra do exercício: resultante raiz da soma dos quadrados.",
+        "legenda": "Componentes de aceleração no exercício",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0061",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ruido_subtracao_energetica",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "muito_alta",
+    "statement": "Pelo modelo de fontes não correlacionadas, qual nível da fonte isolada, aproximadamente?",
+    "options": [
+      "10 dB.",
+      "69,54 dB.",
+      "60 dB.",
+      "65 dB.",
+      "70,41 dB."
+    ],
+    "answer": 1,
+    "explanation": "I_fonte=10^7−10^6=9 ×10^6; L=10(6+log10 9)=69,5424 dB. Subtrair diretamente decibéis não subtrai intensidades.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0061.svg",
+        "alt": "Fonte ligada com fundo: 70 dB. Apenas fundo: 60 dB. Modelo: I=10 elevado a L/10; intensidades se somam; log10(9)=0,95424.",
+        "legenda": "Níveis totais e de fundo",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0062",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "degradacao_espessura_interpolada",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Projetando somente a taxa do último intervalo, em que ano seria atingida a referência interna? Não se pede prazo normativo de inspeção.",
+    "options": [
+      "Ano 6.",
+      "Ano 5,4.",
+      "Ano 4.",
+      "Ano 10.",
+      "Ano 7."
+    ],
+    "answer": 0,
+    "explanation": "Taxa recente=(7,6−6,4)/3=0,4 mm/ano. Restam 0,4 mm: um ano após o ano 5. Projeção linear não é garantia de vida remanescente nem periodicidade legal.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0062.svg",
+        "alt": "Anos 0,2,5: espessuras 8,0; 7,6; 6,4 mm. Projeção didática usa a taxa do último intervalo, linear. Referência interna de projeto 6,0 mm.",
+        "legenda": "Espessura mínima medida",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0063",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "esforco_amostral_estratificado",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Qual distribuição da amostra respeita a alocação proporcional definida, sem confundi-la com seleção por maior risco?",
+    "options": [
+      "5 em A, 3 em B, 2 em C.",
+      "20 em A, zero nos demais.",
+      "4 em A, 6 em B, 10 em C.",
+      "7 em A, 7 em B, 6 em C.",
+      "10 em A, 6 em B, 4 em C."
+    ],
+    "answer": 4,
+    "explanation": "Frações populacionais 0,5; 0,3; 0,2 multiplicadas por 20 resultam 10,6,4. Isso fixa alocação, não garante aleatoriedade dentro de cada estrato.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0063.svg",
+        "alt": "Estratos A,B,C com 50,30,20 ordens; amostra total 20; alocação proporcional, sem arredondamento necessário.",
+        "legenda": "Ordens por estrato e regra interna",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0064",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "matriz_confusao_sensibilidade",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Defina sensibilidade como fração dos positivos de referência identificados, e valor preditivo positivo como fração de positivos preditos confirmados. Quais os valores?",
+    "options": [
+      "80% e 90%, respectivamente.",
+      "75% e 90%, respectivamente.",
+      "90% e 80%, respectivamente.",
+      "36% e 48%, respectivamente.",
+      "90% e 75%, respectivamente."
+    ],
+    "answer": 4,
+    "explanation": "Sensibilidade=36/(36+4)=90%; VPP=36/(36+12)=75%. Os denominadores se referem a grupos diferentes.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0064.svg",
+        "alt": "Referência positiva: classificador positivo 36 e negativo 4. Referência negativa: classificador positivo 12 e negativo 48.",
+        "legenda": "Validação de um classificador de registros",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0065",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "incerteza_soma_correlacionada",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Qual incerteza padrão da soma e por que a soma quadrática sem o termo cruzado seria inadequada?",
+    "options": [
+      "25; a variância já é incerteza padrão.",
+      "1; a correlação exige subtrair módulos.",
+      "5; a correlação é irrelevante para somas.",
+      "7; o termo de correlação positiva não é nulo.",
+      "49; não se extrai raiz da expressão dada."
+    ],
+    "answer": 3,
+    "explanation": "u²=9+16+24=49; u=7. Ignorar o termo cruzado corresponderia à hipótese r=0, diferente da fornecida.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0065.svg",
+        "alt": "Incertezas padrão u1=3 e u2=4 unidades, correlação r=1. Para soma: u²=u1²+u2²+2 ru1 u2.",
+        "legenda": "Incertezas e correlação no modelo",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0066",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "dimensoes_tolerancias_encaixe",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Qual faixa de folga pode ocorrer e o que ela informa sobre garantir folga positiva em todas as combinações?",
+    "options": [
+      "0,04 a 0,06 mm; basta comparar os máximos.",
+      "−0,02 a 0,06 mm; não se garante folga positiva.",
+      "−0,06 a 0,02 mm; todas as combinações interferem.",
+      "0,02 a 0,02 mm; todas as combinações têm mesma folga.",
+      "0 a 0,04 mm; interferência é impossível."
+    ],
+    "answer": 1,
+    "explanation": "Mínima=20,02−20,04=−0,02; máxima=20,06−20=0,06. O intervalo inclui interferência e folga; valores nominais isolados não garantem a montagem.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0066.svg",
+        "alt": "Eixo: diâmetro 20,00 a 20,04 mm. Furo: 20,02 a 20,06 mm. Folga=furo−eixo.",
+        "legenda": "Verificação dimensional didática",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0067",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "arrepedimento_decisao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "muito_alta",
+    "statement": "Pelo critério de minimizar o maior arrependimento, qual alternativa escolher?",
+    "options": [
+      "Y, com arrependimento máximo 3.",
+      "Y, com máximo 6.",
+      "X, com máximo 2.",
+      "Z, com máximo 3.",
+      "X, com máximo 9."
+    ],
+    "answer": 0,
+    "explanation": "Melhores por estado: 2 e3. Arrependimentos X=(0,6),Y=(3,3),Z=(6,0). O menor máximo é 3 de Y. Não é o critério de menor pior perda absoluta.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0067.svg",
+        "alt": "Perdas: X em S1=2 e S2=9; Y=5 e6; Z=8 e3. Sem probabilidades. Arrependimento=perda menos melhor perda no mesmo estado.",
+        "legenda": "Perdas por alternativa e estado",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0068",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "distribuicao_equipes_tempos",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Qual atribuição minimiza o tempo de conclusão das duas missões simultâneas?",
+    "options": [
+      "A em X e B em Y; conclusão em 10 min, a melhor.",
+      "A em X e B em Y; conclusão em 2 min.",
+      "A em Y e B em X; conclusão em 7 min.",
+      "A em Y e B em X; conclusão em 4 min.",
+      "A em ambas; conclusão em 5 min dentro da regra."
+    ],
+    "answer": 3,
+    "explanation": "As duas atribuições permitidas têm máximos 10 e4. O segundo arranjo minimiza o máximo, embora A isoladamente seja mais rápida em X.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0068.svg",
+        "alt": "Tempos em min: equipe A para X=2,Y=3; equipe B para X=4,Y=10. Cada equipe executa exatamente uma missão; conclusão conjunta é o maior tempo.",
+        "legenda": "Tempos de duas equipes para duas missões",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0069",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "intervalo_referencia_mudanca_pareada",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Qual mediana das mudanças individuais depois−antes, sem inferir diagnóstico?",
+    "options": [
+      "1 unidade.",
+      "2 unidades.",
+      "5 unidades.",
+      "−1,5 unidade.",
+      "0,5 unidade."
+    ],
+    "answer": 4,
+    "explanation": "Mudanças 2,−1,5,−2; ordenadas −2,−1,2,5. Mediana=(−1+2)/2=0,5. Não é a mediana das diferenças entre pessoas ordenadas separadamente.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0069.svg",
+        "alt": "Pessoas A,B,C,D: antes 10,20,30,40; depois 12,19,35,38. Unidade relativa.",
+        "legenda": "Mudanças individuais de marcador",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0070",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "indice_esforco_por_turno",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Qual tarefa deve ser priorizada se o critério interno for maior contribuição ao índice acumulado, e não maior índice por hora?",
+    "options": [
+      "A, com contribuição 4.",
+      "C, com contribuição 5, a maior acumulada.",
+      "A, com contribuição 8.",
+      "B, com contribuição 6.",
+      "B, com contribuição 3, a maior acumulada."
+    ],
+    "answer": 2,
+    "explanation": "Contribuições A8,B3,C5. C tem maior valor por hora, mas A maior contribuição total pelo tempo. Não é índice normativo de risco ergonômico.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OIT — Encyclopaedia of Occupational Health and Safety, ergonomia e fatores humanos."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0070.svg",
+        "alt": "Tarefas A,B,C: duração 2,3,1 h; índice interno de exigência por hora 4,1,5. Índice acumulado é soma duração vezes índice.",
+        "legenda": "Distribuição conjunta de tarefa e exigência",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0071",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "ensaio_alarme_falso_negativo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "No conjunto ensaiado, qual aumento em pontos percentuais da proporção de não detecção sob corrente de ar?",
+    "options": [
+      "50 pontos percentuais.",
+      "8 pontos percentuais.",
+      "10 pontos percentuais.",
+      "80 pontos percentuais.",
+      "40 pontos percentuais."
+    ],
+    "answer": 4,
+    "explanation": "Não detecção sem corrente=2/20=10%; com corrente=10/20=50%; diferença 40 pontos. Isso descreve os ensaios e não estima, por si só, desempenho em toda instalação.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0071.svg",
+        "alt": "Sem corrente de ar: 20 ensaios,18 detecções. Com corrente de ar: 20 ensaios,10 detecções. Mesmo cenário simulado em cada condição.",
+        "legenda": "Ensaios em duas condições de ventilação",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0072",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "secagem_residuo_base_umida",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "No balanço definido na figura, quanto de água deve ser retirado, aproximadamente, para atingir a umidade final sem perder sólidos?",
+    "options": [
+      "5 kg.",
+      "15,79 kg.",
+      "25 kg.",
+      "20 kg.",
+      "80 kg."
+    ],
+    "answer": 1,
+    "explanation": "Sólidos secos 100 ×0,8=80 kg. Massa final 80/0,95≈84,21 kg, contendo 4,21 kg de água. Retira-se 100−84,21≈15,79 kg; a porcentagem final tem outro denominador.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Bird, Stewart e Lightfoot — Transport Phenomena. Wiley."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0072.svg",
+        "alt": "Massa inicial 100 kg; umidade inicial 20% da massa úmida; umidade final desejada 5% da massa úmida; sólidos secos conservados.",
+        "legenda": "Secagem de resíduo sem perda de sólidos",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0073",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "distribuicao_geometrica_reincidencia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Qual número esperado de eventos até a correção, contando o último, e qual número esperado antes dele?",
+    "options": [
+      "4 e 3, respectivamente.",
+      "5 e 4, respectivamente.",
+      "4 e 4, respectivamente.",
+      "3 e 4, respectivamente.",
+      "0,25 e 0,75, respectivamente."
+    ],
+    "answer": 0,
+    "explanation": "E(N)=4; a contagem anterior exclui um evento: E(N−1)=3. Trata-se de modelo hipotético, não estimativa empírica de acidentes de uma empresa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0073.svg",
+        "alt": "Após cada evento, probabilidade de correção definitiva=0,25, independente entre tentativas. Caso contrário o processo se repete. Regra: E(N)=1/p, incluindo o evento que leva à correção.",
+        "legenda": "Modelo de repetição até correção",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0074",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "informacao_entropia_codigos",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "alta",
+    "statement": "Qual comprimento médio por mensagem e que característica permite separar mensagens concatenadas?",
+    "options": [
+      "3 bits; o máximo é obrigatoriamente a média.",
+      "2 bits; todos os códigos têm o mesmo comprimento.",
+      "1,75 bit; nenhum código completo é prefixo de outro.",
+      "2,25 bits; somam-se comprimentos sem probabilidades.",
+      "1 bit; basta considerar o cenário mais provável."
+    ],
+    "answer": 2,
+    "explanation": "Média=0,5 ×1+0,25 ×2+0,125 ×3+0,125 ×3=1,75. Nenhuma palavra completa prefixa outra, permitindo decodificação sequencial no modelo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Thomas M. Cover e Joy A. Thomas — Elements of Information Theory. Wiley."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0074.svg",
+        "alt": "Cenários A,B,C,D têm probabilidades 0,5; 0,25; 0,125; 0,125. Código prefixo: A=0,B=10,C=110,D=111. Comprimentos1,2,3,3 bits.",
+        "legenda": "Probabilidades e códigos de cenários",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0075",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "cobertura_distinta_execucao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "grafico_tabela",
+    "difficulty": "media",
+    "statement": "Quantos requisitos têm evidência completa e por que contar três de quatro documentos não dá a mesma métrica?",
+    "options": [
+      "Dois; qualquer teste substitui todo relatório.",
+      "Zero; um documento ausente invalida também R1.",
+      "Três; cada documento é necessariamente um requisito.",
+      "Dois; a média de documentos arredondada determina atendimento.",
+      "Um; cobertura de documentos e atendimento de requisitos usam unidades diferentes."
+    ],
+    "answer": 4,
+    "explanation": "R1 tem o par; R2 não. Há75% de documentos e50% de requisitos completos. A regra de conjunção impede converter diretamente uma proporção na outra.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0075.svg",
+        "alt": "Requisito R1 exige teste T1 e relatório L1. R2 exige T2 e L2. Disponíveis T1,L1,T2; ausente L2. Regra interna: requisito atendido somente com as duas evidências.",
+        "legenda": "Evidências por requisito",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0076",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "pressao_hidrostatica_absoluta",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Qual pressão absoluta em A no modelo estático, sem confundir a parcela hidrostática com a pressão total?",
+    "options": [
+      "80 kPa.",
+      "120 kPa.",
+      "102 kPa.",
+      "200 kPa.",
+      "20 kPa."
+    ],
+    "answer": 1,
+    "explanation": "ρgh=20.000 Pa=20 kPa; somada à superfície 100 kPa resulta 120 kPa absolutos.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0076.svg",
+        "alt": "Reservatório com superfície a 100 kPa absolutos. Tomada A está 2 m abaixo. Densidade 1.000 kg/m³; g=10 m/s². Modelo P=Psuperfície+ρgh.",
+        "legenda": "Tomada de pressão em reservatório",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0077",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "permissivo_estado_porta",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "No estado indicado, qual saída e que mudança isolada a faria passar a 1 mantendo A?",
+    "options": [
+      "Saída0; qualquer mudança em A basta.",
+      "Saída0; A deve passar a0.",
+      "Saída1; A deve passar a0.",
+      "Saída1; B deve permanecer 1.",
+      "Saída0; B deve passar a0."
+    ],
+    "answer": 4,
+    "explanation": "1 E NÃO1=0; mantendoA1, B0 produz 1 E1=1. A lógica é hipótese didática, não especificação de segurança certificada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0077.svg",
+        "alt": "Liberação=A E NÃO B. A confirma imobilidade; B indica porta aberta. Estado mostrado: A=1 e B=1.",
+        "legenda": "Lógica de um permissivo didático",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0078",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "corrente_ramos_paralelos",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual corrente total fornecida pela fonte e qual ramo conduz a maior parcela?",
+    "options": [
+      "4 A; ramo R1.",
+      "12 A; parcelas iguais.",
+      "8 A; ramo R1.",
+      "12 A; ramo R2.",
+      "2,67 A; resistores em série."
+    ],
+    "answer": 3,
+    "explanation": "R1 conduz 24/6=4 A eR2 24/3=8 A. Corrente total 12 A; em paralelo os ramos compartilham tensão, não corrente. Não se calcula instalação real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0078.svg",
+        "alt": "Fonte ideal de 24 V alimenta resistores em paralelo: R1=6 Ω e R2=3 Ω. Condutores ideais; I=V/R.",
+        "legenda": "Circuito de ensaio de continuidade funcional",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0079",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "ponto_operacional_ventilacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "No modelo, qual vazão e pressão de operação? Não se pede eficiência de captação sem outros dados.",
+    "options": [
+      "Q=4 e H=4.",
+      "Q=6 e H=0.",
+      "Q=12 e H=24.",
+      "Q=3 e H=6.",
+      "Q=2 e H=8."
+    ],
+    "answer": 3,
+    "explanation": "12−2 Q=2 Q, entãoQ3 eH6. Vazão de operação é diferente de comprovação de controle de exposição no posto.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0079.svg",
+        "alt": "Curva do ventilador H=12−2 Q e da rede H=2 Q. Operação onde se igualam. H e Q em unidades internas coerentes; desenho qualitativo, equações prevalecem.",
+        "legenda": "Encontro de curva da rede e ventilador",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0080",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "bloqueio_drenagem_fontes",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Qual combinação interrompe a alimentação do reservatório e mantém uma via de drenagem do trecho de P no modelo?",
+    "options": [
+      "Fechar somente D, eliminando alimentação.",
+      "Manter V aberto e fechar D.",
+      "Manter V e D abertos, isolando o reservatório.",
+      "Fechar V e D, assegurando drenagem contínua.",
+      "Fechar V e manter D aberto."
+    ],
+    "answer": 4,
+    "explanation": "V fechada interrompe a fonte; D aberto mantém o caminho de drenagem. Isso é leitura da topologia, não liberação de intervenção sem demais verificações.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0080.svg",
+        "alt": "Reservatório ligado a P através de V aberta. D aberto deriva entre V e P e drena esse trecho. Não há outras fontes ou conexões no modelo.",
+        "legenda": "Topologia de isolamento de um trecho",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0081",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "porta_ou_exclusivo",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual probabilidade do evento T indicado, distinguindo discordância de ocorrência de pelo menos um canal?",
+    "options": [
+      "0,56.",
+      "0,38.",
+      "0,44.",
+      "0,50.",
+      "0,06."
+    ],
+    "answer": 1,
+    "explanation": "P(A e nãoB)+P(nãoA e B)=0,2 ×0,7+0,8 ×0,3=0,38. O OU inclusivo seria 0,44 e inclui a coincidência excluída aqui.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0081.svg",
+        "alt": "Evento T é OU exclusivo de A e B independentes, com probabilidades 0,2 e 0,3. T=1 somente quando exatamente um canal sinaliza.",
+        "legenda": "Árvore lógica de discordância de canais",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0082",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "cabos_segmentos_sustentacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Qual tensão em cada segmento no modelo de equilíbrio representado?",
+    "options": [
+      "400 N.",
+      "100 N.",
+      "800 N.",
+      "3.200 N.",
+      "200 N."
+    ],
+    "answer": 4,
+    "explanation": "Equilíbrio vertical: 4 T=800, T200 N. Conta-se a quantidade de segmentos que exerce força sobre o conjunto móvel, não o número de suportes desenhados.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0082.svg",
+        "alt": "Carga móvel total de 800 N sustentada por quatro segmentos verticais ideais, com tensão igual. Sem atrito ou massa adicional; equilíbrio estático.",
+        "legenda": "Esquema de sustentação por cabos ideais",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0083",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "caminhos_termicos_paralelos",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual potência térmica total e qual fração passa pelo caminho de menor resistência?",
+    "options": [
+      "8 W; 25%.",
+      "1,5 W; 50%.",
+      "8 W; 75%.",
+      "6 W; 100%.",
+      "2 W; 25%."
+    ],
+    "answer": 2,
+    "explanation": "Potências6 W e2 W, total 8 W. O caminhoR1 menor leva 6/8=75%. Resistências em paralelo não se somam como se fossem série.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0083.svg",
+        "alt": "Dois caminhos térmicos em paralelo, entre superfícies com diferença de temperatura de 12 K. Resistências R1=2 K/W e R2=6 K/W. Potência=ΔT/R.",
+        "legenda": "Modelo térmico de dois caminhos paralelos",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0084",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "residencia_duas_etapas",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Qual tempo médio de residência no conjunto e qual limitação da conclusão?",
+    "options": [
+      "5 min; um dos tanques não participa do percurso.",
+      "20 min; multiplica-se a soma dos volumes pela vazão.",
+      "2 min; a vazão define diretamente o tempo.",
+      "10 min; não significa que toda partícula saia exatamente nesse tempo.",
+      "10 min; todas as partículas têm necessariamente tempo idêntico."
+    ],
+    "answer": 3,
+    "explanation": "Cada etapa tem média 5 min e o conjunto 10 min. Mistura perfeita produz distribuição de tempos; média não é trajeto temporal determinístico de toda partícula.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0084.svg",
+        "alt": "Tanques A e B em série, cada um com 10 L e vazão de 2 L/min. Mistura perfeita. Tempo médio por tanque=V/q; tempos médios se somam.",
+        "legenda": "Modelo de lavagem em duas etapas",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0085",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "barreira_e_controle_da_degradacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Sem assumir independência probabilística, qual crédito adicional não está demonstrado pelo diagrama?",
+    "options": [
+      "Contar C como segunda prevenção independente de B1 sem analisar sua dependência funcional.",
+      "Identificar E como fator que afeta a prevenção.",
+      "Tratar B2 como mitigação posterior ao evento central.",
+      "Reconhecer B1 como controle anterior à perda.",
+      "Examinar a eficácia de C no controle de E."
+    ],
+    "answer": 0,
+    "explanation": "C protege a disponibilidade deB1 por agir sobreE; isso não o torna automaticamente outra prevenção independente do mesmo evento. O diagrama não fornece probabilidades.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0085.svg",
+        "alt": "Ameaça passa por B1 antes do evento central; B2 limita dano depois. E degrada B1. Controle C age sobre E. Não há informação de independência probabilística.",
+        "legenda": "Barreiras e fator de degradação",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0086",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "automato_reset_sem_partida",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual estado final pelo autômato e qual comando adicional seria necessário para OPERANDO?",
+    "options": [
+      "OPERANDO; novo Reset.",
+      "PRONTO; apenas aguardar tempo não previsto.",
+      "PARADO; novo Reset.",
+      "OPERANDO; nenhum comando.",
+      "PRONTO; nova Partida."
+    ],
+    "answer": 4,
+    "explanation": "A primeira Partida é ignorada no estadoPARADO. Reset leva aPRONTO. Só uma nova Partida produzOPERANDO; não há temporizador nem transição automática no modelo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0086.svg",
+        "alt": "PARADO passa a PRONTO após Reset; PRONTO passa a OPERANDO após Partida. Partida em PARADO é ignorada. Estado inicial PARADO; comandos: Partida, depois Reset.",
+        "legenda": "Estados de um comando didático",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0087",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "linga_angulo_horizontal",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual tensão por perna no modelo e por que dividir o peso por dois diretamente seria incorreto?",
+    "options": [
+      "500 N; toda tensão atua verticalmente.",
+      "1.000 N; só a componente vertical de cada tensão equilibra o peso.",
+      "866 N; o cosseno é a componente vertical para o ângulo dado.",
+      "2.000 N; uma perna sustenta sozinha o dobro do peso.",
+      "250 N; o seno multiplica a divisão simples."
+    ],
+    "answer": 1,
+    "explanation": "2 T×0,5=1000, T1000 N. O ângulo foi dado com a horizontal; não se usa a tensão inteira como componente vertical. Não é autorização de içamento real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0087.svg",
+        "alt": "Duas pernas simétricas sustentam peso de 1.000 N. Cada perna faz 30° com a horizontal. Modelo 2 T sen(30°)=Peso; sen(30°)=0,5.",
+        "legenda": "Equilíbrio de duas pernas simétricas",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0088",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "rede_tempos_nao_distancia",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Qual rota tem menor tempo total, evitando escolher apenas o primeiro trecho mais rápido?",
+    "options": [
+      "Via A, 6 min.",
+      "Via B, 2 min.",
+      "Via B, 5 min.",
+      "Via B, 9 min, priorizando somente o acesso inicial mais rápido.",
+      "Via A, 4 min."
+    ],
+    "answer": 0,
+    "explanation": "ViaA soma 4+2=6; viaB2+7=9. Escolha gulosa do trecho inicial mais rápido não minimiza necessariamente a rota completa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Kenneth H. Rosen — Discrete Mathematics and Its Applications. McGraw Hill.",
+      "CCPS — Guidelines for Risk Based Process Safety. Wiley, 2007."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0088.svg",
+        "alt": "Base até A: 4 min; A até alvo: 2 min. Base até B: 2 min; B até alvo: 7 min. Apenas essas rotas são permitidas.",
+        "legenda": "Rede de tempos de deslocamento",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0089",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "continuidade_duas_zonas",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "media",
+    "statement": "Quais vazões q e da saída final, respectivamente, para fechar os balanços do esquema?",
+    "options": [
+      "10 e 5 m³/min.",
+      "15 e 15 m³/min.",
+      "5 e 10 m³/min.",
+      "10 e 15 m³/min.",
+      "15 e 10 m³/min."
+    ],
+    "answer": 3,
+    "explanation": "A sem acúmulo: q10. B recebe 10+5 e deve sair 15. Não se pode inferir concentração de contaminante apenas a partir dessas vazões.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0089.svg",
+        "alt": "Zona A recebe 10 m³/min e envia q a B. B também recebe 5 m³/min de fora e possui uma saída. Estacionário, incompressível, sem outras conexões.",
+        "legenda": "Balanço de vazão em duas zonas",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0090",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "conflito_intervalos_tarefas",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "diagrama",
+    "difficulty": "alta",
+    "statement": "Qual duração de conflito do cronograma e qual menor deslocamento para iniciar B após A, mantendo sua duração?",
+    "options": [
+      "Zero; iniciar em minutos diferentes elimina sobreposição.",
+      "1 min; antecipar B em 1 min elimina todo conflito.",
+      "4 min; adiar B em 4 min.",
+      "5 min; adiar B em 5 min.",
+      "1 min de conflito; adiar B em 1 min."
+    ],
+    "answer": 4,
+    "explanation": "Interseção[4,5) dura 1 min. B iniciando em 5 apósAterminar elimina conflito com atraso mínimo 1 min. A regra é interna e não afirma condição suficiente para trabalho real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0090.svg",
+        "alt": "Tarefa A de purga ocorre em [0,5) minutos; tarefa B com fonte de ignição em [4,9). Regra interna proíbe coexistência das tarefas.",
+        "legenda": "Cronograma de atividades incompatíveis",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0091",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "escada_geometria_nao_autorizacao",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Qual comprimento geométrico da escada, sem concluir que essa geometria sozinha autoriza o uso?",
+    "options": [
+      "7 m.",
+      "4,5 m.",
+      "5 m.",
+      "12 m.",
+      "1 m."
+    ],
+    "answer": 2,
+    "explanation": "Pitágoras: raiz(16+9)=5 m. A resposta não avalia estabilidade, resistência, fixação ou conformidade normativa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0091.svg",
+        "alt": "Escada reta entre piso e parede perpendiculares. Altura vertical 4 m; afastamento horizontal 3 m. Modelo L²=altura²+afastamento². Figura esquemática.",
+        "legenda": "Escada em parede: verificação geométrica",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0092",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "transporte_carga_vano_dinamico",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Com as hipóteses da figura, qual folga vertical mínima e o que ela indica?",
+    "options": [
+      "3,10 m; o vão inteiro é a folga.",
+      "−0,05 m; pode haver interferência geométrica.",
+      "0,25 m; a oscilação aumenta a folga.",
+      "0,05 m; o topo máximo fica abaixo da viga.",
+      "0,10 m; a oscilação não participa."
+    ],
+    "answer": 1,
+    "explanation": "Topo máximo 3,15 m; folga 3,10−3,15=−0,05 m. O envelope dinâmico, não só a altura estática, deve ser comparado ao vão.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0092.svg",
+        "alt": "Viga com vão vertical 3,10 m. Topo estático da carga em 3,00 m; oscilação pode elevar o topo em 0,15 m. Referência comum: piso nivelado.",
+        "legenda": "Transporte sob viga",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0093",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "estratificacao_ponto_de_amostra",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "A leitura baixa do ponto mostrado sustenta qual conclusão sobre a camada inferior?",
+    "options": [
+      "Demonstra ausência de X em toda a altura.",
+      "Determina a concentração exata no fundo.",
+      "Substitui avaliação das demais posições relevantes.",
+      "Comprova mistura perfeita apesar da hipótese contrária.",
+      "Não caracteriza a camada inferior não amostrada."
+    ],
+    "answer": 4,
+    "explanation": "A sonda está fora da camada com X e o modelo exclui mistura. A leitura local não descreve regiões não cobertas. Não se autoriza entrada nem se inventam critérios da NR-33.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0093.svg",
+        "alt": "Tanque estratificado, sem mistura. Agente X concentrado na camada inferior. Sonda de amostragem alcança somente o topo, fora dessa camada.",
+        "legenda": "Amostragem de atmosfera estratificada",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0094",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "reacao_apoios_tubo_excentrico",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "alta",
+    "statement": "Qual apoio recebe maior reação e qual seu valor no modelo estático?",
+    "options": [
+      "A, 600 N.",
+      "B, 450 N.",
+      "B, 150 N.",
+      "A, 450 N.",
+      "B, 300 N."
+    ],
+    "answer": 1,
+    "explanation": "Momento em A: RB=600 ×3/4=450 N; RA150 N. A divisão não é igual porque o centro de gravidade não está no meio.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0094.svg",
+        "alt": "Tubo com apoios A em x=0 m e B em x=4 m; peso total de 600 N aplicado em x=3 m. Equilíbrio: RA+RB=P e RB vezes 4=P vezes 3.",
+        "legenda": "Tubo apoiado com centro de gravidade excêntrico",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0095",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "enroscamento_envelope_vestimenta",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Qual mecanismo de lesão é diretamente sustentado pela interação mostrada?",
+    "options": [
+      "Queda por perda de apoio no piso, sem conexão mecânica com o eixo.",
+      "Impacto de fragmento já desprendido, sem necessidade de contato com o eixo.",
+      "Corte por translação de uma lâmina independente, sem captura de vestimenta.",
+      "Arraste por enroscamento da vestimenta na parte girante.",
+      "Esmagamento estático entre duas peças imóveis, sem efeito da rotação."
+    ],
+    "answer": 3,
+    "explanation": "O envelope da vestimenta intercepta uma parte girante, permitindo enroscamento e arraste. A figura não informa tensão, temperatura ou composição da atmosfera.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0095.svg",
+        "alt": "Manga solta alcança a região de um eixo girante. O envelope da vestimenta intercepta o eixo, conforme linha vermelha. Há rotação; não se informam temperatura ou tensão.",
+        "legenda": "Interação entre vestimenta e parte girante",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0096",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "envelope_mao_acionamento_ferramenta",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Qual interferência horizontal máxima é indicada, antes de avaliar força e consequências do contato?",
+    "options": [
+      "0,10 m.",
+      "0,65 m.",
+      "1,35 m.",
+      "0,70 m.",
+      "0,05 m."
+    ],
+    "answer": 4,
+    "explanation": "O envelope ultrapassa o início do obstáculo em 0,70−0,65=0,05 m. Interferência geométrica não quantifica força de contato.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OIT — Encyclopaedia of Occupational Health and Safety, ergonomia e fatores humanos."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0096.svg",
+        "alt": "Mão e ferramenta percorrem um arco. Envelope horizontal da mão avança até x=0,70 m; obstáculo fixo começa em x=0,65 m. Mesmo referencial; avanço aumenta x.",
+        "legenda": "Arco de movimento em aperto manual",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0097",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "acesso_envelope_equipamento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Qual deficiência geométrica impede a passagem no arranjo e qual acréscimo mínimo no vão resolveria apenas esse aspecto?",
+    "options": [
+      "Faltam 0,55 m de largura.",
+      "Há sobra de 0,70 m.",
+      "Faltam 0,15 m de largura.",
+      "A passagem é garantida por ser maior que zero.",
+      "Há sobra de 0,15 m."
+    ],
+    "answer": 2,
+    "explanation": "0,70−0,55=0,15 m. É condição geométrica interna, não largura legal de rota ou garantia integral da resposta.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0097.svg",
+        "alt": "Materiais estreitam a passagem a 0,55 m. Envelope do equipamento móvel: 0,70 m. Critério geométrico interno: passagem maior ou igual ao envelope, sem girar o equipamento.",
+        "legenda": "Acesso de equipamento móvel de resposta",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0098",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "retorno_exaustao_sem_tratamento",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "media",
+    "statement": "Que falha do arranjo compromete tratar a vazão circulante como remoção efetiva de X para fora da fronteira?",
+    "options": [
+      "O desenho demonstra ausência de fonte no recinto.",
+      "Qualquer vazão interna equivale a renovação externa de ar.",
+      "O retorno sem tratamento reintroduz o agente, permitindo recirculação em vez de remoção líquida.",
+      "Toda passagem por ventilador destrói necessariamente X.",
+      "A existência de duto prova remoção líquida integral."
+    ],
+    "answer": 2,
+    "explanation": "O caminho fecha retorno ao recinto e não mostra tratamento. Vazão de circulação não é necessariamente vazão de remoção de contaminante para fora da fronteira.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "NIST/SEMATECH — e-Handbook of Statistical Methods; OpenStax — Introductory Statistics 2e."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0098.svg",
+        "alt": "Duto aspira ar pela abertura do recinto e devolve o ar pela mesma abertura, sem tratamento do agente X. As duas extremidades ficam próximas. O caminho não retira contaminante da fronteira.",
+        "legenda": "Circuito de ventilação com retorno indesejado",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0099",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "barreira_hidraulica_caminho_preferencial",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "muito_alta",
+    "statement": "No modelo da figura, qual caminho transmite maior vazão e em que razão em relação ao outro?",
+    "options": [
+      "Vazões iguais, razão 1.",
+      "Matriz, razão 2,5.",
+      "Matriz, razão 200.",
+      "Faixa F, razão 100.",
+      "Faixa F, razão 2,5."
+    ],
+    "answer": 4,
+    "explanation": "Matriz: 10⁻⁶×20 ×1/1=2 ×10⁻⁵m³/s. F: 10⁻⁴×0,1 ×1/0,2=5 ×10⁻⁵m³/s. F transmite 2,5 vezes apesar da área menor. Modelo de caminhos ideais, não avaliação legal de impermeabilização.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "Bird, Stewart e Lightfoot — Transport Phenomena. Wiley."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0099.svg",
+        "alt": "Contenção com caminhos paralelos e mesma carga hidráulica de 1 m. Matriz: k=10⁻⁶ m/s, área=20 m², espessura=1 m. Faixa F: k=10⁻⁴ m/s, área=0,1 m², espessura=0,2 m. Modelo Q=kAΔh/L.",
+        "legenda": "Contenção com caminho de maior permeabilidade",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0100",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "queda_intersecao_plano_inclinado",
+    "etapa": 2,
+    "lote": 1,
+    "formato_recurso": "ilustracao",
+    "difficulty": "muito_alta",
+    "statement": "Qual coordenada horizontal do primeiro contato com o plano, aproximadamente? Use raiz de 44=6,633.",
+    "options": [
+      "1,73 m.",
+      "2,00 m.",
+      "2,73 m.",
+      "0,86 m.",
+      "0,46 m."
+    ],
+    "answer": 0,
+    "explanation": "Igualando5−5 t²=3−2 t: 5 t²−2 t−2=0. Raiz positiva t=(2+raiz 44)/10≈0,8633 s. x=2 t≈1,7266 m. A raiz negativa não é tempo após a liberação; calcular queda até y0 resolveria outro problema.",
+    "fontes": [
+      "references/transpetro/etapa2-lote1.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote1.md",
+    "bibliografia": [
+      "OpenStax — University Physics, volumes 1 e 2. Rice University."
+    ],
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote1/figura-0100.svg",
+        "alt": "Trajetória da peça: x=2 t e y=5−5 t². Superfície inclinada: y=3−x. Metros e segundos; início em t=0. Primeiro contato com plano para t positivo; cotas e equações prevalecem.",
+        "legenda": "Peça em queda sobre superfície inclinada",
+        "largura": 960,
+        "altura": 620
+      }
+    ]
+  }
+]

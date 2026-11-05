@@ -20,6 +20,8 @@ const assert = require('node:assert/strict');
       }));
       return route.fulfill({ json: qs });
     });
+    await page.route('**/data/transpetro/pilotos_visuais.json', route => route.fulfill({json: []}));
+    await page.route('**/data/transpetro/etapa2/*.json', route => route.fulfill({json: []}));
     await page.goto(process.env.SIMULADO_URL || 'http://127.0.0.1:8000');
     await page.getByRole('button', { name: 'Transpetro 2026', exact: true }).click();
     await page.getByRole('button', { name: 'Engenharia de Segurança do Trabalho', exact: true }).click();
