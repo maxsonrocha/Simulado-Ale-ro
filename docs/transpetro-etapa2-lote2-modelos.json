@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "TP26-E2L2-ESP-0019",
+    "op": "costRobust",
+    "input": [
+      80,
+      120,
+      9500
+    ],
+    "expected": [
+      10000,
+      9500,
+      "B"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0021",
+    "op": "powerRatio",
+    "input": [
+      1.1,
+      2
+    ],
+    "expected": 1.21
+  },
+  {
+    "id": "TP26-E2L2-ESP-0022",
+    "op": "overlapBenefit",
+    "input": [
+      30,
+      25,
+      15
+    ],
+    "expected": [
+      40,
+      10
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0023",
+    "op": "scale",
+    "input": [
+      0.4,
+      1000,
+      1000000
+    ],
+    "expected": 400
+  },
+  {
+    "id": "TP26-E2L2-ESP-0026",
+    "op": "tailMean",
+    "input": [
+      0.02,
+      100,
+      0.03,
+      20,
+      0.05
+    ],
+    "expected": 52
+  },
+  {
+    "id": "TP26-E2L2-ESP-0027",
+    "op": "absorption",
+    "input": [
+      0.8,
+      0.2,
+      0.5,
+      0.25
+    ],
+    "expected": [
+      19,
+      14
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0028",
+    "op": "boundTwo",
+    "input": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "expected": [
+      0,
+      0.3
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0029",
+    "op": "mad",
+    "input": [
+      3,
+      4,
+      4,
+      5,
+      9
+    ],
+    "expected": 1
+  },
+  {
+    "id": "TP26-E2L2-ESP-0030",
+    "op": "correlatedEstimate",
+    "input": [
+      10,
+      12,
+      1,
+      9,
+      2
+    ],
+    "expected": [
+      9.666666666666666,
+      0.8333333333333334,
+      -0.16666666666666666
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0031",
+    "op": "dryVolume",
+    "input": [
+      100,
+      0.1,
+      30
+    ],
+    "expected": [
+      90,
+      333.3333333333333
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0032",
+    "op": "censored",
+    "input": [
+      5,
+      7,
+      4,
+      2
+    ],
+    "expected": [
+      3,
+      4.5,
+      0.5
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0033",
+    "op": "twoModes",
+    "input": [
+      6,
+      2,
+      3
+    ],
+    "expected": 0.5555555555555556
+  },
+  {
+    "id": "TP26-E2L2-ESP-0034",
+    "op": "powerRatio",
+    "input": [
+      2,
+      4
+    ],
+    "expected": 16
+  },
+  {
+    "id": "TP26-E2L2-ESP-0035",
+    "op": "choked",
+    "input": [
+      4,
+      2
+    ],
+    "expected": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0036",
+    "op": "arcEnergy",
+    "input": [
+      50,
+      400,
+      10,
+      20
+    ],
+    "expected": [
+      2000,
+      1000
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0037",
+    "op": "stability",
+    "input": [
+      8,
+      2,
+      5
+    ],
+    "expected": [
+      -1,
+      1
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0039",
+    "op": "mixedProtocol",
+    "input": [
+      400,
+      110,
+      45
+    ],
+    "expected": [
+      45,
+      "B"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0040",
+    "op": "familyFalse",
+    "input": [
+      0.95,
+      20
+    ],
+    "expected": 0.6415140775914581
+  },
+  {
+    "id": "TP26-E2L2-ESP-0041",
+    "op": "flowshop",
+    "input": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "expected": [
+      12,
+      13,
+      13,
+      14,
+      14
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0042",
+    "op": "inclusion",
+    "input": [
+      [
+        1,
+        0.5
+      ],
+      [
+        1,
+        0.25
+      ],
+      [
+        0,
+        0.1
+      ]
+    ],
+    "expected": [
+      6,
+      14
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0043",
+    "op": "transmit",
+    "input": [
+      8000,
+      2000,
+      0.5
+    ],
+    "expected": 4.5
+  },
+  {
+    "id": "TP26-E2L2-ESP-0044",
+    "op": "sorbent",
+    "input": [
+      8,
+      2,
+      3,
+      1
+    ],
+    "expected": 7
+  },
+  {
+    "id": "TP26-E2L2-ESP-0045",
+    "op": "uniformRoutes",
+    "input": [
+      0,
+      4,
+      4,
+      5,
+      7,
+      10
+    ],
+    "expected": [
+      0.25,
+      0.75,
+      0.5,
+      1
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0046",
+    "op": "allNegative",
+    "input": [
+      2,
+      98
+    ],
+    "expected": [
+      0.98,
+      0
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0048",
+    "op": "twoEvidence",
+    "input": [
+      0.6,
+      0.2,
+      0.1,
+      0.5
+    ],
+    "expected": 0.375
+  },
+  {
+    "id": "TP26-E2L2-ESP-0049",
+    "op": "errorGain",
+    "input": [
+      1.6,
+      3
+    ],
+    "expected": -0.216
+  },
+  {
+    "id": "TP26-E2L2-ESP-0050",
+    "op": "alarmOdds",
+    "input": [
+      0.01,
+      100,
+      1,
+      0.8,
+      2
+    ],
+    "expected": [
+      false,
+      true
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0051",
+    "op": "heatCapacity",
+    "input": [
+      120,
+      2,
+      3
+    ],
+    "expected": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0052",
+    "op": "radiativeExchange",
+    "input": [
+      2,
+      8,
+      0.6,
+      400,
+      200,
+      1e-08
+    ],
+    "expected": [
+      0.15,
+      288
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0054",
+    "op": "verificationBound",
+    "input": [
+      18,
+      180
+    ],
+    "expected": [
+      0.09090909090909091,
+      1
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0055",
+    "op": "stockService",
+    "input": [
+      4,
+      5
+    ],
+    "expected": 20
+  },
+  {
+    "id": "TP26-E2L2-ESP-0056",
+    "op": "exactOne",
+    "input": [
+      3,
+      0.2
+    ],
+    "expected": 0.384
+  },
+  {
+    "id": "TP26-E2L2-ESP-0057",
+    "op": "sobol",
+    "input": [
+      2,
+      3,
+      5
+    ],
+    "expected": [
+      0.2,
+      0.7
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0058",
+    "op": "robustExpectation",
+    "input": [
+      10,
+      100,
+      0.3,
+      0.02,
+      4.8
+    ],
+    "expected": [
+      4.6,
+      "X"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0059",
+    "op": "constrainedInterval",
+    "input": [
+      8,
+      0.5,
+      1,
+      3
+    ],
+    "expected": [
+      3,
+      4.166666666666667
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0060",
+    "op": "roundInterval",
+    "input": [
+      4.95,
+      5.05
+    ],
+    "expected": 0.1
+  },
+  {
+    "id": "TP26-E2L2-ESP-0061",
+    "op": "deadTime",
+    "input": [
+      1000,
+      0.0002
+    ],
+    "expected": [
+      1250,
+      0.25
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0062",
+    "op": "filteredPulse",
+    "input": [
+      10,
+      2,
+      0.1353
+    ],
+    "expected": [
+      8.647,
+      20
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0063",
+    "op": "rim",
+    "input": [
+      0.2,
+      3000,
+      30,
+      3.1416
+    ],
+    "expected": [
+      31.416,
+      2864.782277
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0064",
+    "op": "gaussian",
+    "input": [
+      5,
+      0.001,
+      3.1416,
+      5
+    ],
+    "expected": 636618.283867
+  },
+  {
+    "id": "TP26-E2L2-ESP-0065",
+    "op": "threeClasses",
+    "input": [
+      3,
+      3
+    ],
+    "expected": 0.2222222222222222
+  },
+  {
+    "id": "TP26-E2L2-ESP-0066",
+    "op": "portfolioUnion",
+    "input": [
+      0.1,
+      0.2,
+      0.15,
+      0.06,
+      0.04,
+      0.05,
+      0.03
+    ],
+    "expected": [
+      0.33,
+      "BC",
+      14
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0067",
+    "op": "vector",
+    "input": [
+      3,
+      4
+    ],
+    "expected": 5
+  },
+  {
+    "id": "TP26-E2L2-ESP-0068",
+    "op": "jointReady",
+    "input": [
+      0.8,
+      0.7,
+      0.75
+    ],
+    "expected": [
+      0.6,
+      0.9
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0069",
+    "op": "circularHour",
+    "input": [
+      23,
+      1,
+      2
+    ],
+    "expected": 0.6754796561
+  },
+  {
+    "id": "TP26-E2L2-ESP-0070",
+    "op": "betaPredict",
+    "input": [
+      3,
+      9
+    ],
+    "expected": 0.07692307692307693
+  },
+  {
+    "id": "TP26-E2L2-ESP-0071",
+    "op": "orderPercentile",
+    "input": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        20
+      ],
+      0.9
+    ],
+    "expected": 9
+  },
+  {
+    "id": "TP26-E2L2-ESP-0072",
+    "op": "dualTask",
+    "input": [
+      2,
+      3,
+      6
+    ],
+    "expected": 3
+  },
+  {
+    "id": "TP26-E2L2-ESP-0073",
+    "op": "dualExposure",
+    "input": [
+      [
+        0.5061,
+        2,
+        0.5
+      ],
+      [
+        0.3969,
+        1.5,
+        0.8
+      ],
+      [
+        0.6215,
+        1.2,
+        0.6
+      ]
+    ],
+    "expected": "Z"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0074",
+    "op": "standardCross",
+    "input": [
+      [
+        0.1,
+        0.3
+      ],
+      [
+        0.15,
+        0.25
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "expected": 0.5
+  },
+  {
+    "id": "TP26-E2L2-ESP-0075",
+    "op": "serviceEmission",
+    "input": [
+      [
+        4,
+        0.8,
+        10,
+        20
+      ],
+      [
+        5.4,
+        1,
+        0,
+        20
+      ]
+    ],
+    "expected": [
+      5.5,
+      5.4,
+      "B"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0076",
+    "op": "reachability",
+    "input": {
+      "edges": [
+        [
+          "S",
+          "A"
+        ],
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "start": "S"
+    },
+    "expected": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0077",
+    "op": "forkAdjustment",
+    "input": {
+      "edges": [
+        [
+          "A",
+          "X"
+        ],
+        [
+          "A",
+          "Y"
+        ]
+      ]
+    },
+    "expected": "A"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0078",
+    "op": "successAbsorb",
+    "input": [
+      0.3,
+      0.5,
+      0.2,
+      0.4,
+      0.3
+    ],
+    "expected": [
+      0.4827586206896552,
+      0.27586206896551724
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0079",
+    "op": "partition",
+    "input": [
+      10,
+      1,
+      100,
+      0.1
+    ],
+    "expected": [
+      5,
+      50
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0080",
+    "op": "rankChannel",
+    "input": [
+      10,
+      15,
+      1
+    ],
+    "expected": [
+      2.3333333333333335,
+      1.3333333333333333
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0081",
+    "op": "rolling",
+    "input": [
+      2,
+      4,
+      0.5
+    ],
+    "expected": 4
+  },
+  {
+    "id": "TP26-E2L2-ESP-0082",
+    "op": "bridge",
+    "input": [
+      100,
+      10,
+      10
+    ],
+    "expected": [
+      50,
+      50
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0083",
+    "op": "partialOrder",
+    "input": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "expected": "BC"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0084",
+    "op": "vertexCover",
+    "input": {
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ],
+        [
+          "D",
+          "E"
+        ],
+        [
+          "E",
+          "A"
+        ]
+      ],
+      "costs": {
+        "A": 4,
+        "B": 2,
+        "C": 3,
+        "D": 2,
+        "E": 4
+      }
+    },
+    "expected": 8
+  },
+  {
+    "id": "TP26-E2L2-ESP-0085",
+    "op": "grade",
+    "input": [
+      3,
+      4,
+      0.6
+    ],
+    "expected": [
+      0.75,
+      false
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0086",
+    "op": "bufferGap",
+    "input": [
+      5,
+      7,
+      10,
+      15
+    ],
+    "expected": [
+      20,
+      0.5
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0087",
+    "op": "clockOrders",
+    "input": {
+      "A": [
+        10,
+        13,
+        -5,
+        5
+      ],
+      "B": [
+        12,
+        -1,
+        1
+      ]
+    },
+    "expected": [
+      "EF",
+      3
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0088",
+    "op": "layoutRegret",
+    "input": [
+      2,
+      10
+    ],
+    "expected": [
+      2,
+      14,
+      "X"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0089",
+    "op": "thermalLink",
+    "input": [
+      20,
+      0.6931,
+      10
+    ],
+    "expected": [
+      13.862,
+      false
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0090",
+    "op": "delayedEntry",
+    "input": [
+      [
+        0,
+        2,
+        "event"
+      ],
+      [
+        1,
+        3,
+        "censor"
+      ],
+      [
+        2.5,
+        4,
+        "event"
+      ]
+    ],
+    "expected": [
+      0.5,
+      0
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0091",
+    "op": "liquidSeal",
+    "input": [
+      1000,
+      10,
+      0.15,
+      2000
+    ],
+    "expected": [
+      1500,
+      false
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0092",
+    "op": "legMargins",
+    "input": [
+      [
+        400,
+        600
+      ],
+      1.5,
+      [
+        500,
+        1000
+      ]
+    ],
+    "expected": [
+      "esquerda",
+      100
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0093",
+    "op": "timezones",
+    "input": [
+      [
+        12,
+        0,
+        -3
+      ],
+      [
+        11,
+        30,
+        -4
+      ]
+    ],
+    "expected": [
+      "N",
+      30
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0094",
+    "op": "visibility",
+    "input": {
+      "A": "blocked",
+      "B": "clear"
+    },
+    "expected": "B"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0095",
+    "op": "inelastic",
+    "input": [
+      2,
+      3,
+      1
+    ],
+    "expected": [
+      2.5,
+      3.75
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0096",
+    "op": "oppositeViews",
+    "input": {
+      "A": "horario",
+      "views": "opostas"
+    },
+    "expected": "anti-horario"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0097",
+    "op": "spray",
+    "input": [
+      12,
+      2,
+      2,
+      20
+    ],
+    "expected": [
+      24,
+      4,
+      "A"
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0098",
+    "op": "dust",
+    "input": [
+      60,
+      0.0005,
+      300,
+      0.4,
+      100,
+      40
+    ],
+    "expected": [
+      36,
+      90
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0099",
+    "op": "biomarker",
+    "input": [
+      10,
+      6,
+      2,
+      4,
+      20,
+      0.6931
+    ],
+    "expected": [
+      4,
+      3.11895
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0100",
+    "op": "neutralize",
+    "input": [
+      2,
+      5,
+      1,
+      4,
+      2,
+      74
+    ],
+    "expected": [
+      3,
+      222
+    ]
+  }
+]

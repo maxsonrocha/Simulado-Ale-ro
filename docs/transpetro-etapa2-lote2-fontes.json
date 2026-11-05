@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/NR06atualizada2023.pdf",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://openstax.org/details/books/university-physics-volume-3",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.itl.nist.gov/div898/handbook/",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

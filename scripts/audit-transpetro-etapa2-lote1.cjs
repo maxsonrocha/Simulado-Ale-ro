@@ -54,7 +54,7 @@ const textCalculations=[
 for(const m of models){assert(functions[m.operation],m.operation);const value=functions[m.operation](m.inputs);near(value,m.result);calculations.push({id:m.id,operation:m.operation,result:value});}
 for(const m of textCalculations){const value=m.calc();near(value,m.result);calculations.push({id:fresh[m.n-1].id,operation:'segunda_resolucao_textual',result:value});}
 (async()=>{
- const r=createRuntime();select(r);await r.loadQuestionsBank();const all=Array.from(r.App.questionsBank,q=>{const {_ord,...raw}=q;return raw;});
+ const r=createRuntime();select(r);await r.loadQuestionsBank();const all=Array.from(r.App.questionsBank.filter(q=>!(q.etapa===2&&q.lote>1)),q=>{const {_ord,...raw}=q;return raw;});
  assert.equal(all.length,820);assert.equal(new Set(all.map(q=>q.id)).size,820);assert.deepEqual(Array.from(r.validateBank(all)),[]);assert.equal(fresh.length,100);
  const count=qs=>qs.reduce((out,q)=>(out[q]=(out[q]||0)+1,out),{});assert.deepEqual(count(all.map(q=>q.area)),{PORT:100,ING:100,ESP:620});
  assert.deepEqual(count(fresh.map(q=>q.formato_recurso)),{textual:55,grafico_tabela:20,diagrama:15,ilustracao:10});

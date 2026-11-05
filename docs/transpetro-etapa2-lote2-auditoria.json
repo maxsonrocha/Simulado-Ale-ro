@@ -1,0 +1,3125 @@
+{
+  "passed": true,
+  "total": 920,
+  "areas": {
+    "PORT": 100,
+    "ING": 100,
+    "ESP": 720
+  },
+  "assuntosNovos": {
+    "legislacao_nr": 20,
+    "gerenciamento_riscos": 15,
+    "higiene_ocupacional": 10,
+    "prevencao_riscos": 10,
+    "gestao_sms": 10,
+    "emergencias": 8,
+    "acidentes": 7,
+    "ergonomia": 6,
+    "incendio": 6,
+    "saude_ocupacional": 5,
+    "desenvolvimento_sustentavel": 3
+  },
+  "difficulty": {
+    "media": 20,
+    "alta": 45,
+    "muito_alta": 35
+  },
+  "resources": {
+    "textual": 55,
+    "grafico_tabela": 20,
+    "diagrama": 15,
+    "ilustracao": 10
+  },
+  "answers": {
+    "C": 20,
+    "A": 20,
+    "E": 20,
+    "D": 20,
+    "B": 20
+  },
+  "preservedFiles": 87,
+  "sourceHashes": [
+    {
+      "file": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md",
+      "sha256": "780bfc3d2217abd6483d2ecf4a9f3337285833c8116e03b602fe55802f80f664"
+    },
+    {
+      "file": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md",
+      "sha256": "a03abc11ce48ee81a31fb335e212c8f99aaa1e4204f19072268bdf6e04d638a0"
+    },
+    {
+      "file": "references/transpetro/etapa2-lote2.md",
+      "sha256": "40683ce1703a88c11294e4d06360c418836e4460f086d05657c610bc969d1f29"
+    }
+  ],
+  "calculations": [
+    {
+      "id": "TP26-E2L2-ESP-0019",
+      "operation": "costRobust",
+      "result": [
+        10000,
+        9500,
+        "B"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0021",
+      "operation": "powerRatio",
+      "result": 1.2100000000000002
+    },
+    {
+      "id": "TP26-E2L2-ESP-0022",
+      "operation": "overlapBenefit",
+      "result": [
+        40,
+        10
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0023",
+      "operation": "scale",
+      "result": 400
+    },
+    {
+      "id": "TP26-E2L2-ESP-0026",
+      "operation": "tailMean",
+      "result": 52
+    },
+    {
+      "id": "TP26-E2L2-ESP-0027",
+      "operation": "absorption",
+      "result": [
+        19.00000000000001,
+        14.000000000000007
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0028",
+      "operation": "boundTwo",
+      "result": [
+        0,
+        0.30000000000000004
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0029",
+      "operation": "mad",
+      "result": 1
+    },
+    {
+      "id": "TP26-E2L2-ESP-0030",
+      "operation": "correlatedEstimate",
+      "result": [
+        9.666666666666668,
+        0.8333333333333334,
+        -0.16666666666666674
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0031",
+      "operation": "dryVolume",
+      "result": [
+        90,
+        333.33333333333337
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0032",
+      "operation": "censored",
+      "result": [
+        3,
+        4.5,
+        0.5
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0033",
+      "operation": "twoModes",
+      "result": 0.5555555555555556
+    },
+    {
+      "id": "TP26-E2L2-ESP-0034",
+      "operation": "powerRatio",
+      "result": 16
+    },
+    {
+      "id": "TP26-E2L2-ESP-0035",
+      "operation": "choked",
+      "result": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0036",
+      "operation": "arcEnergy",
+      "result": [
+        2000,
+        1000
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0037",
+      "operation": "stability",
+      "result": [
+        -1,
+        1
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0039",
+      "operation": "mixedProtocol",
+      "result": [
+        45,
+        "B"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0040",
+      "operation": "familyFalse",
+      "result": 0.6415140775914581
+    },
+    {
+      "id": "TP26-E2L2-ESP-0041",
+      "operation": "flowshop",
+      "result": [
+        12,
+        13,
+        13,
+        14,
+        14
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0042",
+      "operation": "inclusion",
+      "result": [
+        6,
+        14
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0043",
+      "operation": "transmit",
+      "result": 4.5
+    },
+    {
+      "id": "TP26-E2L2-ESP-0044",
+      "operation": "sorbent",
+      "result": 7
+    },
+    {
+      "id": "TP26-E2L2-ESP-0045",
+      "operation": "uniformRoutes",
+      "result": [
+        0.25,
+        0.75,
+        0.5,
+        1
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0046",
+      "operation": "allNegative",
+      "result": [
+        0.98,
+        0
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0048",
+      "operation": "twoEvidence",
+      "result": 0.375
+    },
+    {
+      "id": "TP26-E2L2-ESP-0049",
+      "operation": "errorGain",
+      "result": -0.2160000000000001
+    },
+    {
+      "id": "TP26-E2L2-ESP-0050",
+      "operation": "alarmOdds",
+      "result": [
+        false,
+        true
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0051",
+      "operation": "heatCapacity",
+      "result": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0052",
+      "operation": "radiativeExchange",
+      "result": [
+        0.15,
+        288
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0054",
+      "operation": "verificationBound",
+      "result": [
+        0.09090909090909091,
+        1
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0055",
+      "operation": "stockService",
+      "result": 20
+    },
+    {
+      "id": "TP26-E2L2-ESP-0056",
+      "operation": "exactOne",
+      "result": 0.3840000000000001
+    },
+    {
+      "id": "TP26-E2L2-ESP-0057",
+      "operation": "sobol",
+      "result": [
+        0.2,
+        0.7
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0058",
+      "operation": "robustExpectation",
+      "result": [
+        4.6,
+        "X"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0059",
+      "operation": "constrainedInterval",
+      "result": [
+        3,
+        4.166666666666666
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0060",
+      "operation": "roundInterval",
+      "result": 0.09999999999999964
+    },
+    {
+      "id": "TP26-E2L2-ESP-0061",
+      "operation": "deadTime",
+      "result": [
+        1250,
+        0.25
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0062",
+      "operation": "filteredPulse",
+      "result": [
+        8.647,
+        20
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0063",
+      "operation": "rim",
+      "result": [
+        31.416,
+        2864.7822765469823
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0064",
+      "operation": "gaussian",
+      "result": 636618.2836771072
+    },
+    {
+      "id": "TP26-E2L2-ESP-0065",
+      "operation": "threeClasses",
+      "result": 0.2222222222222222
+    },
+    {
+      "id": "TP26-E2L2-ESP-0066",
+      "operation": "portfolioUnion",
+      "result": [
+        0.33000000000000007,
+        "BC",
+        14
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0067",
+      "operation": "vector",
+      "result": 5
+    },
+    {
+      "id": "TP26-E2L2-ESP-0068",
+      "operation": "jointReady",
+      "result": [
+        0.6000000000000001,
+        0.8999999999999999
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0069",
+      "operation": "circularHour",
+      "result": 0.6754796560918201
+    },
+    {
+      "id": "TP26-E2L2-ESP-0070",
+      "operation": "betaPredict",
+      "result": 0.07692307692307693
+    },
+    {
+      "id": "TP26-E2L2-ESP-0071",
+      "operation": "orderPercentile",
+      "result": 9
+    },
+    {
+      "id": "TP26-E2L2-ESP-0072",
+      "operation": "dualTask",
+      "result": 3
+    },
+    {
+      "id": "TP26-E2L2-ESP-0073",
+      "operation": "dualExposure",
+      "result": "Z"
+    },
+    {
+      "id": "TP26-E2L2-ESP-0074",
+      "operation": "standardCross",
+      "result": 0.5
+    },
+    {
+      "id": "TP26-E2L2-ESP-0075",
+      "operation": "serviceEmission",
+      "result": [
+        5.5,
+        5.4,
+        "B"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0076",
+      "operation": "reachability",
+      "result": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0077",
+      "operation": "forkAdjustment",
+      "result": "A"
+    },
+    {
+      "id": "TP26-E2L2-ESP-0078",
+      "operation": "successAbsorb",
+      "result": [
+        0.4827586206896553,
+        0.27586206896551735
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0079",
+      "operation": "partition",
+      "result": [
+        5,
+        50
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0080",
+      "operation": "rankChannel",
+      "result": [
+        2.3333333333333335,
+        1.3333333333333333
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0081",
+      "operation": "rolling",
+      "result": 4
+    },
+    {
+      "id": "TP26-E2L2-ESP-0082",
+      "operation": "bridge",
+      "result": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0083",
+      "operation": "partialOrder",
+      "result": "BC"
+    },
+    {
+      "id": "TP26-E2L2-ESP-0084",
+      "operation": "vertexCover",
+      "result": 8
+    },
+    {
+      "id": "TP26-E2L2-ESP-0085",
+      "operation": "grade",
+      "result": [
+        0.75,
+        false
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0086",
+      "operation": "bufferGap",
+      "result": [
+        20,
+        0.5
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0087",
+      "operation": "clockOrders",
+      "result": [
+        "EF",
+        3
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0088",
+      "operation": "layoutRegret",
+      "result": [
+        2,
+        14,
+        "X"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0089",
+      "operation": "thermalLink",
+      "result": [
+        13.862000000000002,
+        false
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0090",
+      "operation": "delayedEntry",
+      "result": [
+        0.5,
+        0
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0091",
+      "operation": "liquidSeal",
+      "result": [
+        1500,
+        false
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0092",
+      "operation": "legMargins",
+      "result": [
+        "esquerda",
+        100
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0093",
+      "operation": "timezones",
+      "result": [
+        "N",
+        30
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0094",
+      "operation": "visibility",
+      "result": "B"
+    },
+    {
+      "id": "TP26-E2L2-ESP-0095",
+      "operation": "inelastic",
+      "result": [
+        2.5,
+        3.75
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0096",
+      "operation": "oppositeViews",
+      "result": "anti-horario"
+    },
+    {
+      "id": "TP26-E2L2-ESP-0097",
+      "operation": "spray",
+      "result": [
+        24,
+        4,
+        "A"
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0098",
+      "operation": "dust",
+      "result": [
+        36.00000000000001,
+        90
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0099",
+      "operation": "biomarker",
+      "result": [
+        4,
+        3.1189500000000003
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0100",
+      "operation": "neutralize",
+      "result": [
+        3,
+        222
+      ]
+    }
+  ],
+  "pairs": 86950,
+  "alerts": [],
+  "closest": [
+    {
+      "id": "TP26-E2L2-ESP-0001",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0424",
+          "score": 0.14807042053195651
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0260",
+          "score": 0.13286248671208475
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0324",
+          "score": 0.1060356926297461
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0002",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0007",
+          "score": 0.17602608930893268
+        },
+        {
+          "id": "TP26-E2L2-ESP-0018",
+          "score": 0.11942043897636564
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0369",
+          "score": 0.11873606244449614
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0003",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0129",
+          "score": 0.1390319136673653
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0187",
+          "score": 0.12322833939239998
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0046",
+          "score": 0.11364092406210362
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0004",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0025",
+          "score": 0.14783254972271617
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0013",
+          "score": 0.10433587171286343
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0213",
+          "score": 0.10274165447274976
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0005",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0433",
+          "score": 0.26660363323552005
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0381",
+          "score": 0.22656437160444218
+        },
+        {
+          "id": "TP26-E2L2-ESP-0018",
+          "score": 0.2137011160171721
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0006",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0171",
+          "score": 0.1840664937080808
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0021",
+          "score": 0.12799180310929814
+        },
+        {
+          "id": "TP26-E2L2-ESP-0047",
+          "score": 0.11637473201129338
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0007",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0240",
+          "score": 0.1714207238978594
+        },
+        {
+          "id": "TP26-E2L2-ESP-0018",
+          "score": 0.1636913806788999
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0148",
+          "score": 0.16096596204004052
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0008",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-PORT-0096",
+          "score": 0.19191497335743266
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0080",
+          "score": 0.16033103246107624
+        },
+        {
+          "id": "TP26-E2L2-ESP-0033",
+          "score": 0.1391603205823239
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0009",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0334",
+          "score": 0.18474855046023075
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0190",
+          "score": 0.18160905261864477
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0139",
+          "score": 0.15833329794388093
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0010",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0335",
+          "score": 0.2485141051287039
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0096",
+          "score": 0.1110458055856182
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0125",
+          "score": 0.10342958535271096
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0011",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0258",
+          "score": 0.161211172002221
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0432",
+          "score": 0.13183008055100032
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0143",
+          "score": 0.12584103531248325
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0012",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0185",
+          "score": 0.11693038314960087
+        },
+        {
+          "id": "TP26-E2L1-ESP-0030",
+          "score": 0.09986563714185667
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0421",
+          "score": 0.09674864647262993
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0013",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0434",
+          "score": 0.1932092570281639
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0146",
+          "score": 0.1564615561067164
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0477",
+          "score": 0.13926791635535593
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0014",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0325",
+          "score": 0.2533637702085207
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0430",
+          "score": 0.24290452858793204
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0260",
+          "score": 0.16478350808588704
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0015",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0337",
+          "score": 0.15977464286579093
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0141",
+          "score": 0.14894954333924232
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0255",
+          "score": 0.14397181123985592
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0016",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0495",
+          "score": 0.2302030623877709
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0004",
+          "score": 0.19451852953777082
+        },
+        {
+          "id": "TP26-E2L1-ESP-0086",
+          "score": 0.16592039011342552
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0017",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0144",
+          "score": 0.13271366328644865
+        },
+        {
+          "id": "TP26-E2L1-ESP-0090",
+          "score": 0.09346154035463602
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0345",
+          "score": 0.09328115827717304
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0018",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0180",
+          "score": 0.1999252545555878
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0429",
+          "score": 0.1684930178460634
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0337",
+          "score": 0.1639601031634753
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0019",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0225",
+          "score": 0.1780271517628123
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0039",
+          "score": 0.14861805677899917
+        },
+        {
+          "id": "TP26-E2L2-ESP-0050",
+          "score": 0.1340794620190885
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0020",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0142",
+          "score": 0.15347598025924852
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0143",
+          "score": 0.11729989145720739
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0327",
+          "score": 0.10910098232681087
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0021",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0064",
+          "score": 0.16771448033187633
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0416",
+          "score": 0.14975500108282683
+        },
+        {
+          "id": "TP26-E2L1-ESP-0081",
+          "score": 0.14158751184968732
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0022",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0039",
+          "score": 0.23366303414300693
+        },
+        {
+          "id": "TP26-E2L2-ESP-0066",
+          "score": 0.14451208427164702
+        },
+        {
+          "id": "TP26-E2L1-ESP-0023",
+          "score": 0.13760508949899936
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0023",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0385",
+          "score": 0.18206036260872877
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0048",
+          "score": 0.14740715757439588
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0029",
+          "score": 0.1394452428333503
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0024",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0056",
+          "score": 0.0948972717460917
+        },
+        {
+          "id": "TP26-E2L2-ESP-0070",
+          "score": 0.08980965996539508
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0233",
+          "score": 0.08575525370659244
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0025",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0113",
+          "score": 0.11411263285096414
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0075",
+          "score": 0.0961603068058889
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0238",
+          "score": 0.0881733600189539
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0026",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0356",
+          "score": 0.1697644470989126
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0220",
+          "score": 0.15071592394939637
+        },
+        {
+          "id": "TP26-E2L1-ESP-0049",
+          "score": 0.1436640359033217
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0027",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0371",
+          "score": 0.23157723640591518
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0400",
+          "score": 0.17157596638785924
+        },
+        {
+          "id": "TP26-E2L2-ESP-0078",
+          "score": 0.1699425314534046
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0028",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0462",
+          "score": 0.3028915582353996
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0479",
+          "score": 0.21934309571480543
+        },
+        {
+          "id": "TP26-E2L1-ESP-0033",
+          "score": 0.18298995066337706
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0029",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0356",
+          "score": 0.2931483157499442
+        },
+        {
+          "id": "TP26-E2L1-ESP-0069",
+          "score": 0.20876597999681673
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0472",
+          "score": 0.19856502855572988
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0030",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0359",
+          "score": 0.21515711499366635
+        },
+        {
+          "id": "TP26-E2L2-ESP-0074",
+          "score": 0.17062467943261928
+        },
+        {
+          "id": "TP26-E2L1-ESP-0087",
+          "score": 0.15395190886712704
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0031",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0344",
+          "score": 0.25829194443902365
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0156",
+          "score": 0.22143692516584934
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0303",
+          "score": 0.2000809303726776
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0032",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0209",
+          "score": 0.1672546435997156
+        },
+        {
+          "id": "TP26-E2L1-ESP-0029",
+          "score": 0.1529431335700303
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0034",
+          "score": 0.1417718650582445
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0033",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0075",
+          "score": 0.1689582032481192
+        },
+        {
+          "id": "TP26-E2L2-ESP-0055",
+          "score": 0.149916814605287
+        },
+        {
+          "id": "TP26-E2L2-ESP-0062",
+          "score": 0.1351780900750519
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0034",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0099",
+          "score": 0.23008364584822072
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0455",
+          "score": 0.17956277733299195
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0409",
+          "score": 0.13143986148625014
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0035",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0449",
+          "score": 0.22410737843807338
+        },
+        {
+          "id": "TP26-E2L1-ESP-0079",
+          "score": 0.20344741214541795
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0349",
+          "score": 0.1983442932505757
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0036",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0402",
+          "score": 0.24992474139410356
+        },
+        {
+          "id": "TP26-E2L1-ESP-0010",
+          "score": 0.1730236774529071
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0283",
+          "score": 0.1474055313638177
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0037",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0012",
+          "score": 0.12636388678529983
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0302",
+          "score": 0.1091141536858709
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0182",
+          "score": 0.08022225610629982
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0038",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0228",
+          "score": 0.17429435555004044
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0382",
+          "score": 0.14877208790206037
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0030",
+          "score": 0.1218834310944276
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0039",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0060",
+          "score": 0.09534932249767368
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0044",
+          "score": 0.09112534128976839
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0308",
+          "score": 0.08761966972700912
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0040",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0038",
+          "score": 0.19948144176935595
+        },
+        {
+          "id": "TP26-E2L2-ESP-0065",
+          "score": 0.1556129051550257
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0283",
+          "score": 0.1468803854723572
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0041",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0340",
+          "score": 0.13117202331111835
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0300",
+          "score": 0.12668889482878834
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0381",
+          "score": 0.1230718616420208
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0042",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0070",
+          "score": 0.17616416146691047
+        },
+        {
+          "id": "TP26-E2L2-ESP-0056",
+          "score": 0.13116080119836193
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0081",
+          "score": 0.11369147142967007
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0043",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0052",
+          "score": 0.15309644293177951
+        },
+        {
+          "id": "TP26-E2L1-ESP-0074",
+          "score": 0.135097981908673
+        },
+        {
+          "id": "TP26-E2L1-ESP-0099",
+          "score": 0.11643844113812876
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0044",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0346",
+          "score": 0.1438263068311335
+        },
+        {
+          "id": "TP26-E2L1-ESP-0095",
+          "score": 0.12401279921532887
+        },
+        {
+          "id": "TP26-E2L1-ESP-0065",
+          "score": 0.11142213194186834
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0045",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0052",
+          "score": 0.16495901488752415
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0391",
+          "score": 0.12886427273561957
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0297",
+          "score": 0.10011074683391057
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0046",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0382",
+          "score": 0.20119552281307124
+        },
+        {
+          "id": "TP26-E2L1-ESP-0064",
+          "score": 0.07706328616697776
+        },
+        {
+          "id": "TP26-E2L1-ESP-0045",
+          "score": 0.0731646395617086
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0047",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0083",
+          "score": 0.11022787930992801
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0449",
+          "score": 0.08076467346974608
+        },
+        {
+          "id": "TP26-E2L1-ESP-0083",
+          "score": 0.07788338630478191
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0048",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0021",
+          "score": 0.4857386811706683
+        },
+        {
+          "id": "TP26-E2L2-ESP-0050",
+          "score": 0.1174949509194912
+        },
+        {
+          "id": "TP26-E2L1-ESP-0092",
+          "score": 0.1147912642902106
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0049",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0055",
+          "score": 0.16656575580035432
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0027",
+          "score": 0.11314836125737458
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0491",
+          "score": 0.10020218664266377
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0050",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0021",
+          "score": 0.15325988997346593
+        },
+        {
+          "id": "TP26-E2L2-ESP-0059",
+          "score": 0.1276107148416286
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0039",
+          "score": 0.11561950593651282
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0051",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0027",
+          "score": 0.16593600736952552
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0453",
+          "score": 0.1485490190704764
+        },
+        {
+          "id": "TP26-E2L1-ESP-0083",
+          "score": 0.134894207621195
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0052",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0079",
+          "score": 0.19066537185540153
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0267",
+          "score": 0.12049824888571949
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0292",
+          "score": 0.11415995903957447
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0053",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0091",
+          "score": 0.15973765683223048
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0287",
+          "score": 0.12188937339344832
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0234",
+          "score": 0.11752168401505546
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0054",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0042",
+          "score": 0.1165531931534159
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0026",
+          "score": 0.10806166792530902
+        },
+        {
+          "id": "TP26-E2L2-ESP-0072",
+          "score": 0.0978164454652725
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0055",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0300",
+          "score": 0.24807796799770943
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0118",
+          "score": 0.1948728545297401
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0120",
+          "score": 0.138139130491931
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0056",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0013",
+          "score": 0.24179474754464764
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0454",
+          "score": 0.23834282752195354
+        },
+        {
+          "id": "TP26-E2L1-ESP-0099",
+          "score": 0.22799903887069045
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0057",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0009",
+          "score": 0.21191742488065676
+        },
+        {
+          "id": "TP26-E2L2-ESP-0076",
+          "score": 0.1784569167841134
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0333",
+          "score": 0.16576607323411102
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0058",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0365",
+          "score": 0.38671736227418696
+        },
+        {
+          "id": "TP26-E2L1-ESP-0023",
+          "score": 0.32358715104976077
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0092",
+          "score": 0.2907217156438235
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0059",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0018",
+          "score": 0.35664028506592516
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0365",
+          "score": 0.34893677614751073
+        },
+        {
+          "id": "TP26-E2L2-ESP-0084",
+          "score": 0.22653406757318054
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0060",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0037",
+          "score": 0.16929654891816265
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0078",
+          "score": 0.1550552824106545
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0002",
+          "score": 0.12045752664882724
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0061",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0048",
+          "score": 0.1737093451065123
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0384",
+          "score": 0.13702289819744784
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0115",
+          "score": 0.13593961107635305
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0062",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0497",
+          "score": 0.10662978000823838
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0023",
+          "score": 0.10446142989051412
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0034",
+          "score": 0.10324304781053778
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0063",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0067",
+          "score": 0.19654326143810194
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0161",
+          "score": 0.17472809602329056
+        },
+        {
+          "id": "TP26-E2L2-ESP-0081",
+          "score": 0.17471107619124493
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0064",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0019",
+          "score": 0.17313545961931787
+        },
+        {
+          "id": "TP26-VIS-ESP-0007",
+          "score": 0.14941228498966788
+        },
+        {
+          "id": "TP26-E2L1-ESP-0077",
+          "score": 0.14540606759306113
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0065",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0170",
+          "score": 0.20121571131653324
+        },
+        {
+          "id": "TP26-VIS-ESP-0017",
+          "score": 0.19935478089164196
+        },
+        {
+          "id": "TP26-E2L1-ESP-0081",
+          "score": 0.18241469857006898
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0066",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0434",
+          "score": 0.1900788111358885
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0462",
+          "score": 0.15854868470954828
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0028",
+          "score": 0.14389964303841138
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0067",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0081",
+          "score": 0.18932331862417764
+        },
+        {
+          "id": "TP26-E2L1-ESP-0060",
+          "score": 0.16003662889322723
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0486",
+          "score": 0.134169748223974
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0068",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0340",
+          "score": 0.13682379405281972
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0366",
+          "score": 0.13386891861422814
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0367",
+          "score": 0.12869075501547117
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0069",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0084",
+          "score": 0.13164085645811835
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0441",
+          "score": 0.11560038782748387
+        },
+        {
+          "id": "TP26-E2L2-ESP-0082",
+          "score": 0.1036248567299836
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0070",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0021",
+          "score": 0.1696487506782822
+        },
+        {
+          "id": "TP26-E2L1-ESP-0033",
+          "score": 0.12973704819537268
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0356",
+          "score": 0.12581689877888838
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0071",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0009",
+          "score": 0.14315583805252277
+        },
+        {
+          "id": "TP26-E2L2-ESP-0090",
+          "score": 0.1408170093116742
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0098",
+          "score": 0.13153498651302495
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0072",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0100",
+          "score": 0.1667044683145042
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0066",
+          "score": 0.13369267113339997
+        },
+        {
+          "id": "TP26-E2L1-ESP-0022",
+          "score": 0.12363211505512961
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0073",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0067",
+          "score": 0.22337960559479703
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0032",
+          "score": 0.17348498419724415
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0253",
+          "score": 0.14417221953288953
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0074",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0349",
+          "score": 0.16814843127421492
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0374",
+          "score": 0.16764655318377147
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0360",
+          "score": 0.1575459600032742
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0075",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0120",
+          "score": 0.1676438510040722
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0017",
+          "score": 0.1524562816582775
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0059",
+          "score": 0.13370536906249536
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0076",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0020",
+          "score": 0.09798267332012334
+        },
+        {
+          "id": "TP26-E2L2-ESP-0079",
+          "score": 0.08992335966245996
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0394",
+          "score": 0.08951013366581574
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0077",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0040",
+          "score": 0.172578280977703
+        },
+        {
+          "id": "TP26-VIS-ESP-0007",
+          "score": 0.13431218545708226
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0216",
+          "score": 0.12830384592027602
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0078",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0368",
+          "score": 0.2102458010815198
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0037",
+          "score": 0.13340764791989063
+        },
+        {
+          "id": "TP26-E2L2-ESP-0079",
+          "score": 0.10178223015275076
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0079",
+      "neighbors": [
+        {
+          "id": "TP26-E2L2-ESP-0098",
+          "score": 0.34590921876115854
+        },
+        {
+          "id": "TP26-E2L1-ESP-0082",
+          "score": 0.30398539367046945
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0156",
+          "score": 0.24762810572258928
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0080",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0081",
+          "score": 0.14352629834652803
+        },
+        {
+          "id": "TP26-E2L1-ESP-0027",
+          "score": 0.1382930592870212
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0283",
+          "score": 0.1147829745076019
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0081",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0490",
+          "score": 0.35202317341988854
+        },
+        {
+          "id": "TP26-E2L1-ESP-0099",
+          "score": 0.17592229953429048
+        },
+        {
+          "id": "TP26-E2L1-ESP-0011",
+          "score": 0.1696827202123261
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0082",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0363",
+          "score": 0.2549805651279309
+        },
+        {
+          "id": "TP26-E2L1-ESP-0093",
+          "score": 0.22353114027802887
+        },
+        {
+          "id": "TP26-E2L1-ESP-0084",
+          "score": 0.2154455412883213
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0083",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0428",
+          "score": 0.10629729624493037
+        },
+        {
+          "id": "TP26-E2L2-ESP-0096",
+          "score": 0.10045078076073038
+        },
+        {
+          "id": "TP26-E2L1-ESP-0076",
+          "score": 0.09776592866161714
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0084",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0365",
+          "score": 0.15772878064501986
+        },
+        {
+          "id": "TP26-VIS-ESP-0018",
+          "score": 0.14901795877234084
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0229",
+          "score": 0.14415216551498686
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0085",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0011",
+          "score": 0.23812665876108577
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0316",
+          "score": 0.2288394435006623
+        },
+        {
+          "id": "TP26-E2L1-ESP-0046",
+          "score": 0.17234014716610815
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0086",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0460",
+          "score": 0.22662097351014512
+        },
+        {
+          "id": "TP26-VIS-ESP-0006",
+          "score": 0.11432552164126691
+        },
+        {
+          "id": "TP26-E2L1-ESP-0092",
+          "score": 0.10896726719231332
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0087",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0070",
+          "score": 0.14806215540033035
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0074",
+          "score": 0.12181197196603785
+        },
+        {
+          "id": "TP26-E2L1-ESP-0033",
+          "score": 0.10919758267492001
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0088",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0067",
+          "score": 0.19358890341406776
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0365",
+          "score": 0.15894447586827787
+        },
+        {
+          "id": "TP26-E2L1-ESP-0068",
+          "score": 0.11490785398799933
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0089",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0319",
+          "score": 0.28807082973055925
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0252",
+          "score": 0.24401599405628713
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0350",
+          "score": 0.17242262847327083
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0090",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0009",
+          "score": 0.2918080438217852
+        },
+        {
+          "id": "TP26-VIS-ESP-0002",
+          "score": 0.18742956546790096
+        },
+        {
+          "id": "TP26-VIS-ESP-0006",
+          "score": 0.1581732614466735
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0091",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0449",
+          "score": 0.2854525496369345
+        },
+        {
+          "id": "TP26-E2L1-ESP-0076",
+          "score": 0.27822390828575677
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0297",
+          "score": 0.2605514527486243
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0092",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0087",
+          "score": 0.2661382604430261
+        },
+        {
+          "id": "TP26-VIS-ESP-0013",
+          "score": 0.15445997074932596
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0403",
+          "score": 0.1453894652131121
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0093",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0289",
+          "score": 0.14288807864465888
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0074",
+          "score": 0.13964567708620912
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0419",
+          "score": 0.1360049163221804
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0094",
+      "neighbors": [
+        {
+          "id": "TP26-E2L1-ESP-0069",
+          "score": 0.1376756330205357
+        },
+        {
+          "id": "TP26-VIS-ESP-0002",
+          "score": 0.12681805836621443
+        },
+        {
+          "id": "TP26-E2L1-ESP-0047",
+          "score": 0.12025918280427257
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0095",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0204",
+          "score": 0.195962549539354
+        },
+        {
+          "id": "TP26-E2L1-ESP-0011",
+          "score": 0.1353608756750442
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0453",
+          "score": 0.10708450601883494
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0096",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0311",
+          "score": 0.17265853573579282
+        },
+        {
+          "id": "TP26-ENGSEG-PORT-0091",
+          "score": 0.11621141628864783
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0294",
+          "score": 0.10851083337440313
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0097",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0493",
+          "score": 0.21491833584441788
+        },
+        {
+          "id": "TP26-E2L1-ESP-0089",
+          "score": 0.20043206443054926
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0356",
+          "score": 0.1582291971248736
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0098",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0445",
+          "score": 0.18816833344362346
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0005",
+          "score": 0.14690239529763413
+        },
+        {
+          "id": "TP26-ENGSEG-ESP-0156",
+          "score": 0.14051577704657722
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0099",
+      "neighbors": [
+        {
+          "id": "TP26-ENGSEG-ESP-0442",
+          "score": 0.17533130733654695
+        },
+        {
+          "id": "TP26-E2L1-ESP-0018",
+          "score": 0.1475534950841199
+        },
+        {
+          "id": "TP26-E2L1-ESP-0082",
+          "score": 0.12286514975709589
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0100",
+      "neighbors": [
+        {
+          "id": "TP26-VIS-ESP-0011",
+          "score": 0.15434056722065698
+        },
+        {
+          "id": "TP26-E2L1-ESP-0079",
+          "score": 0.10542644005486994
+        },
+        {
+          "id": "TP26-VIS-ESP-0001",
+          "score": 0.08443879413084317
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "TP26-E2L2-ESP-0001",
+      "sha256": "b05f64da2c253396247db31e11f2f73505eb56230e0873a914df677c6bb88eea",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0002",
+      "sha256": "3e1fb27ad71efdc25ce026f3a98b5ed890e66c6caf8ee380a33bdbc0e73ed24a",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0003",
+      "sha256": "e09dd6228326be2bbd529e5f1794d5d41fae43f513d8732a67b5d24e4089edfc",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0004",
+      "sha256": "1bf0acbd97585a87c250248aa125d7ae20669cf8c7138cf0993695fcad699126",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0005",
+      "sha256": "849fb069a8fd14684ecf659a76ad942e3e27ba27093f6c826e92276cd45c56e9",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0006",
+      "sha256": "c04a49f24eb42e995aa64a1ab8d469aae30263cf6c4e25919bfd3caddb646d7d",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0007",
+      "sha256": "52ad10710edb5f09c8134b30dad493b2a66bbc034ba7cb4206676d89861b38ac",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0008",
+      "sha256": "95bd353bd6c5b3fe3d15ad235177c03da4d461c46d163df9c858db91db15c33a",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0009",
+      "sha256": "3ce85f8b49c4e1207f3128ca0a84eea6db8118f8f3bdf29b013d7eaac2ed70a8",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0010",
+      "sha256": "4ed8a32cd8c7731b100bc5ba062038f283c22d918f3b1f51fb84175fa650c385",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0011",
+      "sha256": "cf949cc78fe97a859aea2870944e9caded1bad598415c6021e70a9e8d8294c59",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0012",
+      "sha256": "9bc3e3e90eb090b09baad5df0eb24b02fea34a5b9bb6c38928b41011e431c0d4",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0013",
+      "sha256": "50fe7726969b9f0128ae794c5db2a28bc7d602cd09e5219c51aec9c659744f54",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0014",
+      "sha256": "1a55ac5d2d6b408995c02ba78ddd4d14e90674d14b0e05bed61bfa75773818bc",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0015",
+      "sha256": "0e7e64b99d9e922507acf75339bcd8ef38fb5df658f89db83b23cd9fd7011c1f",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0016",
+      "sha256": "0efa2ef3c0ca2301b40d07d00b60794ba60b8ba089e616a390949d807cac4a05",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0017",
+      "sha256": "72864b93934d44384fa48220959b877d55dd181c23a37a2db698bf73e519e5bd",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0018",
+      "sha256": "61b685b823debe9f5c170a60c95b8aff9386e9f424d81571ed78ccdd2f599504",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0019",
+      "sha256": "69eece8d215c61478ce0db6437572b4fa224659cbd6d415c54b8654c43366076",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0020",
+      "sha256": "d7e03c6323e82ac8eb1b864966330f630b17bdd53f8438077eff86c9473587e3",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0021",
+      "sha256": "97702c29c85ddb4ced0114c76be499656c052cc03cfb3934bafc618a7abf59f1",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0022",
+      "sha256": "8151e6193e167a191bc76ff0f62a0f67dc054785c7d9f75d498f077bcb3712a8",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0023",
+      "sha256": "c7e3ead9207ec7664ef4364a2da81bee7e99cfbb4f3f11271c0082f8ebcc64cf",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0024",
+      "sha256": "8d4ae6325c84153542d41f16e5cc8b851ec96ffe56961645a8c52cc7a2667fb4",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0025",
+      "sha256": "d8052bf9b3c5801e975aea574e25f6e297600f87d46a938927332f182a2d695b",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0026",
+      "sha256": "c05f4a6f55a05d3469a8fa4c55256d38d420e54f7c8819889412a880c1de9f50",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0027",
+      "sha256": "5280f04d91b4750c5fcd58ae1a5c05f2ea582f2a853a888b007db6e98e285b93",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0028",
+      "sha256": "ecdc0db5b8b2222e80ea1b14e81967c589923dd5d0e4ae0649a120698f830fd0",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0029",
+      "sha256": "8104e32225846151b80a5cd8036487dcf510fb8ef996edaccf5e596b7a142cb6",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0030",
+      "sha256": "93b5a89427068a8c778411288f0e6061867fcec7833a2efec2cb3455057f642d",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0031",
+      "sha256": "cb250e8a48282802b4adf0a7e9ee3dacd374400061cc1d70dc2ba5ed9bb334a4",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0032",
+      "sha256": "a5b5f6b399453628fbc378e3a91da8c16c86be1b15206f09734194f743cbc018",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0033",
+      "sha256": "6ba5efdc497d764c3bc9d22c7677b98dae191ba679b4f7ef3f132c96b20dff80",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0034",
+      "sha256": "501472ef2d93744cbd0b0ee3fe0f564d3ea612add59c05940831f8bdd7e49b26",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0035",
+      "sha256": "842d83d693c0a1790e90e80542fa5b7bf224d8c6ef89bdf1093199d09723efb2",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0036",
+      "sha256": "2b55eccace316a1aa105c9a84b172afcf1fac0e4c611250cc8b6089e67f6a59a",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0037",
+      "sha256": "b33e5cab7d7550e60c6688b5bb758d17a9c52d4d12b10f653e8d0a627acb4675",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0038",
+      "sha256": "0d20031fed3ed6da46f74b9799131f691025f4c0bdc3e15c97e251052984c588",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0039",
+      "sha256": "b9e88b88d6c2d157757c78de6fd117ee61d4c6e77a9e382a1cbb5eefc98da404",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0040",
+      "sha256": "5a0e931ec767603d4df062321b67f5503b80e58420cccb2f694fead1c1f319db",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0041",
+      "sha256": "81e8b59ea011a55c26f5b8b719afca9bf3b2a79d29eb1223d6464e9652a8f82a",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0042",
+      "sha256": "06bbb58e40fbf77a0ea177cbf6415ff8d02ffe3ae9b7f113ab12185f7e292b16",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0043",
+      "sha256": "af1f6cab2a850c3735d42104c24ab372075e51fd097b13ebb195dbbeb37e9849",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0044",
+      "sha256": "1e1f6f1781ad58de99dc365453efa812f60f0269571284b11b66a6b95aba8265",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0045",
+      "sha256": "d5d600b377419057a5f15a98c47e1b21cacab3c6b6dd912b1d05b2b53d3fd3ae",
+      "answer": 0,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0046",
+      "sha256": "f0dc3931275498985c226a890b2e4d41c2b44cd9f045a4a7e2052048084be587",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0047",
+      "sha256": "c295106ff4e22bf4ed0f6f0eda5d0dccf96d15731e7186edc950b18c4e409568",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0048",
+      "sha256": "50d4512f6ac3cfb87914053ad01e884523cbbeb5263c6c18ef6555ea85ffe415",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0049",
+      "sha256": "5b4ed8d4f0ab295df1a7c645408e31ec3c0836787dbe7e93686c863259a905a0",
+      "answer": 2,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0050",
+      "sha256": "552997addc02629492fcd5ce3d4fa5d0c54abf6d7f206bc29253c79385838c72",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0051",
+      "sha256": "29745c2ece7d92b8165d201d838a2634acd600b30c73c2786fbc809f119e8af3",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0052",
+      "sha256": "a6697697ef20bee8f238ed971ebcc5e3a084ff1dd289bbf771bc70c0a998de57",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0053",
+      "sha256": "89641653167fec4de3848ef176fd78b7f01ef3b3f4ba08e6a8083483fe12ac4e",
+      "answer": 1,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0054",
+      "sha256": "03f7a32e85535c0fae74186c127954ba12914d0b1ed8558f6c9a864ece900034",
+      "answer": 3,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0055",
+      "sha256": "567fea32b14a19f9429c616b459ab18c765c2bad967a0ec4799831c6c3672c1d",
+      "answer": 4,
+      "figuras": []
+    },
+    {
+      "id": "TP26-E2L2-ESP-0056",
+      "sha256": "edce3979b083d70fc4e044e6e474c438a4c98dfe7d124b1a6c7d9e49ded9dcb6",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0056.svg",
+          "sha256": "aad3a515cae61ced600b4cbe05648aee9688f773b288391a841035344fde9696"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0057",
+      "sha256": "5923586f50f95ebdd3444505c8de82487d734356efe680be16dd70a84352f43c",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0057.svg",
+          "sha256": "ff332f1cde3e51bcbe9932ff775f4e2c8d4270d9a5ddfa08ce3c8d831b3b0944"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0058",
+      "sha256": "299ac2fa8884c806859d555049929ddade2f041fc00c24d797d6180f1b63be3e",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0058.svg",
+          "sha256": "8ea37f094f79fd2a9b0fc59115ae123748e76732ffe01919ea2fc8c9033ead4c"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0059",
+      "sha256": "1e5fb910911d5ff7f52c9a44918aff2d309c0e205b9e3fa48ee8bee31d0660aa",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0059.svg",
+          "sha256": "7f057bc69f41af18f304f99174f2dd92127f53d3991b8232ae6fb568650082e3"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0060",
+      "sha256": "77dc8408f5258c13b46cc45023ed15822f0729f718dec0008223931d018fbd5b",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0060.svg",
+          "sha256": "013f0e53b6689ac37c9d255916277248575f3a907cc33fd7d643b89ba5931526"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0061",
+      "sha256": "16bab34726ac4c7ed3849d85d2a1734364c0ecaba4c71e515b15b0cef9890278",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0061.svg",
+          "sha256": "80d51e4205cd6ecf3a87ef886006e3ffc5d9b540f020ceb236a39784a7da53a5"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0062",
+      "sha256": "882b5a618d74a24551a157e45704e8dd3c38bccffb17732bbc8e39ae0a469553",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0062.svg",
+          "sha256": "9d44d9c8e39e5e8bc81e32739c04a7c2d0d507f340ab518b862b4af8f2558ecf"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0063",
+      "sha256": "6817ed4e1cf64602792bb014c5dfc755adf0891ba2d5d06657e8a23d793ec04b",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0063.svg",
+          "sha256": "df0a0bb4101c39d24f847cd216ac562a1db5794826dda42d3ef9b75877f45394"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0064",
+      "sha256": "e5d30d3b23a185ac3989d5022488d8c85b27e72d49c81104e5ba0893c257c824",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0064.svg",
+          "sha256": "c572a5ad79f163de181c99f76b9942d942a6c73c5a05ba556764fbc8de8b1b83"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0065",
+      "sha256": "01995939ae760e1b5e5c0422e1ce89c1091d29a222c2f0afda6ca0780209f675",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0065.svg",
+          "sha256": "ea161bfb581d1760f56438e16822a04f81426d2c3b32a25413ab1d1089a376f5"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0066",
+      "sha256": "e0ac7997a4383492d962ab479d46eb36dad37968b51a28c66b8b99b34bff9ff7",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0066.svg",
+          "sha256": "a00c24792aee25f9c11cfb3dbf3eff4efb643edf08bf831a0ecbbdab19c9ae88"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0067",
+      "sha256": "7beacf963efd8072c5c85c13e113c0b28319135b5c2f8099bb5dadc46b2d388f",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0067.svg",
+          "sha256": "5e14248022fc7fce1ad63a8ce63e13aa12ed93a85347dcecb4fc513c7a683c0e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0068",
+      "sha256": "0d6bf4e142824651b833e5b6968ec516e594d4b57d2b084a8a3ea959a7612099",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0068.svg",
+          "sha256": "267db3224515e7075bfda505e8f7dc1832014a651e9ff14d1dc060f93bf7a8ae"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0069",
+      "sha256": "e8a67dd12ee56ad94a6ce4e1a9710989dbe4adbe0d67688eb3ca00afaf06db73",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0069.svg",
+          "sha256": "792bbb34a07848dd57afdd8e653e86a947a6f515ef9408de0e387846993f1819"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0070",
+      "sha256": "951bac5821641ffed5b4b8fa5989898ab09314f2fde67b172cb46a82ba181e28",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0070.svg",
+          "sha256": "beff4d558ee64434d8309d9f7b0a77504118d35724113386b112188c1399a9cf"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0071",
+      "sha256": "8228f0d9d60f58a63a0d675d3b7d9ab72183c07534eb92803dec9f257f67f068",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0071.svg",
+          "sha256": "ef34445718f75280d9aa89a2c1852e0bbc72616e72bb050a9f303253c3f14b7d"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0072",
+      "sha256": "651b7bdaaff0808bd783935e3b7ce6a791920d68abe261e986e5bdce9ae89093",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0072.svg",
+          "sha256": "867f217f4c7e44130b24d64ee339ec90aabd6790b27a4c59b34c137525256978"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0073",
+      "sha256": "7acca64ff58d5df38b50a79affe556a31800a982911d52725f8c129c4d1736a1",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0073.svg",
+          "sha256": "9e97e5480cf0e584e290b4974223249e1d6d05cc2303f8478ac851bc99d7552e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0074",
+      "sha256": "d08f739120d4b1bf7b8397757a318723eb9e00d41c5947a542889c4263f7452f",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0074.svg",
+          "sha256": "12c1914e45f41fe1d4b721d5efe239b754c1a4d4601ab35eb9e459ee11eb7c4f"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0075",
+      "sha256": "d29bd7feb630f59daed3733977653eed09b7a49e983eba4025664480b3055132",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0075.svg",
+          "sha256": "91e56afd25232f91b64620a55cdd0a7fefada9af96337f24f3860dc3df037ab2"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0076",
+      "sha256": "ca1a9f581aae6790593f598a74b86f75cf72e2cc8298558e1a7ef8f0ae5dd265",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0076.svg",
+          "sha256": "443c8d977a1bbee2aad95bbc7adda7b83b11b2d94cd725575aca8cc62e26705f"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0077",
+      "sha256": "5c453e453fc606d6fefec4799bee9a0bc9c058dfc2ba7239c4820c7ff9b23b24",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0077.svg",
+          "sha256": "b028addac5d845a27c591f7b7f760fcd7d7fae9de77c750760c7f9ad535a1198"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0078",
+      "sha256": "f3639bd3a6b6eb629a92944c5378074aa382f914bbd87ed1447372ca7e243c27",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0078.svg",
+          "sha256": "3aaf8b1292fbdecf5ad37cf4e407e0bc21242ca793b309a38bd497decfa3fc96"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0079",
+      "sha256": "10a8f4a4aefdf1392fb29e9ca5703628caf8f859001206bcb972b843dd2b6aef",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0079.svg",
+          "sha256": "3a28e65161eb52d060aaf8568a3e58c8d1f7c1dfb8f5f38bbd3e62abafe16a89"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0080",
+      "sha256": "e92a7014a0c62c7c2689bbbd07deacd31cb7343672b6cf39b468900436effa07",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0080.svg",
+          "sha256": "db175a1cb9174eca4b084784485a276bc55b129f76f5466e09063481e40917de"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0081",
+      "sha256": "704ec72b177b8bb2a60124e292ad2787d7db4dc89ffabc023197cfc599dab2ec",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0081.svg",
+          "sha256": "8a8f0b7a64a2c8ee34aa7240631a988295cc061736b1646dbbe691d49f86b7af"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0082",
+      "sha256": "a2468cc07bc78c857c8e5ece531c459e7bf12f65cf7caa07497e894d89523a91",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0082.svg",
+          "sha256": "c3fdb73479f668db776eded135e99565b5f31db97286af8c62ef3f2075f4d995"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0083",
+      "sha256": "928f02881c5e971fbaf2fb7c5d2a5cce5b8b0c6f5919f35a5d88717ed4aa6569",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0083.svg",
+          "sha256": "e9ea077b7524c95e902ed5bd04b8c26227a7d4d4d8054614fdd386e8ccc3c1fb"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0084",
+      "sha256": "31297f6e2140ee46723734840dfcbafd576626410071088b034b39f3e2f99c5c",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0084.svg",
+          "sha256": "a30e8b3927db29da1e6ddcd93fe867188efc5aa8bca414c8f8c3d9e87a70c415"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0085",
+      "sha256": "7e7207cc815b75819b21d2f9a5cd55caf994015451e3188a93a537a28684bfbf",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0085.svg",
+          "sha256": "8d712fcf63fe9a9f04c4da0221ff2c819584d932fd475584444478c609734b8d"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0086",
+      "sha256": "2b9fa535db63e9b9f0cbb502f97538f28329d3d6ef4f51ee71c9f2a373e8c35c",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0086.svg",
+          "sha256": "87a74b758b6fc9db17bce9b578cbb84cc409787cc1e10032700c49b940dee47d"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0087",
+      "sha256": "63a612b8c86b38f7fe5ec0525266273bbefd9a2082e1447c5ca50692c38074a8",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0087.svg",
+          "sha256": "f20275af1df273cd700b490f6605da9058d1104f8ac0d244c5b892d046062d39"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0088",
+      "sha256": "058ac46c0308bfaa0bbbf0d5aedea6c6417465c6b287e2ccecf09e3cfa758361",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0088.svg",
+          "sha256": "ecc1854393d83deea453d6590ebaa2e82e9b085ee81e3442f6aff6fa0969e27f"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0089",
+      "sha256": "0f04422a26a2900c3d97de46affb2a377f12851c81dabeb104b2db732f834ca5",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0089.svg",
+          "sha256": "f430109eea0f61f69173266df59ee1a090d5da5b96e8ad1dcada5a6baca113fa"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0090",
+      "sha256": "bee73ca83a93eec433a72ac1c5b9e091123e5820e7855d9426878d407b9c6133",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0090.svg",
+          "sha256": "7b300c5b5458e1755e30b2e032b4edd2b59b4147fdcb7cd3dc2e9c970f7ef77a"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0091",
+      "sha256": "3246cece97707fefc5523705233add236ce2fb59118af2b85a8f7d926d638c5e",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0091.svg",
+          "sha256": "800a3e66a7cb5daa183f52447ea5a411ff7222531a9758894e34a675cac734b2"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0092",
+      "sha256": "a546dd6235f7494efdb4a34954a56017d213d5522045baf9f15590aef1894d67",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0092.svg",
+          "sha256": "3a62d0777e588c880e2c11a3e5b0f3f0b6a22eb30d1c38c4eadfef18e14827e6"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0093",
+      "sha256": "6ca9af4bf35afcf6c757e2382479bf86b11f4c145aa4966bf0649014e02e1c23",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0093.svg",
+          "sha256": "8e41d48dad54cb5db91448825eefbda58ac054f3ddcbbcaaa2a93ad6c994bbc7"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0094",
+      "sha256": "6f05eaca7102393e5a1fe8b7f191d26b59362f79e94ce35bda04171526108b24",
+      "answer": 4,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0094.svg",
+          "sha256": "34f59166ccfe6579ee6ab3f1c8ad12624c3caed0444c89ae53c8ccacfcc6bd31"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0095",
+      "sha256": "12f00fbd569ef0d9e3e20af0d9940dee0f1bfbf15ab264a7770612ca290162e9",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0095.svg",
+          "sha256": "ef67ce90bbab818e633b96a5dc8e5fdb1d62bc8ed818cae5383d5098a7fd9498"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0096",
+      "sha256": "99fc9615c8029d6053879c8c3b91ee0e82ef189fcfd26f042f3f3d421e408fb9",
+      "answer": 1,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0096.svg",
+          "sha256": "2c70b49f572bb7033706eaddfdeb39649a3b0ce086cdd3d426552f2b5289417e"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0097",
+      "sha256": "ddf383e633b9370400cfc680de1d18ed1b7615740fe3f03d9b177054c015fe2d",
+      "answer": 2,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0097.svg",
+          "sha256": "0ee511af8aeae8c2f4dfe7743bedf1bf83f1200e16f97cfa373f0e891c4e4f51"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0098",
+      "sha256": "84ba2412cbd3ae29df46449cab6228b18e2968f616953cbcfc613904c6b1db3d",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0098.svg",
+          "sha256": "42482056753da255f3780f35782a7e1af3d9843210c68f9ec0d8ac7da5226e03"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0099",
+      "sha256": "5cf6fe1919f0b707a3ec092cb27452a440523461fc466b01a5f9b5087aa9b33f",
+      "answer": 3,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0099.svg",
+          "sha256": "c6ce42cdd384241895f279ac49afaa7a4f4221991da3478ba284a4c2e6e6ac31"
+        }
+      ]
+    },
+    {
+      "id": "TP26-E2L2-ESP-0100",
+      "sha256": "83a5608ceebe98ee470312809f81cb4bb5a743a9c86c515f20710e15b80d9c12",
+      "answer": 0,
+      "figuras": [
+        {
+          "src": "assets/transpetro/etapa2-lote2/figura-0100.svg",
+          "sha256": "4d144fc2c96edd57f8b5561676db8de251b0b1816cb640496478cc0b0e6374b7"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "TF/IDF é triagem lexical, não prova de originalidade semântica.",
+    "Fontes externas403; proposições normativas limitadas ao corpus local."
+  ]
+}

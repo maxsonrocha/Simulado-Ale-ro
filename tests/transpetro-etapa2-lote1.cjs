@@ -5,8 +5,8 @@ test('auditoria820: 100novas, 45figuras, 71resoluções, 76950pares e preservaç
  const reviewed=read('docs/transpetro-etapa2-lote1-auditoria.json');assert.deepEqual(audit,reviewed);
  const qs=read('data/transpetro/etapa2/lote1.json');for(const q of qs){const item=reviewed.items.find(x=>x.id===q.id);assert.equal(item.sha256,digest(q));}
 });
-test('820 carregados uma única vez em FULL/ESP/ERRADAS; sem formato VISUAIS',async()=>{
- const r=createRuntime();for(const type of ['FULL','ESP','ERRADAS']){select(r,'TRANSPETRO','ENG_SEG',type);await r.loadQuestionsBank();assert.equal(r.App.questionsBank.length,820);assert.equal(new Set(r.App.questionsBank.map(q=>q.id)).size,820);assert.equal(r.App.questionsBank.filter(q=>q.piloto_visual).length,20);}
+test('920 carregados uma única vez em FULL/ESP/ERRADAS; sem formato VISUAIS',async()=>{
+ const r=createRuntime();for(const type of ['FULL','ESP','ERRADAS']){select(r,'TRANSPETRO','ENG_SEG',type);await r.loadQuestionsBank();assert.equal(r.App.questionsBank.length,920);assert.equal(new Set(r.App.questionsBank.map(q=>q.id)).size,920);assert.equal(r.App.questionsBank.filter(q=>q.piloto_visual).length,20);}
  assert(!r.CONCURSOS.TRANSPETRO.formatos.VISUAIS);select(r,'TRANSPETRO','ENG_SEG','VISUAIS');assert.throws(()=>r.generateExam(),/Tipo de simulado inválido/);
 });
 test('dez completas inéditas em dez sementes; matriz e grupos preservados; pilotos/newESP sorteáveis',async()=>{

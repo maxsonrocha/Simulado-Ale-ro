@@ -63,7 +63,8 @@ junto dos bancos regulares em FULL, ESP e ERRADAS. IDs `TP26-VIS-ESP-0001` a
 na questão continua disponível; não há formato separado para iniciá-las.
 
 O lote novo está em `data/transpetro/etapa2/lote1.json`: 100 ESP, das quais
-45 têm imagens. O banco total passa a 820: 100 PORT, 100 ING e 620 ESP.
+45 têm imagens. O lote2 acrescenta100ESP em `data/transpetro/etapa2/lote2.json`,45 com imagens.
+O banco atual tem920:100PORT,100ING e720ESP, com110 recursos visuais.
 A completa continua 10/10/50 e o específico 50; duração continua 270 minutos.
 Os resultados antigos com `type: "VISUAIS"` não são reescritos. O caderno encontra
 os mesmos IDs antigos no carregamento regular. Não há migração destrutiva,
@@ -71,7 +72,7 @@ renumeração ou cópia de questões entre arquivos.
 
 As fontes adicionais possuem `etapa: 2` na configuração do carregador. O validador
 histórico da Etapa 1 mantém seu snapshot estrito de 700; o auditor da Etapa 2
-valida o banco regular completo de 820. Não se alteraram quotas históricas para
+valida seu snapshot de820. O auditor do lote2 valida o banco regular atual920. Não se alteraram quotas históricas para
 ocultar uma contagem incorreta. Ver o [relatório da integração](transpetro-etapa2-lote1-relatorio.md).
 
 ## Manutenção e verificações

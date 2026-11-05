@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "TP26-E2L2-ESP-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_tipos_de_certificado",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma instituição emite certificado de participação de um empregado em treinamento sobre EPI. O fornecedor usa esse documento como se fosse o CA dos produtos entregues. Qual distinção decorre da ficha NR-06?",
+    "options": [
+      "A conclusão de treinamento elimina a necessidade de identificar o produto entregue.",
+      "O CA identifica apenas a pessoa treinada, nunca o produto.",
+      "O certificado do usuário não substitui o CA do produto.",
+      "Uma instituição de treinamento assume automaticamente a competência de emitir CA nacional.",
+      "Todo certificado que contém a sigla EPI se torna CA de qualquer produto."
+    ],
+    "answer": 2,
+    "explanation": "A ficha define CA para o produto e sua emissão pelo órgão nacional competente em SST do MTE. Um documento sobre participação de uma pessoa comprova outro objeto; não se cobra prazo ou regra não registrada.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pcmso_cobertura_tarefa_eventual",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um PGR classifica riscos de atividade eventual exercida por empregados do mesmo estabelecimento. A equipe do PCMSO exclui esses riscos apenas porque a tarefa não é diária. Qual informação deve orientar a revisão, sem inventar exame ou periodicidade?",
+    "options": [
+      "Os riscos classificados no PGR, também os da tarefa eventual.",
+      "Somente a frequência diária, que exclui automaticamente qualquer atividade eventual.",
+      "O nome contratual do cargo, independentemente da tarefa exercida.",
+      "A quantidade de páginas do programa como substituta do perfil de risco.",
+      "A ausência de afastamento como prova de inexistência de risco classificado."
+    ],
+    "answer": 0,
+    "explanation": "A NR-07, no corpus, vincula elaboração do PCMSO aos riscos classificados pelo PGR. A ficha não autoriza a exclusão categórica pelo caráter eventual nem especifica exames para esse caso.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr13_triagem_e_exclusoes",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um cadastro distingue equipamento candidato ao escopo de NR-13 e equipamento efetivamente sujeito a cada exigência específica. Um auditor quer concluir todas as obrigações apenas porque o item é chamado tanque metálico. Qual prudência é adequada?",
+    "options": [
+      "Inferir periodicidade de inspeção a partir do nome tanque.",
+      "Excluir tanques da triagem porque não produzem vapor.",
+      "Tratar a triagem como comprovação de todas as obrigações e exceções.",
+      "Aplicar a qualquer tanque as mesmas exigências de qualquer caldeira.",
+      "Fazer triagem por tipo e conferir o enquadramento específico."
+    ],
+    "answer": 4,
+    "explanation": "A ficha NR-13 registra tipos no escopo, não todos os detalhes de abrangência e exigências. Reconhecer um candidato não permite inventar categoria, prazo ou exceção.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nho07_objeto_calibracao",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma equipe registra calibração da bomba de amostragem pelo método da bolha de sabão, associada à NHO07 na ficha Fundacentro. Em seguida declara que isso comprova também a calibração da resposta química de um detector independente. Qual avaliação distingue os objetos?",
+    "options": [
+      "A calibração da bomba comprova ausência de contaminante em qualquer ambiente.",
+      "A mesma palavra calibração torna os objetos automaticamente equivalentes.",
+      "A ficha determina que todo detector tenha necessariamente a mesma resposta da bomba.",
+      "Foi calibrada a bomba; a resposta do detector não está comprovada.",
+      "A NHO07 trata exclusivamente de análise clínica do trabalhador."
+    ],
+    "answer": 3,
+    "explanation": "A ficha associa NHO07 à calibração de bombas pelo método citado. Vazão de amostragem e resposta do detector são partes distintas da cadeia; evidência sobre uma não demonstra a outra.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pgr_acao_duplicada_indicador",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma ação do plano atende três riscos do inventário. O painel registra três ações concluídas ao contar os vínculos, enquanto a execução real foi uma. Qual correção mantém o papel preventivo do plano e a unidade de contagem?",
+    "options": [
+      "Uma ação, três vínculos; contar ações e cobertura separadamente.",
+      "Duplicar a execução documental e tratar cada cópia como trabalho adicional.",
+      "Converter os três riscos em um só sem reavaliá-los.",
+      "Retirar os vínculos porque uma ação nunca pode atender mais de um risco.",
+      "Apagar dois riscos para tornar o painel coerente com uma ação."
+    ],
+    "answer": 0,
+    "explanation": "A ficha NR-01 atribui funções a inventário e plano. O modelo do caso admite uma medida com efeitos múltiplos; rastreabilidade não exige confundir entidades. A correção de indicador não altera a avaliação por conveniência.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_ca_substituicao_componentes",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma seleção consultou usuários para um conjunto A. Depois o fornecedor entrega conjunto B com componentes diferentes e documento que identifica apenas A. A equipe usa a aprovação da seleção anterior como prova suficiente para B. Qual verificação foi indevidamente suprimida?",
+    "options": [
+      "A participação do SESMT elimina a necessidade de identificar o produto.",
+      "Apenas a data de chegada, que garante identidade do produto.",
+      "A correspondência do produto entregue com o documento e a seleção.",
+      "A consulta anterior transforma qualquer substituto em produto documentalmente coberto.",
+      "Somente a cor da embalagem, que determina o CA."
+    ],
+    "answer": 2,
+    "explanation": "NR-06 registra CA para o produto e seleção pela organização. Parecer sobre A não prova cobertura de B. O caso exige verificar a correspondência, sem inferir regras de alteração de CA ausentes da ficha.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pcmso_mudanca_sem_exame_inventado",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma revisão de riscos reclassifica exposição, mas não muda a tarefa. O médico recebe apenas uma lista de exames sugerida pelo fornecedor, sem a avaliação atual. Qual encaminhamento preserva a finalidade de usar o PGR no PCMSO?",
+    "options": [
+      "Comprar o pacote como prova automática de correspondência com qualquer PGR.",
+      "Substituir o responsável médico pelo vendedor do pacote.",
+      "Retirar a reclassificação do PGR para que coincida com a proposta comercial.",
+      "Manter o programa anterior necessariamente intacto porque o nome da tarefa não mudou.",
+      "Fornecer o PGR atualizado para a revisão médica fundamentada."
+    ],
+    "answer": 4,
+    "explanation": "A ligação NR-07/PGR é sobre riscos identificados e classificados, não nome da tarefa ou catálogo comercial. Revisão fundamentada não implica criar aqui um exame ou frequência obrigatórios.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "ergonomia_reducao_local_transferencia",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma solução reduz alcance dos braços, mas obriga girar o tronco a cada peça para ler a confirmação. A avaliação considera apenas a melhoria de alcance e declara adaptação integral. Qual revisão corresponde ao objetivo da NR-17?",
+    "options": [
+      "Aceitar adaptação integral porque qualquer melhora local domina todas as demais exigências.",
+      "Excluir aspectos cognitivos por existir alteração física no posto.",
+      "Avaliar juntas as exigências novas e as anteriores.",
+      "Tratar rotação repetida como consequência irrelevante por ser posterior à mudança.",
+      "Avaliar só a velocidade de produção, independentemente da atividade."
+    ],
+    "answer": 2,
+    "explanation": "A ficha contempla adaptação às características psicofisiológicas e organização do trabalho. Avaliar uma variável isolada não demonstra melhora global; não se atribui limite angular normativo.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "interfaces_const_naval_porto",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um contrato possui três frentes distintas: construção civil em terra, reparação de casco em estaleiro e operação portuária. O nome comercial do contrato é manutenção integrada. Qual matriz de fontes é uma triagem coerente?",
+    "options": [
+      "NR-30 para as três frentes apenas por haver embarcação no contrato.",
+      "Somente NR-29 porque o porto é o destino final do serviço.",
+      "NR-18, NR-34 e NR-29, respectivamente.",
+      "NR-37 para todas por serem atividades relacionadas a energia.",
+      "Somente NR-18 porque o contrato começou em terra."
+    ],
+    "answer": 2,
+    "explanation": "As fichas complementares distinguem campos setoriais. O rótulo comercial não unifica automaticamente atividades diferentes nem elimina normas gerais. Trata-se de triagem, não aplicação de requisito específico não conferido.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "capacitacao_nr20_modalidade_e_prova",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um fornecedor apresenta dois certificados com igual carga declarada. Um identifica atividades demonstradas; outro registra só acesso à plataforma. A proposta diz que admissibilidade de EaD na NR-20 torna as evidências equivalentes. Qual conclusão respeita o limite da ficha?",
+    "options": [
+      "A modalidade autoriza automaticamente qualquer conteúdo e avaliação.",
+      "Registrar acesso demonstra por si qualquer atividade prática.",
+      "A ficha proíbe toda modalidade EaD, tornando os dois documentos necessariamente inválidos.",
+      "Modalidade admitida não prova equivalência de execução.",
+      "Igual carga declarada comprova toda equivalência de atividades."
+    ],
+    "answer": 3,
+    "explanation": "A ficha admite modalidades sob condições, sem liberar genericamente toda capacitação remota. Forma de oferta, conteúdo e evidência de conclusão são objetos diferentes; não se inventa aqui carga ou exigência prática específica.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "cipa_sesmt_contribuicao_medida",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "A CIPA aponta problema de tarefa; o SESMT apresenta análise técnica; a organização precisa selecionar EPI com participação prevista. O fluxo eletrônico aceita anexar somente um parecer e conclui que os outros participantes se tornam desnecessários. Qual falha é identificável?",
+    "options": [
+      "O relato da CIPA substitui automaticamente a decisão da organização.",
+      "Uma limitação do sistema de registro não redefine os participantes previstos na seleção.",
+      "A existência de um campo eletrônico transfere todas as responsabilidades ao autor do anexo.",
+      "O parecer do SESMT torna necessariamente dispensável ouvir usuários.",
+      "A ausência de campo elimina a possibilidade de registrar contribuições por outra forma."
+    ],
+    "answer": 1,
+    "explanation": "NR-06 descreve participantes; o formulário não é fonte capaz de revogar essa relação. Deve-se viabilizar registro e consideração das contribuições sem atribuir ao software poder normativo.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "nr09_agente_biologico_e_informacao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um cadastro de exposições aceita apenas campos numéricos de concentração. A equipe identificou possibilidade de contato com agente biológico, mas o sistema elimina esse registro por não haver número para preencher. O gestor usa o título da NR-09 para justificar a eliminação. Qual análise é sustentada pela ficha disponível?",
+    "options": [
+      "A identificação do contato já determina automaticamente um enquadramento de insalubridade.",
+      "Todo campo vazio prova concentração zero e ausência de contato.",
+      "O cadastro numérico não exclui o agente biológico do escopo.",
+      "O título da norma comprova que qualquer avaliação precisa do mesmo instrumento quantitativo.",
+      "Agentes biológicos ficam fora da NR-09 por não serem gases."
+    ],
+    "answer": 2,
+    "explanation": "A ficha registra avaliação e controle de exposições físicas, químicas e biológicas. Não autoriza restringir o universo ao tipo de dado aceito por um software, nem define aqui método, concentração ou enquadramento legal para o caso.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_COMPLEMENTAR.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "esocial_registro_retificacao_identidade",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um sistema vincula cada ocorrência ao trabalhador e à natureza do fato. Há duas ocorrências distintas, mas o cadastro usa o mesmo código interno e funde seus documentos de acidente e afastamento. Qual preparação é necessária antes de decidir eventos e eventual correção?",
+    "options": [
+      "Transformar toda documentação em S-2240 por haver informação de ambiente.",
+      "Considerar que compartilhar código prova ser uma única ocorrência.",
+      "Reconstruir os fatos e distinguir suas identidades e naturezas.",
+      "Escolher um único evento pelo primeiro arquivo recebido, sem examinar os fatos.",
+      "Excluir todo S-2230 do universo do edital para resolver a colisão de códigos."
+    ],
+    "answer": 2,
+    "explanation": "O corpus distingue finalidades de S-2210/2220/2230/2240. Duplicidade de código não muda fatos; primeiro é preciso reconstruí-los. Não se cobra procedimento de retificação, campo ou prazo sem texto oficial.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "autorizacao_reserva_robusta",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Três atividades em altura A,B,C ocorrem simultaneamente, uma pessoa por atividade. P está formalmente autorizado só para A; Q para A/B; R para B/C. Um quarto trabalhador S já tem capacitação e aptidão verificadas para as três, mas falta formalizar a autorização. Exige-se manter cobertura se qualquer um entre P,Q,R faltar. Qual menor ampliação do conjunto de atividades autorizadas para S atende aos três cenários?",
+    "options": [
+      "Autorizar S apenas para B.",
+      "Autorizar S para A eC, sendo duas atividades o mínimo necessário.",
+      "Nenhuma autorização nova, usando capacitação como substituta automática.",
+      "Autorizar S apenas para A.",
+      "Autorizar S para C."
+    ],
+    "answer": 4,
+    "explanation": "SemR, sóR cobriaC, portanto S precisaC. ComSC: faltaP→QA,RB,SC; faltaQ→PA,RB,SC; faltaR→PA,QB,SC. Assim uma atividade basta. A ficha NR-35 distingue autorização, capacitação e aptidão; disponibilidade e simultaneidade são restrições internas.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pgr_pcmso_premissas_evidencia_condicional",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um inventário classifica risco X sob condição C. O plano prevê medida M para C; o PCMSO considera X. Uma mudança elimina C, mas cria D com risco ainda não avaliado. O sistema propõe apagar X, M e todo acompanhamento associado antes de avaliar D. Qual sequência é justificada?",
+    "options": [
+      "Apagar os três registros porque a mudança física torna qualquer risco desconhecido automaticamente nulo.",
+      "Encerrar o PCMSO porque o inventário sofreu revisão.",
+      "Reavaliar a mudança e seus reflexos no plano e no PCMSO.",
+      "Trocar apenas a letra X por D nos três documentos e declarar avaliação concluída.",
+      "Manter necessariamente todos os registros para sempre, sem reavaliar mudança alguma."
+    ],
+    "answer": 2,
+    "explanation": "A mudança altera a premissa de uma avaliação, não produz automaticamente uma avaliação da nova configuração. NR-01 relaciona inventário e prevenção; NR-07 depende dos riscos classificados. Reexaminar permite manter, mudar ou encerrar medidas com fundamento, sem decidir antecipadamente.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "epi_compatibilidade_protecao_participacao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma decisão de EPI tem requisitos internos: atender conjuntamente perigos A e B e não impedir comando crítico. X protege A/B, mas impede o comando; Y permite o comando, mas cobre apenas A; Z é proposto com proteção A/B e comando acessível, ainda sem ensaio com usuários. O CA do produto está identificado. Qual decisão é defensável?",
+    "options": [
+      "Declarar Z definitivamente adequado somente pela descrição da proposta.",
+      "Verificar Z na tarefa, com as participações cabíveis.",
+      "Escolher X porque proteção de dois perigos elimina a importância do comando.",
+      "Delegar integralmente aos usuários a obrigação da organização de selecionar.",
+      "Escolher Y porque facilidade de operação substitui proteção contra B."
+    ],
+    "answer": 1,
+    "explanation": "Há três condições conjuntas; X e Y falham em uma delas. Z é candidato, não conclusão. NR-06 fornece participação e responsabilidade; os critérios específicos do caso são explicitamente internos, não supostos itens normativos.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "pt_identidade_equipe_e_prova",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "No cenário, duração/turno da PT e demais requisitos são atendidos, e a ausência de mudança operacional está comprovada. Falta saber se a equipe executante permaneceu igual. Registro X identifica quem assinou a revalidação; Y permite comparar nomes previstos na PT com a equipe real. Qual consulta responde à premissa faltante e qual conclusão é indevida enquanto ela não for verificada?",
+    "options": [
+      "Y; a assinatura em X não demonstra por si permanência da equipe.",
+      "X; a identidade do responsável prova automaticamente a identidade de todos os executantes.",
+      "Y; qualquer ausência de informação prova necessariamente que a equipe mudou.",
+      "Nenhuma; o turno válido torna irrelevante a equipe na condição registrada.",
+      "X; o responsável e a equipe executante são necessariamente a mesma entidade."
+    ],
+    "answer": 0,
+    "explanation": "A ficha NR-35 condiciona a possibilidade de revalidação à ausência das mudanças registradas. Um documento sobre o responsável não demonstra identidade dos executantes. Y trata diretamente da premissa; desconhecido não é prova de mudança nem de ausência dela. Os registros X/Y são do cenário, não campos legais inventados.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "programa_integrado_evidencias_nao_fungiveis",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um pacote tem: certificado de EPI identificado, inventário de riscos, plano de ação e contrato de execução de exames. A análise declara demonstradas três coisas: adequação do EPI à tarefa, eficácia das medidas e efetiva implantação do PCMSO. Qual avaliação distingue corretamente documento de evidência do predicado?",
+    "options": [
+      "O CA do EPI comprova eficácia de toda medida coletiva do plano.",
+      "Os quatro arquivos demonstram automaticamente as três proposições, independentemente do conteúdo e execução.",
+      "Pertinência documental não comprova as três condições físicas.",
+      "O inventário demonstra execução e resultado de qualquer exame previsto.",
+      "O contrato de exames substitui o inventário e o plano em qualquer organização."
+    ],
+    "answer": 2,
+    "explanation": "NR-06, NR-01 e NR-07 tratam objetos distintos. Identificação de produto, planejamento e contratação não equivalem necessariamente a adequação, resultado e efetiva execução; é preciso evidência correspondente a cada proposição.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "custeio_robusto_volume_incertos",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "O número de empregados N varia de 80 a 120. Propostas de mesma cobertura do PCMSO: A, paga pela organização, custa 4000+50 N; B, paga pela organização, custa 8000+10 min(N,100)+25 max(N−100,0); C custa 6000+20 N à organização e 5 N aos empregados. Orçamento interno 9500. Qual atende ao custeio registrado na NR-07 e ao orçamento para todo N do intervalo?",
+    "options": [
+      "C, com máximo 8400 à organização, ignorando a parcela dos empregados.",
+      "B, com custo máximo 9500.",
+      "A, com máximo 8000.",
+      "B, com máximo 9200, aplicando 10 a todo N.",
+      "A eC, ambas por terem custo mínimo inferior ao orçamento."
+    ],
+    "answer": 1,
+    "explanation": "O empregador custeia sem ônus ao empregado; C é excluída. As funções de A/B são crescentes. EmN120,A10000 supera orçamento; B8000+1000+500=9500 atende inclusive no pior volume. Avaliar só preço inicial ou estender tarifa marginal fora da faixa altera a decisão.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "legislacao_nr",
+    "subassunto": "dispensa_e_identidade_da_organizacao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma empresa E, enquadrada como ME/EPP, contrata o prestador F, que é MEI. A consultoria usa a dispensa de elaboração de PGR registrada para o MEI F como prova automática de dispensa de E. Qual conclusão evita transferir uma hipótese entre sujeitos diferentes?",
+    "options": [
+      "O contrato transfere automaticamente a identidade empresarial de F para E.",
+      "A ficha prova que nenhuma ME/EPP pode ter hipótese de dispensa.",
+      "A dispensa de qualquer contratado elimina o PGR de todos os contratantes.",
+      "MEI e ME/EPP são categorias sempre intercambiáveis em qualquer requisito.",
+      "A hipótese de E precisa de evidência própria; a de F não basta."
+    ],
+    "answer": 4,
+    "explanation": "O corpus registra dispensa do MEI e hipótese condicionada para ME/EPP. O caso não fornece demonstração das condições de E; o status de F não a substitui. Não se inventa responsabilidade contratual específica ou nova exceção.",
+    "fontes": [
+      "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+    ],
+    "referencia": "references/transpetro/corpus/CORPUS_NORMATIVO_LOCAL.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0021",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "elasticidade_e_unidades",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um indicador R=ab² usa a e b positivos. Aumenta-se b em 10%, mantendo a. Qual variação exata de R, distinguindo-a da aproximação linear de 20%?",
+    "options": [
+      "20% exatos.",
+      "21%.",
+      "110%.",
+      "2,1%.",
+      "10%."
+    ],
+    "answer": 1,
+    "explanation": "A razão é1,1²=1,21, aumento 21%. O termo quadrático de 1% explica a diferença para a aproximação linear. Não é uma escala normativa de risco.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0022",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "credito_sobreposto_portfolio",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Dois projetos evitam conjuntos de perdas anuais: A evita 30 unidades, B evita 25; 15 dessas unidades são evitadas por ambos. Na combinação, cada perda evitada só pode ser contada uma vez. Qual benefício conjunto e qual incremento de B depois de A?",
+    "options": [
+      "40 e 10 unidades.",
+      "25 e 10 unidades.",
+      "55 e 25 unidades.",
+      "40 e 25 unidades.",
+      "70 e 40 unidades."
+    ],
+    "answer": 0,
+    "explanation": "União30+25−15=40. Incremento deB sobreA=25−15=10; somar benefícios isolados credita duas vezes a parcela compartilhada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0023",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "taxas_e_escala_de_decisao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma taxa interna é expressa por mil operações; outra por milhão. A unidade X tem 0,4 por mil e Y tem 300 por milhão. Com definições e condições comparáveis, qual comparação é válida?",
+    "options": [
+      "X tem 0,4 por milhão, portanto menor.",
+      "Não é possível converter taxas entre escalas conhecidas.",
+      "Y tem 300 por mil, portanto mil vezes maior.",
+      "X tem 400 por milhão, portanto taxa maior que Y.",
+      "As taxas são iguais porque ambas são menores que seus denominadores."
+    ],
+    "answer": 3,
+    "explanation": "0,4/1000 ×1.000.000=400. Escala numérica precisa ser harmonizada antes da comparação; isso não resolve diferenças de definição, explicitamente controladas no cenário.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0024",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "probabilidade_previsao_calibracao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo atribui probabilidade 0,8 a cem situações comparáveis, antes de conhecer os desfechos. Só40 eventos ocorrem. Sem reclassificar previsões depois do resultado, qual aspecto deve ser examinado?",
+    "options": [
+      "Causalidade, pois a probabilidade atribuída provocou os eventos.",
+      "Calibração das probabilidades atribuídas a esse grupo.",
+      "Prova de que cada evento individual tinha probabilidade exatamente 0,4.",
+      "Acurácia perfeita, porque o valor 0,8 é alto.",
+      "Necessariamente discriminação entre grupos, já provada por um único grupo."
+    ],
+    "answer": 1,
+    "explanation": "Calibração compara probabilidades previstas e frequências em grupos. Não determina a probabilidade individual verdadeira nem avalia toda discriminação apenas com esse grupo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0025",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "vazamento_temporal_validacao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um algoritmo para prever falhas no início do turno usa como variável o código do reparo emitido depois da falha. O teste retrospectivo é excelente. Qual avaliação é necessária antes do uso operacional?",
+    "options": [
+      "Refazer a validação só com informação disponível ao prever.",
+      "Avaliar apenas os casos já reparados como representação de todos os turnos.",
+      "Manter a variável porque qualquer código ligado à falha é causalmente anterior.",
+      "Renomear o código para torná-lo disponível no início do turno.",
+      "Considerar a precisão retrospectiva prova suficiente de disponibilidade futura."
+    ],
+    "answer": 0,
+    "explanation": "O teste recebeu informação do futuro do alvo. A validação precisa respeitar o conjunto de informações disponível no momento de prever; caso contrário mede vazamento de informação, não capacidade utilizável.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0026",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "media_da_cauda_com_fronteira",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma distribuição de perda tem 0 com 90%,20 com 8% e 100 com 2%. Defina média dos piores 5% como a média ponderada do topo de 5% da probabilidade, fracionando a massa no ponto de corte. Qual valor e por que não usar só o máximo?",
+    "options": [
+      "20; a perda no ponto de corte é toda a média da cauda.",
+      "100; todos os piores 5% têm o máximo.",
+      "36; entram integralmente os 8% de perda 20.",
+      "52; entram 2% com perda 100 e 3% com perda 20.",
+      "3,6; a média da população já é a média da cauda."
+    ],
+    "answer": 3,
+    "explanation": "Topo5%=2% a 100 +3% a 20. Soma ponderada 2+0,6=2,6, dividida por 0,05 dá 52. A média geral é3,6, e o máximo não representa toda a cauda.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0027",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "tempo_medio_ate_absorcao",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo tem estados G,D,F, sendo F absorvente. Por ciclo: G→G0,8 eD0,2; D→G0,5,D0,25,F0,25. Use EG=1+0,8 EG+0,2 ED e ED=1+0,5 EG+0,25 ED. Partindo deG, qual número médio de ciclos atéF?",
+    "options": [
+      "5.",
+      "14.",
+      "10.",
+      "4.",
+      "19."
+    ],
+    "answer": 4,
+    "explanation": "A primeira equação dáEG−ED=5. A segunda dá 0,75 ED−0,5 EG=1. Substituindo EG=ED+5: 0,25 ED=3,5, ED14 eEG19. ED não é a resposta do estado inicialG.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0028",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "limites_duas_falhas_dependencia",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Três eventos têm probabilidades marginais 0,2 cada, sem informação de dependência. Seja T a ocorrência de pelo menos dois. Use E(número de eventos)=0,6. Qual intervalo de P(T) é atingível, sem supor independência?",
+    "options": [
+      "De0,2 a 1.",
+      "De0 a 0,3.",
+      "Exatamente0,104.",
+      "De0 a 0,6, sendo 0,6 atingível.",
+      "Exatamente0,008."
+    ],
+    "answer": 1,
+    "explanation": "Como ao menos dois contam emT,2 P(T)≤0,6. Máximo0,3 é atingido por cada um dos três pares exclusivos com 0,1 e nenhum com 0,7. Mínimo0 é atingido por eventos isolados exclusivos com 0,2 cada.0,104 seria a hipótese independente, não fornecida.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0029",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "desvio_absoluto_mediano",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Cinco leituras em unidades internas são 3,4,4,5,9. Defina MAD como a mediana das distâncias absolutas de cada leitura à mediana das leituras. Qual MAD?",
+    "options": [
+      "5.",
+      "4.",
+      "2.",
+      "1.",
+      "0."
+    ],
+    "answer": 3,
+    "explanation": "Mediana4; distâncias 1,0,0,1,5; ordenadas 0,0,1,1,5, mediana 1. Não é a amplitude total nem o desvio do maior valor.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0030",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "combinacao_com_covariancia",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Dois resultados não enviesados da mesma grandeza são A10 eB12, variâncias vA1 e vB9 e covariância c2. Use peso ótimo wA=(vB−c)/(vA+vB−2 c), wB=1−wA; estimativa=wAA+wBB; variância=(vAvB−c²)/(vA+vB−2 c). Qual resultado e interpretação do peso deB?",
+    "options": [
+      "11,8 e 8,2; pesa-se mais a maior variância.",
+      "10,2 e0,9; basta ignorar covariância.",
+      "29/3 e 5/6; peso de B negativo e admissível no modelo.",
+      "11 e 5; média simples é sempre ótima.",
+      "29/3 e 5/6; peso negativo prova automaticamente erro algébrico."
+    ],
+    "answer": 2,
+    "explanation": "Denominador6; pesos 7/6 e−1/6, estimativa(70−12)/6=29/3. Variância(9−4)/6=5/6. A matriz é admissível: determinante 5 positivo. Correlação e precisões distintas podem produzir peso negativo sem viés, sob as premissas.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0031",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "volume_seco_fracao_vapor",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma amostra gasosa tem volume úmido 100 L nas mesmas temperatura e pressão de referência. Fração molar de vapor dágua 0,10. Pelo modelo de mistura ideal, qual volume equivalente seco e concentração de 30 mg referida a esse volume?",
+    "options": [
+      "100 L e 300 mg/m³.",
+      "90 L e 3,33 mg/m³.",
+      "110 L e 272,7 mg/m³.",
+      "10 L e 3.000 mg/m³.",
+      "90 L; aproximadamente 333,3 mg/m³."
+    ],
+    "answer": 4,
+    "explanation": "Volume seco 100 ×0,9=90 L=0,09 m³.30/0,09≈333,3. A correção usa a fração de vapor fornecida; não se atribui a um método legal específico.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0032",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "censura_media_e_excedencia",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Quatro resultados não negativos são 5,7, um abaixo de 4 e outro abaixo de 2. Valores abaixo são intervalos, não zeros. Critério interno de excedência é valor estritamente maior que 4. Qual faixa possível da média e qual fração de resultados excede 4?",
+    "options": [
+      "Média em[3; 4,5); excedência de 50%.",
+      "Média exatamente 3; 25% excedem 4.",
+      "Média de 0 a 7; não se identifica qualquer excedência.",
+      "Média exatamente 4,5; 100% excedem 4.",
+      "Média de 3 a 4,5; 75% excedem 4 necessariamente."
+    ],
+    "answer": 0,
+    "explanation": "A soma conhecida 12 pode receber entre 0 e menos de 6, média[3; 4,5). Os dois conhecidos excedem 4; os censurados não, pois um é<4 e outro<2. A informação sobre excedência é mais precisa que sobre a média.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0033",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "exposicao_integrada_dois_modos",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo sem nova emissão fornece C1(t)=6 e^(−t)+2 e^(−3 t) e C2(t)=6 e^(−t)−2 e^(−3 t), t≥0. Para a integral até infinito, use integral de e^(−kt)=1/k. Que fração da soma das exposições integradas pertence aC1?",
+    "options": [
+      "5/8.",
+      "8/9.",
+      "1/2.",
+      "2/3.",
+      "5/9."
+    ],
+    "answer": 4,
+    "explanation": "Integrais I1=6+2/3=20/3 eI2=6−2/3=16/3. Soma12; fração(20/3)/12=5/9. A proporção instantânea emt 0 não é a proporção integrada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0034",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "radiacao_emissao_temperatura_absoluta",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "No modelo P=kT⁴, comk constante e temperatura absoluta, uma superfície passa de 300 para 600 K. Qual razão de potências emitidas, sem afirmar a mesma razão para o aquecimento líquido de outro objeto?",
+    "options": [
+      "2.",
+      "8.",
+      "16.",
+      "1.",
+      "4."
+    ],
+    "answer": 2,
+    "explanation": "(600/300)^4=16. Transferência líquida também depende do entorno e da geometria; a relação é de emissão no modelo fornecido.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0035",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "escoamento_com_limite_sonico",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo de descarga gasosa fornece vazão de 10 unidades quando pressão a jusante≤4 e vazão=18−2 p quando 4<p<9. A pressão a jusante cai de 4 para 2, com demais condições fixas. Qual conclusão é sustentada?",
+    "options": [
+      "A vazão zera porque a descarga perde diferença de pressão.",
+      "A vazão fica negativa porque todo gás é incompressível.",
+      "A vazão permanece 10 no trecho de limitação do modelo.",
+      "A vazão passa de 10 para 14, prolongando a reta além de seu domínio.",
+      "A vazão dobra porque a pressão caiu à metade."
+    ],
+    "answer": 2,
+    "explanation": "Ambos os pontos estão no ramo constante. Extrapolar o ramo 18−2 p para p2 viola sua definição. O modelo não fornece dimensionamento de descarga real ou condição segura de intervenção.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0036",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "energia_arco_tempo_inverso",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo didático usa tensão de arco constante 50 V e tempo de atuação t=400/I² segundos, I em ampères. Compare I10 A e 20 A, usando E=VIt. Quais energias, sem generalizar esse modelo para proteção real?",
+    "options": [
+      "2.000 J e 1.000 J.",
+      "500 J e 1.000 J.",
+      "200 J e 100 J.",
+      "2.000 J e 4.000 J.",
+      "1.000 J e 2.000 J."
+    ],
+    "answer": 0,
+    "explanation": "t10=4 s e t20=1 s. Energias50 ×10 ×4=2000 J e 50 ×20 ×1=1000 J. O aumento de corrente encurta mais o tempo nesta lei hipotética; isso não substitui estudo de arco.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0037",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "estabilidade_atrito_enfraquecente",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo linearizado de movimento é x¨+2 x˙+(k−a)x=0. O enfraquecimento do atrito tema 5. Compare k=8 e k=2. As raízes resolvem λ²+2λ+(k−a)=0. Qual classificação?",
+    "options": [
+      "k=8 tem decaimento oscilatório; k=2 tem modo crescente com raiz+1.",
+      "k=2 só oscila sem crescer, pois atrito não entra na rigidez efetiva.",
+      "k=8 é instável e k=2 estável porque menor rigidez sempre estabiliza.",
+      "Ambos crescem monotonicamente.",
+      "Ambos são estáveis porque o amortecimento 2 é positivo."
+    ],
+    "answer": 0,
+    "explanation": "k=8: λ²+2λ+3, raízes−1±i√2, parte real negativa. k=2: λ²+2λ−3=(λ−1)(λ+3), raiz positiva 1. Amortecimento positivo não corrige sozinho rigidez efetiva negativa.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0038",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "unidade_planejada_versus_presenca",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma capacitação interna tem objetivo de executar uma sequência sem omitir etapas. O indicador conta apenas presença na reunião. Qual evidência adicional se aproxima diretamente do objetivo?",
+    "options": [
+      "Declarar ausência de omissão a partir da lista de convidados.",
+      "Execução observada segundo o critério de desempenho.",
+      "Aumentar apenas a quantidade de assinaturas da mesma pessoa.",
+      "Substituir o objetivo por satisfação sem informar a mudança.",
+      "Tratar duração da reunião como prova de sequência executada corretamente."
+    ],
+    "answer": 1,
+    "explanation": "Presença mede participação, não demonstra o desempenho específico. Evidência deve corresponder ao objetivo, sem transformar uma observação em garantia de qualquer situação futura.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0039",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "protocolo_misto_e_decisao",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Duas versões de transmissor coexistem. VersãoA envia r=10 T; versãoB envia r=2 T+10, com T em°C. Chegam mensagens A: r400 e B: r110. O painel deve mostrar a média física das duas temperaturas e alarmar se qualquer uma for≥45°C. Qual saída correta, usando os metadados de versão?",
+    "options": [
+      "Média255°C; alarme por ambas, sem converter.",
+      "Média45°C; alarme ativo por B.",
+      "Média45°C; alarme inativo porque a média não supera 45.",
+      "Média50°C; alarme ativo por A.",
+      "Média25,5°C; alarme inativo, dividindo todos os valores por 10."
+    ],
+    "answer": 1,
+    "explanation": "A: 400/10=40°C. B: (110−10)/2=50°C. Média45; condição é qualquer valor≥45, então B dispara. Converter por versão e aplicar o quantificador do requisito são etapas distintas.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0040",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "multiplos_testes_alarme_familia",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um painel executa 20 testes independentes, cada um com probabilidade 0,05 de alarme falso. Use P(nenhum)=0,95²⁰≈0,3585. Qual probabilidade de ao menos um falso alarme e qual interpretação evita confusão?",
+    "options": [
+      "5%; a quantidade de testes é irrelevante.",
+      "95%; é sempre o complemento de um único teste.",
+      "35,85%; é a probabilidade de ao menos um.",
+      "64,15%; 5% refere-se a cada teste.",
+      "100%; basta somar as probabilidades."
+    ],
+    "answer": 3,
+    "explanation": "Complemento de nenhum: 1−0,3585=0,6415. A soma 1 é apenas um limite superior e não a probabilidade exata sob independência.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0041",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "sequenciamento_duas_etapas",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Três verificações passam por preparo e validação, cada etapa com um único recurso. Tempos A=(3,5),B=(2,1),C=(4,3) horas. Sem preempção, cada recurso segue a ordem escolhida; validação só começa após preparo e liberação do validador. Qual cronograma é corretamente calculado?",
+    "options": [
+      "Ordem A-B-C termina em 12 h.",
+      "Ordem C-B-A termina em 12 h.",
+      "Ordem C-A-B termina em 11 h.",
+      "Ordem B-A-C termina em 12 h.",
+      "Ordem B-C-A termina em 10 h."
+    ],
+    "answer": 0,
+    "explanation": "A-B-C: preparos terminam 3,5,9; validações 3–8,8–9,9–12. As demais ordens listadas terminam 13,13,14,14, respectivamente. Não se somam apenas tempos de um recurso nem se sobrepõem validações.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0042",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "estimativa_populacional_probabilidades_distintas",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Em uma seleção Poisson independente de ordens, cada ordem tem probabilidade conhecida de inclusão. Nas selecionadas, (indicador de falha y,p) são(1; 0,5),(1; 0,25),(0; 0,1). Use estimador total Σy/p e estimador de variância Σy²(1−p)/p². Qual par e qual limite da interpretação?",
+    "options": [
+      "Total3 e variância 14; cada selecionada equivale a uma ordem falha.",
+      "Total14 e variância 6; as expressões são intercambiáveis.",
+      "Total2 e variância 0; só contam falhas vistas.",
+      "Total estimado 6; variância 14; estimativa, não censo.",
+      "Total6 e variância 6; todo estimador segue Poisson com essa variância."
+    ],
+    "answer": 3,
+    "explanation": "Total1/0,5+1/0,25=6. Variância0,5/0,25+0,75/0,0625=2+12=14. É inferência sob o desenho declarado, não localização ou contagem certa de todas as falhas.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0043",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "tempo_de_transmissao_completo",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um rádio de exercício transmite mensagem de 8.000 bits a 2.000 bit/s. Depois de recebida integralmente, leva 0,5 s para disponibilizar a mensagem à equipe. Sem fila ou retransmissão, em quanto tempo fica disponível?",
+    "options": [
+      "4 s.",
+      "16 s.",
+      "0,5 s.",
+      "2,5 s.",
+      "4,5 s."
+    ],
+    "answer": 4,
+    "explanation": "8.000/2.000=4 s de transmissão, mais 0,5 s de processamento. Disponibilidade não é início da transmissão nem prova de entendimento do conteúdo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0044",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "capacidade_sorvente_mistura",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Para um exercício, sorvente compatível retém 2 L de A por kg ou 1 L de B por kg. O modelo admite mistura e soma massas requeridas, sem efeito de interação. Há8 L de A e 3 L de B. Qual massa mínima pelo modelo, sem dimensionar resposta real?",
+    "options": [
+      "3 kg.",
+      "4 kg.",
+      "7 kg.",
+      "11 kg.",
+      "5,5 kg."
+    ],
+    "answer": 2,
+    "explanation": "A exige 8/2=4 kg; B3/1=3 kg; soma 7 kg. Usar uma única capacidade para toda mistura contraria o modelo; compatibilidade foi premissa, não deduzida do cálculo.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0045",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "resposta_com_preparacao_aleatoria",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "No exercício, preparo U é uniforme entre 0 e 4 min. RotaA leva 4 min e só pode ser concluída até o minuto 5; rotaB leva 7 e deve terminar até 10. Exige-se probabilidade de cumprir≥0,9. Uma intervenção pode reduzir em 1 min apenas o percurso de uma das rotas. Qual atende?",
+    "options": [
+      "Reduzir B para 6 min, que garante término até 10 para todo U.",
+      "Reduzir A para 3 min, que atende com probabilidade 0,9.",
+      "Manter A, que já atende com probabilidade 1.",
+      "Manter B, que já atende com probabilidade 0,9.",
+      "As duas sem intervenção, porque os percursos isolados cabem nos prazos."
+    ],
+    "answer": 0,
+    "explanation": "A original exigeU≤1: 0,25. B original U≤3: 0,75. A reduzida exigeU≤2: 0,5; B reduzida U≤4: 1. A preparação e a janela de conclusão são partes do critério, não apenas o tempo de percurso.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0046",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "acuracia_prevalencia_baixa",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um classificador marca todos os 100 registros como não acidentários. A referência tem 2 acidentários e 98 não acidentários. Qual acurácia e sensibilidade para acidentários, respectivamente?",
+    "options": [
+      "2% e 100%.",
+      "98% e0%.",
+      "100% e 2%.",
+      "0% e 98%.",
+      "98% e 98%."
+    ],
+    "answer": 1,
+    "explanation": "Acerta98 negativos de 100, mas nenhum dos 2 positivos. Alta acurácia global com classe rara não demonstra sensibilidade à classe importante.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0047",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "selecao_pecas_sobreviventes",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Após série de rupturas, um estudo mede somente componentes ainda em serviço e usa sua distribuição de resistência como se representasse todos os componentes originalmente instalados. Qual viés deve ser examinado?",
+    "options": [
+      "Independência entre seleção e resistência estabelecida pela data do estudo.",
+      "Viés de sobrevivência pela seleção das peças ainda em serviço.",
+      "Prova de que peças rompidas tinham a mesma distribuição das sobreviventes.",
+      "Garantia de representatividade por usar apenas peças atuais.",
+      "Ausência de qualquer viés porque o ensaio de resistência é preciso."
+    ],
+    "answer": 1,
+    "explanation": "Precisão do ensaio não corrige seleção. A população medida foi condicionada à permanência em serviço; a distribuição original pode ser diferente.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0048",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "evidencias_contraditorias_razao",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Duas hipóteses H1/H2 têm chances iniciais iguais. Evidências E e F são independentes condicionalmente a cada hipótese. P(E|H1)=0,6,P(E|H2)=0,2; P(F|H1)=0,1,P(F|H2)=0,5. Qual posterior deH1 após ambas?",
+    "options": [
+      "0,167.",
+      "0,75.",
+      "0,60.",
+      "0,375.",
+      "0,625."
+    ],
+    "answer": 3,
+    "explanation": "Razão de verossimilhanças conjunta=(0,6 ×0,1)/(0,2 ×0,5)=0,6. Chances posteriores 0,6 para 1, probabilidade 0,6/1,6=0,375. Usar apenasE ignora evidência de sentido contrário; independência é condicional explicitamente dada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0049",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "ganho_correcao_erro_oscila",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo didático de correções de um operador é e(n+1)=(1−K)e(n), e₀=1. Com K=1,6, qual erro após três correções e qual comportamento futuro no modelo?",
+    "options": [
+      "2,744; diverge porque qualquer oscilação é instável.",
+      "Zero exato desde a primeira correção.",
+      "−0,216; alterna sinal e tende a zero.",
+      "−1,6; amplitude constante.",
+      "0,216; cresce sem alternar sinal."
+    ],
+    "answer": 2,
+    "explanation": "Fator1−1,6=−0,6; terceira potência−0,216. Módulo do fator<1 produz decaimento com alternância, sem afirmar validade do modelo para todo desempenho humano.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0050",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "criterio_alarme_probabilidade_base",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "No projeto didático, perigo tem probabilidade prévia 0,01. Não alarmar diante de perigo custa 100; alarmar sem perigo custa 1; decisões corretas custam 0. Dois sinais têm razões de verossimilhança LR0,8 eLR2. Use chances posteriores=LR×chances prévias. Qual decisão minimiza custo em cada sinal?",
+    "options": [
+      "Alarmar paraLR0,8 e não paraLR2.",
+      "Não alarmar paraLR0,8 e alarmar paraLR2.",
+      "As decisões independem dos custos quando LR é conhecido.",
+      "Alarmar em ambos porque qualquer sinal comprova perigo.",
+      "Não alarmar em ambos porque a probabilidade prévia é baixa."
+    ],
+    "answer": 1,
+    "explanation": "Alarmar se 100 p>1−p, ou chances posteriores>0,01. Chances prévias 1/99≈0,010101; com 0,8 ficam 0,008081 e com 2 ficam 0,020202. Só a segunda supera o limiar de chances. Custos e base pertencem ao exercício.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0051",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "capacidade_termica_diluente",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um modelo mantém energia liberada Q=120 kJ e usa ΔT=Q/C, com capacidade térmica total C. Acrescentar diluente aumenta C de 2 para 3 kJ/K, sem mudarQ. Qual comparação, sem concluir extinção real?",
+    "options": [
+      "Elevação cai a zero sempre que C aumenta.",
+      "Elevação permanece 60 K por Q ser constante.",
+      "O cálculo determina sozinho a concentração legal de diluente.",
+      "De60 para 40 K; isso não comprova extinção.",
+      "Elevação cresce de 60 para 90 K."
+    ],
+    "answer": 3,
+    "explanation": "120/2=60 e 120/3=40. Um balanço reduzido não contém cinética, mistura ou estabilidade da chama, logo não comprova condição de extinção.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0052",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "reciprocidade_radiacao_liquida",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Duas superfícies no modelo têm A1=2 m²,A2=8 m²,F12=0,6,T1=400 K,T2=200 K. Use A1 F12=A2 F21 e Q=kA1 F12(T1⁴−T2⁴), k=10⁻⁸ W/(m²K⁴). Quais F21 eQ?",
+    "options": [
+      "0,15 e 19,2 W.",
+      "0,15 e 307,2 W.",
+      "0,6 e 288 W.",
+      "0,15 e 288 W.",
+      "2,4 e 288 W."
+    ],
+    "answer": 3,
+    "explanation": "Reciprocidade: F21=2 ×0,6/8=0,15. Diferença de quartas potências=24 ×10⁹K⁴; multiplicando por 1,2 ×10⁻⁸ dá 288 W.307,2 ignora a emissão da superfície fria.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0053",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "cruzamento_com_efeito_residual",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um estudo cruzado compara duas intervenções em cada pessoa. No segundo período, o efeito da primeira ainda persiste, conforme medida independente. O relatório atribui toda diferença do segundo período exclusivamente à intervenção aplicada nele. Qual ameaça deve ser tratada?",
+    "options": [
+      "Garantia de eliminação de toda confusão porque cada pessoa participa das duas fases.",
+      "Carryover e efeito de período, além do tratamento atual.",
+      "Obrigação de ordenar os resultados por valor e desfazer o pareamento.",
+      "Prova de que a segunda intervenção não tem efeito algum.",
+      "Equivalência entre efeito da primeira intervenção e erro do instrumento."
+    ],
+    "answer": 1,
+    "explanation": "O cruzamento controla diferenças estáveis entre pessoas, mas não elimina carryover nem efeito de período. A persistência descrita mistura os efeitos; não se inventa tempo de washout universal.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0054",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "verificacao_parcial_sensibilidade",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Uma triagem tem 200 pessoas: 20 positivas são verificadas pela referência, com 18 confirmações; 180 negativas não são verificadas. Sem pressupor ausência de doença nas negativas, qual informação sobre sensibilidade é sustentada?",
+    "options": [
+      "É necessariamente 9%, pois 18/200 sempre é sensibilidade.",
+      "É necessariamente 90%, pois 18/20 sempre é sensibilidade.",
+      "É100%, porque nenhuma negativa foi confirmada doente.",
+      "Entre18/198 e 1; 18/20 é VPP, não sensibilidade.",
+      "Não há qualquer informação, nem mesmo sobre positivas verificadas."
+    ],
+    "answer": 3,
+    "explanation": "Falsos negativos desconhecidos vão de 0 a 180. Sensibilidade18/(18+FN) vai de 1 a 18/198.18/20 descreve confirmações entre positivas verificadas. Falta de verificação não é evidência de ausência da condição.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0055",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "estoque_temporario_unidades",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "textual",
+    "statement": "Um projeto armazena 4 kg de carbono por 5 anos e depois libera os mesmos 4 kg. O modelo de serviço de armazenamento é integral do estoque no tempo. Qual resultado e qual limite de comparação com emissões evitadas permanentemente?",
+    "options": [
+      "5 kg; o tempo é convertido diretamente em massa.",
+      "4 kg·ano; duração não participa da integral.",
+      "Zero kg·ano; a liberação futura apaga o serviço temporal definido.",
+      "20 kg permanentes; multiplicar pelo tempo elimina a liberação futura.",
+      "20 kg·ano, sem equivalência automática a massa evitada."
+    ],
+    "answer": 4,
+    "explanation": "Integral4 ×5=20 kg·ano. É outra grandeza que massa evitada; eventual equivalência climática exige modelo e horizonte adicionais não fornecidos.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md"
+  },
+  {
+    "id": "TP26-E2L2-ESP-0056",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "binomial_exatamente_uma",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual probabilidade de exatamente uma falha no modelo da figura?",
+    "options": [
+      "0,096.",
+      "0,008.",
+      "0,600.",
+      "0,488.",
+      "0,384."
+    ],
+    "answer": 4,
+    "explanation": "3 ×0,2 ×0,8²=0,384.0,488 é ao menos uma, e0,008 é falha nas três.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0056.svg",
+        "alt": "Três demandas; probabilidade de falha em cada uma 0,2, independentes. P(exatamente uma)=3 p(1−p)². Dados transcritos: Parâmetro; Valor; n; 3; p; 0,2; Regra; 3 p(1−p)²",
+        "legenda": "Modelo de três demandas independentes",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0057",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "sensibilidade_global_interacao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Pelas definições da figura, quais índices de primeira ordem e total de A?",
+    "options": [
+      "0,5 e 1.",
+      "0,2 e0,7.",
+      "0,3 e0,8.",
+      "0,7 e0,2.",
+      "0,2 e0,5."
+    ],
+    "answer": 1,
+    "explanation": "Primeira ordem 2/10=0,2; total(2+5)/10=0,7. Diferença0,5 é interação; variar um fator isolado não captura toda essa contribuição.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0057.svg",
+        "alt": "Variâncias parciais VA2,VB3,VAB5,total 10. Índice de primeira ordem deA=VA/V; índice total deA=(VA+VAB)/V. Dados transcritos: Variância (unidades²); ; A; 2; ; B; 3; ; Interação AB; 5; S_A=VA/Vtotal; ST_A=(VA+VAB)/Vtotal; total=VA+VB+VAB.",
+        "legenda": "Decomposição de variância",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0058",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "maximin_com_probabilidades_acopladas",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Escolha menor pior perda esperada dentre probabilidades admissíveis. Qual pior valor de X e decisão?",
+    "options": [
+      "3,0; escolher X.",
+      "100; escolher Y.",
+      "5,0; escolher Y.",
+      "4,6; escolher X.",
+      "4,6; escolher Y."
+    ],
+    "answer": 3,
+    "explanation": "Cada unidade de p2 usa dois da restrição, mas rende 100, contra 10 por p1; maximiza p2 em 0,02 e p1 em 0,26. Expectativa2+2,6=4,6<4,8. Ignorar acoplamento produz incorretamente 5.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0058.svg",
+        "alt": "X perde 0,10,100 com probabilidades p0,p1,p2. Restrições: p0+p1+p2=1, todas≥0; p1+2 p2≤0,3; p2≤0,02. Y perde 4,8 com certeza. Dados transcritos: Objeto; Definição; X: perdas; 0 / 10 / 100; Restrição; p1 + 2 p2 ≤ 0,3; Restrição; p2 ≤ 0,02; Y; Perda certa 4,8; p0+p1+p2=1; todas não negativas; perdas exaustivas.",
+        "legenda": "Restrições de um modelo de perdas",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0059",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "intervalo_otimo_restrito",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual intervalo minimiza o custo no domínio e qual custo aproximado?",
+    "options": [
+      "T3 e 4,167.",
+      "T3 e 3,5.",
+      "T4 e 4,0, admissível.",
+      "T1 e 8,5, mínimo.",
+      "T2 e 5,0, mínimo."
+    ],
+    "answer": 0,
+    "explanation": "Ponto estacionário seriaT4, fora do domínio. A derivada é negativa de 1 a 3, logo mínimo na borda 3. C3=8/3+1,5=25/6≈4,167.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0059.svg",
+        "alt": "C(T)=8/T+0,5 T; T em horas internas,1≤T≤3. Derivada Cprimeiro=−8/T²+0,5. Dados transcritos: Modelo; Valor; Custo; 8/T + 0,5 T; Domínio; 1 ≤ T ≤ 3; Derivada; −8/T² + 0,5",
+        "legenda": "Custo interno por intervalo de verificação",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0060",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "arredondamento_intervalo",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual afirmação é sustentada sem confundir indicação e valor anterior ao arredondamento?",
+    "options": [
+      "Intervalo declarado; valor exato indeterminado.",
+      "A largura do intervalo é1,0 unidade.",
+      "Qualquer valor até 5,5 produz essa indicação.",
+      "O intervalo comprova ausência de erro sistemático.",
+      "O valor é necessariamente 5,0000."
+    ],
+    "answer": 0,
+    "explanation": "A regra informa uma classe de valores com largura 0,10. Resolução de exibição não comprova exatidão ou ausência de viés.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0060.svg",
+        "alt": "Display5,0 unidades. Regra: valores em[4,95; 5,05) são exibidos 5,0. Dados transcritos: Display; Regra; 5,0; [4,95; 5,05)",
+        "legenda": "Leitura com arredondamento declarado",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0061",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "tempo_morto_contagem",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual taxa corrigida e aumento relativo sobre a observada?",
+    "options": [
+      "800 s⁻¹ e−20%.",
+      "1000 s⁻¹ e0%.",
+      "1200 s⁻¹ e 20%.",
+      "1250 s⁻¹ e 25%.",
+      "5000 s⁻¹ e 400%."
+    ],
+    "answer": 3,
+    "explanation": "Denominador1−0,2=0,8, taxa 1250; aumento 250/1000=25%. É um modelo instrumental, não taxa de dose nem limite legal.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0061.svg",
+        "alt": "Contagem observada 1000 s⁻¹; tempo mortoτ0,0002 s. Modelo não paralisável Nreal=Nobs/(1−Nobsτ). Dados transcritos: Corrigido (s⁻¹); Observado (s⁻¹); 0; 0; 800; 400; 1600; 800; 2400; 1200; 3200; 1600; 4000; 2000; 555.56; 1250; 2142.86; 3333.33; τ=0,0002 s; Nreal=Nobs/(1−Nobsτ). Observado de interesse: 1000 s⁻¹.",
+        "legenda": "Correção didática de tempo morto",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0062",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "filtro_dinamico_area_e_pico",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "No modelo, qual pico aproximado de y e área total da resposta de 0 até infinito? Use integrar a equação e os estados inicial/final.",
+    "options": [
+      "8,647 e 10.",
+      "8,647 e 17,294, pois a resposta acaba no minuto 2.",
+      "10 e 20, pois todo pico é preservado.",
+      "8,647 e 20 unidades·min.",
+      "1,353 e 20."
+    ],
+    "answer": 3,
+    "explanation": "Pico no fim do pulso: 10 ×0,8647=8,647. Integrando τyprimeiro=C−y com extremos zero, integral y=integral C=20. A cauda mantém área, mas não restaura o pico perdido.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0062.svg",
+        "alt": "Entrada C=10 por 2 min e depois 0; τyprimeiro=C−y, τ=1 min, y0=0, tempo emmin. y(2)=10(1−e⁻²); e⁻²=0,1353; y termina em 0. Dados transcritos: Grandeza; Definição; Entrada; 10 durante 2 min; depois 0; Resposta; τdy/dt=C−y; τ=1 min; y(0)=0; Constante; e⁻²=0,1353",
+        "legenda": "Resposta de um detector a pulso",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0063",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "rotacao_periferica_restricao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual velocidade atual e maior rotação aproximada admitida apenas pelo critério dado?",
+    "options": [
+      "10 m/s e 9000 rpm.",
+      "62,832 m/s e 1432 rpm.",
+      "31,416 m/s e 3000 rpm.",
+      "31,416 m/s e 2864,78 rpm.",
+      "3,1416 m/s e 28650 rpm."
+    ],
+    "answer": 3,
+    "explanation": "v=3,1416 ×0,2 ×3000/60=31,416. nmax=30 ×60/(π×0,2)≈2864,8 rpm. Não é especificação legal nem autorização de uso do disco.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0063.svg",
+        "alt": "Disco de diâmetro 0,20 m, rotação 3000 rpm. v=πdn/60; π3,1416. Critério interno: v≤30 m/s. Dados transcritos: Parâmetro; Valor; Diâmetro; 0,20 m; Rotação; 3000 rpm; Critério interno; v ≤ 30 m/s",
+        "legenda": "Rotação e velocidade periférica",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0064",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "feixe_gaussiano_raio_intensidade",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual intensidade no ponto indicado, aproximadamente, sem classificá-lo como seguro para exposição?",
+    "options": [
+      "6,37 ×10² W/m².",
+      "6,37 ×10⁵ W/m².",
+      "3,18 ×10⁶ W/m².",
+      "0,637 W/m².",
+      "1,59 ×10⁷ W/m²."
+    ],
+    "answer": 1,
+    "explanation": "w0=0,001 m; I0≈3,1831 ×10⁶W/m². Dividindo por 5: 6,366 ×10⁵. Confundir milímetro com metro altera o quadrado; o modelo não contém critério legal de laser.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0064.svg",
+        "alt": "P5 W; raio mínimo w0=1 mm. I0=2 P/(πw0²). Em z=2 zR, w²=5 w0² e I=I0/5. π3,1416. Dados transcritos: Parâmetro; Valor; P; 5 W; w0; 1 mm; z; 2 zR; Modelo; I0=2 P/(πw0²); I=I0/5",
+        "legenda": "Modelo óptico de feixe",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0065",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "amostra_cobrir_tres_classes",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual probabilidade de observar as três classes ao menos uma vez?",
+    "options": [
+      "2/9.",
+      "2/3.",
+      "1/27.",
+      "1.",
+      "1/3."
+    ],
+    "answer": 0,
+    "explanation": "É necessário um elemento de cada classe: 3!=6 ordens entre 27 sequências.6/27=2/9. Três seleções não garantem três classes quando há reposição.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0065.svg",
+        "alt": "Três classes equiprováveis. Três seleções independentes com reposição; todas as sequências têm probabilidade 1/27. Dados transcritos: Parâmetro; Valor; Classes; A, B, C; Seleções; 3 com reposição; Sequências possíveis; 27 equiprováveis",
+        "legenda": "Amostragem com reposição",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0066",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "portfolio_com_intersecoes",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual probabilidade da união dos três e qual conjunto de maior benefício admissível?",
+    "options": [
+      "0,21; A+C, benefício 11.",
+      "0,45; A+B+C, benefício 19.",
+      "0,33; A+B, benefício 13.",
+      "0,33; B+C, benefício 14.",
+      "0,30; A+B+C, benefício 19."
+    ],
+    "answer": 3,
+    "explanation": "União0,10+0,20+0,15−0,06−0,04−0,05+0,03=0,33, inadmissível. ParesAB0,24,AC0,21,BC0,30 atendem; BC dá maior benefício 14.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0066.svg",
+        "alt": "Benefícios A5,B8,C6. Probabilidades de sobrecusto: A0,10; B0,20; C0,15; AB0,06; AC0,04; BC0,05; ABC0,03. Critério: P(algum)≤0,32. Maximizar benefício somado. Dados transcritos: Objeto; Probabilidade / benefício; A / B / C; 0,10 / 0,20 / 0,15; b=5/8/6; AB / AC / BC; 0,06 / 0,04 / 0,05; ABC; 0,03; Máximo interno; 0,32",
+        "legenda": "Projetos e falha de orçamento",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0067",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "componente_velocidade_resultante",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual módulo da velocidade resultante, sem usá-lo como tempo de trajeto com obstáculos?",
+    "options": [
+      "7 m/s.",
+      "5 m/s.",
+      "1 m/s.",
+      "12 m/s.",
+      "4 m/s."
+    ],
+    "answer": 1,
+    "explanation": "Raiz(9+16)=5. Soma aritmética de componentes perpendiculares não fornece o módulo; trajetos restritos exigiriam informação adicional.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0067.svg",
+        "alt": "Componente leste 3 m/s e norte 4 m/s. Componentes perpendiculares; módulo raiz de vx²+vy². Dados transcritos: Direção; Componente; Leste; 3 m/s; Norte; 4 m/s",
+        "legenda": "Vetor de deslocamento no exercício",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0068",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "prontidao_condicional",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Para começar, a missão exige os dois recursos. Qual probabilidade de poder começar e de ao menos um recurso estar pronto, respectivamente?",
+    "options": [
+      "0,60 e0,10.",
+      "0,56 e0,94.",
+      "0,80 e0,70.",
+      "0,60 e0,90.",
+      "0,75 e0,80."
+    ],
+    "answer": 3,
+    "explanation": "Interseção0,8 ×0,75=0,60. União0,8+0,7−0,6=0,90. Multiplicar marginais suporia uma independência negada pela informação condicional; ao menos um não basta para a missão.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0068.svg",
+        "alt": "P(Apronto)=0,8; P(Bpronto)=0,7; P(Bpronto|Apronto)=0,75. Missão exige ambos. Não supor independência. Dados transcritos: Informação; Probabilidade; A pronto; 0,8; B pronto; 0,7; B pronto dado A pronto; 0,75",
+        "legenda": "Prontidão correlacionada no prazo",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0069",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "hora_media_circular",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Use pesos iguais na média circular. Qual horário médio aproximado, arredondado ao minuto mais próximo?",
+    "options": [
+      "00: 00.",
+      "08: 40.",
+      "23: 40.",
+      "01: 20.",
+      "00: 41."
+    ],
+    "answer": 4,
+    "explanation": "Soma dos cossenos 2,7978 e dos senos 0,5. Direção≈10,13°, equivalente a 0,675 h≈40,5 min, arredondando 00: 41. A média aritmética 08: 40 ignora a passagem do dia.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0069.svg",
+        "alt": "Horários23 h,1 h,2 h, pesos iguais. Vetores unitários em ângulos 2πh/24. Somar vetores e converter direção para horário. cos/sen aproximados: 23 h(0,9659; −0,2588),1 h(0,9659; 0,2588),2 h(0,8660; 0,5). Dados transcritos: Hora; cos; sen; 23; 0,9659; −0,2588; 1; 0,9659; 0,2588; 2; 0,8660; 0,5; atan(0,5/2,7978)≈10,13°; horário=ângulo×24/360.",
+        "legenda": "Horários no ciclo diário",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0070",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "preditiva_beta_duas_ocorrencias",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual probabilidade preditiva de dois eventos e por que não basta quadrar a média posterior?",
+    "options": [
+      "1/9; usa-se apenas b.",
+      "1/12; elimina-se o fator a+1.",
+      "1/16; independência condicional implica independência marginal em todo caso.",
+      "1/4; é a probabilidade de dois eventos.",
+      "1/13; incerteza comum sobre p."
+    ],
+    "answer": 4,
+    "explanation": "3 ×4/(12 ×13)=1/13. A média posterior é1/4, mas E(p²) difere de[E(p)]². As demandas são independentes dado p, não após integrar um p incerto comum.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0070.svg",
+        "alt": "Prior Beta(1,1); observação 2 eventos e 8 não eventos. Posterior Beta(3,9). Para duas novas demandas, P(ambas)=a(a+1)/[(a+b)(a+b+1)]. Dados transcritos: Modelo; Valor; Posterior a; 3; Posterior b; 9; P(ambas); a(a+1)/[(a+b)(a+b+1)]; Posterior Beta(a,b); E(p)=a/(a+b); independentes dado p.",
+        "legenda": "Modelo bayesiano de probabilidade",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0071",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "percentil_ordem_definida",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual percentil 90 sob a regra explicitamente adotada?",
+    "options": [
+      "9 s.",
+      "20 s.",
+      "8 s.",
+      "6,5 s.",
+      "14,5 s."
+    ],
+    "answer": 0,
+    "explanation": "Posição ceil 9=9, valor 9 s. Outras convenções de interpolação poderiam produzir outro resultado, por isso a regra foi declarada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0071.svg",
+        "alt": "Tempos1,2,3,4,5,6,7,8,9,20 s. Regra interna do percentil 90: posição ceil(0,9 n), sem interpolação. Dados transcritos: Posição na ordenação; Valor ordenado (s); 0; 0; 2; 4; 4; 8; 6; 12; 8; 16; 10; 20; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; Regra interna p90: posição ceil(0,9 ×n), sem interpolação.",
+        "legenda": "Tempos de resposta ordenados",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0072",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "interferencia_dupla_tarefa",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "A referência ideal é o maior dos tempos isolados. Qual excesso sobre essa referência de paralelismo e qual limite causal da conclusão?",
+    "options": [
+      "3 s; prova um mecanismo cognitivo único sem outra evidência.",
+      "6 s; a referência ideal é zero.",
+      "1 s; a referência obrigatória é sempre somaA+B.",
+      "Zero; simultaneidade garante ausência de interferência.",
+      "3 s; não se identifica causa exclusiva."
+    ],
+    "answer": 4,
+    "explanation": "Referência max(2,3)=3; excesso 6−3=3 s. É descrição comparativa sob essa referência, não diagnóstico exclusivo da origem da interferência.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0072.svg",
+        "alt": "TempoA isolada 2 s; B isolada 3 s; execução conjunta 6 s. Referência ideal de paralelismo sem interferência=max(A,B). Dados transcritos: Condição; Tempo; A; 2 s; B; 3 s; A+B conjunta; 6 s",
+        "legenda": "Ensaio de duas tarefas",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0073",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "criterios_conjuntos_exposicao_relativa",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual alternativa satisfaz simultaneamente os dois critérios do modelo?",
+    "options": [
+      "Somente Y.",
+      "Todas.",
+      "X eY.",
+      "Somente X.",
+      "Somente Z."
+    ],
+    "answer": 4,
+    "explanation": "X: D1≈1,0122 falha,D2=1. Y: D1≈0,5954 atende,D2=1,2 falha. Z: D1≈0,7458,D2=0,72 atendem. Reduzir uma variável não garante atender objetivos conjuntos. Não são limites legais de dose.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0073.svg",
+        "alt": "Razões q,t,c: X=(0,6; 2; 0,5),Y=(0,5; 1,5; 0,8),Z=(0,7; 1,2; 0,6). Critérios internos D1=q^(4/3)t≤1 eD2=ct≤1. Potências0,6^(4/3)=0,5061; 0,5^(4/3)=0,3969; 0,7^(4/3)=0,6215. Dados transcritos: Opção; q; t; c; X; 0,6; 2; 0,5; Y; 0,5; 1,5; 0,8; Z; 0,7; 1,2; 0,6; q^(4/3): X 0,5061; Y 0,3969; Z 0,6215; Critérios internos: D1=q^(4/3)t≤1; D2=ct≤1",
+        "legenda": "Alternativas de resposta: razões relativas",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0074",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "padronizacao_pesos_incertos",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "Qual comparação é robusta ao peso padrão no intervalo dado?",
+    "options": [
+      "A é menor para todo p porque tem menor taxa nos jovens.",
+      "B é menor para todo p porque tem menor taxa nos idosos.",
+      "A só pode ser menor sep<0,2, fora do intervalo.",
+      "As taxas são iguais para todo p.",
+      "Sem domínio: A menor se p>0,5; B menor se p<0,5."
+    ],
+    "answer": 4,
+    "explanation": "A=0,30−0,20 p eB=0,25−0,10 p; A−B=0,05−0,10 p, zero em 0,5. O intervalo atravessa o cruzamento, então o padrão escolhido pode inverter a ordenação. Isso não prova causalidade.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0074.svg",
+        "alt": "GrupoA: jovem 0,10,idoso 0,30; B: jovem 0,15,idoso 0,25. Peso padrão jovem p em[0,2; 0,8], idoso 1−p, comum aos grupos. Dados transcritos: Grupo; Jovem; Idoso; A; 0,10; 0,30; B; 0,15; 0,25; Peso comum jovem p∈[0,2; 0,8]; idoso 1−p.",
+        "legenda": "Taxas e população padrão incerta",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0075",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "emissoes_por_entrega_retentativas",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "grafico_tabela",
+    "statement": "No modelo, qual emissão média por serviço concluído e escolha de menor emissão?",
+    "options": [
+      "A5 kg eB5,4 kg; A, ignorando a fixa.",
+      "A4 kg eB5,4 kg; A.",
+      "A5,5 kg eB5,4 kg; B.",
+      "A14 kg eB5,4 kg; B.",
+      "A3,7 kg eB5,4 kg; A."
+    ],
+    "answer": 2,
+    "explanation": "A exige média 1/0,8 tentativas: 4/0,8=5 kg, mais 10/20=0,5. B5,4. Unidade funcional é serviço concluído; a emissão por tentativa isolada inverte a escolha.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0075.svg",
+        "alt": "A: 4 kg por tentativa, sucesso 0,8 independente, repetir até sucesso; emissão fixa 10 kg por 20 serviços. B: 5,4 kg por tentativa,sucesso 1,fixa 0. E(tentativas)=1/p. Dados transcritos: Opção; kg/tentativa; p sucesso; Fixa/20; A; 4; 0,8; 10 kg; B; 5,4; 1; 0 kg; Repetir até sucesso; tentativas independentes; E(N)=1/p.; Emissão fixa rateada por 20 serviços concluídos.",
+        "legenda": "Emissão por serviço concluído",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0076",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "alcance_rede_dirigida",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Quais nós além da origem são alcançáveis pelas conexões permitidas?",
+    "options": [
+      "A eC.",
+      "B eC.",
+      "A,B eC.",
+      "Somente A.",
+      "A eB."
+    ],
+    "answer": 0,
+    "explanation": "Há caminho Origem-A-C, mas nenhum caminho aberto a B. Proximidade no desenho não constitui conexão adicional.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0076.svg",
+        "alt": "Origem→A permitida; Origem→B bloqueada; A→C permitida. Não há outras conexões. Dados transcritos: permitida; bloqueada; permitida; Origem; A; B; C; Sentido das conexões: Origem→A, Origem→B, A→C.; Só conexões permitidas podem ser percorridas.",
+        "legenda": "Modelo de propagação dirigida",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0077",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "ajuste_causa_comum_grafo",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual ajuste bloqueia o caminho de causa comum entre X eY neste modelo, sem concluir que condicionar e intervir sejam sempre a mesma coisa?",
+    "options": [
+      "Não ajustar e tratar toda associação como efeito direto.",
+      "Condicionar emY e afirmar que Y causouA.",
+      "Criar setaX→Y apenas porque há associação.",
+      "Condicionar apenas em X e chamar isso de efeito de X.",
+      "Condicionar em A."
+    ],
+    "answer": 4,
+    "explanation": "O caminho X←A→Y é bloqueado ao condicionar na causa comumA sob as premissas dadas. A leitura é do grafo, não prova empírica de que ele esteja completo no mundo real.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0077.svg",
+        "alt": "A causa X eY; não há seta diretaX-Y nem outras causas comuns; erros independentes. Dados transcritos: causa; causa; A; X; Y; Modelo causal completo para o exercício: A→X e A→Y.; Não há seta X→Y nem Y→X; erros externos independentes.",
+        "legenda": "Grafo causal de uma associação",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0078",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "absorcao_sucesso_ciclos",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Quais probabilidades de chegar eventualmente ao sucesso, partindo de G eD?",
+    "options": [
+      "0,2 e0.",
+      "8/29 e 14/29.",
+      "1 e 1.",
+      "0,5 e0,4.",
+      "14/29 e 8/29."
+    ],
+    "answer": 4,
+    "explanation": "Da segunda,hD=(4/7)hG. Na primeira,(0,7−2/7)hG=0,2, hG14/29; hD8/29. Ignorar retornos confunde sucesso na próxima transição com absorção eventual.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0078.svg",
+        "alt": "Transições G: G0,3,D0,5,S0,2; D: G0,4,D0,3,F0,3. S eF absorventes. hG=0,3 hG+0,5 hD+0,2; hD=0,4 hG+0,3 hD. Dados transcritos: 0,5; 0,2; 0,3; G; D; Sucesso; Falha; De G: G 0,3; D 0,5; Sucesso 0,2.; De D: G 0,4; D 0,3; Falha 0,3. Sucesso/Falha absorventes.; hG=0,3 hG+0,5 hD+0,2; hD=0,4 hG+0,3 hD.",
+        "legenda": "Estados com sucesso e falha finais",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0079",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "particao_fases_massa",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Quais concentrações Cg eCl no equilíbrio do modelo?",
+    "options": [
+      "10 e 100 mg/L.",
+      "50 e 5 mg/L.",
+      "5 e 50 mg/L.",
+      "1 e 10 mg/L.",
+      "9,09 e 9,09 mg/L."
+    ],
+    "answer": 2,
+    "explanation": "Massa=10 Cg+Cl=100; Cg0,1 Cl, logo 2 Cl100, Cl50 eCg5. Concentração e fração de massa não são intercambiáveis.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0079.svg",
+        "alt": "Fase gasosa 10 L,líquida 1 L; massa total 100 mg. EquilíbrioCg=0,1 Cl, ambasmg/L. Dados transcritos: Gás: 10 L; Líquido: 1 L; Massa total do agente: 100 mg; equilíbrio Cg=0,1 Cl.; C em mg/L. Volume de cada fase permanece constante.",
+        "legenda": "Partição entre gás e líquido",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0080",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "dependencia_linear_calibracao",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "O que o primeiro par permite identificar e qual solução resulta ao acrescentar o canal adicional?",
+    "options": [
+      "A2 eB1,5 após o adicional.",
+      "Só A+2 B=5 inicialmente; com o adicional A7/3 eB4/3.",
+      "Os canais proporcionais garantem A=B.",
+      "O adicional torna o modelo impossível, mesmo havendo solução positiva.",
+      "A5 eB0 já são a única solução do primeiro par."
+    ],
+    "answer": 1,
+    "explanation": "As duas primeiras equações representam a mesma reta. ComA−B1, substitui-seA=B+1 emA+2 B5: 3 B4, B4/3 eA7/3. Repetir informação proporcional não aumenta posto.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0080.svg",
+        "alt": "Canal1: 2 A+4 B=10; Canal2: 3 A+6 B=15. Canal adicional validado: A−B=1. Dados transcritos: 2 A+4 B; 3 A+6 B; Agentes A,B; Canal 1: 10; Canal 2: 15; Canal adicional validado: A−B=1.; Primeiro par é proporcional; não fornece duas equações independentes.",
+        "legenda": "Canais proporcionais e informação adicional",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0081",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "rolamento_velocidade_ponto",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual velocidade do ponto T em relação ao solo no modelo?",
+    "options": [
+      "8 m/s.",
+      "4 m/s.",
+      "2 m/s.",
+      "1 m/s.",
+      "0 m/s."
+    ],
+    "answer": 1,
+    "explanation": "2+4 ×0,5=4 m/s. O ponto de contato tem velocidade zero no rolamento ideal, mas o topo não.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0081.svg",
+        "alt": "Roda rola sem deslizamento,centro 2 m/s,raio 0,5 m,ω4 rad/s. Topo move no mesmo sentido; vtopo=vc+ωr. Dados transcritos: Centro: 2 m/s →; Topo T; r=0,5 m; ω=4 rad/s; Rolamento sem deslizamento; velocidade do topo=vc+ωr.",
+        "legenda": "Velocidade de um ponto no topo",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0082",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "ponte_tensao_diferencial_zero",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual tensão de cada ponto médio ao nó inferior e que conclusão não é autorizada pela medição diferencial?",
+    "options": [
+      "0 V em cada; diferença zero prova desenergização completa.",
+      "50 V em cada; zero diferencial não é zero ao nó inferior.",
+      "100 V em cada; resistores não dividem tensão.",
+      "25 V em cada; há quatro resistores necessariamente em série.",
+      "50 V e0 V; a diferença é zero."
+    ],
+    "answer": 1,
+    "explanation": "Cada divisor tem metade da fonte: 50 V. Dois pontos a 50 V têm diferença zero e tensão comum não nula ao nó inferior. Não se define procedimento normativo de verificação de ausência de tensão.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0082.svg",
+        "alt": "Fonte100 V,nóinferior 0 V. Dois divisores 10 ohm/10 ohm; medição ideal entre pontos médios dá 0 V, sem curto entre eles. Dados transcritos: Fonte100 V; R 1=10Ω; R 2=10Ω; R 3=10Ω; R 4=10Ω; V; Medida diferencial 0 V; Nó inferior: 0 V. Divisores iguais. Não há ligação de curto entre pontos médios.",
+        "legenda": "Dois divisores e medição diferencial",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0083",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "precedencia_parcial_registros",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual relação não pode ser determinada pela trilha, sem confundir ausência de ordem com simultaneidade física?",
+    "options": [
+      "B antes de C.",
+      "C antes de D.",
+      "A antes de D.",
+      "A antes de C.",
+      "B antes de D."
+    ],
+    "answer": 0,
+    "explanation": "B eC são incomparáveis nesta ordem parcial. Isso não comprova simultaneidade; a trilha simplesmente não estabelece qual ocorreu primeiro. A precedeD por dois caminhos.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0083.svg",
+        "alt": "PrecedênciasAantesB,AantesC,BantesD,CantesD. Nenhum vínculo adicional entreB eC. Dados transcritos: ; ; ; ; A; B; C; D; Setas significam precedência comprovada por registros causais.; Nenhum outro vínculo de precedência é fornecido.",
+        "legenda": "Trilha de precedência de verificações",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0084",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "cobertura_interfaces_custo",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual custo mínimo de cobertura de todas as interfaces e um conjunto que o atinge?",
+    "options": [
+      "6, por A+B, que cobre todas.",
+      "7, por B+C+D, que cobre todas.",
+      "9, por A+C+D, necessariamente mínimo.",
+      "4, por B+D, que cobre todas.",
+      "8, por A+B+D."
+    ],
+    "answer": 4,
+    "explanation": "A+B+D cobreAB,BC,CD,DE,EA por custo 8. B+C+D não cobreEA; B+D também não. Examinar os conjuntos admissíveis mostra mínimo 8, também atingido porB+D+E. A alternativa de custo 9 é viável, mas não ótima.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0084.svg",
+        "alt": "CicloAB,BC,CD,DE,EA. CustosA4,B2,C3,D2,E4. Cada aresta coberta se pelo menos um extremo selecionado. Dados transcritos: AB; BC; CD; DE; EA; A: custo 4; B: custo 2; C: custo 3; D: custo 2; E: custo 4; Cada interface deve ter ao menos um dos extremos selecionado.; Minimizar a soma de custos, sem outras restrições.",
+        "legenda": "Interfaces e ações de controle",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0085",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "declividade_planta_rotas",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual declividade percentual e avaliação apenas frente ao critério interno?",
+    "options": [
+      "37%; atende.",
+      "25%; atende.",
+      "133%; atende.",
+      "60%; atende no limite.",
+      "75%; não atende."
+    ],
+    "answer": 4,
+    "explanation": "3/4=0,75=75%, maior que 60%. Não é ângulo em graus nem regra legal de acessibilidade; outras condições da rota não estão avaliadas.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0085.svg",
+        "alt": "Rota com subida 3 m eavanço horizontal 4 m. Critériointernosubida/avanço≤0,60. Dados transcritos: Avanço horizontal: 4 m; Subida: 3 m; Critério interno de exercício: subida/avanço ≤ 0,60.",
+        "legenda": "Perfil simplificado de uma rota",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0086",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "reserva_ponte_interrupcao",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual reserva mínima para transpor o hiato e qual tempo sem atendimento com a reserva indicada?",
+    "options": [
+      "10 L; basta um minuto de demanda.",
+      "20 L; falta atendimento por 2 min inteiros.",
+      "20 L; falta atendimento nos últimos 0,5 min do hiato.",
+      "15 L; nenhuma falta porque B tem capacidade maior depois.",
+      "35 L; é preciso somar consumo à reserva atual."
+    ],
+    "answer": 2,
+    "explanation": "Hiato2 min requer 20 L. Reserva15 atende 1,5 min, faltam 0,5 min. Capacidade futura maior não corrige continuidade já perdida.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0086.svg",
+        "alt": "Consumo10 L/min; fonteAaté5 min; Batuaapartir7 min,capacidade 20 L/min. Reserva15 L disponívelnohiato; semacúmuloantes. Dados transcritos: Missão demanda 10 L/min sem interrupção desde t=0.; Fonte A: t=0 até 5 min; Fonte B: t≥7 min; Hiato; Fonte B fornece 20 L/min. Reserva inicial 15 L, disponível no hiato.; Não há armazenamento adicional gerado antes do hiato.",
+        "legenda": "Continuidade de um fornecimento",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0087",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "correlacao_erro_comum_cronologia",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual precedência é garantida e quantas ordens totais estritas são possíveis para os três eventos?",
+    "options": [
+      "E antes deF; três ordens totais possíveis.",
+      "F antes deE; três ordens.",
+      "Nenhuma; seis ordens porque intervalos se sobrepõem.",
+      "E antes deG antes deF em todos os casos.",
+      "G antes deE; uma ordem."
+    ],
+    "answer": 0,
+    "explanation": "F−E=3 invariável pelo desvio comum. G pode ocorrer antes deE, entreE/F ou depois deF, para desvios admissíveis. OrdensGEF,EGF,EFG; tratar erros do mesmo relógio como independentes destrói informação de ordem.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0087.svg",
+        "alt": "E10,F13 no relógioA,desvio comumδ∈[-5,5].G12 no relógioB,desvioε∈[-1,1]. Real=indicado+desvio. Dados transcritos: mesmo relógio; E: relógioA10; F: relógioA13; G: relógioB12; Tempo real = indicado + desvio. Desvio A em[-5,5]; B em[-1,1].; Cada desvio é constante para os registros do mesmo relógio.",
+        "legenda": "Registros com desvios de relógio",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0088",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "layout_com_frequencia_incertas",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual layout minimiza o pior arrependimento no intervalo e quais arrependimentos máximos de X/Y?",
+    "options": [
+      "Empate; ambos têm máximo 6.",
+      "Y; 2 e 14.",
+      "X; 2 e 14.",
+      "Y; 14 e 2.",
+      "X; 0 e0, porque X domina em todo k."
+    ],
+    "answer": 2,
+    "explanation": "IX=k+9,IY=3 k+3; diferença X−Y=6−2 k. X perde no máximo 2 emk=2; Y perde no máximo 14 emk 10. Cruzamento emk 3. Escolher menor pior arrependimento dáX, sem afirmar domínio em todo cenário.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0088.svg",
+        "alt": "TransiçõesABk,AC1,BC1; kentre 2 e 10. DistânciasX1,5,4; Y3,1,2. Índicesponderados; arrependimento=índicemenosmenoríndicenomesmok. Dados transcritos: k transições; 1 transição; 1 transição; Painel A; Painel B; Painel C; k∈[2,10]. Distâncias X: AB1, AC5, BC4; Y: AB3, AC1, BC2.; Índice=soma transições×distância. Arrependimento=índice−melhor índice emk.",
+        "legenda": "Layout e incerteza de transições",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0089",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "elemento_termico_pulso_limitado",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Quanto tempo de pulso constante seria necessário para atingir o critério e o pulso mostrado é suficiente?",
+    "options": [
+      "13,862 s; sim, pois depois do pulso o gás fica em 100°C.",
+      "13,862 s; não.",
+      "10 s; sim, porque o gás supera 60°C.",
+      "6,931 s; sim.",
+      "20 s; sim."
+    ],
+    "answer": 1,
+    "explanation": "60=100−80 e^(−t/20) implica e^(−t/20)=0,5, t20 ln2=13,862 s. O pulso termina antes e depois o elemento resfria; temperatura do gás não é a do elemento. Não se especifica atuação legal de detector.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0089.svg",
+        "alt": "Gás100°Cpor10 s; elementoinicia 20°C; Te100−80 exp(−t/20),tsegundos. Depoisgásretorna20°C; critériointernoTe≥60; ln2.6931. Dados transcritos: Gás100°C por 10 s; depois volta ao estado inicial; Elemento térmico: T0=20°C; Modelo durante pulso: Te=100−80 e^(−t/20).; Critério interno Te≥60°C; ln2=0,6931.",
+        "legenda": "Resposta térmica de um elemento",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0090",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "entrada_tardia_conjunto_risco",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "diagrama",
+    "statement": "Qual estimativa de S imediatamente após o dia 3 e após o dia 4 pela regra da figura?",
+    "options": [
+      "0 e0.",
+      "1 e0,5.",
+      "0,5 e0.",
+      "0,5 e0,25.",
+      "2/3 e 1/3."
+    ],
+    "answer": 2,
+    "explanation": "No evento 2 estão em risco A/B: fator 1−1/2=0,5. C ainda não entrou. CensuraB no 3 não reduz S. No4 sóC está em risco: fator 0, logoS0. Entrada tardia não autoriza contarC no denominador do dia 2.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0090.svg",
+        "alt": "Aentra0,evento 2; Bentra1,censura 3; Centra2,5,evento 4. Sprod(1−d/nrisco). Entradas/censurasindependentes; considerar conjuntoemriscoemcadadata. Dados transcritos: Tempos desde o início (dias); entrada e fim em cada linha; A entra 0; evento 2; B entra 1; censura 3; C entra 2,5; evento 4; S(t)=produto(1−d/nemrisco), com entrada tardia/censura independentes.",
+        "legenda": "Coorte com entrada tardia",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0091",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "selo_liquido_pressao_limite",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual capacidade de pressão do selo no modelo e o efeito da pressão aplicada?",
+    "options": [
+      "15000 Pa; atende com grande margem.",
+      "2000 Pa; atende exatamente.",
+      "150 Pa; a conversão usa g=1.",
+      "1500 Pa; ultrapassa a capacidade do selo.",
+      "1500 Pa; pressão aplicada menor que a capacidade."
+    ],
+    "answer": 3,
+    "explanation": "Capacidade1000 ×10 ×0,15=1500 Pa, inferior a 2000. O modelo prevê perda da selagem; não se atribui altura mínima legal ou condição suficiente de segurança.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0091.svg",
+        "alt": "Selo líquido temhmax 0,15 m,rho 1000 kg/m³,g10 m/s². Deltapaplicado2000 Pa. ModeloperdeselagemseΔP>ρghmax. Dados transcritos: Selo líquido: altura máxima retida h=0,15 m; ΔP aplicado: 2000 Pa; ρ=1000 kg/m³; g=10 m/s²; Geometria limite do selo; modelo perde selagem se ΔP>ρgh máximo.",
+        "legenda": "Selo líquido em modelo de processo",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0092",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "amplificacao_e_reserva_por_perna",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual perna excede seu limite no modelo e por quanto?",
+    "options": [
+      "Ambas,100 N cada.",
+      "Direita,100 N.",
+      "Direita,400 N.",
+      "Esquerda,100 N.",
+      "Nenhuma, pois a soma dos limites supera a soma das cargas."
+    ],
+    "answer": 3,
+    "explanation": "Amplificadas600 e 900 N. Esquerda supera 500 em 100; direita fica 100 abaixo de 1000. Folga de outra perna não compensa automaticamente uma restrição individual.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0092.svg",
+        "alt": "Reaçõesesquerda400 N,direita 600 N; amplificaçãointerno 1,5; limitesesquerda 500 N,direita 1000 N. Verificarcadaindividualmente. Dados transcritos: Carga suspensa; Reações estáticas: esquerda 400 N; direita 600 N; Fator interno de amplificação 1,5; limites dados 500 N e 1000 N; Critério do modelo: reação amplificada≤limite de cada perna.",
+        "legenda": "Suspensão com reservas diferentes",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0093",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "prazos_locais_referencia_comum",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual ação vence primeiro e qual diferença entre prazos absolutos?",
+    "options": [
+      "S,90 min antes deN.",
+      "N,90 min antes deS.",
+      "N,30 min antes deS.",
+      "S,30 min antes deN.",
+      "São simultâneas."
+    ],
+    "answer": 2,
+    "explanation": "N12+3=15: 00 UTC; S11: 30+4=15: 30 UTC. Comparar só mostradores locais inverte a prioridade; data comum foi dada.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0093.svg",
+        "alt": "Nprazo12: 00 UTC−3; Sprazo11: 30 UTC−4,mesmadata. ConverterparaUTCantescomparar. Dados transcritos: Unidade N; Unidade S; Prazo local 12: 00; Fuso UTC−3; Prazo local 11: 30; Fuso UTC−4; Mesma data; comparar prazos absolutos antes de priorizar a ação.",
+        "legenda": "Ações em instalações de fusos distintos",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0094",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "ponto_observacao_oclusao",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual observador possui linha de visada direta ao alvo no modelo, sem inferir toda a condição do ambiente?",
+    "options": [
+      "Somente A.",
+      "Ambos.",
+      "A por ser mais próximo verticalmente.",
+      "Nenhum.",
+      "Somente B."
+    ],
+    "answer": 4,
+    "explanation": "A linha deA cruza a parede. A deB passa acima dela. A distância isolada não supera obstrução opaca no modelo de propagação retilínea.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0094.svg",
+        "alt": "AbaixoA eacimaB observamalvoàdireita; paredeopacainterceptaraiodeA(vermelho),masnãoodeB(verde). Semreflexãoououtrasobstruções. Dados transcritos: ; Alvo; Parede opaca bloqueia só o raio vermelho; modelo sem reflexão.; A; B",
+        "legenda": "Visibilidade em área de exercício",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0095",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "reconstrucao_colisao_inelastica",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual velocidade inicial do carrinho 1 e energia cinética perdida no choque?",
+    "options": [
+      "2,5 m/s e 3,75 J.",
+      "1,5 m/s e 1,25 J.",
+      "2,5 m/s e 6,25 J.",
+      "5 m/s e 22,5 J.",
+      "1 m/s e0 J."
+    ],
+    "answer": 0,
+    "explanation": "Momento: 2 v=5 ×1, v2,5. Energia inicial 2 ×2,5²/2=6,25 J; final 5 ×1²/2=2,5 J. Diferença3,75 J; conservar momento não conserva energia cinética neste choque.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0095.svg",
+        "alt": "Carrinho1 massa2 kg; 2 massa3 kgparado; apóschoqueunem-sea 1 m/s; impulsoexternodesprezível. pconservado; E=mv²/2. Dados transcritos: Carrinho1; Carrinho2; m1=2 kg; m2=3 kg inicialmente parado; Após choque unidos: +1 m/s para direita; sem impulso ou energia externos; p conservado; energia cinética=mv²/2.",
+        "legenda": "Reconstrução idealizada de colisão",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0096",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "referencial_visual_rotacao",
+    "difficulty": "media",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Que interpretação evita confundir mudança de ponto de vista com reversão do motor?",
+    "options": [
+      "Trocar observador inverte fisicamente o torque do motor.",
+      "Sentido aparente oposto; rotação física inalterada.",
+      "A observação de A determina a posição do comando de partida.",
+      "B necessariamente vê horário pelo mesmo rótulo usado por A.",
+      "O eixo precisa parar para ser visto da outra ponta."
+    ],
+    "answer": 1,
+    "explanation": "Horário/anti-horário dependem da direção de observação do plano. Visadas opostas trocam o sentido aparente, não o movimento físico; orientação de comandos deve explicitar referencial.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0096.svg",
+        "alt": "ObservadoresA/Bolhampontasopostasdomesmoeixo. Rotaçãofísicaconstante; Avêhorário.Bolhaemoposição. Dados transcritos: Máquina: eixo horizontal; Observador A; Observador B; A eB olham pontas opostas do mesmo eixo. Rotação física não muda.; A vê horário. B usa o próprio plano de observação.",
+        "legenda": "Sentido aparente em posições opostas",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0097",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "sombra_aspersao_e_criterio_local",
+    "difficulty": "alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual resultado por recipiente e por que a média das vazões não resolve o critério?",
+    "options": [
+      "A48 L eB8 L; ambos atendem.",
+      "A24 L eB4 L; ambos atendem pelo total 28 L.",
+      "A24 L eB4 L; sóA atende ao requisito individual.",
+      "A12 L eB2 L; não se considera tempo.",
+      "A14 L eB14 L, pois a média se redistribui fisicamente."
+    ],
+    "answer": 2,
+    "explanation": "Multiplica-se cada vazão por 2: 24 e 4. A média entre regiões não transfere água à região sombreada nem substitui a exigência por recipiente. Não é critério normativo de sistema de combate.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0097.svg",
+        "alt": "Recipiente A coleta 12 L/min e B2 L/min sob sombra de aspersão. Critério interno: cada um≥20 L em 2 min; taxas constantes. Dados transcritos: Cobertura sobre B; Recipiente A; Recipiente B; A recebe 12 L/min; B recebe 2 L/min; Critério interno: cada recipiente deve coletar≥20 L em 2 min.",
+        "legenda": "Coleta sob cobertura em ensaio",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0098",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "po_depositado_e_volume_local",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Quais concentrações no modelo uniforme global e no local, e qual ultrapassa a referência interna?",
+    "options": [
+      "36 e 90 g/m³; somente a local.",
+      "360 e 900 g/m³; ambas.",
+      "90 e 36 g/m³; somente a global.",
+      "3,6 e 9 g/m³; nenhuma.",
+      "36 e 90 g/m³; isso já prova explosão em ambos."
+    ],
+    "answer": 0,
+    "explanation": "Espessura0,0005 m; massa 9 kg, suspensa 3,6 kg=3600 g.100 m³ dá 36; 40 m³ dá 90 g/m³. Só o local supera 50. O critério é hipotético e não fornece ignição, dispersão real ou limite legal.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0098.svg",
+        "alt": "Camadaárea60 m²,espessura 0,5 mm,densidade 300 kg/m³; 40%ressuspende. Volumeglobal100 m³,local 40 m³. Referênciainternatriagem50 g/m³. mρAδ; C=fm/V. Dados transcritos: Sala com depósito de pó; Camada: área 60 m²; espessura 0,5 mm; Densidade aparente 300 kg/m³; fração suspensa 0,4; Cenários alternativos: 100 m³ ou 40 m³; referência interna 50 g/m³.; m=ρAδ; C=fração×m/volume. Sem conclusão de ignição.",
+        "legenda": "Ressuspensão hipotética de pó",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0099",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "cinética_com_fundo_endogeno",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "Qual meia-vida do componente acima do fundo e entrada a que sustentaria o novo equilíbrio, aproximadamente?",
+    "options": [
+      "4 h e 3,466 unidades/h.",
+      "4 h e 18 unidades/h.",
+      "6 h e 2,079 unidades/h.",
+      "4 h e 3,119 unidades/h.",
+      "2 h e 6,238 unidades/h."
+    ],
+    "answer": 3,
+    "explanation": "Componente cai de 8 para 4 em 4 h: meia-vida 4 h, k=ln2/4. No equilíbrio a=k(20−2)=18 ×0,6931/4≈3,119. Ignorar fundo altera ambas as inferências; não é modelo diagnóstico validado.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0099.svg",
+        "alt": "Marcadorinicial10,após 4 hsemnovaentrada6; fundo 2. C(t)=2+(C0−2)exp(−kt); novoestadoestacionário 20=2+a/k; ln2=0,6931. Dados transcritos: Acompanhamento; Laboratório; Marcador: início 10; após 4 h sem nova entrada 6; fundo 2; Modelo: C(t)=2+(C0−2)e^(−kt). Novo equilíbrio 20=2+a/k.; ln2=0,6931; não se infere diagnóstico clínico.",
+        "legenda": "Marcador hipotético com componente de fundo",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  },
+  {
+    "id": "TP26-E2L2-ESP-0100",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "neutralizacao_equivalentes_balanço",
+    "difficulty": "muito_alta",
+    "etapa": 2,
+    "lote": 2,
+    "formato_recurso": "ilustracao",
+    "statement": "No balanço ideal, qual quantidade adicional de Ca(OH)2 neutraliza o excesso e qual massa? Não se pede comprovação de qualidade do efluente.",
+    "options": [
+      "3 mol e 222 g.",
+      "3 mol e 74 g.",
+      "6 mol e 444 g.",
+      "7 mol e 518 g.",
+      "2 mol e 148 g."
+    ],
+    "answer": 0,
+    "explanation": "A traz 10 molH+; B4 molOH−, saldo 6 molH+. Cada mol deCa(OH)2 fornece 2 molOH−: 3 mol, massa 3 ×74=222 g. Não se determina pH ou conformidade ambiental real apenas por esse balanço.",
+    "fontes": [
+      "references/transpetro/etapa2-lote2.md"
+    ],
+    "referencia": "references/transpetro/etapa2-lote2.md",
+    "imagens": [
+      {
+        "src": "assets/transpetro/etapa2-lote2/figura-0100.svg",
+        "alt": "A2 m³com5 molH+/m³; B1 m³com4 molOH−/m³; neutralização 1: 1. Ca(OH)2 fornece2 molOH−/mol,massamolar 74 g/mol. Semoutrasreações. Dados transcritos: Corrente A: ácida; Corrente B: básica; Tanque de mistura; A: 2 m³,5 mol H+/m³; B: 1 m³,4 mol OH−/m³; Ca(OH)2 fornece 2 mol OH−/mol; massa molar 74 g/mol.",
+        "legenda": "Balanço ideal de efluentes",
+        "largura": 1000,
+        "altura": 640
+      }
+    ]
+  }
+]

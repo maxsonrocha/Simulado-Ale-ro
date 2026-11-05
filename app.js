@@ -45,6 +45,7 @@ const CONCURSOS = {
           { path: "data/transpetro/eng_seguranca/ingles.json", area: "ING" },
           { path: "data/transpetro/pilotos_visuais.json", area: "ESP", etapa: 2 },
           { path: "data/transpetro/etapa2/lote1.json", area: "ESP", etapa: 2 },
+          { path: "data/transpetro/etapa2/lote2.json", area: "ESP", etapa: 2 },
           ...Object.keys(ASSUNTOS_ENG_SEG).map(assunto => ({
             path: `data/transpetro/eng_seguranca/${assunto}.json`, area: "ESP", assunto
           }))
