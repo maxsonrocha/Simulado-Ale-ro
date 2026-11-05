@@ -60,10 +60,10 @@ test('simulados parciais não inventam aprovação oficial', () => {
 });
 test('bancos reais carregam isoladamente; banco vazio continua tratado por fixture em memória', async () => {
   const r = runtime(); select(r); const files = r.CONCURSOS.TRANSPETRO.cargos.ENG_SEG.bancos;
-  assert.equal(files.length, 13);
+  assert.equal(files.length, 15);
   for (const { path: file } of files) assert(Array.isArray(JSON.parse(fs.readFileSync(path.join(root, file)))));
   r.App.questionsBank = pool('ESP', 80, { concurso: 'ALERO' });
-  await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 700);
+  await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 820);
   assert(r.App.questionsBank.every(q => q.concurso === 'TRANSPETRO' && q.cargo === 'ENG_SEG'));
   r.context.fetch = async () => ({ ok: true, json: async () => [] });
   await r.loadQuestionsBank(); assert.equal(r.App.questionsBank.length, 0);

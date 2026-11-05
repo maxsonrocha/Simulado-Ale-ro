@@ -1,0 +1,588 @@
+[
+  {
+    "id": "TP26-E2L1-ESP-0056",
+    "operation": "hysteresis",
+    "inputs": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        4,
+        4.8
+      ],
+      [
+        6.2,
+        6.4
+      ]
+    ],
+    "result": 0.8
+  },
+  {
+    "id": "TP26-E2L1-ESP-0057",
+    "operation": "crossing",
+    "inputs": {
+      "t": [
+        0,
+        10,
+        20,
+        30
+      ],
+      "c": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "threshold": 5,
+      "delay": 3
+    },
+    "result": 20.5
+  },
+  {
+    "id": "TP26-E2L1-ESP-0058",
+    "operation": "dot",
+    "inputs": [
+      [
+        10,
+        20,
+        30
+      ],
+      [
+        1,
+        0.5,
+        0.1
+      ]
+    ],
+    "result": 23
+  },
+  {
+    "id": "TP26-E2L1-ESP-0059",
+    "operation": "interaction",
+    "inputs": [
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        11
+      ]
+    ],
+    "result": 4
+  },
+  {
+    "id": "TP26-E2L1-ESP-0060",
+    "operation": "norm",
+    "inputs": [
+      0.6,
+      0.8,
+      0
+    ],
+    "result": 1
+  },
+  {
+    "id": "TP26-E2L1-ESP-0061",
+    "operation": "sound",
+    "inputs": [
+      70,
+      60
+    ],
+    "result": 69.5424250944
+  },
+  {
+    "id": "TP26-E2L1-ESP-0062",
+    "operation": "linearLife",
+    "inputs": {
+      "t": [
+        0,
+        2,
+        5
+      ],
+      "v": [
+        8,
+        7.6,
+        6.4
+      ],
+      "ref": 6
+    },
+    "result": 6
+  },
+  {
+    "id": "TP26-E2L1-ESP-0063",
+    "operation": "allocation",
+    "inputs": {
+      "sizes": [
+        50,
+        30,
+        20
+      ],
+      "n": 20
+    },
+    "result": [
+      10,
+      6,
+      4
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0064",
+    "operation": "confusion",
+    "inputs": [
+      36,
+      4,
+      12,
+      48
+    ],
+    "result": [
+      0.9,
+      0.75
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0065",
+    "operation": "uncertainty",
+    "inputs": [
+      3,
+      4,
+      1
+    ],
+    "result": 7
+  },
+  {
+    "id": "TP26-E2L1-ESP-0066",
+    "operation": "tolerance",
+    "inputs": [
+      [
+        20,
+        20.04
+      ],
+      [
+        20.02,
+        20.06
+      ]
+    ],
+    "result": [
+      -0.02,
+      0.06
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0067",
+    "operation": "regret",
+    "inputs": [
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        3
+      ]
+    ],
+    "result": 1
+  },
+  {
+    "id": "TP26-E2L1-ESP-0068",
+    "operation": "assignment",
+    "inputs": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "result": 4
+  },
+  {
+    "id": "TP26-E2L1-ESP-0069",
+    "operation": "pairedMedian",
+    "inputs": [
+      [
+        10,
+        20,
+        30,
+        40
+      ],
+      [
+        12,
+        19,
+        35,
+        38
+      ]
+    ],
+    "result": 0.5
+  },
+  {
+    "id": "TP26-E2L1-ESP-0070",
+    "operation": "contributions",
+    "inputs": [
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        4,
+        1,
+        5
+      ]
+    ],
+    "result": 0
+  },
+  {
+    "id": "TP26-E2L1-ESP-0071",
+    "operation": "failureDifference",
+    "inputs": [
+      [
+        20,
+        18
+      ],
+      [
+        20,
+        10
+      ]
+    ],
+    "result": 0.4
+  },
+  {
+    "id": "TP26-E2L1-ESP-0072",
+    "operation": "drying",
+    "inputs": [
+      100,
+      0.2,
+      0.05
+    ],
+    "result": 15.7894736842
+  },
+  {
+    "id": "TP26-E2L1-ESP-0073",
+    "operation": "geometric",
+    "inputs": 0.25,
+    "result": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0074",
+    "operation": "prefix",
+    "inputs": [
+      [
+        0.5,
+        0.25,
+        0.125,
+        0.125
+      ],
+      [
+        1,
+        2,
+        3,
+        3
+      ]
+    ],
+    "result": 1.75
+  },
+  {
+    "id": "TP26-E2L1-ESP-0075",
+    "operation": "requirements",
+    "inputs": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        false
+      ]
+    ],
+    "result": 1
+  },
+  {
+    "id": "TP26-E2L1-ESP-0076",
+    "operation": "hydrostatic",
+    "inputs": [
+      100,
+      1000,
+      10,
+      2
+    ],
+    "result": 120
+  },
+  {
+    "id": "TP26-E2L1-ESP-0077",
+    "operation": "permissive",
+    "inputs": [
+      1,
+      1
+    ],
+    "result": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0078",
+    "operation": "parallelCurrent",
+    "inputs": [
+      24,
+      6,
+      3
+    ],
+    "result": [
+      12,
+      2
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0079",
+    "operation": "fan",
+    "inputs": [
+      12,
+      2,
+      2
+    ],
+    "result": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0080",
+    "operation": "isolation",
+    "inputs": {
+      "feed": "V",
+      "drain": "D"
+    },
+    "result": [
+      "V fechado",
+      "D aberto"
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0081",
+    "operation": "xor",
+    "inputs": [
+      0.2,
+      0.3
+    ],
+    "result": 0.38
+  },
+  {
+    "id": "TP26-E2L1-ESP-0082",
+    "operation": "supportSegments",
+    "inputs": [
+      800,
+      4
+    ],
+    "result": 200
+  },
+  {
+    "id": "TP26-E2L1-ESP-0083",
+    "operation": "heatParallel",
+    "inputs": [
+      12,
+      2,
+      6
+    ],
+    "result": [
+      8,
+      0.75
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0084",
+    "operation": "residence",
+    "inputs": [
+      10,
+      10,
+      2
+    ],
+    "result": 10
+  },
+  {
+    "id": "TP26-E2L1-ESP-0085",
+    "operation": "barrierRole",
+    "inputs": {
+      "C": "E",
+      "E": "B1"
+    },
+    "result": "dependencia"
+  },
+  {
+    "id": "TP26-E2L1-ESP-0086",
+    "operation": "automaton",
+    "inputs": [
+      "Partida",
+      "Reset"
+    ],
+    "result": "PRONTO"
+  },
+  {
+    "id": "TP26-E2L1-ESP-0087",
+    "operation": "sling",
+    "inputs": [
+      1000,
+      0.5
+    ],
+    "result": 1000
+  },
+  {
+    "id": "TP26-E2L1-ESP-0088",
+    "operation": "routeTimes",
+    "inputs": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "result": 6
+  },
+  {
+    "id": "TP26-E2L1-ESP-0089",
+    "operation": "twoZone",
+    "inputs": [
+      10,
+      5
+    ],
+    "result": [
+      10,
+      15
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0090",
+    "operation": "intervals",
+    "inputs": [
+      [
+        0,
+        5
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0091",
+    "operation": "ladder",
+    "inputs": [
+      4,
+      3
+    ],
+    "result": 5
+  },
+  {
+    "id": "TP26-E2L1-ESP-0092",
+    "operation": "clearance",
+    "inputs": [
+      3.1,
+      3,
+      0.15
+    ],
+    "result": -0.05
+  },
+  {
+    "id": "TP26-E2L1-ESP-0093",
+    "operation": "stratification",
+    "inputs": {
+      "probe": "topo",
+      "agent": "inferior"
+    },
+    "result": "nao_representativa"
+  },
+  {
+    "id": "TP26-E2L1-ESP-0094",
+    "operation": "reactions",
+    "inputs": [
+      600,
+      4,
+      3
+    ],
+    "result": [
+      150,
+      450
+    ]
+  },
+  {
+    "id": "TP26-E2L1-ESP-0095",
+    "operation": "entanglement",
+    "inputs": {
+      "overlap": true,
+      "rotation": true
+    },
+    "result": "arraste"
+  },
+  {
+    "id": "TP26-E2L1-ESP-0096",
+    "operation": "overlap",
+    "inputs": [
+      0.7,
+      0.65
+    ],
+    "result": 0.05
+  },
+  {
+    "id": "TP26-E2L1-ESP-0097",
+    "operation": "passage",
+    "inputs": [
+      0.55,
+      0.7
+    ],
+    "result": 0.15
+  },
+  {
+    "id": "TP26-E2L1-ESP-0098",
+    "operation": "recirculation",
+    "inputs": {
+      "return": true,
+      "treatment": false
+    },
+    "result": "sem_remocao_liquida"
+  },
+  {
+    "id": "TP26-E2L1-ESP-0099",
+    "operation": "darcy",
+    "inputs": [
+      [
+        1e-06,
+        20,
+        1
+      ],
+      [
+        0.0001,
+        0.1,
+        0.2
+      ]
+    ],
+    "result": 2.5
+  },
+  {
+    "id": "TP26-E2L1-ESP-0100",
+    "operation": "inclinedImpact",
+    "inputs": [
+      5,
+      5,
+      2,
+      3,
+      -1
+    ],
+    "result": 1.726649916
+  }
+]
