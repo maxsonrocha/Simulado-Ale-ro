@@ -105,6 +105,7 @@
         <div class="q-top">
           <span id="qTag" class="tag">—</span>
           <span id="qTopic" class="tag secondary">—</span>
+          <span id="qPilot" class="tag tertiary hidden">Piloto visual</span>
           <span id="qDiff" class="tag tertiary">Nível —</span>
           <label class="mark">
             <input id="chkMark" type="checkbox" />
@@ -116,7 +117,6 @@
         <h2 id="qStatement" class="q-statement">Enunciado da questão aparece aqui.</h2>
 
         <div id="qImageWrap" class="q-image hidden">
-          <img id="qImage" alt="Imagem da questão" />
         </div>
 
         <div id="qOptions" class="options">
@@ -195,6 +195,16 @@
     <span class="muted small">Offline-friendly • HTML + CSS + JavaScript • Sem servidor</span>
   </footer>
 
+  <dialog id="figureDialog" class="figure-dialog" aria-labelledby="figureCaption">
+    <div class="figure-toolbar">
+      <button id="figureClose" type="button" autofocus>Fechar figura</button>
+      <button id="figureZoomOut" type="button" aria-label="Reduzir figura">−</button>
+      <output id="figureZoomValue" aria-live="polite">100%</output>
+      <button id="figureZoomIn" type="button" aria-label="Aumentar figura">+</button>
+    </div>
+    <div class="figure-scroll"><img id="figureLarge" alt="" /></div>
+    <p id="figureCaption"></p>
+  </dialog>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "TP26-VIS-ESP-0001",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "fracao_temporal_ruido",
+    "difficulty": "media",
+    "piloto_visual": true,
+    "statement": "No período representado, qual fração do tempo corresponde ao maior nível registrado? Não se pede dose nem enquadramento normativo.",
+    "options": [
+      "1/3, aproximadamente 33,3%.",
+      "1/6, aproximadamente 16,7%.",
+      "5/6, aproximadamente 83,3%.",
+      "1/2, ou 50%.",
+      "2/3, aproximadamente 66,7%."
+    ],
+    "answer": 1,
+    "explanation": "O maior nível da figura é 90 dB e dura 1 h. O período soma 6 h; 1/6≈16,7%. A fração temporal não é dose acústica.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-01.svg",
+        "alt": "Barras: 70 dB por 2 h; 80 dB por 3 h; 90 dB por 1 h. Eixo vertical duração em horas, origem zero.",
+        "legenda": "Distribuição temporal de níveis sonoros",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0002",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "saude_ocupacional",
+    "subassunto": "dispersao_marcador",
+    "difficulty": "media",
+    "piloto_visual": true,
+    "statement": "Qual comparação das distribuições é sustentada pela figura, sem inferir diagnóstico ou causa?",
+    "options": [
+      "Mesma mediana; amplitude interquartil de B é tripla da de A.",
+      "Mediana de B tripla da de A; amplitudes interquartis iguais.",
+      "Mediana de B é o dobro da de A.",
+      "Mesma média obrigatoriamente; dispersões idênticas.",
+      "Amplitude interquartil de A é maior que a de B."
+    ],
+    "answer": 0,
+    "explanation": "Medianas 20 e 20. IQR(A)=25−15=10; IQR(B)=35−5=30. O boxplot não determina necessariamente a média ou nexo clínico.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-02.svg",
+        "alt": "Boxplots: grupo A mínimo 10,Q 1=15,mediana 20,Q 3=25,máximo 30; grupo B mínimo 0,Q 1=5,mediana 20,Q 3=35,máximo 40. Unidades relativas, sem interpretação clínica.",
+        "legenda": "Dispersão de um marcador em dois grupos",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0003",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "sequencia_indicador",
+    "difficulty": "media",
+    "piloto_visual": true,
+    "statement": "A regra interna sinaliza seis observações consecutivas estritamente acima da referência. Em qual observação surge o primeiro sinal?",
+    "options": [
+      "Na 10.",
+      "Na 7.",
+      "Na 8.",
+      "Na 5.",
+      "Na 6."
+    ],
+    "answer": 1,
+    "explanation": "O trecho 2–7 contém seis valores acima de 5. Até 6 havia cinco nesse trecho. É regra de triagem interna, não limite legal nem prova de mudança causal.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-03.svg",
+        "alt": "Valores nas observações 1 a 10: 4; 6; 6,5; 7; 6; 8; 6; 4; 3; 5. Linha horizontal de referência 5.",
+        "legenda": "Série de um indicador de ocorrências",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0004",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "distancia_zona_planejamento",
+    "difficulty": "media",
+    "piloto_visual": true,
+    "statement": "Qual ponto está estritamente dentro do círculo de planejamento mostrado?",
+    "options": [
+      "P e Q.",
+      "Somente P.",
+      "Somente Q.",
+      "Q e R.",
+      "Somente R."
+    ],
+    "answer": 2,
+    "explanation": "Distâncias ao centro: P 3,5 m; Q√8≈2,83 m; R 4 m. Apenas Q está a menos de 3 m. A figura não define área de risco legal.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-04.svg",
+        "alt": "Plano cartesiano em metros. Centro(4,3), raio 3 m. PontosP(4; 6,5),Q(6; 5),R(8; 3). Círculo é critério interno hipotético.",
+        "legenda": "Planta: zona geométrica de planejamento",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "fisica",
+        "titulo": "OpenStax: University Physics, Volume 1",
+        "url": "https://openstax.org/details/books/university-physics-volume-1"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0005",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "associacao_concordancia",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Um relatório interpreta a associação visual forte como concordância numérica entre os instrumentos. Qual avaliação é adequada?",
+    "options": [
+      "As leituras coincidem porque todos os pontos pertencem a uma reta.",
+      "Há relação linear forte, masB registra o dobro de A nos pontos; associação não demonstra concordância numérica.",
+      "A figura prova qual instrumento mede o valor verdadeiro, sem referência externa.",
+      "A reta sem dispersão demonstra ausência de erro sistemático nas duas escalas.",
+      "As diferençasB−A são constantes nos quatro pontos."
+    ],
+    "answer": 1,
+    "explanation": "B=2 A; as diferenças são 5,10,15,20. Linearidade não significa igualdade e o gráfico sem referência não identifica qual está correto.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-05.svg",
+        "alt": "ParesA/B: 5/10,10/20,15/30,20/40. Eixos partem de zero; relaçãoB=2 A nos quatro pontos.",
+        "legenda": "Comparação de dois sistemas de medição",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0006",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "dominio_calibracao",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Qual descrição da estimativa indicada respeita o domínio da informação experimental?",
+    "options": [
+      "A extensão dos eixos amplia automaticamente a faixa ensaiada.",
+      "É extrapolação; o ajuste na faixa sombreada não demonstra por si a mesma precisão na posição indicada.",
+      "É validação independente do modelo porque usa a própria reta ajustada.",
+      "É medição direta porque foi desenhada uma marca vermelha.",
+      "É interpolação porque o ponto cabe no quadro do gráfico."
+    ],
+    "answer": 1,
+    "explanation": "O domínio ensaiado termina em 4 e o alvo é 8. Ampliar eixos ou prolongar reta não adiciona ensaios de validação.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-06.svg",
+        "alt": "Faixa sombreada com referências 1 a 4. Estimativa de interesse indicada em 8, fora da faixa. A reta é ajustada nos pontos ensaiados.",
+        "legenda": "Domínio de calibração e estimativa",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0007",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "corte_rede_transferencia",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Após o fechamento já indicado, qual ligação adicional única bloqueia todos os caminhos de S para T no modelo?",
+    "options": [
+      "S→B.",
+      "B→C.",
+      "C→T.",
+      "S→A.",
+      "A→C."
+    ],
+    "answer": 2,
+    "explanation": "RestamS-A-C-T e S-B-C-T. Ambos usamC→T. Cada uma das outras opções deixa ao menos uma das rotas. O diagrama é topológico, não ensaio real de estanqueidade.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-07.svg",
+        "alt": "Arestas dirigidasS→A,S→B,A→C,B→C,C→T abertas; A→T fechada. Não há outras conexões.",
+        "legenda": "Rede de caminhos possíveis de transferência",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "grafos",
+        "titulo": "Kenneth H. Rosen: Discrete Mathematics and Its Applications. McGraw Hill; graphs.",
+        "url": "https://www.mheducation.com/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0008",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "probabilidade_condicional",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Entre os cenários controlados por qualquer das duas primeiras rotas, que percentual foi contido somente após a liberação?",
+    "options": [
+      "45/30=150%.",
+      "70/100=70%.",
+      "45/100=45%.",
+      "25/70≈35,7%.",
+      "45/70≈64,3%."
+    ],
+    "answer": 4,
+    "explanation": "O universo condicionado contém 25+45=70, dos quais 45 seguem a segunda rota. Usar 100 responde à proporção no conjunto inteiro, outra pergunta.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-08.svg",
+        "alt": "De 100 cenários: 25 controlados antes da liberação,45 contidos após a liberação,30 não controlados. Três ramos exclusivos e completos.",
+        "legenda": "Destinos mutuamente exclusivos de 100 cenários",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0009",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "matriz_responsabilidades",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Quais tarefas violam a regra da figura, e por quê?",
+    "options": [
+      "Somente T 1, poisA e R não podem coexistir em uma coluna.",
+      "Nenhuma: letras repetidas entre pessoas nunca importam.",
+      "Somente T 2, pois ausência de A é permitida pela regra.",
+      "T 2 por duplicidade de A e T 3 por ausência de A.",
+      "T 1 e T 3, pois qualquerC invalida a tarefa."
+    ],
+    "answer": 3,
+    "explanation": "ContandoA por coluna: T 1 tem 1,T 2 tem 2,T 3 tem 0. A regra é interna do exercício, não uma cláusula ISO presumida.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-09.svg",
+        "alt": "Colunas tarefasT 1,T 2,T 3; linhasP: A,A,R; Q: R,A,C; R: C,R,I. A significa responsável final; R execução; C consulta; I informação.",
+        "legenda": "Matriz interna de atribuições",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0010",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gestao_sms",
+    "subassunto": "triagem_indicadores",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Qual unidade supera sua própria referência estatística, sem concluir causa ou descumprimento legal só por esse sinal?",
+    "options": [
+      "Somente B.",
+      "Somente C.",
+      "A e B.",
+      "Somente A.",
+      "Todas."
+    ],
+    "answer": 0,
+    "explanation": "6<8; 10>9; 5<6. Apenas B cruza sua própria referência; comparar só a magnitude dos pontos entre unidades não aplica o critério mostrado.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-10.svg",
+        "alt": "UnidadesA,B,C: observados 6%,10%,5%; referências superiores próprias 8%,9%,6%. Pontos observados e traços de referência. Não são limites legais.",
+        "legenda": "Percentuais e referências de triagem",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0011",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "reclassificacao_registros",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Após os dois fluxos, qual quantidade e percentual ficam em B?",
+    "options": [
+      "25 registros; 50%.",
+      "20 registros; 40%.",
+      "35 registros; 70%.",
+      "30 registros; 60%.",
+      "15 registros; 30%."
+    ],
+    "answer": 0,
+    "explanation": "B=20+10−5=25; total conserva 50. A migração líquida é 5, não a soma 15 dos fluxos em ambos os sentidos.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-11.svg",
+        "alt": "InicialmenteA 30 e B 20. Dez registros migram de A para B; cinco migram de B para A. Não entram nem saem registros do conjunto.",
+        "legenda": "Fluxos de reclassificação de registros",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0012",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "cobertura_vistorias",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Qual ponto ainda está fora das duas áreas vistoriadas na planta?",
+    "options": [
+      "S.",
+      "Q.",
+      "R.",
+      "Nenhum.",
+      "P."
+    ],
+    "answer": 2,
+    "explanation": "R temx>6, fora de A, e y>4, fora de B. P está em A; Q emambas; S em B. Vistoria geométrica não representa liberação operacional do ambiente.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-12.svg",
+        "alt": "Em metros: A cobre retângulo 0≤x≤6 e 2≤y≤6; B cobre 4≤x≤9 e 0≤y≤4. PontosP(2,4),Q(5,3),R(8,5),S(8,2). Cobertura de busca apenas, não capacidade de sensor.",
+        "legenda": "Planta de cobertura de vistorias",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "matematica",
+        "titulo": "OpenStax: Precalculus 2e",
+        "url": "https://openstax.org/details/books/precalculus-2e"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0013",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "prevencao_riscos",
+    "subassunto": "flambagem_comprimento_efetivo",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "No modelo da figura, qual razãoPcr 2/Pcr 1 e que limite deve acompanhar a conclusão?",
+    "options": [
+      "0,444; a maior capacidade corresponde sempre ao maior comprimento efetivo.",
+      "0,5625; só os comprimentos físicos importam.",
+      "2,25; o resultado dispensa avaliar imperfeições e ligações reais.",
+      "4; basta elevar a razão dosK ao quadrado e ignorarL.",
+      "2,25; a comparação ideal não valida sozinha um suporte real."
+    ],
+    "answer": 4,
+    "explanation": "Comprimentos efetivos 3 m e 2 m; razão=(3/2)²=2,25. O modelo ideal não substitui avaliação de carga, material, ligações ou imperfeições.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-13.svg",
+        "alt": "Coluna 1: L 3 m,K 1. Coluna 2: L 4 m,K 0,5. Mesmo produtoEI; Pcr=pi²EI/(KL)². Desenho esquemático, cotas prevalecem sobre desenho.",
+        "legenda": "Colunas de suporte de uma plataforma: comprimentos efetivos",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estruturas",
+        "titulo": "R. C. Hibbeler: Mechanics of Materials. Pearson; elastic buckling of columns.",
+        "url": "https://www.pearson.com/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0014",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "higiene_ocupacional",
+    "subassunto": "media_temporal_concentracao",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "Admitindo interpolação linear entre os pontos da figura, qual concentração média nos dez minutos?",
+    "options": [
+      "3,6 mg/m³.",
+      "8 mg/m³.",
+      "5,6 mg/m³.",
+      "5 mg/m³.",
+      "14 mg/m³."
+    ],
+    "answer": 2,
+    "explanation": "Área de fundo 2 × 10=20 e área triangular(6 × 12)/2=36, total 56 mg·min/m³. Média 56/10=5,6. Não é soma dos picos nem média simples dos quatro pontos desigualmente espaçados.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-14.svg",
+        "alt": "Gráfico linear por trechos nos pontos(tmin; Cmg/m³): (0; 2),(3; 14),(6; 2),(10; 2). Eixo vertical zero a 15.",
+        "legenda": "Perfil de concentração com pico triangular",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "calculo",
+        "titulo": "OpenStax: Calculus, Volume 2",
+        "url": "https://openstax.org/details/books/calculus-volume-2"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0015",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "emergencias",
+    "subassunto": "rotas_permitidas",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "Qual rota permitida é mais curta e qual erro haveria em escolher apenas a saída geometricamente mais próxima em linha reta?",
+    "options": [
+      "A com 8 m; o trecho finalY→A é desconsiderado por apontar de volta.",
+      "B com 10 m; os desvios de A precisam ser somados também a B.",
+      "A com 6 m; distância reta sempre coincide com percurso permitido.",
+      "A com 10 m; a distância reta até a saída deve prevalecer sobre o comprimento das rotas.",
+      "B com 8 m; a rota até A mede 10 m, apesar da distância reta menor."
+    ],
+    "answer": 4,
+    "explanation": "A soma 2+6+2=10 m; B mede 8 m. Deslocamento retilíneo até A é 6 m, mas não corresponde à rota permitida. O desenho não define distâncias normativas de saída.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-15.svg",
+        "alt": "Coordenadas em metros: P(1,1),X(3,1),Y(3,7),saídaA(1,7),saídaB(9,1). Só rotasA: P-X-Y-A e B: P-B são permitidas. Sem diagonais. Escala 1 divisão 1 m.",
+        "legenda": "Planta: comprimento das rotas disponíveis",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "matematica",
+        "titulo": "OpenStax: Precalculus 2e",
+        "url": "https://openstax.org/details/books/precalculus-2e"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0016",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "incendio",
+    "subassunto": "energia_combustivel_area",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "Considerando apenas os materiais da figura, qual energia potencial por área e qual limite de interpretação?",
+    "options": [
+      "66,7 MJ/m²; embalagens não participam do inventário.",
+      "2.900 MJ/m²; a energia total já é energia por unidade de área.",
+      "30 MJ/m²; apenas as embalagens devem ser consideradas.",
+      "Aproximadamente 96,7 MJ/m²; o cálculo não classifica sozinho proteção exigida ou cenário real de incêndio.",
+      "193,3 MJ/m²; a área de piso deve ser contada pela metade."
+    ],
+    "answer": 3,
+    "explanation": "Recipientes 4 × 25 × 20=2000 MJ; embalagens 60 × 15=900 MJ. Área 30 m². Total 2900/30≈96,7 MJ/m². Não se atribui classificação legal a esse dado hipotético.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-16.svg",
+        "alt": "Piso 6 m por 5 m. Quatro recipientes com 25 kg de combustível cada, com 20 MJ/kg. Embalagens 60 kg,15 MJ/kg. Modeloq=soma massa×poder calorífico/área.",
+        "legenda": "Inventário energético em planta simplificada",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "incendio",
+        "titulo": "Dougal Drysdale: An Introduction to Fire Dynamics. Wiley.",
+        "url": "https://www.wiley.com/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0017",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "acidentes",
+    "subassunto": "mediana_dados_agrupados",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "A partir apenas das classes apresentadas, o que se pode afirmar sobre a mediana dos vinte registros?",
+    "options": [
+      "Vale exatamente 7,5 dias, pois o centro da classe é sempre a mediana real.",
+      "Não é possível sequer identificar a classe da mediana sem cada valor individual.",
+      "Está em[0,5), pois a classe mais frequente deve conter a mediana.",
+      "Vale exatamente 10 dias, pois a posição central inferior é a décima.",
+      "Está em[5,10), mas seu valor exato não é determinado pelo agrupamento."
+    ],
+    "answer": 4,
+    "explanation": "As posições 10 e 11 estão na segunda classe: acumuladas 9 e 11. Ambas pertencem a[5,10), logo sua média também, mas os valores individuais não são conhecidos. Não é uma regra de afastamento legal.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-17.svg",
+        "alt": "Faixas[0,5),[5,10),[10,20),[20,40)dias com frequências 9,2,8,1. Barras categóricas de mesma largura, não histograma de densidade.20 registros.",
+        "legenda": "Distribuição agrupada de duração de afastamentos",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0018",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "ergonomia",
+    "subassunto": "custo_alarmes_omissoes",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "Pelo critério de custo indicado na figura, qual limiar minimiza o custo total, sem transformar essa escolha em um limiar normativo?",
+    "options": [
+      "10, com custo 16.",
+      "20, com custo 17.",
+      "20, com custo 8, somando erros sem pesos.",
+      "30, com custo 26.",
+      "30, com custo 2, ignorando omissões."
+    ],
+    "answer": 0,
+    "explanation": "Custos: 12+4 × 1=16; 5+4 × 3=17; 2+4 × 6=26. O menor é 16 no limiar 10; minimizar falsos alarmes isoladamente troca o objetivo.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-18.svg",
+        "alt": "No mesmo conjunto de casos, limiares 10,20,30 geram respectivamente falsos alarmes 12,5,2 e omissões 1,3,6. Custo interno por falso alarme 1 e por omissão 4.",
+        "legenda": "Alarmes: troca entre dois tipos de erro",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0019",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "desenvolvimento_sustentavel",
+    "subassunto": "balanco_agua",
+    "difficulty": "muito_alta",
+    "piloto_visual": true,
+    "statement": "Qual intensidade de captação externa por produção e que checagem evita somar a recirculação como água nova?",
+    "options": [
+      "2,4 m³/t; só a evaporação deve ser dividida pela produção.",
+      "24 m³/t; todo fluxo que entra no equipamento deve ser somado como captação externa.",
+      "1,6 m³/t; apenas a descarga mede a captação.",
+      "4 m³/t; 20=12+8 fecha a fronteira externa, e o fluxo 100 é interno.",
+      "20 m³/t; a recirculação define a quantidade de água nova."
+    ],
+    "answer": 3,
+    "explanation": "20/5=4 m³/t. No contorno externo 20 entram e 12+8 saem; 100 recirculam sem cruzar esse contorno como captação nova. O cálculo não demonstra qualidade do efluente ou sustentabilidade integral.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-19.svg",
+        "alt": "Processo produz 5 t/h; capta 20 m³/h externamente, evapora 12 m³/h e descarrega 8 m³/h; recircula internamente 100 m³/h. Regime estacionário, sem outras entradas/saídas.",
+        "legenda": "Balanço de água e fronteira de captação",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "matematica",
+        "titulo": "OpenStax: Precalculus 2e",
+        "url": "https://openstax.org/details/books/precalculus-2e"
+      }
+    ]
+  },
+  {
+    "id": "TP26-VIS-ESP-0020",
+    "concurso": "TRANSPETRO",
+    "cargo": "ENG_SEG",
+    "area": "ESP",
+    "assunto": "gerenciamento_riscos",
+    "subassunto": "sensibilidade_univariada",
+    "difficulty": "alta",
+    "piloto_visual": true,
+    "statement": "Qual fator produz a maior amplitude na análise mostrada, e que conclusão não é fornecida pelas faixas?",
+    "options": [
+      "Ocupação, amplitude 9; o maior valor é sempre a maior variação.",
+      "Todos empatam porque foram variados separadamente.",
+      "Temperatura, amplitude 8; extremo superior é igual à amplitude.",
+      "Pressão, amplitude 10; as faixas não informam probabilidades de cada valor.",
+      "Pressão, amplitude 12; toda faixa tem origem zero."
+    ],
+    "answer": 3,
+    "explanation": "Amplitudes 12−2=10; 8−6=2; 9−4=5. Pressão domina esta análise univariada, mas intervalos sem distribuição não fornecem probabilidade, correlação entre fatores ou sensibilidade conjunta.",
+    "imagens": [
+      {
+        "src": "assets/transpetro/visuais/piloto-20.svg",
+        "alt": "Faixas do resultado ao variar um fator de cada vez, demais fixos: pressão 2 a 12; temperatura 6 a 8; ocupação 4 a 9. Eixo horizontal resultado do mesmo modelo em unidades esperadas/ano.",
+        "legenda": "Sensibilidade um fator por vez",
+        "largura": 900,
+        "altura": 500
+      }
+    ],
+    "fontes": [
+      "references/transpetro/visuais.md"
+    ],
+    "referencias": [
+      {
+        "id": "estatistica",
+        "titulo": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "url": "https://www.itl.nist.gov/div898/handbook/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.itl.nist.gov/div898/handbook/",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-4-box-plots",
+    "erro": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

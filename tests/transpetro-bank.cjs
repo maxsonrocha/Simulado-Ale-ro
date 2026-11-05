@@ -152,8 +152,11 @@ test('as 26 resoluções novas enfrentam as cinco alternativas e a semântica ed
  assert.deepEqual(similarity.scopes,{novas_novas:4950,novas_antigas:10000,antigas_antigas:4950});
  assert.deepEqual(similarity.flagged,[]);
 });
-test('aplicação, motor e apresentação permanecem exatamente como na main de partida', () => {
- for(const file of ['app.js','index.html','styles.css'])assert.deepEqual(fs.readFileSync(path.join(root,file)),execFileSync('git',['show',`7a54ee0:${file}`],{cwd:root}));
+test('motor, cronômetro e avaliações preservam a implementação da base visual', () => {
+ const before=execFileSync('git',['show','3869ce2:app.js'],{cwd:root,encoding:'utf8'}),now=fs.readFileSync(path.join(root,'app.js'),'utf8');
+ const block=(text,name)=>text.match(new RegExp('function '+name+'\\([^]*?^\\}', 'm'))?.[0].replace(/\r\n/g,'\n');
+ for(const name of ['generateExam','pickAreaBlocks','groupToBlocks','wrongExamBlocks','timerStart','timerStop','timerReset','evaluateAlero','evaluateTranspetro','saveResults','setRoleStorageKeys']){assert(block(before,name),name);assert.equal(block(now,name),block(before,name),name);}
+ assert.equal(now.slice(now.indexOf('  ALERO: {'),now.indexOf('  TRANSPETRO: {')),before.slice(before.indexOf('  ALERO: {'),before.indexOf('  TRANSPETRO: {')));
 });
 
 test('lote 3 preserva os 200 objetos, sua ordem e as auditorias históricas da main',()=>{

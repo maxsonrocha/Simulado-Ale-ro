@@ -40,6 +40,7 @@ const CONCURSOS = {
       ENG_SEG: {
         nome: "Engenharia de Segurança do Trabalho",
         assuntos: ASSUNTOS_ENG_SEG,
+        pilotos: { path: "data/transpetro/pilotos_visuais.json", prefix: "TP26-VIS-" },
         bancos: [
           { path: "data/transpetro/eng_seguranca/portugues.json", area: "PORT" },
           { path: "data/transpetro/eng_seguranca/ingles.json", area: "ING" },
@@ -56,7 +57,8 @@ const CONCURSOS = {
     formatos: {
       FULL: { nome: "Prova completa (70)", quantidades: { PORT: 10, ING: 10, ESP: 50 } },
       ESP: { nome: "Conhecimentos Específicos (50)", quantidades: { ESP: 50 } },
-      ERRADAS: { nome: "Caderno de erradas" }
+      ERRADAS: { nome: "Caderno de erradas" },
+      VISUAIS: { nome: "Piloto visual (20)", quantidades: { ESP: 20 } }
     },
     regras: { esp: 25, general: 10, minPort: 1, minIng: 1 },
     avaliar: evaluateTranspetro,
@@ -114,8 +116,16 @@ function subjectOf(q) { return q.assunto || q.topic || "—"; }
 function subjectName(subject) { return currentRole()?.assuntos?.[subject] || subject; }
 function areaName(area) { return currentContest().nomesAreas?.[area] || area; }
 function bankSources() {
-  return currentRole().bancos || [currentRole().banco, ...currentContest().bancosComuns]
+  const role = currentRole();
+  const piloto = role.pilotos;
+  if (piloto && App.type === "VISUAIS") return [{ path: piloto.path, area: "ESP" }];
+  const sources = role.bancos || [role.banco, ...currentContest().bancosComuns]
     .filter(Boolean).map(path => ({ path }));
+  // Só buscar pilotos no caderno se houver um ID correspondente salvo.
+  if (piloto && App.type === "ERRADAS" && [...getWrongIdsSet()].some(id => typeof id === "string" && id.startsWith(piloto.prefix))) {
+    return [...sources, { path: piloto.path, area: "ESP" }];
+  }
+  return sources;
 }
 
 // ===========================
@@ -149,6 +159,7 @@ const App = {
 const $ = (id) => document.getElementById(id);
 
 function showView(name) {
+  if ($("figureDialog")?.open) $("figureDialog").close();
   ["contest", "role", "welcome", "config", "exam", "result"].forEach(v => $(`view-${v}`).classList.add("hidden"));
   $(`view-${name}`).classList.remove("hidden");
 }
@@ -217,6 +228,8 @@ function computeScore() {
         assunto: q.assunto,
         groupId: q.groupId,
         image: q.image,
+        imagens: q.imagens,
+        piloto_visual: q.piloto_visual,
         difficulty: q.difficulty ?? null,
         statement: q.statement,
         options: q.options,
@@ -448,6 +461,12 @@ function validateQuestion(q, idx) {
   }
   if (q.groupId != null && (typeof q.groupId !== "string" || !q.groupId)) errors.push("groupId inválido");
 
+  if (q.imagens != null && (!Array.isArray(q.imagens) || q.imagens.some(img =>
+    !img || typeof img !== "object" || !isLocalImagePath(img.src) ||
+    typeof img.alt !== "string" || !img.alt.trim() ||
+    (img.legenda != null && typeof img.legenda !== "string") ||
+    ["largura", "altura"].some(key => img[key] != null && (!Number.isInteger(img[key]) || img[key] <= 0))
+  ))) errors.push("imagens inválidas: informe caminho local, alt e dimensões positivas quando presentes");
   return errors.length ? `Questão ${idx}: ${errors.join(", ")}` : null;
 }
 
@@ -604,6 +623,63 @@ function generateExam() {
   setTopPills();
 }
 
+// Imagens são recursos locais: nunca HTML/SVG embutido vindo do JSON.
+function isLocalImagePath(path) {
+  return typeof path === "string" && /^(?:\.\/)?[a-zA-Z0-9_-]+(?:\/[a-zA-Z0-9_.-]+)*\.(?:svg|png|jpe?g|webp)$/i.test(path)
+    && !path.split("/").includes("..");
+}
+function questionImages(q) {
+  if (Array.isArray(q.imagens)) return q.imagens.filter(img => img && isLocalImagePath(img.src));
+  if (!q.image) return [];
+  const src = `assets/${q.image}`.replace("assets/assets/", "assets/");
+  return isLocalImagePath(src) ? [{ src, alt: "Imagem da questão" }] : [];
+}
+function renderQuestionImages(container, q) {
+  container.replaceChildren();
+  const images = questionImages(q);
+  container.classList.toggle("hidden", images.length === 0);
+  for (const [index, item] of images.entries()) {
+    const figure = document.createElement("figure"); figure.className = "question-figure";
+    const button = document.createElement("button"); button.type = "button"; button.className = "figure-open";
+    button.setAttribute("aria-label", `Ampliar figura ${index + 1}${item.legenda ? `: ${item.legenda}` : ""}`);
+    const img = document.createElement("img"); img.src = item.src; img.alt = item.alt;
+    img.loading = "lazy"; img.decoding = "async";
+    if (item.largura) img.width = item.largura;
+    if (item.altura) img.height = item.altura;
+    const caption = document.createElement("figcaption");
+    caption.textContent = item.legenda || `Figura ${index + 1}`;
+    const hint = document.createElement("span"); hint.className = "figure-hint"; hint.textContent = "Ampliar figura";
+    const details = document.createElement("details"); details.className = "figure-description";
+    const summary = document.createElement("summary"); summary.textContent = "Descrição textual da figura";
+    const description = document.createElement("p"); description.textContent = item.alt;
+    details.append(summary, description);
+    img.addEventListener("error", () => {
+      button.hidden = true; details.open = true;
+      const error = document.createElement("p"); error.className = "figure-error"; error.setAttribute("role", "status");
+      error.textContent = "Figura indisponível. Consulte a descrição textual abaixo."; figure.prepend(error);
+    }, { once: true });
+    button.addEventListener("click", () => openFigure(item));
+    button.append(img, hint); figure.append(button, caption, details); container.appendChild(figure);
+  }
+}
+function openFigure(item) {
+  const dialog = $("figureDialog"), img = $("figureLarge");
+  let zoom = 1;
+  img.src = item.src; img.alt = item.alt; img.style.width = "100%";
+  $("figureCaption").textContent = item.legenda || "Figura ampliada";
+  $("figureZoomValue").textContent = "100%";
+  const setZoom = value => {
+    zoom = Math.max(1, Math.min(4, value)); img.style.width = `${zoom * 100}%`;
+    $("figureZoomValue").textContent = `${Math.round(zoom * 100)}%`;
+  };
+  $("figureZoomIn").onclick = () => setZoom(zoom + 0.5);
+  $("figureZoomOut").onclick = () => setZoom(zoom - 0.5);
+  $("figureClose").onclick = () => dialog.close();
+  img.onerror = () => { dialog.close(); };
+  dialog.onclose = () => { img.removeAttribute("src"); };
+  dialog.showModal();
+}
+
 function fillGroupContext(container, q) {
   container.replaceChildren();
   const base = q.groupId ? groupToBlocks(App.questionsBank.filter(x => x.area === q.area && x.groupId === q.groupId))[0]?.[0] : null;
@@ -612,11 +688,8 @@ function fillGroupContext(container, q) {
   const title = document.createElement("strong"); title.textContent = "Contexto da questão-base";
   const text = document.createElement("p"); text.textContent = base.statement;
   container.append(title, text);
-  if (base.image) {
-    const wrap = document.createElement("div"); wrap.className = "q-image";
-    const img = document.createElement("img"); img.src = `assets/${base.image}`.replace("assets/assets/", "assets/");
-    img.alt = "Imagem da questão-base"; wrap.appendChild(img); container.appendChild(wrap);
-  }
+  const media = document.createElement("div");
+  renderQuestionImages(media, base); container.appendChild(media);
 }
 
 // ---------- UI: renderizar questão ----------
@@ -628,16 +701,11 @@ function renderQuestion() {
   $("qTag").textContent = q.area || "—";
   $("qTopic").textContent = subjectName(subjectOf(q));
   fillGroupContext($("qContext"), q);
+  $("qPilot").classList.toggle("hidden", !q.piloto_visual);
   $("qDiff").textContent = `Nível ${currentContest().dificuldades?.[q.difficulty] ?? q.difficulty ?? "—"}`;
   $("qStatement").textContent = q.statement || "";
 
-  // imagem
-  if (q.image) {
-    $("qImage").src = `assets/${q.image}`.replace("assets/assets/", "assets/");
-    $("qImageWrap").classList.remove("hidden");
-  } else {
-    $("qImageWrap").classList.add("hidden");
-  }
+  renderQuestionImages($("qImageWrap"), q);
 
   // marcar
   $("chkMark").checked = App.marked.has(q.id);
@@ -940,10 +1008,11 @@ function renderResult() {
       div.innerHTML = `
         <div class="meta">
           <span class="tag">${w.area}</span>
+          ${w.piloto_visual ? '<span class="tag tertiary">Piloto visual</span>' : ""}
           <span class="tag secondary">${w.topic}</span>
           <span class="tag tertiary">Nível ${currentContest().dificuldades?.[w.difficulty] ?? w.difficulty ?? "—"}</span>
         </div>
-        <div><strong>${w.statement}</strong></div>
+        <div class="wrong-statement"><strong>${w.statement}</strong></div>
         <div class="muted small" style="margin-top:8px;">
           Sua resposta: <strong>${w.userLetter}</strong> • Correta: <strong>${w.correctLetter}</strong>
         </div>
@@ -951,11 +1020,8 @@ function renderResult() {
       `;
       const context = document.createElement("div"); context.className = "feedback";
       fillGroupContext(context, w); div.prepend(context);
-      if (w.image) {
-        const imageWrap = document.createElement("div"); imageWrap.className = "q-image";
-        const image = document.createElement("img"); image.src = `assets/${w.image}`.replace("assets/assets/", "assets/");
-        image.alt = "Imagem da questão"; imageWrap.appendChild(image); div.appendChild(imageWrap);
-      }
+      const media = document.createElement("div");
+      renderQuestionImages(media, w); div.querySelector(".wrong-statement").after(media);
       div.appendChild(renderWrongOptionsBlock(w));
       wrongWrap.appendChild(div);
     });
@@ -1235,6 +1301,7 @@ setTopPills();
 $("timer").textContent = `?? 00:00:00`;
 
 document.addEventListener("keydown", (e) => {
+  if ($("figureDialog")?.open) return;
   if ($("view-exam").classList.contains("hidden")) return;
 
   if (e.key === "ArrowRight") {

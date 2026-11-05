@@ -298,3 +298,27 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 @media (prefers-reduced-motion: reduce) {
   .welcome-letter { animation: none; }
 }
+
+/* Recursos visuais opcionais, sem alterar a carta de boas-vindas. */
+.question-figure { margin: 14px 0; }
+.figure-open { display: block; width: 100%; padding: 6px; background: #fff; color: #18243a; }
+.figure-open img { display: block; width: 100%; height: auto; border: 0; border-radius: 6px; }
+.figure-hint { display: block; padding: 8px; font-size: 13px; }
+.question-figure figcaption { margin-top: 7px; color: var(--muted); font-size: 14px; }
+.figure-description { margin: 8px 0; font-size: 14px; overflow-wrap: anywhere; }
+.figure-description p { white-space: pre-line; }
+.figure-error { color: var(--warn); }
+.figure-dialog { width: min(96vw, 1200px); max-width: 96vw; height: min(90dvh, 1000px); max-height: 90vh; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+.figure-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 10px; }
+.figure-dialog::backdrop { background: rgb(0 0 0 / 80%); }
+.figure-toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.figure-scroll { overflow: auto; background: white; min-height: 0; }
+.figure-scroll img { display: block; width: 100%; max-width: none; height: auto; }
+.figure-open:focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+body:has(.figure-dialog[open]) { overflow: hidden; }
+
+.figure-open[hidden] { display: none; }
+
+#qPilot.hidden { display: none; }
+
+.figure-toolbar button { min-width: 44px; min-height: 44px; }
