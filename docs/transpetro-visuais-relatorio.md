@@ -171,3 +171,15 @@ node tests/transpetro-bank-ui.cjs
 node tests/transpetro-ui.cjs
 node tests/multiconcurso.cjs
 ```
+
+## Entrega no GitHub
+
+Implementação commitada em `3297048` e publicada na branch
+`feature/transpetro-questoes-visuais-piloto`. Nenhum merge realizado.
+A abertura automática da PR foi tentada com `gh pr create` (GraphQL) e
+`gh api .../pulls` (REST); ambas retornaram `Forbidden` no acesso à API.
+Portanto **não há PR criada confirmada nesta execução**.
+
+[Abrir PR desta branch contra main](https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-questoes-visuais-piloto).
+Use o escopo, evidências e limitações deste relatório na descrição. A branch
+publicada contém todos os arquivos necessários à revisão.
