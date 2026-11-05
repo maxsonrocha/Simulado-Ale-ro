@@ -217,3 +217,15 @@ O aplicativo continua estático e sem dependência de produção; Python e
 Playwright são ferramentas de autoria/teste. Não se adicionou backend ou
 service worker, e não se promete primeira carga offline sem arquivos/cache.
 Não se iniciou o lote2 nem se alterou a composição oficial de prova.
+
+## Publicação para revisão
+
+Implementação: commit `270cee0`, branch publicada
+`feature/transpetro-etapa-2-lote-1`. Sem merge e sem lote2.
+A tentativa de abrir PR com `gh pr create` retornou
+`Post https://api.github.com/graphql: Forbidden`; não há criação de PR confirmada.
+
+- [Branch publicada](https://github.com/maxsonrocha/Simulado-Ale-ro/tree/feature/transpetro-etapa-2-lote-1)
+- [Abrir PR manualmente](https://github.com/maxsonrocha/Simulado-Ale-ro/pull/new/feature/transpetro-etapa-2-lote-1)
+
+A publicação desta branch não atualiza automaticamente o site da main.
