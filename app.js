@@ -1144,8 +1144,8 @@ function showTranspetroMensagemReservada() {
   });
   const close = document.createElement("button");
   close.type = "button";
-  close.textContent = "Fechar";
-  close.style.cssText = "padding:10px 20px;cursor:pointer;border-radius:8px;";
+  close.textContent = "Seja feliz com a sua escolha.";
+  close.style.cssText = "display:block;width:100%;padding:12px 16px;margin-top:8px;cursor:pointer;border:0;border-radius:8px;background:#2563eb;color:#fff;font-weight:600;font-size:14px;";
   close.addEventListener("click", () => overlay.remove());
   panel.appendChild(close);
   overlay.appendChild(panel);
