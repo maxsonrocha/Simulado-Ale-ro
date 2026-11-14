@@ -1108,7 +1108,7 @@ function renderChoices(container, entries, select) {
 
 // Mensagem reservada: permanece desativada ate autorizacao explicita.
 // ATENCAO: em repositorios publicos, o texto e visivel no codigo-fonte.
-const TRANSPETRO_MENSAGEM_RESERVADA_ATIVA = false;
+const TRANSPETRO_MENSAGEM_RESERVADA_ATIVA = true;
 const TRANSPETRO_MENSAGEM_RESERVADA = [
   "Esforços finalizados.",
   "Fiz mais do que deveria por quem não soube valorizar.",
@@ -1154,6 +1154,10 @@ function showTranspetroMensagemReservada() {
 }
 
 function selectContest(contest) {
+  if (contest === "TRANSPETRO" && TRANSPETRO_MENSAGEM_RESERVADA_ATIVA) {
+    showTranspetroMensagemReservada();
+    return;
+  }
   App.contest = contest;
   App.role = null;
   $("selectionMeta").textContent = currentContest().nome;
