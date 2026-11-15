@@ -247,7 +247,6 @@ function computeScore() {
       if (isCorrect) byTopicEsp[t].correct++;
     }
   }
-
   const module = currentContest().avaliar(
     { correct: modIGeneralCorrect, total: modIGeneralTotal },
     { correct: modIIEspCorrect, total: modIIEspTotal },
@@ -497,8 +496,7 @@ function getWrongIdsAllTime() {
   return new Set(Array.isArray(wrong) ? wrong : []);
 }
 
-function groupToBlocks(list) {
-  const blocks = [];
+function groupToBlocks(list) {  const blocks = [];
   const seenGroups = new Set();
 
   for (const q of list) {
@@ -747,8 +745,7 @@ function buildMap() {
   const map = $("examMap");
   map.innerHTML = "";
   for (let i = 0; i < App.totalQuestions; i++) {
-    const dot = document.createElement("button");
-    dot.className = "dot";
+    const dot = document.createElement("button");    dot.className = "dot";
     dot.title = `Ir para ${i + 1}`;
     dot.addEventListener("click", () => {
       App.currentIndex = i;
@@ -997,8 +994,7 @@ function renderResult() {
     score.wrongDetails.forEach(w => {
       const div = document.createElement("div");
       div.className = "wrong";
-      div.innerHTML = `
-        <div class="meta">
+      div.innerHTML = `        <div class="meta">
           <span class="tag">${w.area}</span>
           ${w.piloto_visual ? '<span class="tag tertiary">Piloto visual</span>' : ""}
           <span class="tag secondary">${w.topic}</span>
@@ -1106,58 +1102,7 @@ function renderChoices(container, entries, select) {
   }
 }
 
-// Mensagem reservada: permanece desativada ate autorizacao explicita.
-// ATENCAO: em repositorios publicos, o texto e visivel no codigo-fonte.
-const TRANSPETRO_MENSAGEM_RESERVADA_ATIVA = true;
-const TRANSPETRO_MENSAGEM_RESERVADA = [
-  "Esforços finalizados.",
-  "Fiz mais do que deveria por quem não soube valorizar.",
-  "Não haverá mais insistência, dedicação ou qualquer esforço da minha parte.",
-  "Você fez sua escolha. Agora procure quem escolheu e espere dessa pessoa tudo o que recebeu de mim. Mas eu sei que você não terá.",
-  "Da minha parte, acabou. Definitivamente."
-];
-
-function showTranspetroMensagemReservada() {
-  const overlay = document.createElement("div");
-  overlay.setAttribute("role", "dialog");
-  overlay.setAttribute("aria-modal", "true");
-  overlay.setAttribute("aria-label", "Mensagem");
-  Object.assign(overlay.style, {
-    position: "fixed", inset: "0", zIndex: "9999", display: "flex",
-    alignItems: "center", justifyContent: "center", padding: "20px",
-    background: "rgba(0,0,0,.78)"
-  });
-  const panel = document.createElement("div");
-  Object.assign(panel.style, {
-    maxWidth: "540px", width: "100%", maxHeight: "85vh", overflowY: "auto",
-    padding: "28px", borderRadius: "14px", background: "#fff", color: "#171717",
-    boxShadow: "0 18px 55px rgba(0,0,0,.35)", lineHeight: "1.6"
-  });
-  TRANSPETRO_MENSAGEM_RESERVADA.forEach((paragraph, index) => {
-    const p = document.createElement("p");
-    p.textContent = paragraph;
-    p.style.margin = index === 0 ? "0 0 20px" : "0 0 16px";
-    if (index === 0 || index === TRANSPETRO_MENSAGEM_RESERVADA.length - 1) {
-      p.style.fontWeight = "700";
-    }
-    panel.appendChild(p);
-  });
-  const close = document.createElement("button");
-  close.type = "button";
-  close.textContent = "Seja feliz com a sua escolha.";
-  close.style.cssText = "display:block;width:100%;padding:12px 16px;margin-top:8px;cursor:pointer;border:0;border-radius:8px;background:#2563eb;color:#fff;font-weight:600;font-size:14px;";
-  close.addEventListener("click", () => overlay.remove());
-  panel.appendChild(close);
-  overlay.appendChild(panel);
-  document.body.appendChild(overlay);
-  close.focus();
-}
-
 function selectContest(contest) {
-  if (contest === "TRANSPETRO" && TRANSPETRO_MENSAGEM_RESERVADA_ATIVA) {
-    showTranspetroMensagemReservada();
-    return;
-  }
   App.contest = contest;
   App.role = null;
   $("selectionMeta").textContent = currentContest().nome;
@@ -1247,8 +1192,7 @@ $("btnStart").addEventListener("click", async () => {
   } finally {
     $("btnStart").disabled = false;
     $("btnChangeRole").disabled = false;
-    $("btnResetStorage").disabled = false;
-    $("btnChangeContest").disabled = false;
+    $("btnResetStorage").disabled = false;    $("btnChangeContest").disabled = false;
   }
 });
 
@@ -1360,6 +1304,5 @@ window.addEventListener("beforeunload", function (e) {
   e.preventDefault();
   e.returnValue = "Você está no meio do simulado. Tem certeza que deseja sair?";
 });
-
 
 
